@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-03T18:13:03.687Z",
+ "generatedAt": "2026-10-03T19:01:50.260Z",
  "timezone": "America/Monterrey",
- "total": 270,
+ "total": 364,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,9 +10,9 @@
    "ok": true,
    "count": 89,
    "error": null,
-   "checkedAt": "2026-10-03T18:11:18.814Z",
-   "lastSuccess": "2026-10-03T18:11:18.814Z",
-   "ms": 2900
+   "checkedAt": "2026-10-03T19:00:49.840Z",
+   "lastSuccess": "2026-10-03T19:00:49.840Z",
+   "ms": 2277
   },
   {
    "id": "ticketmaster",
@@ -21,7 +21,7 @@
    "ok": false,
    "count": 0,
    "error": "Falta la clave TM_API_KEY",
-   "checkedAt": "2026-10-03T18:11:21.715Z",
+   "checkedAt": "2026-10-03T19:00:52.118Z",
    "lastSuccess": null,
    "skipped": true,
    "ms": 0
@@ -33,9 +33,9 @@
    "ok": true,
    "count": 78,
    "error": null,
-   "checkedAt": "2026-10-03T18:11:21.715Z",
-   "lastSuccess": "2026-10-03T18:11:21.715Z",
-   "ms": 4098
+   "checkedAt": "2026-10-03T19:00:52.118Z",
+   "lastSuccess": "2026-10-03T19:00:52.118Z",
+   "ms": 3177
   },
   {
    "id": "conarte_agenda",
@@ -44,9 +44,9 @@
    "ok": true,
    "count": 54,
    "error": null,
-   "checkedAt": "2026-10-03T18:11:25.813Z",
-   "lastSuccess": "2026-10-03T18:11:25.813Z",
-   "ms": 82704
+   "checkedAt": "2026-10-03T19:00:55.295Z",
+   "lastSuccess": "2026-10-03T19:00:55.295Z",
+   "ms": 43507
   },
   {
    "id": "cineteca",
@@ -55,9 +55,20 @@
    "ok": true,
    "count": 41,
    "error": null,
-   "checkedAt": "2026-10-03T18:12:48.517Z",
-   "lastSuccess": "2026-10-03T18:12:48.517Z",
-   "ms": 6788
+   "checkedAt": "2026-10-03T19:01:38.802Z",
+   "lastSuccess": "2026-10-03T19:01:38.802Z",
+   "ms": 7017
+  },
+  {
+   "id": "santa_lucia",
+   "name": "Festival Santa Lucía (agenda PDF)",
+   "home": "https://festivalsantalucia.gob.mx/",
+   "ok": true,
+   "count": 146,
+   "error": null,
+   "checkedAt": "2026-10-03T19:01:45.819Z",
+   "lastSuccess": "2026-10-03T19:01:45.819Z",
+   "ms": 2
   },
   {
    "id": "nuevoleon_travel",
@@ -66,9 +77,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-03T18:12:55.305Z",
-   "lastSuccess": "2026-10-03T18:12:55.305Z",
-   "ms": 1202
+   "checkedAt": "2026-10-03T19:01:45.821Z",
+   "lastSuccess": "2026-10-03T19:01:45.821Z",
+   "ms": 967
   },
   {
    "id": "allevents",
@@ -77,9 +88,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-03T18:12:56.507Z",
-   "lastSuccess": "2026-10-03T18:12:56.507Z",
-   "ms": 292
+   "checkedAt": "2026-10-03T19:01:46.789Z",
+   "lastSuccess": "2026-10-03T19:01:46.789Z",
+   "ms": 231
   },
   {
    "id": "ctxplorer",
@@ -88,9 +99,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-03T18:12:56.799Z",
-   "lastSuccess": "2026-10-03T18:12:56.799Z",
-   "ms": 555
+   "checkedAt": "2026-10-03T19:01:47.020Z",
+   "lastSuccess": "2026-10-03T19:01:47.020Z",
+   "ms": 182
   },
   {
    "id": "marco",
@@ -99,20 +110,20 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-10-03T18:12:57.354Z",
-   "lastSuccess": "2026-10-03T18:12:57.354Z",
-   "ms": 719
+   "checkedAt": "2026-10-03T19:01:47.202Z",
+   "lastSuccess": "2026-10-03T19:01:47.202Z",
+   "ms": 409
   },
   {
    "id": "tres_museos",
    "name": "3 Museos",
    "home": "https://www.3museos.com/eventos/",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 en https://www.3museos.com/eventos/",
-   "checkedAt": "2026-10-03T18:12:58.073Z",
-   "lastSuccess": null,
-   "ms": 3704
+   "ok": true,
+   "count": 4,
+   "error": null,
+   "checkedAt": "2026-10-03T19:01:47.611Z",
+   "lastSuccess": "2026-10-03T19:01:47.611Z",
+   "ms": 1143
   },
   {
    "id": "cintermex",
@@ -121,20 +132,20 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-03T18:13:01.777Z",
-   "lastSuccess": "2026-10-03T18:13:01.777Z",
-   "ms": 843
+   "checkedAt": "2026-10-03T19:01:48.754Z",
+   "lastSuccess": "2026-10-03T19:01:48.754Z",
+   "ms": 951
   },
   {
    "id": "foro_corona",
    "name": "Foro Corona",
    "home": "https://www.forocorona.com/cartelera",
    "ok": true,
-   "count": 18,
+   "count": 17,
    "error": null,
-   "checkedAt": "2026-10-03T18:13:02.620Z",
-   "lastSuccess": "2026-10-03T18:13:02.620Z",
-   "ms": 181
+   "checkedAt": "2026-10-03T19:01:49.706Z",
+   "lastSuccess": "2026-10-03T19:01:49.706Z",
+   "ms": 142
   },
   {
    "id": "fever",
@@ -143,9 +154,9 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "checkedAt": "2026-10-03T18:13:02.801Z",
-   "lastSuccess": "2026-10-03T18:13:02.801Z",
-   "ms": 357
+   "checkedAt": "2026-10-03T19:01:49.848Z",
+   "lastSuccess": "2026-10-03T19:01:49.848Z",
+   "ms": 100
   },
   {
    "id": "primetickets",
@@ -154,9 +165,9 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "checkedAt": "2026-10-03T18:13:03.158Z",
-   "lastSuccess": "2026-10-03T18:13:03.158Z",
-   "ms": 494
+   "checkedAt": "2026-10-03T19:01:49.948Z",
+   "lastSuccess": "2026-10-03T19:01:49.948Z",
+   "ms": 209
   }
  ],
  "events": [
@@ -197,6 +208,24 @@
    "url": "https://cartelera.primetickets.mx/natalia-virgen"
   },
   {
+   "id": "f0b06959c005",
+   "title": "Charles & Ray Eames: La inusual belleza de las cosas comunes",
+   "start": "2026-06-05",
+   "end": "2027-02-07",
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "$100",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "id": "8d65e97085f3",
    "title": "Café Literario: Lo que no pasa | Agosto – Diciembre 2026",
    "start": "2026-08-25T20:00",
@@ -213,6 +242,24 @@
     }
    ],
    "url": "https://www.marco.org.mx/eventos/cafe-literario-lo-que-no-pasa-agosto-diciembre-2026/"
+  },
+  {
+   "id": "63f42955b42a",
+   "title": "Historia de los Títeres en México",
+   "start": "2026-08-26",
+   "end": "2027-02-14",
+   "venue": "Museo del Noreste",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "$60",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "40431de30909",
@@ -233,6 +280,24 @@
    "url": "https://cartelera.primetickets.mx/lo-que-queda-de-nosotros"
   },
   {
+   "id": "34233016781a",
+   "title": "Flavio Garciandía: Autorretrato no autorizado",
+   "start": "2026-09-11",
+   "end": "2027-04-04",
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "$100",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "id": "d09b9b47b4e9",
    "title": "SEDIENTOS",
    "start": "2026-09-14",
@@ -251,6 +316,42 @@
    "url": "https://cartelera.primetickets.mx/sedientos"
   },
   {
+   "id": "95c4cf8f8de3",
+   "title": "V Premio de las Artes",
+   "start": "2026-09-17",
+   "end": "2027-02-21",
+   "venue": "CONARTE – Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "029ea730585c",
+   "title": "1846-1848 Memoria de una invasión",
+   "start": "2026-09-18",
+   "end": "2027-01-31",
+   "venue": "Museo Regional de Nuevo León El Obispado",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "$100",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "id": "705d8d9e9973",
    "title": "INFIELES",
    "start": "2026-09-23",
@@ -267,6 +368,60 @@
     }
    ],
    "url": "https://cartelera.primetickets.mx/infieles"
+  },
+  {
+   "id": "28308f5031a4",
+   "title": "El mundo mira un balón",
+   "start": "2026-10-01",
+   "end": "2027-01-10",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "$60",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "32ae3c06ec20",
+   "title": "Fe en la cancha, la Iglesia y el deporte",
+   "start": "2026-10-01",
+   "end": "2026-12-31",
+   "venue": "Museo Arquidiocesano de Arte Sacro",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "e8e1b3f4e854",
+   "title": "Paula Cortazar: Jardín escultórico",
+   "start": "2026-10-01",
+   "end": "2027-03-07",
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "$100",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "58b781aa02d4",
@@ -344,6 +499,112 @@
    "url": "http://www.hazlotu.com"
   },
   {
+   "id": "75f5ac2b9760",
+   "title": "Renata Petersen: La Iglesia Secreta del Evangelio del Culto Fálico",
+   "start": "2026-10-02",
+   "end": "2027-01-31",
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "$100",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "21b6a3b8c8c4",
+   "title": "Papalote Museo del Niño + Expo Dinosaurios",
+   "start": "2026-10-02T10:00",
+   "end": "2026-10-28T10:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $280",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/338223"
+    }
+   ],
+   "url": "https://feverup.com/m/338223"
+  },
+  {
+   "id": "4872d26e359d",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "start": "2026-10-02T17:30",
+   "end": "2026-10-28T18:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $300",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894"
+  },
+  {
+   "title": "Candlelight: Coldplay & Imagine Dragons",
+   "start": "2026-10-02T19:00",
+   "end": "2027-02-13T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8711b8c6-9c76-11f1-bced-aeb6d10358b8.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/266289"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/candlelight-coldplay-and-imagine-dragons/2700030035779956"
+    }
+   ],
+   "url": "https://feverup.com/m/266289",
+   "id": "aba1a0c98ba9",
+   "dates": [
+    {
+     "start": "2026-10-02T19:00",
+     "end": "2027-02-13T19:00",
+     "url": "https://feverup.com/m/266289"
+    },
+    {
+     "start": "2026-11-27T19:00",
+     "end": null,
+     "url": "https://allevents.in/monterrey/candlelight-coldplay-and-imagine-dragons/2700030035779956"
+    }
+   ]
+  },
+  {
+   "id": "7a81bc4fe4c0",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "start": "2026-10-02T19:00",
+   "end": "2027-01-31T19:00",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $635",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272"
+  },
+  {
    "id": "9b57ab3bb834",
    "title": "Expo Maternidad y Bebé",
    "start": "2026-10-03",
@@ -386,22 +647,58 @@
    "url": "http://www.horrorfest.mx"
   },
   {
-   "id": "52650681e950",
-   "title": "Papalote Museo del Niño + Expo Dinosaurios",
-   "start": "2026-10-03T10:00",
-   "end": "2026-10-28T10:00",
-   "venue": "Papalote Museo del Niño-Monterrey",
+   "id": "eed4c8056870",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "start": "2026-10-03T09:00",
+   "end": "2026-11-29T19:00",
+   "venue": "Museo del Acero horno 3",
    "city": "Monterrey",
    "category": "Experiencias",
-   "price": "Desde $280",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/338223"
+     "url": "https://feverup.com/m/638206"
     }
    ],
-   "url": "https://feverup.com/m/338223"
+   "url": "https://feverup.com/m/638206"
+  },
+  {
+   "id": "3a0864a4a10a",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "start": "2026-10-03T10:00",
+   "end": "2026-11-01T18:00",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
+    }
+   ],
+   "url": "https://feverup.com/m/629878"
+  },
+  {
+   "id": "9850c9368509",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "start": "2026-10-03T10:00",
+   "end": "2026-12-30T10:00",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $220",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
+    }
+   ],
+   "url": "https://feverup.com/m/685013"
   },
   {
    "title": "Primera Bienal de Fotografía Nuevo León 2026",
@@ -601,76 +898,22 @@
    "url": "https://feverup.com/m/287670"
   },
   {
-   "id": "3a0864a4a10a",
-   "title": "La Fuga del Prisionero - San Pedro",
+   "id": "d6a07b28f3df",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
    "start": "2026-10-03T11:00",
-   "end": "2026-11-01T18:00",
-   "venue": "Parque El Capitán",
+   "end": "2026-11-29T17:00",
+   "venue": "Parque Rufino Tamayo",
    "city": "Monterrey",
    "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "price": "Desde $799",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/629878"
+     "url": "https://feverup.com/m/707636"
     }
    ],
-   "url": "https://feverup.com/m/629878"
-  },
-  {
-   "id": "66900d89c8d5",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "start": "2026-10-03T11:00",
-   "end": "2027-01-31T19:00",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $635",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272"
-  },
-  {
-   "id": "eed4c8056870",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "start": "2026-10-03T12:00",
-   "end": "2026-11-29T19:00",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206"
-  },
-  {
-   "id": "6ea66a5f38fc",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "start": "2026-10-03T12:30",
-   "end": "2026-10-28T18:00",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $300",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894"
+   "url": "https://feverup.com/m/707636"
   },
   {
    "title": "Más allá del resultado",
@@ -970,13 +1213,13 @@
    ]
   },
   {
-   "id": "c1ca8b75814f",
+   "id": "9f918fc4ac69",
    "title": "Amorphis in Monterrey",
    "start": "2026-10-03T19:00",
    "end": null,
    "venue": "Cafe Iguana",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yOGVlMDY0MC0zOWYzLTExZjEtYmQxZi1mMWUxMGYwM2JlNmYtcmltZy13MTIwMC1oNjc1LWRjMTQxMzE0LWdtaXIud2VicD92PTE3NzYzODUxOTU.avif",
    "sources": [
@@ -994,7 +1237,7 @@
    "end": null,
    "venue": "Papalote Museo del Niño-Monterrey",
    "city": "Monterrey",
-   "category": "Museos",
+   "category": "Otros",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy83ZTZmZTU5MC1iZWQ1LTExZjEtOGExOC1iM2U1MmQ0YmYyZDYtcmltZy13NTUwLWg1NTAtZGMwODA4MDgtZ21pci5qcGc_dj0xNzkwOTk1OTU4.avif",
    "sources": [
@@ -1383,7 +1626,7 @@
    "price": null,
    "image": "https://ctxplorer.com/media/events/monterrey/la-mesmo-vibra-tm-6rehso.webp",
    "genre": null,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "ctxplorer",
@@ -1435,7 +1678,7 @@
    "end": null,
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9kOWZiNTQ2YTU4NjA1YWY3ZDE0NGY2MjkwY2Y1MDdhODY3ZmJkYzRhNDRlMGE3OTBlMjEyODdjZWNhNWQwNzNjLXJpbWctdzgyMC1oMzYwLWRjZjhmOGY4LWdtaXI_dj0xNzg3NDY5NzM4.avif",
    "sources": [
@@ -1445,42 +1688,6 @@
     }
    ],
    "url": "https://allevents.in/monterrey/liii-congreso-anual-del-colegio-mexicano-de-medicina-crítica/200030258341547"
-  },
-  {
-   "id": "08e08daa518b",
-   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
-   "start": "2026-10-04T10:00",
-   "end": "2026-12-30T10:00",
-   "venue": "Banco Mercantil",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $220",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/685013"
-    }
-   ],
-   "url": "https://feverup.com/m/685013"
-  },
-  {
-   "id": "c09df5d283e2",
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "start": "2026-10-04T11:00",
-   "end": "2026-11-29T17:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $799",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/707636"
-    }
-   ],
-   "url": "https://feverup.com/m/707636"
   },
   {
    "title": "Jikuri – Viaje al país de los Tarahumaras",
@@ -1751,6 +1958,24 @@
    ]
   },
   {
+   "id": "8a78955b1daf",
+   "title": "La otra historia del retablo: Presencia y omisión femenina en los títeres",
+   "start": "2026-10-06T19:00",
+   "end": null,
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/09/6oct_conf_-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
+  },
+  {
    "id": "f6160cc05ab2",
    "title": "La 5ta Sinfonía de Beethoven en Monterrey",
    "start": "2026-10-06T20:00",
@@ -1831,7 +2056,7 @@
    "end": "2026-10-09T10:00",
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Fuego-700x360.jpg",
    "sources": [
@@ -1857,6 +2082,41 @@
      "start": "2026-10-09T10:00",
      "end": null,
      "url": "https://conarte.org.mx/agenda/taller-ignografia/"
+    }
+   ]
+  },
+  {
+   "title": "Coloquio Somos Vínculos. Encuentro franco-mexicano-texano",
+   "start": "2026-10-07T17:00",
+   "end": "2026-10-09T10:15",
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/09/7-8-9_somos-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano",
+   "id": "abe0f10a6f03",
+   "dates": [
+    {
+     "start": "2026-10-07T17:00",
+     "end": null,
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
+    },
+    {
+     "start": "2026-10-08T10:00",
+     "end": null,
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
+    },
+    {
+     "start": "2026-10-09T10:15",
+     "end": null,
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
     }
    ]
   },
@@ -2048,7 +2308,7 @@
    "end": "2026-10-09T15:00",
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2078,7 +2338,7 @@
    "end": "2026-10-10T15:00",
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Cadaver-700x360.jpg",
    "sources": [
@@ -2104,6 +2364,36 @@
      "start": "2026-10-10T15:00",
      "end": null,
      "url": "https://conarte.org.mx/agenda/taller-estampa-surrealista/"
+    }
+   ]
+  },
+  {
+   "title": "¿Qué personaje eres en La Milarca? Juego de rol",
+   "start": "2026-10-08T16:00",
+   "end": "2026-10-22T16:00",
+   "venue": "Museo La Milarca",
+   "city": "Monterrey",
+   "category": "Museos",
+   "price": "Registro previo",
+   "description": "Cupo 15 personas, registro a guias@museolamilarca.mx",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "e78860ae78bd",
+   "dates": [
+    {
+     "start": "2026-10-08T16:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-22T16:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
     }
    ]
   },
@@ -2136,7 +2426,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2268,7 +2558,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2304,7 +2594,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2322,7 +2612,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2340,7 +2630,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2358,7 +2648,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2376,7 +2666,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2394,7 +2684,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2482,7 +2772,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2516,7 +2806,7 @@
    "url": "https://allevents.in/monterrey/festival-de-danza-interprepas-2026/210005945467981"
   },
   {
-   "id": "550498ef0f9a",
+   "id": "030798516e98",
    "title": "War in Monterrey",
    "start": "2026-10-09T20:00",
    "end": null,
@@ -2624,7 +2914,7 @@
    "venue": "Museo de Historia Mexicana",
    "city": "Monterrey",
    "category": "Música",
-   "price": "Desde $660",
+   "price": "Desde $650",
    "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/f51b8418-25ae-11f0-a83d-9e59e0727bbd.jpg",
    "sources": [
     {
@@ -2635,38 +2925,23 @@
    "url": "https://feverup.com/m/123926"
   },
   {
-   "id": "548920f4155b",
-   "title": "Leandro Ríos en Arena Monterrey",
-   "start": "2026-10-09T21:00",
-   "end": "2026-10-10T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/leandro-rios-arena-monterrey-2026.jpg",
-   "genre": null,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/leandro-rios-arena-monterrey-2026"
-    }
-   ],
-   "url": "https://conciertosenmonterrey.com/cartelera/leandro-rios-arena-monterrey-2026"
-  },
-  {
-   "id": "090c0f7e288e",
+   "id": "34fab1fc28ee",
    "title": "Leandro Ríos in Monterrey",
    "start": "2026-10-09T21:00",
-   "end": null,
+   "end": "2026-10-10T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
-   "image": "https://www.nuevoleon.travel/wp-content/uploads/2026/09/Leandro.webp",
+   "image": "https://conciertosenmonterrey.com/media/2026/09/leandro-rios-arena-monterrey-2026.jpg",
    "sources": [
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/leandro-ríos-in-monterrey/3300029962392350"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/leandro-rios-arena-monterrey-2026"
     },
     {
      "id": "nuevoleon_travel",
@@ -2704,7 +2979,7 @@
    "price": null,
    "image": "https://ctxplorer.com/media/_dup/a2/a220882c7a3c23ae014c8e19e8d6e2ec205fc293.webp",
    "genre": null,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "ctxplorer",
@@ -2714,13 +2989,43 @@
    "url": "https://ctxplorer.com/events/rawayana-tm-G_Z7C5eA"
   },
   {
+   "title": "Bitácora del coleccionista (niñas y niños 6–12)",
+   "start": "2026-10-10T10:00",
+   "end": "2026-10-17T10:00",
+   "venue": "Museo La Milarca",
+   "city": "Monterrey",
+   "category": "Familiar",
+   "price": "Registro previo",
+   "description": "Registro previo, cupo limitado",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "f10b6bfeafcc",
+   "dates": [
+    {
+     "start": "2026-10-10T10:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-17T10:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
    "id": "5992d2d15fa4",
    "title": "Conferencia I Guayo Valenzuela – Obra Personal",
    "start": "2026-10-10T10:00",
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2732,13 +3037,43 @@
    "url": "https://conarte.org.mx/agenda/conferencia-i-guayo-valenzuela-obra-personal/"
   },
   {
+   "title": "El termómetro de las emociones",
+   "start": "2026-10-10T10:00",
+   "end": "2026-10-17T10:00",
+   "venue": "Salón de la Fama del Beisbol Mexicano",
+   "city": "Monterrey",
+   "category": "Museos",
+   "price": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "abddc7041e9f",
+   "dates": [
+    {
+     "start": "2026-10-10T10:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-17T10:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
    "id": "a30e5ee16743",
    "title": "Conferencia – Club de Gráfica y Grabado en la Escuela Adolfo Prieto",
    "start": "2026-10-10T10:30",
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2756,7 +3091,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2774,7 +3109,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2792,7 +3127,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2810,7 +3145,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2828,7 +3163,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2904,7 +3239,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2961,7 +3296,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2979,7 +3314,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -2997,7 +3332,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -3015,7 +3350,7 @@
    "end": null,
    "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
-   "category": "Exposiciones",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
    "sources": [
@@ -3033,7 +3368,7 @@
    "end": null,
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jNDk2ZmNiMC05Nzg1LTExZjEtYWViOS04NWFiZTQ4ODhiZTgtcmltZy13MTIwMC1oNjIzLWRjZjhmOGY4LWdtaXIuanBnP3Y9MTc4NjY3MzYyMQ.avif",
    "sources": [
@@ -3158,6 +3493,41 @@
    "url": "https://allevents.in/monterrey/chespirito-5k-monterrey/200030323520026"
   },
   {
+   "title": "Emociones y memorias. Habitantes del río",
+   "start": "2026-10-11T15:00",
+   "end": "2026-10-25T15:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Familiar",
+   "price": "Gratis",
+   "description": "Cupo 35 personas por sesión",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "e781b2ffc32b",
+   "dates": [
+    {
+     "start": "2026-10-11T15:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-18T15:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-25T15:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
    "id": "1a6d2c8264f8",
    "title": "Travis",
    "start": "2026-10-12T21:00",
@@ -3182,6 +3552,24 @@
     }
    ],
    "url": "https://allevents.in/monterrey/travis/200030199546712"
+  },
+  {
+   "id": "9dce1fadfdad",
+   "title": "Visor 2025",
+   "start": "2026-10-13",
+   "end": "2027-02-14",
+   "venue": "CONARTE – Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "2aa44f5e0da6",
@@ -3590,13 +3978,13 @@
    "url": "https://allevents.in/monterrey/one-piece-en-concierto-beyond-the-horizon/210001279092121"
   },
   {
-   "id": "abb0d75ce135",
+   "id": "463430349ff5",
    "title": "AOT Vol II the Last Attack in Concert",
    "start": "2026-10-18T17:00",
    "end": null,
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80MzdhMTk3ZGQyNjZjYTlhYjdmOTY1OTFhNTVjNTEzYmMwZTA0MmRmODk4ZDJjNTRkOGNhM2RiMjA5MzAyODA3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODg2OTA3ODQ.avif",
    "sources": [
@@ -3718,7 +4106,7 @@
    "end": null,
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Talleres y charlas",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9hOWMyZmI2N2JmMDlmMmYxMGY1ZjczNDExYjdmODVjOTRiNGJhMmUyNTI3OWFhNzY5MjgyODNkODJlNmMxOTY0LXJpbWctdzEyMDAtaDYwMC1kYzA4MDg1OC1nbWlyLmpwZz92PTE3ODYyNTUyNDY.avif",
    "sources": [
@@ -3730,13 +4118,13 @@
    "url": "https://allevents.in/monterrey/motor-de-méxico-2026-congreso-nacional-universitario/100001997261858985"
   },
   {
-   "id": "b9fa1049c530",
+   "id": "3fa6109b7579",
    "title": "Elenco de Soy Luna in Monterrey",
    "start": "2026-10-21T20:00",
    "end": null,
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hM2MwYjUzMC04ZDU4LTExZjEtOTc2MC1kM2FjZWM5M2MzZGItcmltZy13MTIwMC1oNjc1LWRjMjgyODI4LWdtaXIud2VicD92PTE3ODU1NTQ3MjY.avif",
    "sources": [
@@ -3746,6 +4134,24 @@
     }
    ],
    "url": "https://allevents.in/monterrey/elenco-de-soy-luna-in-monterrey/3300030489879527"
+  },
+  {
+   "id": "c574beefc1d8",
+   "title": "El espacio entre los espacios. Chuma Montemayor",
+   "start": "2026-10-22",
+   "end": "2027-02-07",
+   "venue": "CONARTE – Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "704ca7e8a920",
@@ -3764,6 +4170,24 @@
     }
    ],
    "url": "https://cartelera.primetickets.mx/incendios"
+  },
+  {
+   "id": "0c8b083b58f4",
+   "title": "Ofrenda de Día de Muertos: Entre Luces y Almas",
+   "start": "2026-10-22T18:00",
+   "end": "2026-11-08",
+   "venue": "Extensión Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": "Zigong City Dragon Culture & Arts · China · Escultura iluminada inmersiva (linternas de Zigong)",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "15f828619dd2",
@@ -3822,6 +4246,60 @@
    "url": "https://www.nuevoleon.travel/cielo-magico-santiago/"
   },
   {
+   "id": "8128d958f7d9",
+   "title": "Cine FISL: Yakari, la película: La gran aventura",
+   "start": "2026-10-23",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "61a14fe8b434",
+   "title": "Diálogos: Maser – Interrumpir el paisaje",
+   "start": "2026-10-23",
+   "end": null,
+   "venue": "LABNL (Conversatorio)",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": "Del arte urbano al espacio público. Hora por confirmar",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "058350e1ce36",
+   "title": "Descubre el Arte de Ser (CEDIM)",
+   "start": "2026-10-23T09:00",
+   "end": "2026-11-01",
+   "venue": "Escuela Adolfo Prieto (CONARTE)",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": "México · Instalación inmersiva. Lun–sáb 9:00–19:00, dom 9:00–16:00",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "title": "El Sótano en Monterrey",
    "start": "2026-10-23T09:00",
    "end": "2026-10-24T06:00",
@@ -3856,6 +4334,131 @@
      "url": "https://carteleraescenica.com/eventos/el-sotano-en-monterrey/2026-10-24/"
     }
    ]
+  },
+  {
+   "id": "5f98c3499525",
+   "title": "Maser \"Into the Grid\"",
+   "start": "2026-10-23T17:00",
+   "end": "2026-11-29",
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": "Irlanda · Intervención urbana en la Macroplaza y Paseo Santa Lucía",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "720c2e215e2e",
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-10-23T18:00",
+   "end": null,
+   "venue": "Centro Comunitario Santa Fe",
+   "city": "Apodaca",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "b58ad9c0eaa0",
+   "title": "Cine FISL: Mystère",
+   "start": "2026-10-23T18:30",
+   "end": null,
+   "venue": "Cinema Fósforo, Colegio Civil CCU",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "7a4baeb72c36",
+   "title": "Diálogos: Karla Wasabichi – Encontrando mi voz a través de la comedia",
+   "start": "2026-10-23T18:30",
+   "end": null,
+   "venue": "Patio Ala Norte, Museo Universitario de las Artes UANL",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Bandakadabra – Techno Brass Composer",
+   "start": "2026-10-23T19:00",
+   "end": "2026-11-01T19:00",
+   "venue": "Nuevo Parque del Agua",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Italia · Desfile musical",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "fa14b730ca71",
+   "dates": [
+    {
+     "start": "2026-10-23T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-27T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "82bb58ed8b91",
+   "title": "Ilê Aiyê – Banda Aiyê",
+   "start": "2026-10-23T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil · Primer bloco afro de Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "a462cf3689a7",
@@ -3959,6 +4562,42 @@
    "url": "https://www.cintermex.com/calendario"
   },
   {
+   "id": "9d4704dc91a9",
+   "title": "Del Tingo al Tango – La Bomba Teatro",
+   "start": "2026-10-24T14:00",
+   "end": null,
+   "venue": "Esfera Cultural Galeana",
+   "city": "Galeana",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Teatro de calle",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "1f26ba781695",
+   "title": "Escala en Japón – Orquesta U-ERRE",
+   "start": "2026-10-24T18:00",
+   "end": null,
+   "venue": "Teatro Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "México · Bandas sonoras de anime, cine y videojuegos japoneses",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "title": "La Dama de Negro en Monterrey",
    "start": "2026-10-24T18:00",
    "end": "2026-10-24T21:30",
@@ -3988,6 +4627,174 @@
      "url": "https://carteleraescenica.com/eventos/la-dama-de-negro-en-monterrey/2026-10-24/2/"
     }
    ]
+  },
+  {
+   "id": "acbcf79060f8",
+   "title": "Cine FISL: Los Coristas (Les Choristes)",
+   "start": "2026-10-24T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "52a5e201d95a",
+   "title": "Cine FISL: No Dogs or Italians Allowed",
+   "start": "2026-10-24T18:30",
+   "end": null,
+   "venue": "Cinema Fósforo, Colegio Civil CCU",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "a3ea3030f782",
+   "title": "Diálogos: Juan Jiménez (Don Juan Tosco) – Molida Especial",
+   "start": "2026-10-24T18:30",
+   "end": null,
+   "venue": "Patio Ala Norte, Museo Universitario de las Artes UANL",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Bandakadabra – Techno Brass Composer",
+   "start": "2026-10-24T19:00",
+   "end": "2026-10-30T18:30",
+   "venue": "Plaza Principal",
+   "city": "Cadereyta",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Italia",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "fb257c10d912",
+   "dates": [
+    {
+     "start": "2026-10-24T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T18:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "48b3b5693a57",
+   "title": "Diálogos: Yolihuani – La música como espacio narrativo",
+   "start": "2026-10-24T19:00",
+   "end": null,
+   "venue": "Patio Ala Norte, Museo Universitario de las Artes UANL",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "271eac126158",
+   "title": "Frankenstein – TheCo.",
+   "start": "2026-10-24T19:00",
+   "end": null,
+   "venue": "Gran Sala del Teatro de la Ciudad",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Danza contemporánea con más de 50 bailarines",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-10-24T19:00",
+   "end": "2026-10-28T19:00",
+   "venue": "Nuevo Parque del Agua",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil · Música y danza",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "22a9f32f2035",
+   "dates": [
+    {
+     "start": "2026-10-24T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-28T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "4b8927d09a4c",
+   "title": "La Bella Durmiente – Ballet de Monterrey",
+   "start": "2026-10-24T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Danza clásica",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "7f28f3d4adfd",
@@ -4135,6 +4942,139 @@
    "url": "http://batalladecartastcg.com"
   },
   {
+   "id": "890f3602e151",
+   "title": "Desfile de Calaveras",
+   "start": "2026-10-25T16:00",
+   "end": null,
+   "venue": "Calles Juan Zuazua y C. Jardón (Centro)",
+   "city": "Monterrey",
+   "category": "Familiar",
+   "price": "Entrada libre",
+   "description": "México · Desfile de Día de Muertos con catrinas, comparsas y carros alegóricos",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "SAFARI – La Baldufa",
+   "start": "2026-10-25T16:00",
+   "end": "2026-11-01T19:00",
+   "venue": "Escenario al aire libre del Teatro de la Ciudad",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "España · Teatro visual para niñas, niños y familias sobre el acoso escolar",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "add7c446ec23",
+   "dates": [
+    {
+     "start": "2026-10-25T16:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-25T17:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-25T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-26T09:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-26T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-27T09:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-27T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-28T09:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-28T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-29T09:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-29T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T17:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T16:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T17:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T16:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T17:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
    "id": "51ef0ae97146",
    "title": "Luli Pampín en Arena Monterrey",
    "start": "2026-10-25T17:30",
@@ -4158,6 +5098,216 @@
    "url": "https://conciertosenmonterrey.com/cartelera/luli-pampin-arena-monterrey-2026"
   },
   {
+   "id": "39cb1073813e",
+   "title": "Bandakadabra – Techno Brass Composer",
+   "start": "2026-10-25T18:00",
+   "end": null,
+   "venue": "Enlace DIF Bosques de Los Nogales",
+   "city": "Salinas Victoria",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Italia",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "6aee1700242e",
+   "title": "Cine FISL: E.T. the Extra-Terrestrial",
+   "start": "2026-10-25T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "e0965677ce9e",
+   "title": "Cine FISL: Terra Ignota (Basado en el cuento \"Por la ventana\")",
+   "start": "2026-10-25T18:30",
+   "end": null,
+   "venue": "Cinema Fósforo, Colegio Civil CCU",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "43f0293747af",
+   "title": "Diálogos: Sergio Martínez – Ficción de lo cotidiano",
+   "start": "2026-10-25T18:30",
+   "end": null,
+   "venue": "Patio Ala Norte, Museo Universitario de las Artes UANL",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "9ab0a6e9b7b8",
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-10-25T18:30",
+   "end": null,
+   "venue": "Plaza Principal",
+   "city": "Guadalupe",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "341cfe6cd3cd",
+   "title": "Cine FISL: El Jardín Infinito",
+   "start": "2026-10-25T18:40",
+   "end": null,
+   "venue": "Cinema Fósforo, Colegio Civil CCU",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "2e3b4a882cd2",
+   "title": "Coco – Live-to-Film Concert",
+   "start": "2026-10-25T19:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Estados Unidos · Película con orquesta en vivo (Disney Concerts)",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Del Tingo al Tango – La Bomba Teatro",
+   "start": "2026-10-25T19:00",
+   "end": "2026-10-26T19:00",
+   "venue": "Nuevo Parque del Agua",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Circo clown",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "f0d1e0283b79",
+   "dates": [
+    {
+     "start": "2026-10-25T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-26T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "0cb10bd2d429",
+   "title": "Gala de la Escuela Superior de Música y Danza de Monterrey",
+   "start": "2026-10-25T19:00",
+   "end": null,
+   "venue": "Gran Sala del Teatro de la Ciudad",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Danza clásica y música",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "0514c51f6dc0",
+   "title": "Observación de la Luna llena",
+   "start": "2026-10-25T19:00",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Familiar",
+   "price": "Gratis",
+   "description": "Observatorio Astronómico UDEM",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "05cc6fc059ad",
+   "title": "Radiografía – Teatro Experimental UANL",
+   "start": "2026-10-25T19:00",
+   "end": null,
+   "venue": "Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Texto de Carlos Portillo, dir. Antonio Craviotto",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "id": "35e8b59362bc",
    "title": "Andrés Koi - Siempre sale el sol",
    "start": "2026-10-25T20:00",
@@ -4174,6 +5324,313 @@
     }
    ],
    "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "024a40dee7a6",
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-10-26T17:30",
+   "end": null,
+   "venue": "CECyTE Escobedo",
+   "city": "Escobedo",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Bandakadabra – Techno Brass Composer",
+   "start": "2026-10-26T18:00",
+   "end": "2026-10-29T18:00",
+   "venue": "Centro Comunitario San Bernabé",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Italia",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "0d15a9232eb3",
+   "dates": [
+    {
+     "start": "2026-10-26T18:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-28T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-29T18:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "f8b1a8292993",
+   "title": "Diálogos: Dr. José PP Elizondo – En100dete con pensamiento positivo",
+   "start": "2026-10-26T18:00",
+   "end": null,
+   "venue": "Auditorio del Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "b334ffa62987",
+   "title": "Cine FISL: Proyección de Cortometrajes UDEM",
+   "start": "2026-10-26T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "8dfe6322e4e5",
+   "title": "Las Mil y Una Noches – Teatro UDEM",
+   "start": "2026-10-26T19:00",
+   "end": null,
+   "venue": "Teatro Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Observación Astronómica: Saturno",
+   "start": "2026-10-26T19:00",
+   "end": "2026-10-31T20:30",
+   "venue": "Observatorio Astronómico UDEM",
+   "city": "San Pedro Garza García",
+   "category": "Familiar",
+   "price": "Registro previo",
+   "description": "Cupo limitado: registro a observatorio.astronomico@udem.edu",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "5157ab4ae411",
+   "dates": [
+    {
+     "start": "2026-10-26T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-26T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-27T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-27T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-28T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-28T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-29T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-29T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "5f464ca4f296",
+   "title": "El Espíritu del Gran Lago – Jiujiang Youth Song and Dance Troupe",
+   "start": "2026-10-26T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "China · Danza, música y narrativa visual",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Festival Intrauniversitario de Rondallas UANL 2026",
+   "start": "2026-10-27T11:00",
+   "end": "2026-10-27T15:00",
+   "venue": "Aula Magna, Colegio Civil Centro Cultural Universitario",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "México",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "cfbd02095012",
+   "dates": [
+    {
+     "start": "2026-10-27T11:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-27T15:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "46cffe704841",
+   "title": "Diálogos: Lorena Canales – Sororidad y poder",
+   "start": "2026-10-27T18:00",
+   "end": null,
+   "venue": "Patio Ala Norte, Museo Universitario de las Artes UANL",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "409b0e475cfc",
+   "title": "Cine FISL: Certamen del Cortometraje UANL – Categoría General",
+   "start": "2026-10-27T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "18970893dfc6",
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-10-27T19:30",
+   "end": null,
+   "venue": "Universidad Tecnológica Santa Catarina",
+   "city": "Santa Catarina",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "d43ed0193fb1",
+   "title": "Carmen vs Carmen – Compañía Ibérica de Danza",
+   "start": "2026-10-27T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "España · Flamenco y danza española. Mayores de 12 años",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "97fe064f2d3e",
@@ -4193,6 +5650,96 @@
     }
    ],
    "url": "http://fundiexpo.mx/"
+  },
+  {
+   "id": "d48d7d6f12de",
+   "title": "Diálogos: Mayra Álvarez – Somos lo que creemos",
+   "start": "2026-10-28T18:00",
+   "end": null,
+   "venue": "LABNL (Conversatorio)",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "ff30d21b45b4",
+   "title": "Cine FISL: Certamen del Cortometraje UANL – Categoría Especial",
+   "start": "2026-10-28T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "502f8d2e28a2",
+   "title": "Diálogos: Blanca Flores – Innovación y propósito",
+   "start": "2026-10-28T18:30",
+   "end": null,
+   "venue": "Patio Ala Norte, Museo Universitario de las Artes UANL",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "0875f2abf4a4",
+   "title": "Pedra I Ploma – Escarteen Sisters",
+   "start": "2026-10-28T19:00",
+   "end": null,
+   "venue": "Sala Almagro, Museo La Milarca",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "España / Países Bajos · Música clásica",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "39014a4d1619",
+   "title": "Una Visita Inesperada – Teatro U-ERRE",
+   "start": "2026-10-28T19:00",
+   "end": null,
+   "venue": "Teatro Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Inspirada en Agatha Christie",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "9a11eb39c16c",
@@ -4215,6 +5762,191 @@
     }
    ],
    "url": "https://allevents.in/monterrey/aitana/210003090095880"
+  },
+  {
+   "id": "8dbd0efb164e",
+   "title": "CHETES – Blanco Fácil Tour + Final NTNL",
+   "start": "2026-10-28T21:00",
+   "end": null,
+   "venue": "Café Iguana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "México · Final de Nuevo Talento Nuevo León",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "1a4f95f36963",
+   "title": "In Pulverem de Federico Jordán",
+   "start": "2026-10-29",
+   "end": "2027-01-17",
+   "venue": "CONARTE – Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "ea152c4e6725",
+   "title": "Diálogos: Rosalinda Ballesteros – El arte del bienestar",
+   "start": "2026-10-29T18:00",
+   "end": null,
+   "venue": "Patio Ala Norte, Museo Universitario de las Artes UANL",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-10-29T18:00",
+   "end": "2026-10-30T19:00",
+   "venue": "Esfera Cultural García",
+   "city": "García",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "3065c17fddc1",
+   "dates": [
+    {
+     "start": "2026-10-29T18:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "db2f2f49a052",
+   "title": "Cine FISL: A Monkey's Tale (Le Château des singes)",
+   "start": "2026-10-29T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Recreo – Flip Fabrique!",
+   "start": "2026-10-29T18:30",
+   "end": "2026-10-31T20:30",
+   "venue": "Nuevo Parque del Agua",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "Canadá · Acrobacia",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "7dcb8d3aa21b",
+   "dates": [
+    {
+     "start": "2026-10-29T18:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-29T19:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-29T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T18:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T19:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-30T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T18:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T19:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "714c3935bef4",
+   "title": "Noche de Ópera – Peretyatko & Shkarupa",
+   "start": "2026-10-29T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Rusia · Ópera con orquesta (OSUANL)",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "1eb11de84d31",
@@ -4258,13 +5990,85 @@
    "url": "https://www.forocorona.com/cartelera"
   },
   {
+   "id": "709493941d6b",
+   "title": "Diálogos: Carolina Maier – Burnout creativo",
+   "start": "2026-10-30T18:00",
+   "end": null,
+   "venue": "Auditorio del Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": "Mayores de 12 años",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "297d6413e330",
+   "title": "Cine FISL: Bubblegum",
+   "start": "2026-10-30T18:30",
+   "end": null,
+   "venue": "Cinema Fósforo, Colegio Civil CCU",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "af95143901a3",
+   "title": "Cine FISL: Gundi: Legend of Love",
+   "start": "2026-10-30T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "d9addc9ec056",
+   "title": "Muda – La Tropa UDEM",
+   "start": "2026-10-30T19:00",
+   "end": null,
+   "venue": "Teatro Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Danza contemporánea",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "id": "7cdb64f4bcb6",
    "title": "Psyloween by Ace Ventura",
    "start": "2026-10-30T19:00",
    "end": null,
    "venue": "Venue 867",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hZTMyMDJlMTRjNmI2NzY3MGQ1YmZjY2RiOGI4Njg3MWNlZWE3OGJmNTM4MjNjNGU5NmY0NWRlZDYyYWNmNGUzLXJpbWctdzEyMDAtaDE1MDAtZGMyZDE5MmQtZ21pci5qcGc_dj0xNzg1MDc0NzEx.avif",
    "sources": [
@@ -4295,6 +6099,42 @@
    "url": "https://conciertosenmonterrey.com/cartelera/kevin-kaarl-auditorio-banamex-monterrey-2026"
   },
   {
+   "id": "aaf634915a5e",
+   "title": "Las canciones de mi padre – Lab. de Danza Contemporánea UANL",
+   "start": "2026-10-30T20:00",
+   "end": null,
+   "venue": "Aula Magna, Colegio Civil Centro Cultural Universitario",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Danza contemporánea",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "05cb5da0f0b7",
+   "title": "París y el Romanticismo – Orquesta de Cámara de Toulouse",
+   "start": "2026-10-30T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Francia · Con la violinista Manon Galy: Chopin, Saint-Saëns, Fauré, Bizet, Elgar",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "id": "3ebb517422ba",
    "title": "Noche de chicxs en Monterrey",
    "start": "2026-10-30T21:00",
@@ -4311,6 +6151,150 @@
     }
    ],
    "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "4af42fd7ae4b",
+   "title": "Cine FISL: Letters from Antarctica",
+   "start": "2026-10-31T16:00",
+   "end": null,
+   "venue": "Cinema Fósforo, Colegio Civil CCU",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "80aae17c60d5",
+   "title": "Diálogos: Strategic Narrative Lab",
+   "start": "2026-10-31T16:00",
+   "end": null,
+   "venue": "LABNL (Conversatorio)",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre (cupo limitado)",
+   "description": "Samara Cruz, Hazael Misraim y Guillermo Martínez. Cupo limitado, +15 años",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "3204626869ea",
+   "title": "Bandakadabra – Techno Brass Composer",
+   "start": "2026-10-31T18:00",
+   "end": null,
+   "venue": "Parque Libertad",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Italia",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "8cba642c0c74",
+   "title": "OZ – Grupo de Artes Escénicas CREE DIF NL",
+   "start": "2026-10-31T18:00",
+   "end": null,
+   "venue": "Teatro Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "f7de786b1fd0",
+   "title": "Cine FISL: Jurassic Park",
+   "start": "2026-10-31T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "eccdae9966a8",
+   "title": "Cine FISL: The Path of Light (El camino de la luz)",
+   "start": "2026-10-31T18:30",
+   "end": null,
+   "venue": "Cinema Fósforo, Colegio Civil CCU",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "bb1dbe2db900",
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-10-31T18:30",
+   "end": null,
+   "venue": "Plaza Zaragoza",
+   "city": "General Terán",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "2ff6fe9ac2ca",
+   "title": "Célèbre – Compañía Phaway",
+   "start": "2026-10-31T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "Argentina · Danza aérea a más de 30 m de altura",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "7c7b571b96c6",
@@ -4372,6 +6356,126 @@
    "url": "https://allevents.in/monterrey/panteon-rococo/210003272693081"
   },
   {
+   "title": "Recreo – Flip Fabrique!",
+   "start": "2026-11-01T09:30",
+   "end": "2026-11-01T11:30",
+   "venue": "San Pedro de Pinta",
+   "city": "San Pedro Garza García",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "Canadá · Acrobacias",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "id": "fa61f8da58b1",
+   "dates": [
+    {
+     "start": "2026-11-01T09:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T11:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ]
+  },
+  {
+   "id": "006631e156b7",
+   "title": "Giramundo – Cores de Aidé",
+   "start": "2026-11-01T16:00",
+   "end": null,
+   "venue": "Centro Cultural Rosa de los Vientos",
+   "city": "San Nicolás de los Garza",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Brasil",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "dfd6ce4b424d",
+   "title": "Concurso de Catrín y Catrina 2026",
+   "start": "2026-11-01T18:00",
+   "end": null,
+   "venue": "Explanada del Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Familiar",
+   "price": "Entrada libre",
+   "description": "México · Inscripciones hasta el 16 de octubre",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "8ab67af346f1",
+   "title": "Diálogos: Panel de bateristas – El ritmo de la vida",
+   "start": "2026-11-01T18:00",
+   "end": null,
+   "venue": "Transmisión en línea (redes FISL)",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": "Entrada libre",
+   "description": "Tosh Peterson, JJ Wallace y más",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "6de59bcbedfe",
+   "title": "Ecos del Bosque Oscuro – Danza Jazz UANL",
+   "start": "2026-11-01T18:00",
+   "end": null,
+   "venue": "Teatro Universitario, Unidad Mederos",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "México · Danza jazz",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "71e90cb01dd2",
+   "title": "Cine FISL: Maya, dame un título",
+   "start": "2026-11-01T18:30",
+   "end": null,
+   "venue": "Explanada Cultural del LABNL",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
    "id": "f2ed825fe0f0",
    "title": "Yolanda del Río – La Gran Señora de México",
    "start": "2026-11-01T19:00",
@@ -4389,6 +6493,24 @@
     }
    ],
    "url": "https://carteleraescenica.com/eventos/yolanda-del-rio-la-gran-senora-de-mexico/"
+  },
+  {
+   "id": "706d90d8941f",
+   "title": "GALANTIS",
+   "start": "2026-11-01T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Suecia · Música electrónica",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "9eeec1aed5c5",
@@ -4434,7 +6556,7 @@
    "end": "2026-11-05T00:00",
    "venue": "Walmart Park - Estadio de Béisbol Monterrey",
    "city": "Monterrey",
-   "category": "Deportes",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8wMDM2OGNiMC1iODc3LTExZjEtODNiZi0yOTU2YWNlNTcyODAtcmltZy13MTIwMC1oMTIwMC1kY2I4YzhkOC1nbWlyLmpwZz92PTE3OTAyOTU2NjY.avif",
    "sources": [
@@ -4448,6 +6570,24 @@
     }
    ],
    "url": "https://allevents.in/monterrey/romeo-santos-and-prince-royce-monterrey-tickets/100029957567148"
+  },
+  {
+   "id": "fcbdd698f1ca",
+   "title": "Resolana. Retrospectiva de Juan José Cerón",
+   "start": "2026-11-05",
+   "end": "2027-02-28",
+   "venue": "CONARTE – Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": null,
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/"
   },
   {
    "id": "718a2dbca603",
@@ -4474,7 +6614,7 @@
    "end": null,
    "venue": "Estadio BBVA Bancomer",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hZWIyNzdlMTFmODYyMWIxN2NhYWVmMDBiYTBiOTZjODA4MmVmY2YwMDgwOTQyYmJjMGQwOGE5YzhjNGEyZDhjLXJpbWctdzEwMDAtaDUwMC1kYzc4NDg4OC1nbWlyP3Y9MTc4ODUyMzE0Ng.avif",
    "sources": [
@@ -4593,7 +6733,7 @@
    "end": null,
    "venue": "Estadio BBVA Bancomer",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Música",
    "price": null,
    "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy82YjMyYjQ1N2QwY2JjMjcxOTkxZmFkNTRkOTAzYWEzZTc5YWViZTljM2QzMjI3MWExN2RiYzc0ZWE3ZjUyZmI0LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc4ODA1MjgzOA.avif",
    "sources": [
@@ -4865,24 +7005,6 @@
     }
    ],
    "url": "https://feverup.com/m/709586"
-  },
-  {
-   "id": "a00c9735ef59",
-   "title": "Griss Romero en Concierto",
-   "start": "2026-11-14T21:00",
-   "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": null,
-   "sources": [
-    {
-     "id": "foro_corona",
-     "url": "https://www.forocorona.com/cartelera"
-    }
-   ],
-   "url": "https://www.forocorona.com/cartelera"
   },
   {
    "id": "3b0801cde263",
@@ -5175,28 +7297,6 @@
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-trueno-auditorio-banamex-2026-monterrey"
-  },
-  {
-   "id": "17ce057a46a8",
-   "title": "Candlelight: Coldplay & Imagine Dragons",
-   "start": "2026-11-27T19:00",
-   "end": "2027-02-13T19:00",
-   "venue": "Museo de Historia Mexicana",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "Desde $500",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8711b8c6-9c76-11f1-bced-aeb6d10358b8.jpg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/266289"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/candlelight-coldplay-and-imagine-dragons/2700030035779956"
-    }
-   ],
-   "url": "https://feverup.com/m/266289"
   },
   {
    "id": "18f9e39cc360",
@@ -6072,7 +8172,7 @@
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-silvio-rodriguez-auditorio-banamex-2027"
   },
   {
-   "id": "6b0b9c7536b6",
+   "id": "645fd7f9c521",
    "title": "Wicked: Part One in Concert en Arena Monterrey",
    "start": "2027-04-24T21:00",
    "end": "2027-04-25T00:00",
