@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-03T19:01:50.260Z",
+ "generatedAt": "2026-10-03T20:18:28.688Z",
  "timezone": "America/Monterrey",
- "total": 364,
+ "total": 363,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,9 +10,9 @@
    "ok": true,
    "count": 89,
    "error": null,
-   "checkedAt": "2026-10-03T19:00:49.840Z",
-   "lastSuccess": "2026-10-03T19:00:49.840Z",
-   "ms": 2277
+   "checkedAt": "2026-10-03T20:16:52.755Z",
+   "lastSuccess": "2026-10-03T20:16:52.755Z",
+   "ms": 2530
   },
   {
    "id": "ticketmaster",
@@ -21,7 +21,7 @@
    "ok": false,
    "count": 0,
    "error": "Falta la clave TM_API_KEY",
-   "checkedAt": "2026-10-03T19:00:52.118Z",
+   "checkedAt": "2026-10-03T20:16:55.286Z",
    "lastSuccess": null,
    "skipped": true,
    "ms": 0
@@ -33,9 +33,9 @@
    "ok": true,
    "count": 78,
    "error": null,
-   "checkedAt": "2026-10-03T19:00:52.118Z",
-   "lastSuccess": "2026-10-03T19:00:52.118Z",
-   "ms": 3177
+   "checkedAt": "2026-10-03T20:16:55.286Z",
+   "lastSuccess": "2026-10-03T20:16:55.286Z",
+   "ms": 3221
   },
   {
    "id": "conarte_agenda",
@@ -44,9 +44,9 @@
    "ok": true,
    "count": 54,
    "error": null,
-   "checkedAt": "2026-10-03T19:00:55.295Z",
-   "lastSuccess": "2026-10-03T19:00:55.295Z",
-   "ms": 43507
+   "checkedAt": "2026-10-03T20:16:58.507Z",
+   "lastSuccess": "2026-10-03T20:16:58.507Z",
+   "ms": 62931
   },
   {
    "id": "cineteca",
@@ -55,9 +55,9 @@
    "ok": true,
    "count": 41,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:38.802Z",
-   "lastSuccess": "2026-10-03T19:01:38.802Z",
-   "ms": 7017
+   "checkedAt": "2026-10-03T20:18:01.438Z",
+   "lastSuccess": "2026-10-03T20:18:01.438Z",
+   "ms": 20301
   },
   {
    "id": "santa_lucia",
@@ -66,8 +66,8 @@
    "ok": true,
    "count": 146,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:45.819Z",
-   "lastSuccess": "2026-10-03T19:01:45.819Z",
+   "checkedAt": "2026-10-03T20:18:21.739Z",
+   "lastSuccess": "2026-10-03T20:18:21.739Z",
    "ms": 2
   },
   {
@@ -77,9 +77,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:45.821Z",
-   "lastSuccess": "2026-10-03T19:01:45.821Z",
-   "ms": 967
+   "checkedAt": "2026-10-03T20:18:21.741Z",
+   "lastSuccess": "2026-10-03T20:18:21.741Z",
+   "ms": 1017
   },
   {
    "id": "allevents",
@@ -88,9 +88,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:46.789Z",
-   "lastSuccess": "2026-10-03T19:01:46.789Z",
-   "ms": 231
+   "checkedAt": "2026-10-03T20:18:22.758Z",
+   "lastSuccess": "2026-10-03T20:18:22.758Z",
+   "ms": 274
   },
   {
    "id": "ctxplorer",
@@ -99,9 +99,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:47.020Z",
-   "lastSuccess": "2026-10-03T19:01:47.020Z",
-   "ms": 182
+   "checkedAt": "2026-10-03T20:18:23.032Z",
+   "lastSuccess": "2026-10-03T20:18:23.032Z",
+   "ms": 253
   },
   {
    "id": "marco",
@@ -110,20 +110,20 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:47.202Z",
-   "lastSuccess": "2026-10-03T19:01:47.202Z",
-   "ms": 409
+   "checkedAt": "2026-10-03T20:18:23.285Z",
+   "lastSuccess": "2026-10-03T20:18:23.285Z",
+   "ms": 450
   },
   {
    "id": "tres_museos",
    "name": "3 Museos",
    "home": "https://www.3museos.com/eventos/",
-   "ok": true,
-   "count": 4,
-   "error": null,
-   "checkedAt": "2026-10-03T19:01:47.611Z",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 en https://www.3museos.com/eventos/",
+   "checkedAt": "2026-10-03T20:18:23.735Z",
    "lastSuccess": "2026-10-03T19:01:47.611Z",
-   "ms": 1143
+   "ms": 3417
   },
   {
    "id": "cintermex",
@@ -132,20 +132,20 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:48.754Z",
-   "lastSuccess": "2026-10-03T19:01:48.754Z",
-   "ms": 951
+   "checkedAt": "2026-10-03T20:18:27.153Z",
+   "lastSuccess": "2026-10-03T20:18:27.153Z",
+   "ms": 787
   },
   {
    "id": "foro_corona",
    "name": "Foro Corona",
    "home": "https://www.forocorona.com/cartelera",
    "ok": true,
-   "count": 17,
+   "count": 18,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:49.706Z",
-   "lastSuccess": "2026-10-03T19:01:49.706Z",
-   "ms": 142
+   "checkedAt": "2026-10-03T20:18:27.940Z",
+   "lastSuccess": "2026-10-03T20:18:27.940Z",
+   "ms": 127
   },
   {
    "id": "fever",
@@ -154,9 +154,9 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:49.848Z",
-   "lastSuccess": "2026-10-03T19:01:49.848Z",
-   "ms": 100
+   "checkedAt": "2026-10-03T20:18:28.067Z",
+   "lastSuccess": "2026-10-03T20:18:28.067Z",
+   "ms": 281
   },
   {
    "id": "primetickets",
@@ -165,9 +165,9 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "checkedAt": "2026-10-03T19:01:49.948Z",
-   "lastSuccess": "2026-10-03T19:01:49.948Z",
-   "ms": 209
+   "checkedAt": "2026-10-03T20:18:28.348Z",
+   "lastSuccess": "2026-10-03T20:18:28.348Z",
+   "ms": 237
   }
  ],
  "events": [
@@ -517,94 +517,6 @@
    "url": "https://festivalsantalucia.gob.mx/"
   },
   {
-   "id": "21b6a3b8c8c4",
-   "title": "Papalote Museo del Niño + Expo Dinosaurios",
-   "start": "2026-10-02T10:00",
-   "end": "2026-10-28T10:00",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $280",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/338223"
-    }
-   ],
-   "url": "https://feverup.com/m/338223"
-  },
-  {
-   "id": "4872d26e359d",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "start": "2026-10-02T17:30",
-   "end": "2026-10-28T18:00",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $300",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894"
-  },
-  {
-   "title": "Candlelight: Coldplay & Imagine Dragons",
-   "start": "2026-10-02T19:00",
-   "end": "2027-02-13T19:00",
-   "venue": "Museo de Historia Mexicana",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "Desde $500",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8711b8c6-9c76-11f1-bced-aeb6d10358b8.jpg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/266289"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/candlelight-coldplay-and-imagine-dragons/2700030035779956"
-    }
-   ],
-   "url": "https://feverup.com/m/266289",
-   "id": "aba1a0c98ba9",
-   "dates": [
-    {
-     "start": "2026-10-02T19:00",
-     "end": "2027-02-13T19:00",
-     "url": "https://feverup.com/m/266289"
-    },
-    {
-     "start": "2026-11-27T19:00",
-     "end": null,
-     "url": "https://allevents.in/monterrey/candlelight-coldplay-and-imagine-dragons/2700030035779956"
-    }
-   ]
-  },
-  {
-   "id": "7a81bc4fe4c0",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "start": "2026-10-02T19:00",
-   "end": "2027-01-31T19:00",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $635",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272"
-  },
-  {
    "id": "9b57ab3bb834",
    "title": "Expo Maternidad y Bebé",
    "start": "2026-10-03",
@@ -647,58 +559,22 @@
    "url": "http://www.horrorfest.mx"
   },
   {
-   "id": "eed4c8056870",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "start": "2026-10-03T09:00",
-   "end": "2026-11-29T19:00",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206"
-  },
-  {
-   "id": "3a0864a4a10a",
-   "title": "La Fuga del Prisionero - San Pedro",
+   "id": "52650681e950",
+   "title": "Papalote Museo del Niño + Expo Dinosaurios",
    "start": "2026-10-03T10:00",
-   "end": "2026-11-01T18:00",
-   "venue": "Parque El Capitán",
+   "end": "2026-10-28T10:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
    "city": "Monterrey",
    "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "price": "Desde $280",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/629878"
+     "url": "https://feverup.com/m/338223"
     }
    ],
-   "url": "https://feverup.com/m/629878"
-  },
-  {
-   "id": "9850c9368509",
-   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
-   "start": "2026-10-03T10:00",
-   "end": "2026-12-30T10:00",
-   "venue": "Banco Mercantil",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $220",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/685013"
-    }
-   ],
-   "url": "https://feverup.com/m/685013"
+   "url": "https://feverup.com/m/338223"
   },
   {
    "title": "Primera Bienal de Fotografía Nuevo León 2026",
@@ -710,6 +586,7 @@
    "price": "Gratuito",
    "tickets": null,
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/08/bienal-fotografia.jpg",
+   "description": "Calificación promedio Aún no hay calificación La Primera Bienal de Fotografía Nuevo León 2026 reúne una selección de miradas que exploran el territorio, el paisaje y la identidad de Nuevo León. A través de tres ejes: la luz, el cuerpo y las dinámicas del espacio urbano, la exposición propone distintas formas de observar y reflexionar sobre la región. Las imágenes recorren temas como la memoria, la naturaleza y las transformaciones sociales que atraviesan el estado.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -880,9 +757,45 @@
    "url": "https://www.marco.org.mx/eventos/visita-guiada-por-gabriel-de-la-mora-5/"
   },
   {
+   "id": "6ea66a5f38fc",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "start": "2026-10-03T12:30",
+   "end": "2026-10-28T18:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $300",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894"
+  },
+  {
+   "id": "66900d89c8d5",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "start": "2026-10-03T13:00",
+   "end": "2027-01-31T19:00",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $635",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272"
+  },
+  {
    "id": "20fcc21925b4",
    "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "start": "2026-10-03T11:00",
+   "start": "2026-10-03T14:00",
    "end": "2026-12-06T17:00",
    "venue": "Parque Rufino Tamayo",
    "city": "Monterrey",
@@ -898,22 +811,22 @@
    "url": "https://feverup.com/m/287670"
   },
   {
-   "id": "d6a07b28f3df",
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "start": "2026-10-03T11:00",
-   "end": "2026-11-29T17:00",
-   "venue": "Parque Rufino Tamayo",
+   "id": "3a0864a4a10a",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "start": "2026-10-03T14:00",
+   "end": "2026-11-01T18:00",
+   "venue": "Parque El Capitán",
    "city": "Monterrey",
    "category": "Experiencias",
-   "price": "Desde $799",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/707636"
+     "url": "https://feverup.com/m/629878"
     }
    ],
-   "url": "https://feverup.com/m/707636"
+   "url": "https://feverup.com/m/629878"
   },
   {
    "title": "Más allá del resultado",
@@ -927,7 +840,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Mas-alla-del-resultado-Poster-1-1-e1790208005729-700x360.jpg",
-   "description": "Un grupo de jóvenes de distintos puntos de Nuevo León recibe la oportunidad de representar…",
+   "description": "Un grupo de jóvenes de distintos puntos de Nuevo León recibe la oportunidad de representar a México en un torneo internacional de fútbol en Italia. A través del programa Espacios Infancia Adolescencia del DIF Nuevo León, emprenden un viaje que los llevará a enfrentar desafíos dentro y fuera de la cancha, descubrir el valor del trabajo en equipo y vivir una experiencia que marcará sus vidas. Una historia de sueños, esfuerzo y oportunidades que demuestra que el verdadero triunfo va mucho más allá del resultado",
    "sources": [
     {
      "id": "cineteca",
@@ -961,7 +874,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Un-reino-para-todos-nosotros-Imagen-e1790208341104-700x360.jpg",
-   "description": "Fran y Serendín son hermanos y viven en el Gran Arrabal. Ambos sueñan con algún…",
+   "description": "Fran y Serendín son hermanos y viven en el Gran Arrabal. Ambos sueñan con algún día dejar su pueblo y viajar a El Reino, un paraíso en la tierra resguardado detrás de grandes murallas. Para eso tendrán que montar a La Bestia, una criatura enorme que los mercaderes usan para transportar mercancías hacia El Reino. Una situación inesperada complica los planes de Fran y Serendín, separándolos. Hermana y hermano emprenderán una aventura para encontrarse de nuevo y al mismo tiempo encontrarse a sí mismos, en un mundo fantástico dividido por fronteras visibles e invisibles.",
    "sources": [
     {
      "id": "cineteca",
@@ -984,6 +897,24 @@
    ]
   },
   {
+   "id": "eed4c8056870",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "start": "2026-10-03T15:00",
+   "end": "2026-11-29T19:00",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206"
+  },
+  {
    "title": "Dogtooth: Canino",
    "start": "2026-10-03T16:00",
    "end": "2026-10-04T16:00",
@@ -995,7 +926,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Dogtooth-Imagen-e1789504623628-700x301.jpg",
-   "description": "Un estricto matrimonio educa a sus tres hijos según los métodos que ellos juzgan más…",
+   "description": "Un estricto matrimonio educa a sus tres hijos según los métodos que ellos juzgan más apropiados y sin recibir ninguna influencia del exterior. A medida que los jóvenes se hacen adultos, intentarán rebelarse contra las normas impuestas, especialmente la hermana mayor, que ideará un plan de escape.",
    "sources": [
     {
      "id": "cineteca",
@@ -1029,7 +960,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/El-fin-de-la-escuela-Imagen-700x360.png",
-   "description": "¿Para qué queremos las escuelas? De esta pregunta se deriva una amplia discusión con la…",
+   "description": "¿Para qué queremos las escuelas? De esta pregunta se deriva una amplia discusión con la que se puede intentar entender el panorama actual de la educación en México. De la mano de Juan Alfonso Mejía – activista, docente y exsecretario de educación pública estatal- hacemos un viaje por la educación que abarca desde servidores públicos hasta las infancias de nuestro país, para entender por qué hemos perdido la pasión por aprender.",
    "sources": [
     {
      "id": "cineteca",
@@ -1063,7 +994,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Dos-Estaciones-Imagen-700x360.jpg",
-   "description": "María García, una mujer de 50 años, es la dueña de Dos Estaciones, una antigua…",
+   "description": "María García, una mujer de 50 años, es la dueña de Dos Estaciones, una antigua fábrica de tequila en los Altos de Jalisco, última resistencia frente a las corporaciones extranjeras. Mientras enfrenta una plaga devastadora y una inundación inesperada, María lucha por salvar no solo su legado, sino también la principal fuente de economía y orgullo de su comunidad.",
    "sources": [
     {
      "id": "cineteca",
@@ -1095,6 +1026,7 @@
    "price": "$350 – $1200",
    "tickets": "https://arema.mx/e/20983-la-muerte-de-un-viajante-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/MUERTE.jpg",
+   "description": "Calificación promedio Aún no hay calificación El Teatro de la Ciudad recibe La Muerte de un Viajante, una de las obras fundamentales del teatro norteamericano. Escrita por Arthur Miller, la puesta en escena llega a Monterrey bajo la dirección de Cristian Magaloni y con Juan Manuel Bernal al frente de un amplio elenco. La obra se adentra en los últimos días de Willy Loman, un hombre que, después de dedicar su vida a alcanzar el éxito, comienza a confrontar las decisiones, ilusiones y pérdidas que marcaron su historia familiar.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1137,7 +1069,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/El-juicio-de-Hein-1-scaled-e1790726415337-700x360.jpg",
-   "description": "Tras catorce años de ausencia, Hein regresa a su pueblo natal en una remota isla,…",
+   "description": "Tras catorce años de ausencia, Hein regresa a su pueblo natal en una remota isla, pero descubre que la comunidad ya no lo reconoce como uno de los suyos. Sospechando que es un impostor, los habitantes exigen un juicio para determinar su verdadera identidad. A medida que se desarrolla este proceso, emergen tensiones entre la memoria individual y la colectiva, cuestionando qué define realmente a una persona: sus recuerdos, su pasado o la percepción de los demás.",
    "sources": [
     {
      "id": "cineteca",
@@ -1170,6 +1102,7 @@
    "price": "$300 – $600",
    "tickets": "https://arema.mx/e/20866-vallenato-fest-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/VALLENATO.jpg",
+   "description": "Calificación promedio Aún no hay calificación El Vallenato Fest llega a Monterrey con una noche dedicada a los sonidos y la energía de la música vallenata. Una celebración para disfrutar en vivo y compartir con el público regiomontano. Función 3 de octubre de 2026 Hora: 20:00 horas Lugar: Rincón Tostitos by Jardín 85 Dirección: Av. Lázaro Cárdenas 2610, Del Paseo Residencial, 64920 Monterrey, N.L. Boletos VIP: $600 General: $300 Precios más cargos por servicio. Puntos de venta oficiales Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1190,7 +1123,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Barrio-triste-Imagen-e1790801643675-700x360.png",
-   "description": "En las afueras de Medellín a finales de la década de 1980, mientras un reportero…",
+   "description": "En las afueras de Medellín a finales de la década de 1980, mientras un reportero realiza una nota para la televisión local sobre unas luces que descienden del cielo, un grupo de adolescentes le roba la cámara. En manos de sus nuevos dueños, la cámara recorre el barrio registrando sus vidas y los extraños fenómenos que acechan en el lugar.",
    "sources": [
     {
      "id": "cineteca",
@@ -1268,6 +1201,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-bronco-monterrey-2026"
     }
    ],
+   "description": "Bronco en Arena Monterrey, 3 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/bronco-monterrey-tickets/100030266939047"
   },
   {
@@ -1281,6 +1215,7 @@
    "price": "$245 – $490",
    "tickets": "https://boletos.newticket.com.mx/newticket/en/dahmer-mirando-a-la-bestia-a-los-ojos-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Damher.jpg",
+   "description": "Calificación promedio Aún no hay calificación Uno de los casos criminales más conocidos de las últimas décadas llega al escenario con Dahmer: Mirando a la Bestia a los Ojos, una propuesta teatral que lleva el fenómeno del true crime al terreno del thriller psicológico. La obra parte de la historia de Jeffrey Dahmer, conocido como el “Caníbal de Milwaukee”, para construir una experiencia escénica que busca ir más allá de la reconstrucción de los hechos.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1298,6 +1233,7 @@
    "category": "Teatro",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Slider_Chejov-700x360.jpg",
+   "description": "Tres obreros de una fábrica de rifles, cada uno en una etapa distinta de la vida, enfrentan la inminente jubilación del más viejo. Como dicta la tradición de la fábrica, su retiro debe culminar con la muerte provocada por el rifle emblemático del lugar. Sin embargo, la única bala destinada a cumplir con este rito desaparece, generando un colapso en la rutina laboral de los personajes. A partir de entonces, emprenden una búsqueda tanto del proyectil como de sus propias identidades, en un recorrido donde el sentido, el deber y el legado se entrelazan inevitablemente. Edad recomendada 16+",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -1346,7 +1282,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/07/Tus-Dos-Muertos-Imagen-e1783714471515-700x284.jpg",
-   "description": "Cipriano Zuzunaga es un policía judicial que ha visto pasar sus mejores días y vive…",
+   "description": "Cipriano Zuzunaga es un policía judicial que ha visto pasar sus mejores días y vive en una depresión que lo mantiene errante y atormentado, lo que lo ha orillado a perder contacto con la realidad. Cuando el hijo no reconocido de un famoso diputado es secuestrado, Zuzunaga es encomendado para realizar la investigación del caso y conducir una solitaria búsqueda que terminará por confrontarlo con su propio pasado.",
    "sources": [
     {
      "id": "cineteca",
@@ -1380,7 +1316,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Su-propio-infierno-Imagen-e1790206907456-700x360.jpg",
-   "description": "Una extraña niebla se cierne sobre una metrópolis futurista y una siniestra figura conocida como…",
+   "description": "Una extraña niebla se cierne sobre una metrópolis futurista y una siniestra figura conocida como el Hombre de Cuero acecha las calles. Elle, una estrella de cine en ascenso, se cruza con un soldado estadounidense que recorre la ciudad en busca de su hija y sus vidas se entrelazan entre las sombras.",
    "sources": [
     {
      "id": "cineteca",
@@ -1417,6 +1353,7 @@
    "price": "$600",
    "tickets": "https://arema.mx/e/18044-quien-se-queda-con-mama-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/04/6085383.jpg",
+   "description": "Calificación promedio Aún no hay calificación Agustina siempre ha sido una mujer activa e independiente, pero últimamente ha comenzado a tener algunos olvidos y despistes que empiezan a preocuparla. ¿Son simplemente cosas de la edad o hay algo más detrás de ellos? La situación cambia cuando sus hijos, Rufino y Viviana , llegan para visitarla y descubren una oportunidad para discutir una pregunta que da título a la obra: ¿Quién se queda con mamá? Mientras los hermanos intentan decidir qué hacer con Agustina, Pascuala y Lázaro , sus trabajadores domésticos y cómplices, tienen otros planes.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1476,7 +1413,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/La-condesa-sangrienta-Imagen-1-e1790726804951-700x360.jpg",
-   "description": "Décadas después de su misteriosa desaparición, la Condesa de Sangre reaparece en la Viena contemporánea.…",
+   "description": "Décadas después de su misteriosa desaparición, la Condesa de Sangre reaparece en la Viena contemporánea. Junto a su fiel sirvienta Hermine, emprende la búsqueda de un peligroso libro capaz de destruir todo el mal, incluidos los propios vampiros. En su recorrido por algunos de los escenarios históricos más fascinantes de Viena y Bohemia, se les unen Bubi, un melancólico vampiro vegetariano, y su psicoterapeuta. Mientras tanto, una pareja de vampirólogos y un persistente inspector de policía siguen sus pasos.",
    "sources": [
     {
      "id": "cineteca",
@@ -1495,6 +1432,7 @@
    "price": "$979 – $2703",
    "tickets": "https://www.ticketmaster.com.mx/alvaro-diaz-monterrey-03-10-2026/event/140064BA83223A06",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/images-22.jpg",
+   "description": "Calificación promedio Aún no hay calificación Álvaro Díaz llegará a Monterrey con un concierto en el Auditorio Banamex el sábado 3 de octubre de 2026 a las 9:00 p.m. El cantante y compositor puertorriqueño, reconocido por fusionar el trap, el hip hop y el reguetón con influencias alternativas, interpretará los temas más destacados de su carrera en una presentación dirigida a sus seguidores en la ciudad. Información relevante del evento: Fecha: Sábado 3 de octubre de 2026. Hora: 9:00 p.m. Lugar: Auditorio Banamex, Monterrey, Nuevo León. Edad: Sin límite de edad.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1538,6 +1476,7 @@
    "price": "$806 – $7278",
    "tickets": "https://www.ticketmaster.com.mx/eslabon-armado-monterrey-03-10-2026/event/140064AFB3F0D04E",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/ESlabon-Armado.jpg",
+   "description": "Calificación promedio Aún no hay calificación La nueva generación de la música mexicana tiene uno de sus nombres más representativos en Eslabón Armado, agrupación que ha transformado el panorama del regional mexicano y se ha consolidado como una de las propuestas más exitosas e influyentes de la última década. Liderados por Pedro Tovar, los integrantes de Eslabon Armado han construido un estilo propio que combina la tradición del sierreño con una sensibilidad contemporánea capaz de conectar con millones de jóvenes alrededor del mundo.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1577,6 +1516,7 @@
    "price": "$1463 – $5436",
    "tickets": "https://www.ticketmaster.com.mx/maroon-5-monterrey-03-10-2026/event/3D0064B99A74340C",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/f42abc1a-368b-4c68-91f3-fa853004e2ab_RETINA_PORTRAIT_16_9.jpg",
+   "description": "Calificación promedio Aún no hay calificación Maroon 5 llegará a Monterrey para ofrecer un concierto en el Estadio Borregos el sábado 3 de octubre de 2026 a las 9:00 p.m. La banda estadounidense liderada por Adam Levine interpretará algunos de los mayores éxitos de su trayectoria, entre ellos «Sugar», «This Love», «She Will Be Loved», «Moves Like Jagger» y «Girls Like You», en un espectáculo que recorrerá más de dos décadas de carrera. Información relevante del evento: Fecha: Sábado 3 de octubre de 2026. Hora: 9:00 p.m. Lugar: Estadio Borregos, Monterrey, Nuevo León.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1607,6 +1547,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/concierto-de-Nicole-Zignago-en-monterrey-2026.jpg",
    "genre": null,
+   "description": "Nicole Zignago en Foro Corona, 3 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -1626,6 +1567,7 @@
    "price": null,
    "image": "https://ctxplorer.com/media/events/monterrey/la-mesmo-vibra-tm-6rehso.webp",
    "genre": null,
+   "description": "[](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: Todas las edades. Pagan boleto a partir de: a partir de 1 año Restricciones: Prohibido ingresar alimentos, bebidas, mochilas, paraguas, rayos, sel",
    "category": "Música",
    "sources": [
     {
@@ -1690,6 +1632,42 @@
    "url": "https://allevents.in/monterrey/liii-congreso-anual-del-colegio-mexicano-de-medicina-crítica/200030258341547"
   },
   {
+   "id": "08e08daa518b",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "start": "2026-10-04T10:00",
+   "end": "2026-12-30T10:00",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $220",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
+    }
+   ],
+   "url": "https://feverup.com/m/685013"
+  },
+  {
+   "id": "c09df5d283e2",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "start": "2026-10-04T11:00",
+   "end": "2026-11-29T17:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $799",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636"
+  },
+  {
    "title": "Jikuri – Viaje al país de los Tarahumaras",
    "start": "2026-10-04T14:00",
    "end": "2026-10-07T16:00",
@@ -1701,7 +1679,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2025/09/Jikuri-Imagen-e1757630844843-700x360.jpg",
-   "description": "Al abandonar prematuramente el ritual del cactus sagrado y regresar a Francia, el poeta Antonin…",
+   "description": "Al abandonar prematuramente el ritual del cactus sagrado y regresar a Francia, el poeta Antonin Artaud pierde una de sus tres almas. Su vida quedará entretejida con la del corredor tarahumara Rayénari, quien le ayudará través de los sueños a recuperarse, hallando ambos en este viaje su verdadero camino.",
    "sources": [
     {
      "id": "cineteca",
@@ -1736,7 +1714,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/La-Desaparicion-de-Josef-Mengele-Imagen-scaled-e1790206492684-700x360.jpg",
-   "description": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica…",
+   "description": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para reconstruir su vida en la clandestinidad. A través de la mirada de su hijo, quien lo reencuentra, Mengele se enfrenta a un pasado que ya no puede ignorar. De Buenos Aires a Paraguay, pasando por Brasil, el hombre conocido como «El Ángel de la Muerte» organizará su metódica desaparición para evitar cualquier tipo de juicio.",
    "sources": [
     {
      "id": "cineteca",
@@ -1756,6 +1734,7 @@
    "price": "$406 – $764",
    "tickets": "https://boletomovil.com/a-escena",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/grease.jpg",
+   "description": "Calificación promedio Aún no hay calificación Angel tiene algo que decirle a Frenchie… 💗 Y las chicas ya están listas para acompañarlos en uno de los momentos más icónicos de GREASE. ✨ Prepárate para cantar, bailar y revivir toda la energía de Rydell High. ⚡ 📅 4, 11 y 18 de octubre 🕓 4:00 P. M. 📍 Teatro Digital Fidel Velázquez, Escobedo 🎶 Ven a cantar. 💃 Ven a bailar. 💗 Ven a vivir GREASE con nosotros. GREASE se presenta mediante acuerdo especial con Theatrical Rights Worldwide, compañía que proporciona los materiales autorizados para su representación. Producciones A Escena",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1777,7 +1756,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Prosecution-1-e1790727390600-700x360.jpg",
-   "description": "Tras sobrevivir a una agresión racista, la joven fiscal Seyo Kim decide llevar su propio…",
+   "description": "Tras sobrevivir a una agresión racista, la joven fiscal Seyo Kim decide llevar su propio caso ante los tribunales. Lo que comienza como un intento de obtener justicia pronto se convierte en una investigación mucho más amplia sobre las estructuras que minimizan y encubren la violencia de extrema derecha. Mientras intenta procesar a uno de los responsables, descubre indicios que apuntan a una red mayor y a una serie de casos que durante años fueron tratados como incidentes aislados.",
    "sources": [
     {
      "id": "cineteca",
@@ -1796,6 +1775,7 @@
    "category": "Teatro",
    "price": "Gratuito",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/francia.jpg",
+   "description": "Calificación promedio Aún no hay calificación Una historia que confronta, recuerda y deja huella. El acontecimiento, monólogo basado en la obra de Annie Ernaux, Premio Nobel de Literatura 2022, llega a Monterrey de la mano de la prestigiosa Comédie-Française, con la actriz Françoise Gillard en escena. La obra lleva al escenario el relato autobiográfico de Ernaux y explora, desde la memoria y la experiencia personal, un acontecimiento que marcó profundamente su vida.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -1821,7 +1801,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Doble-patria-1-scaled-e1790727590325-700x360.jpg",
-   "description": "Tirol del Sur, 1961. Esta región del norte de Italia se ve sacudida por una…",
+   "description": "Tirol del Sur, 1961. Esta región del norte de Italia se ve sacudida por una serie de atentados separatistas con bombas. Mientras que Paul, un joven hijo de granjeros, quiere escapar de la falta de perspectivas de su pueblo y estudiar pintura, su hermano mayor, Anton, lucha sin concesiones por la protección de la minoría de habla alemana —si es necesario, con violencia—. Después de que Anton sea identificado como uno de los autores de los atentados, huye y deja atrás la granja y a su familia.",
    "sources": [
     {
      "id": "cineteca",
@@ -1858,6 +1838,7 @@
    "price": null,
    "image": "https://ctxplorer.com/media/events/monterrey/cafe-pautado-jazz-connection-sinfonica-tec-tm-6u75v2.webp",
    "genre": null,
+   "description": "Concierto con la Big Band de la Sinfónica Tec e invitados de la rama del Jazz internacional. [](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: No hay. Pagan boleto a partir de: 2 años en adelante.",
    "category": "Música",
    "sources": [
     {
@@ -1879,7 +1860,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/08/La-isla-de-azucar-Imagen-700x360.jpg",
-   "description": "Un embarazo no deseado desencadena el viaje hacia la adultez de Makenya, una adolescente dominico-haitiana…",
+   "description": "Un embarazo no deseado desencadena el viaje hacia la adultez de Makenya, una adolescente dominico-haitiana que vive en el Batey, comunidad de trabajadores cañeros. Una serpiente se presenta en su camino, es la manifestación de Los Misterios, entidades que la guían hacia el reconocimiento de su poder terrenal y a su consciencia en el reino de lo imposible.",
    "sources": [
     {
      "id": "cineteca",
@@ -1914,7 +1895,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Entiendo-su-descontento-Poster-1-634x360.jpg",
-   "description": "Heike (59) trabaja como jefa de operaciones en una empresa de limpieza y cada día…",
+   "description": "Heike (59) trabaja como jefa de operaciones en una empresa de limpieza y cada día se enfrenta a una enorme presión para cumplir al mismo tiempo con las exigencias de los clientes, sus superiores y sus colaboradores. Su día a día laboral está marcado por la falta de tiempo, la presión por ser eficiente y la invisibilidad de aquellas personas cuyo trabajo hace posible el funcionamiento de la sociedad. Cuando un importante subcontratista amenaza con poner fin a su colaboración si no recibe más encargos, Heike se ve envuelta en un conflicto moral.",
    "sources": [
     {
      "id": "cineteca",
@@ -1935,7 +1916,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Cocodrilos-Imagen-e1790207258115-700x360.jpg",
-   "description": "Un joven fotoperiodista de la ciudad de Veracruz, México, arriesgará su vida para descubrir una…",
+   "description": "Un joven fotoperiodista de la ciudad de Veracruz, México, arriesgará su vida para descubrir una verdad estremecedora tras asumir la investigación que su amiga y mentora periodista dejó inconclusa al caer víctima del crimen organizado.",
    "sources": [
     {
      "id": "cineteca",
@@ -1958,24 +1939,6 @@
    ]
   },
   {
-   "id": "8a78955b1daf",
-   "title": "La otra historia del retablo: Presencia y omisión femenina en los títeres",
-   "start": "2026-10-06T19:00",
-   "end": null,
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/6oct_conf_-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
-  },
-  {
    "id": "f6160cc05ab2",
    "title": "La 5ta Sinfonía de Beethoven en Monterrey",
    "start": "2026-10-06T20:00",
@@ -1986,6 +1949,7 @@
    "price": "$100 – $180",
    "tickets": "https://arema.mx/e/21142-la-5ta-sinfonia-de-beethoven-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/bethoven.jpg",
+   "description": "Calificación promedio Aún no hay calificación Cuatro notas bastan para reconocer una de las obras más famosas de la historia de la música. Este 6 de octubre, la Gran Sala del Teatro de la Ciudad será escenario de una noche sinfónica protagonizada por la Filarmónica Juvenil de Nuevo León, bajo la dirección del Mtro. Oscar Bacca. El concierto abrirá con The Iliad (La Ilíada), de la compositora contemporánea Soon Hee Newbold, una obra épica y cinematográfica inspirada en la legendaria Guerra de Troya, con la fuerza de la percusión, los metales y toda la orquesta.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -2006,7 +1970,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/La-bachata-de-Bionico-Imagen-e1788387883104-700x360.jpg",
-   "description": "Biónico es un romántico empedernido, y además adicto al crack, que debe tomar el control…",
+   "description": "Biónico es un romántico empedernido, y además adicto al crack, que debe tomar el control de su vida antes de que su prometida salga del centro de rehabilitación. Una visión cruda del amor en una ciudad caribeña hostil.",
    "sources": [
     {
      "id": "cineteca",
@@ -2041,7 +2005,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Dos-montanas-oprimen-mi-pecho-imagen-1-e1790725870755-700x357.jpg",
-   "description": "Viv, una joven artista china, se encuentra en Berlín tras la pandemia y se sumerge…",
+   "description": "Viv, una joven artista china, se encuentra en Berlín tras la pandemia y se sumerge en la escena cultural alternativa de la ciudad, tan diversa y a menudo contradictoria. Entre nuevas experiencias, relaciones y formas de vida, comienza a redefinir su propia identidad. Al mismo tiempo, sigue presente el vínculo con su familia en Pekín, que ve sus decisiones con escepticismo. La película acompaña a Viv en su recorrido por distintos contextos culturales, en los que debe reposicionarse una y otra vez. En este proceso surgen momentos de incertidumbre, pero también de libertad y empoderamiento.",
    "sources": [
     {
      "id": "cineteca",
@@ -2059,6 +2023,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Fuego-700x360.jpg",
+   "description": "Taller experimental de grabado con fuego Paco Navéz Aula 10 7, 8 y 9 de octubre 10:00 am – 2:00 pm ImpulsArte – Informes e inscripciones: paconavez8@gmail.com I T. 352 125 2622",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2086,41 +2051,6 @@
    ]
   },
   {
-   "title": "Coloquio Somos Vínculos. Encuentro franco-mexicano-texano",
-   "start": "2026-10-07T17:00",
-   "end": "2026-10-09T10:15",
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/7-8-9_somos-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano",
-   "id": "abe0f10a6f03",
-   "dates": [
-    {
-     "start": "2026-10-07T17:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-08T10:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-09T10:15",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    }
-   ]
-  },
-  {
    "title": "FESTIVAL DE CINE ALEMÁN: Estrellas rojas sobre el campo",
    "start": "2026-10-07T17:15",
    "end": "2026-10-11T17:00",
@@ -2132,7 +2062,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Estrellas-rojas-sobre-el-campo-1-e1790727835785-700x360.jpg",
-   "description": "En el pequeño pueblo de Bad Kleinen, en el este de Alemania, el pasado nunca…",
+   "description": "En el pequeño pueblo de Bad Kleinen, en el este de Alemania, el pasado nunca parece desaparecer del todo. Mientras antiguas historias de guerra, socialismo, reunificación y transformación económica siguen marcando la vida cotidiana, distintas generaciones intentan encontrar su lugar en una región atravesada por conflictos políticos y sociales. A partir de acontecimientos históricos reales y personajes ficticios, la película explora cómo la memoria colectiva influye en el presente y cómo las heridas del pasado continúan moldeando identidades, resentimientos y visiones de futuro.",
    "sources": [
     {
      "id": "cineteca",
@@ -2167,7 +2097,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/GAMCEPI-700x360.jpg",
-   "description": "A comienzos de los años 2000, los hermanos Philipp y Tobi crecen en una zona…",
+   "description": "A comienzos de los años 2000, los hermanos Philipp y Tobi crecen en una zona rural del este de Alemania marcada por el desempleo, el desencanto y las consecuencias de la reunificación. Mientras sus padres luchan por mantener a flote a la familia, el sueño de una vida mejor se va desmoronando poco a poco. En medio de la precariedad emocional y económica, los dos hermanos enfrentan una infancia atravesada por la falta de perspectivas y la búsqueda constante de pertenencia.",
    "sources": [
     {
      "id": "cineteca",
@@ -2186,6 +2116,7 @@
    "category": "Música",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/25842-PORTADA-MM-Ecos-de-la-sierra-700x360.jpg",
+   "description": "El formato del cuarteto de cuerdas es considerado una de las expresiones más puras y perfectas de la música de cámara. Históricamente, ha sido el termómetro del desarrollo musical de una región. En Nuevo León, un estado en constan te crecimiento demográfico e industrial, el fortalecimiento del tejido social a través de la cultura es vital.",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2204,6 +2135,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/of-monsters-and-men-monterrey-2026.jpg",
    "genre": null,
+   "description": "Of Monsters and Men en Showcenter Complex, 7 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -2223,6 +2155,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/07/of-monster-and-men-en-monterrey-showcenter-2026.jpg",
    "genre": null,
+   "description": "Of Monster And Men en Showcenter Complex, 7 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -2241,6 +2174,7 @@
    "category": "Exposiciones",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Exhibición y venta de materiales de oriente para la producción gráfica Andrés Ordaz (SLP) Pasillos centrales Jueves 8, viernes 9 y sábado 10 11:00 am – 7:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2276,6 +2210,7 @@
    "category": "Exposiciones",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Exhibición y venta de obra gráfica para adquisición de forma directa de sus autores. Varios autores Pasillos centrales Jueves 8, viernes 9 y sábado 10 11:00 am – 7:00 pm Entrada Libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2311,6 +2246,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Demostración sobre distintas técnicas de grabado Abraham Torres, artista visual (Oax.) Aula 10 Jueves 8 y viernes 9 3:00 – 4:00 pm Sin costo Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2341,6 +2277,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Cadaver-700x360.jpg",
+   "description": "Creación de un cadáver exquisito en relieve Mack Doselementos Crew (Coah.) Patio central 8, 9 y 10 de octubre 3:00 – 7:00 pm ImpulsArte – Informes e inscripciones: Italia.garcia.reza@gmail.com – T. 871 242 6208 y 871 783 4481",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2410,7 +2347,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Short-Export-Programme-1-e1790728468701-700x360.jpg",
-   "description": "Como los claveles (Wie die Nelken) / 2025 / 23 min. Dir. Emine Demir. En…",
+   "description": "Como los claveles ( Wie die Nelken ) / 2025 / 23 min. Dir. Emine Demir. En un caluroso día en Berlín, Şirin recoge a su tía Bihar para salir espontáneamente al campo: bajo el sol del verano se despliegan la alegría queer, las tensiones intergeneracionales y los recuerdos migratorios reprimidos entre ambas mujeres. Sala de estar ( Living Room ) / 2026 / 7 min. Dir. Verena Kuri. ¿Cuáles de las pertenencias dejadas por una familia fallecida deben conservarse? ¿Qué sucede con los recuerdos cuando oscilan entre huellas físicas y la inteligencia artificial?",
    "sources": [
     {
      "id": "cineteca",
@@ -2429,6 +2366,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Cómo se construye una colección de gráfica y qué valor adquiere dentro del coleccionismo. Isa Castilla, Feria de Arte Material Catalina Zambrano, Fundadora de Z O Contemporary Rodrigo Odriozola, Fama Feria de Arte Alma Rosa Olvera, Puerta Rosa Museo Galería Indira Sánchez Tapia, Gerente de Educación y Programas Públicos Museo MARCO Patio central Jueves 8 7:00 – 8:00 pm Entrada Libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2447,6 +2385,7 @@
    "category": "Exposiciones",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Ceremonia oficial de inauguración que da inicio a los trabajos de SEPTENTRIONAL | II Encuentro Nacional de Gráfica 2026 Jueves 8 Patio central 8:00 – 9:00 pm Entrada Libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2468,7 +2407,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Wholetrai2-700x360.jpg",
-   "description": "WHOLETRAIN cuenta la historia de una crew de cuatro escritores de graffiti —David, Tino, Elyas…",
+   "description": "WHOLETRAIN cuenta la historia de una crew de cuatro escritores de graffiti —David, Tino, Elyas y Achim— que se han entregado a una escena con sus propias jerarquías, valores, reglas y códigos. Noche tras noche salen para decorar los trenes del metro de la ciudad con sus impresionantes obras. Cuando aparece otra crew y desafía a los cuatro, se desencadena una competición creativa que cambiará para siempre la vida de los protagonistas. Se trata de una vida al límite. Siempre en la frontera de la ilegalidad, siempre huyendo de la policía.",
    "sources": [
     {
      "id": "cineteca",
@@ -2505,6 +2444,7 @@
    "price": "$930 – $4402",
    "tickets": "https://www.ticketmaster.com.mx/rosana-monterrey-08-10-2026/event/1400649CBAF99806",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/lunario-rosana-en-octubre-rosana-se-sentira-nuevamente-como-en-casa-2018.jpg",
+   "description": "Calificación promedio Aún no hay calificación Con una voz inconfundible y una presencia escénica cálida y poderosa, Rosana ha dado vida a canciones que forman parte de la memoria colectiva de varias generaciones, convirtiendo cada concierto en un encuentro íntimo donde la música se transforma en emoción compartida. En esta presentación, el público podrá disfrutar de un recorrido por los grandes éxitos que han definido su trayectoria, así como de las composiciones más recientes que continúan reafirmando su vigencia artística.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -2561,6 +2501,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Demostración de grabado en jícaras. Taller práctico de exploración gráfica sobre jícaras en el que los participantes conocerán las posibilidades de este material natural como soporte para el grabado. Olegario Hernández, artista visual (Oax.) Patio central Viernes 9 10:00 – 11:00 am Sin costo Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2579,6 +2520,7 @@
    "category": "Exposiciones",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Presentación de carpetas del Taller Mayahuel dirigido por Aura María Juárez y Rebeca Martínez Aura María Juárez, artista visual (Hgo.) Rebeca Martínez, artista visual (Hgo.) Aula 3 Viernes 9 11:00 am – 12:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2597,6 +2539,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Legado editorial de la gráfica en México. Plática que refiere sobre los cinco talleres editoriales en México que tuvieron la oportunidad de trabajar con Arthur Vladi. Giovanni Farías, Artista gráfico (CdMx) HUB Cultural | Aula 4 Viernes 9 12:00 – 1:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2615,6 +2558,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Un pechakucha es un formato de presentación oral rápido y visual. Silvestre Madera, Artista visual Guadalupe Victorica, Artista visual Verónica Mercado, Artista visual Jesús Soto, Artista visual (Coah.) Patricia Hernández, Artista Visual (Coah.) HUB Cultural | Aula 4 Viernes 9 1:00 – 2:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2633,6 +2577,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Se abordarán las diferentes maneras de promover y difundir la gráfica. Jovita Aguilar, Artista gráfica (Zac.) HUB Cultural | Aula 4 Viernes 9 3:00 – 4:30 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2651,6 +2596,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Normas, mercado y confianza en el coleccionismo de obra gráfica. Dr. Sara Julsrud, Directora del Departamento de Artes Visuales de la Universidad de Guanajuato (Gto.) HUB Cultural | Aula 4 Viernes 9 4:30 – 5:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2669,6 +2615,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Técnica experimental de la litografía en placa de acero galvanizado. Aula 10 Fernando Jiménez Luévano, artista gráfico (Zac.) Jueves 8 5:00 – 8:00 pm Sin costo Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2687,6 +2634,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Una demostración práctica en la que se mostrará paso a paso la elaboración de una prensa portátil para grabado. Federico López Castro, Artista visual Aula 5 Viernes 9 5:00 – 7:00 pm Sin costo Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2707,7 +2655,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Finding-Connection-2-e1790728686596-700x360.jpg",
-   "description": "En un mundo digital donde la cercanía humana parece cada vez más escasa, Finding Connection…",
+   "description": "En un mundo digital donde la cercanía humana parece cada vez más escasa, Finding Connection sigue a cuatro personas de distintos países que han desarrollado vínculos emocionales profundos con sistemas de inteligencia artificial. Lo que a primera vista puede parecer extraño o incluso inquietante, surge en realidad como respuesta a la soledad, la vulnerabilidad y el deseo de ser comprendidos.",
    "sources": [
     {
      "id": "cineteca",
@@ -2775,6 +2723,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Espacio de diálogo en el que los artistas participantes de distintas disciplinas compartirán experiencias y procesos explorando los puntos de encuentro entre la gráfica y otras prácticas artísticas. Olegario Hernández, Artista visual (Oax.) Federico López Castro, Artista visual Geraldine Guillén, Artista gráfica (Mich.) Gloria Barocio, Artista visual Oscar de León, Artista visual M. Alejandra Espinosa Andreu (Moderadora), Coordinadora Área Gráfica, Departamento de Artes Visuales, Universidad de Guanajuato. HUB Cultural | Aula 4 7:00 – 8:00 pm Viernes 9 Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -2803,6 +2752,7 @@
      "url": "https://ctxplorer.com/events/festival-de-danza-interprepas-2026-tm-xeG7Uw39"
     }
    ],
+   "description": "El festival de danza interprepas de las Prepa Tec de Monterrey es un evento en el que alumnos de los diversos campus de las Prepas Tec preparan una coreografía en géneros como hip hop, ritmos latinos",
    "url": "https://allevents.in/monterrey/festival-de-danza-interprepas-2026/210005945467981"
   },
   {
@@ -2833,6 +2783,7 @@
    "price": "$500 – $750",
    "tickets": "https://wwww.arema.mx/e/18049/Marco-Polo:-Timido-y-Furioso-en-Teatros-Versalles",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/MARCOPOLO.jpg",
+   "description": "Calificación promedio Aún no hay calificación El comediante Marco Polo llega a Teatros Versalles con Tímido y Furioso, una explosiva comedia que combina humor, personajes entrañables y situaciones inesperadas para llevar al público por una noche llena de carcajadas. Después de conquistar a miles de espectadores en Monterrey y Ciudad de México, el espectáculo inicia una residencia en Teatros Versalles, donde se presentará todos los viernes a las 20:30 horas en la Sala 3.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -2880,6 +2831,7 @@
    "price": "$795",
    "tickets": "https://www.superboletos.com/landing-evento/cmBiXqaIjq8TAnNFtTgfrw",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/Akriila-Un-proyecto-que-incomoda-es-mucho-mas-fascinante-que-uno-facil-de-digerir.jpg",
+   "description": "Calificación promedio Aún no hay calificación AKRIILA. La figura más disruptiva de la nueva ola urbana chilena, Akriila, se prepara para tomar el escenario con una propuesta que redefine los límites del género. Con una visión artística que navega entre el trap, el punk y el drum & bass, Fernanda Sepúlveda ha logrado construir un sonido crudo y vanguardista que la posiciona como la voz definitiva de una generación que no pide permiso.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -2914,7 +2866,7 @@
    "venue": "Museo de Historia Mexicana",
    "city": "Monterrey",
    "category": "Música",
-   "price": "Desde $650",
+   "price": "Desde $660",
    "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/f51b8418-25ae-11f0-a83d-9e59e0727bbd.jpg",
    "sources": [
     {
@@ -2948,6 +2900,7 @@
      "url": "https://www.nuevoleon.travel/leandro-rios-2/"
     }
    ],
+   "description": "Leandro Ríos en Arena Monterrey, 9 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/leandro-ríos-in-monterrey/3300029962392350"
   },
   {
@@ -2979,6 +2932,7 @@
    "price": null,
    "image": "https://ctxplorer.com/media/_dup/a2/a220882c7a3c23ae014c8e19e8d6e2ec205fc293.webp",
    "genre": null,
+   "description": "La agrupación venezolana Rawayana se prepara para encender el escenario con su inconfundible propuesta de \"Trippy Pop\", una fusión magistral de reggae, funk, soul y ritmos caribeños. Con un talento qu",
    "category": "Música",
    "sources": [
     {
@@ -3028,6 +2982,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "El artista compartirá una selección de su producción y hablará sobre sus procesos. Guayo Valenzuela, Artista gráfico (Coah.) HUB Cultural | Aula 4 Sábado 10 10:00 – 10:30 am Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3076,6 +3031,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Se hablará sobre el proyecto artístico que busca recuperar el taller público de grabado para el ejercicio de la comunidad. HUB Cultural | Aula 4 Sábado 10 10:30 – 11:00 am Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3094,6 +3050,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Dinámica de impresiones de placas de hueco grabado para probar las diferentes líneas que ofrece el papel De Ponte. Giovanni Farías (CdMx) Aula 10 Sábado 10 11:00 am – 12:00 pm Sin costo Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3112,6 +3069,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Análisis de las técnicas de impresión en proyectos gráficos. Jesús Soto, Artista visual HUB Cultural | Aula 4 Sábado 10 12:00 – 12:30 pm Sin costo Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3130,6 +3088,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Un espacio de reflexión sobre los procesos psicológicos que intervienen en la práctica artística: Creatividad, emociones, motivación y la relación del artista con su obra. Ulises Vargas, Artista gráfico HUB Cultural | Aula 4 Sábado 10 12:30 – 1:00 pm",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3148,6 +3107,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Charla Un pechakucha es un formato de presentación oral rápido y visual. Lauro Pedraza, Artista visual Isabel Hernández, Artista visual Bárbara de la Garza, Artista visual Maye Elizondo, Artista gráfica Pedro Márquez, Artista visual Darío Romo, Artista visual HUB Cultural | Aula 4 Sábado 10 1:00 – 2:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3166,6 +3126,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Espacio de encuentro y diálogo donde los artistas comparten sus experiencias y procesos que han marcado su trayectoria. Edgar Bacalao Argaez, Artista visual Eugenia Belden, Artista visual Patricia Hernández, Artista visual (Coah.) Pau Masiques, Artista visual M. Alejandra Espinosa Andreu (Moderadora), Coordinadora Área Gráfica, Departamento de Artes Visuales, Universidad de Guanajuato (Gto.) HUB Cultural | Aula 4 Sábado 10 3:00 – 4:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3187,7 +3148,7 @@
    "category": "Cine",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Kitkatclub-2-700x360.jpg",
-   "description": "En el documental KITKATCLUB – KINKS OF BERLIN, nos sumergimos en el misterioso mundo de…",
+   "description": "En el documental KITKATCLUB – KINKS OF BERLIN, nos sumergimos en el misterioso mundo de uno de los clubes más emblemáticos del mundo, y acompañamos a personas muy diferentes en sus noches berlinesas. Conocemos a Tim, alias Raven Van Krueger, quien quiere triunfar como artista drag. Elisa descubre una nueva sexualidad con sus amigos, una pareja BDSM se ama en público, una pareja de «dog play» vive entre la estabilidad y el exceso, y David intenta salir de su adicción.",
    "sources": [
     {
      "id": "cineteca",
@@ -3206,6 +3167,7 @@
    "category": "Exposiciones",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Presentación de carpetas por artistas de Gráfica Centro. Andrés Ordaz, Artista gráfico (SLP) Alejandra Fraga, Artista gráfica (SLP) Paco Navéz, Artista gráfico (Mich.) Alejandra Espinosa Andreu (Gto.) HUB Cultural | Aula 4 Sábado 10 4:00 – 4:30 pm",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3224,6 +3186,7 @@
    "category": "Exposiciones",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Conferencia y demostración Joel Rendón, Artista gráfico (CdMx) HUB Cultural | Aula 4 Sábado 10 4:30 – 5:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3242,6 +3205,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "José Luis Carrera, Artista visual Ulises Vargas, Artista gráfico Cynthia Solano, Artista grafico HUB Cultural | Aula 4 Sábado 10 5:00 – 5:30 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3260,6 +3224,7 @@
    "price": "$730 – $2976",
    "tickets": "https://www.ticketmaster.com.mx/mentiras-el-musical-monterrey-10-10-2026/event/1400644EA722B115",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/04/Web-65.jpg",
+   "description": "Calificación promedio Aún no hay calificación Mentiras el Musical es el espectáculo musical y teatral favorito de México. Una obra que se ha convertido en un fenómeno que atrae una y otra vez a la gente y ahora celebra 17 años de éxito. Daniela, Dulce, Lupita y Yuri, cuatro mujeres, intentan descubrir el misterioso secreto que las ha reunido para contar sus historias de amor alrededor de un hombre, Emmanuel, que solo les ha dicho MENTIRAS.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -3299,6 +3264,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Un acercamiento a la historia, evolución y significado de la moneda a través de la numismática y la tradición de la Casa de Moneda. Benito González, Artista gráfico (Tol.) HUB Cultural | Aula 4 Sábado 10 5:30 – 6:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3317,6 +3283,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Tradición, experimentación y técnicas alternativas de la litografía. Ricardo Sanabria, Artista gráfico (Tol.) HUB Cultural | Aula 4 Sábado 10 6:00 – 6:30 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3335,6 +3302,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Estrategias para promover y desarrollar proyectos de manera independiente Raúl Márquez, Artista visual HUB Cultural | Aula 4 Sábado 10 6:30 – 7:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3353,6 +3321,7 @@
    "category": "Talleres y charlas",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Se hablará sobre las experiencias de generar encuentros de gráfica a nivel nacional. Isabel Hernández, Encuentro Septentrional (NL) Andrés Ordaz, Encuentro Gráfica Centro (SLP) Pedro López Recendez, Encuentro La Santa Gráfica (Zac.) Roxana Cámara, Encuentro de Gráfica Trazos Comunes (Ver.) Carlos Torralba, Encuentro de Gráfica Trazos Comunes (Ver.) Roberto González, Encuentro de Gráfica Trazos Comunes (Ver.) Elías Bueno (Moderador) Artista gráfico (NL) HUB Cultural | Aula 4 Sábado 10 7:00 – 8:00 pm Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3389,6 +3358,7 @@
    "category": "Exposiciones",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "description": "Septentrional | II Segundo Encuentro Nacional de Gráfica Nuevo León 2026 Ceremonia de clausura de las actividades del Encuentro Patio Central 10 octubre 20:00 h Entrada libre Para todo público",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3426,6 +3396,7 @@
    "price": "$450 – $1500",
    "tickets": "https://arema.mx/e/20266",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/07/1900x1900-000000-80-0-0-2.jpg",
+   "description": "Calificación promedio Aún no hay calificación La artista mexicana FLVCKKA llega a Monterrey con un concierto en el que presentará un recorrido por los temas que han consolidado su propuesta dentro de la escena urbana contemporánea. Con una mezcla de rap, trap y sonidos alternativos, el espectáculo promete una experiencia enérgica y cercana con el público en uno de los foros más emblemáticos del Barrio Antiguo. Público recomendado: Evento para público adolescente y adulto. Fecha: Sábado 10 de octubre de 2026 Hora: 21:00 horas Sede: Café Iguana Dirección: C.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -3454,6 +3425,7 @@
      "url": "https://ctxplorer.com/events/mentiras-el-musical-tm-GkBt3lOj"
     }
    ],
+   "description": "Mentiras el Musical es el espectáculo musical y teatral favorito de México. Una obra que se ha convertido en un fenómeno que atrae una y otra vez a la gente y ahora celebra 17 años de éxito. Daniela,",
    "url": "https://allevents.in/monterrey/mentiras-el-musical-segunda-función/200030138247004"
   },
   {
@@ -3551,6 +3523,7 @@
      "url": "https://ctxplorer.com/events/travis-tm-Gkd-ilAI"
     }
    ],
+   "description": "Travis en Escenario GNP Seguros, 12 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/travis/200030199546712"
   },
   {
@@ -3582,6 +3555,7 @@
    "price": "$744 – $5263",
    "tickets": "https://www.ticketmaster.com.mx/two-door-cinema-club-monterrey-13-10-2026/event/14006465B8929907",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/d514f001-870a-4720-8613-7aa7a60209ae_CUSTOM.jpg",
+   "description": "Calificación promedio Aún no hay calificación La energía vibrante del indie rock contemporáneo llegará a Monterrey con la presentación de Two Door Cinema Club, una de las agrupaciones más influyentes y reconocibles de la escena alternativa internacional. Originarios de Northern Ireland, el grupo irrumpió en la escena musical con una propuesta fresca que combinó la inmediatez del pop, la intensidad del rock alternativo y la sofisticación de los ritmos electrónicos.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -3644,6 +3618,7 @@
    "category": "Música",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/25846-PORTADA-MM-Viento-Solitario-700x360.jpg",
+   "description": "ACERCA DE ESTE CONCIERTO Se trata de un breve recorrido cronológico por obras para flauta sola, transitando desde el período barroco hasta nuestros días, en el que la interpretación de Carolina Muñiz explora las facetas, los colores, el sonido y la técnica de la flauta moderna.",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -3672,6 +3647,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-pablo-alboran-monterrey-2026"
     }
    ],
+   "description": "Pablo Alborán en Auditorio Banamex, 15 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/pablo-alborán-monterrey-tickets/100029657388850"
   },
   {
@@ -3712,6 +3688,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/alfredo-olivas-arena-monterrey-2026"
     }
    ],
+   "description": "Alfredo Olivas en Arena Monterrey, 15 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/alfredo-olivas-monterrey-tickets/100030734559418"
   },
   {
@@ -3725,6 +3702,7 @@
    "price": "$930 – $3162",
    "tickets": "https://www.ticketmaster.com.mx/pablo-alboran-monterrey-15-10-2026/event/1400643ED22C4D36",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/pablo-alboran.jpg",
+   "description": "Calificación promedio Aún no hay calificación Pablo Alborán regresa a Monterrey con su Global Tour KM0 ¿Listx para el concierto que jamás olvidarás? El esperado concierto se llevará a cabo en el Auditorio Banamex, ubicado al interior del Parque Fundidora. Fecha: el 15 de octubre de 2026 Hora: 9:00 pm Lugar: Auditorio Banamex",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -3810,6 +3788,7 @@
    "price": "$620 – $1922",
    "tickets": "https://www.ticketmaster.com.mx/enjambre-monterrey-16-10-2026/event/1400638B9690BD8D",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/f960x540-703179_777254_5050.jpg",
+   "description": "Calificación promedio Aún no hay calificación Enjambre se presentará en el Auditorio Banamex de Monterrey el viernes 16 de octubre de 2026 a las 9:00 p.m. La agrupación originaria de Fresnillo, Zacatecas, es una de las principales exponentes del rock alternativo en español y llegará con un repertorio que incluye éxitos como Dulce Soledad, Visita y otros temas emblemáticos de su trayectoria. Información relevante del evento: Fecha: Viernes 16 de octubre de 2026. Hora: 9:00 p.m. Lugar: Auditorio Banamex, Monterrey, Nuevo León. Edad: Sin límite de edad.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -3836,6 +3815,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/little-jesus-foro-corona-monterrey-2026.jpg",
    "genre": null,
+   "description": "Little Jesus en Foro Corona, 16 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -3892,6 +3872,7 @@
    "price": "$744 – $1240",
    "tickets": "https://www.ticketmaster.com.mx/serbia-no-me-sueltes-tour-monterrey-17-10-2026/event/140064A58E28489B",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/serbia-mty.jpg",
+   "description": "Calificación promedio Aún no hay calificación La famosa banda de rock alternativo originaria de Monterrey, Serbia, se presentará en vivo como parte de su gira «No Me Sueltes Tour». Fecha: Sábado, 17 de octubre de 2026 Hora: 8:00 p.m. Lugar: Escenario GNP Seguros, Monterrey, N.L.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -3920,6 +3901,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-alejandro-sanz-estadio-borregos-monterrey-2026"
     }
    ],
+   "description": "Alejandro Sanz en Estadio Borregos, 17 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/alejandro-sanz/210001763310949"
   },
   {
@@ -3950,6 +3932,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/rhye-joy-tour-monterrey-2026.jpg",
    "genre": null,
+   "description": "Rhye en Showcenter Complex, 17 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -4019,6 +4002,7 @@
      "url": "https://www.nuevoleon.travel/la-reina-del-flow-en-concierto/"
     }
    ],
+   "description": "La Reina del Flow en Arena Monterrey, 18 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/la-reina-del-flow-monterrey-tickets/100030623833229"
   },
   {
@@ -4032,6 +4016,7 @@
    "price": "$923 – $1667",
    "tickets": "https://www.ticketmaster.com.mx/the-midnight-time-machines-monterrey-19-10-2026/event/140064AE920759FC",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/images-18.jpg",
+   "description": "Calificación promedio Aún no hay calificación La nostalgia se convierte en futuro y la música en una máquina del tiempo con la llegada de The Midnight, uno de los proyectos más influyentes y aclamados de la escena synthwave contemporánea. Integrado por Tyler Lyle y Tim McEwan, The Midnight ha construido una identidad sonora única que combina la estética de los años ochenta con una sensibilidad moderna, creando paisajes musicales cargados de emoción, melancolía y esperanza.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -4050,6 +4035,7 @@
    "price": "$450",
    "tickets": "https://casamusa.janto4.mx/espectaculo/coridon/CORIDON",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/CORIDON-flyer-uno-31agosto26.jpg",
+   "description": "Calificación promedio Aún no hay calificación CORIDÓN: Estudio I sobre el Deseo Coridón desea a Alexis. Pero ¿qué sucede cuando aquello que deseamos no nos corresponde? Inspirada en la Égloga II de Virgilio, escrita alrededor del año 42 a.C., CORIDÓN, Estudio I sobre el Deseo explora el deseo como una fuerza capaz de producir imágenes, vínculos y mundos. Un grupo de hombres se reúne para reconstruir y habitar la antigua historia de Coridón, un pastor que ama a Alexis.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -4200,6 +4186,7 @@
    "price": "$500 – $700",
    "tickets": "https://arema.mx/e/20115-isabel-fernandez-%22fuera-de-lugar%22-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/image-1.jpg",
+   "description": "Calificación promedio Aún no hay calificación Isabel Fernandez «Fuera de Lugar» en Monterrey Fecha y horario Jueves 22 de octubre de 2026 20:00 horas Lugar Auditorio Río 70 Dirección Serafín Peña 1051, Centro, C.P. 64000, Monterrey, Nuevo León. Boletos Zona Precio VIP $700 General $500 Precios más cargos por servicio. Puntos de venta oficiales Museo del Noreste (MUNE) Dr. José Ma. Coss 445, Centro, C.P. 64000, Monterrey, N.L. Cocoan Chocolatería Río Manzanares 425, Del Valle, C.P. 66220, Monterrey, N.L.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -4218,6 +4205,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/concierto-elefante-tour-30-aniversario-arena-monterrey-2026-poster.jpg",
    "genre": null,
+   "description": "Elefante en Arena Monterrey, 22 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -4309,6 +4297,7 @@
    "price": "$450 – $800",
    "tickets": "https://arema.mx/e/21045-el-sotano-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/el-sotano2-1.jpg",
+   "description": "Calificación promedio Aún no hay calificación El Sótano llega a Monterrey con una historia de terror inspirada en la obra del escritor japonés Koji Suzuki, autor de novelas como El Aro y Dark Water, que posteriormente fueron adaptadas al cine. La historia sigue a Ana Müller, una mujer que, después de atravesar un divorcio y enfrentar dificultades económicas, decide mudarse junto a su pequeña hija a una zona de escasos recursos. Su nuevo hogar es un antiguo edificio de departamentos que ha sido afectado por un terremoto.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -4471,6 +4460,7 @@
    "price": "$500 – $700",
    "tickets": "https://arema.mx/e/20091-todos-somos-job-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/job.jpg",
+   "description": "Calificación promedio Aún no hay calificación Una puesta en escena inspirada en la historia de Job, que lleva al escenario temas como la adversidad, la pérdida, la esperanza y la capacidad del ser humano para enfrentar los momentos difíciles de la vida. La obra propone un acercamiento a uno de los relatos más conocidos de la tradición bíblica desde el lenguaje escénico, invitando al público a reflexionar sobre las pruebas que atraviesa el ser humano y las preguntas que surgen frente a ellas.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -4499,6 +4489,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/bad-gyal"
     }
    ],
+   "description": "Bad Gyal en Auditorio Banamex, 23 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/bad-gyal/210003529761299"
   },
   {
@@ -4511,6 +4502,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/tiesto-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "Tiësto en Arena Monterrey, 23 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -4607,6 +4599,7 @@
    "price": "$549 – $799",
    "tickets": "https://arema.mx/e/20196",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/Dama-de-Negro-1024x683-1.jpg",
+   "description": "Calificación promedio Aún no hay calificación La Dama de Negro llega al Auditorio Río 70 con una de las obras de suspenso más emblemáticas del teatro. Basada en la novela de Susan Hill y adaptada por Stephen Mallatratt, esta puesta en escena narra la historia de un abogado que, años después de vivir una experiencia sobrenatural, decide contar su relato con la ayuda de un actor. Lo que comienza como un ensayo se transforma en una inquietante experiencia donde los límites entre la ficción y la realidad se desdibujan. Información relevante del evento: Fecha: Sábado 24 de octubre de 2026.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -4806,6 +4799,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/ALLISON_MTY_PT.jpg",
    "genre": null,
+   "description": "Allison en Café Iguana, 24 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -4843,6 +4837,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/inspector-arena-monterrey-24-octubre-2026.jpg",
    "genre": null,
+   "description": "Inspector en Arena Monterrey, 24 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -4862,6 +4857,7 @@
    "price": "$862 – $3720",
    "tickets": "https://www.ticketmaster.com.mx/los-angeles-azules-monterrey-24-10-2026/event/1400647C8DC44FC1",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/grupo-musical-angeles-azules-foto.jpg",
+   "description": "Calificación promedio Aún no hay calificación La agrupación que transformó la cumbia mexicana en un fenómeno internacional regresa a Monterrey para celebrar una noche de baile, nostalgia y fiesta con el inconfundible sonido de Los Ángeles Azules, uno de los proyectos más emblemáticos y exitosos de la música popular latinoamericana.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -5084,6 +5080,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/luli-pampin-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "Luli Pampín en Arena Monterrey, 25 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -5761,6 +5758,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-aitana-auditorio-banamex-28-octubre-2026"
     }
    ],
+   "description": "Aitana en Auditorio Banamex, 28 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/aitana/210003090095880"
   },
   {
@@ -5959,6 +5957,7 @@
    "price": "$300 – $400",
    "tickets": "https://arema.mx/e/21258-room-with-a-view",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Room.jpg",
+   "description": "Calificación promedio Aún no hay calificación Creado por (LA)HORDE, Ballet National de Marseille, en colaboración con Rone ¿Qué sucede cuando un grupo de individuos decide levantarse, moverse y rebelarse en conjunto? En Room with a View, el colectivo francés (LA)HORDE explora la protesta, la rebelión y el poder de lo colectivo a través de la danza contemporánea. Dieciséis bailarines ocupan un escenario que se transforma en una cantera de mármol: un espacio aparentemente vacío donde máquinas, sonidos, cuerpos e imágenes construyen un paisaje entre lo industrial y lo humano.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -5987,6 +5986,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-jacinto-foro-corona-monterrey-2026"
     }
    ],
+   "description": "Jacinto en Foro Corona, 29 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://www.forocorona.com/cartelera"
   },
   {
@@ -6089,6 +6089,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/kevin-kaarl-auditorio-banamex-monterrey-2026-scaled.jpg",
    "genre": null,
+   "description": "Kevin Kaarl en Auditorio Banamex, 30 de octubre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6307,6 +6308,7 @@
    "price": "$434 – $1860",
    "tickets": "https://www.ticketmaster.com.mx/idolos-del-corazon-con-los-terricolas-monterrey-31-10-2026/event/1400646A902040C8",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/26b31b57-6553-4a01-9d26-ee07df20a505_EVENT_DETAIL_PAGE_16_9.jpg",
+   "description": "Calificación promedio Aún no hay calificación La nostalgia, el romanticismo y las grandes canciones que marcaron una época se reúnen en una velada inolvidable con Ídolos del Corazón, un espectáculo que celebra el legado de tres agrupaciones fundamentales de la música romántica latinoamericana: Los Terrícolas, Los Bryos y Los Solitarios. A lo largo de la noche, el público podrá disfrutar de los temas que convirtieron a estos grupos en referentes indiscutibles de la balada romántica y la música popular en español.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -6353,6 +6355,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-panteon-rococo-monterrey-31-octubre-2026"
     }
    ],
+   "description": "Panteon Rococo en Auditorio Banamex, 31 de octubre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/panteon-rococo/210003272693081"
   },
   {
@@ -6486,6 +6489,7 @@
    "price": "$620 – $3100",
    "tickets": "https://www.ticketmaster.com.mx/yolanda-del-rio-monterrey-01-11-2026/event/140064C3E266E95E",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/yolanda-del-rio.jpg",
+   "description": "Calificación promedio Aún no hay calificación ¡El gran regreso de Yolanda del Río a Monterrey! La Gran Señora de México llega a Monterrey para interpretar todos sus éxitos acompañada de mariachi. Fecha: 1 de noviembre de 2026 Hora: 7 pm Lugar: Escenario GNP Seguros",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -6537,10 +6541,11 @@
    "end": "2026-11-04T21:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Familiar",
+   "category": "Música",
    "price": "$496 – $2728",
    "tickets": "https://www.ticketmaster.com.mx/paco-de-miguel-en-mi-familia-monterrey-04-11-2026/event/14006478E5A849A4",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/728664107_18606394600062280_4888923123784995518_n.jpg",
+   "description": "Calificación promedio Aún no hay calificación Paco de Miguel presenta por primera vez en Monterrey su espectáculo en vivo «Mi Familia es Tu Familia», una comedia que reúne sobre el escenario a los personajes que lo han convertido en uno de los creadores de contenido más populares de habla hispana. Caro, Regina, la tía, la abuela y otros personajes protagonizarán una noche de humor inspirada en las situaciones cotidianas de la familia mexicana. Información relevante del evento: Fecha: Miércoles 4 de noviembre de 2026. Hora: 6:00 p.m. Lugar: Escenario GNP Seguros, Monterrey, Nuevo León.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -6569,6 +6574,7 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-romeo-santos-prince-royce-estadio-walmart-park-monterrey-2026"
     }
    ],
+   "description": "Romeo Santos & Prince Royce en Estadio Walmart Park, 4 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "url": "https://allevents.in/monterrey/romeo-santos-and-prince-royce-monterrey-tickets/100029957567148"
   },
   {
@@ -6635,6 +6641,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/WhatsApp-Image-2026-04-21-at-09.34.23.jpeg",
    "genre": null,
+   "description": "Karol G en Estadio BBVA, 6 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6676,6 +6683,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/omar-courtz-monterrey-2026.jpg",
    "genre": null,
+   "description": "Omar Courtz en Auditorio Banamex, 6 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6714,6 +6722,7 @@
    "price": "$1116 – $6014",
    "tickets": "https://www.ticketmaster.com.mx/intocable-monterrey-07-11-2026/event/3D00649BE1E45078",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/Grupo-Intocable-1160x700-1.jpg",
+   "description": "Calificación promedio Aún no hay calificación Intocable se presentará en el Estadio Borregos de Monterrey el sábado 7 de noviembre de 2026 a las 9:00 p.m. La reconocida agrupación de música norteña y tejana ofrecerá un concierto con los éxitos que han marcado su trayectoria, consolidándose como una de las bandas más importantes del regional mexicano. Información relevante del evento: Fecha: Sábado 7 de noviembre de 2026. Hora: 9:00 p.m. Lugar: Estadio Borregos, Monterrey, Nuevo León. Duración aproximada: 2 horas. Edad: Sin límite de edad. Boleto: Todos los asistentes requieren boleto.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -6808,6 +6817,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/andres-calamaro-monterrey-2026.jpg",
    "genre": null,
+   "description": "Andrés Calamaro en Escenario GNP Seguros, 9 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6827,6 +6837,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/main_l_x2_EVT121943.webp",
    "genre": null,
+   "description": "Eros Ramazzotti en Arena Monterrey, 10 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6846,6 +6857,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/648738950_1421096953394193_6630049235389991754_n.jpg",
    "genre": null,
+   "description": "God Save the Queen en Arena Monterrey, 12 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6866,6 +6878,7 @@
    "price": "$790 – $1500",
    "tickets": "https://www.superboletos.com/landing-evento/Ajwecdjibo5HNOj39NP69Q",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/Mac-portada.jpg",
+   "description": "Calificación promedio Aún no hay calificación Mac DeMarco es uno de los nombres más queridos del indie de los últimos años. El músico canadiense se ha ganado a fans de todo el mundo con su estilo relajado que mezcla indie rock y pop lo-fi. Sus conciertos se sienten cercanos y espontáneos: entre canciones memorables, momentos improvisados y su particular sentido del humor, cada show se convierte en una experiencia especial para quienes disfrutan la música alternativa en vivo. 12 DE NOVIEMBRE A LAS 9 PM",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -6888,6 +6901,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/Siddhartha_Monterrey_4x5-1_optimized.jpg",
    "genre": null,
+   "description": "Siddhartha en Auditorio Banamex, 12 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6906,6 +6920,7 @@
    "category": "Teatro",
    "price": null,
    "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Slider_TTCharlie-700x360.jpg",
+   "description": "Dramaturgia de Bryan Vindas Dirección: Bryan Jair Producción: Graciela Eligio Tras un intento de suicidio, un hombre se lanza a un viaje inesperado y delirante acompañado de un sacerdote, un policía, un payaso y un hombre disfrazado de pollo. Una reflexión intensa sobre la identidad, la masculinidad, la violencia y la salud mental. Una experiencia teatral cruda y surreal que retrata el ambiente de las cantinas mexicanas. Solo adultos",
    "sources": [
     {
      "id": "conarte_agenda",
@@ -6942,6 +6957,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/main_l_x2_EVT134164.webp",
    "genre": null,
+   "description": "Mago de Oz en Arena Monterrey, 13 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -6961,6 +6977,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/zz-top-monterrey-2025.jpg",
    "genre": null,
+   "description": "ZZ Top en Auditorio Banamex, 13 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7007,6 +7024,24 @@
    "url": "https://feverup.com/m/709586"
   },
   {
+   "id": "a00c9735ef59",
+   "title": "Griss Romero en Concierto",
+   "start": "2026-11-14T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
    "id": "3b0801cde263",
    "title": "Los Claxons en Arena Monterrey",
    "start": "2026-11-14T21:00",
@@ -7016,6 +7051,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/los-claxons-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "Los Claxons en Arena Monterrey, 14 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7035,6 +7071,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/671828228_18450942970107544_2110544211952961795_n.jpg",
    "genre": null,
+   "description": "Matute en Escenario GNP Seguros, 14 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7054,6 +7091,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/jeanette-monterrey-2026.jpg",
    "genre": null,
+   "description": "Jeanette en Showcenter Complex, 15 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7090,6 +7128,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/mon-laferte-auditorio-banamex-monterrey-17-noviembre-2026.jpg",
    "genre": null,
+   "description": "Mon Laferte en Auditorio Banamex, 16 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7140,6 +7179,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/concierto-banda-ms-monterrey-2026.jpeg",
    "genre": null,
+   "description": "Banda MS en Arena Monterrey, 20 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7177,6 +7217,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/05/Los-Autenticos-decadentes-y-caligaris-en-monterrey-2026.jpg",
    "genre": null,
+   "description": "Los Auténticos Decadentes y Los Caligaris en Auditorio Banamex, 20 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7196,6 +7237,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/05/lp-en-monterrey-2026.jpg",
    "genre": null,
+   "description": "LP en Escenario GNP Seguros, 20 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7251,6 +7293,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/easykid-foro-corona-monterrey-2026.jpg",
    "genre": null,
+   "description": "Easykid en Foro Corona, 25 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7271,6 +7314,7 @@
    "price": "$650 – $2350",
    "tickets": "https://www.superboletos.com/landing-evento/mEhUJizH3Il0JVXnNY1yiw",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/DANIEL-HABIF-MTY.jpg",
+   "description": "Calificación promedio Aún no hay calificación «El Paso Final» representa la consolidación de todo lo vivido: el momento donde entiendes que el verdadero ascenso no ocurre en el evento, sino en la decisión que tomas después. ASCENDER es una experiencia en vivo de 2 horas que integra emoción, profundidad, conexión espiritual, música, arte y transformación práctica, diseñada para llevarte a ese punto donde todo cambia. Quienes ya lo vivieron, regresan para dar el siguiente paso. Quienes no, están a tiempo de entrar en el momento más importante del proceso. Este no es solo un evento.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7289,6 +7333,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/05/trueno-en-concierto-sede-auditorio-banamex-2026.jpg",
    "genre": null,
+   "description": "Trueno en Auditorio Banamex, 26 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7297,6 +7342,28 @@
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-trueno-auditorio-banamex-2026-monterrey"
+  },
+  {
+   "id": "17ce057a46a8",
+   "title": "Candlelight: Coldplay & Imagine Dragons",
+   "start": "2026-11-27T19:00",
+   "end": "2027-02-13T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8711b8c6-9c76-11f1-bced-aeb6d10358b8.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/266289"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/candlelight-coldplay-and-imagine-dragons/2700030035779956"
+    }
+   ],
+   "url": "https://feverup.com/m/266289"
   },
   {
    "id": "18f9e39cc360",
@@ -7308,6 +7375,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/cd9-parallax-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "CD9 en Arena Monterrey, 27 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7327,6 +7395,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/maria-jose-ahora-o-nunca-auditorio-banamex-monterrey-2026.jpg",
    "genre": null,
+   "description": "María José en Auditorio Banamex, 27 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7365,6 +7434,7 @@
    "price": "$400 – $1300",
    "tickets": "https://arema.mx/e/20264-motel-20-anos-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/MOTEL.jpg",
+   "description": "Calificación promedio Aún no hay calificación Con más de 20 años de trayectoria, Motel se ha consolidado como una de las principales agrupaciones de pop rock en México. De acuerdo con datos de Chartmetric, la banda cuenta con más de 1.6 millones de escuchas activos en Spotify. Su presentación en Monterrey será una celebración de su legado, su evolución artística y el vínculo que han construido con su público durante más de dos décadas. El espectáculo recorrerá sus grandes éxitos, sus últimos lanzamientos y aquellas canciones que continúan despertando emociones con el primer acorde.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7384,6 +7454,7 @@
    "price": "$753 – $6027",
    "tickets": "https://www.superboletos.com/landing-evento/ppChiH_-2g9VHeCA9eRq9Q",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/03/carlos-rivera.webp",
+   "description": "Calificación promedio Aún no hay calificación OBSERVACIONES No se permiten cámaras fotográficas ni vídeo profesionales. Pagan a partir de 2 años. Apertura de puertas 2 horas antes de iniciar el evento 28 de Noviembre del 2026 21:00 Hrs.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7403,6 +7474,7 @@
    "price": "$700 – $1500",
    "tickets": "https://t3.arema.mx/e/20124/Insite-en-Monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/700207959_1838659347547359_6123208461211727129_n.jpg",
+   "description": "Calificación promedio Aún no hay calificación Sinopsis: INSITE celebra el aniversario de uno de sus álbumes más queridos con su Te Vi Volar Tour 2026, una experiencia transformadora donde tocarán en su totalidad «Una Vida No Es Suficiente» y «Ahora Soy Yo Contra El Mundo». No te pierdas una noche llena de himnos que marcaron la historia de toda una generación. Fecha: 28 de Noviembre 2026 Hora: 20:00 horas (M&G) 21:00 horas (evento) Lugar: Café Iguana Dirección del evento: C. Diego de Montemayor 927-Sur, Barrio Antiguo, Centro, 64000 Monterrey, N.L.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7421,6 +7493,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/lenny-tavarez-justin-quiles-monterrey-2026-scaled.jpg",
    "genre": null,
+   "description": "Lenny Tavárez y Justin Quiles en Auditorio Banamex, 28 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7440,6 +7513,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/yandel-sinfonico-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "Yandel en Arena Monterrey, 30 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7459,6 +7533,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/main_l_x2_EVT136763.webp",
    "genre": null,
+   "description": "Morat en Arena Monterrey, 2 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7479,6 +7554,7 @@
    "price": "$992 – $3753",
    "tickets": "https://www.superboletos.com/landing-evento/F1EVizizBHyX8lK6DRIUcQ",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/morat-mty-26.jpg",
+   "description": "Calificación promedio Aún no hay calificación Hoy en día, Morat se consolida como la fuerza más imparable del pop-rock en español, elevando su propuesta a un nuevo nivel con su gira mundial «Ya Es Mañana». Los cuatro integrantes colombianos regresan para demostrar por qué han conquistado el panorama global, fusionando su esencia folk con una producción mucho más robusta y madura que define su sonido actual. La banda llega en su mejor momento para presentar en vivo su nuevo disco, «Ya Es Mañana».",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7515,6 +7591,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/05/concierto-eden-munoz-en-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "Eden Muñoz en Arena Monterrey, 5 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7535,6 +7612,7 @@
    "price": "$600 – $1600",
    "tickets": "https://arema.mx/e/21186-shey-band-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Shey-Band-en-Monterrey.jpg",
+   "description": "Calificación promedio Aún no hay calificación Shey Band llegará a Monterrey el próximo 5 de diciembre con un espectáculo que combina música en vivo, interacción con el público y un repertorio que transita por diferentes géneros de la música contemporánea. El proyecto se caracteriza por su versatilidad interpretativa y una propuesta que navega entre el pop, el rock y los ritmos latinos, con una selección de canciones pensada para convertir el concierto en una experiencia festiva.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7553,6 +7631,7 @@
    "price": "$350 – $400",
    "tickets": "https://arema.mx/e/18046-esto-no-es-una-pastorela-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Esto-no-es-una-pastorela-en-Monterrey.jpg",
+   "description": "Calificación promedio Aún no hay calificación Esta temporada decembrina llega a Monterrey Esto NO es una Pastorela, un espectáculo familiar que combina humor, música, enredos y personajes conocidos por el público regiomontano. Protagonizada por Tolocho, Cococho y La Vaca Minito, la puesta en escena lleva al teatro la energía y el humor de Caminito de la Escuela para construir una historia llena de situaciones inesperadas. En esta cuarta temporada, Tolocho se reencuentra en escena con Bonny Bonny, recuperando una pareja que forma parte de la memoria de los espectáculos de los años 80.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7589,6 +7668,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/concierto-sin-bandera-arena-monterrey-diciembre-2026.jpg",
    "genre": null,
+   "description": "Sin Bandera en Arena Monterrey, 10 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7607,6 +7687,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/caifanes-auditorio-banamex-monterrey-2026.jpg",
    "genre": null,
+   "description": "Caifanes en Auditorio Banamex, 11 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7675,6 +7756,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/poster-oficial-alejandra-guzman-arena-monterrey-2026.jpeg",
    "genre": null,
+   "description": "Alejandra Guzman en Arena Monterrey, 12 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7694,6 +7776,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/03/624141524_18560334268056556_4039628660340507987_n.jpg",
    "genre": null,
+   "description": "Deep Purple en Arena Monterrey, 13 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7732,6 +7815,7 @@
    "price": "$600 – $1300",
    "tickets": "https://arema.mx/e/20662-veintidos-veintidos-de-odin-dupeyron-en-monterrey",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/2222.jpg",
+   "description": "Calificación promedio Aún no hay calificación Verónica atraviesa la que considera la peor crisis de su existencia. En medio de este difícil proceso, se encuentra con un singular personaje que se hace llamar ATT, quien la llevará a confrontar distintos momentos de su vida y a comprender que tanto las experiencias más dolorosas como las más felices son las que la han convertido en una persona única y extraordinaria. A través de este encuentro, Verónica comenzará un viaje de reflexión que la llevará, paso a paso, a reconsiderar una decisión que parecía definitiva.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7750,6 +7834,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/enjambre-auditorio-banamex-monterrey-2026.jpg",
    "genre": null,
+   "description": "Enjambre en Auditorio Banamex, 17 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7769,6 +7854,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/grupo-frontera-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "Grupo Frontera en Arena Monterrey, 17 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7806,6 +7892,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/sleeping-with-sirens-monterrey-2026.jpg",
    "genre": null,
+   "description": "Sleeping With Sirens en Showcenter Complex, 18 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7843,6 +7930,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/la-firma-arena-monterrey-2026.jpg",
    "genre": null,
+   "description": "La Firma en Arena Monterrey, 19 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7862,6 +7950,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/tempus-christmas-concert-monterrey-2026.jpg",
    "genre": null,
+   "description": "Tempus Christmas Concert en Showcenter Complex, 22 de diciembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7881,6 +7970,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/06/Concierto-Hayley-Williams-auditorio-banamex-2027-1.jpg",
    "genre": null,
+   "description": "Hayley Williams en Auditorio Banamex, 15 de enero, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7918,6 +8008,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/06/Black-Level-Society-en-Monterrey-2027.jpeg",
    "genre": null,
+   "description": "Black Label Society en Showcenter Complex, 21 de enero, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -7938,6 +8029,7 @@
    "price": "$750 – $1000",
    "tickets": "https://arema.mx/e/20250",
    "image": "https://carteleraescenica.com/wp-content/uploads/2026/07/95810101_1456538601193523_4190893344995409920_n-1.jpg",
+   "description": "Calificación promedio Aún no hay calificación Hellripper, el proyecto liderado por el músico escocés James McBain, llega a Monterrey con un concierto que reúne la intensidad del black metal, speed metal y thrash metal en una propuesta de gran energía. Reconocido por su sonido agresivo y su virtuosismo instrumental, Hellripper se ha consolidado como una de las agrupaciones más destacadas de la nueva escena del metal extremo, ofreciendo presentaciones cargadas de velocidad, potencia y una fuerte presencia escénica.",
    "sources": [
     {
      "id": "cartelera_escenica",
@@ -7992,6 +8084,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/edith-marquez-en-monterrey-2027.jpg",
    "genre": null,
+   "description": "Edith Márquez en Arena Monterrey, 6 de febrero, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8029,6 +8122,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/05/westlife-en-concierto-arena-monterrey-2027.jpg",
    "genre": null,
+   "description": "Westlife en Arena Monterrey, 24 de febrero, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8048,6 +8142,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/04/Jorge-Drexler-en-Escenario-GNP-Seguros-2027.jpg",
    "genre": null,
+   "description": "Jorge Drexler en Escenario GNP Seguros, 25 de febrero, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8067,6 +8162,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/emmanuel-sinfonico-auditorio-banamex-monterrey-2027.jpg",
    "genre": null,
+   "description": "Emmanuel en Auditorio Banamex, 27 de febrero, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8086,6 +8182,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/foreigner-monterrey-2027.jpg",
    "genre": null,
+   "description": "Foreigner en Escenario GNP Seguros, 27 de febrero, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8105,6 +8202,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/interpol-arena-monterrey-monterrey-2027.jpg",
    "genre": null,
+   "description": "Interpol en Arena Monterrey, 9 de marzo, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8124,6 +8222,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/placebo-auditorio-banamex-monterrey-2027.jpg",
    "genre": null,
+   "description": "Placebo en Auditorio Banamex, 18 de marzo, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8143,6 +8242,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/05/jungle-en-monterrey-2027-auditorio-banamex.png",
    "genre": null,
+   "description": "Jungle en Auditorio Banamex, 22 de marzo, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8162,6 +8262,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/silvio-rodriguez-auditorio-banamex-monterrey-2027.jpg",
    "genre": null,
+   "description": "Silvio Rodríguez en Auditorio Banamex, 15 de abril, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
@@ -8181,6 +8282,7 @@
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/wicked-part-one-in-concert-arena-monterrey-2027.jpg",
    "genre": null,
+   "description": "Wicked: Part One in Concert en Arena Monterrey, 24 de abril, 2027. Consulta toda la información y compra boletos.",
    "category": "Música",
    "sources": [
     {
