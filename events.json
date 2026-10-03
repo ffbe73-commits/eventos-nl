@@ -1,1 +1,6094 @@
-{"generatedAt":null,"total":0,"sources":[],"events":[]}
+{
+ "generatedAt": "2026-10-03T18:13:03.687Z",
+ "timezone": "America/Monterrey",
+ "total": 270,
+ "sources": [
+  {
+   "id": "cartelera_escenica",
+   "name": "Cartelera Escénica",
+   "home": "https://carteleraescenica.com/cartelera/",
+   "ok": true,
+   "count": 89,
+   "error": null,
+   "checkedAt": "2026-10-03T18:11:18.814Z",
+   "lastSuccess": "2026-10-03T18:11:18.814Z",
+   "ms": 2900
+  },
+  {
+   "id": "ticketmaster",
+   "name": "Ticketmaster",
+   "home": "https://www.ticketmaster.com.mx/discover/monterrey",
+   "ok": false,
+   "count": 0,
+   "error": "Falta la clave TM_API_KEY",
+   "checkedAt": "2026-10-03T18:11:21.715Z",
+   "lastSuccess": null,
+   "skipped": true,
+   "ms": 0
+  },
+  {
+   "id": "conciertos_mty",
+   "name": "Conciertos en Monterrey",
+   "home": "https://conciertosenmonterrey.com/cartelera",
+   "ok": true,
+   "count": 78,
+   "error": null,
+   "checkedAt": "2026-10-03T18:11:21.715Z",
+   "lastSuccess": "2026-10-03T18:11:21.715Z",
+   "ms": 4098
+  },
+  {
+   "id": "conarte_agenda",
+   "name": "CONARTE (agenda)",
+   "home": "https://conarte.org.mx/agenda/",
+   "ok": true,
+   "count": 54,
+   "error": null,
+   "checkedAt": "2026-10-03T18:11:25.813Z",
+   "lastSuccess": "2026-10-03T18:11:25.813Z",
+   "ms": 82704
+  },
+  {
+   "id": "cineteca",
+   "name": "Cineteca Nuevo León",
+   "home": "https://conarte.org.mx/cineteca/",
+   "ok": true,
+   "count": 41,
+   "error": null,
+   "checkedAt": "2026-10-03T18:12:48.517Z",
+   "lastSuccess": "2026-10-03T18:12:48.517Z",
+   "ms": 6788
+  },
+  {
+   "id": "nuevoleon_travel",
+   "name": "Nuevo León Travel",
+   "home": "https://www.nuevoleon.travel/eventos/",
+   "ok": true,
+   "count": 10,
+   "error": null,
+   "checkedAt": "2026-10-03T18:12:55.305Z",
+   "lastSuccess": "2026-10-03T18:12:55.305Z",
+   "ms": 1202
+  },
+  {
+   "id": "allevents",
+   "name": "Allevents Monterrey",
+   "home": "https://allevents.in/monterrey/all",
+   "ok": true,
+   "count": 45,
+   "error": null,
+   "checkedAt": "2026-10-03T18:12:56.507Z",
+   "lastSuccess": "2026-10-03T18:12:56.507Z",
+   "ms": 292
+  },
+  {
+   "id": "ctxplorer",
+   "name": "CTXplorer (Monterrey)",
+   "home": "https://ctxplorer.com/mx/monterrey",
+   "ok": true,
+   "count": 12,
+   "error": null,
+   "checkedAt": "2026-10-03T18:12:56.799Z",
+   "lastSuccess": "2026-10-03T18:12:56.799Z",
+   "ms": 555
+  },
+  {
+   "id": "marco",
+   "name": "MARCO",
+   "home": "https://www.marco.org.mx/eventos/",
+   "ok": true,
+   "count": 2,
+   "error": null,
+   "checkedAt": "2026-10-03T18:12:57.354Z",
+   "lastSuccess": "2026-10-03T18:12:57.354Z",
+   "ms": 719
+  },
+  {
+   "id": "tres_museos",
+   "name": "3 Museos",
+   "home": "https://www.3museos.com/eventos/",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 en https://www.3museos.com/eventos/",
+   "checkedAt": "2026-10-03T18:12:58.073Z",
+   "lastSuccess": null,
+   "ms": 3704
+  },
+  {
+   "id": "cintermex",
+   "name": "Cintermex",
+   "home": "https://www.cintermex.com/calendario",
+   "ok": true,
+   "count": 9,
+   "error": null,
+   "checkedAt": "2026-10-03T18:13:01.777Z",
+   "lastSuccess": "2026-10-03T18:13:01.777Z",
+   "ms": 843
+  },
+  {
+   "id": "foro_corona",
+   "name": "Foro Corona",
+   "home": "https://www.forocorona.com/cartelera",
+   "ok": true,
+   "count": 18,
+   "error": null,
+   "checkedAt": "2026-10-03T18:13:02.620Z",
+   "lastSuccess": "2026-10-03T18:13:02.620Z",
+   "ms": 181
+  },
+  {
+   "id": "fever",
+   "name": "Fever",
+   "home": "https://feverup.com/es/monterrey",
+   "ok": true,
+   "count": 30,
+   "error": null,
+   "checkedAt": "2026-10-03T18:13:02.801Z",
+   "lastSuccess": "2026-10-03T18:13:02.801Z",
+   "ms": 357
+  },
+  {
+   "id": "primetickets",
+   "name": "Prime Tickets",
+   "home": "https://cartelera.primetickets.mx/",
+   "ok": true,
+   "count": 16,
+   "error": null,
+   "checkedAt": "2026-10-03T18:13:03.158Z",
+   "lastSuccess": "2026-10-03T18:13:03.158Z",
+   "ms": 494
+  }
+ ],
+ "events": [
+  {
+   "id": "87f00912e2c8",
+   "title": "Sáquenme la espada",
+   "start": "2023-07-17",
+   "end": "2026-10-13",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/41/cartelera.png",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/saquenme-la-espada"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/saquenme-la-espada"
+  },
+  {
+   "id": "be9d4ba337c7",
+   "title": "Rapsodia de Natalia Virgen",
+   "start": "2026-05-06",
+   "end": "2026-10-19",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/237/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/natalia-virgen"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/natalia-virgen"
+  },
+  {
+   "id": "8d65e97085f3",
+   "title": "Café Literario: Lo que no pasa | Agosto – Diciembre 2026",
+   "start": "2026-08-25T20:00",
+   "end": "2026-12-01",
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Museos",
+   "price": "$700 - 3,800 MXN",
+   "image": "https://www.marco.org.mx/imagenes/2026/08/FLYER-GENERAL-IG-IMG-e1787348425550.png",
+   "sources": [
+    {
+     "id": "marco",
+     "url": "https://www.marco.org.mx/eventos/cafe-literario-lo-que-no-pasa-agosto-diciembre-2026/"
+    }
+   ],
+   "url": "https://www.marco.org.mx/eventos/cafe-literario-lo-que-no-pasa-agosto-diciembre-2026/"
+  },
+  {
+   "id": "40431de30909",
+   "title": "LO QUE QUEDA DE NOSOTROS",
+   "start": "2026-09-03",
+   "end": "2026-10-29",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/260/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/lo-que-queda-de-nosotros"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/lo-que-queda-de-nosotros"
+  },
+  {
+   "id": "d09b9b47b4e9",
+   "title": "SEDIENTOS",
+   "start": "2026-09-14",
+   "end": "2026-10-12",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/265/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/sedientos"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/sedientos"
+  },
+  {
+   "id": "705d8d9e9973",
+   "title": "INFIELES",
+   "start": "2026-09-23",
+   "end": "2026-10-31",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/271/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/infieles"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/infieles"
+  },
+  {
+   "id": "58b781aa02d4",
+   "title": "SE LO QUE HICIERON EL HALLOWEEN PASADO",
+   "start": "2026-10-01",
+   "end": "2026-10-29",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/267/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/halloween-pasado"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/halloween-pasado"
+  },
+  {
+   "id": "1d3e74094cc0",
+   "title": "Expo Esotérica",
+   "start": "2026-10-02",
+   "end": "2026-10-04",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/62553",
+   "description": "El evento esotérico más grande e importante de América llega este ✨ 2, 3 y 4 octubre a CINTERMEX 👉 Expo Esotérica — SOMOS EL ORIGEN 🎉 20 años marcando el camino - Si te interesa el bienestar, la energía, la espiritualidad o o el crecimiento personal.",
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://facebook.com/expoesotericaoficial"
+    }
+   ],
+   "url": "http://facebook.com/expoesotericaoficial"
+  },
+  {
+   "id": "053f8c797a68",
+   "title": "Expo TlaquepArte",
+   "start": "2026-10-02",
+   "end": "2026-10-05",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/66741",
+   "description": "Exposición internacional de artesanía, joyería y decoración.",
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://facebook.com/expotlaqueparte"
+    }
+   ],
+   "url": "http://facebook.com/expotlaqueparte"
+  },
+  {
+   "id": "d0ec5d4af654",
+   "title": "Hazlo tu, Artes Manualidades y Oficios 2026",
+   "start": "2026-10-02",
+   "end": "2026-10-04",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/65628",
+   "description": "Emprende, Ahorra y Diviértete en Hazlo Tú el evento donde podrás: * Aprender una nueva habilidad * Participar en talleres y demostraciones * Conseguir proveedores para emprender * Ahorrar en tu hogar",
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://www.hazlotu.com"
+    }
+   ],
+   "url": "http://www.hazlotu.com"
+  },
+  {
+   "id": "9b57ab3bb834",
+   "title": "Expo Maternidad y Bebé",
+   "start": "2026-10-03",
+   "end": "2026-10-04",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/67234",
+   "description": "Todo lo que necesitas para la llegada de tu bebé y su crianza en un solo lugar. Conferencias con temas de interés , regalos y mucho más. 11 am a 8 pm $100 adultos y niños sin costo.",
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://expomaternidadybebe.com.mx/"
+    }
+   ],
+   "url": "http://expomaternidadybebe.com.mx/"
+  },
+  {
+   "id": "fe47e3c86373",
+   "title": "Horror Fest 2026",
+   "start": "2026-10-03",
+   "end": "2026-10-04",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/66307",
+   "description": "Horror Fest 2026 reúne el mundo de Terrifier y Welcome to Derry con Invitados Internacionales, Casas de Terror, Scare Zone y mucho más.",
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://www.horrorfest.mx"
+    },
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/horror-fest-2026"
+    }
+   ],
+   "url": "http://www.horrorfest.mx"
+  },
+  {
+   "id": "52650681e950",
+   "title": "Papalote Museo del Niño + Expo Dinosaurios",
+   "start": "2026-10-03T10:00",
+   "end": "2026-10-28T10:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $280",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/338223"
+    }
+   ],
+   "url": "https://feverup.com/m/338223"
+  },
+  {
+   "title": "Primera Bienal de Fotografía Nuevo León 2026",
+   "start": "2026-10-03T10:00",
+   "end": "2026-10-30T18:00",
+   "venue": "Cineteca y Fototeca Nuevo León | CONARTE",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Gratuito",
+   "tickets": null,
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/08/bienal-fotografia.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-03/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-03/",
+   "id": "3928f60f4500",
+   "dates": [
+    {
+     "start": "2026-10-03T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-03/"
+    },
+    {
+     "start": "2026-10-04T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-04/"
+    },
+    {
+     "start": "2026-10-05T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-05/"
+    },
+    {
+     "start": "2026-10-06T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-06/"
+    },
+    {
+     "start": "2026-10-07T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-07/"
+    },
+    {
+     "start": "2026-10-08T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-08/"
+    },
+    {
+     "start": "2026-10-09T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-09/"
+    },
+    {
+     "start": "2026-10-10T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-10/"
+    },
+    {
+     "start": "2026-10-11T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-11/"
+    },
+    {
+     "start": "2026-10-12T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-12/"
+    },
+    {
+     "start": "2026-10-13T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-13/"
+    },
+    {
+     "start": "2026-10-14T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-14/"
+    },
+    {
+     "start": "2026-10-15T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-15/"
+    },
+    {
+     "start": "2026-10-16T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-16/"
+    },
+    {
+     "start": "2026-10-17T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-17/"
+    },
+    {
+     "start": "2026-10-18T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-18/"
+    },
+    {
+     "start": "2026-10-19T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-19/"
+    },
+    {
+     "start": "2026-10-20T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-20/"
+    },
+    {
+     "start": "2026-10-21T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-21/"
+    },
+    {
+     "start": "2026-10-22T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-22/"
+    },
+    {
+     "start": "2026-10-23T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-23/"
+    },
+    {
+     "start": "2026-10-24T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-24/"
+    },
+    {
+     "start": "2026-10-25T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-25/"
+    },
+    {
+     "start": "2026-10-26T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-26/"
+    },
+    {
+     "start": "2026-10-27T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-27/"
+    },
+    {
+     "start": "2026-10-28T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-28/"
+    },
+    {
+     "start": "2026-10-29T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-29/"
+    },
+    {
+     "start": "2026-10-30T10:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-30/"
+    }
+   ]
+  },
+  {
+   "id": "70779a7b0281",
+   "title": "Visita guiada por Gabriel de la Mora",
+   "start": "2026-10-03T10:00",
+   "end": null,
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Museos",
+   "price": "Evento gratuito",
+   "image": "https://www.marco.org.mx/imagenes/2026/09/Diseno-sin-titulo-6-e1789757377242.png",
+   "sources": [
+    {
+     "id": "marco",
+     "url": "https://www.marco.org.mx/eventos/visita-guiada-por-gabriel-de-la-mora-5/"
+    }
+   ],
+   "url": "https://www.marco.org.mx/eventos/visita-guiada-por-gabriel-de-la-mora-5/"
+  },
+  {
+   "id": "20fcc21925b4",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "start": "2026-10-03T11:00",
+   "end": "2026-12-06T17:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $370",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670"
+  },
+  {
+   "id": "3a0864a4a10a",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "start": "2026-10-03T11:00",
+   "end": "2026-11-01T18:00",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
+    }
+   ],
+   "url": "https://feverup.com/m/629878"
+  },
+  {
+   "id": "66900d89c8d5",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "start": "2026-10-03T11:00",
+   "end": "2027-01-31T19:00",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $635",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272"
+  },
+  {
+   "id": "eed4c8056870",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "start": "2026-10-03T12:00",
+   "end": "2026-11-29T19:00",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206"
+  },
+  {
+   "id": "6ea66a5f38fc",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "start": "2026-10-03T12:30",
+   "end": "2026-10-28T18:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $300",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894"
+  },
+  {
+   "title": "Más allá del resultado",
+   "start": "2026-10-03T14:00",
+   "end": "2026-10-04T12:00",
+   "times": [
+    "14:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Mas-alla-del-resultado-Poster-1-1-e1790208005729-700x360.jpg",
+   "description": "Un grupo de jóvenes de distintos puntos de Nuevo León recibe la oportunidad de representar…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/mas-alla-del-resultado/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/mas-alla-del-resultado/",
+   "id": "583ecc65d225",
+   "dates": [
+    {
+     "start": "2026-10-03T14:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/mas-alla-del-resultado/"
+    },
+    {
+     "start": "2026-10-04T12:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/mas-alla-del-resultado/"
+    }
+   ]
+  },
+  {
+   "title": "Un reino para todos nosotros",
+   "start": "2026-10-03T14:15",
+   "end": "2026-10-04T12:30",
+   "times": [
+    "14:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Un-reino-para-todos-nosotros-Imagen-e1790208341104-700x360.jpg",
+   "description": "Fran y Serendín son hermanos y viven en el Gran Arrabal. Ambos sueñan con algún…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/un-reino-para-todos-nosotros/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/un-reino-para-todos-nosotros/",
+   "id": "37fbd7f2d145",
+   "dates": [
+    {
+     "start": "2026-10-03T14:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/un-reino-para-todos-nosotros/"
+    },
+    {
+     "start": "2026-10-04T12:30",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/un-reino-para-todos-nosotros/"
+    }
+   ]
+  },
+  {
+   "title": "Dogtooth: Canino",
+   "start": "2026-10-03T16:00",
+   "end": "2026-10-04T16:00",
+   "times": [
+    "16:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Dogtooth-Imagen-e1789504623628-700x301.jpg",
+   "description": "Un estricto matrimonio educa a sus tres hijos según los métodos que ellos juzgan más…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/dogtooth-canino/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/dogtooth-canino/",
+   "id": "fd27c35aa7a2",
+   "dates": [
+    {
+     "start": "2026-10-03T16:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/dogtooth-canino/"
+    },
+    {
+     "start": "2026-10-04T16:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/dogtooth-canino/"
+    }
+   ]
+  },
+  {
+   "title": "El fin de la escuela",
+   "start": "2026-10-03T16:15",
+   "end": "2026-10-07T18:00",
+   "times": [
+    "16:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/El-fin-de-la-escuela-Imagen-700x360.png",
+   "description": "¿Para qué queremos las escuelas? De esta pregunta se deriva una amplia discusión con la…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/el-fin-de-la-escuela/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/el-fin-de-la-escuela/",
+   "id": "73c33b4e2436",
+   "dates": [
+    {
+     "start": "2026-10-03T16:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/el-fin-de-la-escuela/"
+    },
+    {
+     "start": "2026-10-07T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/el-fin-de-la-escuela/"
+    }
+   ]
+  },
+  {
+   "title": "Dos estaciones",
+   "start": "2026-10-03T17:00",
+   "end": "2026-10-04T17:15",
+   "times": [
+    "17:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Dos-Estaciones-Imagen-700x360.jpg",
+   "description": "María García, una mujer de 50 años, es la dueña de Dos Estaciones, una antigua…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/dos-estaciones-2/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/dos-estaciones-2/",
+   "id": "107cb9204594",
+   "dates": [
+    {
+     "start": "2026-10-03T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/dos-estaciones-2/"
+    },
+    {
+     "start": "2026-10-04T17:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/dos-estaciones-2/"
+    }
+   ]
+  },
+  {
+   "title": "La Muerte de un Viajante en Monterrey",
+   "start": "2026-10-03T17:00",
+   "end": "2026-10-04T19:00",
+   "venue": "Teatro de La Ciudad Monterrey",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$350 – $1200",
+   "tickets": "https://arema.mx/e/20983-la-muerte-de-un-viajante-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/MUERTE.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/la-muerte-de-un-viajante-en-monterrey/2026-10-03/1/"
+    },
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/la-muerte-de-un-viajante/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/la-muerte-de-un-viajante-en-monterrey/2026-10-03/1/",
+   "id": "319ceaddb798",
+   "dates": [
+    {
+     "start": "2026-10-03T17:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-muerte-de-un-viajante-en-monterrey/2026-10-03/1/"
+    },
+    {
+     "start": "2026-10-03T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-muerte-de-un-viajante-en-monterrey/2026-10-03/2/"
+    },
+    {
+     "start": "2026-10-04T17:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-muerte-de-un-viajante-en-monterrey/2026-10-04/"
+    }
+   ]
+  },
+  {
+   "title": "FESTIVAL DE CINE ALEMÁN: El juicio de Hein",
+   "start": "2026-10-03T18:00",
+   "end": "2026-10-10T18:00",
+   "times": [
+    "18:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/El-juicio-de-Hein-1-scaled-e1790726415337-700x360.jpg",
+   "description": "Tras catorce años de ausencia, Hein regresa a su pueblo natal en una remota isla,…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-el-juicio-de-hein/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-el-juicio-de-hein/",
+   "id": "834f5f227556",
+   "dates": [
+    {
+     "start": "2026-10-03T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-el-juicio-de-hein/"
+    },
+    {
+     "start": "2026-10-10T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-el-juicio-de-hein/"
+    }
+   ]
+  },
+  {
+   "id": "4a93432b9d1b",
+   "title": "Vallenato Fest en Monterrey",
+   "start": "2026-10-03T18:00",
+   "end": "2026-10-03T22:30",
+   "venue": "Rincón Tostitos By Jardín 85",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$300 – $600",
+   "tickets": "https://arema.mx/e/20866-vallenato-fest-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/VALLENATO.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/vallenato-fest-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/vallenato-fest-en-monterrey/"
+  },
+  {
+   "title": "Barrio triste",
+   "start": "2026-10-03T18:15",
+   "end": "2026-10-06T20:45",
+   "times": [
+    "18:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Barrio-triste-Imagen-e1790801643675-700x360.png",
+   "description": "En las afueras de Medellín a finales de la década de 1980, mientras un reportero…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/barrio-triste/",
+   "id": "b3d3ca9180ed",
+   "dates": [
+    {
+     "start": "2026-10-03T18:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    },
+    {
+     "start": "2026-10-06T20:45",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    }
+   ]
+  },
+  {
+   "id": "c1ca8b75814f",
+   "title": "Amorphis in Monterrey",
+   "start": "2026-10-03T19:00",
+   "end": null,
+   "venue": "Cafe Iguana",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy8yOGVlMDY0MC0zOWYzLTExZjEtYmQxZi1mMWUxMGYwM2JlNmYtcmltZy13MTIwMC1oNjc1LWRjMTQxMzE0LWdtaXIud2VicD92PTE3NzYzODUxOTU.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/amorphis-in-monterrey/3300029956926255"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/amorphis-in-monterrey/3300029956926255"
+  },
+  {
+   "id": "527317f13054",
+   "title": "Digger - IMAX 1.43:1",
+   "start": "2026-10-03T19:00",
+   "end": null,
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Museos",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy83ZTZmZTU5MC1iZWQ1LTExZjEtOGExOC1iM2U1MmQ0YmYyZDYtcmltZy13NTUwLWg1NTAtZGMwODA4MDgtZ21pci5qcGc_dj0xNzkwOTk1OTU4.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/digger-imax-143-1/2700030727879615"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/digger-imax-143-1/2700030727879615"
+  },
+  {
+   "id": "08e887c19be4",
+   "title": "Bronco",
+   "start": "2026-10-03T20:00",
+   "end": "2026-10-04T00:00",
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/main_l_x2_EVT137603.webp",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/bronco-monterrey-tickets/100030266939047"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-bronco-monterrey-2026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/bronco-monterrey-tickets/100030266939047"
+  },
+  {
+   "id": "1a6d0d1f0e08",
+   "title": "Dahmer",
+   "start": "2026-10-03T20:00",
+   "end": "2026-10-03T22:00",
+   "venue": "Auditorio San Pedro",
+   "city": "san pedro garza garcía",
+   "category": "Teatro",
+   "price": "$245 – $490",
+   "tickets": "https://boletos.newticket.com.mx/newticket/en/dahmer-mirando-a-la-bestia-a-los-ojos-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Damher.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/dahmer/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/dahmer/"
+  },
+  {
+   "title": "Temporada de Teatro 2026 I El arma de Chéjov",
+   "start": "2026-10-03T20:00",
+   "end": "2026-10-11T18:00",
+   "venue": "Teatro de la Ciudad I Sala Experimental",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Slider_Chejov-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-el-arma-de-chejov/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-el-arma-de-chejov/",
+   "id": "5129df13d95a",
+   "dates": [
+    {
+     "start": "2026-10-03T20:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-el-arma-de-chejov/"
+    },
+    {
+     "start": "2026-10-04T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-el-arma-de-chejov/"
+    },
+    {
+     "start": "2026-10-09T20:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-el-arma-de-chejov/"
+    },
+    {
+     "start": "2026-10-10T20:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-el-arma-de-chejov/"
+    },
+    {
+     "start": "2026-10-11T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-el-arma-de-chejov/"
+    }
+   ]
+  },
+  {
+   "title": "Tus dos muertos",
+   "start": "2026-10-03T20:00",
+   "end": "2026-10-04T20:45",
+   "times": [
+    "20:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/07/Tus-Dos-Muertos-Imagen-e1783714471515-700x284.jpg",
+   "description": "Cipriano Zuzunaga es un policía judicial que ha visto pasar sus mejores días y vive…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/79-muestra-internacional-de-cine-tus-dos-muertos/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/79-muestra-internacional-de-cine-tus-dos-muertos/",
+   "id": "3473d149dc70",
+   "dates": [
+    {
+     "start": "2026-10-03T20:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/79-muestra-internacional-de-cine-tus-dos-muertos/"
+    },
+    {
+     "start": "2026-10-04T20:45",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/79-muestra-internacional-de-cine-tus-dos-muertos/"
+    }
+   ]
+  },
+  {
+   "title": "Su propio infierno",
+   "start": "2026-10-03T20:15",
+   "end": "2026-10-07T20:15",
+   "times": [
+    "20:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Su-propio-infierno-Imagen-e1790206907456-700x360.jpg",
+   "description": "Una extraña niebla se cierne sobre una metrópolis futurista y una siniestra figura conocida como…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/su-propio-infierno/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/su-propio-infierno/",
+   "id": "8a8a338f4f69",
+   "dates": [
+    {
+     "start": "2026-10-03T20:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/su-propio-infierno/"
+    },
+    {
+     "start": "2026-10-04T18:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/su-propio-infierno/"
+    },
+    {
+     "start": "2026-10-07T20:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/su-propio-infierno/"
+    }
+   ]
+  },
+  {
+   "title": "¿Quien Se Queda con Mamá?",
+   "start": "2026-10-03T20:30",
+   "end": "2026-10-24T22:00",
+   "venue": "Teatro Nena Delgado",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$600",
+   "tickets": "https://arema.mx/e/18044-quien-se-queda-con-mama-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/04/6085383.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-03/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-03/",
+   "id": "84e67175fc7c",
+   "dates": [
+    {
+     "start": "2026-10-03T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-03/"
+    },
+    {
+     "start": "2026-10-08T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-08/"
+    },
+    {
+     "start": "2026-10-10T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-10/"
+    },
+    {
+     "start": "2026-10-15T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-15/"
+    },
+    {
+     "start": "2026-10-17T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-17/"
+    },
+    {
+     "start": "2026-10-22T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-22/"
+    },
+    {
+     "start": "2026-10-24T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/quien-se-queda-con-mama-2/2026-10-24/"
+    }
+   ]
+  },
+  {
+   "id": "3b6a283455f5",
+   "title": "FESTIVAL DE CINE ALEMÁN: La condesa sangrienta",
+   "start": "2026-10-03T20:30",
+   "end": null,
+   "times": [
+    "20:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/La-condesa-sangrienta-Imagen-1-e1790726804951-700x360.jpg",
+   "description": "Décadas después de su misteriosa desaparición, la Condesa de Sangre reaparece en la Viena contemporánea.…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-la-condesa-sangrienta/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-la-condesa-sangrienta/"
+  },
+  {
+   "title": "Alvaro Diaz",
+   "start": "2026-10-03T21:00",
+   "end": "2026-10-04",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$979 – $2703",
+   "tickets": "https://www.ticketmaster.com.mx/alvaro-diaz-monterrey-03-10-2026/event/140064BA83223A06",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/images-22.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/alvaro-diaz/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/alvaro-diaz-suites/210003723036996"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-alvaro-diaz-auditorio-banamex-2026"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/alvaro-diaz-tm-65ndFNIk"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/alvaro-diaz/",
+   "id": "b815e5dee91b",
+   "dates": [
+    {
+     "start": "2026-10-03T21:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/alvaro-diaz/"
+    },
+    {
+     "start": "2026-10-04",
+     "end": null,
+     "url": "https://ctxplorer.com/events/alvaro-diaz-tm-6GmwWm82"
+    }
+   ]
+  },
+  {
+   "title": "Eslabón Armado",
+   "start": "2026-10-03T21:00",
+   "end": "2026-10-03T23:30",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$806 – $7278",
+   "tickets": "https://www.ticketmaster.com.mx/eslabon-armado-monterrey-03-10-2026/event/140064AFB3F0D04E",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/ESlabon-Armado.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/eslabon-armado/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/eslabón-armado/200030286529339"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/eslabon-armado"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/eslabon-armado-tm-61XSHuvC"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/eslabon-armado/",
+   "id": "145099ea490e",
+   "dates": [
+    {
+     "start": "2026-10-03T21:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/eslabon-armado/"
+    }
+   ]
+  },
+  {
+   "id": "c65277b8eff3",
+   "title": "Maroon 5",
+   "start": "2026-10-03T21:00",
+   "end": "2026-10-03T23:00",
+   "venue": "Estadio Borregos",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$1463 – $5436",
+   "tickets": "https://www.ticketmaster.com.mx/maroon-5-monterrey-03-10-2026/event/3D0064B99A74340C",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/f42abc1a-368b-4c68-91f3-fa853004e2ab_RETINA_PORTRAIT_16_9.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/maroon-5/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/maroon-5/210003855819314"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-maroon-5-estadio-borregos-monterrey-2026"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/maroon-5-tm-_5JQqd8G"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/maroon-5/"
+  },
+  {
+   "id": "85f2cbda8420",
+   "title": "Nicole Zignago en Foro Corona",
+   "start": "2026-10-03T21:00",
+   "end": "2026-10-04T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/concierto-de-Nicole-Zignago-en-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-nicole-zignago-foro-corona-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-nicole-zignago-foro-corona-2026"
+  },
+  {
+   "id": "09ab132a0d7a",
+   "title": "La Mesmo Vibra",
+   "start": "2026-10-04",
+   "end": "2026-10-04",
+   "venue": "Escenario GNP Seguros, Av. Benito Juárez No. 1002, Monterrey",
+   "city": "Monterrey",
+   "price": null,
+   "image": "https://ctxplorer.com/media/events/monterrey/la-mesmo-vibra-tm-6rehso.webp",
+   "genre": null,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/la-mesmo-vibra-tm-6CrehsMo"
+    }
+   ],
+   "url": "https://ctxplorer.com/events/la-mesmo-vibra-tm-6CrehsMo"
+  },
+  {
+   "id": "95ea92a0999a",
+   "title": "LA SEPULTADA",
+   "start": "2026-10-04",
+   "end": "2026-11-02",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/273/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/la-sepultada"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/la-sepultada"
+  },
+  {
+   "id": "1725030899b2",
+   "title": "Los ojos del General",
+   "start": "2026-10-04",
+   "end": "2026-11-01",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/264/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/los-ojos-del-general"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/los-ojos-del-general"
+  },
+  {
+   "id": "fca1edb33005",
+   "title": "LIII Congreso Anual del Colegio Mexicano de Medicina Crítica",
+   "start": "2026-10-04T08:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9kOWZiNTQ2YTU4NjA1YWY3ZDE0NGY2MjkwY2Y1MDdhODY3ZmJkYzRhNDRlMGE3OTBlMjEyODdjZWNhNWQwNzNjLXJpbWctdzgyMC1oMzYwLWRjZjhmOGY4LWdtaXI_dj0xNzg3NDY5NzM4.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/liii-congreso-anual-del-colegio-mexicano-de-medicina-crítica/200030258341547"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/liii-congreso-anual-del-colegio-mexicano-de-medicina-crítica/200030258341547"
+  },
+  {
+   "id": "08e08daa518b",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "start": "2026-10-04T10:00",
+   "end": "2026-12-30T10:00",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $220",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
+    }
+   ],
+   "url": "https://feverup.com/m/685013"
+  },
+  {
+   "id": "c09df5d283e2",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "start": "2026-10-04T11:00",
+   "end": "2026-11-29T17:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $799",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636"
+  },
+  {
+   "title": "Jikuri – Viaje al país de los Tarahumaras",
+   "start": "2026-10-04T14:00",
+   "end": "2026-10-07T16:00",
+   "times": [
+    "14:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2025/09/Jikuri-Imagen-e1757630844843-700x360.jpg",
+   "description": "Al abandonar prematuramente el ritual del cactus sagrado y regresar a Francia, el poeta Antonin…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/rumbo-al-ariel-jikuri-viaje-al-pais-de-los-tarahumaras/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/rumbo-al-ariel-jikuri-viaje-al-pais-de-los-tarahumaras/",
+   "id": "fe3ca0146a49",
+   "dates": [
+    {
+     "start": "2026-10-04T14:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/rumbo-al-ariel-jikuri-viaje-al-pais-de-los-tarahumaras/"
+    },
+    {
+     "start": "2026-10-07T16:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/rumbo-al-ariel-jikuri-viaje-al-pais-de-los-tarahumaras/"
+    }
+   ]
+  },
+  {
+   "id": "2973e9ae282f",
+   "title": "La desaparición de Josef Mengele",
+   "start": "2026-10-04T14:15",
+   "end": null,
+   "times": [
+    "14:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/La-Desaparicion-de-Josef-Mengele-Imagen-scaled-e1790206492684-700x360.jpg",
+   "description": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/la-desaparicion-de-josef-mengele/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/la-desaparicion-de-josef-mengele/"
+  },
+  {
+   "id": "7ed5a1df114c",
+   "title": "GREASE llega a Escobedo",
+   "start": "2026-10-04T16:00",
+   "end": "2026-10-04T18:00",
+   "venue": "Teatro Digital Fidel Velazquez",
+   "city": "Escobedo",
+   "category": "Teatro",
+   "price": "$406 – $764",
+   "tickets": "https://boletomovil.com/a-escena",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/grease.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/grease-llega-a-escobedo/2026-10-04/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/grease-llega-a-escobedo/2026-10-04/"
+  },
+  {
+   "id": "3827802fd329",
+   "title": "FESTIVAL DE CINE ALEMÁN: Prosecution",
+   "start": "2026-10-04T17:00",
+   "end": null,
+   "times": [
+    "17:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Prosecution-1-e1790727390600-700x360.jpg",
+   "description": "Tras sobrevivir a una agresión racista, la joven fiscal Seyo Kim decide llevar su propio…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-prosecution/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-prosecution/"
+  },
+  {
+   "id": "814a4b59e13b",
+   "title": "El acontecimiento",
+   "start": "2026-10-04T19:00",
+   "end": "2026-10-04T21:00",
+   "venue": "Teatro del Centro de las Artes",
+   "city": "Monterrey Nuevo León",
+   "category": "Teatro",
+   "price": "Gratuito",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/francia.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/el-acontecimiento/"
+    },
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/escena-conarte-i-el-acontecimiento/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/el-acontecimiento/"
+  },
+  {
+   "id": "300868b70a0c",
+   "title": "FESTIVAL DE CINE ALEMÁN: Doble patria",
+   "start": "2026-10-04T19:30",
+   "end": null,
+   "times": [
+    "19:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Doble-patria-1-scaled-e1790727590325-700x360.jpg",
+   "description": "Tirol del Sur, 1961. Esta región del norte de Italia se ve sacudida por una…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-doble-patria/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-doble-patria/"
+  },
+  {
+   "id": "1e8ec618a9e1",
+   "title": "Jose Ramones",
+   "start": "2026-10-04T20:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "fe6f17390ae8",
+   "title": "Café Pautado- JAZZ Connectión- SINFÓNICA TEC",
+   "start": "2026-10-06",
+   "end": "2026-10-06",
+   "venue": "Auditorio Luis Elizondo, Av. Luis Elizondo No. 540 Col. Tecnológico, Monterrey",
+   "city": "Monterrey",
+   "price": null,
+   "image": "https://ctxplorer.com/media/events/monterrey/cafe-pautado-jazz-connection-sinfonica-tec-tm-6u75v2.webp",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/cafe-pautado-jazz-connection-sinfonica-tec-tm-6ZAu75v2"
+    }
+   ],
+   "url": "https://ctxplorer.com/events/cafe-pautado-jazz-connection-sinfonica-tec-tm-6ZAu75v2"
+  },
+  {
+   "title": "La isla de azucar",
+   "start": "2026-10-06T17:00",
+   "end": "2026-10-07T19:00",
+   "times": [
+    "17:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/08/La-isla-de-azucar-Imagen-700x360.jpg",
+   "description": "Un embarazo no deseado desencadena el viaje hacia la adultez de Makenya, una adolescente dominico-haitiana…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/la-isla-de-azucar/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/la-isla-de-azucar/",
+   "id": "22d14f732f24",
+   "dates": [
+    {
+     "start": "2026-10-06T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/la-isla-de-azucar/"
+    },
+    {
+     "start": "2026-10-07T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/la-isla-de-azucar/"
+    }
+   ]
+  },
+  {
+   "id": "bc16d8315e20",
+   "title": "FESTIVAL DE CINE ALEMÁN: Entiendo su descontento",
+   "start": "2026-10-06T18:00",
+   "end": null,
+   "times": [
+    "18:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Entiendo-su-descontento-Poster-1-634x360.jpg",
+   "description": "Heike (59) trabaja como jefa de operaciones en una empresa de limpieza y cada día…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-entiendo-su-descontento/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-entiendo-su-descontento/"
+  },
+  {
+   "title": "Cocodrilos",
+   "start": "2026-10-06T18:15",
+   "end": "2026-10-07T15:00",
+   "times": [
+    "18:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Cocodrilos-Imagen-e1790207258115-700x360.jpg",
+   "description": "Un joven fotoperiodista de la ciudad de Veracruz, México, arriesgará su vida para descubrir una…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/cocodrilos/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/cocodrilos/",
+   "id": "f4cf06294026",
+   "dates": [
+    {
+     "start": "2026-10-06T18:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/cocodrilos/"
+    },
+    {
+     "start": "2026-10-07T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/cocodrilos/"
+    }
+   ]
+  },
+  {
+   "id": "f6160cc05ab2",
+   "title": "La 5ta Sinfonía de Beethoven en Monterrey",
+   "start": "2026-10-06T20:00",
+   "end": "2026-10-06T22:00",
+   "venue": "Teatro de La Ciudad Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$100 – $180",
+   "tickets": "https://arema.mx/e/21142-la-5ta-sinfonia-de-beethoven-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/bethoven.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/la-5ta-sinfonia-de-beethoven-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/la-5ta-sinfonia-de-beethoven-en-monterrey/"
+  },
+  {
+   "title": "La bachata de Biónico",
+   "start": "2026-10-06T20:15",
+   "end": "2026-10-07T17:00",
+   "times": [
+    "20:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/La-bachata-de-Bionico-Imagen-e1788387883104-700x360.jpg",
+   "description": "Biónico es un romántico empedernido, y además adicto al crack, que debe tomar el control…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/la-bachata-de-bionico/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/la-bachata-de-bionico/",
+   "id": "a8591e1294d0",
+   "dates": [
+    {
+     "start": "2026-10-06T20:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/la-bachata-de-bionico/"
+    },
+    {
+     "start": "2026-10-07T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/la-bachata-de-bionico/"
+    }
+   ]
+  },
+  {
+   "id": "60d666145102",
+   "title": "FESTIVAL DE CINE ALEMÁN: Dos montañas oprimen mi pecho",
+   "start": "2026-10-06T20:30",
+   "end": null,
+   "times": [
+    "20:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Dos-montanas-oprimen-mi-pecho-imagen-1-e1790725870755-700x357.jpg",
+   "description": "Viv, una joven artista china, se encuentra en Berlín tras la pandemia y se sumerge…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-dos-montanas-oprimen-mi-pecho/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-dos-montanas-oprimen-mi-pecho/"
+  },
+  {
+   "title": "Taller – Ignografía",
+   "start": "2026-10-07T10:00",
+   "end": "2026-10-09T10:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Fuego-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-ignografia/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-ignografia/",
+   "id": "eaf9147b5ecd",
+   "dates": [
+    {
+     "start": "2026-10-07T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-ignografia/"
+    },
+    {
+     "start": "2026-10-08T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-ignografia/"
+    },
+    {
+     "start": "2026-10-09T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-ignografia/"
+    }
+   ]
+  },
+  {
+   "title": "FESTIVAL DE CINE ALEMÁN: Estrellas rojas sobre el campo",
+   "start": "2026-10-07T17:15",
+   "end": "2026-10-11T17:00",
+   "times": [
+    "17:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Estrellas-rojas-sobre-el-campo-1-e1790727835785-700x360.jpg",
+   "description": "En el pequeño pueblo de Bad Kleinen, en el este de Alemania, el pasado nunca…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-estrellas-rojas-sobre-el-campo/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-estrellas-rojas-sobre-el-campo/",
+   "id": "48d535cd63b5",
+   "dates": [
+    {
+     "start": "2026-10-07T17:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-estrellas-rojas-sobre-el-campo/"
+    },
+    {
+     "start": "2026-10-11T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-estrellas-rojas-sobre-el-campo/"
+    }
+   ]
+  },
+  {
+   "id": "a4a864a720b2",
+   "title": "FESTIVAL DE CINE ALEMÁN: Golpear al mundo con el puño",
+   "start": "2026-10-07T20:00",
+   "end": null,
+   "times": [
+    "20:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/GAMCEPI-700x360.jpg",
+   "description": "A comienzos de los años 2000, los hermanos Philipp y Tobi crecen en una zona…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-golpear-al-mundo-con-el-puno/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-golpear-al-mundo-con-el-puno/"
+  },
+  {
+   "id": "325acd257ad2",
+   "title": "Miércoles Musicales 2026 I Ecos de la Sierra",
+   "start": "2026-10-07T20:00",
+   "end": null,
+   "venue": "Casa de la Cultura de Nuevo León",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/25842-PORTADA-MM-Ecos-de-la-sierra-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/miercoles-musicales-2026-i-ecos-de-la-sierra/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/miercoles-musicales-2026-i-ecos-de-la-sierra/"
+  },
+  {
+   "id": "3341daa17993",
+   "title": "Of Monsters and Men en Showcenter Complex",
+   "start": "2026-10-07T20:00",
+   "end": "2026-10-07T23:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/of-monsters-and-men-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/of-monsters-and-men-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/of-monsters-and-men-monterrey-2026"
+  },
+  {
+   "id": "48ed53a60b06",
+   "title": "Of Monster And Men en Showcenter Complex",
+   "start": "2026-10-07T21:00",
+   "end": "2026-10-08T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/07/of-monster-and-men-en-monterrey-showcenter-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-of-monster-an-men-showcenter-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-of-monster-an-men-showcenter-2026"
+  },
+  {
+   "title": "Expo venta de materiales",
+   "start": "2026-10-08T11:00",
+   "end": "2026-10-10T11:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-materiales/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/expo-venta-de-materiales/",
+   "id": "738ede129c84",
+   "dates": [
+    {
+     "start": "2026-10-08T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-materiales/"
+    },
+    {
+     "start": "2026-10-09T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-materiales/"
+    },
+    {
+     "start": "2026-10-10T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-materiales/"
+    }
+   ]
+  },
+  {
+   "title": "Expo venta de obra gráfica",
+   "start": "2026-10-08T11:00",
+   "end": "2026-10-10T11:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-obra-grafica/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/expo-venta-de-obra-grafica/",
+   "id": "f7ace8617e42",
+   "dates": [
+    {
+     "start": "2026-10-08T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-obra-grafica/"
+    },
+    {
+     "start": "2026-10-09T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-obra-grafica/"
+    },
+    {
+     "start": "2026-10-10T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/expo-venta-de-obra-grafica/"
+    }
+   ]
+  },
+  {
+   "title": "Clase maestra – Impresión de diferentes técnicas de grabado",
+   "start": "2026-10-08T15:00",
+   "end": "2026-10-09T15:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/clase-maestra-impresion-de-diferentes-tecnicas-de-grabado/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/clase-maestra-impresion-de-diferentes-tecnicas-de-grabado/",
+   "id": "56843b6bcc76",
+   "dates": [
+    {
+     "start": "2026-10-08T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/clase-maestra-impresion-de-diferentes-tecnicas-de-grabado/"
+    },
+    {
+     "start": "2026-10-09T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/clase-maestra-impresion-de-diferentes-tecnicas-de-grabado/"
+    }
+   ]
+  },
+  {
+   "title": "Taller – Estampa Surrealista",
+   "start": "2026-10-08T15:00",
+   "end": "2026-10-10T15:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Cadaver-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-estampa-surrealista/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-estampa-surrealista/",
+   "id": "a58070183f8a",
+   "dates": [
+    {
+     "start": "2026-10-08T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-estampa-surrealista/"
+    },
+    {
+     "start": "2026-10-09T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-estampa-surrealista/"
+    },
+    {
+     "start": "2026-10-10T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-estampa-surrealista/"
+    }
+   ]
+  },
+  {
+   "id": "920706cb39a4",
+   "title": "FESTIVAL DE CINE ALEMÁN: Programa de cortos Export",
+   "start": "2026-10-08T18:30",
+   "end": null,
+   "times": [
+    "18:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Short-Export-Programme-1-e1790728468701-700x360.jpg",
+   "description": "Como los claveles (Wie die Nelken) / 2025 / 23 min. Dir. Emine Demir. En…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-programa-de-cortos-export/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-programa-de-cortos-export/"
+  },
+  {
+   "id": "e9af3a8a0b4c",
+   "title": "Conversatorio – Mesa 1 Coleccionismo",
+   "start": "2026-10-08T19:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conversatorio-mesa-1-coleccionismo/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conversatorio-mesa-1-coleccionismo/"
+  },
+  {
+   "id": "ce1b61594c9b",
+   "title": "Inauguración – SEPTENTRIONAL | II Encuentro Nacional de Gráfica 2026",
+   "start": "2026-10-08T20:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/inauguracion-septentrional-ii-encuentro-nacional-de-grafica-2026/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/inauguracion-septentrional-ii-encuentro-nacional-de-grafica-2026/"
+  },
+  {
+   "id": "18e2b103d02f",
+   "title": "FESTIVAL DE CINE ALEMÁN: Wholetrain",
+   "start": "2026-10-08T20:30",
+   "end": null,
+   "times": [
+    "20:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Wholetrai2-700x360.jpg",
+   "description": "WHOLETRAIN cuenta la historia de una crew de cuatro escritores de graffiti —David, Tino, Elyas…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-wholetrain/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-wholetrain/"
+  },
+  {
+   "id": "f877744d0cb8",
+   "title": "Kurt",
+   "start": "2026-10-08T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "title": "Rosana en Monterrey",
+   "start": "2026-10-08T21:00",
+   "end": "2026-10-08T23:30",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$930 – $4402",
+   "tickets": "https://www.ticketmaster.com.mx/rosana-monterrey-08-10-2026/event/1400649CBAF99806",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/lunario-rosana-en-octubre-rosana-se-sentira-nuevamente-como-en-casa-2018.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/rosana-en-monterrey/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/rosana/200030170115501"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/rosana"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/rosana-tm-GkwBX_Ok"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/rosana-en-monterrey/",
+   "id": "b0aeb75dedb6",
+   "dates": [
+    {
+     "start": "2026-10-08T21:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/rosana-en-monterrey/"
+    }
+   ]
+  },
+  {
+   "id": "0907c4b1fc2a",
+   "title": "El Telar",
+   "start": "2026-10-09",
+   "end": "2026-10-30",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/256/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/el-telar"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/el-telar"
+  },
+  {
+   "id": "577809740439",
+   "title": "Taller – Demostración de grabado en jícaras",
+   "start": "2026-10-09T10:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-demostracion-de-grabado-en-jicaras/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-demostracion-de-grabado-en-jicaras/"
+  },
+  {
+   "id": "84fe8d49a8c4",
+   "title": "Intercambio Grafico Sororidad por la Colectiva Mayahuel Gráfica",
+   "start": "2026-10-09T11:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/intercambio-grafico-sororidad-por-la-colectiva-mayahuel-grafica/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/intercambio-grafico-sororidad-por-la-colectiva-mayahuel-grafica/"
+  },
+  {
+   "id": "586ebd3b1db9",
+   "title": "Conferencia – Bon a Tirerm, Legado editorial de la gráfica en México",
+   "start": "2026-10-09T12:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-bon-a-tirerm-legado-editorial-de-la-grafica-en-mexico/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-bon-a-tirerm-legado-editorial-de-la-grafica-en-mexico/"
+  },
+  {
+   "id": "d7e0e90836e4",
+   "title": "Pechakucha I",
+   "start": "2026-10-09T13:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/pechakucha-i/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/pechakucha-i/"
+  },
+  {
+   "id": "0cb8d1e18787",
+   "title": "Conferencia – Promoción y Difusión de la Gráfica",
+   "start": "2026-10-09T15:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-promocion-y-difusion-de-la-grafica/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-promocion-y-difusion-de-la-grafica/"
+  },
+  {
+   "id": "84c0a9d7733d",
+   "title": "Conferencia – El Origen del Concepto de Original Múltiple",
+   "start": "2026-10-09T16:30",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-el-origen-del-concepto-de-original-multiple/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-el-origen-del-concepto-de-original-multiple/"
+  },
+  {
+   "id": "48aab0178e5e",
+   "title": "Clase maestra – Galvanografía",
+   "start": "2026-10-09T17:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/clase-maestra-galvanografia/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/clase-maestra-galvanografia/"
+  },
+  {
+   "id": "997adfb8ee44",
+   "title": "Clase maestra – La Prensa Portátil, construcción y sus posibilidades",
+   "start": "2026-10-09T17:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/clase-maestra-la-prensa-portatil-construccion-y-sus-posibilidades/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/clase-maestra-la-prensa-portatil-construccion-y-sus-posibilidades/"
+  },
+  {
+   "title": "FESTIVAL DE CINE ALEMÁN: Finding Connection",
+   "start": "2026-10-09T18:30",
+   "end": "2026-10-11T19:45",
+   "times": [
+    "18:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Finding-Connection-2-e1790728686596-700x360.jpg",
+   "description": "En un mundo digital donde la cercanía humana parece cada vez más escasa, Finding Connection…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-finding-connection/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-finding-connection/",
+   "id": "66f2749bc322",
+   "dates": [
+    {
+     "start": "2026-10-09T18:30",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-finding-connection/"
+    },
+    {
+     "start": "2026-10-11T19:45",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-finding-connection/"
+    }
+   ]
+  },
+  {
+   "id": "ff4d5d226470",
+   "title": "Candlelight: Tributo a Ariana Grande",
+   "start": "2026-10-09T19:00",
+   "end": null,
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy9iM2UzZjVmMC1iMGIwLTExZjEtYWEyMi00M2JlOTUzMjNiNzMtcmltZy13NTUwLWg1NTAtZGMyODA4MDgtZ21pci5qcGc_dj0xNzg5NDQwODQw.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/candlelight-tributo-a-ariana-grande/2700030428418400"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/candlelight-tributo-a-ariana-grande/2700030428418400"
+  },
+  {
+   "id": "253433bb903a",
+   "title": "Candlelight: Tributo a Juan Gabriel",
+   "start": "2026-10-09T19:00",
+   "end": "2027-01-16T21:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/b93b4876-0587-11f0-bd6c-02c1afba537e.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/392211"
+    }
+   ],
+   "url": "https://feverup.com/m/392211"
+  },
+  {
+   "id": "3a59ccc6cf24",
+   "title": "Conversatorio – Mesa 2 Cruces Interdisciplinarios",
+   "start": "2026-10-09T19:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conversatorio-mesa-2-cruces-interdisciplinarios/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conversatorio-mesa-2-cruces-interdisciplinarios/"
+  },
+  {
+   "id": "7829deb8505c",
+   "title": "Festival de Danza Interprepas 2026",
+   "start": "2026-10-09T20:00",
+   "end": "2026-10-09",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8yMGZlNTllZDM2YmFmNjQxMDhjZWJhMDkzZmExODVlYTcwMTliOTM0ZWQzNTg2NWFlYTZkMWZlOTU0Y2UxNDgwLXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODg2OTE4NjM.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/festival-de-danza-interprepas-2026/210005945467981"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/festival-de-danza-interprepas-2026-tm-xeG7Uw39"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/festival-de-danza-interprepas-2026/210005945467981"
+  },
+  {
+   "id": "550498ef0f9a",
+   "title": "War in Monterrey",
+   "start": "2026-10-09T20:00",
+   "end": null,
+   "venue": "Hollywood Casino & Hotel Joliet",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvMjBmOTE0OTAtNWM1Yi0xMWYxLWI3NTUtYWQ1NDVkZDEyOWM1LXJpbWctdzEyMDAtaDY3NS1kYzM2MzIyZi1nbWlyLndlYnA_dj0xNzgwMTY4MTg5.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/war-in-monterrey/3300030162259549"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/war-in-monterrey/3300030162259549"
+  },
+  {
+   "title": "Marco Polo: Tímido y Furioso en Teatros Versalles",
+   "start": "2026-10-09T20:30",
+   "end": "2026-11-20T22:00",
+   "venue": "Teatro Versalles",
+   "city": "MONTERREY",
+   "category": "Teatro",
+   "price": "$500 – $750",
+   "tickets": "https://wwww.arema.mx/e/18049/Marco-Polo:-Timido-y-Furioso-en-Teatros-Versalles",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/MARCOPOLO.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/marco-polo-timido-y-furioso-en-teatros-versalles/2026-10-09/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/marco-polo-timido-y-furioso-en-teatros-versalles/2026-10-09/",
+   "id": "d05a8a46e9b3",
+   "dates": [
+    {
+     "start": "2026-10-09T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/marco-polo-timido-y-furioso-en-teatros-versalles/2026-10-09/"
+    },
+    {
+     "start": "2026-10-23T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/marco-polo-timido-y-furioso-en-teatros-versalles/2026-10-23/"
+    },
+    {
+     "start": "2026-11-06T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/marco-polo-timido-y-furioso-en-teatros-versalles/2026-11-06/"
+    },
+    {
+     "start": "2026-11-13T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/marco-polo-timido-y-furioso-en-teatros-versalles/2026-11-13/"
+    },
+    {
+     "start": "2026-11-20T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/marco-polo-timido-y-furioso-en-teatros-versalles/2026-11-20/"
+    }
+   ]
+  },
+  {
+   "id": "d9247205437e",
+   "title": "AKRIILA",
+   "start": "2026-10-09T21:00",
+   "end": "2026-10-09T23:30",
+   "venue": "Showcenter Complex",
+   "city": "San Pedro Garza García",
+   "category": "Música",
+   "price": "$795",
+   "tickets": "https://www.superboletos.com/landing-evento/cmBiXqaIjq8TAnNFtTgfrw",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/Akriila-Un-proyecto-que-incomoda-es-mucho-mas-fascinante-que-uno-facil-de-digerir.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/akriila/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/akriila/"
+  },
+  {
+   "id": "38c3d8a5faf7",
+   "title": "AQUIHAYAQUIHAY",
+   "start": "2026-10-09T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "e75d2f1d3409",
+   "title": "Candlelight: Tributo a ABBA",
+   "start": "2026-10-09T21:00",
+   "end": "2026-10-09T21:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $660",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/f51b8418-25ae-11f0-a83d-9e59e0727bbd.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/123926"
+    }
+   ],
+   "url": "https://feverup.com/m/123926"
+  },
+  {
+   "id": "548920f4155b",
+   "title": "Leandro Ríos en Arena Monterrey",
+   "start": "2026-10-09T21:00",
+   "end": "2026-10-10T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/leandro-rios-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/leandro-rios-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/leandro-rios-arena-monterrey-2026"
+  },
+  {
+   "id": "090c0f7e288e",
+   "title": "Leandro Ríos in Monterrey",
+   "start": "2026-10-09T21:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://www.nuevoleon.travel/wp-content/uploads/2026/09/Leandro.webp",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/leandro-ríos-in-monterrey/3300029962392350"
+    },
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/leandro-rios-2/"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/leandro-ríos-in-monterrey/3300029962392350"
+  },
+  {
+   "id": "1cbad80061b9",
+   "title": "Feria Internacional del Libro",
+   "start": "2026-10-10",
+   "end": "2026-10-18",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/69895",
+   "description": "es uno de los eventos culturales más importantes y reconocidos del norte de México. Reúne a editoriales, librerías, escritores, lectores y estudiantes en presentaciones de libros, conferencias, talleres y encuentros con autores.",
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://www.feriadellibromonterrey.mx"
+    }
+   ],
+   "url": "http://www.feriadellibromonterrey.mx"
+  },
+  {
+   "id": "99e951f53c0f",
+   "title": "Rawayana",
+   "start": "2026-10-10",
+   "end": "2026-10-10",
+   "venue": "Auditorio Banamex, Privada Fundidora s/n Col. Obrera, Monterrey",
+   "city": "Monterrey",
+   "price": null,
+   "image": "https://ctxplorer.com/media/_dup/a2/a220882c7a3c23ae014c8e19e8d6e2ec205fc293.webp",
+   "genre": null,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/rawayana-tm-G_Z7C5eA"
+    }
+   ],
+   "url": "https://ctxplorer.com/events/rawayana-tm-G_Z7C5eA"
+  },
+  {
+   "id": "5992d2d15fa4",
+   "title": "Conferencia I Guayo Valenzuela – Obra Personal",
+   "start": "2026-10-10T10:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-i-guayo-valenzuela-obra-personal/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-i-guayo-valenzuela-obra-personal/"
+  },
+  {
+   "id": "a30e5ee16743",
+   "title": "Conferencia – Club de Gráfica y Grabado en la Escuela Adolfo Prieto",
+   "start": "2026-10-10T10:30",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-club-de-grafica-y-grabado-en-la-escuela-adolfo-prieto/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-club-de-grafica-y-grabado-en-la-escuela-adolfo-prieto/"
+  },
+  {
+   "id": "a891a894339b",
+   "title": "Clase maestra – Cata de Papel",
+   "start": "2026-10-10T11:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/clase-maestra-cata-de-papel/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/clase-maestra-cata-de-papel/"
+  },
+  {
+   "id": "a019bb944ccd",
+   "title": "Conferencia – El oficio de estampar",
+   "start": "2026-10-10T12:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-el-oficio-de-estampar/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-el-oficio-de-estampar/"
+  },
+  {
+   "id": "10b5a26200b3",
+   "title": "Conferencia – Puente entre la psicología aplicada y el artista",
+   "start": "2026-10-10T12:30",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-puente-entre-la-psicologia-aplicada-y-el-artista/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-puente-entre-la-psicologia-aplicada-y-el-artista/"
+  },
+  {
+   "id": "b811d9da542e",
+   "title": "Pechakucha II",
+   "start": "2026-10-10T13:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/pechakucha-ii/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/pechakucha-ii/"
+  },
+  {
+   "id": "a0a629464d67",
+   "title": "Conversatorio – Mesa 3 Estampa Íntima, Narrativas Personales",
+   "start": "2026-10-10T15:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conversatorio-mesa-3-estampa-intima-narrativas-personales/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conversatorio-mesa-3-estampa-intima-narrativas-personales/"
+  },
+  {
+   "id": "e2ca73a039b3",
+   "title": "FESTIVAL DE CINE ALEMÁN: KitKatClub: Kinks of Berlin",
+   "start": "2026-10-10T16:00",
+   "end": null,
+   "times": [
+    "16:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Kitkatclub-2-700x360.jpg",
+   "description": "En el documental KITKATCLUB – KINKS OF BERLIN, nos sumergimos en el misterioso mundo de…",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-kitkatclub-kinks-of-berlin/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-kitkatclub-kinks-of-berlin/"
+  },
+  {
+   "id": "4ad9204c04f9",
+   "title": "Gráfica Centro, Carpeta Gráfica, Narrativas del Territorio",
+   "start": "2026-10-10T16:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/grafica-centro-carpeta-grafica-narrativas-del-territorio/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/grafica-centro-carpeta-grafica-narrativas-del-territorio/"
+  },
+  {
+   "id": "1eb3ef29a510",
+   "title": "Procesos Gráficos",
+   "start": "2026-10-10T16:30",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/procesos-graficos/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/procesos-graficos/"
+  },
+  {
+   "id": "2be9ce9236af",
+   "title": "Conferencia – Forma 5 Historia del Taller",
+   "start": "2026-10-10T17:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-forma-5-historia-del-taller/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-forma-5-historia-del-taller/"
+  },
+  {
+   "title": "Mentiras, el Musical 2026",
+   "start": "2026-10-10T17:00",
+   "end": "2026-10-10T21:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$730 – $2976",
+   "tickets": "https://www.ticketmaster.com.mx/mentiras-el-musical-monterrey-10-10-2026/event/1400644EA722B115",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/04/Web-65.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/mentiras-el-musical/"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/mentiras-el-musical-tm-GkBEFl74"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/mentiras-el-musical/210003814338052"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/mentiras-el-musical/",
+   "id": "0b2f5a49a356",
+   "dates": [
+    {
+     "start": "2026-10-10T17:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/mentiras-el-musical/"
+    },
+    {
+     "start": "2026-10-10T21:00",
+     "end": null,
+     "url": "https://allevents.in/monterrey/mentiras-el-musical/210003814338052"
+    }
+   ]
+  },
+  {
+   "id": "c97f0ec3d55d",
+   "title": "Conferencia – El Grabado y la Numismática: La Casa de Moneda y los grabadores",
+   "start": "2026-10-10T17:30",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-el-grabado-y-la-numismatica-la-casa-de-moneda-y-los-grabadores/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-el-grabado-y-la-numismatica-la-casa-de-moneda-y-los-grabadores/"
+  },
+  {
+   "id": "f3fd223759e1",
+   "title": "Conferencia – A 200 años de la litografía en México",
+   "start": "2026-10-10T18:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-a-200-anos-de-la-litografia-en-mexico/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-a-200-anos-de-la-litografia-en-mexico/"
+  },
+  {
+   "id": "8c6c4d5a9eef",
+   "title": "Conferencia – Autogestión",
+   "start": "2026-10-10T18:30",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-autogestion/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-autogestion/"
+  },
+  {
+   "id": "e270ed978315",
+   "title": "Conversatorio – Mesa 4 Territorio de Encuentros",
+   "start": "2026-10-10T19:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conversatorio-mesa-4-territorio-de-encuentros/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conversatorio-mesa-4-territorio-de-encuentros/"
+  },
+  {
+   "id": "31a82fde3d29",
+   "title": "Alta Consigna",
+   "start": "2026-10-10T20:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9jNDk2ZmNiMC05Nzg1LTExZjEtYWViOS04NWFiZTQ4ODhiZTgtcmltZy13MTIwMC1oNjIzLWRjZjhmOGY4LWdtaXIuanBnP3Y9MTc4NjY3MzYyMQ.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/alta-consigna-monterrey-tickets/100030554550042"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/alta-consigna-monterrey-tickets/100030554550042"
+  },
+  {
+   "id": "7dda3e6c927e",
+   "title": "Clausura – Septentrional II Segundo Encuentro Nacional de Gráfica Nuevo León 2026",
+   "start": "2026-10-10T20:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/porrtada-grabado-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/clausura-septentrional-ii-segundo-encuentro-nacional-de-grafica-nuevo-leon-2026/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/clausura-septentrional-ii-segundo-encuentro-nacional-de-grafica-nuevo-leon-2026/"
+  },
+  {
+   "id": "eb609d5b8863",
+   "title": "Andrés Vernazza",
+   "start": "2026-10-10T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "60f0d180bec4",
+   "title": "FLVCKKA en Monterrey",
+   "start": "2026-10-10T21:00",
+   "end": "2026-10-10T23:30",
+   "venue": "Café Iguana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$450 – $1500",
+   "tickets": "https://arema.mx/e/20266",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/07/1900x1900-000000-80-0-0-2.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/flvckka-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/flvckka-en-monterrey/"
+  },
+  {
+   "id": "d34009892a6d",
+   "title": "Mentiras!: El Musical - Segunda Función",
+   "start": "2026-10-10T21:00",
+   "end": "2026-10-10",
+   "venue": "Av. Constitución entre Juarez y Garibaldi, Colonia Centro, 64000 Monterrey, Mexico",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80YTU4MDNkYzVkMDY1MGM5Y2E0NTNiNzQxNDc4NGVlOTM1MjMzNGVkNTkzY2NmNGEyMzZhZTc4ZjY0Njc4YzE3LXJpbWctdzEyMDAtaDE2MDAtZGNmOGY4ZjgtZ21pcj92PTE3ODg1OTgyNjY.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/mentiras-el-musical-segunda-función/200030138247004"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/mentiras-el-musical-tm-GkBt3lOj"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/mentiras-el-musical-segunda-función/200030138247004"
+  },
+  {
+   "id": "efeebba534ab",
+   "title": "HARLEM GLOBETROTTERS MONTERREY 2026",
+   "start": "2026-10-11",
+   "end": null,
+   "venue": "",
+   "city": "",
+   "category": "Deportes",
+   "price": null,
+   "image": "https://www.nuevoleon.travel/wp-content/uploads/2026/09/Harlem-Globetrotters-776x1024.webp",
+   "sources": [
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/harlem-globetrotters-monterrey-2026/"
+    }
+   ],
+   "url": "https://www.nuevoleon.travel/harlem-globetrotters-monterrey-2026/"
+  },
+  {
+   "id": "9fc0afc15caf",
+   "title": "Chespirito 5k Monterrey",
+   "start": "2026-10-11T07:30",
+   "end": null,
+   "venue": "Parque Fundidora",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZWM5MjAyY2Y0ZTJhOWNkZjY1NzBlYWEzZTAzOWJiNzA2MTJkNmZkMzQ4MWI1OWM5Yzg0ZjA4NWI4NTEwY2RkMy1yaW1nLXcxMDc3LWgxNjAwLWRjZjg3ODI4LWdtaXI_dj0xNzg3NDEyMDYz.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/chespirito-5k-monterrey/200030323520026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/chespirito-5k-monterrey/200030323520026"
+  },
+  {
+   "id": "1a6d2c8264f8",
+   "title": "Travis",
+   "start": "2026-10-12T21:00",
+   "end": "2026-10-13T00:00",
+   "venue": "Av. Constitución entre Juarez y Garibaldi, Colonia Centro, 64000 Monterrey, Mexico",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8yN2Q4YTExMjU0MGNlZDQ5MWUzY2Q5N2FiNTM0NzM3MmZhMjcwNGM5NWU3YWIzNjc2YjMwNjNkYzUxMDdmMzkzLXJpbWctdzEyMDAtaDE1MDItZGMwODA4MDgtZ21pcj92PTE3ODcxOTY3NzY.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/travis/200030199546712"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-travis-escenario-gnp-monterrey-2026"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/travis-tm-Gkd-ilAI"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/travis/200030199546712"
+  },
+  {
+   "id": "2aa44f5e0da6",
+   "title": "Two Door Cinema Club",
+   "start": "2026-10-13T21:00",
+   "end": "2026-10-13T23:30",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$744 – $5263",
+   "tickets": "https://www.ticketmaster.com.mx/two-door-cinema-club-monterrey-13-10-2026/event/14006465B8929907",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/d514f001-870a-4720-8613-7aa7a60209ae_CUSTOM.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/two-door-cinema-club/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/two-door-cinema-club/200029861450212"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/two-door-cinema-club"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/two-door-cinema-club/"
+  },
+  {
+   "id": "f544355c6dd9",
+   "title": "Walls El día que me olvides tour",
+   "start": "2026-10-13T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "7815070bab8a",
+   "title": "Historias en la oscuridad",
+   "start": "2026-10-14",
+   "end": "2026-10-17",
+   "venue": "Akadem",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/16/274/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/historias-en-la-oscuridad"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/historias-en-la-oscuridad"
+  },
+  {
+   "id": "36783e15f24b",
+   "title": "Miércoles Musicales 2026 I Viento Solitario",
+   "start": "2026-10-14T20:00",
+   "end": null,
+   "venue": "Casa de la Cultura de Nuevo León",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/25846-PORTADA-MM-Viento-Solitario-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/miercoles-musicales-2026-i-viento-solitario/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/miercoles-musicales-2026-i-viento-solitario/"
+  },
+  {
+   "id": "76d6c53a8c09",
+   "title": "Pablo Alborán",
+   "start": "2026-10-15T20:00",
+   "end": "2026-10-16T00:00",
+   "venue": "Auditorio Citibanamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8wZjY1NDQ3MC1iZGY4LTExZjEtYjI4Yi04NzY2NTEwMGUzNmItcmltZy13MTIwMC1oODM3LWRjNDgzODU4LWdtaXIuanBnP3Y9MTc5MDkwMDg1Mw.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/pablo-alborán-monterrey-tickets/100029657388850"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-pablo-alboran-monterrey-2026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/pablo-alborán-monterrey-tickets/100029657388850"
+  },
+  {
+   "id": "27ff1f243095",
+   "title": "Adanowsky en Monterrey",
+   "start": "2026-10-15T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "b81b9e7d0718",
+   "title": "Alfredo Olivas",
+   "start": "2026-10-15T21:00",
+   "end": "2026-10-16T00:00",
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/alfredo-olivas-arena-monterrey-2026.jpg",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/alfredo-olivas-monterrey-tickets/100030734559418"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/alfredo-olivas-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/alfredo-olivas-monterrey-tickets/100030734559418"
+  },
+  {
+   "id": "77d7e78535ed",
+   "title": "PABLO ALBORÁN – GLOBAL TOUR KMO",
+   "start": "2026-10-15T21:00",
+   "end": "2026-10-15T22:30",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$930 – $3162",
+   "tickets": "https://www.ticketmaster.com.mx/pablo-alboran-monterrey-15-10-2026/event/1400643ED22C4D36",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/pablo-alboran.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/pablo-alboran-global-tour-kmo/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/pablo-alboran/210006442033019"
+    },
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/pablo-alboran-2/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/pablo-alboran-global-tour-kmo/"
+  },
+  {
+   "id": "f613383567ae",
+   "title": "THE ROCKY HORROR SHOW",
+   "start": "2026-10-16",
+   "end": "2026-11-06",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/269/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/the-rocky-horror-show"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/the-rocky-horror-show"
+  },
+  {
+   "id": "4c3d6f574273",
+   "title": "The Jazz Room: Un Viaje al Corazón de Nueva Orleans",
+   "start": "2026-10-16T16:00",
+   "end": "2027-02-06T21:30",
+   "venue": "Saxy Jazz",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $320",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/64cfd08e-0bd7-11f1-9841-da7f95f077f7.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/577933"
+    }
+   ],
+   "url": "https://feverup.com/m/577933"
+  },
+  {
+   "id": "09a46a7b2bef",
+   "title": "Candlelight: Disney Canciones de Amor",
+   "start": "2026-10-16T19:00",
+   "end": "2026-10-16T21:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $660",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/501004ee-546a-11f1-8bfb-568fc58b5301.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/647497"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/candlelight-disney-canciones-de-amor/2700030153530559"
+    }
+   ],
+   "url": "https://feverup.com/m/647497"
+  },
+  {
+   "id": "992c00473ec5",
+   "title": "Enjambre en Mty",
+   "start": "2026-10-16T21:00",
+   "end": "2026-10-16T22:30",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$620 – $1922",
+   "tickets": "https://www.ticketmaster.com.mx/enjambre-monterrey-16-10-2026/event/1400638B9690BD8D",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/f960x540-703179_777254_5050.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/enjambre/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/enjambre/210002103831025"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-enjambre-auditorio-banamex-monterrey-2026"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/enjambre/"
+  },
+  {
+   "id": "a688c40c4a46",
+   "title": "Little Jesus en Foro Corona",
+   "start": "2026-10-16T21:00",
+   "end": "2026-10-17T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/little-jesus-foro-corona-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/little-jesus-foro-corona-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/little-jesus-foro-corona-monterrey-2026"
+  },
+  {
+   "id": "90249620197d",
+   "title": "Little Jesus: Río Salvaje 10 Años",
+   "start": "2026-10-16T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "9580e7a7f5b0",
+   "title": "FIL MTY 2026 | César Lozano presenta Más hábitos, menos dramas",
+   "start": "2026-10-17T17:00",
+   "end": null,
+   "venue": "CINTERMEX",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy85MWNhZjQ2NWJhM2IxNjExZDBhMmNiNjI4OTJiZGU3NDIyMjA4NDlhZjAwYjYyMjVhNTdhYzBiZDIyZTA5NDM2LXJpbWctdzEyMDAtaDYyOC1kY2U4NjgwOC1nbWlyP3Y9MTc4NzE2MDI4Mw.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/fil-mty-2026-césar-lozano-presenta-más-hábitos-menos-dramas/200030491579515"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/fil-mty-2026-césar-lozano-presenta-más-hábitos-menos-dramas/200030491579515"
+  },
+  {
+   "id": "666f7666157e",
+   "title": "SERBIA – Monterrey 2026",
+   "start": "2026-10-17T20:00",
+   "end": "2026-10-17T22:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$744 – $1240",
+   "tickets": "https://www.ticketmaster.com.mx/serbia-no-me-sueltes-tour-monterrey-17-10-2026/event/140064A58E28489B",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/serbia-mty.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/serbia-monterrey-2026/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/serbia-monterrey-2026/"
+  },
+  {
+   "id": "9f1a42adbc72",
+   "title": "Alejandro Sanz",
+   "start": "2026-10-17T21:00",
+   "end": "2026-10-18T00:00",
+   "venue": "Estadio Borregos",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy82MjEzMjQ1N2Y3OWY4MmVhYmQ4NTgxZDcxNTIxZTI3MTI0MDViM2MwNjc2MTBjNTc1OGQ5MGQwYWQ1MDE3MmEyLXJpbWctdzEwMjQtaDU3Ni1kY2E2YzZkMS1nbWlyLmpwZz92PTE3NzcwNjkzMTk.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/alejandro-sanz/210001763310949"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-alejandro-sanz-estadio-borregos-monterrey-2026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/alejandro-sanz/210001763310949"
+  },
+  {
+   "id": "046153b3f748",
+   "title": "Mike Lamadrid",
+   "start": "2026-10-17T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "be225bc17ec0",
+   "title": "Rhye en Showcenter Complex",
+   "start": "2026-10-17T21:00",
+   "end": "2026-10-18T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/rhye-joy-tour-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/rhye-joy-tour-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/rhye-joy-tour-monterrey-2026"
+  },
+  {
+   "id": "5f7101fd564e",
+   "title": "One Piece en Concierto Beyond the Horizon",
+   "start": "2026-10-18T12:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hNmNkNjc2YzMzYzgwODA3OGQ1NzhhODliZGU1OGM4NWMyYWY0MDY0YmI0YzA3M2I0NDQyZGM0NWI5YmY1ZjZjLXJpbWctdzEwMjQtaDU3Ni1kYzA4YjhmOC1nbWlyLmpwZz92PTE3ODg2OTA3ODQ.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/one-piece-en-concierto-beyond-the-horizon/210001279092121"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/one-piece-en-concierto-beyond-the-horizon/210001279092121"
+  },
+  {
+   "id": "abb0d75ce135",
+   "title": "AOT Vol II the Last Attack in Concert",
+   "start": "2026-10-18T17:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80MzdhMTk3ZGQyNjZjYTlhYjdmOTY1OTFhNTVjNTEzYmMwZTA0MmRmODk4ZDJjNTRkOGNhM2RiMjA5MzAyODA3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODg2OTA3ODQ.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/aot-vol-ii-the-last-attack-in-concert/210003702257253"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/aot-vol-ii-the-last-attack-in-concert/210003702257253"
+  },
+  {
+   "id": "88b1718bbf98",
+   "title": "La Reina del Flow",
+   "start": "2026-10-18T20:00",
+   "end": "2026-10-19T00:00",
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy84NDFiMzJiMC1hMjdlLTExZjEtOGIwOS00Yjk5ZjhmZTQ4NzItcmltZy13MTIwMC1oODAxLWRjMTgxODE4LWdtaXIuanBnP3Y9MTc4Nzg3OTk2OQ.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/la-reina-del-flow-monterrey-tickets/100030623833229"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/la-reina-del-flow-arena-monterrey-2026"
+    },
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/la-reina-del-flow-en-concierto/"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/la-reina-del-flow-monterrey-tickets/100030623833229"
+  },
+  {
+   "id": "9a39f9ae1b70",
+   "title": "The Midnight: Time Machines",
+   "start": "2026-10-19T20:00",
+   "end": "2026-10-19T23:30",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "$923 – $1667",
+   "tickets": "https://www.ticketmaster.com.mx/the-midnight-time-machines-monterrey-19-10-2026/event/140064AE920759FC",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/images-18.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/the-midnight-time-machines/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/the-midnight-time-machines/"
+  },
+  {
+   "title": "CORIDÓN en Monterrey",
+   "start": "2026-10-19T20:30",
+   "end": "2026-11-09T22:00",
+   "venue": "Casa Musa",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$450",
+   "tickets": "https://casamusa.janto4.mx/espectaculo/coridon/CORIDON",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/CORIDON-flyer-uno-31agosto26.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/coridon-estudio-1-sobre-el-deseo/2026-10-19/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/coridon-estudio-1-sobre-el-deseo/2026-10-19/",
+   "id": "563431776ff3",
+   "dates": [
+    {
+     "start": "2026-10-19T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/coridon-estudio-1-sobre-el-deseo/2026-10-19/"
+    },
+    {
+     "start": "2026-10-26T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/coridon-estudio-1-sobre-el-deseo/2026-10-26/"
+    },
+    {
+     "start": "2026-11-02T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/coridon-estudio-1-sobre-el-deseo/2026-11-02/"
+    },
+    {
+     "start": "2026-11-09T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/coridon-estudio-1-sobre-el-deseo/2026-11-09/"
+    }
+   ]
+  },
+  {
+   "id": "ecf3979d2573",
+   "title": "Secreto de Bruja",
+   "start": "2026-10-19T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "f720f09c9352",
+   "title": "Motor de México 2026, Congreso Nacional Universitario.",
+   "start": "2026-10-21T08:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9hOWMyZmI2N2JmMDlmMmYxMGY1ZjczNDExYjdmODVjOTRiNGJhMmUyNTI3OWFhNzY5MjgyODNkODJlNmMxOTY0LXJpbWctdzEyMDAtaDYwMC1kYzA4MDg1OC1nbWlyLmpwZz92PTE3ODYyNTUyNDY.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/motor-de-méxico-2026-congreso-nacional-universitario/100001997261858985"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/motor-de-méxico-2026-congreso-nacional-universitario/100001997261858985"
+  },
+  {
+   "id": "b9fa1049c530",
+   "title": "Elenco de Soy Luna in Monterrey",
+   "start": "2026-10-21T20:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hM2MwYjUzMC04ZDU4LTExZjEtOTc2MC1kM2FjZWM5M2MzZGItcmltZy13MTIwMC1oNjc1LWRjMjgyODI4LWdtaXIud2VicD92PTE3ODU1NTQ3MjY.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/elenco-de-soy-luna-in-monterrey/3300030489879527"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/elenco-de-soy-luna-in-monterrey/3300030489879527"
+  },
+  {
+   "id": "704ca7e8a920",
+   "title": "INCENDIOS",
+   "start": "2026-10-22",
+   "end": "2026-11-20",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/266/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/incendios"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/incendios"
+  },
+  {
+   "id": "15f828619dd2",
+   "title": "Isabel Fernandez «Fuera de Lugar» en Monterrey",
+   "start": "2026-10-22T20:00",
+   "end": "2026-10-22T22:00",
+   "venue": "Auditorio Río 70",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$500 – $700",
+   "tickets": "https://arema.mx/e/20115-isabel-fernandez-%22fuera-de-lugar%22-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/image-1.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/isabel-fernandez-fuera-de-lugar-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/isabel-fernandez-fuera-de-lugar-en-monterrey/"
+  },
+  {
+   "id": "bad1001a65f6",
+   "title": "Elefante en Arena Monterrey",
+   "start": "2026-10-22T21:00",
+   "end": "2026-10-23T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/concierto-elefante-tour-30-aniversario-arena-monterrey-2026-poster.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/elefante"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/elefante"
+  },
+  {
+   "id": "1a6876e5ad45",
+   "title": "Cielo Mágico en Santiago",
+   "start": "2026-10-23",
+   "end": null,
+   "venue": "",
+   "city": "",
+   "category": "Otros",
+   "price": null,
+   "image": "https://www.nuevoleon.travel/wp-content/uploads/2026/08/CIELOMAGICO.png",
+   "sources": [
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/cielo-magico-santiago/"
+    }
+   ],
+   "url": "https://www.nuevoleon.travel/cielo-magico-santiago/"
+  },
+  {
+   "title": "El Sótano en Monterrey",
+   "start": "2026-10-23T09:00",
+   "end": "2026-10-24T06:00",
+   "venue": "Auditorio San Pedro",
+   "city": "san pedro garza garcía",
+   "category": "Teatro",
+   "price": "$450 – $800",
+   "tickets": "https://arema.mx/e/21045-el-sotano-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/el-sotano2-1.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/el-sotano-en-monterrey/2026-10-23/3/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/el-sotano-en-monterrey/2026-10-23/3/",
+   "id": "ee1f73ad856d",
+   "dates": [
+    {
+     "start": "2026-10-23T09:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/el-sotano-en-monterrey/2026-10-23/3/"
+    },
+    {
+     "start": "2026-10-23T19:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/el-sotano-en-monterrey/2026-10-23/2/"
+    },
+    {
+     "start": "2026-10-24T06:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/el-sotano-en-monterrey/2026-10-24/"
+    }
+   ]
+  },
+  {
+   "id": "a462cf3689a7",
+   "title": "Todos Somos Job en Monterrey",
+   "start": "2026-10-23T20:30",
+   "end": "2026-10-23T22:30",
+   "venue": "Auditorio Río 70",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$500 – $700",
+   "tickets": "https://arema.mx/e/20091-todos-somos-job-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/job.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/todos-somos-job-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/todos-somos-job-en-monterrey/"
+  },
+  {
+   "id": "9693a849f600",
+   "title": "Bad Gyal",
+   "start": "2026-10-23T21:00",
+   "end": "2026-10-24T00:00",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83N2NkODk2YWYzNWY4MDNmMjMwNDU4MDQzNGVkOWZjMDNhMjVjN2FkODVmMDZkNzIzNDA1ZTMwZGRmYTI2ZGI1LXJpbWctdzEwMjQtaDU3Ni1kY2Q3ZTBlYi1nbWlyLmpwZz92PTE3Nzk3OTg2Nzg.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/bad-gyal/210003529761299"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/bad-gyal"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/bad-gyal/210003529761299"
+  },
+  {
+   "id": "df8e3ef8cc48",
+   "title": "Tiësto en Arena Monterrey",
+   "start": "2026-10-23T21:00",
+   "end": "2026-10-24T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/tiesto-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/tiesto-arena-monterrey-2026"
+    },
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/tiesto/"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/tiesto-arena-monterrey-2026"
+  },
+  {
+   "id": "090570743a6d",
+   "title": "Tipling Rock",
+   "start": "2026-10-23T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "3bf45f81e886",
+   "title": "Expo Pesca y Caza",
+   "start": "2026-10-24",
+   "end": "2026-10-25",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/69643",
+   "description": null,
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "https://www.cintermex.com/calendario"
+    }
+   ],
+   "url": "https://www.cintermex.com/calendario"
+  },
+  {
+   "title": "La Dama de Negro en Monterrey",
+   "start": "2026-10-24T18:00",
+   "end": "2026-10-24T21:30",
+   "venue": "Auditorio Río 70",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$549 – $799",
+   "tickets": "https://arema.mx/e/20196",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/Dama-de-Negro-1024x683-1.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/la-dama-de-negro-en-monterrey/2026-10-24/1/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/la-dama-de-negro-en-monterrey/2026-10-24/1/",
+   "id": "1f132c5a69da",
+   "dates": [
+    {
+     "start": "2026-10-24T18:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-dama-de-negro-en-monterrey/2026-10-24/1/"
+    },
+    {
+     "start": "2026-10-24T20:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-dama-de-negro-en-monterrey/2026-10-24/2/"
+    }
+   ]
+  },
+  {
+   "id": "7f28f3d4adfd",
+   "title": "Allison en Café Iguana",
+   "start": "2026-10-24T21:00",
+   "end": "2026-10-25T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/ALLISON_MTY_PT.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-allison-cafe-iguana-2026-monterrey"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-allison-cafe-iguana-2026-monterrey"
+  },
+  {
+   "id": "7f2e09160029",
+   "title": "Bengala",
+   "start": "2026-10-24T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "2d264c116380",
+   "title": "Inspector en Arena Monterrey",
+   "start": "2026-10-24T21:00",
+   "end": "2026-10-25T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/inspector-arena-monterrey-24-octubre-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-inspector-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-inspector-arena-monterrey-2026"
+  },
+  {
+   "title": "Los Angeles Azules",
+   "start": "2026-10-24T21:00",
+   "end": "2026-10-24T23:30",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$862 – $3720",
+   "tickets": "https://www.ticketmaster.com.mx/los-angeles-azules-monterrey-24-10-2026/event/1400647C8DC44FC1",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/grupo-musical-angeles-azules-foto.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/los-angeles-azules/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/los-angeles-azules-monterrey-tickets/100030623840554"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-los-angeles-azules-escenario-gnp-seguros-monterrey-2026"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/los-angeles-azules/",
+   "id": "d42ff346217c",
+   "dates": [
+    {
+     "start": "2026-10-24T21:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/los-angeles-azules/"
+    }
+   ]
+  },
+  {
+   "id": "33f2e8b45705",
+   "title": "Los Ángeles Azules",
+   "start": "2026-10-24T21:00",
+   "end": null,
+   "venue": "Av. Constitución entre Juarez y Garibaldi, Colonia Centro, 64000 Monterrey, Mexico",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yYWNjN2ZmZjU3Zjc2ODBiNmM1NTU4NWY2OGU1ZDQwNTk0MTNiYTBlMTY3MDljZGZmNjE4YmVlMTkwYjg5MWVlLXJpbWctdzEyMDAtaDE1MDAtZGNlODA4OTgtZ21pcj92PTE3ODc1MDYxMjk.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/los-Ángeles-azules/200030116301024"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/los-Ángeles-azules/200030116301024"
+  },
+  {
+   "id": "de1badb81674",
+   "title": "An Idiot’s Guide to Wine: Comedia entre copas",
+   "start": "2026-10-24T22:00",
+   "end": "2027-01-30T21:00",
+   "venue": "Saxy Jazz",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $950",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/aea349e2-794c-11f1-9162-f6ecba384b1c.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/649100"
+    }
+   ],
+   "url": "https://feverup.com/m/649100"
+  },
+  {
+   "id": "26e445f5475d",
+   "title": "TCG TRADING SHOW",
+   "start": "2026-10-25",
+   "end": null,
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/70019",
+   "description": null,
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://batalladecartastcg.com"
+    }
+   ],
+   "url": "http://batalladecartastcg.com"
+  },
+  {
+   "id": "51ef0ae97146",
+   "title": "Luli Pampín en Arena Monterrey",
+   "start": "2026-10-25T17:30",
+   "end": "2026-10-25T20:30",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/luli-pampin-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/luli-pampin-arena-monterrey-2026"
+    },
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/luli-pampin/"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/luli-pampin-arena-monterrey-2026"
+  },
+  {
+   "id": "35e8b59362bc",
+   "title": "Andrés Koi - Siempre sale el sol",
+   "start": "2026-10-25T20:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "97fe064f2d3e",
+   "title": "Fundi Expo 2026",
+   "start": "2026-10-28",
+   "end": "2026-10-30",
+   "venue": "Cintermex",
+   "city": "Monterrey",
+   "category": "Ferias y expos",
+   "price": null,
+   "image": "https://www.cintermex.com/verimagen/59394",
+   "description": "El evento más influyente en la industria de la fundición de los metales ferrosos y no ferrosos en Latinoamérica.",
+   "sources": [
+    {
+     "id": "cintermex",
+     "url": "http://fundiexpo.mx/"
+    }
+   ],
+   "url": "http://fundiexpo.mx/"
+  },
+  {
+   "id": "9a11eb39c16c",
+   "title": "Aitana",
+   "start": "2026-10-28T21:00",
+   "end": "2026-10-29T00:00",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9mYTYyOWQwNTc2MGZkY2ZkNjEzMDg3OGQ5YzcwZjcxZGQ3YmZmYWJkZTgxYjJjMjY5NmEwMDI4MjM5NzM2YjdmLXJpbWctdzEwMjQtaDU3Ni1kYzkwYzNlZC1nbWlyLmpwZz92PTE3Nzk3OTg1NDk.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/aitana/210003090095880"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-aitana-auditorio-banamex-28-octubre-2026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/aitana/210003090095880"
+  },
+  {
+   "id": "1eb11de84d31",
+   "title": "Room with a View",
+   "start": "2026-10-29T20:30",
+   "end": "2026-10-29T21:30",
+   "venue": "Teatro de La Ciudad Monterrey",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$300 – $400",
+   "tickets": "https://arema.mx/e/21258-room-with-a-view",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Room.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/room-with-a-view/2026-10-29/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/room-with-a-view/2026-10-29/"
+  },
+  {
+   "id": "82ea316d5041",
+   "title": "Jacinto",
+   "start": "2026-10-29T21:00",
+   "end": "2026-10-30T00:00",
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/05/Jacinto-en-Foro-Corona-2026.jpg",
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-jacinto-foro-corona-monterrey-2026"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "7cdb64f4bcb6",
+   "title": "Psyloween by Ace Ventura",
+   "start": "2026-10-30T19:00",
+   "end": null,
+   "venue": "Venue 867",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hZTMyMDJlMTRjNmI2NzY3MGQ1YmZjY2RiOGI4Njg3MWNlZWE3OGJmNTM4MjNjNGU5NmY0NWRlZDYyYWNmNGUzLXJpbWctdzEyMDAtaDE1MDAtZGMyZDE5MmQtZ21pci5qcGc_dj0xNzg1MDc0NzEx.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/psyloween-by-ace-ventura/100001995174240863"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/psyloween-by-ace-ventura/100001995174240863"
+  },
+  {
+   "id": "0fef044196fe",
+   "title": "Kevin Kaarl en Auditorio Banamex",
+   "start": "2026-10-30T20:00",
+   "end": "2026-10-30T23:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/kevin-kaarl-auditorio-banamex-monterrey-2026-scaled.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/kevin-kaarl-auditorio-banamex-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/kevin-kaarl-auditorio-banamex-monterrey-2026"
+  },
+  {
+   "id": "3ebb517422ba",
+   "title": "Noche de chicxs en Monterrey",
+   "start": "2026-10-30T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "7c7b571b96c6",
+   "title": "Ídolos del Corazón con los Terrícolas, Los Bryos y Los Solitarios",
+   "start": "2026-10-31T20:00",
+   "end": "2026-10-31T23:30",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$434 – $1860",
+   "tickets": "https://www.ticketmaster.com.mx/idolos-del-corazon-con-los-terricolas-monterrey-31-10-2026/event/1400646A902040C8",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/26b31b57-6553-4a01-9d26-ee07df20a505_EVENT_DETAIL_PAGE_16_9.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/idolos-del-corazon-con-los-terricolas-los-bryos-y-los-solitarios/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/idolos-del-corazon-con-los-terricolas-los-bryos-y-los-solitarios/"
+  },
+  {
+   "id": "12db490ca998",
+   "title": "Saramalacara",
+   "start": "2026-10-31T20:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "50d82452ec87",
+   "title": "Panteon Rococo",
+   "start": "2026-10-31T21:00",
+   "end": "2026-11-01T00:00",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9iMTgxOWIyNTA5MDAwNTBkMzQ0NzQxYTU1NTA3YTljYmU5ZTkyNWUwN2IzNzBhZDdkZGUwNGNlODk3YWVjZmQ3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDcwNy1nbWlyLmpwZz92PTE3Njk1OTEyMDM.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/panteon-rococo/210003272693081"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-panteon-rococo-monterrey-31-octubre-2026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/panteon-rococo/210003272693081"
+  },
+  {
+   "id": "f2ed825fe0f0",
+   "title": "Yolanda del Río – La Gran Señora de México",
+   "start": "2026-11-01T19:00",
+   "end": "2026-11-01T21:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$620 – $3100",
+   "tickets": "https://www.ticketmaster.com.mx/yolanda-del-rio-monterrey-01-11-2026/event/140064C3E266E95E",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/yolanda-del-rio.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/yolanda-del-rio-la-gran-senora-de-mexico/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/yolanda-del-rio-la-gran-senora-de-mexico/"
+  },
+  {
+   "id": "9eeec1aed5c5",
+   "title": "Sentencia de Muerte",
+   "start": "2026-11-03",
+   "end": "2026-11-10",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/275/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/sentencia-de-muerte"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/sentencia-de-muerte"
+  },
+  {
+   "id": "5f45fe97d7a3",
+   "title": "Paco de Miguel en Mi Familia es tu Familia",
+   "start": "2026-11-04T18:00",
+   "end": "2026-11-04T21:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Familiar",
+   "price": "$496 – $2728",
+   "tickets": "https://www.ticketmaster.com.mx/paco-de-miguel-en-mi-familia-monterrey-04-11-2026/event/14006478E5A849A4",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/728664107_18606394600062280_4888923123784995518_n.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/paco-de-miguel-en-mi-familia-es-tu-familia/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/paco-de-miguel-en-mi-familia-es-tu-familia/"
+  },
+  {
+   "id": "8392f4a3fd34",
+   "title": "Romeo Santos & Prince Royce",
+   "start": "2026-11-04T21:00",
+   "end": "2026-11-05T00:00",
+   "venue": "Walmart Park - Estadio de Béisbol Monterrey",
+   "city": "Monterrey",
+   "category": "Deportes",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy8wMDM2OGNiMC1iODc3LTExZjEtODNiZi0yOTU2YWNlNTcyODAtcmltZy13MTIwMC1oMTIwMC1kY2I4YzhkOC1nbWlyLmpwZz92PTE3OTAyOTU2NjY.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/romeo-santos-and-prince-royce-monterrey-tickets/100029957567148"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-romeo-santos-prince-royce-estadio-walmart-park-monterrey-2026"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/romeo-santos-and-prince-royce-monterrey-tickets/100029957567148"
+  },
+  {
+   "id": "718a2dbca603",
+   "title": "Bandido Diamante - Cuentos para no Dormir",
+   "start": "2026-11-05T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "581888b10569",
+   "title": "Karol G - Viajando Por El Mundo Tropitour",
+   "start": "2026-11-06T21:00",
+   "end": null,
+   "venue": "Estadio BBVA Bancomer",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hZWIyNzdlMTFmODYyMWIxN2NhYWVmMDBiYTBiOTZjODA4MmVmY2YwMDgwOTQyYmJjMGQwOGE5YzhjNGEyZDhjLXJpbWctdzEwMDAtaDUwMC1kYzc4NDg4OC1nbWlyP3Y9MTc4ODUyMzE0Ng.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030528911805"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030528911805"
+  },
+  {
+   "id": "a0b38cf20ce0",
+   "title": "Karol G en Estadio BBVA",
+   "start": "2026-11-06T21:00",
+   "end": "2026-11-07T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/WhatsApp-Image-2026-04-21-at-09.34.23.jpeg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-karol-g-estadio-bbva-2026-viajando-por-el-mundo-tour-monterrey"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-karol-g-estadio-bbva-2026-viajando-por-el-mundo-tour-monterrey"
+  },
+  {
+   "id": "d52cf2f77ddf",
+   "title": "Karol G: Viajando Por El Mundo Tropitour",
+   "start": "2026-11-06T21:00",
+   "end": null,
+   "venue": "Monterrey, Nuevo Leon, Mexico",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9kN2JmMGEzMjM0MzViZGVlZGQxN2M3MjM1NTI0OGFlMzJlYjE3NDgxYjkxYzZhN2ZiYjRlNzEzOTg5YWE2NjcyLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgwOC1nbWlyP3Y9MTc4ODIwMjg4OA.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030476084438"
+    },
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/karol-g-viajando-por-el-mundo-tropitour/"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030476084438"
+  },
+  {
+   "id": "a6f3a9886e85",
+   "title": "Omar Courtz en Auditorio Banamex",
+   "start": "2026-11-06T21:00",
+   "end": "2026-11-07T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/omar-courtz-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/omar-courtz-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/omar-courtz-monterrey-2026"
+  },
+  {
+   "id": "57b1c052819e",
+   "title": "Ultra Music Festival Mexico 2026 - 2-Day Pass",
+   "start": "2026-11-07T15:00",
+   "end": null,
+   "venue": "Estadio Borregos - Estadio Banorte",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy81NjNlNGY3MC1hMjdhLTExZjEtOGIwOS00Yjk5ZjhmZTQ4NzItcmltZy13MTIwMC1oODAwLWRjZjhmOGY4LWdtaXIuanBnP3Y9MTc4Nzg3ODI3OA.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/ultra-music-festival-mexico-2026-2-day-pass-tickets/100030341784057"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/ultra-music-festival-mexico-2026-2-day-pass-tickets/100030341784057"
+  },
+  {
+   "id": "72f344b02c4b",
+   "title": "Intocable",
+   "start": "2026-11-07T21:00",
+   "end": "2026-11-07T23:30",
+   "venue": "Estadio Borregos",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$1116 – $6014",
+   "tickets": "https://www.ticketmaster.com.mx/intocable-monterrey-07-11-2026/event/3D00649BE1E45078",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/Grupo-Intocable-1160x700-1.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/intocable/"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-intocable-estadio-borregos-2026-monterrey"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/intocable/"
+  },
+  {
+   "id": "fbb6ebf36a20",
+   "title": "Karol G - Monterrey",
+   "start": "2026-11-07T21:00",
+   "end": null,
+   "venue": "Estadio BBVA Bancomer",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy82YjMyYjQ1N2QwY2JjMjcxOTkxZmFkNTRkOTAzYWEzZTc5YWViZTljM2QzMjI3MWExN2RiYzc0ZWE3ZjUyZmI0LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc4ODA1MjgzOA.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/karol-g-monterrey/200030554982700"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/karol-g-monterrey/200030554982700"
+  },
+  {
+   "id": "273ad97dd321",
+   "title": "Yng Naz",
+   "start": "2026-11-07T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "adbe2f1f108a",
+   "title": "Bajo el Farol",
+   "start": "2026-11-08",
+   "end": "2026-11-29",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/270/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/bajo-el-farol"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/bajo-el-farol"
+  },
+  {
+   "id": "fe97b65eced2",
+   "title": "El Mundo de Fede Vigevani",
+   "start": "2026-11-08",
+   "end": null,
+   "venue": "",
+   "city": "",
+   "category": "Otros",
+   "price": null,
+   "image": "https://www.nuevoleon.travel/wp-content/uploads/2026/09/Fede-776x1024.webp",
+   "sources": [
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/el-mundo-de-fede-vigevani/"
+    }
+   ],
+   "url": "https://www.nuevoleon.travel/el-mundo-de-fede-vigevani/"
+  },
+  {
+   "id": "11134610393d",
+   "title": "Andrés Calamaro en Escenario GNP Seguros",
+   "start": "2026-11-09T21:00",
+   "end": "2026-11-10T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/andres-calamaro-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/andres-calamaro-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/andres-calamaro-monterrey-2026"
+  },
+  {
+   "id": "5f1fdfbf5647",
+   "title": "Eros Ramazzotti en Arena Monterrey",
+   "start": "2026-11-10T21:00",
+   "end": "2026-11-11T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/main_l_x2_EVT121943.webp",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-eros-ramazzotti-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-eros-ramazzotti-monterrey-2026"
+  },
+  {
+   "id": "dfd0357ffa5e",
+   "title": "God Save the Queen en Arena Monterrey",
+   "start": "2026-11-12T21:00",
+   "end": "2026-11-13T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/648738950_1421096953394193_6630049235389991754_n.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-god-save-the-queen-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-god-save-the-queen-arena-monterrey-2026"
+  },
+  {
+   "id": "0400b2415692",
+   "title": "MAC DEMARCO",
+   "start": "2026-11-12T21:00",
+   "end": "2026-11-12T23:30",
+   "venue": "Showcenter Complex",
+   "city": "San Pedro Garza García",
+   "category": "Música",
+   "price": "$790 – $1500",
+   "tickets": "https://www.superboletos.com/landing-evento/Ajwecdjibo5HNOj39NP69Q",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/Mac-portada.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/mac-demarco/"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-mac-demarco-monterrey-12-noviembre-2026"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/mac-demarco/"
+  },
+  {
+   "id": "4d22a4120ae4",
+   "title": "Siddhartha en Auditorio Banamex",
+   "start": "2026-11-12T21:00",
+   "end": "2026-11-13T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/Siddhartha_Monterrey_4x5-1_optimized.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-siddhartha-auditorio-banamex-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-siddhartha-auditorio-banamex-monterrey-2026"
+  },
+  {
+   "title": "Temporada de Teatro 2026 I Yo no soy Charlie o la melancolía de una lengua en formol",
+   "start": "2026-11-13T20:00",
+   "end": "2026-11-15T18:00",
+   "venue": "Teatro de la Ciudad I Sala Experimental",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Slider_TTCharlie-700x360.jpg",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/",
+   "id": "74a596366aed",
+   "dates": [
+    {
+     "start": "2026-11-13T20:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
+    },
+    {
+     "start": "2026-11-14T20:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
+    },
+    {
+     "start": "2026-11-15T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
+    }
+   ]
+  },
+  {
+   "id": "f963badc103b",
+   "title": "Mago de Oz en Arena Monterrey",
+   "start": "2026-11-13T21:00",
+   "end": "2026-11-14T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/main_l_x2_EVT134164.webp",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/mago-de-oz-la-noche-de-las-brujas-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/mago-de-oz-la-noche-de-las-brujas-2026"
+  },
+  {
+   "id": "e1c195391538",
+   "title": "ZZ Top en Auditorio Banamex",
+   "start": "2026-11-13T21:00",
+   "end": "2026-11-14T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/zz-top-monterrey-2025.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-zz-top-monterrey-auditorio-banamex-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-zz-top-monterrey-auditorio-banamex-2026"
+  },
+  {
+   "id": "e605fff17321",
+   "title": "Edgar Allan Poe Speakeasy Monterrey",
+   "start": "2026-11-14T16:00",
+   "end": "2027-01-23T22:00",
+   "venue": "Teatro Versalles",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $800",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/55b4bbf4-195c-11f1-8bbb-e6d239827f8b.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/739221"
+    }
+   ],
+   "url": "https://feverup.com/m/739221"
+  },
+  {
+   "id": "0bb3e7fe984c",
+   "title": "Candlelight: Tributo a Michael Jackson",
+   "start": "2026-11-14T19:00",
+   "end": "2026-11-14T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $570",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/73893830-1917-11f0-af90-de92939c34e1.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/709586"
+    }
+   ],
+   "url": "https://feverup.com/m/709586"
+  },
+  {
+   "id": "a00c9735ef59",
+   "title": "Griss Romero en Concierto",
+   "start": "2026-11-14T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera"
+  },
+  {
+   "id": "3b0801cde263",
+   "title": "Los Claxons en Arena Monterrey",
+   "start": "2026-11-14T21:00",
+   "end": "2026-11-15T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/los-claxons-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/los-claxons-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/los-claxons-arena-monterrey-2026"
+  },
+  {
+   "id": "c83ae8a9ec4c",
+   "title": "Matute en Escenario GNP Seguros",
+   "start": "2026-11-14T21:00",
+   "end": "2026-11-15T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/671828228_18450942970107544_2110544211952961795_n.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/matute"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/matute"
+  },
+  {
+   "id": "6f70ba8222ad",
+   "title": "Jeanette en Showcenter Complex",
+   "start": "2026-11-15T21:00",
+   "end": "2026-11-16T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/jeanette-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/jeanette-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/jeanette-monterrey-2026"
+  },
+  {
+   "id": "ec02c0e8268c",
+   "title": "Archivo muerto",
+   "start": "2026-11-16",
+   "end": "2026-11-30",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/272/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/archivo-muerto"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/archivo-muerto"
+  },
+  {
+   "title": "Mon Laferte en Auditorio Banamex",
+   "start": "2026-11-16T21:00",
+   "end": "2026-11-18T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/mon-laferte-auditorio-banamex-monterrey-17-noviembre-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-16-noviembre-auditorio-banamex-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-16-noviembre-auditorio-banamex-2026",
+   "id": "afd6268309f6",
+   "dates": [
+    {
+     "start": "2026-11-16T21:00",
+     "end": "2026-11-17T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-16-noviembre-auditorio-banamex-2026"
+    },
+    {
+     "start": "2026-11-17T21:00",
+     "end": "2026-11-18T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-17-noviembre-auditorio-banamex-2026"
+    }
+   ]
+  },
+  {
+   "id": "38c5ba67a3a1",
+   "title": "Candlelight: Las Cuatro Estaciones de Vivaldi",
+   "start": "2026-11-20T19:00",
+   "end": "2026-12-19T21:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $540",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/114535"
+    }
+   ],
+   "url": "https://feverup.com/m/114535"
+  },
+  {
+   "id": "e034a6447e18",
+   "title": "Banda MS en Arena Monterrey",
+   "start": "2026-11-20T21:00",
+   "end": "2026-11-21T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/concierto-banda-ms-monterrey-2026.jpeg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-banda-ms-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-banda-ms-arena-monterrey-2026"
+  },
+  {
+   "id": "c328f680e219",
+   "title": "Candlelight: Tributo a Taylor Swift",
+   "start": "2026-11-20T21:00",
+   "end": "2026-12-12T21:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/be8df194-1aa8-11f0-996c-caa78636736f.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/120969"
+    }
+   ],
+   "url": "https://feverup.com/m/120969"
+  },
+  {
+   "id": "b55277367f73",
+   "title": "Los Auténticos Decadentes y Los Caligaris en Auditorio Banamex",
+   "start": "2026-11-20T21:00",
+   "end": "2026-11-21T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/05/Los-Autenticos-decadentes-y-caligaris-en-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/los-autenticos-decadentes-y-los-caligaris"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/los-autenticos-decadentes-y-los-caligaris"
+  },
+  {
+   "id": "1af55d492664",
+   "title": "LP en Escenario GNP Seguros",
+   "start": "2026-11-20T21:00",
+   "end": "2026-11-21T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/05/lp-en-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-lp-escenario-gnp-seguros-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-lp-escenario-gnp-seguros-monterrey-2026"
+  },
+  {
+   "id": "06be55a7f9af",
+   "title": "The Jury Experience - Algoritmo Mortal",
+   "start": "2026-11-21T16:00",
+   "end": "2026-12-05T18:30",
+   "venue": "Teatro Versalles",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $350",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e2e02e18-90e0-11f1-8f67-32a5c963cb4a.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/534430"
+    }
+   ],
+   "url": "https://feverup.com/m/534430"
+  },
+  {
+   "id": "c510b4cdd57d",
+   "title": "Lululemon 10K Monterrey",
+   "start": "2026-11-22",
+   "end": null,
+   "venue": "",
+   "city": "",
+   "category": "Deportes",
+   "price": null,
+   "image": "https://www.nuevoleon.travel/wp-content/uploads/2026/08/lululemon.jpeg",
+   "sources": [
+    {
+     "id": "nuevoleon_travel",
+     "url": "https://www.nuevoleon.travel/lululemon-10k-monterrey/"
+    }
+   ],
+   "url": "https://www.nuevoleon.travel/lululemon-10k-monterrey/"
+  },
+  {
+   "id": "358e177de6bc",
+   "title": "Easykid en Foro Corona",
+   "start": "2026-11-25T21:00",
+   "end": "2026-11-26T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/easykid-foro-corona-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-easykid-foro-corona-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-easykid-foro-corona-2026"
+  },
+  {
+   "id": "6db14a6c52a0",
+   "title": "DANIEL HABIF – ASCENDER, EL PASO FINAL",
+   "start": "2026-11-26T20:30",
+   "end": "2026-11-26T22:30",
+   "venue": "Showcenter Complex",
+   "city": "San Pedro Garza García",
+   "category": "Teatro",
+   "price": "$650 – $2350",
+   "tickets": "https://www.superboletos.com/landing-evento/mEhUJizH3Il0JVXnNY1yiw",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/DANIEL-HABIF-MTY.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/daniel-habif-ascender-el-paso-final/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/daniel-habif-ascender-el-paso-final/"
+  },
+  {
+   "id": "ec99ac211566",
+   "title": "Trueno en Auditorio Banamex",
+   "start": "2026-11-26T21:00",
+   "end": "2026-11-27T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/05/trueno-en-concierto-sede-auditorio-banamex-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-trueno-auditorio-banamex-2026-monterrey"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-trueno-auditorio-banamex-2026-monterrey"
+  },
+  {
+   "id": "17ce057a46a8",
+   "title": "Candlelight: Coldplay & Imagine Dragons",
+   "start": "2026-11-27T19:00",
+   "end": "2027-02-13T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8711b8c6-9c76-11f1-bced-aeb6d10358b8.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/266289"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/candlelight-coldplay-and-imagine-dragons/2700030035779956"
+    }
+   ],
+   "url": "https://feverup.com/m/266289"
+  },
+  {
+   "id": "18f9e39cc360",
+   "title": "CD9 en Arena Monterrey",
+   "start": "2026-11-27T21:00",
+   "end": "2026-11-28T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/cd9-parallax-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/cd9-parallax-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/cd9-parallax-arena-monterrey-2026"
+  },
+  {
+   "id": "75b5bd10bcc1",
+   "title": "María José en Auditorio Banamex",
+   "start": "2026-11-27T21:00",
+   "end": "2026-11-28T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/maria-jose-ahora-o-nunca-auditorio-banamex-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-maria-jose-auditorio-banamex-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-maria-jose-auditorio-banamex-2026"
+  },
+  {
+   "id": "88488af8378a",
+   "title": "The Jazz Room: Tributo a Frank Sinatra y Louis Armstrong",
+   "start": "2026-11-28T16:30",
+   "end": "2027-01-23T21:30",
+   "venue": "Saxy Jazz",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $650",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/a35c1684-4b0e-11f1-b67c-a2c52086e1a8.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/653913"
+    }
+   ],
+   "url": "https://feverup.com/m/653913"
+  },
+  {
+   "id": "aa245ceb3692",
+   "title": "Motel 20 años en Monterrey",
+   "start": "2026-11-28T20:00",
+   "end": "2026-11-28T23:00",
+   "venue": "Foro Urbano",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$400 – $1300",
+   "tickets": "https://arema.mx/e/20264-motel-20-anos-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/MOTEL.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/motel-20-anos-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/motel-20-anos-en-monterrey/"
+  },
+  {
+   "id": "54cebf9c90f6",
+   "title": "CARLOS RIVERA",
+   "start": "2026-11-28T21:00",
+   "end": "2026-11-28T22:30",
+   "venue": "Arena Monterrey",
+   "city": "Monterrey Nuevo León",
+   "category": "Música",
+   "price": "$753 – $6027",
+   "tickets": "https://www.superboletos.com/landing-evento/ppChiH_-2g9VHeCA9eRq9Q",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/03/carlos-rivera.webp",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/carlos-rivera/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/carlos-rivera/"
+  },
+  {
+   "id": "6acf0c846594",
+   "title": "Insite en Monterrey",
+   "start": "2026-11-28T21:00",
+   "end": "2026-11-28T23:30",
+   "venue": "Café Iguana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$700 – $1500",
+   "tickets": "https://t3.arema.mx/e/20124/Insite-en-Monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/05/700207959_1838659347547359_6123208461211727129_n.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/insite-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/insite-en-monterrey/"
+  },
+  {
+   "id": "af84540e6f05",
+   "title": "Lenny Tavárez y Justin Quiles en Auditorio Banamex",
+   "start": "2026-11-28T21:00",
+   "end": "2026-11-29T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/lenny-tavarez-justin-quiles-monterrey-2026-scaled.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/lenny-tavarez-justin-quiles-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/lenny-tavarez-justin-quiles-monterrey-2026"
+  },
+  {
+   "id": "152c4b84f2e4",
+   "title": "Yandel en Arena Monterrey",
+   "start": "2026-11-30T21:00",
+   "end": "2026-12-01T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/yandel-sinfonico-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/yandel-sinfonico-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/yandel-sinfonico-arena-monterrey-2026"
+  },
+  {
+   "id": "98de81021374",
+   "title": "Morat en Arena Monterrey",
+   "start": "2026-12-02T21:00",
+   "end": "2026-12-03T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/main_l_x2_EVT136763.webp",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-morat-arena-monterrey-2-diciembre-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-morat-arena-monterrey-2-diciembre-2026"
+  },
+  {
+   "id": "e0d37d1c5c14",
+   "title": "MORAT – YEM WORLD TOUR – 3RA FECHA",
+   "start": "2026-12-04T21:00",
+   "end": "2026-12-04T23:00",
+   "venue": "Arena Monterrey",
+   "city": "Monterrey Nuevo León",
+   "category": "Música",
+   "price": "$992 – $3753",
+   "tickets": "https://www.superboletos.com/landing-evento/F1EVizizBHyX8lK6DRIUcQ",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/morat-mty-26.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/morat-yem-world-tour-3ra-fecha/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/morat-yem-world-tour-3ra-fecha/"
+  },
+  {
+   "id": "a77725fdbfa9",
+   "title": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
+   "start": "2026-12-05T17:00",
+   "end": "2026-12-05T19:00",
+   "venue": "Teatro Versalles",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $465",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8e8d45a8-8c21-11f1-92c9-961de4cb6e34.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/534428"
+    }
+   ],
+   "url": "https://feverup.com/m/534428"
+  },
+  {
+   "id": "2792f3680f65",
+   "title": "Eden Muñoz en Arena Monterrey",
+   "start": "2026-12-05T21:00",
+   "end": "2026-12-06T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/05/concierto-eden-munoz-en-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-eden-munoz-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-eden-munoz-arena-monterrey-2026"
+  },
+  {
+   "id": "66ad1141a5eb",
+   "title": "Shey Band en Monterrey",
+   "start": "2026-12-05T21:00",
+   "end": "2026-12-05T23:00",
+   "venue": "Rincón Tostitos By Jardín 85",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$600 – $1600",
+   "tickets": "https://arema.mx/e/21186-shey-band-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Shey-Band-en-Monterrey.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/shey-band-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/shey-band-en-monterrey/"
+  },
+  {
+   "title": "Esto NO es una Pastorela",
+   "start": "2026-12-06T13:00",
+   "end": "2026-12-20T15:00",
+   "venue": "Teatro Versalles",
+   "city": "MONTERREY",
+   "category": "Teatro",
+   "price": "$350 – $400",
+   "tickets": "https://arema.mx/e/18046-esto-no-es-una-pastorela-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/Esto-no-es-una-pastorela-en-Monterrey.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/esto-no-es-una-pastorela/2026-12-06/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/esto-no-es-una-pastorela/2026-12-06/",
+   "id": "eb24ab35710b",
+   "dates": [
+    {
+     "start": "2026-12-06T13:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/esto-no-es-una-pastorela/2026-12-06/"
+    },
+    {
+     "start": "2026-12-13T13:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/esto-no-es-una-pastorela/2026-12-13/"
+    },
+    {
+     "start": "2026-12-20T13:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/esto-no-es-una-pastorela/2026-12-20/"
+    }
+   ]
+  },
+  {
+   "id": "8ffbeba74e60",
+   "title": "Sin Bandera en Arena Monterrey",
+   "start": "2026-12-10T21:00",
+   "end": "2026-12-11T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/concierto-sin-bandera-arena-monterrey-diciembre-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-sin-bandera-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-sin-bandera-arena-monterrey-2026"
+  },
+  {
+   "title": "Caifanes en Auditorio Banamex",
+   "start": "2026-12-11T21:00",
+   "end": "2026-12-13T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/caifanes-auditorio-banamex-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/caifanes-auditorio-banamex-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/caifanes-auditorio-banamex-monterrey-2026",
+   "id": "46b42870c5d7",
+   "dates": [
+    {
+     "start": "2026-12-11T21:00",
+     "end": "2026-12-12T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/caifanes-auditorio-banamex-monterrey-2026"
+    },
+    {
+     "start": "2026-12-12T21:00",
+     "end": "2026-12-13T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-caifanes-auditorio-banamex-2026"
+    }
+   ]
+  },
+  {
+   "id": "fae7dad76bc0",
+   "title": "The Jury Experience - El robo de los 20 millones de dólares",
+   "start": "2026-12-12T16:00",
+   "end": "2027-01-23T19:00",
+   "venue": "Teatro Versalles",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $400",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8a1c2652-127c-11f1-92b2-b2434481c692.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/701017"
+    }
+   ],
+   "url": "https://feverup.com/m/701017"
+  },
+  {
+   "id": "706ea152ca92",
+   "title": "Candlelight: Tributo a Adele",
+   "start": "2026-12-12T19:00",
+   "end": "2026-12-12T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/a9430c14-6280-11f0-8664-ae8f95c7ce7e.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/562474"
+    }
+   ],
+   "url": "https://feverup.com/m/562474"
+  },
+  {
+   "id": "07d6dc4bce43",
+   "title": "Alejandra Guzman en Arena Monterrey",
+   "start": "2026-12-12T21:00",
+   "end": "2026-12-13T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/poster-oficial-alejandra-guzman-arena-monterrey-2026.jpeg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-alejandra-guzman-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-alejandra-guzman-arena-monterrey-2026"
+  },
+  {
+   "id": "44e4ebea5b47",
+   "title": "Deep Purple en Arena Monterrey",
+   "start": "2026-12-13T21:00",
+   "end": "2026-12-14T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/03/624141524_18560334268056556_4039628660340507987_n.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-deep-purple-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-deep-purple-arena-monterrey-2026"
+  },
+  {
+   "id": "278a9c6cef54",
+   "title": "Dune Parte 3 - IMAX 1.43",
+   "start": "2026-12-15T13:00",
+   "end": "2026-12-16T22:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $175",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87007826-ac80-11f1-9361-8e3fc9312c1a.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/752770"
+    }
+   ],
+   "url": "https://feverup.com/m/752770"
+  },
+  {
+   "id": "f235de5e3146",
+   "title": "Veintidós Veintidós de Odin Dupeyron en Monterrey",
+   "start": "2026-12-16T18:00",
+   "end": "2026-12-16T20:00",
+   "venue": "Teatro de La Ciudad Monterrey",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$600 – $1300",
+   "tickets": "https://arema.mx/e/20662-veintidos-veintidos-de-odin-dupeyron-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/09/2222.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/veintidos-veintidos-de-odin-dupeyron-en-monterrey/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/veintidos-veintidos-de-odin-dupeyron-en-monterrey/"
+  },
+  {
+   "id": "7427530096ca",
+   "title": "Enjambre en Auditorio Banamex",
+   "start": "2026-12-17T21:00",
+   "end": "2026-12-18T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/enjambre-auditorio-banamex-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/enjambre-auditorio-banamex-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/enjambre-auditorio-banamex-monterrey-2026"
+  },
+  {
+   "id": "2d9f4c7cdfef",
+   "title": "Grupo Frontera en Arena Monterrey",
+   "start": "2026-12-17T21:00",
+   "end": "2026-12-18T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/grupo-frontera-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/grupo-frontera-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/grupo-frontera-arena-monterrey-2026"
+  },
+  {
+   "id": "55322d82b24e",
+   "title": "Candlelight: Tributo a Rawayana",
+   "start": "2026-12-18T19:00",
+   "end": "2026-12-18T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/6d24d8f6-bcdf-11f1-9bfb-f66438b845e0.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/778915"
+    }
+   ],
+   "url": "https://feverup.com/m/778915"
+  },
+  {
+   "id": "3fd8605e4d34",
+   "title": "Sleeping With Sirens en Showcenter Complex",
+   "start": "2026-12-18T21:00",
+   "end": "2026-12-19T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/sleeping-with-sirens-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/sleeping-with-sirens-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/sleeping-with-sirens-monterrey-2026"
+  },
+  {
+   "id": "dd01e1a4b271",
+   "title": "Candlelight: Clásicos de Navidad",
+   "start": "2026-12-19T19:00",
+   "end": "2026-12-19T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $560",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/1eec67ea-3f9e-11f0-95bb-3a80c691bf35.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/121409"
+    }
+   ],
+   "url": "https://feverup.com/m/121409"
+  },
+  {
+   "id": "51b5f1dd8c62",
+   "title": "La Firma en Arena Monterrey",
+   "start": "2026-12-19T21:00",
+   "end": "2026-12-20T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/la-firma-arena-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/la-firma-arena-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/la-firma-arena-monterrey-2026"
+  },
+  {
+   "id": "c4c430a8501a",
+   "title": "Tempus Christmas Concert en Showcenter Complex",
+   "start": "2026-12-22T20:30",
+   "end": "2026-12-22T23:30",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/tempus-christmas-concert-monterrey-2026.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/tempus-christmas-concert-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/tempus-christmas-concert-monterrey-2026"
+  },
+  {
+   "id": "74f319f5930b",
+   "title": "Hayley Williams en Auditorio Banamex",
+   "start": "2027-01-15T21:00",
+   "end": "2027-01-16T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/06/Concierto-Hayley-Williams-auditorio-banamex-2027-1.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/hayley-williams"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/hayley-williams"
+  },
+  {
+   "id": "f86a690e5eb1",
+   "title": "Candlelight: Tributo a Linkin Park",
+   "start": "2027-01-16T19:00",
+   "end": "2027-01-16T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/d685861c-6289-11f0-a985-a2b1f131a114.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/709587"
+    }
+   ],
+   "url": "https://feverup.com/m/709587"
+  },
+  {
+   "id": "e09d5b761dc1",
+   "title": "Black Label Society en Showcenter Complex",
+   "start": "2027-01-21T21:00",
+   "end": "2027-01-22T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/06/Black-Level-Society-en-Monterrey-2027.jpeg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/black-label-society"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/black-label-society"
+  },
+  {
+   "id": "9fefa7db5f4c",
+   "title": "Hellripper",
+   "start": "2027-01-28T21:00",
+   "end": "2027-01-28T23:30",
+   "venue": "Café Iguana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$750 – $1000",
+   "tickets": "https://arema.mx/e/20250",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/07/95810101_1456538601193523_4190893344995409920_n-1.jpg",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/hellripper/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/hellripper/"
+  },
+  {
+   "id": "e93c9a157b08",
+   "title": "The Jazz Room: Tributo a Marvin Gaye – Una noche de soul",
+   "start": "2027-01-29T16:00",
+   "end": "2027-03-20T21:00",
+   "venue": "Saxy Jazz",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $400",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/fe62c578-342a-11f1-8497-4ec41bec5311.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/772930"
+    }
+   ],
+   "url": "https://feverup.com/m/772930"
+  },
+  {
+   "id": "338095bc9d4e",
+   "title": "Candlelight: Lo Mejor de Hans Zimmer",
+   "start": "2027-01-29T19:00",
+   "end": "2027-01-29T19:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/2cdbbc5e-1396-11f0-ad7f-b60b2ede6686.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/142669"
+    }
+   ],
+   "url": "https://feverup.com/m/142669"
+  },
+  {
+   "id": "cd0cd54a680b",
+   "title": "Edith Márquez en Arena Monterrey",
+   "start": "2027-02-06T21:00",
+   "end": "2027-02-07T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/edith-marquez-en-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-edith-marquez-arena-monterrey-2027"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-edith-marquez-arena-monterrey-2027"
+  },
+  {
+   "id": "be5d00b91744",
+   "title": "Candlelight: Especial de San Valentín",
+   "start": "2027-02-13T21:00",
+   "end": "2027-02-13T21:00",
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Desde $500",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/a1c08570-d73d-11f0-a29d-1e898d3afd0b.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/498925"
+    }
+   ],
+   "url": "https://feverup.com/m/498925"
+  },
+  {
+   "id": "1d78c8636145",
+   "title": "Westlife en Arena Monterrey",
+   "start": "2027-02-24T21:00",
+   "end": "2027-02-25T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/05/westlife-en-concierto-arena-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/westlife"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/westlife"
+  },
+  {
+   "id": "9d4bfc1a425e",
+   "title": "Jorge Drexler en Escenario GNP Seguros",
+   "start": "2027-02-25T21:00",
+   "end": "2027-02-26T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/04/Jorge-Drexler-en-Escenario-GNP-Seguros-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-jorge-drexler-escenario-gnp-seguros-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-jorge-drexler-escenario-gnp-seguros-monterrey-2026"
+  },
+  {
+   "id": "fc438494e6ca",
+   "title": "Emmanuel en Auditorio Banamex",
+   "start": "2027-02-27T21:00",
+   "end": "2027-02-28T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/emmanuel-sinfonico-auditorio-banamex-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-emmanuel-sinfonico-auditorio-banamex-2027"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-emmanuel-sinfonico-auditorio-banamex-2027"
+  },
+  {
+   "id": "46b93e2d7bb7",
+   "title": "Foreigner en Escenario GNP Seguros",
+   "start": "2027-02-27T21:00",
+   "end": "2027-02-28T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/foreigner-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/foreigner-monterrey-2027"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/foreigner-monterrey-2027"
+  },
+  {
+   "id": "7f514a4ed720",
+   "title": "Interpol en Arena Monterrey",
+   "start": "2027-03-09T21:00",
+   "end": "2027-03-10T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/interpol-arena-monterrey-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-interpol-arena-monterrey-2027"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-interpol-arena-monterrey-2027"
+  },
+  {
+   "id": "382ce9a37849",
+   "title": "Placebo en Auditorio Banamex",
+   "start": "2027-03-18T20:00",
+   "end": "2027-03-18T23:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/placebo-auditorio-banamex-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-placebo-auditorio-banamex-2027"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-placebo-auditorio-banamex-2027"
+  },
+  {
+   "id": "04d39aaf16f3",
+   "title": "Jungle en Auditorio Banamex",
+   "start": "2027-03-22T21:00",
+   "end": "2027-03-23T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/05/jungle-en-monterrey-2027-auditorio-banamex.png",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-jungle"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-jungle"
+  },
+  {
+   "id": "333eb238f84b",
+   "title": "Silvio Rodríguez en Auditorio Banamex",
+   "start": "2027-04-15T21:00",
+   "end": "2027-04-16T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/silvio-rodriguez-auditorio-banamex-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-silvio-rodriguez-auditorio-banamex-2027"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/concierto-silvio-rodriguez-auditorio-banamex-2027"
+  },
+  {
+   "id": "6b0b9c7536b6",
+   "title": "Wicked: Part One in Concert en Arena Monterrey",
+   "start": "2027-04-24T21:00",
+   "end": "2027-04-25T00:00",
+   "venue": "",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/wicked-part-one-in-concert-arena-monterrey-2027.jpg",
+   "genre": null,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/wicked-part-one-in-concert-arena-monterrey-2027"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/wicked-part-one-in-concert-arena-monterrey-2027"
+  }
+ ]
+}
