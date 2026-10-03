@@ -61,18 +61,32 @@ function categorize(e) {
 const STOP = new Set(['de', 'la', 'el', 'los', 'las', 'en', 'y', 'del', 'con', 'a', 'monterrey', 'mty', 'tour', 'concierto', 'the', 'live', '2026', '2027', 'presenta', 'gira', 'por', 'al', 'in', 'at', 'vs', 'feat', 'ft']);
 const tokens = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ ]+/g, ' ').split(' ').filter((w) => w.length > 1 && !STOP.has(w));
 const day = (iso) => (iso || '').slice(0, 10);
+// "Karol G en Estadio BBVA" → "Karol G": el recinto no forma parte del nombre del evento.
+const VENUE_TAIL = /\s+(en|@)\s+(el |la )?(arena|estadio|auditorio|foro|teatro|escenario|explanada|parque|showcenter|caf[eé]|rinc[oó]n|jard[ií]n|metapatio|venue|plaza|centro|cintermex|fundidora|sala|museo|monterrey|mty)\b.*$/i;
+// Boletos "extra" que no son otro evento: meet & greet, suites, paquetes VIP, etc.
+const ADDON = /meet\s*(&|and|y)?\s*greet|\bm\s*&\s*g\b|\bsuites?\b|backstage pass|upgrade|\bnumerado\b|\bvip\b|estacionamiento|parking|paquete/i;
+const ADDON_WORDS = new Set(['meet', 'greet', 'mg', 'suite', 'suites', 'backstage', 'pass', 'upgrade', 'numerado', 'vip', 'estacionamiento', 'parking', 'paquete', 'dic', 'world', 'global']);
+const titleTokens = (t) => tokens((t || '').replace(VENUE_TAIL, '')).filter((w) => !ADDON_WORDS.has(w));
+const GENERIC = new Set(['candlelight', 'tributo', 'festival', 'cine', 'expo', 'taller', 'conferencia', 'clase', 'maestra', 'conversatorio', 'mesa', 'fisl', 'temporada', 'teatro', 'noche', 'gran', 'show', 'fiesta']);
 
 const minutes = (iso) => (iso && iso.length > 10 ? +iso.slice(11, 13) * 60 + +iso.slice(14, 16) : null);
 function sameEvent(a, b) {
-  if (a.source && a.source === b.source) return false; // una misma fuente nunca se duplica a sí misma
+  const addon = ADDON.test(a.title || '') || ADDON.test(b.title || '');
+  if (a.source && a.source === b.source && !addon) return false; // una misma fuente nunca se duplica a sí misma (salvo boletos extra)
   if (day(a.start) !== day(b.start)) return false;
-  const ma = minutes(a.start), mb = minutes(b.start);
-  if (ma != null && mb != null && Math.abs(ma - mb) > 90) return false;
-  const A = new Set(tokens(a.title)), B = new Set(tokens(b.title));
+  const A = new Set(titleTokens(a.title)), B = new Set(titleTokens(b.title));
   if (!A.size || !B.size) return false;
+  const same = [...A].join(' ') === [...B].join(' ');
+  const ma = minutes(a.start), mb = minutes(b.start);
+  // Mismo nombre exacto: se tolera más diferencia de hora (apertura de puertas vs. inicio).
+  if (ma != null && mb != null && Math.abs(ma - mb) > (same ? 180 : 90)) return false;
+  if (same) return true;
   const inter = [...A].filter((w) => B.has(w)).length;
   const [small] = A.size <= B.size ? [A] : [B];
-  return inter === small.size || inter / (A.size + B.size - inter) > 0.5;
+  if (inter === small.size || inter / (A.size + B.size - inter) > 0.5) return true;
+  // "Yolanda del Río – La Gran Señora" vs "Yolanda del Rio, El Gran Regreso": mismo artista, misma hora.
+  const fa = [...A].slice(0, 2), fb = [...B].slice(0, 2);
+  return ma === mb && fa.length === 2 && fa.join() === fb.join() && !fa.some((w) => GENERIC.has(w));
 }
 
 function score(e) { // qué tan completo está un registro (para elegir el "principal" al fusionar)
@@ -82,11 +96,13 @@ function score(e) { // qué tan completo está un registro (para elegir el "prin
 function merge(list) {
   const out = [];
   for (const e of list) {
-    const twin = out.find((x) => !x._src.has(e.source) && sameEvent({ ...x, source: null }, e));
+    const twin = out.find((x) => (!x._src.has(e.source) || ADDON.test(e.title) || ADDON.test(x.title)) && sameEvent({ ...x, source: x._src.has(e.source) ? e.source : null }, e));
     if (!twin) { out.push({ ...e, _src: new Set([e.source]), sources: [{ id: e.source, url: e.url }] }); continue; }
+    if (!twin._src.has(e.source)) twin.sources.push({ id: e.source, url: e.url });
     twin._src.add(e.source);
-    twin.sources.push({ id: e.source, url: e.url });
-    const best = score(e) > score(twin) ? e : twin;
+    const eAddon = ADDON.test(e.title), tAddon = ADDON.test(twin.title);
+    // El boleto "normal" manda sobre el meet & greet / suites; si no, el registro más completo.
+    const best = eAddon !== tAddon ? (eAddon ? twin : e) : score(e) > score(twin) ? e : twin;
     const other = best === e ? twin : e;
     for (const k of ['title', 'start', 'end', 'venue', 'city', 'price', 'image', 'tickets', 'description', 'times']) {
       twin[k] = best[k] != null && best[k] !== '' ? best[k] : other[k];

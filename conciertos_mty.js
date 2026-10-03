@@ -19,6 +19,9 @@ module.exports = {
         if (seen.has(k)) continue;
         seen.add(k);
         // El JSON-LD trae precio 0 y la liga genérica de Ticketmaster: no sirven, se omiten.
+        // Sus títulos vienen como "Karol G en Estadio BBVA": separamos artista y recinto.
+        const m = !e.venue && e.title.match(/^(.+?)\s+en\s+((?:el |la )?(?:arena|estadio|auditorio|foro|teatro|escenario|explanada|parque|showcenter|caf[eé]|rinc[oó]n|jard[ií]n|metapatio|venue|plaza|centro|cintermex|fundidora|sala|museo)\b.*)$/i);
+        if (m) { e.title = m[1].trim(); e.venue = m[2].trim(); }
         out.push({ ...e, price: null, category: 'Música', genre: e.genre });
       }
       await u.sleep(300);
