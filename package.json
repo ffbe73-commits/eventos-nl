@@ -1,0 +1,10 @@
+{
+  "name": "eventos-nl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recolector de eventos de Monterrey / Nuevo León para la app Eventos NL",
+  "scripts": {
+    "recolectar": "node collector/index.js"
+  },
+  "engines": { "node": ">=20" }
+}
