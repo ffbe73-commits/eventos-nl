@@ -9,7 +9,7 @@ const SOURCES = [
   'cartelera_escenica', 'arema', 'superboletos', 'ticketmaster', 'conciertos_mty', 'conarte_agenda', 'cineteca', 'santa_lucia',
   'nuevoleon_travel', 'allevents', 'ctxplorer', 'marco', 'tres_museos', 'cintermex',
   'foro_corona', 'fever', 'primetickets', 'osuanl', 'ballet_mty', 'sanpedro_vive', 'sanpedro_parques',
-  'chipinque', 'eventbrite',
+  'chipinque',
 ].map((id) => require(`./${id}`));
 
 // Páginas de tu lista que NO se leen directamente, y por qué (la app las muestra en "Fuentes").
@@ -18,6 +18,7 @@ const NOT_INCLUDED = [
   { name: 'Cinépolis', home: 'https://cinepolis.com/cartelera/monterrey', status: 'excluido', reason: 'Cine comercial: se dejó fuera a propósito para no saturar la lista.' },
   { name: 'Parque Cinema', home: 'https://www.facebook.com/ParqueCinema/', status: 'no disponible', reason: 'Sólo publica su cartelera en Facebook (no viene ni en el calendario ni en el PDF de San Pedro + Parques).' },
   { name: 'Clases semanales en parques de San Pedro', home: 'https://sanpedroparques.mx/calendario-eventos/', status: 'no disponible', reason: 'Yoga, tai chi, pilates, etc. vienen en el PDF del mes ("Descarga los calendarios vigentes"). La app sólo incluye las actividades especiales.' },
+  { name: 'Eventbrite Monterrey', home: 'https://www.eventbrite.com.mx/d/mexico--monterrey/events/', status: 'no disponible', reason: 'Bloquea la lectura automática desde el servidor (error 405). Conferencias, fiestas y talleres independientes.' },
   { name: 'Museo Arquidiocesano', home: 'https://www.facebook.com/museoarquidiocesanodeartesacro/', status: 'no disponible', reason: 'Su página no tiene agenda; anuncia exposiciones y conciertos sólo en Facebook.' },
   { name: 'Arquidiócesis de Monterrey', home: 'https://www.arquidiocesismty.org/arquimty/', status: 'no disponible', reason: 'Sólo publica noticias, sin fechas de eventos.' },
   { name: 'Comisión de Música Sacra', home: 'https://www.facebook.com/comisiondemusicasacramty/', status: 'no disponible', reason: 'Su página no tiene calendario; publica en Facebook.' },
