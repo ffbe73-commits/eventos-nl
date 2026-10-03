@@ -9,9 +9,9 @@ const SOURCES = [
   'cartelera_escenica', 'ticketmaster', 'conciertos_mty', 'conarte_agenda', 'cineteca',
   'nuevoleon_travel', 'allevents', 'ctxplorer', 'marco', 'tres_museos', 'cintermex',
   'foro_corona', 'fever', 'primetickets',
-].map((id) => require(`./sources/${id}`));
+].map((id) => require(`./${id}`));
 
-const OUT = path.join(__dirname, '..', 'data', 'events.json');
+const OUT = path.join(__dirname, 'events.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
 const MAX_DAYS_AHEAD = 240;
 
