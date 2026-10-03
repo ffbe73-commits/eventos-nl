@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-03T22:56:26.665Z",
+ "generatedAt": "2026-10-03T23:10:56.997Z",
  "timezone": "America/Monterrey",
- "total": 622,
+ "total": 620,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,20 +10,20 @@
    "ok": true,
    "count": 89,
    "error": null,
-   "checkedAt": "2026-10-03T22:53:54.306Z",
-   "lastSuccess": "2026-10-03T22:53:54.306Z",
-   "ms": 2566
+   "checkedAt": "2026-10-03T23:08:26.819Z",
+   "lastSuccess": "2026-10-03T23:08:26.819Z",
+   "ms": 2584
   },
   {
    "id": "arema",
    "name": "Arema",
    "home": "https://arema.mx/",
    "ok": true,
-   "count": 157,
+   "count": 156,
    "error": null,
-   "checkedAt": "2026-10-03T22:53:56.873Z",
-   "lastSuccess": "2026-10-03T22:53:56.873Z",
-   "ms": 29746
+   "checkedAt": "2026-10-03T23:08:29.404Z",
+   "lastSuccess": "2026-10-03T23:08:29.404Z",
+   "ms": 30248
   },
   {
    "id": "superboletos",
@@ -32,9 +32,9 @@
    "ok": true,
    "count": 93,
    "error": null,
-   "checkedAt": "2026-10-03T22:54:26.619Z",
-   "lastSuccess": "2026-10-03T22:54:26.619Z",
-   "ms": 570
+   "checkedAt": "2026-10-03T23:08:59.652Z",
+   "lastSuccess": "2026-10-03T23:08:59.652Z",
+   "ms": 636
   },
   {
    "id": "ticketmaster",
@@ -43,9 +43,9 @@
    "ok": true,
    "count": 152,
    "error": null,
-   "checkedAt": "2026-10-03T22:54:27.189Z",
-   "lastSuccess": "2026-10-03T22:54:27.189Z",
-   "ms": 604
+   "checkedAt": "2026-10-03T23:09:00.288Z",
+   "lastSuccess": "2026-10-03T23:09:00.288Z",
+   "ms": 766
   },
   {
    "id": "conciertos_mty",
@@ -54,9 +54,9 @@
    "ok": true,
    "count": 78,
    "error": null,
-   "checkedAt": "2026-10-03T22:54:27.793Z",
-   "lastSuccess": "2026-10-03T22:54:27.793Z",
-   "ms": 2914
+   "checkedAt": "2026-10-03T23:09:01.054Z",
+   "lastSuccess": "2026-10-03T23:09:01.054Z",
+   "ms": 3055
   },
   {
    "id": "conarte_agenda",
@@ -65,9 +65,9 @@
    "ok": true,
    "count": 59,
    "error": null,
-   "checkedAt": "2026-10-03T22:54:30.707Z",
-   "lastSuccess": "2026-10-03T22:54:30.707Z",
-   "ms": 69932
+   "checkedAt": "2026-10-03T23:09:04.109Z",
+   "lastSuccess": "2026-10-03T23:09:04.109Z",
+   "ms": 72105
   },
   {
    "id": "cineteca",
@@ -76,9 +76,9 @@
    "ok": true,
    "count": 41,
    "error": null,
-   "checkedAt": "2026-10-03T22:55:40.639Z",
-   "lastSuccess": "2026-10-03T22:55:40.639Z",
-   "ms": 20434
+   "checkedAt": "2026-10-03T23:10:16.215Z",
+   "lastSuccess": "2026-10-03T23:10:16.215Z",
+   "ms": 21813
   },
   {
    "id": "santa_lucia",
@@ -87,8 +87,8 @@
    "ok": true,
    "count": 146,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:01.073Z",
-   "lastSuccess": "2026-10-03T22:56:01.073Z",
+   "checkedAt": "2026-10-03T23:10:38.028Z",
+   "lastSuccess": "2026-10-03T23:10:38.028Z",
    "ms": 1
   },
   {
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:01.074Z",
-   "lastSuccess": "2026-10-03T22:56:01.074Z",
-   "ms": 990
+   "checkedAt": "2026-10-03T23:10:38.030Z",
+   "lastSuccess": "2026-10-03T23:10:38.030Z",
+   "ms": 1174
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:02.064Z",
-   "lastSuccess": "2026-10-03T22:56:02.064Z",
-   "ms": 266
+   "checkedAt": "2026-10-03T23:10:39.204Z",
+   "lastSuccess": "2026-10-03T23:10:39.204Z",
+   "ms": 224
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:02.330Z",
-   "lastSuccess": "2026-10-03T22:56:02.330Z",
-   "ms": 101
+   "checkedAt": "2026-10-03T23:10:39.428Z",
+   "lastSuccess": "2026-10-03T23:10:39.428Z",
+   "ms": 367
   },
   {
    "id": "marco",
@@ -131,20 +131,20 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:02.432Z",
-   "lastSuccess": "2026-10-03T22:56:02.432Z",
-   "ms": 469
+   "checkedAt": "2026-10-03T23:10:39.795Z",
+   "lastSuccess": "2026-10-03T23:10:39.795Z",
+   "ms": 376
   },
   {
    "id": "tres_museos",
    "name": "3 Museos",
    "home": "https://www.3museos.com/eventos/",
-   "ok": true,
-   "count": 4,
-   "error": null,
-   "checkedAt": "2026-10-03T22:56:02.901Z",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 en https://www.3museos.com/eventos/",
+   "checkedAt": "2026-10-03T23:10:40.171Z",
    "lastSuccess": "2026-10-03T22:56:02.901Z",
-   "ms": 1161
+   "ms": 3562
   },
   {
    "id": "cintermex",
@@ -153,9 +153,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:04.062Z",
-   "lastSuccess": "2026-10-03T22:56:04.062Z",
-   "ms": 905
+   "checkedAt": "2026-10-03T23:10:43.734Z",
+   "lastSuccess": "2026-10-03T23:10:43.734Z",
+   "ms": 950
   },
   {
    "id": "foro_corona",
@@ -164,9 +164,9 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:04.967Z",
-   "lastSuccess": "2026-10-03T22:56:04.967Z",
-   "ms": 78
+   "checkedAt": "2026-10-03T23:10:44.684Z",
+   "lastSuccess": "2026-10-03T23:10:44.684Z",
+   "ms": 109
   },
   {
    "id": "fever",
@@ -175,9 +175,9 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:05.045Z",
-   "lastSuccess": "2026-10-03T22:56:05.045Z",
-   "ms": 184
+   "checkedAt": "2026-10-03T23:10:44.793Z",
+   "lastSuccess": "2026-10-03T23:10:44.793Z",
+   "ms": 176
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:05.229Z",
-   "lastSuccess": "2026-10-03T22:56:05.229Z",
-   "ms": 1364
+   "checkedAt": "2026-10-03T23:10:44.969Z",
+   "lastSuccess": "2026-10-03T23:10:44.969Z",
+   "ms": 217
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:06.593Z",
-   "lastSuccess": "2026-10-03T22:56:06.593Z",
-   "ms": 1225
+   "checkedAt": "2026-10-03T23:10:45.186Z",
+   "lastSuccess": "2026-10-03T23:10:45.186Z",
+   "ms": 1251
   },
   {
    "id": "ballet_mty",
@@ -208,9 +208,9 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:07.818Z",
-   "lastSuccess": "2026-10-03T22:56:07.818Z",
-   "ms": 8259
+   "checkedAt": "2026-10-03T23:10:46.437Z",
+   "lastSuccess": "2026-10-03T23:10:46.437Z",
+   "ms": 3093
   },
   {
    "id": "sanpedro_vive",
@@ -219,9 +219,9 @@
    "ok": true,
    "count": 77,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:16.077Z",
-   "lastSuccess": "2026-10-03T22:56:16.077Z",
-   "ms": 2571
+   "checkedAt": "2026-10-03T23:10:49.531Z",
+   "lastSuccess": "2026-10-03T23:10:49.531Z",
+   "ms": 2348
   },
   {
    "id": "sanpedro_parques",
@@ -230,9 +230,9 @@
    "ok": true,
    "count": 60,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:18.648Z",
-   "lastSuccess": "2026-10-03T22:56:18.648Z",
-   "ms": 4032
+   "checkedAt": "2026-10-03T23:10:51.879Z",
+   "lastSuccess": "2026-10-03T23:10:51.879Z",
+   "ms": 4485
   },
   {
    "id": "chipinque",
@@ -241,20 +241,9 @@
    "ok": true,
    "count": 26,
    "error": null,
-   "checkedAt": "2026-10-03T22:56:22.680Z",
-   "lastSuccess": "2026-10-03T22:56:22.680Z",
-   "ms": 405
-  },
-  {
-   "id": "eventbrite",
-   "name": "Eventbrite Monterrey",
-   "home": "https://www.eventbrite.com.mx/d/mexico--monterrey/events/",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 405 en https://www.eventbrite.com.mx/d/mexico--monterrey/all-events/?page=1",
-   "checkedAt": "2026-10-03T22:56:23.085Z",
-   "lastSuccess": null,
-   "ms": 3223
+   "checkedAt": "2026-10-03T23:10:56.365Z",
+   "lastSuccess": "2026-10-03T23:10:56.365Z",
+   "ms": 175
   }
  ],
  "notIncluded": [
@@ -281,6 +270,12 @@
    "home": "https://sanpedroparques.mx/calendario-eventos/",
    "status": "no disponible",
    "reason": "Yoga, tai chi, pilates, etc. vienen en el PDF del mes (\"Descarga los calendarios vigentes\"). La app sólo incluye las actividades especiales."
+  },
+  {
+   "name": "Eventbrite Monterrey",
+   "home": "https://www.eventbrite.com.mx/d/mexico--monterrey/events/",
+   "status": "no disponible",
+   "reason": "Bloquea la lectura automática desde el servidor (error 405). Conferencias, fiestas y talleres independientes."
   },
   {
    "name": "Museo Arquidiocesano",
@@ -932,24 +927,6 @@
    "url": "https://www.marco.org.mx/eventos/visita-guiada-por-gabriel-de-la-mora-5/"
   },
   {
-   "id": "6ea66a5f38fc",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "start": "2026-10-03T13:30",
-   "end": "2026-10-28T18:00",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $300",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894"
-  },
-  {
    "title": "Más allá del resultado",
    "start": "2026-10-03T14:00",
    "end": "2026-10-04T12:00",
@@ -1018,40 +995,22 @@
    ]
   },
   {
-   "id": "20fcc21925b4",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "id": "6ea66a5f38fc",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
    "start": "2026-10-03T15:00",
-   "end": "2026-12-06T17:00",
-   "venue": "Parque Rufino Tamayo",
+   "end": "2026-10-28T18:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
    "city": "Monterrey",
    "category": "Experiencias",
-   "price": "Desde $370",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "price": "Desde $300",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/287670"
+     "url": "https://feverup.com/m/341894"
     }
    ],
-   "url": "https://feverup.com/m/287670"
-  },
-  {
-   "id": "3a0864a4a10a",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "start": "2026-10-03T15:00",
-   "end": "2026-11-01T18:00",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878"
+   "url": "https://feverup.com/m/341894"
   },
   {
    "id": "66900d89c8d5",
@@ -1070,6 +1029,24 @@
     }
    ],
    "url": "https://feverup.com/m/612272"
+  },
+  {
+   "id": "20fcc21925b4",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "start": "2026-10-03T16:00",
+   "end": "2026-12-06T17:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $370",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670"
   },
   {
    "title": "Dogtooth: Canino",
@@ -1106,22 +1083,22 @@
    ]
   },
   {
-   "id": "eed4c8056870",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "id": "3a0864a4a10a",
+   "title": "La Fuga del Prisionero - San Pedro",
    "start": "2026-10-03T16:00",
-   "end": "2026-11-29T19:00",
-   "venue": "Museo del Acero horno 3",
+   "end": "2026-11-01T18:00",
+   "venue": "Parque El Capitán",
    "city": "Monterrey",
    "category": "Experiencias",
    "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/638206"
+     "url": "https://feverup.com/m/629878"
     }
    ],
-   "url": "https://feverup.com/m/638206"
+   "url": "https://feverup.com/m/629878"
   },
   {
    "title": "El fin de la escuela",
@@ -1190,6 +1167,24 @@
      "url": "https://conarte.org.mx/cineteca/dos-estaciones-2/"
     }
    ]
+  },
+  {
+   "id": "eed4c8056870",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "start": "2026-10-03T17:00",
+   "end": "2026-11-29T19:00",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206"
   },
   {
    "title": "La Muerte de un Viajante en Monterrey",
@@ -2588,11 +2583,6 @@
      "url": "https://arema.mx/e/21195-botargas-y-traicion"
     },
     {
-     "start": "2026-10-04T18:30",
-     "end": null,
-     "url": "https://arema.mx/e/21195-botargas-y-traicion"
-    },
-    {
      "start": "2026-10-10T15:00",
      "end": null,
      "url": "https://arema.mx/e/21195-botargas-y-traicion"
@@ -3074,24 +3064,6 @@
    ]
   },
   {
-   "id": "8a78955b1daf",
-   "title": "La otra historia del retablo: Presencia y omisión femenina en los títeres",
-   "start": "2026-10-06T19:00",
-   "end": null,
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/6oct_conf_-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
-  },
-  {
    "title": "Taller de costura y upcycling: texturas urbanas",
    "start": "2026-10-06T19:00",
    "end": "2026-10-20T19:00",
@@ -3363,41 +3335,6 @@
      "start": "2026-12-16T11:30",
      "end": null,
      "url": "https://vive.sanpedro.gob.mx/evento/1122"
-    }
-   ]
-  },
-  {
-   "title": "Coloquio Somos Vínculos. Encuentro franco-mexicano-texano",
-   "start": "2026-10-07T17:00",
-   "end": "2026-10-09T10:15",
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/7-8-9_somos-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano",
-   "id": "abe0f10a6f03",
-   "dates": [
-    {
-     "start": "2026-10-07T17:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-08T10:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-09T10:15",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
     }
    ]
   },
