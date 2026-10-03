@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Eventos NL",
+    "slug": "eventos-nl",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "backgroundColor": "#1d1142",
+    "splash": {
+      "image": "./icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1d1142"
+    },
+    "android": {
+      "package": "com.ediel.eventosnl",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#2a1060"
+      }
+    },
+    "plugins": [
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "Eventos NL agrega a tu calendario los eventos que elijas."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Eventos NL usa tus fotos para guardar recuerdos de los eventos a los que asististe.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
