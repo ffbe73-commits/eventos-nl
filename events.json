@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-03T22:45:44.788Z",
+ "generatedAt": "2026-10-03T22:56:26.665Z",
  "timezone": "America/Monterrey",
- "total": 582,
+ "total": 622,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,9 +10,9 @@
    "ok": true,
    "count": 89,
    "error": null,
-   "checkedAt": "2026-10-03T22:42:39.538Z",
-   "lastSuccess": "2026-10-03T22:42:39.538Z",
-   "ms": 2464
+   "checkedAt": "2026-10-03T22:53:54.306Z",
+   "lastSuccess": "2026-10-03T22:53:54.306Z",
+   "ms": 2566
   },
   {
    "id": "arema",
@@ -21,9 +21,9 @@
    "ok": true,
    "count": 157,
    "error": null,
-   "checkedAt": "2026-10-03T22:42:42.002Z",
-   "lastSuccess": "2026-10-03T22:42:42.002Z",
-   "ms": 29978
+   "checkedAt": "2026-10-03T22:53:56.873Z",
+   "lastSuccess": "2026-10-03T22:53:56.873Z",
+   "ms": 29746
   },
   {
    "id": "superboletos",
@@ -32,9 +32,9 @@
    "ok": true,
    "count": 93,
    "error": null,
-   "checkedAt": "2026-10-03T22:43:11.981Z",
-   "lastSuccess": "2026-10-03T22:43:11.981Z",
-   "ms": 571
+   "checkedAt": "2026-10-03T22:54:26.619Z",
+   "lastSuccess": "2026-10-03T22:54:26.619Z",
+   "ms": 570
   },
   {
    "id": "ticketmaster",
@@ -43,9 +43,9 @@
    "ok": true,
    "count": 152,
    "error": null,
-   "checkedAt": "2026-10-03T22:43:12.552Z",
-   "lastSuccess": "2026-10-03T22:43:12.552Z",
-   "ms": 559
+   "checkedAt": "2026-10-03T22:54:27.189Z",
+   "lastSuccess": "2026-10-03T22:54:27.189Z",
+   "ms": 604
   },
   {
    "id": "conciertos_mty",
@@ -54,9 +54,9 @@
    "ok": true,
    "count": 78,
    "error": null,
-   "checkedAt": "2026-10-03T22:43:13.111Z",
-   "lastSuccess": "2026-10-03T22:43:13.111Z",
-   "ms": 3133
+   "checkedAt": "2026-10-03T22:54:27.793Z",
+   "lastSuccess": "2026-10-03T22:54:27.793Z",
+   "ms": 2914
   },
   {
    "id": "conarte_agenda",
@@ -65,9 +65,9 @@
    "ok": true,
    "count": 59,
    "error": null,
-   "checkedAt": "2026-10-03T22:43:16.244Z",
-   "lastSuccess": "2026-10-03T22:43:16.244Z",
-   "ms": 94383
+   "checkedAt": "2026-10-03T22:54:30.707Z",
+   "lastSuccess": "2026-10-03T22:54:30.707Z",
+   "ms": 69932
   },
   {
    "id": "cineteca",
@@ -76,9 +76,9 @@
    "ok": true,
    "count": 41,
    "error": null,
-   "checkedAt": "2026-10-03T22:44:50.627Z",
-   "lastSuccess": "2026-10-03T22:44:50.627Z",
-   "ms": 22188
+   "checkedAt": "2026-10-03T22:55:40.639Z",
+   "lastSuccess": "2026-10-03T22:55:40.639Z",
+   "ms": 20434
   },
   {
    "id": "santa_lucia",
@@ -87,8 +87,8 @@
    "ok": true,
    "count": 146,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:12.815Z",
-   "lastSuccess": "2026-10-03T22:45:12.815Z",
+   "checkedAt": "2026-10-03T22:56:01.073Z",
+   "lastSuccess": "2026-10-03T22:56:01.073Z",
    "ms": 1
   },
   {
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:12.816Z",
-   "lastSuccess": "2026-10-03T22:45:12.816Z",
-   "ms": 1205
+   "checkedAt": "2026-10-03T22:56:01.074Z",
+   "lastSuccess": "2026-10-03T22:56:01.074Z",
+   "ms": 990
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:14.021Z",
-   "lastSuccess": "2026-10-03T22:45:14.021Z",
-   "ms": 10259
+   "checkedAt": "2026-10-03T22:56:02.064Z",
+   "lastSuccess": "2026-10-03T22:56:02.064Z",
+   "ms": 266
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:24.280Z",
-   "lastSuccess": "2026-10-03T22:45:24.280Z",
-   "ms": 143
+   "checkedAt": "2026-10-03T22:56:02.330Z",
+   "lastSuccess": "2026-10-03T22:56:02.330Z",
+   "ms": 101
   },
   {
    "id": "marco",
@@ -131,20 +131,20 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:24.423Z",
-   "lastSuccess": "2026-10-03T22:45:24.423Z",
-   "ms": 374
+   "checkedAt": "2026-10-03T22:56:02.432Z",
+   "lastSuccess": "2026-10-03T22:56:02.432Z",
+   "ms": 469
   },
   {
    "id": "tres_museos",
    "name": "3 Museos",
    "home": "https://www.3museos.com/eventos/",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 en https://www.3museos.com/eventos/",
-   "checkedAt": "2026-10-03T22:45:24.797Z",
-   "lastSuccess": "2026-10-03T20:56:13.839Z",
-   "ms": 3501
+   "ok": true,
+   "count": 4,
+   "error": null,
+   "checkedAt": "2026-10-03T22:56:02.901Z",
+   "lastSuccess": "2026-10-03T22:56:02.901Z",
+   "ms": 1161
   },
   {
    "id": "cintermex",
@@ -153,9 +153,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:28.298Z",
-   "lastSuccess": "2026-10-03T22:45:28.298Z",
-   "ms": 844
+   "checkedAt": "2026-10-03T22:56:04.062Z",
+   "lastSuccess": "2026-10-03T22:56:04.062Z",
+   "ms": 905
   },
   {
    "id": "foro_corona",
@@ -164,9 +164,9 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:29.142Z",
-   "lastSuccess": "2026-10-03T22:45:29.142Z",
-   "ms": 102
+   "checkedAt": "2026-10-03T22:56:04.967Z",
+   "lastSuccess": "2026-10-03T22:56:04.967Z",
+   "ms": 78
   },
   {
    "id": "fever",
@@ -175,9 +175,9 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:29.244Z",
-   "lastSuccess": "2026-10-03T22:45:29.244Z",
-   "ms": 254
+   "checkedAt": "2026-10-03T22:56:05.045Z",
+   "lastSuccess": "2026-10-03T22:56:05.045Z",
+   "ms": 184
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:29.498Z",
-   "lastSuccess": "2026-10-03T22:45:29.498Z",
-   "ms": 230
+   "checkedAt": "2026-10-03T22:56:05.229Z",
+   "lastSuccess": "2026-10-03T22:56:05.229Z",
+   "ms": 1364
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:29.729Z",
-   "lastSuccess": "2026-10-03T22:45:29.729Z",
-   "ms": 1192
+   "checkedAt": "2026-10-03T22:56:06.593Z",
+   "lastSuccess": "2026-10-03T22:56:06.593Z",
+   "ms": 1225
   },
   {
    "id": "ballet_mty",
@@ -208,9 +208,9 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:30.921Z",
-   "lastSuccess": "2026-10-03T22:45:30.921Z",
-   "ms": 2690
+   "checkedAt": "2026-10-03T22:56:07.818Z",
+   "lastSuccess": "2026-10-03T22:56:07.818Z",
+   "ms": 8259
   },
   {
    "id": "sanpedro_vive",
@@ -219,20 +219,20 @@
    "ok": true,
    "count": 77,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:33.611Z",
-   "lastSuccess": "2026-10-03T22:45:33.611Z",
-   "ms": 3184
+   "checkedAt": "2026-10-03T22:56:16.077Z",
+   "lastSuccess": "2026-10-03T22:56:16.077Z",
+   "ms": 2571
   },
   {
    "id": "sanpedro_parques",
    "name": "San Pedro + Parques",
    "home": "https://sanpedroparques.mx/calendario-eventos/",
    "ok": true,
-   "count": 7,
+   "count": 60,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:36.795Z",
-   "lastSuccess": "2026-10-03T22:45:36.795Z",
-   "ms": 3965
+   "checkedAt": "2026-10-03T22:56:18.648Z",
+   "lastSuccess": "2026-10-03T22:56:18.648Z",
+   "ms": 4032
   },
   {
    "id": "chipinque",
@@ -241,9 +241,9 @@
    "ok": true,
    "count": 26,
    "error": null,
-   "checkedAt": "2026-10-03T22:45:40.760Z",
-   "lastSuccess": "2026-10-03T22:45:40.760Z",
-   "ms": 376
+   "checkedAt": "2026-10-03T22:56:22.680Z",
+   "lastSuccess": "2026-10-03T22:56:22.680Z",
+   "ms": 405
   },
   {
    "id": "eventbrite",
@@ -252,9 +252,9 @@
    "ok": false,
    "count": 0,
    "error": "HTTP 405 en https://www.eventbrite.com.mx/d/mexico--monterrey/all-events/?page=1",
-   "checkedAt": "2026-10-03T22:45:41.136Z",
+   "checkedAt": "2026-10-03T22:56:23.085Z",
    "lastSuccess": null,
-   "ms": 3210
+   "ms": 3223
   }
  ],
  "notIncluded": [
@@ -274,19 +274,19 @@
    "name": "Parque Cinema",
    "home": "https://www.facebook.com/ParqueCinema/",
    "status": "no disponible",
-   "reason": "Sólo publica en Facebook; San Pedro + Parques lo trae en su PDF mensual, no en su calendario web."
+   "reason": "Sólo publica su cartelera en Facebook (no viene ni en el calendario ni en el PDF de San Pedro + Parques)."
   },
   {
-   "name": "San Pedro + Parques (PDF del mes)",
+   "name": "Clases semanales en parques de San Pedro",
    "home": "https://sanpedroparques.mx/calendario-eventos/",
    "status": "no disponible",
-   "reason": "Casi todas las actividades de parques vienen sólo en un PDF mensual. La app toma únicamente las que el sitio tiene con fecha en su calendario."
+   "reason": "Yoga, tai chi, pilates, etc. vienen en el PDF del mes (\"Descarga los calendarios vigentes\"). La app sólo incluye las actividades especiales."
   },
   {
    "name": "Museo Arquidiocesano",
-   "home": "https://museoarquidiocesismty.org/",
+   "home": "https://www.facebook.com/museoarquidiocesanodeartesacro/",
    "status": "no disponible",
-   "reason": "Su página no tiene agenda; anuncia sus actividades sólo en Facebook."
+   "reason": "Su página no tiene agenda; anuncia exposiciones y conciertos sólo en Facebook."
   },
   {
    "name": "Arquidiócesis de Monterrey",
@@ -296,9 +296,9 @@
   },
   {
    "name": "Comisión de Música Sacra",
-   "home": "https://www.comusamty.org/",
+   "home": "https://www.facebook.com/comisiondemusicasacramty/",
    "status": "no disponible",
-   "reason": "Su página no tiene calendario de eventos."
+   "reason": "Su página no tiene calendario; publica en Facebook."
   },
   {
    "name": "Arena Monterrey",
@@ -932,6 +932,24 @@
    "url": "https://www.marco.org.mx/eventos/visita-guiada-por-gabriel-de-la-mora-5/"
   },
   {
+   "id": "6ea66a5f38fc",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "start": "2026-10-03T13:30",
+   "end": "2026-10-28T18:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $300",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894"
+  },
+  {
    "title": "Más allá del resultado",
    "start": "2026-10-03T14:00",
    "end": "2026-10-04T12:00",
@@ -1000,22 +1018,58 @@
    ]
   },
   {
-   "id": "6ea66a5f38fc",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "id": "20fcc21925b4",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
    "start": "2026-10-03T15:00",
-   "end": "2026-10-28T18:00",
-   "venue": "Papalote Museo del Niño-Monterrey",
+   "end": "2026-12-06T17:00",
+   "venue": "Parque Rufino Tamayo",
    "city": "Monterrey",
    "category": "Experiencias",
-   "price": "Desde $300",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "price": "Desde $370",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/341894"
+     "url": "https://feverup.com/m/287670"
     }
    ],
-   "url": "https://feverup.com/m/341894"
+   "url": "https://feverup.com/m/287670"
+  },
+  {
+   "id": "3a0864a4a10a",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "start": "2026-10-03T15:00",
+   "end": "2026-11-01T18:00",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
+    }
+   ],
+   "url": "https://feverup.com/m/629878"
+  },
+  {
+   "id": "66900d89c8d5",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "start": "2026-10-03T15:00",
+   "end": "2027-01-31T19:00",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $635",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272"
   },
   {
    "title": "Dogtooth: Canino",
@@ -1052,6 +1106,24 @@
    ]
   },
   {
+   "id": "eed4c8056870",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "start": "2026-10-03T16:00",
+   "end": "2026-11-29T19:00",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206"
+  },
+  {
    "title": "El fin de la escuela",
    "start": "2026-10-03T16:15",
    "end": "2026-10-07T18:00",
@@ -1086,24 +1158,6 @@
    ]
   },
   {
-   "id": "20fcc21925b4",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "start": "2026-10-03T17:00",
-   "end": "2026-12-06T17:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $370",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670"
-  },
-  {
    "title": "Dos estaciones",
    "start": "2026-10-03T17:00",
    "end": "2026-10-04T17:15",
@@ -1136,24 +1190,6 @@
      "url": "https://conarte.org.mx/cineteca/dos-estaciones-2/"
     }
    ]
-  },
-  {
-   "id": "3a0864a4a10a",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "start": "2026-10-03T17:00",
-   "end": "2026-11-01T18:00",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878"
   },
   {
    "title": "La Muerte de un Viajante en Monterrey",
@@ -1201,40 +1237,23 @@
    ]
   },
   {
-   "id": "66900d89c8d5",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "id": "259f040700c0",
+   "title": "Taller de Huerto: Crema Corporal de Aloe Vera",
+   "venue": "Parque Mississippi",
    "start": "2026-10-03T17:00",
-   "end": "2027-01-31T19:00",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $635",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "category": "Talleres y charlas",
+   "description": "Huertos SPG. Asistencia con registro previo en @huertos.spg.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
    "sources": [
     {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
-   "url": "https://feverup.com/m/612272"
-  },
-  {
-   "id": "eed4c8056870",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "start": "2026-10-03T18:00",
-   "end": "2026-11-29T19:00",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206"
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "title": "FESTIVAL DE CINE ALEMÁN: El juicio de Hein",
@@ -1857,6 +1876,37 @@
     }
    ],
    "url": "https://sanpedroparques.mx/eventos/desarrollo-de-la-tecnica-de-disc-golf-6/"
+  },
+  {
+   "title": "Liga Basquetbol 3x3",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-04T08:00",
+   "category": "Deportes",
+   "end": "2026-10-11T08:00",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "37da25570fed",
+   "dates": [
+    {
+     "start": "2026-10-04T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-11T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ]
   },
   {
    "id": "fca1edb33005",
@@ -2555,6 +2605,25 @@
    ]
   },
   {
+   "id": "be222165aa92",
+   "title": "Día Mundial del Hula Hoop 2026: Ama tu Flow",
+   "venue": "Parque Rufino Tamayo",
+   "start": "2026-10-04T16:00",
+   "end": "2026-10-04T20:00",
+   "category": "Deportes",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "7ed5a1df114c",
    "title": "GREASE llega a Escobedo",
    "start": "2026-10-04T16:00",
@@ -2677,6 +2746,10 @@
     {
      "id": "sanpedro_vive",
      "url": "https://vive.sanpedro.gob.mx/evento/1273"
+    },
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
    "url": "https://vive.sanpedro.gob.mx/evento/1273",
@@ -2861,6 +2934,25 @@
    "url": "https://sanpedroparques.mx/eventos/pilates-hiit-10/"
   },
   {
+   "id": "aff12e6868e8",
+   "title": "Dibujo para Toda la Familia",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-06T17:00",
+   "category": "Familiar",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "title": "La isla de azucar",
    "start": "2026-10-06T17:00",
    "end": "2026-10-07T19:00",
@@ -2891,6 +2983,37 @@
      "start": "2026-10-07T19:00",
      "end": null,
      "url": "https://conarte.org.mx/cineteca/la-isla-de-azucar/"
+    }
+   ]
+  },
+  {
+   "title": "Curso: Elixir de la Tierra (Lombricomposta)",
+   "venue": "Parque Mirador Garza Ayala",
+   "start": "2026-10-06T18:00",
+   "category": "Talleres y charlas",
+   "description": "Huertos SPG. Asistencia con registro previo en @huertos.spg.",
+   "end": "2026-10-13T18:00",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "8461cbac03f6",
+   "dates": [
+    {
+     "start": "2026-10-06T18:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-13T18:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ]
   },
@@ -2949,6 +3072,24 @@
      "url": "https://conarte.org.mx/cineteca/cocodrilos/"
     }
    ]
+  },
+  {
+   "id": "8a78955b1daf",
+   "title": "La otra historia del retablo: Presencia y omisión femenina en los títeres",
+   "start": "2026-10-06T19:00",
+   "end": null,
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/09/6oct_conf_-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
   },
   {
    "title": "Taller de costura y upcycling: texturas urbanas",
@@ -3226,6 +3367,41 @@
    ]
   },
   {
+   "title": "Coloquio Somos Vínculos. Encuentro franco-mexicano-texano",
+   "start": "2026-10-07T17:00",
+   "end": "2026-10-09T10:15",
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/09/7-8-9_somos-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano",
+   "id": "abe0f10a6f03",
+   "dates": [
+    {
+     "start": "2026-10-07T17:00",
+     "end": null,
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
+    },
+    {
+     "start": "2026-10-08T10:00",
+     "end": null,
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
+    },
+    {
+     "start": "2026-10-09T10:15",
+     "end": null,
+     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
+    }
+   ]
+  },
+  {
    "title": "FESTIVAL DE CINE ALEMÁN: Estrellas rojas sobre el campo",
    "start": "2026-10-07T17:15",
    "end": "2026-10-11T17:00",
@@ -3256,6 +3432,37 @@
      "start": "2026-10-11T17:00",
      "end": null,
      "url": "https://conarte.org.mx/cineteca/festival-de-cine-aleman-estrellas-rojas-sobre-el-campo/"
+    }
+   ]
+  },
+  {
+   "title": "Club de Journaling (Paper Club)",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-07T18:00",
+   "category": "Talleres y charlas",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": "2026-10-28T18:00",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "4a59a1f8843d",
+   "dates": [
+    {
+     "start": "2026-10-07T18:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-28T18:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ]
   },
@@ -3653,6 +3860,25 @@
     }
    ],
    "url": "https://conarte.org.mx/agenda/conversatorio-mesa-1-coleccionismo/"
+  },
+  {
+   "id": "71855e4f81bd",
+   "title": "Taller de Poesía (Café con Autores)",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-08T19:00",
+   "category": "Talleres y charlas",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "title": "Brindo por ellas",
@@ -4446,6 +4672,66 @@
    "url": "http://www.feriadellibromonterrey.mx"
   },
   {
+   "title": "Parquemovil: Programa Recreativo Itinerante",
+   "venue": "Parque Pájaro Carpintero",
+   "start": "2026-10-10",
+   "category": "Familiar",
+   "description": "Horarios en redes sociales de San Pedro + Parques.",
+   "end": "2026-10-31",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "92b7015add42",
+   "dates": [
+    {
+     "start": "2026-10-10",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-17",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-24",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-31",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ]
+  },
+  {
+   "id": "779edbf9c17c",
+   "title": "October Big Day: Observación de Aves",
+   "venue": "Parque El Capitán",
+   "start": "2026-10-10T08:00",
+   "category": "Experiencias",
+   "description": "También en Parque Rufino Tamayo (8:00) y Parque Bosques del Valle (10:00).",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "title": "Bitácora del coleccionista (niñas y niños 6–12)",
    "start": "2026-10-10T10:00",
    "end": "2026-10-17T10:00",
@@ -4563,6 +4849,25 @@
    "url": "https://conarte.org.mx/agenda/clase-maestra-cata-de-papel/"
   },
   {
+   "id": "c7369edaaae2",
+   "title": "¿A dónde van cuando se van? El misterio de la migración de las aves (Kingfisher Birdwatching NL)",
+   "venue": "Parque El Capitán",
+   "start": "2026-10-10T12:00",
+   "category": "Talleres y charlas",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "a019bb944ccd",
    "title": "Conferencia – El oficio de estampar",
    "start": "2026-10-10T12:00",
@@ -4669,6 +4974,37 @@
     }
    ],
    "url": "https://conarte.org.mx/agenda/conversatorio-mesa-3-estampa-intima-narrativas-personales/"
+  },
+  {
+   "title": "Mercado Poniente",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-10T15:00",
+   "end": "2026-10-24T22:00",
+   "category": "Ferias y expos",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "6d58ffd8fbd6",
+   "dates": [
+    {
+     "start": "2026-10-10T15:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-24T15:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ]
   },
   {
    "id": "e2ca73a039b3",
@@ -5137,6 +5473,25 @@
    "url": "https://www.superboletos.com/landing-evento/puV_RLNcjI3VU_r76lZPKw"
   },
   {
+   "id": "8f0f4b39ba4f",
+   "title": "Festival Ambiental: Parque Vivo",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-11T16:00",
+   "category": "Familiar",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "5dadd25a6045",
    "title": "Die Szenen recital de piano",
    "venue": "Teatro del Centro de las Artes",
@@ -5389,6 +5744,25 @@
    "url": "https://festivalsantalucia.gob.mx/"
   },
   {
+   "id": "474ee677562e",
+   "title": "Taller de Fotobordado (Ariadna de la Rosa)",
+   "venue": "Parque Bosques del Valle",
+   "start": "2026-10-13T17:30",
+   "category": "Talleres y charlas",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "2aa44f5e0da6",
    "title": "Two Door Cinema Club",
    "start": "2026-10-13T21:00",
@@ -5461,6 +5835,25 @@
    "url": "https://cartelera.primetickets.mx/historias-en-la-oscuridad"
   },
   {
+   "id": "914629b20e1e",
+   "title": "Laboratorio de Dibujo (María Aguilera)",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-14T17:30",
+   "category": "Talleres y charlas",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "36783e15f24b",
    "title": "Miércoles Musicales 2026 I Viento Solitario",
    "start": "2026-10-14T20:00",
@@ -5498,6 +5891,56 @@
     }
    ],
    "url": "https://arema.mx/e/20532-nilda-chiaraviglio-amar-sin-perdernos-en-monterrey"
+  },
+  {
+   "title": "Curso: Biofertilizantes (Bocashi)",
+   "venue": "Parque Mirador Garza Ayala",
+   "start": "2026-10-15T18:00",
+   "category": "Talleres y charlas",
+   "description": "Huertos SPG. Asistencia con registro previo en @huertos.spg.",
+   "end": "2026-10-22T18:00",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "656c1e163725",
+   "dates": [
+    {
+     "start": "2026-10-15T18:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-22T18:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ae86b3a24f29",
+   "title": "Taller de Pintura al Óleo (José Rubén Hernández)",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-15T18:00",
+   "category": "Talleres y charlas",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "id": "9adc66ca28bb",
@@ -5741,6 +6184,25 @@
    "url": "https://feverup.com/m/577933"
   },
   {
+   "id": "1bd7a11e7fe3",
+   "title": "Disco en Patines: Fiesta de Disfraces",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-16T18:00",
+   "category": "Familiar",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "09a46a7b2bef",
    "title": "Candlelight: Disney Canciones de Amor",
    "start": "2026-10-16T19:00",
@@ -5913,6 +6375,25 @@
    "url": "https://www.superboletos.com/landing-evento/Wb-jyxyXQhX3WuX86ITshg"
   },
   {
+   "id": "f4579feca1cb",
+   "title": "Habitantes del Parque: Los Insectos de Otoño",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-17T10:00",
+   "category": "Familiar",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "85efbb6144d7",
    "title": "Panzaland 2026",
    "venue": "Explanada Sopladores",
@@ -6018,6 +6499,25 @@
     }
    ],
    "url": "https://allevents.in/monterrey/fil-mty-2026-césar-lozano-presenta-más-hábitos-menos-dramas/200030491579515"
+  },
+  {
+   "id": "8fe273bf26af",
+   "title": "Taller de Huerto: Sales Exfoliantes para Baño",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-17T17:00",
+   "category": "Talleres y charlas",
+   "description": "Huertos SPG. Asistencia con registro previo en @huertos.spg.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "title": "La Celestina (bululú)",
@@ -6251,6 +6751,25 @@
     }
    ],
    "url": "https://www.ticketmaster.com.mx/one-piece-en-concierto-beyond-the-monterrey-18-10-2026/event/14006522978D5731"
+  },
+  {
+   "id": "a03a3b961b27",
+   "title": "Final Liga Basquetbol 3x3",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-18T16:00",
+   "category": "Deportes",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "id": "463430349ff5",
@@ -7249,6 +7768,87 @@
    "url": "https://www.cintermex.com/calendario"
   },
   {
+   "title": "El Mercadinn",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-24T10:00",
+   "end": "2026-10-25T16:00",
+   "category": "Ferias y expos",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "2e90507d9c49",
+   "dates": [
+    {
+     "start": "2026-10-24T10:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-25T10:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ]
+  },
+  {
+   "id": "a5c88da853c6",
+   "title": "Taller de Acuarela (Jeimmy Névarez)",
+   "venue": "Parque Mirador Garza Ayala",
+   "start": "2026-10-24T10:30",
+   "category": "Talleres y charlas",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
+   "title": "MOFU MOFU Kawaii Market",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-24T12:00",
+   "end": "2026-10-25T22:00",
+   "category": "Ferias y expos",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "1b33cf2e02b2",
+   "dates": [
+    {
+     "start": "2026-10-24T12:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-25T12:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ]
+  },
+  {
    "id": "9d4704dc91a9",
    "title": "Del Tingo al Tango – La Bomba Teatro",
    "start": "2026-10-24T14:00",
@@ -7706,6 +8306,25 @@
    "url": "http://batalladecartastcg.com"
   },
   {
+   "id": "9135dcee93ed",
+   "title": "Murcisemana: Conoce a los Murciélagos",
+   "venue": "San Pedro de Pinta (Calzada del Valle)",
+   "start": "2026-10-25T09:00",
+   "category": "Familiar",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "dc81caff6653",
    "title": "Expo Kawaii Halloween en Monterrey",
    "venue": "Espacio Fundidora",
@@ -7726,6 +8345,25 @@
    "url": "https://arema.mx/e/20603-expo-kawaii-halloween-en-monterrey"
   },
   {
+   "id": "7039cdc3ec17",
+   "title": "Hallow Win, Festival de Luz",
+   "venue": "Plaza Fátima",
+   "start": "2026-10-25T13:00",
+   "category": "Familiar",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "890f3602e151",
    "title": "Desfile de Calaveras",
    "start": "2026-10-25T16:00",
@@ -7742,6 +8380,44 @@
     }
    ],
    "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "7a560dfc3c84",
+   "title": "Festival Canino: Día de Muertos",
+   "venue": "Parque Rufino Tamayo",
+   "start": "2026-10-25T16:00",
+   "category": "Familiar",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
+   "id": "ec0c38fb3ffe",
+   "title": "Murcisemana: Murciélagos, Nuestros Amigos de la Noche (conferencia)",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-25T16:00",
+   "category": "Talleres y charlas",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "title": "SAFARI – La Baldufa",
@@ -7944,6 +8620,25 @@
    "url": "https://festivalsantalucia.gob.mx/"
   },
   {
+   "id": "a37662819898",
+   "title": "Murcisemana: Ecolocalización de los Murciélagos",
+   "venue": "Parque El Capitán",
+   "start": "2026-10-25T18:00",
+   "category": "Talleres y charlas",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "6aee1700242e",
    "title": "Cine FISL: E.T. the Extra-Terrestrial",
    "start": "2026-10-25T18:30",
@@ -8014,6 +8709,37 @@
     }
    ],
    "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Murcisemana: Recorrido Nocturno, Conociendo a los Murciélagos",
+   "venue": "Parque El Capitán",
+   "start": "2026-10-25T18:30",
+   "category": "Experiencias",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": "2026-10-31T18:00",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
+   "id": "094b5329589f",
+   "dates": [
+    {
+     "start": "2026-10-25T18:30",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    },
+    {
+     "start": "2026-10-31T18:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ]
   },
   {
    "id": "341cfe6cd3cd",
@@ -8099,6 +8825,10 @@
     {
      "id": "sanpedro_vive",
      "url": "https://vive.sanpedro.gob.mx/evento/1276"
+    },
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
    "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f124794-ee1c-6e20-94b0-14c57260ca73.png",
@@ -8509,6 +9239,25 @@
    "url": "http://fundiexpo.mx/"
   },
   {
+   "id": "b029e61a6933",
+   "title": "Murcisemana: Recorrido Nocturno, Conociendo a los Murciélagos",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-28T17:30",
+   "category": "Experiencias",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "d48d7d6f12de",
    "title": "Diálogos: Mayra Álvarez – Somos lo que creemos",
    "start": "2026-10-28T18:00",
@@ -8525,6 +9274,25 @@
     }
    ],
    "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "07f6a2fb4fbc",
+   "title": "Taller de Grabado en Linóleo",
+   "venue": "Parque Mirador Garza Ayala",
+   "start": "2026-10-28T18:00",
+   "category": "Talleres y charlas",
+   "description": "Arte al Parque. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "id": "ff30d21b45b4",
@@ -8731,6 +9499,25 @@
     }
    ],
    "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "0d76705b2b8d",
+   "title": "Gericare: Grupo de Apoyo a Cuidadores",
+   "venue": "Parque Mississippi",
+   "start": "2026-10-29T16:00",
+   "category": "Talleres y charlas",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "id": "ea152c4e6725",
@@ -9017,6 +9804,63 @@
    "url": "https://www.superboletos.com/landing-evento/HNd1w3iu5V9hb4AEfNYSqw"
   },
   {
+   "id": "3956a22d22c3",
+   "title": "Murcisemana: Juega y Aprende Sobre Murciélagos",
+   "venue": "Parque Rufino Tamayo",
+   "start": "2026-10-30T15:30",
+   "category": "Familiar",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
+   "id": "3aa932bbbc2e",
+   "title": "La Nocturna",
+   "venue": "Parque Clouthier",
+   "start": "2026-10-30T17:00",
+   "category": "Deportes",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
+   "id": "8ea281bd3cf8",
+   "title": "Murcisemana: Ecolocalización de los Murciélagos",
+   "venue": "Parque Rufino Tamayo",
+   "start": "2026-10-30T17:30",
+   "category": "Talleres y charlas",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
    "id": "709493941d6b",
    "title": "Diálogos: Carolina Maier – Burnout creativo",
    "start": "2026-10-30T18:00",
@@ -9033,6 +9877,25 @@
     }
    ],
    "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "id": "5875030c0bc4",
+   "title": "Murcisemana: Murciélagos Urbanos, conversación con la Dra. Emma Gómez",
+   "venue": "Parque Rufino Tamayo",
+   "start": "2026-10-30T18:00",
+   "category": "Talleres y charlas",
+   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
+   "end": null,
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "id": "297d6413e330",
@@ -9315,6 +10178,44 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/9jhBxTeuRrKZdSxq3eTDGA"
+  },
+  {
+   "id": "1a057565d392",
+   "title": "Lucky Bazar",
+   "venue": "Parque Mirador Garza Ayala",
+   "start": "2026-10-31T14:00",
+   "end": "2026-10-31T21:00",
+   "category": "Ferias y expos",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+  },
+  {
+   "id": "50a9079f9438",
+   "title": "Mercado Mx",
+   "venue": "Parque Rufino Tamayo",
+   "start": "2026-10-31T15:00",
+   "end": "2026-10-31T22:00",
+   "category": "Ferias y expos",
+   "city": "San Pedro Garza García",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
+    }
+   ],
+   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
   },
   {
    "id": "4af42fd7ae4b",
