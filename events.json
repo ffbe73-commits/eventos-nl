@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-03T20:56:16.465Z",
+ "generatedAt": "2026-10-03T22:01:58.276Z",
  "timezone": "America/Monterrey",
- "total": 518,
+ "total": 577,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,9 +10,9 @@
    "ok": true,
    "count": 89,
    "error": null,
-   "checkedAt": "2026-10-03T20:54:10.717Z",
-   "lastSuccess": "2026-10-03T20:54:10.717Z",
-   "ms": 5056
+   "checkedAt": "2026-10-03T21:59:09.220Z",
+   "lastSuccess": "2026-10-03T21:59:09.220Z",
+   "ms": 4515
   },
   {
    "id": "arema",
@@ -21,9 +21,9 @@
    "ok": true,
    "count": 157,
    "error": null,
-   "checkedAt": "2026-10-03T20:54:15.774Z",
-   "lastSuccess": "2026-10-03T20:54:15.774Z",
-   "ms": 29799
+   "checkedAt": "2026-10-03T21:59:13.736Z",
+   "lastSuccess": "2026-10-03T21:59:13.736Z",
+   "ms": 29149
   },
   {
    "id": "superboletos",
@@ -32,21 +32,20 @@
    "ok": true,
    "count": 93,
    "error": null,
-   "checkedAt": "2026-10-03T20:54:45.573Z",
-   "lastSuccess": "2026-10-03T20:54:45.573Z",
-   "ms": 542
+   "checkedAt": "2026-10-03T21:59:42.885Z",
+   "lastSuccess": "2026-10-03T21:59:42.885Z",
+   "ms": 894
   },
   {
    "id": "ticketmaster",
    "name": "Ticketmaster",
    "home": "https://www.ticketmaster.com.mx/discover/monterrey",
-   "ok": false,
-   "count": 0,
-   "error": "Falta la clave TM_API_KEY",
-   "checkedAt": "2026-10-03T20:54:46.115Z",
-   "lastSuccess": null,
-   "skipped": true,
-   "ms": 1
+   "ok": true,
+   "count": 152,
+   "error": null,
+   "checkedAt": "2026-10-03T21:59:43.779Z",
+   "lastSuccess": "2026-10-03T21:59:43.779Z",
+   "ms": 603
   },
   {
    "id": "conciertos_mty",
@@ -55,20 +54,20 @@
    "ok": true,
    "count": 78,
    "error": null,
-   "checkedAt": "2026-10-03T20:54:46.116Z",
-   "lastSuccess": "2026-10-03T20:54:46.116Z",
-   "ms": 3072
+   "checkedAt": "2026-10-03T21:59:44.382Z",
+   "lastSuccess": "2026-10-03T21:59:44.382Z",
+   "ms": 3438
   },
   {
    "id": "conarte_agenda",
    "name": "CONARTE (agenda)",
    "home": "https://conarte.org.mx/agenda/",
    "ok": true,
-   "count": 54,
+   "count": 59,
    "error": null,
-   "checkedAt": "2026-10-03T20:54:49.189Z",
-   "lastSuccess": "2026-10-03T20:54:49.189Z",
-   "ms": 62534
+   "checkedAt": "2026-10-03T21:59:47.820Z",
+   "lastSuccess": "2026-10-03T21:59:47.820Z",
+   "ms": 97462
   },
   {
    "id": "cineteca",
@@ -77,9 +76,9 @@
    "ok": true,
    "count": 41,
    "error": null,
-   "checkedAt": "2026-10-03T20:55:51.723Z",
-   "lastSuccess": "2026-10-03T20:55:51.723Z",
-   "ms": 19563
+   "checkedAt": "2026-10-03T22:01:25.282Z",
+   "lastSuccess": "2026-10-03T22:01:25.282Z",
+   "ms": 25060
   },
   {
    "id": "santa_lucia",
@@ -88,9 +87,9 @@
    "ok": true,
    "count": 146,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:11.286Z",
-   "lastSuccess": "2026-10-03T20:56:11.286Z",
-   "ms": 2
+   "checkedAt": "2026-10-03T22:01:50.342Z",
+   "lastSuccess": "2026-10-03T22:01:50.342Z",
+   "ms": 1
   },
   {
    "id": "nuevoleon_travel",
@@ -99,9 +98,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:11.288Z",
-   "lastSuccess": "2026-10-03T20:56:11.288Z",
-   "ms": 977
+   "checkedAt": "2026-10-03T22:01:50.343Z",
+   "lastSuccess": "2026-10-03T22:01:50.343Z",
+   "ms": 1336
   },
   {
    "id": "allevents",
@@ -110,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:12.265Z",
-   "lastSuccess": "2026-10-03T20:56:12.265Z",
-   "ms": 217
+   "checkedAt": "2026-10-03T22:01:51.680Z",
+   "lastSuccess": "2026-10-03T22:01:51.680Z",
+   "ms": 308
   },
   {
    "id": "ctxplorer",
@@ -121,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:12.482Z",
-   "lastSuccess": "2026-10-03T20:56:12.482Z",
-   "ms": 799
+   "checkedAt": "2026-10-03T22:01:51.988Z",
+   "lastSuccess": "2026-10-03T22:01:51.988Z",
+   "ms": 339
   },
   {
    "id": "marco",
@@ -132,20 +131,20 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:13.281Z",
-   "lastSuccess": "2026-10-03T20:56:13.281Z",
-   "ms": 558
+   "checkedAt": "2026-10-03T22:01:52.327Z",
+   "lastSuccess": "2026-10-03T22:01:52.327Z",
+   "ms": 621
   },
   {
    "id": "tres_museos",
    "name": "3 Museos",
    "home": "https://www.3museos.com/eventos/",
-   "ok": true,
-   "count": 4,
-   "error": null,
-   "checkedAt": "2026-10-03T20:56:13.839Z",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 en https://www.3museos.com/eventos/",
+   "checkedAt": "2026-10-03T22:01:52.948Z",
    "lastSuccess": "2026-10-03T20:56:13.839Z",
-   "ms": 1130
+   "ms": 3771
   },
   {
    "id": "cintermex",
@@ -154,9 +153,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:14.969Z",
-   "lastSuccess": "2026-10-03T20:56:14.969Z",
-   "ms": 896
+   "checkedAt": "2026-10-03T22:01:56.719Z",
+   "lastSuccess": "2026-10-03T22:01:56.719Z",
+   "ms": 764
   },
   {
    "id": "foro_corona",
@@ -165,9 +164,9 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:15.865Z",
-   "lastSuccess": "2026-10-03T20:56:15.865Z",
-   "ms": 134
+   "checkedAt": "2026-10-03T22:01:57.483Z",
+   "lastSuccess": "2026-10-03T22:01:57.483Z",
+   "ms": 325
   },
   {
    "id": "fever",
@@ -176,9 +175,9 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:15.999Z",
-   "lastSuccess": "2026-10-03T20:56:15.999Z",
-   "ms": 81
+   "checkedAt": "2026-10-03T22:01:57.808Z",
+   "lastSuccess": "2026-10-03T22:01:57.808Z",
+   "ms": 186
   },
   {
    "id": "primetickets",
@@ -187,9 +186,9 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "checkedAt": "2026-10-03T20:56:16.080Z",
-   "lastSuccess": "2026-10-03T20:56:16.080Z",
-   "ms": 204
+   "checkedAt": "2026-10-03T22:01:57.994Z",
+   "lastSuccess": "2026-10-03T22:01:57.994Z",
+   "ms": 167
   }
  ],
  "events": [
@@ -601,60 +600,6 @@
    "url": "https://www.superboletos.com/landing-evento/GKkYPxPOI36IfcL_nK2DYQ"
   },
   {
-   "id": "eed4c8056870",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "start": "2026-10-03T09:00",
-   "end": "2026-11-29T19:00",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206"
-  },
-  {
-   "id": "3a0864a4a10a",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "start": "2026-10-03T10:00",
-   "end": "2026-11-01T18:00",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $530",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878"
-  },
-  {
-   "id": "9850c9368509",
-   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
-   "start": "2026-10-03T10:00",
-   "end": "2026-12-30T10:00",
-   "venue": "Banco Mercantil",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $220",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/685013"
-    }
-   ],
-   "url": "https://feverup.com/m/685013"
-  },
-  {
    "id": "52650681e950",
    "title": "Papalote Museo del Niño + Expo Dinosaurios",
    "start": "2026-10-03T10:00",
@@ -853,60 +798,6 @@
    "url": "https://www.marco.org.mx/eventos/visita-guiada-por-gabriel-de-la-mora-5/"
   },
   {
-   "id": "20fcc21925b4",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "start": "2026-10-03T11:00",
-   "end": "2026-12-06T17:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $370",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670"
-  },
-  {
-   "id": "66900d89c8d5",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "start": "2026-10-03T11:00",
-   "end": "2027-01-31T19:00",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $635",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272"
-  },
-  {
-   "id": "6ea66a5f38fc",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "start": "2026-10-03T12:30",
-   "end": "2026-10-28T18:00",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $300",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894"
-  },
-  {
    "title": "Más allá del resultado",
    "start": "2026-10-03T14:00",
    "end": "2026-10-04T12:00",
@@ -939,24 +830,6 @@
      "url": "https://conarte.org.mx/cineteca/mas-alla-del-resultado/"
     }
    ]
-  },
-  {
-   "id": "d6a07b28f3df",
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "start": "2026-10-03T14:00",
-   "end": "2026-11-29T17:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "price": "Desde $799",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/707636"
-    }
-   ],
-   "url": "https://feverup.com/m/707636"
   },
   {
    "title": "Un reino para todos nosotros",
@@ -1061,6 +934,42 @@
    ]
   },
   {
+   "id": "6ea66a5f38fc",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "start": "2026-10-03T16:30",
+   "end": "2026-10-28T18:00",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $300",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894"
+  },
+  {
+   "id": "20fcc21925b4",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "start": "2026-10-03T17:00",
+   "end": "2026-12-06T17:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $370",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670"
+  },
+  {
    "title": "Dos estaciones",
    "start": "2026-10-03T17:00",
    "end": "2026-10-04T17:15",
@@ -1093,6 +1002,24 @@
      "url": "https://conarte.org.mx/cineteca/dos-estaciones-2/"
     }
    ]
+  },
+  {
+   "id": "3a0864a4a10a",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "start": "2026-10-03T17:00",
+   "end": "2026-11-01T18:00",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
+    }
+   ],
+   "url": "https://feverup.com/m/629878"
   },
   {
    "title": "La Muerte de un Viajante en Monterrey",
@@ -1138,6 +1065,42 @@
      "url": "https://carteleraescenica.com/eventos/la-muerte-de-un-viajante-en-monterrey/2026-10-04/"
     }
    ]
+  },
+  {
+   "id": "66900d89c8d5",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "start": "2026-10-03T17:00",
+   "end": "2027-01-31T19:00",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $635",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272"
+  },
+  {
+   "id": "eed4c8056870",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "start": "2026-10-03T18:00",
+   "end": "2026-11-29T19:00",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $530",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206"
   },
   {
    "title": "FESTIVAL DE CINE ALEMÁN: El juicio de Hein",
@@ -1563,6 +1526,10 @@
      "url": "https://carteleraescenica.com/eventos/alvaro-diaz/"
     },
     {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/alvaro-diaz-monterrey-03-10-2026/event/140064BA83223A06"
+    },
+    {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/alvaro-diaz-suites/210003723036996"
     },
@@ -1584,9 +1551,39 @@
      "url": "https://carteleraescenica.com/eventos/alvaro-diaz/"
     },
     {
-     "start": "2026-10-04",
+     "start": "2026-10-04T21:00",
      "end": null,
-     "url": "https://ctxplorer.com/events/alvaro-diaz-tm-6GmwWm82"
+     "url": "https://www.ticketmaster.com.mx/alvaro-diaz-monterrey-04-10-2026/event/140064CBB2F6E40F"
+    }
+   ]
+  },
+  {
+   "title": "Alvaro Diaz ***SUITES***",
+   "start": "2026-10-03T21:00",
+   "end": "2026-10-04T21:00",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/1a5/c8a1100c-ad3d-4ed3-bdf7-0200e6a221a5_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/alvaro-diaz-suites-monterrey-03-10-2026/event/140064BA8D2A5018"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/alvaro-diaz-suites-monterrey-03-10-2026/event/140064BA8D2A5018",
+   "id": "6e5f9f716b60",
+   "dates": [
+    {
+     "start": "2026-10-03T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/alvaro-diaz-suites-monterrey-03-10-2026/event/140064BA8D2A5018"
+    },
+    {
+     "start": "2026-10-04T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/alvaro-diazsuites-monterrey-04-10-2026/event/140064CC9D5E5330"
     }
    ]
   },
@@ -1627,6 +1624,10 @@
      "url": "https://carteleraescenica.com/eventos/eslabon-armado/"
     },
     {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/eslabon-armado-monterrey-03-10-2026/event/140064AFB3F0D04E"
+    },
+    {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/eslabón-armado/200030286529339"
     },
@@ -1665,6 +1666,10 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/maroon-5/"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/maroon-5-monterrey-03-10-2026/event/3D0064B99A74340C"
     },
     {
      "id": "allevents",
@@ -1725,26 +1730,6 @@
    "url": "https://www.superboletos.com/landing-evento/xRneqyqd7thSQCHI8YktFA"
   },
   {
-   "id": "09ab132a0d7a",
-   "title": "La Mesmo Vibra",
-   "start": "2026-10-04",
-   "end": "2026-10-04",
-   "venue": "Escenario GNP Seguros, Av. Benito Juárez No. 1002, Monterrey",
-   "city": "Monterrey",
-   "price": null,
-   "image": "https://ctxplorer.com/media/events/monterrey/la-mesmo-vibra-tm-6rehso.webp",
-   "genre": null,
-   "description": "[](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: Todas las edades. Pagan boleto a partir de: a partir de 1 año Restricciones: Prohibido ingresar alimentos, bebidas, mochilas, paraguas, rayos, sel",
-   "category": "Música",
-   "sources": [
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/la-mesmo-vibra-tm-6CrehsMo"
-    }
-   ],
-   "url": "https://ctxplorer.com/events/la-mesmo-vibra-tm-6CrehsMo"
-  },
-  {
    "id": "95ea92a0999a",
    "title": "LA SEPULTADA",
    "start": "2026-10-04",
@@ -1797,6 +1782,42 @@
     }
    ],
    "url": "https://allevents.in/monterrey/liii-congreso-anual-del-colegio-mexicano-de-medicina-crítica/200030258341547"
+  },
+  {
+   "id": "08e08daa518b",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "start": "2026-10-04T10:00",
+   "end": "2026-12-30T10:00",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $220",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
+    }
+   ],
+   "url": "https://feverup.com/m/685013"
+  },
+  {
+   "id": "c09df5d283e2",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "start": "2026-10-04T11:00",
+   "end": "2026-11-29T17:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": "Desde $799",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636"
   },
   {
    "title": "Jikuri – Viaje al país de los Tarahumaras",
@@ -1959,6 +1980,29 @@
    "url": "https://arema.mx/e/20795-jurassic-park-sinfonico-en-monterrey"
   },
   {
+   "id": "09ab132a0d7a",
+   "title": "La Mesmo Vibra",
+   "start": "2026-10-04T18:00",
+   "end": "2026-10-04",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/b41/b500c5eb-bbf7-448f-bb7d-54e4b988eb41_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/la-mesmo-vibra-monterrey-04-10-2026/event/140064E7826F1DD1"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/la-mesmo-vibra-tm-6CrehsMo"
+    }
+   ],
+   "description": "[](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: Todas las edades. Pagan boleto a partir de: a partir de 1 año Restricciones: Prohibido ingresar alimentos, bebidas, mochilas, paraguas, rayos, sel",
+   "url": "https://www.ticketmaster.com.mx/la-mesmo-vibra-monterrey-04-10-2026/event/140064E7826F1DD1"
+  },
+  {
    "id": "814a4b59e13b",
    "title": "El acontecimiento",
    "start": "2026-10-04T19:00",
@@ -2028,38 +2072,22 @@
    "title": "Jose Ramones",
    "start": "2026-10-04T20:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/264/a2e8506c-2d21-40fc-9214-593cd1f78264_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/jose-ramones-col-centro-monterrey-04-10-2026/event/3D0064E9BD374667"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
-  },
-  {
-   "id": "fe6f17390ae8",
-   "title": "Café Pautado- JAZZ Connectión- SINFÓNICA TEC",
-   "start": "2026-10-06",
-   "end": "2026-10-06",
-   "venue": "Auditorio Luis Elizondo, Av. Luis Elizondo No. 540 Col. Tecnológico, Monterrey",
-   "city": "Monterrey",
-   "price": null,
-   "image": "https://ctxplorer.com/media/events/monterrey/cafe-pautado-jazz-connection-sinfonica-tec-tm-6u75v2.webp",
-   "genre": null,
-   "description": "Concierto con la Big Band de la Sinfónica Tec e invitados de la rama del Jazz internacional. [](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: No hay. Pagan boleto a partir de: 2 años en adelante.",
-   "category": "Música",
-   "sources": [
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/cafe-pautado-jazz-connection-sinfonica-tec-tm-6ZAu75v2"
-    }
-   ],
-   "url": "https://ctxplorer.com/events/cafe-pautado-jazz-connection-sinfonica-tec-tm-6ZAu75v2"
+   "url": "https://www.ticketmaster.com.mx/jose-ramones-col-centro-monterrey-04-10-2026/event/3D0064E9BD374667"
   },
   {
    "title": "La isla de azucar",
@@ -2152,22 +2180,73 @@
    ]
   },
   {
-   "id": "8a78955b1daf",
-   "title": "La otra historia del retablo: Presencia y omisión femenina en los títeres",
+   "title": "Taller de costura y upcycling: texturas urbanas",
    "start": "2026-10-06T19:00",
-   "end": null,
-   "venue": "3 Museos",
+   "end": "2026-10-20T19:00",
+   "venue": "Escuela Adolfo Prieto",
    "city": "Monterrey",
    "category": "Talleres y charlas",
    "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/6oct_conf_-720x540.jpg",
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Upcycling-700x360.jpg",
+   "description": "Taller de costura y upcycling: texturas urbanas Módulo uno: Cuadro textil Imparte: Wicca Guajardo Programa práctico-teórico de nivel principiante e intermedio diseñado para profundizar en el supra-reciclaje textil y el diseño sostenible Del 6 al 20 de octubre – Martes y jueves I 19:00 a 22:00 h Costo $1200 Para mayores de 18 años Informes e inscripciones: Wicca.couture@gmail.com I T. 81 1414 2666 IMPULSARTE",
    "sources": [
     {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-de-costura-y-upcycling-texturas-urbanas/"
     }
    ],
-   "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
+   "url": "https://conarte.org.mx/agenda/taller-de-costura-y-upcycling-texturas-urbanas/",
+   "id": "6f5899ad500e",
+   "dates": [
+    {
+     "start": "2026-10-06T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-de-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-10-08T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-de-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-10-13T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-de-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-10-15T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-de-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-10-20T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-de-costura-y-upcycling-texturas-urbanas/"
+    }
+   ]
+  },
+  {
+   "id": "fe6f17390ae8",
+   "title": "Café Pautado- JAZZ Connectión- SINFÓNICA TEC",
+   "start": "2026-10-06T20:00",
+   "end": "2026-10-06",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/b6d/6e592741-5af3-4f93-a6bb-8e1917797b6d_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/cafe-pautado-jazz-connection-sinfonica-tec-monterrey-06-10-2026/event/14006518907C3A0E"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/cafe-pautado-jazz-connection-sinfonica-tec-tm-6ZAu75v2"
+    }
+   ],
+   "description": "Concierto con la Big Band de la Sinfónica Tec e invitados de la rama del Jazz internacional. [](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: No hay. Pagan boleto a partir de: 2 años en adelante.",
+   "url": "https://www.ticketmaster.com.mx/cafe-pautado-jazz-connection-sinfonica-tec-monterrey-06-10-2026/event/14006518907C3A0E"
   },
   {
    "id": "f6160cc05ab2",
@@ -2282,41 +2361,6 @@
      "start": "2026-10-09T10:00",
      "end": null,
      "url": "https://conarte.org.mx/agenda/taller-ignografia/"
-    }
-   ]
-  },
-  {
-   "title": "Coloquio Somos Vínculos. Encuentro franco-mexicano-texano",
-   "start": "2026-10-07T17:00",
-   "end": "2026-10-09T10:15",
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/7-8-9_somos-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano",
-   "id": "abe0f10a6f03",
-   "dates": [
-    {
-     "start": "2026-10-07T17:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-08T10:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-09T10:15",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
     }
    ]
   },
@@ -2837,18 +2881,22 @@
    "title": "Kurt",
    "start": "2026-10-08T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/c/efe/3c52b28b-0180-4ddc-b4f3-72e93ea06efe_105451_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/kurt-col-centro-monterrey-08-10-2026/event/3D0064C99702197F"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/kurt-col-centro-monterrey-08-10-2026/event/3D0064C99702197F"
   },
   {
    "title": "Rosana en Monterrey",
@@ -2865,6 +2913,10 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/rosana-en-monterrey/"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/rosana-monterrey-08-10-2026/event/1400649CBAF99806"
     },
     {
      "id": "allevents",
@@ -3197,8 +3249,12 @@
    "city": "Monterrey",
    "category": "Teatro",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy8yMGZlNTllZDM2YmFmNjQxMDhjZWJhMDkzZmExODVlYTcwMTliOTM0ZWQzNTg2NWFlYTZkMWZlOTU0Y2UxNDgwLXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODg2OTE4NjM.avif",
+   "image": "https://s1.ticketm.net/dam/e/3ad/e7d0e551-889a-48f1-b96c-56347aa3b3ad_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/festival-de-danza-interprepas-2026-monterrey-09-10-2026/event/1400651882DB2497"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/festival-de-danza-interprepas-2026/210005945467981"
@@ -3209,7 +3265,7 @@
     }
    ],
    "description": "El festival de danza interprepas de las Prepa Tec de Monterrey es un evento en el que alumnos de los diversos campus de las Prepas Tec preparan una coreografía en géneros como hip hop, ritmos latinos",
-   "url": "https://allevents.in/monterrey/festival-de-danza-interprepas-2026/210005945467981"
+   "url": "https://www.ticketmaster.com.mx/festival-de-danza-interprepas-2026-monterrey-09-10-2026/event/1400651882DB2497"
   },
   {
    "id": "030798516e98",
@@ -3301,18 +3357,22 @@
    "title": "AQUIHAYAQUIHAY",
    "start": "2026-10-09T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/e/e2e/50b49a78-1793-4885-9a5d-fe6fdd630e2e_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/aquihayaquihay-col-centro-monterrey-09-10-2026/event/3D0064C2A7F64308"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/aquihayaquihay-col-centro-monterrey-09-10-2026/event/3D0064C2A7F64308"
   },
   {
    "id": "e75d2f1d3409",
@@ -3402,26 +3462,6 @@
     }
    ],
    "url": "http://www.feriadellibromonterrey.mx"
-  },
-  {
-   "id": "99e951f53c0f",
-   "title": "Rawayana",
-   "start": "2026-10-10",
-   "end": "2026-10-10",
-   "venue": "Auditorio Banamex, Privada Fundidora s/n Col. Obrera, Monterrey",
-   "city": "Monterrey",
-   "price": null,
-   "image": "https://ctxplorer.com/media/_dup/a2/a220882c7a3c23ae014c8e19e8d6e2ec205fc293.webp",
-   "genre": null,
-   "description": "La agrupación venezolana Rawayana se prepara para encender el escenario con su inconfundible propuesta de \"Trippy Pop\", una fusión magistral de reggae, funk, soul y ritmos caribeños. Con un talento qu",
-   "category": "Música",
-   "sources": [
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/rawayana-tm-G_Z7C5eA"
-    }
-   ],
-   "url": "https://ctxplorer.com/events/rawayana-tm-G_Z7C5eA"
   },
   {
    "title": "Bitácora del coleccionista (niñas y niños 6–12)",
@@ -3744,12 +3784,16 @@
      "url": "https://carteleraescenica.com/eventos/mentiras-el-musical/"
     },
     {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/mentiras-el-musical-monterrey-10-10-2026/event/1400644EA722B115"
+    },
+    {
      "id": "ctxplorer",
      "url": "https://ctxplorer.com/events/mentiras-el-musical-tm-GkBEFl74"
     },
     {
      "id": "allevents",
-     "url": "https://allevents.in/monterrey/mentiras-el-musical/210003814338052"
+     "url": "https://allevents.in/monterrey/mentiras-el-musical-segunda-función/200030138247004"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/mentiras-el-musical/",
@@ -3763,7 +3807,7 @@
     {
      "start": "2026-10-10T21:00",
      "end": null,
-     "url": "https://allevents.in/monterrey/mentiras-el-musical/210003814338052"
+     "url": "https://www.ticketmaster.com.mx/mentiras-el-musical-monterrey-10-10-2026/event/1400644EA94AB81C"
     }
    ]
   },
@@ -3930,18 +3974,22 @@
    "title": "Andrés Vernazza",
    "start": "2026-10-10T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/e40/39bf41c8-7365-4302-aeb6-322955473e40_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/andres-vernazza-col-centro-monterrey-10-10-2026/event/3D00647C97C92F4C"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/andres-vernazza-col-centro-monterrey-10-10-2026/event/3D00647C97C92F4C"
   },
   {
    "id": "60f0d180bec4",
@@ -3968,27 +4016,27 @@
    "url": "https://carteleraescenica.com/eventos/flvckka-en-monterrey/"
   },
   {
-   "id": "d34009892a6d",
-   "title": "Mentiras!: El Musical - Segunda Función",
+   "id": "99e951f53c0f",
+   "title": "Rawayana",
    "start": "2026-10-10T21:00",
    "end": "2026-10-10",
-   "venue": "Av. Constitución entre Juarez y Garibaldi, Colonia Centro, 64000 Monterrey, Mexico",
+   "venue": "Auditorio Banamex",
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy80YTU4MDNkYzVkMDY1MGM5Y2E0NTNiNzQxNDc4NGVlOTM1MjMzNGVkNTkzY2NmNGEyMzZhZTc4ZjY0Njc4YzE3LXJpbWctdzEyMDAtaDE2MDAtZGNmOGY4ZjgtZ21pcj92PTE3ODg1OTgyNjY.avif",
+   "image": "https://s1.ticketm.net/dam/a/316/525f0ed8-7730-4797-90a5-01b1c4c21316_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "sources": [
     {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/mentiras-el-musical-segunda-función/200030138247004"
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/rawayana-monterrey-10-10-2026/event/140064379319DA14"
     },
     {
      "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/mentiras-el-musical-tm-GkBt3lOj"
+     "url": "https://ctxplorer.com/events/rawayana-tm-G_Z7C5eA"
     }
    ],
-   "description": "Mentiras el Musical es el espectáculo musical y teatral favorito de México. Una obra que se ha convertido en un fenómeno que atrae una y otra vez a la gente y ahora celebra 17 años de éxito. Daniela,",
-   "url": "https://allevents.in/monterrey/mentiras-el-musical-segunda-función/200030138247004"
+   "description": "La agrupación venezolana Rawayana se prepara para encender el escenario con su inconfundible propuesta de \"Trippy Pop\", una fusión magistral de reggae, funk, soul y ritmos caribeños. Con un talento qu",
+   "url": "https://www.ticketmaster.com.mx/rawayana-monterrey-10-10-2026/event/140064379319DA14"
   },
   {
    "id": "02ee47d1c9f1",
@@ -4309,16 +4357,20 @@
    ]
   },
   {
-   "id": "1a6d2c8264f8",
+   "id": "1f187a567f75",
    "title": "Travis",
    "start": "2026-10-12T21:00",
    "end": "2026-10-13T00:00",
-   "venue": "Av. Constitución entre Juarez y Garibaldi, Colonia Centro, 64000 Monterrey, Mexico",
+   "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy8yN2Q4YTExMjU0MGNlZDQ5MWUzY2Q5N2FiNTM0NzM3MmZhMjcwNGM5NWU3YWIzNjc2YjMwNjNkYzUxMDdmMzkzLXJpbWctdzEyMDAtaDE1MDItZGMwODA4MDgtZ21pcj92PTE3ODcxOTY3NzY.avif",
+   "image": "https://s1.ticketm.net/dam/a/24d/efd2c043-a788-409d-866b-76d87272424d_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/travis-monterrey-12-10-2026/event/14006490E1B2B168"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/travis/200030199546712"
@@ -4333,7 +4385,7 @@
     }
    ],
    "description": "Travis en Escenario GNP Seguros, 12 de octubre, 2026. Consulta toda la información y compra boletos.",
-   "url": "https://allevents.in/monterrey/travis/200030199546712"
+   "url": "https://www.ticketmaster.com.mx/travis-monterrey-12-10-2026/event/14006490E1B2B168"
   },
   {
    "id": "9dce1fadfdad",
@@ -4371,6 +4423,10 @@
      "url": "https://carteleraescenica.com/eventos/two-door-cinema-club/"
     },
     {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/two-door-cinema-club-monterrey-13-10-2026/event/14006465B8929907"
+    },
+    {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/two-door-cinema-club/200029861450212"
     },
@@ -4383,21 +4439,25 @@
   },
   {
    "id": "f544355c6dd9",
-   "title": "Walls El día que me olvides tour",
+   "title": "Walls El día que me olvides tour",
    "start": "2026-10-13T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/268/74f4b44c-2a19-4acc-b398-ccb40427b268_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/walls-el-dia-que-me-olvides-col-centro-monterrey-13-10-2026/event/3D006501B6A87A05"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/walls-el-dia-que-me-olvides-col-centro-monterrey-13-10-2026/event/3D006501B6A87A05"
   },
   {
    "id": "7815070bab8a",
@@ -4544,18 +4604,22 @@
    "title": "Adanowsky en Monterrey",
    "start": "2026-10-15T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/e/ea6/3b128815-bab3-470b-9dd2-fee8545a7ea6_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/adanowsky-en-monterrey-col-centro-monterrey-15-10-2026/event/3D00651D8460165F"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/adanowsky-en-monterrey-col-centro-monterrey-15-10-2026/event/3D00651D8460165F"
   },
   {
    "id": "b81b9e7d0718",
@@ -4621,6 +4685,10 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/pablo-alboran-global-tour-kmo/"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/pablo-alboran-monterrey-15-10-2026/event/1400643ED22C4D36"
     },
     {
      "id": "allevents",
@@ -4732,10 +4800,9 @@
    "url": "https://arema.mx/e/21001-myriam-en-concierto!-en-monterrey"
   },
   {
-   "id": "992c00473ec5",
    "title": "Enjambre en Mty",
    "start": "2026-10-16T21:00",
-   "end": "2026-10-16T22:30",
+   "end": "2026-12-18T00:00",
    "venue": "Auditorio Banamex",
    "city": "Monterrey",
    "category": "Música",
@@ -4749,6 +4816,10 @@
      "url": "https://carteleraescenica.com/eventos/enjambre/"
     },
     {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/enjambre-monterrey-16-10-2026/event/1400638B9690BD8D"
+    },
+    {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/enjambre/210002103831025"
     },
@@ -4757,7 +4828,20 @@
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-enjambre-auditorio-banamex-monterrey-2026"
     }
    ],
-   "url": "https://carteleraescenica.com/eventos/enjambre/"
+   "url": "https://carteleraescenica.com/eventos/enjambre/",
+   "id": "de9ac0d1964c",
+   "dates": [
+    {
+     "start": "2026-10-16T21:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/enjambre/"
+    },
+    {
+     "start": "2026-12-17T21:00",
+     "end": "2026-12-18T00:00",
+     "url": "https://www.ticketmaster.com.mx/enjambre-monterrey-17-12-2026/event/140064D0B8AF975C"
+    }
+   ]
   },
   {
    "id": "a688c40c4a46",
@@ -4784,18 +4868,40 @@
    "title": "Little Jesus: Río Salvaje 10 Años",
    "start": "2026-10-16T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/e/f68/888853b4-9c63-472b-b616-d2f370287f68_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/little-jesus-rio-salvaje-10-anos-col-centro-monterrey-16-10-2026/event/3D0064FC85D415AE"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/little-jesus-rio-salvaje-10-anos-col-centro-monterrey-16-10-2026/event/3D0064FC85D415AE"
+  },
+  {
+   "id": "a9941c12161d",
+   "title": "Regios Country Fest",
+   "start": "2026-10-16T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/ae5/27bad4fa-b10f-4c3b-bf03-89114363eae5_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/regios-country-fest-col-centro-monterrey-16-10-2026/event/3D00645CACAE3712"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/regios-country-fest-col-centro-monterrey-16-10-2026/event/3D00645CACAE3712"
   },
   {
    "id": "60ac640a4352",
@@ -5012,6 +5118,10 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/serbia-monterrey-2026/"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/serbia-no-me-sueltes-tour-monterrey-17-10-2026/event/140064A58E28489B"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/serbia-monterrey-2026/"
@@ -5025,8 +5135,12 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy82MjEzMjQ1N2Y3OWY4MmVhYmQ4NTgxZDcxNTIxZTI3MTI0MDViM2MwNjc2MTBjNTc1OGQ5MGQwYWQ1MDE3MmEyLXJpbWctdzEwMjQtaDU3Ni1kY2E2YzZkMS1nbWlyLmpwZz92PTE3NzcwNjkzMTk.avif",
+   "image": "https://s1.ticketm.net/dam/a/490/8b0fea23-1150-4b66-ac76-739f8a680490_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/alejandro-sanz-monterrey-17-10-2026/event/3D00648D82A70E2A"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/alejandro-sanz/210001763310949"
@@ -5037,7 +5151,7 @@
     }
    ],
    "description": "Alejandro Sanz en Estadio Borregos, 17 de octubre, 2026. Consulta toda la información y compra boletos.",
-   "url": "https://allevents.in/monterrey/alejandro-sanz/210001763310949"
+   "url": "https://www.ticketmaster.com.mx/alejandro-sanz-monterrey-17-10-2026/event/3D00648D82A70E2A"
   },
   {
    "id": "bcb8c83eeb31",
@@ -5064,18 +5178,22 @@
    "title": "Mike Lamadrid",
    "start": "2026-10-17T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/6c9/2e6344df-3add-44b2-957a-fe3d7b4e06c9_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/mike-lamadrid-col-centro-monterrey-17-10-2026/event/3D0064C2A6A3423E"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/mike-lamadrid-col-centro-monterrey-17-10-2026/event/3D0064C2A6A3423E"
   },
   {
    "id": "c6ebc5d29c4f",
@@ -5146,14 +5264,18 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hNmNkNjc2YzMzYzgwODA3OGQ1NzhhODliZGU1OGM4NWMyYWY0MDY0YmI0YzA3M2I0NDQyZGM0NWI5YmY1ZjZjLXJpbWctdzEwMjQtaDU3Ni1kYzA4YjhmOC1nbWlyLmpwZz92PTE3ODg2OTA3ODQ.avif",
+   "image": "https://s1.ticketm.net/dam/e/b56/0c11d4bc-f495-4184-8ec5-4b51cff8bb56_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/one-piece-en-concierto-beyond-the-monterrey-18-10-2026/event/14006522978D5731"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/one-piece-en-concierto-beyond-the-horizon/210001279092121"
     }
    ],
-   "url": "https://allevents.in/monterrey/one-piece-en-concierto-beyond-the-horizon/210001279092121"
+   "url": "https://www.ticketmaster.com.mx/one-piece-en-concierto-beyond-the-monterrey-18-10-2026/event/14006522978D5731"
   },
   {
    "id": "463430349ff5",
@@ -5164,14 +5286,18 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy80MzdhMTk3ZGQyNjZjYTlhYjdmOTY1OTFhNTVjNTEzYmMwZTA0MmRmODk4ZDJjNTRkOGNhM2RiMjA5MzAyODA3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDgwOC1nbWlyLmpwZz92PTE3ODg2OTA3ODQ.avif",
+   "image": "https://s1.ticketm.net/dam/e/148/83b0f04d-0603-40ec-afad-d0b880abc148_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/aot-vol-ii-the-last-attack-monterrey-18-10-2026/event/1400652385154BB6"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/aot-vol-ii-the-last-attack-in-concert/210003702257253"
     }
    ],
-   "url": "https://allevents.in/monterrey/aot-vol-ii-the-last-attack-in-concert/210003702257253"
+   "url": "https://www.ticketmaster.com.mx/aot-vol-ii-the-last-attack-monterrey-18-10-2026/event/1400652385154BB6"
   },
   {
    "id": "af3f040c2530",
@@ -5241,6 +5367,10 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/the-midnight-time-machines/"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/the-midnight-time-machines-monterrey-19-10-2026/event/140064AE920759FC"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/the-midnight-time-machines/"
@@ -5288,22 +5418,38 @@
    ]
   },
   {
-   "id": "ecf3979d2573",
    "title": "Secreto de Bruja",
    "start": "2026-10-19T21:00",
-   "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "end": "2026-12-19T21:00",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/e/866/6e3bb025-1bac-469f-b459-7380b9f94866_SOURCE",
    "sources": [
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/secreto-de-bruja-col-centro-monterrey-19-12-2026/event/3D006523B9924AB8"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.forocorona.com/cartelera",
+   "id": "1bd483820f99",
+   "dates": [
+    {
+     "start": "2026-10-19T21:00",
+     "end": null,
+     "url": "https://www.forocorona.com/cartelera"
+    },
+    {
+     "start": "2026-12-19T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/secreto-de-bruja-col-centro-monterrey-19-12-2026/event/3D006523B9924AB8"
+    }
+   ]
   },
   {
    "title": "Un momento más",
@@ -5348,22 +5494,26 @@
    ]
   },
   {
-   "id": "f720f09c9352",
-   "title": "Motor de México 2026, Congreso Nacional Universitario.",
+   "id": "af7856c8aa0a",
+   "title": "Congreso Universitario \"Motor de México\"",
    "start": "2026-10-21T08:00",
    "end": null,
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
    "category": "Talleres y charlas",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9hOWMyZmI2N2JmMDlmMmYxMGY1ZjczNDExYjdmODVjOTRiNGJhMmUyNTI3OWFhNzY5MjgyODNkODJlNmMxOTY0LXJpbWctdzEyMDAtaDYwMC1kYzA4MDg1OC1nbWlyLmpwZz92PTE3ODYyNTUyNDY.avif",
+   "image": "https://s1.ticketm.net/dam/e/945/03096672-e888-4171-b56e-03fbface6945_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/congreso-universitario-motor-de-mexico-monterrey-21-10-2026/event/1400652BB074A0CB"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/motor-de-méxico-2026-congreso-nacional-universitario/100001997261858985"
     }
    ],
-   "url": "https://allevents.in/monterrey/motor-de-méxico-2026-congreso-nacional-universitario/100001997261858985"
+   "url": "https://www.ticketmaster.com.mx/congreso-universitario-motor-de-mexico-monterrey-21-10-2026/event/1400652BB074A0CB"
   },
   {
    "id": "3fa6109b7579",
@@ -5877,6 +6027,41 @@
    "url": "https://arema.mx/e/21317-pesadilla-de-burlesque"
   },
   {
+   "title": "El Retrato de Dorian Gray",
+   "start": "2026-10-23T20:30",
+   "end": "2026-10-25T19:00",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/412/dcb23d85-b857-4476-a015-c5efc2bea412_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/el-retrato-de-dorian-gray-monterrey-23-10-2026/event/1400651197433BFA"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/el-retrato-de-dorian-gray-monterrey-23-10-2026/event/1400651197433BFA",
+   "id": "2795925b4862",
+   "dates": [
+    {
+     "start": "2026-10-23T20:30",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/el-retrato-de-dorian-gray-monterrey-23-10-2026/event/1400651197433BFA"
+    },
+    {
+     "start": "2026-10-24T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/el-retrato-de-dorian-gray-monterrey-24-10-2026/event/1400651198FF3EF5"
+    },
+    {
+     "start": "2026-10-25T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/el-retrato-de-dorian-gray-monterrey-25-10-2026/event/1400651198FF3EFA"
+    }
+   ]
+  },
+  {
    "id": "a462cf3689a7",
    "title": "Todos Somos Job en Monterrey",
    "start": "2026-10-23T20:30",
@@ -5909,8 +6094,12 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy83N2NkODk2YWYzNWY4MDNmMjMwNDU4MDQzNGVkOWZjMDNhMjVjN2FkODVmMDZkNzIzNDA1ZTMwZGRmYTI2ZGI1LXJpbWctdzEwMjQtaDU3Ni1kY2Q3ZTBlYi1nbWlyLmpwZz92PTE3Nzk3OTg2Nzg.avif",
+   "image": "https://s1.ticketm.net/dam/a/a53/0513f2a5-a57f-4350-928b-4c114ab8ca53_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/bad-gyal-monterrey-23-10-2026/event/14006466C811BE49"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/bad-gyal/210003529761299"
@@ -5921,7 +6110,7 @@
     }
    ],
    "description": "Bad Gyal en Auditorio Banamex, 23 de octubre, 2026. Consulta toda la información y compra boletos.",
-   "url": "https://allevents.in/monterrey/bad-gyal/210003529761299"
+   "url": "https://www.ticketmaster.com.mx/bad-gyal-monterrey-23-10-2026/event/14006466C811BE49"
   },
   {
    "id": "dc42e2ca2ca6",
@@ -5942,6 +6131,50 @@
     }
    ],
    "url": "https://arema.mx/e/20623-carlos-macias-en-san-nicolas"
+  },
+  {
+   "title": "Los Angeles Azules",
+   "start": "2026-10-23T21:00",
+   "end": "2026-10-24T23:30",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "$862 – $3720",
+   "tickets": "https://www.ticketmaster.com.mx/los-angeles-azules-monterrey-24-10-2026/event/1400647C8DC44FC1",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/grupo-musical-angeles-azules-foto.jpg",
+   "description": "Calificación promedio Aún no hay calificación La agrupación que transformó la cumbia mexicana en un fenómeno internacional regresa a Monterrey para celebrar una noche de baile, nostalgia y fiesta con el inconfundible sonido de Los Ángeles Azules, uno de los proyectos más emblemáticos y exitosos de la música popular latinoamericana.",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/los-angeles-azules-monterrey-23-10-2026/event/1400647C8D424E6D"
+    },
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/los-angeles-azules/"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/los-Ángeles-azules/200030116301024"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/concierto-los-angeles-azules-escenario-gnp-seguros-monterrey-2026"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/los-angeles-azules-monterrey-23-10-2026/event/1400647C8D424E6D",
+   "id": "d42ff346217c",
+   "dates": [
+    {
+     "start": "2026-10-23T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/los-angeles-azules-monterrey-23-10-2026/event/1400647C8D424E6D"
+    },
+    {
+     "start": "2026-10-24T21:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/los-angeles-azules/"
+    }
+   ]
   },
   {
    "id": "c5c38d28a65a",
@@ -5976,18 +6209,22 @@
    "title": "Tipling Rock",
    "start": "2026-10-23T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/9cb/5ab054c9-4bf1-4e69-91f9-97960ac2e9cb_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/tipling-rock-col-centro-monterrey-23-10-2026/event/3D006504E02E52CC"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/tipling-rock-col-centro-monterrey-23-10-2026/event/3D006504E02E52CC"
   },
   {
    "id": "98a820bd6cc4",
@@ -6045,6 +6282,36 @@
     }
    ],
    "url": "https://festivalsantalucia.gob.mx/"
+  },
+  {
+   "title": "Sabores San Pedro 2026",
+   "start": "2026-10-24T14:00",
+   "end": "2026-10-25T14:00",
+   "venue": "Parque Diego Rivera",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/d99/2ae43ad6-33af-4088-ad77-5fe29d026d99_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/sabores-san-pedro-2026-san-pedro-garza-garcia-24-10-2026/event/3D0064F8984932D5"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/sabores-san-pedro-2026-san-pedro-garza-garcia-24-10-2026/event/3D0064F8984932D5",
+   "id": "1ee836d980c9",
+   "dates": [
+    {
+     "start": "2026-10-24T14:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/sabores-san-pedro-2026-san-pedro-garza-garcia-24-10-2026/event/3D0064F8984932D5"
+    },
+    {
+     "start": "2026-10-25T14:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/sabores-san-pedro-2026-san-pedro-garza-garcia-25-10-2026/event/3D0064F89AF234B5"
+    }
+   ]
   },
   {
    "title": "Brujas el cuento DRAG más divertido",
@@ -6311,42 +6578,49 @@
    "url": "https://festivalsantalucia.gob.mx/"
   },
   {
-   "id": "7f28f3d4adfd",
-   "title": "Allison en Café Iguana",
+   "id": "6e7eff52314e",
+   "title": "Allison",
    "start": "2026-10-24T21:00",
    "end": "2026-10-25T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/04/ALLISON_MTY_PT.jpg",
-   "genre": null,
-   "description": "Allison en Café Iguana, 24 de octubre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Café Iguana",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/637/c6ad2fa9-4658-48e6-b7bf-adcb53a79637_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/allison-monterrey-24-10-2026/event/3D006490ECB5C22A"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-allison-cafe-iguana-2026-monterrey"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-allison-cafe-iguana-2026-monterrey"
+   "description": "Allison en Café Iguana, 24 de octubre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/allison-monterrey-24-10-2026/event/3D006490ECB5C22A"
   },
   {
    "id": "7f2e09160029",
    "title": "Bengala",
    "start": "2026-10-24T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/0b7/408c3969-e2a3-44b1-9c5a-87a05415f0b7_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/bengala-col-centro-monterrey-24-10-2026/event/3D006501925E43AC"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/bengala-col-centro-monterrey-24-10-2026/event/3D006501925E43AC"
   },
   {
    "id": "0c8efca036e5",
@@ -6391,59 +6665,6 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/SRS-SIXvDKrD_LgPCXlfoQ"
-  },
-  {
-   "title": "Los Angeles Azules",
-   "start": "2026-10-24T21:00",
-   "end": "2026-10-24T23:30",
-   "venue": "Escenario GNP Seguros",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "$862 – $3720",
-   "tickets": "https://www.ticketmaster.com.mx/los-angeles-azules-monterrey-24-10-2026/event/1400647C8DC44FC1",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/grupo-musical-angeles-azules-foto.jpg",
-   "description": "Calificación promedio Aún no hay calificación La agrupación que transformó la cumbia mexicana en un fenómeno internacional regresa a Monterrey para celebrar una noche de baile, nostalgia y fiesta con el inconfundible sonido de Los Ángeles Azules, uno de los proyectos más emblemáticos y exitosos de la música popular latinoamericana.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/los-angeles-azules/"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/los-angeles-azules-monterrey-tickets/100030623840554"
-    },
-    {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/concierto-los-angeles-azules-escenario-gnp-seguros-monterrey-2026"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/los-angeles-azules/",
-   "id": "d42ff346217c",
-   "dates": [
-    {
-     "start": "2026-10-24T21:00",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/los-angeles-azules/"
-    }
-   ]
-  },
-  {
-   "id": "33f2e8b45705",
-   "title": "Los Ángeles Azules",
-   "start": "2026-10-24T21:00",
-   "end": null,
-   "venue": "Av. Constitución entre Juarez y Garibaldi, Colonia Centro, 64000 Monterrey, Mexico",
-   "city": "Monterrey",
-   "category": "Otros",
-   "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czYvYmFubmVycy8yYWNjN2ZmZjU3Zjc2ODBiNmM1NTU4NWY2OGU1ZDQwNTk0MTNiYTBlMTY3MDljZGZmNjE4YmVlMTkwYjg5MWVlLXJpbWctdzEyMDAtaDE1MDAtZGNlODA4OTgtZ21pcj92PTE3ODc1MDYxMjk.avif",
-   "sources": [
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/los-Ángeles-azules/200030116301024"
-    }
-   ],
-   "url": "https://allevents.in/monterrey/los-Ángeles-azules/200030116301024"
   },
   {
    "id": "de1badb81674",
@@ -6654,6 +6875,24 @@
     }
    ],
    "url": "https://arema.mx/e/21225-la-revancha-redimidos-x-el-wreslting"
+  },
+  {
+   "id": "f7e2b425c944",
+   "title": "Los Ojos de la Maldad Concierto Sinfónico",
+   "start": "2026-10-25T17:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/cd6/bb71a31e-7e9f-4031-b5dd-bab89259ccd6_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/los-ojos-de-la-maldad-concierto-monterrey-25-10-2026/event/1400652CB57B1240"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/los-ojos-de-la-maldad-concierto-monterrey-25-10-2026/event/1400652CB57B1240"
   },
   {
    "id": "d9e5139ddded",
@@ -6917,18 +7156,22 @@
    "title": "Andrés Koi - Siempre sale el sol",
    "start": "2026-10-25T20:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/73e/93662de1-53f8-413f-ae91-d3000375173e_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/andres-koi-siempre-sale-el-sol-col-centro-monterrey-25-10-2026/event/3D0064F2919A2B68"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/andres-koi-siempre-sale-el-sol-col-centro-monterrey-25-10-2026/event/3D0064F2919A2B68"
   },
   {
    "id": "bfd888ba157c",
@@ -7399,6 +7642,24 @@
    "url": "https://festivalsantalucia.gob.mx/"
   },
   {
+   "id": "84787a20bf3b",
+   "title": "ETERNO Marcos Vidal, Marcos Witt, Marco Barrientos",
+   "start": "2026-10-28T20:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/276/cd0c96dc-30e5-4611-858e-2d91762ff276_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/eterno-marcos-vidal-marcos-witt-marco-monterrey-28-10-2026/event/140064C681572E2A"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/eterno-marcos-vidal-marcos-witt-marco-monterrey-28-10-2026/event/140064C681572E2A"
+  },
+  {
    "id": "dd36845f37fb",
    "title": "TAEMIN WORLD TOUR in MONTERREY LiMiNaL",
    "start": "2026-10-28T20:00",
@@ -7427,8 +7688,12 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9mYTYyOWQwNTc2MGZkY2ZkNjEzMDg3OGQ5YzcwZjcxZGQ3YmZmYWJkZTgxYjJjMjY5NmEwMDI4MjM5NzM2YjdmLXJpbWctdzEwMjQtaDU3Ni1kYzkwYzNlZC1nbWlyLmpwZz92PTE3Nzk3OTg1NDk.avif",
+   "image": "https://s1.ticketm.net/dam/a/331/c9f9bfde-3bdf-430d-bd2f-8fac6be22331_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/aitana-monterrey-28-10-2026/event/1400646E85FB5B41"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/aitana/210003090095880"
@@ -7439,7 +7704,7 @@
     }
    ],
    "description": "Aitana en Auditorio Banamex, 28 de octubre, 2026. Consulta toda la información y compra boletos.",
-   "url": "https://allevents.in/monterrey/aitana/210003090095880"
+   "url": "https://www.ticketmaster.com.mx/aitana-monterrey-28-10-2026/event/1400646E85FB5B41"
   },
   {
    "id": "8dbd0efb164e",
@@ -7712,12 +7977,16 @@
    "title": "Jacinto",
    "start": "2026-10-29T21:00",
    "end": "2026-10-30T00:00",
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/05/Jacinto-en-Foro-Corona-2026.jpg",
+   "image": "https://s1.ticketm.net/dam/a/670/c908f1a5-01aa-4032-93a7-d1747a48d670_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/jacinto-col-centro-monterrey-29-10-2026/event/3D0064A5BB036A7B"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
@@ -7728,7 +7997,7 @@
     }
    ],
    "description": "Jacinto en Foro Corona, 29 de octubre, 2026. Consulta toda la información y compra boletos.",
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/jacinto-col-centro-monterrey-29-10-2026/event/3D0064A5BB036A7B"
   },
   {
    "id": "5a8c970ba689",
@@ -7861,24 +8130,27 @@
    "url": "https://arema.mx/e/21123-culichi-en-zagar-comedy-bar-cumbres"
   },
   {
-   "id": "0fef044196fe",
-   "title": "Kevin Kaarl en Auditorio Banamex",
+   "id": "decd29670631",
+   "title": "Kevin Kaarl",
    "start": "2026-10-30T20:00",
    "end": "2026-10-30T23:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/kevin-kaarl-auditorio-banamex-monterrey-2026-scaled.jpg",
-   "genre": null,
-   "description": "Kevin Kaarl en Auditorio Banamex, 30 de octubre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/cde/d1b0732e-359d-4d97-9017-a41321312cde_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/kevin-kaarl-monterrey-30-10-2026/event/140064F9884E29EE"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/kevin-kaarl-auditorio-banamex-monterrey-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/kevin-kaarl-auditorio-banamex-monterrey-2026"
+   "description": "Kevin Kaarl en Auditorio Banamex, 30 de octubre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/kevin-kaarl-monterrey-30-10-2026/event/140064F9884E29EE"
   },
   {
    "id": "aaf634915a5e",
@@ -7917,6 +8189,36 @@
    "url": "https://festivalsantalucia.gob.mx/"
   },
   {
+   "title": "SinfonicaTec presenta: Escalofríos",
+   "start": "2026-10-30T20:00",
+   "end": "2026-10-31T19:00",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/ada/a9db5742-66ca-48a1-af53-826944296ada_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-30-10-2026/event/1400650D97C64BFE"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-30-10-2026/event/1400650D97C64BFE",
+   "id": "b9597b33f9d0",
+   "dates": [
+    {
+     "start": "2026-10-30T20:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-30-10-2026/event/1400650D97C64BFE"
+    },
+    {
+     "start": "2026-10-31T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-31-10-2026/event/1400650D98824DE3"
+    }
+   ]
+  },
+  {
    "id": "c4f0f0c87758",
    "title": "CORRIDA DE CALAVERAS",
    "start": "2026-10-30T20:30",
@@ -7937,6 +8239,46 @@
    "url": "https://www.superboletos.com/landing-evento/tfMnAr95Dtj4o0ieY0VOKg"
   },
   {
+   "id": "3ebb517422ba",
+   "title": "Noche de chicxs en Monterrey",
+   "start": "2026-10-30T20:30",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/59d/07a776f0-3734-4f2b-ace2-2e208032859d_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/noche-de-chicxs-en-monterrey-col-centro-monterrey-30-10-2026/event/3D0064CAED1256C7"
+    },
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/noche-de-chicxs-en-monterrey-col-centro-monterrey-30-10-2026/event/3D0064CAED1256C7"
+  },
+  {
+   "id": "54cf391f0739",
+   "title": "Carlos Ballarta",
+   "start": "2026-10-30T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/5f4/3a7f015a-3a7f-4a7a-a81f-c187200ba5f4_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/carlos-ballarta-monterrey-30-10-2026/event/140064C4E0FA58C0"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/carlos-ballarta-monterrey-30-10-2026/event/140064C4E0FA58C0"
+  },
+  {
    "id": "a65765996fd8",
    "title": "JAVIER ROSAS EN CONCIERTO",
    "start": "2026-10-30T21:00",
@@ -7955,24 +8297,6 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/IbkkvwlVAdDd52Y5YIS2_Q"
-  },
-  {
-   "id": "3ebb517422ba",
-   "title": "Noche de chicxs en Monterrey",
-   "start": "2026-10-30T21:00",
-   "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": null,
-   "sources": [
-    {
-     "id": "foro_corona",
-     "url": "https://www.forocorona.com/cartelera"
-    }
-   ],
-   "url": "https://www.forocorona.com/cartelera"
   },
   {
    "id": "e4a44bd6a2f2",
@@ -8154,6 +8478,10 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/idolos-del-corazon-con-los-terricolas-los-bryos-y-los-solitarios/"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/idolos-del-corazon-con-los-terricolas-monterrey-31-10-2026/event/1400646A902040C8"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/idolos-del-corazon-con-los-terricolas-los-bryos-y-los-solitarios/"
@@ -8163,18 +8491,22 @@
    "title": "Saramalacara",
    "start": "2026-10-31T20:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/784/d9531126-05ed-4424-8243-acff558a7784_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/saramalacara-col-centro-monterrey-31-10-2026/event/3D006507D2B36643"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/saramalacara-col-centro-monterrey-31-10-2026/event/3D006507D2B36643"
   },
   {
    "id": "af22e07b4be5",
@@ -8218,15 +8550,19 @@
   },
   {
    "id": "50d82452ec87",
-   "title": "Panteon Rococo",
+   "title": "Panteón Rococó",
    "start": "2026-10-31T21:00",
    "end": "2026-11-01T00:00",
    "venue": "Auditorio Banamex",
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9iMTgxOWIyNTA5MDAwNTBkMzQ0NzQxYTU1NTA3YTljYmU5ZTkyNWUwN2IzNzBhZDdkZGUwNGNlODk3YWVjZmQ3LXJpbWctdzEwMjQtaDU3Ni1kYzA4MDcwNy1nbWlyLmpwZz92PTE3Njk1OTEyMDM.avif",
+   "image": "https://s1.ticketm.net/dam/a/b95/986e26e0-acb6-4d1e-b4e6-c86d626b1b95_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/panteon-rococo-monterrey-31-10-2026/event/14006267D9AC2593"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/panteon-rococo/210003272693081"
@@ -8237,7 +8573,7 @@
     }
    ],
    "description": "Panteon Rococo en Auditorio Banamex, 31 de octubre, 2026. Consulta toda la información y compra boletos.",
-   "url": "https://allevents.in/monterrey/panteon-rococo/210003272693081"
+   "url": "https://www.ticketmaster.com.mx/panteon-rococo-monterrey-31-10-2026/event/14006267D9AC2593"
   },
   {
    "title": "Recreo – Flip Fabrique!",
@@ -8400,6 +8736,24 @@
    "url": "https://carteleraescenica.com/eventos/yolanda-del-rio-la-gran-senora-de-mexico/"
   },
   {
+   "id": "f8656942cb8d",
+   "title": "Yolanda del Rio, El Gran Regreso",
+   "start": "2026-11-01T19:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/72b/bb2f7774-dc88-4171-aa5a-71abb036872b_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/yolanda-del-rio-el-gran-regreso-monterrey-01-11-2026/event/140064C3E266E95E"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/yolanda-del-rio-el-gran-regreso-monterrey-01-11-2026/event/140064C3E266E95E"
+  },
+  {
    "id": "706d90d8941f",
    "title": "GALANTIS",
    "start": "2026-11-01T20:00",
@@ -8456,7 +8810,6 @@
    "url": "https://cartelera.primetickets.mx/sentencia-de-muerte"
   },
   {
-   "id": "5f45fe97d7a3",
    "title": "Paco de Miguel en Mi Familia es tu Familia",
    "start": "2026-11-04T18:00",
    "end": "2026-11-04T21:00",
@@ -8471,9 +8824,26 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/paco-de-miguel-en-mi-familia-es-tu-familia/"
+    },
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/paco-de-miguel-en-mi-familia-monterrey-04-11-2026/event/14006478E5A849A4"
     }
    ],
-   "url": "https://carteleraescenica.com/eventos/paco-de-miguel-en-mi-familia-es-tu-familia/"
+   "url": "https://carteleraescenica.com/eventos/paco-de-miguel-en-mi-familia-es-tu-familia/",
+   "id": "425109dcec50",
+   "dates": [
+    {
+     "start": "2026-11-04T18:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/paco-de-miguel-en-mi-familia-es-tu-familia/"
+    },
+    {
+     "start": "2026-11-04T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/paco-de-miguel-en-mi-familia-monterrey-04-11-2026/event/14006478E5A849A4"
+    }
+   ]
   },
   {
    "id": "5c52f1217376",
@@ -8514,6 +8884,24 @@
     }
    ],
    "url": "https://arema.mx/e/21185-vero-marcos-por-que-a-mi-en-san-pedro"
+  },
+  {
+   "id": "3bf8c1603943",
+   "title": "Kapo",
+   "start": "2026-11-04T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/8a9/03d716a1-d4b9-4f6b-9dce-84299b6dc8a9_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/kapo-monterrey-04-11-2026/event/1400648DAE778C2E"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/kapo-monterrey-04-11-2026/event/1400648DAE778C2E"
   },
   {
    "id": "8392f4a3fd34",
@@ -8623,18 +9011,22 @@
    "title": "Bandido Diamante - Cuentos para no Dormir",
    "start": "2026-11-05T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/f76/94a623c2-ed96-43de-badc-eb0350793f76_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/bandido-diamante-cuentos-para-no-dormir-col-centro-monterrey-05-11-2026/event/3D00651AB98B9305"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/bandido-diamante-cuentos-para-no-dormir-col-centro-monterrey-05-11-2026/event/3D00651AB98B9305"
   },
   {
    "id": "ccbac457861a",
@@ -8657,22 +9049,62 @@
    "url": "https://www.superboletos.com/landing-evento/3Miklg7rzU_izZLmLp26fw"
   },
   {
-   "id": "581888b10569",
-   "title": "Karol G - Viajando Por El Mundo Tropitour",
-   "start": "2026-11-06T21:00",
+   "id": "eef0809c9067",
+   "title": "ECCOS - Noche Ecclesia",
+   "start": "2026-11-06T20:30",
    "end": null,
-   "venue": "Estadio BBVA Bancomer",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9hZWIyNzdlMTFmODYyMWIxN2NhYWVmMDBiYTBiOTZjODA4MmVmY2YwMDgwOTQyYmJjMGQwOGE5YzhjNGEyZDhjLXJpbWctdzEwMDAtaDUwMC1kYzc4NDg4OC1nbWlyP3Y9MTc4ODUyMzE0Ng.avif",
+   "image": "https://s1.ticketm.net/dam/e/4b0/8c765de5-c6af-4737-bb17-46a88635b4b0_SOURCE",
    "sources": [
     {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030528911805"
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/eccos-noche-ecclesia-col-centro-monterrey-06-11-2026/event/3D006523965C2BD1"
     }
    ],
-   "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030528911805"
+   "url": "https://www.ticketmaster.com.mx/eccos-noche-ecclesia-col-centro-monterrey-06-11-2026/event/3D006523965C2BD1"
+  },
+  {
+   "title": "JAM 23, \"UK Edition¨",
+   "start": "2026-11-06T20:30",
+   "end": "2026-11-08T19:00",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/cd8/0bf8e0ab-5369-4a9b-b90d-31d8819d1cd8_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/jam-23-uk-edition-monterrey-06-11-2026/event/14006511841E1C60"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/jam-23-uk-edition-monterrey-06-11-2026/event/14006511841E1C60",
+   "id": "619bde97b872",
+   "dates": [
+    {
+     "start": "2026-11-06T20:30",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/jam-23-uk-edition-monterrey-06-11-2026/event/14006511841E1C60"
+    },
+    {
+     "start": "2026-11-07T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/jam-23-uk-edition-monterrey-07-11-2026/event/1400651184EF1D52"
+    },
+    {
+     "start": "2026-11-08T16:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/jam-23-uk-edition-monterrey-08-11-2026/event/1400651184F01D54"
+    },
+    {
+     "start": "2026-11-08T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/jam-23-uk-edition-monterrey-08-11-2026/event/1400651184F01D57"
+    }
+   ]
   },
   {
    "id": "a0b38cf20ce0",
@@ -8695,16 +9127,19 @@
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-karol-g-estadio-bbva-2026-viajando-por-el-mundo-tour-monterrey"
   },
   {
-   "id": "d52cf2f77ddf",
-   "title": "Karol G: Viajando Por El Mundo Tropitour",
+   "title": "Karol G, Viajando por el mundo, Tropitour",
    "start": "2026-11-06T21:00",
-   "end": null,
-   "venue": "Monterrey, Nuevo Leon, Mexico",
-   "city": "Monterrey",
-   "category": "Otros",
+   "end": "2026-11-08T20:00",
+   "venue": "Estadio BBVA",
+   "city": "Guadalupe",
+   "category": "Música",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czUvYmFubmVycy9kN2JmMGEzMjM0MzViZGVlZGQxN2M3MjM1NTI0OGFlMzJlYjE3NDgxYjkxYzZhN2ZiYjRlNzEzOTg5YWE2NjcyLXJpbWctdzEyMDAtaDgwMC1kYzA4MDgwOC1nbWlyP3Y9MTc4ODIwMjg4OA.avif",
+   "image": "https://s1.ticketm.net/dam/e/4c3/be224862-ce86-4147-ac5d-ed7ed6cdb4c3_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-06-11-2026/event/3D00648EE4AD7327"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030476084438"
@@ -8714,7 +9149,43 @@
      "url": "https://www.nuevoleon.travel/karol-g-viajando-por-el-mundo-tropitour/"
     }
    ],
-   "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030476084438"
+   "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-06-11-2026/event/3D00648EE4AD7327",
+   "id": "f8efb658aaa0",
+   "dates": [
+    {
+     "start": "2026-11-06T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-06-11-2026/event/3D00648EE4AD7327"
+    },
+    {
+     "start": "2026-11-07T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-07-11-2026/event/3D00648EE617740E"
+    },
+    {
+     "start": "2026-11-08T20:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-08-11-2026/event/3D00648EE6187410"
+    }
+   ]
+  },
+  {
+   "id": "a568724e0610",
+   "title": "La Cotorrisa",
+   "start": "2026-11-06T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/c93/4289a780-d91a-4c23-87f8-f76cebe2bc93_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/la-cotorrisa-monterrey-06-11-2026/event/1400650488F767FE"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/la-cotorrisa-monterrey-06-11-2026/event/1400650488F767FE"
   },
   {
    "id": "2478c1ed5dde",
@@ -8737,24 +9208,57 @@
    "url": "https://arema.mx/e/21173-los-aptos-en-monterrey"
   },
   {
-   "id": "a6f3a9886e85",
-   "title": "Omar Courtz en Auditorio Banamex",
+   "title": "Omar Courtz",
    "start": "2026-11-06T21:00",
-   "end": "2026-11-07T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/omar-courtz-monterrey-2026.jpg",
-   "genre": null,
-   "description": "Omar Courtz en Auditorio Banamex, 6 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "end": "2026-11-07T21:00",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/adf/37762eda-7227-43f8-b341-a3021b181adf_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/omar-courtz-monterrey-06-11-2026/event/140064DEBF939539"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/omar-courtz-monterrey-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/omar-courtz-monterrey-2026"
+   "description": "Omar Courtz en Auditorio Banamex, 6 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/omar-courtz-monterrey-06-11-2026/event/140064DEBF939539",
+   "id": "feb9892134da",
+   "dates": [
+    {
+     "start": "2026-11-06T21:00",
+     "end": "2026-11-07T00:00",
+     "url": "https://www.ticketmaster.com.mx/omar-courtz-monterrey-06-11-2026/event/140064DEBF939539"
+    },
+    {
+     "start": "2026-11-07T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/omar-courtz-monterrey-07-11-2026/event/140064DEEC82FA94"
+    }
+   ]
+  },
+  {
+   "id": "1c76705cf3e8",
+   "title": "Peces Raros",
+   "start": "2026-11-06T21:00",
+   "end": null,
+   "venue": "Café Iguana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/1f3/8c53cb50-00ff-43bf-a1d1-bacbabbd81f3_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/peces-raros-monterrey-06-11-2026/event/3D0064AB88A01A8A"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/peces-raros-monterrey-06-11-2026/event/3D0064AB88A01A8A"
   },
   {
    "id": "832e4ae63398",
@@ -8835,6 +9339,24 @@
    "url": "https://arema.mx/e/21205-alan-arrieta-en-monterrey"
   },
   {
+   "id": "fb7114ca3a74",
+   "title": "Elías Medina",
+   "start": "2026-11-07T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/a66/312da6fe-9915-4c40-ad21-bb8294d90a66_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/elias-medina-monterrey-07-11-2026/event/140064A4BF45AFF7"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/elias-medina-monterrey-07-11-2026/event/140064A4BF45AFF7"
+  },
+  {
    "id": "72f344b02c4b",
    "title": "Intocable",
    "start": "2026-11-07T21:00",
@@ -8852,29 +9374,15 @@
      "url": "https://carteleraescenica.com/eventos/intocable/"
     },
     {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/intocable-monterrey-07-11-2026/event/3D00649BE1E45078"
+    },
+    {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-intocable-estadio-borregos-2026-monterrey"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/intocable/"
-  },
-  {
-   "id": "fbb6ebf36a20",
-   "title": "Karol G - Monterrey",
-   "start": "2026-11-07T21:00",
-   "end": null,
-   "venue": "Estadio BBVA Bancomer",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy82YjMyYjQ1N2QwY2JjMjcxOTkxZmFkNTRkOTAzYWEzZTc5YWViZTljM2QzMjI3MWExN2RiYzc0ZWE3ZjUyZmI0LXJpbWctdzEyMDAtaDY3NS1kYzA4MDgwOC1nbWlyP3Y9MTc4ODA1MjgzOA.avif",
-   "sources": [
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/karol-g-monterrey/200030554982700"
-    }
-   ],
-   "url": "https://allevents.in/monterrey/karol-g-monterrey/200030554982700"
   },
   {
    "id": "713206b48000",
@@ -8941,18 +9449,22 @@
    "title": "Yng Naz",
    "start": "2026-11-07T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/4e3/92320477-f6cc-4c43-8a77-bca11f1174e3_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/yng-naz-col-centro-monterrey-07-11-2026/event/3D0064ADF38CD136"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/yng-naz-col-centro-monterrey-07-11-2026/event/3D0064ADF38CD136"
   },
   {
    "id": "ee4d0d4d36bd",
@@ -9036,24 +9548,27 @@
    "url": "https://www.superboletos.com/landing-evento/KyN4Q2WufKE8IX1YOuU6ag"
   },
   {
-   "id": "11134610393d",
-   "title": "Andrés Calamaro en Escenario GNP Seguros",
+   "id": "3a7e813a12d8",
+   "title": "Andrés Calamaro",
    "start": "2026-11-09T21:00",
    "end": "2026-11-10T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/andres-calamaro-monterrey-2026.jpg",
-   "genre": null,
-   "description": "Andrés Calamaro en Escenario GNP Seguros, 9 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/e82/c9a01390-b711-46ce-ba11-276605fffe82_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/andres-calamaro-monterrey-09-11-2026/event/140064F0C26FB677"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/andres-calamaro-monterrey-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/andres-calamaro-monterrey-2026"
+   "description": "Andrés Calamaro en Escenario GNP Seguros, 9 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/andres-calamaro-monterrey-09-11-2026/event/140064F0C26FB677"
   },
   {
    "id": "5f1fdfbf5647",
@@ -9074,6 +9589,24 @@
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-eros-ramazzotti-monterrey-2026"
+  },
+  {
+   "id": "50746a5c5072",
+   "title": "Leire Martínez",
+   "start": "2026-11-10T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/a51/b809dcd6-44a9-4df2-bcec-f255455c0a51_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/leire-martinez-monterrey-10-11-2026/event/140064C2E14609A1"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/leire-martinez-monterrey-10-11-2026/event/140064C2E14609A1"
   },
   {
    "id": "4d3de0fb603e",
@@ -9128,24 +9661,27 @@
    "url": "https://carteleraescenica.com/eventos/mac-demarco/"
   },
   {
-   "id": "4d22a4120ae4",
-   "title": "Siddhartha en Auditorio Banamex",
+   "id": "6589d569193b",
+   "title": "Siddhartha",
    "start": "2026-11-12T21:00",
    "end": "2026-11-13T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/04/Siddhartha_Monterrey_4x5-1_optimized.jpg",
-   "genre": null,
-   "description": "Siddhartha en Auditorio Banamex, 12 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/4b4/cf43650a-ec71-4722-aa9e-aeb1a25754b4_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/siddhartha-monterrey-12-11-2026/event/1400646685EA2902"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-siddhartha-auditorio-banamex-monterrey-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-siddhartha-auditorio-banamex-monterrey-2026"
+   "description": "Siddhartha en Auditorio Banamex, 12 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/siddhartha-monterrey-12-11-2026/event/1400646685EA2902"
   },
   {
    "title": "Temporada de Teatro 2026 I Yo no soy Charlie o la melancolía de una lengua en formol",
@@ -9209,6 +9745,59 @@
    "url": "https://arema.mx/e/21391-torin-show-en-zagar-comedy-bar-san-nicolas"
   },
   {
+   "title": "Clue: El Juego de la Sospecha",
+   "start": "2026-11-13T20:30",
+   "end": "2026-11-15T19:00",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/e77/54edf852-a31b-4ece-8691-4c2f25131e77_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/clue-el-juego-de-la-sospecha-monterrey-13-11-2026/event/1400650DA3996509"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/clue-el-juego-de-la-sospecha-monterrey-13-11-2026/event/1400650DA3996509",
+   "id": "6d7028d61441",
+   "dates": [
+    {
+     "start": "2026-11-13T20:30",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/clue-el-juego-de-la-sospecha-monterrey-13-11-2026/event/1400650DA3996509"
+    },
+    {
+     "start": "2026-11-14T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/clue-el-juego-de-la-sospecha-monterrey-14-11-2026/event/1400650DA84A71EA"
+    },
+    {
+     "start": "2026-11-15T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/clue-el-juego-de-la-sospecha-monterrey-15-11-2026/event/1400650DA84B71ED"
+    }
+   ]
+  },
+  {
+   "id": "f76ef768fa45",
+   "title": "Diezell",
+   "start": "2026-11-13T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/3c2/9a31638f-c899-4d10-a6e1-18f3bfd2f3c2_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/diezell-col-centro-monterrey-13-11-2026/event/3D0064CEF8F2C517"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/diezell-col-centro-monterrey-13-11-2026/event/3D0064CEF8F2C517"
+  },
+  {
    "id": "f963badc103b",
    "title": "Mago de Oz en Arena Monterrey",
    "start": "2026-11-13T21:00",
@@ -9249,24 +9838,57 @@
    "url": "https://www.superboletos.com/landing-evento/FJKnquy6xxNM1JiAM_0Bhg"
   },
   {
-   "id": "e1c195391538",
-   "title": "ZZ Top en Auditorio Banamex",
+   "title": "Matute - Disco Stereo Tour",
+   "start": "2026-11-13T21:00",
+   "end": "2026-11-14T21:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/739/88645416-a38e-4a1a-8e56-b625d0742739_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F",
+   "id": "2b993635159f",
+   "dates": [
+    {
+     "start": "2026-11-13T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F"
+    },
+    {
+     "start": "2026-11-14T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-14-11-2026/event/1400644698215498"
+    }
+   ]
+  },
+  {
+   "id": "24055a443aa8",
+   "title": "ZZ Top",
    "start": "2026-11-13T21:00",
    "end": "2026-11-14T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/03/zz-top-monterrey-2025.jpg",
-   "genre": null,
-   "description": "ZZ Top en Auditorio Banamex, 13 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/1f8/ea4af8b4-9f00-41aa-84b6-c9b0458841f8_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/zz-top-monterrey-13-11-2026/event/14006474E009D790"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-zz-top-monterrey-auditorio-banamex-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-zz-top-monterrey-auditorio-banamex-2026"
+   "description": "ZZ Top en Auditorio Banamex, 13 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/zz-top-monterrey-13-11-2026/event/14006474E009D790"
   },
   {
    "id": "e605fff17321",
@@ -9357,6 +9979,24 @@
    "url": "https://feverup.com/m/709586"
   },
   {
+   "id": "10b13fca55fe",
+   "title": "Dimash Qudaibergen",
+   "start": "2026-11-14T20:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/c93/23ed7a09-a2aa-4ff3-8caa-20cd8f88bc93_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/dimash-qudaibergen-monterrey-14-11-2026/event/140064C3D88BD9DB"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/dimash-qudaibergen-monterrey-14-11-2026/event/140064C3D88BD9DB"
+  },
+  {
    "id": "5f0d57002986",
    "title": "BENNY IBARRA",
    "start": "2026-11-14T21:00",
@@ -9381,18 +10021,22 @@
    "title": "Griss Romero en Concierto",
    "start": "2026-11-14T21:00",
    "end": null,
-   "venue": "Foro Corona",
-   "city": "Monterrey",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://s1.ticketm.net/dam/a/f12/2fd53227-9276-4da7-aed9-db9cb373df12_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/griss-romero-en-concierto-col-centro-monterrey-14-11-2026/event/3D006506BC2D5422"
+    },
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
     }
    ],
-   "url": "https://www.forocorona.com/cartelera"
+   "url": "https://www.ticketmaster.com.mx/griss-romero-en-concierto-col-centro-monterrey-14-11-2026/event/3D006506BC2D5422"
   },
   {
    "id": "fb22dad01a68",
@@ -9437,6 +10081,24 @@
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/matute"
+  },
+  {
+   "id": "4e29582989a2",
+   "title": "La Caravana del Amor",
+   "start": "2026-11-15T19:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/4ec/7da404c6-6b78-41ce-84d8-7740737444ec_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/la-caravana-del-amor-monterrey-15-11-2026/event/1400644BBDF6AC79"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/la-caravana-del-amor-monterrey-15-11-2026/event/1400644BBDF6AC79"
   },
   {
    "title": "Yo no soy Charlie o la melancolía de una lengua en formol",
@@ -9559,36 +10221,57 @@
    "url": "https://arema.mx/e/21201-pura-nostalgia-en-monterrey"
   },
   {
-   "title": "Mon Laferte en Auditorio Banamex",
+   "title": "Mon Laferte",
    "start": "2026-11-16T21:00",
    "end": "2026-11-18T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/mon-laferte-auditorio-banamex-monterrey-17-noviembre-2026.jpg",
-   "genre": null,
-   "description": "Mon Laferte en Auditorio Banamex, 16 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/2ca/0ec27f2d-ee7d-471e-8459-69acb0d5c2ca_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-16-11-2026/event/140064EF9E4E4EBF"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-16-noviembre-auditorio-banamex-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-16-noviembre-auditorio-banamex-2026",
-   "id": "afd6268309f6",
+   "description": "Mon Laferte en Auditorio Banamex, 16 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-16-11-2026/event/140064EF9E4E4EBF",
+   "id": "836076a92c87",
    "dates": [
     {
      "start": "2026-11-16T21:00",
      "end": "2026-11-17T00:00",
-     "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-16-noviembre-auditorio-banamex-2026"
+     "url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-16-11-2026/event/140064EF9E4E4EBF"
     },
     {
      "start": "2026-11-17T21:00",
      "end": "2026-11-18T00:00",
-     "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-17-noviembre-auditorio-banamex-2026"
+     "url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-17-11-2026/event/140064ADE1DDDC9B"
     }
    ]
+  },
+  {
+   "id": "a778b1d3ed64",
+   "title": "2026 Hwang In Youp FAN MEETING TOUR in MONTERREY",
+   "start": "2026-11-17T20:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/808/4b378b13-0025-490c-b2f8-63a22e469808_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/2026-hwang-in-youp-fan-meeting-monterrey-17-11-2026/event/1400652CE7CAB10F"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/2026-hwang-in-youp-fan-meeting-monterrey-17-11-2026/event/1400652CE7CAB10F"
   },
   {
    "id": "f529088c2712",
@@ -9651,6 +10334,24 @@
    "url": "https://www.superboletos.com/landing-evento/NNIsFG073RA5O10z4A5jwQ"
   },
   {
+   "id": "cb28ca60626c",
+   "title": "Caloncho",
+   "start": "2026-11-19T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/5d7/7f16ad95-d4b3-4843-8698-239800f4f5d7_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/caloncho-monterrey-19-11-2026/event/14006453E269576B"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/caloncho-monterrey-19-11-2026/event/14006453E269576B"
+  },
+  {
    "id": "e4488b34a34c",
    "title": "DOYLE - MÉXICO TOUR 2026",
    "start": "2026-11-19T21:00",
@@ -9669,6 +10370,24 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/ShvWvegE10RUVXCUO4XAsg"
+  },
+  {
+   "id": "d47b43981193",
+   "title": "Taburete",
+   "start": "2026-11-19T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/af5/7a584936-3b90-4c19-aedd-7c3bb998eaf5_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/taburete-col-centro-monterrey-19-11-2026/event/3D0065249EC538A7"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/taburete-col-centro-monterrey-19-11-2026/event/3D0065249EC538A7"
   },
   {
    "id": "38c5ba67a3a1",
@@ -9707,6 +10426,41 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/MaoBkkddbsB-o0yjDPNC0g"
+  },
+  {
+   "title": "Raíces \"Estampas De La Revolución\"",
+   "start": "2026-11-20T20:30",
+   "end": "2026-11-22T19:00",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/9b5/0e53eac9-ffe5-4d00-8d33-83fb6fc9e9b5_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-20-11-2026/event/1400651186231F0F"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-20-11-2026/event/1400651186231F0F",
+   "id": "b7966a181535",
+   "dates": [
+    {
+     "start": "2026-11-20T20:30",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-20-11-2026/event/1400651186231F0F"
+    },
+    {
+     "start": "2026-11-21T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-21-11-2026/event/1400651187532075"
+    },
+    {
+     "start": "2026-11-22T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-22-11-2026/event/1400651187532077"
+    }
+   ]
   },
   {
    "id": "e034a6447e18",
@@ -9787,44 +10541,68 @@
    "url": "https://arema.mx/e/21322-kevin-roldan-en-monterrey"
   },
   {
-   "id": "b55277367f73",
-   "title": "Los Auténticos Decadentes y Los Caligaris en Auditorio Banamex",
+   "id": "27e2b17d6dba",
+   "title": "La Barranca",
+   "start": "2026-11-20T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/0fb/bc7842bd-aaa0-43b0-8e92-4a8bc1b8f0fb_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/la-barranca-col-centro-monterrey-20-11-2026/event/3D0064F99B80358E"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/la-barranca-col-centro-monterrey-20-11-2026/event/3D0064F99B80358E"
+  },
+  {
+   "id": "dddc280b4062",
+   "title": "Los Auténticos Caligaris",
    "start": "2026-11-20T21:00",
    "end": "2026-11-21T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/05/Los-Autenticos-decadentes-y-caligaris-en-monterrey-2026.jpg",
-   "genre": null,
-   "description": "Los Auténticos Decadentes y Los Caligaris en Auditorio Banamex, 20 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/1e2/51badef6-3633-4159-9920-5c5dc0e141e2_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/los-autenticos-caligaris-monterrey-20-11-2026/event/1400646D876F4E01"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/los-autenticos-decadentes-y-los-caligaris"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/los-autenticos-decadentes-y-los-caligaris"
+   "description": "Los Auténticos Decadentes y Los Caligaris en Auditorio Banamex, 20 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/los-autenticos-caligaris-monterrey-20-11-2026/event/1400646D876F4E01"
   },
   {
-   "id": "1af55d492664",
-   "title": "LP en Escenario GNP Seguros",
+   "id": "fff1374a4664",
+   "title": "LP",
    "start": "2026-11-20T21:00",
    "end": "2026-11-21T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/05/lp-en-monterrey-2026.jpg",
-   "genre": null,
-   "description": "LP en Escenario GNP Seguros, 20 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/e16/5b07184e-f317-4226-81d8-f665fa933e16_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/lp-monterrey-20-11-2026/event/140064A8B2CCE5E2"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-lp-escenario-gnp-seguros-monterrey-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-lp-escenario-gnp-seguros-monterrey-2026"
+   "description": "LP en Escenario GNP Seguros, 20 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/lp-monterrey-20-11-2026/event/140064A8B2CCE5E2"
   },
   {
    "id": "1da6d15bdca8",
@@ -9885,6 +10663,60 @@
    "url": "https://arema.mx/e/20752-el-gran-viaje-improv-show"
   },
   {
+   "id": "75f51daf32d4",
+   "title": "David Bisbal Tour Eternos 2026",
+   "start": "2026-11-21T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/1d1/65a47f8e-6696-4003-a33c-179363c8c1d1_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/david-bisbal-tour-eternos-2026-monterrey-21-11-2026/event/140064AE8B0C490D"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/david-bisbal-tour-eternos-2026-monterrey-21-11-2026/event/140064AE8B0C490D"
+  },
+  {
+   "id": "8c26133c273e",
+   "title": "Luisa Vox",
+   "start": "2026-11-21T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/438/36ff0616-02a4-4610-8860-c402373cc438_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/luisa-vox-col-centro-monterrey-21-11-2026/event/3D0064A5A4A35226"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/luisa-vox-col-centro-monterrey-21-11-2026/event/3D0064A5A4A35226"
+  },
+  {
+   "id": "806c4460e16f",
+   "title": "Molotov",
+   "start": "2026-11-21T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/9eb/c3839c32-0eef-41c1-bf81-2cf87724d9eb_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/molotov-monterrey-21-11-2026/event/14006488DF2AF3CC"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/molotov-monterrey-21-11-2026/event/14006488DF2AF3CC"
+  },
+  {
    "id": "375181529dd3",
    "title": "BANDA MS - SOMOS MS TOUR",
    "start": "2026-11-21T21:30",
@@ -9943,6 +10775,24 @@
    "url": "https://www.nuevoleon.travel/lululemon-10k-monterrey/"
   },
   {
+   "id": "fd8ad8d4f9e7",
+   "title": "Meme y Yordi",
+   "start": "2026-11-22T20:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/256/2b6335dc-337a-402e-b560-264152d7d256_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/meme-y-yordi-col-centro-monterrey-22-11-2026/event/3D00650BBFBA432A"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/meme-y-yordi-col-centro-monterrey-22-11-2026/event/3D00650BBFBA432A"
+  },
+  {
    "id": "8dcae23d148f",
    "title": "XLOV EN MONTERREY",
    "start": "2026-11-22T21:00",
@@ -9983,24 +10833,27 @@
    "url": "https://arema.mx/e/21237-marcos-llunas-en-monterrey"
   },
   {
-   "id": "358e177de6bc",
-   "title": "Easykid en Foro Corona",
+   "id": "2ef8ce41e2d5",
+   "title": "Easykid",
    "start": "2026-11-25T21:00",
    "end": "2026-11-26T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/easykid-foro-corona-monterrey-2026.jpg",
-   "genre": null,
-   "description": "Easykid en Foro Corona, 25 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/536/7cb5429d-b571-45a8-bc44-069a57717536_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/easykid-col-centro-monterrey-25-11-2026/event/3D00651AD6C3B4D2"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-easykid-foro-corona-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-easykid-foro-corona-2026"
+   "description": "Easykid en Foro Corona, 25 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/easykid-col-centro-monterrey-25-11-2026/event/3D00651AD6C3B4D2"
   },
   {
    "id": "4a0a95fedccf",
@@ -10047,24 +10900,45 @@
    "url": "https://carteleraescenica.com/eventos/daniel-habif-ascender-el-paso-final/"
   },
   {
-   "id": "ec99ac211566",
-   "title": "Trueno en Auditorio Banamex",
+   "id": "0c8d48bc35b4",
+   "title": "Six Sex",
+   "start": "2026-11-26T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/d46/45072bed-c814-4372-9a06-a4ea9aa47d46_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/six-sex-col-centro-monterrey-26-11-2026/event/3D0064E6DEAD340B"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/six-sex-col-centro-monterrey-26-11-2026/event/3D0064E6DEAD340B"
+  },
+  {
+   "id": "e7a880c9a5a8",
+   "title": "Trueno",
    "start": "2026-11-26T21:00",
    "end": "2026-11-27T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/05/trueno-en-concierto-sede-auditorio-banamex-2026.jpg",
-   "genre": null,
-   "description": "Trueno en Auditorio Banamex, 26 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/a31/6e667193-acd9-4ef5-8b71-76c19b06ba31_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/trueno-monterrey-26-11-2026/event/14006491A9838E24"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-trueno-auditorio-banamex-2026-monterrey"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-trueno-auditorio-banamex-2026-monterrey"
+   "description": "Trueno en Auditorio Banamex, 26 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/trueno-monterrey-26-11-2026/event/14006491A9838E24"
   },
   {
    "id": "17ce057a46a8",
@@ -10087,6 +10961,51 @@
     }
    ],
    "url": "https://feverup.com/m/266289"
+  },
+  {
+   "title": "Anastasia, El Musical.",
+   "start": "2026-11-27T20:30",
+   "end": "2026-11-29T19:00",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/f80/d067a9ba-fb6c-4efe-aadd-f78e47c54f80_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-27-11-2026/event/1400650DADDF87EF"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-27-11-2026/event/1400650DADDF87EF",
+   "id": "fdc14d761c42",
+   "dates": [
+    {
+     "start": "2026-11-27T20:30",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-27-11-2026/event/1400650DADDF87EF"
+    },
+    {
+     "start": "2026-11-28T15:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-28-11-2026/event/1400650DB12F8E2B"
+    },
+    {
+     "start": "2026-11-28T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-28-11-2026/event/1400650DB1308E2D"
+    },
+    {
+     "start": "2026-11-29T15:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-29-11-2026/event/1400650DB1318E30"
+    },
+    {
+     "start": "2026-11-29T19:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-29-11-2026/event/1400650DB1328E3A"
+    }
+   ]
   },
   {
    "id": "b58269dc04cd",
@@ -10129,24 +11048,45 @@
    "url": "https://conciertosenmonterrey.com/cartelera/cd9-parallax-arena-monterrey-2026"
   },
   {
-   "id": "75b5bd10bcc1",
-   "title": "María José en Auditorio Banamex",
+   "id": "a48e8e26c0a8",
+   "title": "Kakkmaddafakka",
+   "start": "2026-11-27T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/1cd/443a2c5d-37fa-462b-b983-b58f3c7811cd_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/kakkmaddafakka-col-centro-monterrey-27-11-2026/event/3D006454EEC96E1C"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/kakkmaddafakka-col-centro-monterrey-27-11-2026/event/3D006454EEC96E1C"
+  },
+  {
+   "id": "e2cefe249baa",
+   "title": "María José",
    "start": "2026-11-27T21:00",
    "end": "2026-11-28T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/maria-jose-ahora-o-nunca-auditorio-banamex-monterrey-2026.jpg",
-   "genre": null,
-   "description": "María José en Auditorio Banamex, 27 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/37e/47402565-d994-4cb0-bdcc-a04f6689d37e_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/maria-jose-monterrey-27-11-2026/event/140064F5F5AAEB37"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-maria-jose-auditorio-banamex-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-maria-jose-auditorio-banamex-2026"
+   "description": "María José en Auditorio Banamex, 27 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/maria-jose-monterrey-27-11-2026/event/140064F5F5AAEB37"
   },
   {
    "id": "97cd7f2f9713",
@@ -10271,6 +11211,24 @@
    "url": "https://www.superboletos.com/landing-evento/E-sB8PQEoNZPjxc5KCyDZA"
   },
   {
+   "id": "71cde25b28ff",
+   "title": "Armando Palomas",
+   "start": "2026-11-28T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/443/4ae07036-4620-46ee-bdb6-754ccdfc1443_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/armando-palomas-col-centro-monterrey-28-11-2026/event/3D0065249CFE3719"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/armando-palomas-col-centro-monterrey-28-11-2026/event/3D0065249CFE3719"
+  },
+  {
    "id": "54cebf9c90f6",
    "title": "CARLOS RIVERA",
    "start": "2026-11-28T21:00",
@@ -10319,6 +11277,24 @@
    "url": "https://carteleraescenica.com/eventos/insite-en-monterrey/"
   },
   {
+   "id": "96ee1a615db8",
+   "title": "La Gusana Ciega - Claroscuro",
+   "start": "2026-11-28T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/4ad/4984a6b9-09d7-42b0-ba25-2412caa544ad_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/la-gusana-ciega-claroscuro-monterrey-28-11-2026/event/140064A5985E5EC9"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/la-gusana-ciega-claroscuro-monterrey-28-11-2026/event/140064A5985E5EC9"
+  },
+  {
    "id": "af84540e6f05",
    "title": "Lenny Tavárez y Justin Quiles en Auditorio Banamex",
    "start": "2026-11-28T21:00",
@@ -10337,6 +11313,42 @@
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/lenny-tavarez-justin-quiles-monterrey-2026"
+  },
+  {
+   "id": "7865ddf35a8d",
+   "title": "Superarte JQ & LT M&G UPGRADE (Boleto de evento no incluido)",
+   "start": "2026-11-28T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/864/68fb437c-9b32-463d-8a3c-69ef21ce3864_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/superarte-jq-lt-mg-upgrade-boleto-monterrey-28-11-2026/event/140064FE8627506C"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/superarte-jq-lt-mg-upgrade-boleto-monterrey-28-11-2026/event/140064FE8627506C"
+  },
+  {
+   "id": "d63470cc9650",
+   "title": "Superarte Justin Q & Lenny T",
+   "start": "2026-11-28T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/621/5cfddbc4-a237-4137-ae38-5f451f4a4621_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/superarte-justin-q-lenny-t-monterrey-28-11-2026/event/140064B2F4D4F004"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/superarte-justin-q-lenny-t-monterrey-28-11-2026/event/140064B2F4D4F004"
   },
   {
    "id": "c2b55e9897bf",
@@ -10519,6 +11531,24 @@
    "url": "https://arema.mx/e/21088-two-pa-dos-nuestra-primera-vez-en-san-nicolas"
   },
   {
+   "id": "26aa13432d16",
+   "title": "Emjay",
+   "start": "2026-12-03T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/d0a/047cd664-70a8-449a-8289-614efd5ecd0a_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/emjay-col-centro-monterrey-03-12-2026/event/3D0064AE80933819"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/emjay-col-centro-monterrey-03-12-2026/event/3D0064AE80933819"
+  },
+  {
    "id": "10b8a6cba608",
    "title": "MORAT - YEM WORLD TOUR - 2DA FECHA",
    "start": "2026-12-03T21:00",
@@ -10559,6 +11589,42 @@
    "url": "https://arema.mx/e/20650-dld-en-monterrey"
   },
   {
+   "id": "025972445636",
+   "title": "I Love Dance 2026",
+   "start": "2026-12-04T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/1eb/589c46a9-9228-482a-90fa-e11c25d461eb_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/i-love-dance-2026-monterrey-04-12-2026/event/140064B2A75464C3"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/i-love-dance-2026-monterrey-04-12-2026/event/140064B2A75464C3"
+  },
+  {
+   "id": "4154c04f7580",
+   "title": "I Love Dance 2026 Beyond Numerado",
+   "start": "2026-12-04T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/1eb/589c46a9-9228-482a-90fa-e11c25d461eb_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/i-love-dance-2026-beyond-numerado-monterrey-04-12-2026/event/140065419C947319"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/i-love-dance-2026-beyond-numerado-monterrey-04-12-2026/event/140065419C947319"
+  },
+  {
    "id": "e0d37d1c5c14",
    "title": "MORAT – YEM WORLD TOUR – 3RA FECHA",
    "start": "2026-12-04T21:00",
@@ -10581,6 +11647,24 @@
     }
    ],
    "url": "https://carteleraescenica.com/eventos/morat-yem-world-tour-3ra-fecha/"
+  },
+  {
+   "id": "806559fa8f15",
+   "title": "Pablo Preciado",
+   "start": "2026-12-04T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/aa7/ae3269c8-6fe5-4915-aa7e-32a4e23aaaa7_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/pablo-preciado-col-centro-monterrey-04-12-2026/event/3D006533A68E3525"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/pablo-preciado-col-centro-monterrey-04-12-2026/event/3D006533A68E3525"
   },
   {
    "id": "2db4284025aa",
@@ -10621,6 +11705,24 @@
    "url": "https://feverup.com/m/534428"
   },
   {
+   "id": "e64a6b1e1145",
+   "title": "Morenito de Fuego Tour Montando el Cerro de la Silla",
+   "start": "2026-12-05T20:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/bc4/a092bed8-4ebc-4274-83c6-73d167f8bbc4_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/morenito-de-fuego-tour-montando-el-col-centro-monterrey-05-12-2026/event/3D006518AF86319A"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/morenito-de-fuego-tour-montando-el-col-centro-monterrey-05-12-2026/event/3D006518AF86319A"
+  },
+  {
    "id": "506f816575f6",
    "title": "EDEN MUNOZ EN CONCIERTO",
    "start": "2026-12-05T21:00",
@@ -10643,6 +11745,24 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/WQ0VemNOffLYv7f5vUpYew"
+  },
+  {
+   "id": "bf8fc17d7cbf",
+   "title": "Hermanos De Leche",
+   "start": "2026-12-05T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/7d7/1c54a5e7-446f-40ef-9622-2a35195ab7d7_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/hermanos-de-leche-monterrey-05-12-2026/event/1400651CD65F3979"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/hermanos-de-leche-monterrey-05-12-2026/event/1400651CD65F3979"
   },
   {
    "id": "3f44f8bc6abc",
@@ -10687,6 +11807,24 @@
     }
    ],
    "url": "https://carteleraescenica.com/eventos/shey-band-en-monterrey/"
+  },
+  {
+   "id": "7fdb70bd3546",
+   "title": "Tombochio",
+   "start": "2026-12-05T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/710/44fe7c02-78d1-4b38-a188-6e770ec9a710_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/tombochio-monterrey-05-12-2026/event/14006538B9DCBA21"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/tombochio-monterrey-05-12-2026/event/14006538B9DCBA21"
   },
   {
    "title": "Esto NO es una Pastorela",
@@ -10786,6 +11924,42 @@
    "url": "https://arema.mx/e/21221-se-regalan-dudas-presenta-se-puso-rara-la-vida-en-monterrey"
   },
   {
+   "id": "912bd99788c5",
+   "title": "Earth Wind & Fire Experience By Al McKay",
+   "start": "2026-12-09T20:30",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/4a5/2aa89255-9322-414a-ad91-d5a3e9b7b4a5_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/earth-wind-fire-experience-by-al-monterrey-09-12-2026/event/140065369AE262BC"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/earth-wind-fire-experience-by-al-monterrey-09-12-2026/event/140065369AE262BC"
+  },
+  {
+   "id": "d931c3836e70",
+   "title": "Natalia Lacunza",
+   "start": "2026-12-10T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/0a4/653d69ab-0ce5-4ca5-8515-1950e01ed0a4_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/natalia-lacunza-col-centro-monterrey-10-12-2026/event/3D00651388D119F3"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/natalia-lacunza-col-centro-monterrey-10-12-2026/event/3D00651388D119F3"
+  },
+  {
    "id": "902a8472d7f3",
    "title": "RØZ",
    "start": "2026-12-10T21:00",
@@ -10846,36 +12020,75 @@
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-sin-bandera-arena-monterrey-2026"
   },
   {
-   "title": "Caifanes en Auditorio Banamex",
+   "title": "Caifanes",
    "start": "2026-12-11T21:00",
    "end": "2026-12-13T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/caifanes-auditorio-banamex-monterrey-2026.jpg",
-   "genre": null,
-   "description": "Caifanes en Auditorio Banamex, 11 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/be6/bfb7341d-819b-4560-82b1-5fce5384dbe6_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/caifanes-monterrey-11-12-2026/event/140064FCE64A3E3D"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/caifanes-auditorio-banamex-monterrey-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/caifanes-auditorio-banamex-monterrey-2026",
-   "id": "46b42870c5d7",
+   "description": "Caifanes en Auditorio Banamex, 11 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/caifanes-monterrey-11-12-2026/event/140064FCE64A3E3D",
+   "id": "1ae34773cd39",
    "dates": [
     {
      "start": "2026-12-11T21:00",
      "end": "2026-12-12T00:00",
-     "url": "https://conciertosenmonterrey.com/cartelera/caifanes-auditorio-banamex-monterrey-2026"
+     "url": "https://www.ticketmaster.com.mx/caifanes-monterrey-11-12-2026/event/140064FCE64A3E3D"
     },
     {
      "start": "2026-12-12T21:00",
      "end": "2026-12-13T00:00",
-     "url": "https://conciertosenmonterrey.com/cartelera/concierto-caifanes-auditorio-banamex-2026"
+     "url": "https://www.ticketmaster.com.mx/caifanes-monterrey-12-12-2026/event/140064B2A8FE67BA"
     }
    ]
+  },
+  {
+   "id": "969cb056bbbe",
+   "title": "Charlie Rod & Sam Vazquez",
+   "start": "2026-12-11T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/fb7/668c8538-e0de-42b3-8822-1509ca84cfb7_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/charlie-rod-sam-vazquez-col-centro-monterrey-11-12-2026/event/3D00654197953C87"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/charlie-rod-sam-vazquez-col-centro-monterrey-11-12-2026/event/3D00654197953C87"
+  },
+  {
+   "id": "8e2b9aaec04d",
+   "title": "Franco Escamilla NUEVO SHOW EL JUICIO",
+   "start": "2026-12-11T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/888/c17d98b9-4505-4332-8ec0-475dd6f41888_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/franco-escamilla-nuevo-show-el-juicio-monterrey-11-12-2026/event/1400651D85A641FE"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/franco-escamilla-nuevo-show-el-juicio-monterrey-11-12-2026/event/1400651D85A641FE"
   },
   {
    "id": "fa037df87940",
@@ -10956,6 +12169,24 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/hCY5ufcTnU8j0mgLqYTW5g"
+  },
+  {
+   "id": "0e1f6c88c687",
+   "title": "Bohemio",
+   "start": "2026-12-12T21:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/f05/3c6e5f55-f3e0-45a5-a121-0581bf9caf05_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/bohemio-col-centro-monterrey-12-12-2026/event/3D0064F59BE02B28"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/bohemio-col-centro-monterrey-12-12-2026/event/3D0064F59BE02B28"
   },
   {
    "id": "26f9aa2f2de7",
@@ -11076,26 +12307,6 @@
    "url": "https://www.superboletos.com/landing-evento/P1XfVDiznPUI-fkc2XUsow"
   },
   {
-   "id": "7427530096ca",
-   "title": "Enjambre en Auditorio Banamex",
-   "start": "2026-12-17T21:00",
-   "end": "2026-12-18T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/enjambre-auditorio-banamex-monterrey-2026.jpg",
-   "genre": null,
-   "description": "Enjambre en Auditorio Banamex, 17 de diciembre, 2026. Consulta toda la información y compra boletos.",
-   "category": "Música",
-   "sources": [
-    {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/enjambre-auditorio-banamex-monterrey-2026"
-    }
-   ],
-   "url": "https://conciertosenmonterrey.com/cartelera/enjambre-auditorio-banamex-monterrey-2026"
-  },
-  {
    "id": "9bb34e8a37cc",
    "title": "GRUPO FRONTERA",
    "start": "2026-12-17T21:00",
@@ -11180,6 +12391,24 @@
    "url": "https://feverup.com/m/121409"
   },
   {
+   "id": "4243f4be0982",
+   "title": "M&G Secreto de Bruja (Sin acceso a evento)",
+   "start": "2026-12-19T20:00",
+   "end": null,
+   "venue": "Foro Corona Monterrey",
+   "city": "Col. Centro Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/c02/c0dee573-5161-49bd-80fd-6398c1bbbc02_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/mg-secreto-de-bruja-sin-acceso-col-centro-monterrey-19-12-2026/event/3D006523E73D6A46"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/mg-secreto-de-bruja-sin-acceso-col-centro-monterrey-19-12-2026/event/3D006523E73D6A46"
+  },
+  {
    "id": "f4acf0ace9fb",
    "title": "LA FIRMA - LA LLAMADA VI",
    "start": "2026-12-19T21:00",
@@ -11218,6 +12447,24 @@
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/la-firma-arena-monterrey-2026"
+  },
+  {
+   "id": "5273eba445d6",
+   "title": "Los Palominos",
+   "start": "2026-12-19T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/d1f/109b2277-00bd-4a95-813e-7cec6b933d1f_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/los-palominos-monterrey-19-12-2026/event/1400652AA80D7CE1"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/los-palominos-monterrey-19-12-2026/event/1400652AA80D7CE1"
   },
   {
    "id": "86a971e2f195",
@@ -11284,6 +12531,42 @@
    "url": "https://www.superboletos.com/landing-evento/G4TVDQ_imznczPUotDo1Dg"
   },
   {
+   "id": "8aca5ac87084",
+   "title": "Apocalyptica",
+   "start": "2027-01-14T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/c6e/63eced0d-8627-489e-9dd2-1f6d0236dc6e_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/apocalyptica-monterrey-14-01-2027/event/140064B08C9D56BC"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/apocalyptica-monterrey-14-01-2027/event/140064B08C9D56BC"
+  },
+  {
+   "id": "a4d598b91dbc",
+   "title": "\"The Hayley Williams Show\"",
+   "start": "2027-01-15T19:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/47d/8130c475-62b7-4b11-bc59-7b074772647d_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23"
+  },
+  {
    "id": "74f319f5930b",
    "title": "Hayley Williams en Auditorio Banamex",
    "start": "2027-01-15T21:00",
@@ -11346,6 +12629,24 @@
    "url": "https://www.superboletos.com/landing-evento/TnNDbskYu-Hd2CHsjobEfw"
   },
   {
+   "id": "8bcada624458",
+   "title": "Fangoria",
+   "start": "2027-01-22T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/47c/bab4a9e1-2562-40d2-ba27-1745844fc47c_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/fangoria-monterrey-22-01-2027/event/140064F0D4F2DC05"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/fangoria-monterrey-22-01-2027/event/140064F0D4F2DC05"
+  },
+  {
    "id": "57439e14fada",
    "title": "Hollow Symphony + Silksong en Monterrey",
    "venue": "Auditorio Rio 70",
@@ -11384,6 +12685,24 @@
     }
    ],
    "url": "https://arema.mx/e/20939-sinfonia-de-los-dioses-en-monterrey"
+  },
+  {
+   "id": "f39fb889861e",
+   "title": "Avatar",
+   "start": "2027-01-23T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/797/4a131eea-b700-4399-851c-9814031c7797_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/avatar-monterrey-23-01-2027/event/140064FEC37A66BD"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/avatar-monterrey-23-01-2027/event/140064FEC37A66BD"
   },
   {
    "id": "9fefa7db5f4c",
@@ -11444,6 +12763,42 @@
     }
    ],
    "url": "https://feverup.com/m/142669"
+  },
+  {
+   "id": "b178d87c3ca5",
+   "title": "Carlos Sadness",
+   "start": "2027-01-30T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/fe3/b44f131f-f928-43a6-bfae-fa9fdcf31fe3_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/carlos-sadness-monterrey-30-01-2027/event/14006522BDF5B6AA"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/carlos-sadness-monterrey-30-01-2027/event/14006522BDF5B6AA"
+  },
+  {
+   "id": "b698989243e0",
+   "title": "Hoy no me puedo levantar",
+   "start": "2027-01-30T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/13b/176a9453-b7a9-44f8-aaa5-c1467fc4313b_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/hoy-no-me-puedo-levantar-monterrey-30-01-2027/event/14006524BCB9F1FB"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/hoy-no-me-puedo-levantar-monterrey-30-01-2027/event/14006524BCB9F1FB"
   },
   {
    "id": "621f93fef008",
@@ -11526,6 +12881,24 @@
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-edith-marquez-arena-monterrey-2027"
   },
   {
+   "id": "9fa69b3fecde",
+   "title": "Espinoza Paz",
+   "start": "2027-02-06T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/de7/3ab0aefd-1fae-4fe5-b3e9-ddaf69aedde7_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/espinoza-paz-monterrey-06-02-2027/event/14006523D7ED70D2"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/espinoza-paz-monterrey-06-02-2027/event/14006523D7ED70D2"
+  },
+  {
    "id": "56bcb2292097",
    "title": "Santiago Cruz en Monterrey",
    "venue": "Auditorio Rio 70",
@@ -11604,6 +12977,42 @@
    "url": "https://www.superboletos.com/landing-evento/oTu4qzmNDVnayN_F4vg0ew"
   },
   {
+   "id": "7360fd1adb0a",
+   "title": "Luis Angel \"El Flaco\"",
+   "start": "2027-02-20T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/576/96086095-9de1-4caf-a5ce-f06934b75576_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/luis-angel-el-flaco-monterrey-20-02-2027/event/140064EB826A2542"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/luis-angel-el-flaco-monterrey-20-02-2027/event/140064EB826A2542"
+  },
+  {
+   "id": "365681d37a8d",
+   "title": "Undertale The determination Symphony",
+   "start": "2027-02-21T20:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/89f/cfc4e11c-9cb4-4c46-b44c-0140a127189f_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/undertale-the-determination-symphony-monterrey-21-02-2027/event/14006512A5516325"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/undertale-the-determination-symphony-monterrey-21-02-2027/event/14006512A5516325"
+  },
+  {
    "id": "b400c4bbb808",
    "title": "WESTLIFE 25: THE ANNIVERSARY WORLD TOUR",
    "start": "2027-02-24T21:00",
@@ -11644,24 +13053,27 @@
    "url": "https://conciertosenmonterrey.com/cartelera/westlife"
   },
   {
-   "id": "9d4bfc1a425e",
-   "title": "Jorge Drexler en Escenario GNP Seguros",
+   "id": "99262213a9a2",
+   "title": "Jorge Drexler",
    "start": "2027-02-25T21:00",
    "end": "2027-02-26T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/04/Jorge-Drexler-en-Escenario-GNP-Seguros-2027.jpg",
-   "genre": null,
-   "description": "Jorge Drexler en Escenario GNP Seguros, 25 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/f7f/f2115424-9056-44c3-b847-60c08a21ef7f_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/jorge-drexler-monterrey-25-02-2027/event/140064819E0E4F90"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-jorge-drexler-escenario-gnp-seguros-monterrey-2026"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-jorge-drexler-escenario-gnp-seguros-monterrey-2026"
+   "description": "Jorge Drexler en Escenario GNP Seguros, 25 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/jorge-drexler-monterrey-25-02-2027/event/140064819E0E4F90"
   },
   {
    "id": "97b2b1e40f1e",
@@ -11684,6 +13096,29 @@
    "url": "https://www.superboletos.com/landing-evento/rmOM99UkJLxvHjgBuLPw8Q"
   },
   {
+   "id": "150e89c5a95c",
+   "title": "Foreigner",
+   "start": "2027-02-27T20:30",
+   "end": "2027-02-28T00:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/68f/3aaf3b68-5fd4-4f85-b6c0-efdf05db368f_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/foreigner-monterrey-27-02-2027/event/1400630D83000913"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/foreigner-monterrey-2027"
+    }
+   ],
+   "description": "Foreigner en Escenario GNP Seguros, 27 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/foreigner-monterrey-27-02-2027/event/1400630D83000913"
+  },
+  {
    "id": "fc438494e6ca",
    "title": "Emmanuel en Auditorio Banamex",
    "start": "2027-02-27T21:00",
@@ -11704,24 +13139,22 @@
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-emmanuel-sinfonico-auditorio-banamex-2027"
   },
   {
-   "id": "46b93e2d7bb7",
-   "title": "Foreigner en Escenario GNP Seguros",
+   "id": "ffa9402a299e",
+   "title": "Emmanuel Sinfonico",
    "start": "2027-02-27T21:00",
-   "end": "2027-02-28T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/foreigner-monterrey-2027.jpg",
-   "genre": null,
-   "description": "Foreigner en Escenario GNP Seguros, 27 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/9de/414ae62b-9dd0-47a5-be9d-704d8a1ac9de_SOURCE",
    "sources": [
     {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/foreigner-monterrey-2027"
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/emmanuel-sinfonico-monterrey-27-02-2027/event/1400651107C5147F"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/foreigner-monterrey-2027"
+   "url": "https://www.ticketmaster.com.mx/emmanuel-sinfonico-monterrey-27-02-2027/event/1400651107C5147F"
   },
   {
    "id": "e7b941f6be60",
@@ -11824,6 +13257,24 @@
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-placebo-auditorio-banamex-2027"
   },
   {
+   "id": "e39df0ad8af6",
+   "title": "Placebo - 30th Anniversary Tour",
+   "start": "2027-03-18T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/20f/4e6050d5-0e2b-4f32-9625-be5b8530820f_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/placebo-30th-anniversary-tour-monterrey-18-03-2027/event/1400652BC210C718"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/placebo-30th-anniversary-tour-monterrey-18-03-2027/event/1400652BC210C718"
+  },
+  {
    "id": "2a0c161eb3cf",
    "title": "Liz Cerón \"Brujaja\" en Monterrey",
    "venue": "Auditorio Rio 70",
@@ -11842,6 +13293,24 @@
     }
    ],
    "url": "https://arema.mx/e/21161-liz-ceron-brujaja-en-monterrey"
+  },
+  {
+   "id": "239ef14193cc",
+   "title": "JUNGLE - World Tour 2027",
+   "start": "2027-03-22T21:00",
+   "end": null,
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/2db/a9b3a757-40a8-4584-b6ce-1932ea13d2db_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/jungle-world-tour-2027-monterrey-22-03-2027/event/140064B5E3C078E8"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/jungle-world-tour-2027-monterrey-22-03-2027/event/140064B5E3C078E8"
   },
   {
    "id": "04d39aaf16f3",
@@ -11864,6 +13333,24 @@
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-jungle"
   },
   {
+   "id": "4c563c4cb228",
+   "title": "Lavoe Sinfónico by Joseph Amado",
+   "start": "2027-03-26T21:00",
+   "end": null,
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/98a/f4fb9274-64e6-4e78-968a-27585a09d98a_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/lavoe-sinfonico-by-joseph-amado-monterrey-26-03-2027/event/140064E481FE356D"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/lavoe-sinfonico-by-joseph-amado-monterrey-26-03-2027/event/140064E481FE356D"
+  },
+  {
    "id": "c345264d597b",
    "title": "GRUPO LADRON",
    "start": "2027-04-03T20:00",
@@ -11882,6 +13369,24 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/U3PbFD-SK2_9xNPHb1Finw"
+  },
+  {
+   "id": "df3a8ce4fca7",
+   "title": "Anuel AA",
+   "start": "2027-04-08T21:00",
+   "end": null,
+   "venue": "Estadio Borregos",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/f59/bc8cd2cb-97e8-49cb-b7ed-26c5842e6f59_SOURCE",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F"
+    }
+   ],
+   "url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F"
   },
   {
    "id": "4cc216811d2c",
@@ -11924,24 +13429,27 @@
    "url": "https://www.superboletos.com/landing-evento/i1kU5tVexYQRVN2JhkevsQ"
   },
   {
-   "id": "333eb238f84b",
-   "title": "Silvio Rodríguez en Auditorio Banamex",
+   "id": "c1014e39401c",
+   "title": "Silvio Rodríguez",
    "start": "2027-04-15T21:00",
    "end": "2027-04-16T00:00",
-   "venue": "",
-   "city": "",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/silvio-rodriguez-auditorio-banamex-monterrey-2027.jpg",
-   "genre": null,
-   "description": "Silvio Rodríguez en Auditorio Banamex, 15 de abril, 2027. Consulta toda la información y compra boletos.",
+   "venue": "Auditorio Banamex",
+   "city": "Monterrey",
    "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/574/c0c0f5bd-9793-470a-ac4a-2d72bee05574_SOURCE",
    "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/silvio-rodriguez-monterrey-15-04-2027/event/1400651282D322D7"
+    },
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/concierto-silvio-rodriguez-auditorio-banamex-2027"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/concierto-silvio-rodriguez-auditorio-banamex-2027"
+   "description": "Silvio Rodríguez en Auditorio Banamex, 15 de abril, 2027. Consulta toda la información y compra boletos.",
+   "url": "https://www.ticketmaster.com.mx/silvio-rodriguez-monterrey-15-04-2027/event/1400651282D322D7"
   },
   {
    "id": "f4c7db5de1f6",
