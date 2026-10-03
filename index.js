@@ -6,7 +6,7 @@ const crypto = require('crypto');
 const u = require('./util');
 
 const SOURCES = [
-  'cartelera_escenica', 'ticketmaster', 'conciertos_mty', 'conarte_agenda', 'cineteca', 'santa_lucia',
+  'cartelera_escenica', 'arema', 'superboletos', 'ticketmaster', 'conciertos_mty', 'conarte_agenda', 'cineteca', 'santa_lucia',
   'nuevoleon_travel', 'allevents', 'ctxplorer', 'marco', 'tres_museos', 'cintermex',
   'foro_corona', 'fever', 'primetickets',
 ].map((id) => require(`./${id}`));
@@ -15,12 +15,14 @@ const OUT = path.join(__dirname, 'events.json'); // todo vive en la raíz del re
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
 const MAX_DAYS_AHEAD = 240;
 
-async function get(url, kind) {
+async function get(url, kind, body) {
   let lastErr;
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': UA, 'Accept-Language': 'es-MX,es;q=0.9', Accept: kind === 'json' ? 'application/json' : 'text/html,*/*' },
+        method: body ? 'POST' : 'GET',
+        body: body ? JSON.stringify(body) : undefined,
+        headers: { 'User-Agent': UA, 'Accept-Language': 'es-MX,es;q=0.9', Accept: kind === 'json' ? 'application/json' : 'text/html,*/*', ...(body ? { 'Content-Type': 'application/json', Origin: 'https://arema.mx', Referer: 'https://arema.mx/' } : {}) },
         signal: AbortSignal.timeout(30000),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status} en ${url.replace(/apikey=[^&]+/, 'apikey=***')}`);
@@ -29,13 +31,13 @@ async function get(url, kind) {
   }
   throw lastErr;
 }
-const http = { text: (url) => get(url, 'text'), json: (url) => get(url, 'json') };
+const http = { text: (url) => get(url, 'text'), json: (url) => get(url, 'json'), post: (url, body) => get(url, 'json', body || {}) };
 
 // ---------- Normalización ----------
 const CATS = [
   ['Música', /m[uú]sica|concierto|music|candlelight|sinf[oó]n|orquesta|jazz|rock|pop|banda/i],
   ['Teatro', /teatro|musical|danza|ballet|[oó]pera|stand ?up|comedia|monólogo|mon[oó]logo|clown|t[ií]teres|pastorela|esc[eé]nic/i],
-  ['Cine', /cine|pel[ií]cula|proyecci[oó]n|film/i],
+  ['Cine', /\bcine\b|pel[ií]cula|proyecci[oó]n|film/i],
   ['Exposiciones', /exposici|muestra|bienal|galer|artes? pl[aá]stic|artes visuales/i],
   ['Museos', /museo|visita guiada|recorrido/i],
   ['Ferias y expos', /feria|expo\b|expo |convenci|festival/i],
