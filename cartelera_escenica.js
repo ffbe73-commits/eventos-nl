@@ -23,6 +23,7 @@ module.exports = {
           url: e.url,
           tickets: e.website && /^https?:/.test(u.decode(e.website)) ? u.decode(e.website).split('?')[0] : null,
           image: e.image && e.image.url ? e.image.url : null,
+          description: e.description ? u.summary(e.description) : (e.excerpt ? u.summary(e.excerpt) : null),
         });
       }
       if (!j.total_pages || page >= j.total_pages) break;

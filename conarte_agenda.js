@@ -44,6 +44,18 @@ module.exports = {
       }
       await u.sleep(250);
     }
+    // Descripción: una consulta por evento distinto a la API de WordPress (?slug=...).
+    const slugs = [...new Set(out.map((e) => (e.url.match(/\/agenda\/([^/]+)\/?$/) || [])[1]).filter(Boolean))];
+    const desc = {};
+    for (const slug of slugs) {
+      try {
+        const j = await http.json(`https://conarte.org.mx/wp-json/wp/v2/agenda?slug=${encodeURIComponent(slug)}&_fields=excerpt,content`);
+        const item = j && j[0];
+        if (item) desc[slug] = u.summary((item.content && item.content.rendered) || (item.excerpt && item.excerpt.rendered) || '');
+      } catch (e) { /* sin descripción, no pasa nada */ }
+      await u.sleep(150);
+    }
+    for (const e of out) { const slug = (e.url.match(/\/agenda\/([^/]+)\/?$/) || [])[1]; if (slug && desc[slug]) e.description = desc[slug]; }
     return out;
   },
 };

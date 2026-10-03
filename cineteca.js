@@ -29,6 +29,18 @@ module.exports = {
       }
       await u.sleep(250);
     }
+    // Sinopsis completa desde la API de WordPress (la lista sólo trae las primeras palabras).
+    const slugs = [...new Set(out.map((e) => (e.url.match(/\/cineteca\/([^/]+)\/?$/) || [])[1]).filter(Boolean))];
+    const desc = {};
+    for (const slug of slugs) {
+      try {
+        const j = await http.json(`https://conarte.org.mx/wp-json/wp/v2/cineteca?slug=${encodeURIComponent(slug)}&_fields=excerpt,content`);
+        const item = j && j[0];
+        if (item) desc[slug] = u.summary((item.content && item.content.rendered) || (item.excerpt && item.excerpt.rendered) || '');
+      } catch (e) { /* se queda con el texto corto */ }
+      await u.sleep(150);
+    }
+    for (const e of out) { const slug = (e.url.match(/\/cineteca\/([^/]+)\/?$/) || [])[1]; if (slug && desc[slug]) e.description = desc[slug]; }
     return out;
   },
 };

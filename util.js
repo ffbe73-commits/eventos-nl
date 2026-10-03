@@ -175,10 +175,20 @@ function fromJsonLd(e) {
     url: e.url || ([].concat(e.offers || [])[0] || {}).url || null,
     image: [].concat(e.image || [])[0] || null,
     genre: e.genre || null,
+    description: e.description ? summary(e.description) : null,
   };
+}
+
+// Resumen limpio de una descripción (sin HTML, máximo ~600 caracteres, cortando en frase).
+function summary(html, max = 600) {
+  let t = clean(html).replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
+  if (t.length <= max) return t || null;
+  t = t.slice(0, max);
+  const cut = Math.max(t.lastIndexOf('. '), t.lastIndexOf('! '), t.lastIndexOf('? '));
+  return (cut > max * 0.5 ? t.slice(0, cut + 1) : t.replace(/\s+\S*$/, '') + '…');
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const util = { MESES, decode, clean, pad, ymd, nowMty, todayMty, addDays, toLocal, parseTime, inferYear, parseDateText, jsonLdEvents, priceFromOffers, fromJsonLd, sleep };
+const util = { MESES, decode, clean, pad, ymd, nowMty, todayMty, addDays, toLocal, parseTime, inferYear, parseDateText, jsonLdEvents, priceFromOffers, fromJsonLd, summary, sleep };
 if (typeof module !== 'undefined') module.exports = util;
