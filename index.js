@@ -6,12 +6,12 @@ const crypto = require('crypto');
 const u = require('./util');
 
 const SOURCES = [
-  'cartelera_escenica', 'ticketmaster', 'conciertos_mty', 'conarte_agenda', 'cineteca',
+  'cartelera_escenica', 'ticketmaster', 'conciertos_mty', 'conarte_agenda', 'cineteca', 'santa_lucia',
   'nuevoleon_travel', 'allevents', 'ctxplorer', 'marco', 'tres_museos', 'cintermex',
   'foro_corona', 'fever', 'primetickets',
 ].map((id) => require(`./${id}`));
 
-const OUT = path.join(__dirname, 'events.json');
+const OUT = path.join(__dirname, 'events.json'); // todo vive en la raíz del repositorio
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
 const MAX_DAYS_AHEAD = 240;
 
@@ -44,15 +44,19 @@ const CATS = [
   ['Familiar', /infantil|niñ[oa]s|familia|cuentacuentos/i],
   ['Experiencias', /experienc|inmersiv/i],
 ];
+const TALLER = /^(taller|conferencia|clase maestra|conversatorio|charla|pechakucha|curso|seminario|congreso|di[aá]logos)|congreso|conferencia/i;
+const MUSIC_VENUES = /arena monterrey|auditorio (banamex|citibanamex)|escenario gnp|caf[eé] iguana|showcenter|foro corona|estadio|rinc[oó]n tostitos|foro urbano|venue 867/i;
 function categorize(e) {
+  if (TALLER.test(e.title || '')) return 'Talleres y charlas';
   const hay = `${e.category || ''}`;
   for (const [name, re] of CATS) if (re.test(hay)) return name;
-  const text = `${e.title} ${e.venue || ''}`;
+  const text = `${e.title} ${e.description || ''}`;
   for (const [name, re] of CATS) if (re.test(text)) return name;
+  if (MUSIC_VENUES.test(e.venue || '')) return 'Música';
   return 'Otros';
 }
 
-const STOP = new Set(['de', 'la', 'el', 'los', 'las', 'en', 'y', 'del', 'con', 'a', 'monterrey', 'mty', 'tour', 'concierto', 'the', 'live', '2026', '2027', 'presenta', 'gira', 'por', 'al']);
+const STOP = new Set(['de', 'la', 'el', 'los', 'las', 'en', 'y', 'del', 'con', 'a', 'monterrey', 'mty', 'tour', 'concierto', 'the', 'live', '2026', '2027', 'presenta', 'gira', 'por', 'al', 'in', 'at', 'vs', 'feat', 'ft']);
 const tokens = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ ]+/g, ' ').split(' ').filter((w) => w.length > 1 && !STOP.has(w));
 const day = (iso) => (iso || '').slice(0, 10);
 
