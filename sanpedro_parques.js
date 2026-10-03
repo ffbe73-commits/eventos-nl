@@ -1,6 +1,9 @@
 // San Pedro + Parques (EventON): se pide al calendario el mes actual y los 2 siguientes.
 // Nota: varios registros del sitio no tienen fecha cargada (el propio sitio no los muestra); esos se omiten.
+const fs = require('fs');
+const path = require('path');
 const HOME = 'https://sanpedroparques.mx/calendario-eventos/';
+// Las actividades especiales del mes vienen en un PDF; se capturan a mano (sanpedro_parques_pdf.json).
 
 module.exports = {
   id: 'sanpedro_parques',
@@ -9,6 +12,8 @@ module.exports = {
   months: 3,
   async run(http, u) {
     const page = await http.text(HOME);
+    let pdf = { events: [] };
+    try { pdf = JSON.parse(fs.readFileSync(path.join(__dirname, 'sanpedro_parques_pdf.json'), 'utf8')); } catch (e) { /* sin captura */ }
     const nn = page.match(/"n":"([a-f0-9]+)","nonce":"([a-f0-9]+)"/);
     if (!nn) throw new Error('No encontré la llave del calendario (¿cambió la página?)');
     const [y, m] = u.todayMty().split('-').map(Number);
@@ -50,6 +55,12 @@ module.exports = {
       }
       await u.sleep(500);
     }
+    for (const e of pdf.events || []) {
+      out.push({ ...e, end: e.end || null, city: 'San Pedro Garza García', price: null, url: pdf.pdf || HOME, image: null, description: e.description || null });
+    }
+    // ¿Ya publicaron el PDF de otro mes?
+    const link = (page.match(/href="(https:\/\/sanpedroparques\.mx\/wp-content\/uploads\/[^"]+\.pdf)"/i) || [])[1];
+    if (link && pdf.pdf && link !== pdf.pdf) out.warning = 'Ya publicaron el PDF de un mes nuevo: pídele a Claude que lo capture';
     return out;
   },
 };
