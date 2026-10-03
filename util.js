@@ -145,7 +145,7 @@ function jsonLdEvents(html) {
     if (Array.isArray(o)) return o.forEach(walk);
     if (!o || typeof o !== 'object') return;
     const t = [].concat(o['@type'] || []);
-    if (t.some((x) => /Event$/.test(x))) out.push(o);
+    if (t.some((x) => /Event$|^Festival$/.test(x)) || (o.startDate && o.name && !t.some((x) => /Offer|Place/.test(x)))) out.push(o);
     for (const k of ['@graph', 'itemListElement', 'item', 'mainEntity', 'event', 'events', 'subEvent']) if (o[k]) walk(o[k]);
   };
   for (const b of blocks) {

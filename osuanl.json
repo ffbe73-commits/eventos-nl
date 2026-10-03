@@ -1,0 +1,18 @@
+{
+  "updated": "2026-10-03",
+  "url": "https://orquestasinfonica.uanl.mx/temporada-2026-tercera-serie/",
+  "tickets": "https://boletia.com/",
+  "venue": "Teatro Universitario UANL",
+  "known": ["temporada-2026-primera-serie", "temporada-2026-segunda-serie", "temporada-2026-tercera-serie", "conciertos-extraordinarios-2026"],
+  "events": [
+    { "title": "OSUANL Tercera Serie · Programa I: Turina, Ibarra, Dvořák", "start": "2026-10-08T20:00", "description": "Fernando Ruiz, trombón. Eduardo Diazmuñoz, director artístico.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20261.png" },
+    { "title": "OSUANL Tercera Serie · Programa II: Regalos, 50 aniversario de Arturo Rodríguez", "start": "2026-10-15T20:00", "description": "Arturo Rodríguez, compositor, pianista y director huésped.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20262.png" },
+    { "title": "OSUANL Tercera Serie · Programa III: Mozart, L. Espinosa", "start": "2026-10-22T20:00", "venue": "Aula Magna Fray Servando Teresa de Mier", "description": "Carlos Estevens, corno francés. Leandro Espinosa, compositor y director huésped.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20263.png" },
+    { "title": "Noche de Ópera – Peretyatko & Shkarupa (OSUANL, Festival Santa Lucía)", "start": "2026-10-29T20:00", "venue": "Explanada de los Héroes", "description": "Programa IV. Olga Peretyatko, soprano; Gregory Shkarupa, bajo; Guillermo Villarreal, director huésped.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20264.png" },
+    { "title": "OSUANL Tercera Serie · Programa V: Brava", "start": "2026-11-05T20:00", "description": "Canciones del colectivo popular con nuevas voces: América Libertad, Daniela Pedali, Yaneth Sandoval y Malela. Eduardo Diazmuñoz, director artístico.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20265.png" },
+    { "title": "OSUANL Tercera Serie · Programa VI: Chaminade, De Elías, Dvořák", "start": "2026-11-12T20:00", "description": "Gustavo Rivero Weber, director huésped.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20266.png" },
+    { "title": "OSUANL Tercera Serie · Programa VII: Tamez, Gamboa, Lomán, Márquez, Rimski-Kórsakov, Enescu", "start": "2026-11-19T20:00", "description": "Eduardo Carlos Juárez López, violín. Arturo Quezadas, director huésped.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20267.png" },
+    { "title": "OSUANL · Dos noches con Brahms y Jorge Federico Osorio (noche uno)", "start": "2026-11-26T20:00", "description": "Concierto extraordinario. Jorge Federico Osorio, piano. Eduardo Diazmuñoz, director artístico.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/8.png" },
+    { "title": "OSUANL · Dos noches con Brahms y Jorge Federico Osorio (noche dos)", "start": "2026-12-03T20:00", "description": "Concierto extraordinario. Jorge Federico Osorio, piano. Eduardo Diazmuñoz, director artístico.", "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/9.png" }
+  ]
+}

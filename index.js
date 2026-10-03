@@ -8,21 +8,39 @@ const u = require('./util');
 const SOURCES = [
   'cartelera_escenica', 'arema', 'superboletos', 'ticketmaster', 'conciertos_mty', 'conarte_agenda', 'cineteca', 'santa_lucia',
   'nuevoleon_travel', 'allevents', 'ctxplorer', 'marco', 'tres_museos', 'cintermex',
-  'foro_corona', 'fever', 'primetickets',
+  'foro_corona', 'fever', 'primetickets', 'osuanl', 'ballet_mty', 'sanpedro_vive', 'sanpedro_parques',
+  'chipinque', 'eventbrite',
 ].map((id) => require(`./${id}`));
+
+// Páginas de tu lista que NO se leen directamente, y por qué (la app las muestra en "Fuentes").
+const NOT_INCLUDED = [
+  { name: 'Cinemex', home: 'https://cinemex.com/cartelera/zona-48/monterrey', status: 'excluido', reason: 'Cine comercial: se dejó fuera a propósito para no saturar la lista.' },
+  { name: 'Cinépolis', home: 'https://cinepolis.com/cartelera/monterrey', status: 'excluido', reason: 'Cine comercial: se dejó fuera a propósito para no saturar la lista.' },
+  { name: 'Parque Cinema', home: 'https://www.facebook.com/ParqueCinema/', status: 'no disponible', reason: 'Sólo publica en Facebook; San Pedro + Parques lo trae en su PDF mensual, no en su calendario web.' },
+  { name: 'San Pedro + Parques (PDF del mes)', home: 'https://sanpedroparques.mx/calendario-eventos/', status: 'no disponible', reason: 'Casi todas las actividades de parques vienen sólo en un PDF mensual. La app toma únicamente las que el sitio tiene con fecha en su calendario.' },
+  { name: 'Museo Arquidiocesano', home: 'https://museoarquidiocesismty.org/', status: 'no disponible', reason: 'Su página no tiene agenda; anuncia sus actividades sólo en Facebook.' },
+  { name: 'Arquidiócesis de Monterrey', home: 'https://www.arquidiocesismty.org/arquimty/', status: 'no disponible', reason: 'Sólo publica noticias, sin fechas de eventos.' },
+  { name: 'Comisión de Música Sacra', home: 'https://www.comusamty.org/', status: 'no disponible', reason: 'Su página no tiene calendario de eventos.' },
+  { name: 'Arena Monterrey', home: 'https://www.arenamonterrey.com/', status: 'indirecto', reason: 'Sus eventos llegan por Ticketmaster y SuperBoletos.' },
+  { name: 'Auditorio Banamex', home: 'https://www.auditoriocitibanamex.com.mx/', status: 'indirecto', reason: 'Sus eventos llegan por Ticketmaster y Cartelera Escénica.' },
+  { name: 'Showcenter Complex', home: 'https://www.showcenter.com.mx/eventos', status: 'indirecto', reason: 'Sus eventos llegan por Ticketmaster y SuperBoletos.' },
+  { name: 'Estadio Walmart', home: 'https://concerts50.com/es/venues/mexico/monterrey/walmart-park', status: 'indirecto', reason: 'Sus eventos llegan por Ticketmaster.' },
+];
 
 const OUT = path.join(__dirname, 'events.json'); // todo vive en la raíz del repositorio
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
 const MAX_DAYS_AHEAD = 240;
 
-async function get(url, kind, body) {
+async function get(url, kind, body, form) {
   let lastErr;
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       const res = await fetch(url, {
-        method: body ? 'POST' : 'GET',
-        body: body ? JSON.stringify(body) : undefined,
-        headers: { 'User-Agent': UA, 'Accept-Language': 'es-MX,es;q=0.9', Accept: kind === 'json' ? 'application/json' : 'text/html,*/*', ...(body ? { 'Content-Type': 'application/json', Origin: 'https://arema.mx', Referer: 'https://arema.mx/' } : {}) },
+        method: body || form ? 'POST' : 'GET',
+        body: form ? new URLSearchParams(form).toString() : body ? JSON.stringify(body) : undefined,
+        headers: { 'User-Agent': UA, 'Accept-Language': 'es-MX,es;q=0.9', Accept: kind === 'json' ? 'application/json' : 'text/html,*/*',
+          ...(form ? { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'X-Requested-With': 'XMLHttpRequest' } : {}),
+          ...(body ? { 'Content-Type': 'application/json', ...(/arema\.mx/.test(url) ? { Origin: 'https://arema.mx', Referer: 'https://arema.mx/' } : {}) } : {}) },
         signal: AbortSignal.timeout(30000),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status} en ${url.replace(/apikey=[^&]+/, 'apikey=***')}`);
@@ -31,7 +49,7 @@ async function get(url, kind, body) {
   }
   throw lastErr;
 }
-const http = { text: (url) => get(url, 'text'), json: (url) => get(url, 'json'), post: (url, body) => get(url, 'json', body || {}) };
+const http = { text: (url) => get(url, 'text'), json: (url) => get(url, 'json'), post: (url, body) => get(url, 'json', body || {}), form: (url, data) => get(url, 'json', null, data) };
 
 // ---------- Normalización ----------
 const CATS = [
@@ -41,8 +59,8 @@ const CATS = [
   ['Exposiciones', /exposici|muestra|bienal|galer|artes? pl[aá]stic|artes visuales/i],
   ['Museos', /museo|visita guiada|recorrido/i],
   ['Ferias y expos', /feria|expo\b|expo |convenci|festival/i],
-  ['Talleres y charlas', /taller|curso|conferencia|charla|coloquio|seminario|presentaci[oó]n de libro|conversatorio|club de lectura|diplomado/i],
-  ['Deportes', /deporte|carrera|marat[oó]n|10k|21k|futbol|f[uú]tbol|b[eé]isbol|lucha|box|b[aá]squet|globetrotters/i],
+  ['Talleres y charlas', /taller|curso|clases? de|huerto|club del libro|meditaci|conferencia|charla|coloquio|seminario|presentaci[oó]n de libro|conversatorio|club de lectura|diplomado/i],
+  ['Deportes', /deporte|yoga|pilates|zumba|tai ?chi|capoeira|running|corredores|tenis|softball|roundnet|skate|bienestar|carrera|marat[oó]n|10k|21k|futbol|f[uú]tbol|b[eé]isbol|lucha|box|b[aá]squet|globetrotters/i],
   ['Familiar', /infantil|niñ[oa]s|familia|cuentacuentos/i],
   ['Experiencias', /experienc|inmersiv/i],
 ];
@@ -165,6 +183,7 @@ async function main() {
       h.ok = evs.length > 0;
       h.count = evs.length;
       if (!evs.length) h.error = raw.length ? 'Sólo trajo eventos pasados' : 'No encontró eventos (¿cambió la página?)';
+      if (raw.warning) h.warning = raw.warning;
       if (h.ok) h.lastSuccess = h.checkedAt;
     } catch (e) {
       h.error = e.message;
@@ -172,7 +191,7 @@ async function main() {
     }
     h.ms = Date.now() - t0;
     health.push(h);
-    console.log(`${h.ok ? '✔' : h.skipped ? '–' : '✘'} ${src.name.padEnd(26)} ${String(h.count).padStart(4)} eventos  ${h.error || ''}`);
+    console.log(`${h.ok ? '✔' : h.skipped ? '–' : '✘'} ${src.name.padEnd(26)} ${String(h.count).padStart(4)} eventos  ${h.error || ''}${h.warning ? ' ⚠ ' + h.warning : ''}`);
   }
 
   // Más completos primero, para que sean la base al fusionar.
@@ -181,7 +200,7 @@ async function main() {
     merge(all).map(({ _src, source, url, ...e }) => ({ ...e, url: url || (e.sources[0] && e.sources[0].url) }))
   ).sort((a, b) => (a.start < b.start ? -1 : a.start > b.start ? 1 : a.title.localeCompare(b.title)));
 
-  const data = { generatedAt: new Date().toISOString(), timezone: 'America/Monterrey', total: merged.length, sources: health, events: merged };
+  const data = { generatedAt: new Date().toISOString(), timezone: 'America/Monterrey', total: merged.length, sources: health, notIncluded: NOT_INCLUDED, events: merged };
   if (!only) {
     fs.mkdirSync(path.dirname(OUT), { recursive: true });
     fs.writeFileSync(OUT, JSON.stringify(data, null, 1));
