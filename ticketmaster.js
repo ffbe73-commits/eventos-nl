@@ -20,6 +20,15 @@ module.exports = {
         const seg = cls.segment && cls.segment.name;
         const pr = (e.priceRanges && e.priceRanges[0]) || null;
         const img = (e.images || []).sort((a, b) => b.width - a.width).find((i) => i.ratio === '16_9') || (e.images || [])[0];
+        const status = e.dates && e.dates.status && e.dates.status.code;
+        if (status === 'cancelled') continue;
+        // Preventas y venta general que todavía no empiezan: para avisarte antes de que se agoten.
+        const now = new Date().toISOString();
+        const sales = e.sales || {};
+        const presales = (sales.presales || []).filter((p) => p.startDateTime && p.startDateTime > now)
+          .map((p) => ({ name: u.clean(p.name || 'Preventa'), start: u.toLocal(p.startDateTime) }));
+        const pub = sales.public && sales.public.startDateTime && sales.public.startDateTime > now ? u.toLocal(sales.public.startDateTime) : null;
+        const onsale = presales.length || pub ? { general: pub, presales } : null;
         out.push({
           title: u.clean(e.name),
           start: d.localTime ? `${d.localDate}T${d.localTime.slice(0, 5)}` : d.localDate,
@@ -30,6 +39,7 @@ module.exports = {
           price: pr ? (pr.min === pr.max ? `$${pr.min}` : `$${pr.min} – $${pr.max}`) : null,
           url: e.url,
           image: img ? img.url : null,
+          onsale,
         });
       }
       const pg = j.page || {};

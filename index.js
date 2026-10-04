@@ -61,7 +61,7 @@ const CATS = [
   ['Museos', /museo|visita guiada|recorrido/i],
   ['Ferias y expos', /feria|expo\b|expo |convenci|festival/i],
   ['Talleres y charlas', /taller|curso|clases? de|huerto|club del libro|meditaci|conferencia|charla|coloquio|seminario|presentaci[oó]n de libro|conversatorio|club de lectura|diplomado/i],
-  ['Deportes', /deporte|yoga|pilates|zumba|tai ?chi|capoeira|running|corredores|tenis|softball|roundnet|skate|bienestar|carrera|marat[oó]n|10k|21k|futbol|f[uú]tbol|b[eé]isbol|lucha|box|b[aá]squet|globetrotters/i],
+  ['Deportes', /deporte|disc golf|slackline|basquetbol|yoga|pilates|zumba|tai ?chi|capoeira|running|corredores|tenis|softball|roundnet|skate|bienestar|carrera|marat[oó]n|10k|21k|futbol|f[uú]tbol|b[eé]isbol|lucha|box|b[aá]squet|globetrotters/i],
   ['Familiar', /infantil|niñ[oa]s|familia|cuentacuentos/i],
   ['Experiencias', /experienc|inmersiv/i],
 ];
@@ -123,10 +123,11 @@ function merge(list) {
     // El boleto "normal" manda sobre el meet & greet / suites; si no, el registro más completo.
     const best = eAddon !== tAddon ? (eAddon ? twin : e) : score(e) > score(twin) ? e : twin;
     const other = best === e ? twin : e;
-    for (const k of ['title', 'start', 'end', 'venue', 'city', 'price', 'image', 'tickets', 'description', 'times']) {
+    for (const k of ['title', 'start', 'end', 'venue', 'city', 'price', 'image', 'tickets', 'description', 'times', 'onsale', 'promo']) {
       twin[k] = best[k] != null && best[k] !== '' ? best[k] : other[k];
     }
     if (twin.category === 'Otros' && e.category !== 'Otros') twin.category = e.category;
+    for (const k of ['demand', 'soldOut', 'waitlist']) if (e[k]) twin[k] = e[k];
   }
   return out;
 }
@@ -144,19 +145,27 @@ function groupSeries(events) {
   const out = [];
   for (const [key, list] of groups) {
     list.sort((a, b) => (a.start < b.start ? -1 : 1));
-    if (list.length === 1) { out.push({ id: hash(`${key}|${day(list[0].start)}`), ...list[0] }); continue; }
+    if (list.length === 1) { out.push({ id: hash(`${key}|${day(list[0].start)}`), skey: key, ...list[0] }); continue; }
     const base = list.reduce((best, e) => (score(e) > score(best) ? e : best), list[0]);
     const dates = [];
     const seen = new Set();
     for (const e of list) {
       if (seen.has(e.start)) continue;
       seen.add(e.start);
-      dates.push({ start: e.start, end: e.end && day(e.end) !== day(e.start) ? e.end : null, url: e.url });
+      const d = { start: e.start, end: e.end && day(e.end) !== day(e.start) ? e.end : null, url: e.url };
+      // Disponibilidad por función (Fever): agotada / últimos boletos y precio de esa función.
+      if (e.avail) { d.avail = e.avail; if (e.left != null) d.left = e.left; }
+      if (e.price && e.price !== base.price) d.price = e.price;
+      dates.push(d);
     }
     const sources = [];
     for (const s of list.flatMap((e) => e.sources)) if (!sources.some((x) => x.id === s.id)) sources.push(s);
     const lastEnd = list.map((e) => e.end || e.start).sort().pop();
-    out.push({ ...base, id: hash(key), start: dates[0].start, end: lastEnd, url: dates[0].url || base.url, dates, sources });
+    const flags = {};
+    for (const k of ['demand', 'waitlist', 'promo', 'onsale']) { const f = list.find((e) => e[k]); if (f) flags[k] = f[k]; }
+    if (list.every((e) => e.soldOut)) flags.soldOut = true;
+    const { avail, left, ...rest } = base; // la disponibilidad va por función, no en el evento
+    out.push({ ...rest, ...flags, skey: key, id: hash(key), start: dates[0].start, end: lastEnd, url: dates[0].url || base.url, dates, sources });
   }
   return out;
 }
@@ -201,7 +210,30 @@ async function main() {
     merge(all).map(({ _src, source, url, ...e }) => ({ ...e, url: url || (e.sources[0] && e.sources[0].url) }))
   ).sort((a, b) => (a.start < b.start ? -1 : a.start > b.start ? 1 : a.title.localeCompare(b.title)));
 
-  const data = { generatedAt: new Date().toISOString(), timezone: 'America/Monterrey', total: merged.length, sources: health, notIncluded: NOT_INCLUDED, events: merged };
+  // Alta demanda para TODAS las fuentes: además de la marca de Fever, se busca en título y descripción
+  // lo que los organizadores escriben cuando algo se vende bien ("agotado", "nueva fecha", "función adicional"…).
+  const HOT_TEXT = /(agotad[oa]s?|sold ?out|[uú]ltimos boletos|[uú]ltimas entradas|[uú]ltimos lugares|nueva fecha|segunda fecha|fecha adicional|funci[oó]n(es)? adicional(es)?|por alta demanda|abrimos (otra|nueva) fecha)/i;
+  for (const e of merged) {
+    if (e.demand) continue;
+    const m = `${e.title} ${e.description || ''}`.match(HOT_TEXT);
+    if (m) { e.demand = 'alta'; e.demandWhy = m[0].toLowerCase(); }
+  }
+
+  // "Nuevos" y "más fechas": se compara contra la lista anterior por título+lugar.
+  const prevByKey = {};
+  for (const e of prev.events || []) if (e.skey) prevByKey[e.skey] = e;
+  const tracking = (prev.events || []).some((e) => e.firstSeen);
+  const nowIso = new Date().toISOString();
+  for (const e of merged) {
+    const p = prevByKey[e.skey];
+    e.firstSeen = p && p.firstSeen ? p.firstSeen : tracking ? nowIso : '2000-01-01T00:00:00Z';
+    const nNow = (e.dates || []).length || 1;
+    const nPrev = p ? (p.dates || []).length || 1 : nNow;
+    if (p && nNow > nPrev) e.moreDatesAt = nowIso; // agregaron funciones: casi siempre porque se agotó la primera
+    else if (p && p.moreDatesAt) e.moreDatesAt = p.moreDatesAt;
+  }
+
+  const data = { generatedAt: nowIso, timezone: 'America/Monterrey', total: merged.length, sources: health, notIncluded: NOT_INCLUDED, events: merged };
   if (!only) {
     fs.mkdirSync(path.dirname(OUT), { recursive: true });
     fs.writeFileSync(OUT, JSON.stringify(data, null, 1));

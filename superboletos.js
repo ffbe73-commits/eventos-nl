@@ -40,6 +40,10 @@ module.exports = {
       const price = min > 0 ? (max > min ? `$${min} – $${max}` : `$${min}`) : null;
       const img = e.rutaImagenMain || e.rutaImagenThumb || null;
       const url = `https://www.superboletos.com/landing-evento/${e.eventoId}`;
+      const vi = (e.ventaInicio || '').match(/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/);
+      const ventaIso = vi ? `${vi[3]}-${vi[2]}-${vi[1]}T${vi[4]}:${vi[5]}` : null;
+      const nowLocal = u.toLocal(new Date().toISOString());
+      const promo = [].concat(e.tags || []).some((t) => t && /2x1/i.test(`${t.label || ''}`)) ? '2x1' : null;
       out.push({
         title: u.clean(e.nombreEvento),
         start,
@@ -52,6 +56,8 @@ module.exports = {
         tickets: url,
         image: img ? (/^https?:/.test(img) ? img : `${IMG}${img.startsWith('/') ? '' : '/'}${img}`) : null,
         description: e.fechas && /\d/.test(e.fechas) && e.fechas.length > 40 ? u.clean(e.fechas) : null,
+        onsale: ventaIso && ventaIso > nowLocal ? { general: ventaIso, presales: [] } : null,
+        promo,
       });
     }
     return out;
