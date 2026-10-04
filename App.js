@@ -1,4 +1,4 @@
-// Eventos NL — V2.2 (vista grande/compacta, deslizar para decidir, cartelera arriba)
+// Eventos NL — V2.3 (vista grande/compacta, deslizar para decidir, cartelera arriba)
 // Lee los eventos que junta el recolector de GitHub y te deja agendarlos, marcarlos y guardar a cuáles fuiste.
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import {
@@ -560,8 +560,10 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
         initialNumToRender={compact ? 10 : 5}
         maxToRenderPerBatch={compact ? 10 : 5}
         updateCellsBatchingPeriod={40}
-        windowSize={7}
-        removeClippedSubviews={Platform.OS === 'android'}
+        windowSize={9}
+        // OJO: no usar removeClippedSubviews aquí. En Android, junto con los encabezados fijos de cada día,
+        // tumba la app cuando la lista cambia (al aplicar filtros). Fue la causa del cierre en V2.2.
+        removeClippedSubviews={false}
         refreshControl={<RefreshControl refreshing={refreshing} tintColor={C.accent} colors={[C.accent]} onRefresh={async () => { setRefreshing(true); await onRefresh(); setRefreshing(false); }} />}
         ListEmptyComponent={<View style={s.center}><Ionicons name="calendar-clear-outline" size={40} color={C.sub} /><Text style={s.sub}>{nOn ? 'No hay eventos con estos filtros.' : 'No hay categorías activas. Abre Filtros y elige al menos una.'}</Text></View>}
         ListFooterComponent={total ? <Text style={[s.sub, { textAlign: 'center', padding: 16 }]}>{total} resultados</Text> : null}
