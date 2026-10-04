@@ -1618,6 +1618,72 @@
    "price": "Entrada libre",
    "url": "https://festivalsantalucia.gob.mx/",
    "description": null
+  },
+  {
+   "title": "CUADRANTE – Encuentro de Arte, Diseño y Arquitectura (Festival Santa Lucía)",
+   "start": "2026-10-29",
+   "end": "2026-11-08",
+   "venue": "Varias sedes en Monterrey",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Consultar agenda",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "description": "Plataforma cultural de once días: artistas, diseñadores, arquitectos, instituciones y espacios independientes presentan una agenda que hace visible el talento y la economía creativa de Nuevo León. La agenda completa está en el código QR del cartel del festival."
+  },
+  {
+   "title": "Fuckup Nights Monterrey – Festival Internacional Santa Lucía Edition",
+   "start": "2026-10-29T19:30",
+   "end": null,
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "url": "https://festivalsantalucia.gob.mx/",
+   "description": "Historias de fracasos y aprendizajes con Guillermo Martínez, Clara Villarreal, Gonzalo Iglesias, Hazael Misraím López, Rodrigo Rivera del Río, Omar Méndez, Guillermo MH y Rubendario."
+  },
+  {
+   "title": "El Retrato de Dorian Gray – Compañía de Teatro del Tec de Monterrey (Festival Santa Lucía)",
+   "start": "2026-10-27T19:00",
+   "end": null,
+   "venue": "Teatro Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "description": "De Oscar Wilde. Dirección y adaptación de Emanuel Anguiano. La Compañía de Teatro del Tecnológico de Monterrey presenta esta función como participación en el Festival Internacional de Santa Lucía."
+  },
+  {
+   "title": "FISL 26: Artista Sorpresa",
+   "start": "2026-10-28T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "description": "Concierto con artista sorpresa del Festival Internacional de Santa Lucía. Todo público."
+  },
+  {
+   "title": "México y Yo: Ciudadanos del Mundo – mural (corte de listón)",
+   "start": "2026-10-29T18:00",
+   "end": null,
+   "venue": "Juan Ignacio Ramón 835, Centro",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "description": "Cierre en Monterrey del recorrido de México y Yo: Un Viaje a Color. Inauguración de un mural bajo la narrativa Ciudadanos del Mundo. Intervención artística permanente. Todo público."
+  },
+  {
+   "title": "NATURA – Programa de arte público de Las Artes Monterrey",
+   "start": "2026-09-26",
+   "end": "2026-11-08",
+   "venue": "Parque Fundidora",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "description": "IX edición del programa de arte público de Las Artes Monterrey, parte del Festival Internacional de Santa Lucía. El mapa está en el código QR del cartel."
   }
  ]
 }

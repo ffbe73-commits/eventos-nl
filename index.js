@@ -115,11 +115,21 @@ function score(e) { // qué tan completo está un registro (para elegir el "prin
   return (e.start && e.start.length > 10 ? 3 : 0) + (e.venue ? 2 : 0) + (e.price ? 2 : 0) + (e.image ? 1 : 0) + (e.end ? 0.5 : 0);
 }
 
+// Gratis: lo dice el precio o la descripción ("entrada libre", "gratuito"...), o es de una fuente que siempre es gratis.
+const FREE_TXT = /entrada libre|gratis|gratuit|sin costo|acceso libre|entrada gratuita/i;
+const FREE_SOURCES = new Set(['sanpedro_parques']); // clases y actividades en parques de San Pedro
+const isFreeRec = (e) => FREE_SOURCES.has(e.source) || FREE_TXT.test(e.price || '') || FREE_TXT.test(e.description || '');
+const SRC_NAME = (id) => ((SOURCES.find((x) => x.id === id) || {}).name || id).replace(/\s*\(.*\)$/, '');
+
 function merge(list) {
   const out = [];
   for (const e of list) {
     const twin = out.find((x) => (!x._src.has(e.source) || ADDON.test(e.title) || ADDON.test(x.title)) && sameEvent({ ...x, source: x._src.has(e.source) ? e.source : null }, e));
-    if (!twin) { out.push({ ...e, _src: new Set([e.source]), sources: [{ id: e.source, url: e.url }] }); continue; }
+    if (!twin) {
+      const rec = { ...e, _src: new Set([e.source]), sources: [{ id: e.source, url: e.url }] };
+      if (isFreeRec(e)) { rec.free = true; rec.freeVia = SRC_NAME(e.source); }
+      out.push(rec); continue;
+    }
     if (!twin._src.has(e.source)) twin.sources.push({ id: e.source, url: e.url });
     twin._src.add(e.source);
     const eAddon = ADDON.test(e.title), tAddon = ADDON.test(twin.title);
@@ -131,6 +141,9 @@ function merge(list) {
     }
     if (twin.category === 'Otros' && e.category !== 'Otros') twin.category = e.category;
     for (const k of ['demand', 'soldOut', 'waitlist']) if (e[k]) twin[k] = e[k];
+    // El mismo show gratis en una fuente (ej. Festival Santa Lucía) y con costo en una boletera: manda el gratis.
+    if (isFreeRec(e) && !twin.free) { twin.free = true; twin.freeVia = SRC_NAME(e.source); }
+    if (twin.free && !FREE_TXT.test(twin.price || '')) { if (twin.price) twin.paidPrice = twin.price; twin.price = 'Entrada libre'; }
   }
   return out;
 }
@@ -165,7 +178,7 @@ function groupSeries(events) {
     for (const s of list.flatMap((e) => e.sources)) if (!sources.some((x) => x.id === s.id)) sources.push(s);
     const lastEnd = list.map((e) => e.end || e.start).sort().pop();
     const flags = {};
-    for (const k of ['demand', 'waitlist', 'promo', 'onsale']) { const f = list.find((e) => e[k]); if (f) flags[k] = f[k]; }
+    for (const k of ['demand', 'waitlist', 'promo', 'onsale', 'free', 'freeVia', 'paidPrice']) { const f = list.find((e) => e[k]); if (f) flags[k] = f[k]; }
     if (list.every((e) => e.soldOut)) flags.soldOut = true;
     const { avail, left, ...rest } = base; // la disponibilidad va por función, no en el evento
     out.push({ ...rest, ...flags, skey: key, id: hash(key), start: dates[0].start, end: lastEnd, url: dates[0].url || base.url, dates, sources });

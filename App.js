@@ -1,4 +1,4 @@
-// Eventos NL — V2.4 (vista grande/compacta, deslizar para decidir, cartelera arriba)
+// Eventos NL — V2.5 (vista grande/compacta, deslizar para decidir, cartelera arriba)
 // Lee los eventos que junta el recolector de GitHub y te deja agendarlos, marcarlos y guardar a cuáles fuiste.
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import {
@@ -137,9 +137,11 @@ const SOURCE_NAMES = {
 };
 const vendorOf = (url) => { const v = VENDORS.find(([re]) => re.test(url || '')); return v ? v[1] : null; };
 const isGenericHome = (url) => /^https?:\/\/[^/]+\/?$/.test(url || '');
-const isFree = (ev) => /libre|gratis|gratuit|sin costo/i.test(ev.price || '');
+const PAID_SOURCES = { ticketmaster: 'Ticketmaster', superboletos: 'SuperBoletos', arema: 'Arema', fever: 'Fever', primetickets: 'PrimeTickets' };
+const isFree = (ev) => !!ev.free || /libre|gratis|gratuit|sin costo/i.test(ev.price || '');
 // Devuelve el mejor link para comprar: directo del evento si existe; si sólo hay la página principal de la boletera, busca el evento ahí.
 function ticketLink(ev) {
+  if (ev.free) return null; // si alguna fuente lo da gratis, no mandamos a comprar (el link con costo va aparte)
   const cands = [ev.tickets, ...(ev.sources || []).map((x) => x.url), ev.url].filter(Boolean);
   for (const u of cands) {
     const v = vendorOf(u);
@@ -430,6 +432,9 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
   const closeHint = () => { setHint(false); save('enl_hint_swipe', true); };
   const [off, setOff] = useState({}); // categorías apagadas (por defecto: todas prendidas)
   const [q, setQ] = useState('');
+  const [onlyFree, setOnlyFree] = useState(false); // botón "Gratis": sólo eventos sin costo
+  useEffect(() => { load('enl_free', false).then((v) => setOnlyFree(!!v)); }, []);
+  const toggleFree = () => setOnlyFree((v) => { save('enl_free', !v); return !v; });
   const [refreshing, setRefreshing] = useState(false);
   const qd = React.useDeferredValue(q); // escribir no se traba: la lista se filtra cuando hay tiempo
   // Al BUSCAR se busca en todo: cualquier fecha futura y cualquier categoría (aunque esté apagada en Filtros).
@@ -440,9 +445,10 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
 
   const matchQ = (e) => searchMatch(`${e.title} ${e.venue || ''}`, qd);
   const visibles = useMemo(() => allEvents.filter((e) => !isHiddenEv(hidden, e) && (qd || !off[e.category])
-    && (!qd || matchQ(e))), [allEvents, hidden, off, qd]);
+    && (!onlyFree || isFree(e)) && (!qd || matchQ(e))), [allEvents, hidden, off, qd, onlyFree]);
   // Si lo que buscas está en "No me interesa", avisar en lugar de mostrar la lista vacía.
-  const hiddenMatches = useMemo(() => (qd ? allEvents.filter((e) => isHiddenEv(hidden, e) && matchQ(e)) : []), [allEvents, hidden, qd]);
+  // Al buscar también salen los de "No me interesa" (marcados), para abrirlos directo sin buscarlos en otra lista.
+  const hiddenMatches = useMemo(() => (qd ? allEvents.filter((e) => isHiddenEv(hidden, e) && matchQ(e) && (!onlyFree || isFree(e))) : []), [allEvents, hidden, qd, onlyFree]);
 
   const perDay = useMemo(() => {
     const m = {};
@@ -459,7 +465,12 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
   const sections = useMemo(() => {
     const short = daysBetween(a, b) <= 7;
     const groups = {};
-    for (const e of visibles) {
+    const pool = qd ? visibles.concat(hiddenMatches) : visibles;
+    for (const e of pool) {
+      if (qd && isLongRange(e)) { // al buscar, las exposiciones/temporadas también salen en la lista (hoy)
+        if (day(e.end || e.start) >= t) (groups[t] = groups[t] || []).push({ e, occ: { start: t, end: e.end } });
+        continue;
+      }
       if (isLongRange(e) || !occursBetween(e, a, b)) continue;
       const first = a < t ? t : a;
       const days = short ? listDays(first, b).filter((d) => occursBetween(e, d, d)) : [day((nextOccurrence(e, first) || {}).start)];
@@ -473,7 +484,7 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
       title: relativeLabel(d),
       data: groups[d].sort((x, y) => (hasTime(x.occ.start) ? x.occ.start : `${d}T99`) < (hasTime(y.occ.start) ? y.occ.start : `${d}T99`) ? -1 : 1),
     }));
-  }, [visibles, a, b, t]);
+  }, [visibles, hiddenMatches, qd, a, b, t]);
 
   const total = sections.reduce((n, sct) => n + sct.data.length, 0);
   // Acciones estables: así cada tarjeta sólo se vuelve a dibujar si cambia ELLA (no toda la lista).
@@ -481,18 +492,18 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
   act.current = { open, hideNow, likeNow, askHide, toggleFav };
   const renderRow = useCallback(({ item }) => (
     <EventRow item={item} act={act} compact={compact} isNew={!!lastSeen && !!item.e.firstSeen && item.e.firstSeen > lastSeen}
-      fav={!!favs[item.e.id]} agendado={!!agendados[item.e.id]} />
-  ), [compact, lastSeen, favs, agendados]);
+      fav={!!favs[item.e.id]} agendado={!!agendados[item.e.id]} isHid={!!qd && isHiddenEv(hidden, item.e)} />
+  ), [compact, lastSeen, favs, agendados, qd, hidden]);
   // "No te lo pierdas": lo que se está vendiendo rápido (sin importar el mes) y lo recién anunciado.
   const isNewEv = (e) => !!lastSeen && !!e.firstSeen && e.firstSeen > lastSeen;
-  const hotList = useMemo(() => visibles.filter((e) => isHot(e) && !e.soldOut && day(e.end || e.start) >= t)
-    .sort((x, y) => (nextOccurrence(x, t) || x).start < (nextOccurrence(y, t) || y).start ? -1 : 1), [visibles, t]);
-  const newList = useMemo(() => visibles.filter((e) => isNewEv(e) && day(e.end || e.start) >= t)
-    .sort((x, y) => (x.firstSeen < y.firstSeen ? 1 : -1)), [visibles, t, lastSeen]);
+  const hotList = useMemo(() => qd ? [] : visibles.filter((e) => isHot(e) && !e.soldOut && day(e.end || e.start) >= t)
+    .sort((x, y) => (nextOccurrence(x, t) || x).start < (nextOccurrence(y, t) || y).start ? -1 : 1), [visibles, t, qd]);
+  const newList = useMemo(() => qd ? [] : visibles.filter((e) => isNewEv(e) && day(e.end || e.start) >= t)
+    .sort((x, y) => (x.firstSeen < y.firstSeen ? 1 : -1)), [visibles, t, lastSeen, qd]);
   const occLabel = (e) => { const o = nextOccurrence(e, t); return o ? fmtDayShort(day(o.start)) : `Hasta ${fmtDayShort(e.end)}`; };
   // Exposiciones y temporadas abiertas en el rango: van en una fila aparte arriba, ordenadas por la que cierra primero.
-  const carteleraList = useMemo(() => visibles.filter((e) => isLongRange(e) && day(e.start) <= b && day(e.end) >= a && day(e.end) >= t)
-    .sort((x, y) => (x.end < y.end ? -1 : 1)), [visibles, a, b, t]);
+  const carteleraList = useMemo(() => qd ? [] : visibles.filter((e) => isLongRange(e) && day(e.start) <= b && day(e.end) >= a && day(e.end) >= t)
+    .sort((x, y) => (x.end < y.end ? -1 : 1)), [visibles, a, b, t, qd]);
   const rangeLabel = a === b ? relativeLabel(a) : `${fmtDayShort(a)} → ${fmtDayShort(b)}`;
   const nFiltros = nOn < catsPresent.length ? 1 : 0;
   const header = (
@@ -568,10 +579,17 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
         </Grad>
       </TouchableOpacity>
 
-      <View style={s.searchBox}>
-        <Ionicons name="search" size={16} color={C.sub} />
-        <TextInput value={q} onChangeText={setQ} placeholder="Buscar evento o lugar" placeholderTextColor={C.sub} style={s.searchInput} />
-        {q ? <TouchableOpacity onPress={() => setQ('')}><Ionicons name="close-circle" size={18} color={C.sub} /></TouchableOpacity> : null}
+      <View style={[s.row, { marginRight: 12 }]}>
+        <View style={[s.searchBox, { flex: 1 }]}>
+          <Ionicons name="search" size={16} color={C.sub} />
+          <TextInput value={q} onChangeText={setQ} placeholder="Buscar evento o lugar" placeholderTextColor={C.sub} style={s.searchInput} />
+          {q ? <TouchableOpacity onPress={() => setQ('')}><Ionicons name="close-circle" size={18} color={C.sub} /></TouchableOpacity> : null}
+        </View>
+        <TouchableOpacity onPress={toggleFree} activeOpacity={0.8} hitSlop={6}
+          style={[s.freePill, onlyFree && { backgroundColor: C.ok, borderColor: C.ok }]}>
+          <Ionicons name={onlyFree ? 'checkmark-circle' : 'pricetag-outline'} size={15} color={onlyFree ? '#0b1a12' : C.ok} />
+          <Text style={[s.freeTxt, onlyFree && { color: '#0b1a12' }]}>Gratis</Text>
+        </TouchableOpacity>
       </View>
       <SectionList
         sections={sections}
@@ -854,14 +872,15 @@ function whenText(ev, occ) {
     : hasTime(occ.start) ? fmtTime(occ.start) : 'Horario por confirmar';
 }
 
-function EventCard({ ev, occ, fav, agendado, onPress, onLongPress, onFav, right, compact, isNew }) {
+function EventCard({ ev, occ, fav, agendado, onPress, onLongPress, onFav, right, compact, isNew, hiddenTag }) {
   const ci = catInfo(ev.category);
   const n = ev.dates ? ev.dates.length : 0;
   const when = whenText(ev, occ);
   const tags = (
     <View style={s.row}>
       <Text style={[s.badge, { color: ci.c }]}>{ev.category}</Text>
-      {ev.price ? <Text style={s.badgeMuted} numberOfLines={1}>{ev.price}</Text> : null}
+      {ev.price ? <Text style={s.badgeMuted} numberOfLines={1}>{ev.price}</Text> : isFree(ev) ? <Text style={[s.badgeMuted, { color: C.ok }]}>Gratis</Text> : null}
+      {hiddenTag ? <Text style={[s.badgeMuted, { color: C.danger }]}>🙈 No me interesa</Text> : null}
       {n > 1 ? <Text style={s.badgeMuted}>{n} funciones</Text> : null}
       {ev.manual ? <Text style={s.badgeMuted}>manual</Text> : null}
       {agendado ? <Ionicons name="calendar" size={13} color={C.ok} style={{ marginLeft: 2, marginTop: 4 }} /> : null}
@@ -909,8 +928,16 @@ function EventCard({ ev, occ, fav, agendado, onPress, onLongPress, onFav, right,
 
 // Deslizar estilo Tinder: ← izquierda = No me interesa (se oculta), → derecha = Me interesa (⭐).
 // Tocar la tarjeta sigue abriendo el detalle; el deslizamiento sólo se activa con un movimiento claramente horizontal.
-const EventRow = React.memo(function EventRow({ item, act, compact, isNew, fav, agendado }) {
+const EventRow = React.memo(function EventRow({ item, act, compact, isNew, fav, agendado, isHid }) {
   const e = item.e;
+  if (isHid) { // resultado de búsqueda que está en "No me interesa": se ve atenuado y se abre con un toque
+    return (
+      <View style={{ opacity: 0.6 }}>
+        <EventCard ev={e} occ={item.occ} compact={compact} isNew={false} fav={fav} agendado={agendado} hiddenTag
+          onPress={() => act.current.open(e)} onLongPress={() => act.current.open(e)} onFav={() => act.current.toggleFav(e)} />
+      </View>
+    );
+  }
   return (
     <SwipeRow onLeft={() => act.current.hideNow(e)} onRight={() => act.current.likeNow(e)}>
       <EventCard ev={e} occ={item.occ} compact={compact} isNew={isNew} fav={fav} agendado={agendado}
@@ -918,7 +945,7 @@ const EventRow = React.memo(function EventRow({ item, act, compact, isNew, fav, 
     </SwipeRow>
   );
 }, (p, n) => p.item.e === n.item.e && p.item.occ.start === n.item.occ.start && p.compact === n.compact
-  && p.isNew === n.isNew && p.fav === n.fav && p.agendado === n.agendado);
+  && p.isNew === n.isNew && p.fav === n.fav && p.agendado === n.agendado && p.isHid === n.isHid);
 
 function SwipeRow({ children, onLeft, onRight }) {
   const x = React.useRef(new Animated.Value(0)).current;
@@ -1072,7 +1099,18 @@ function DetailModal({ ev, onClose, favs, hidden, agendados, checkins, toggleFav
                   </Grad>
                 </TouchableOpacity>
               ) : isFree(ev) ? (
-                <View style={[s.actionBtn, { borderWidth: 1, borderColor: C.ok }]}><Ionicons name="gift" size={18} color={C.ok} /><Text style={[s.actionTxt, { color: C.ok }]}>Entrada libre · no necesitas boleto</Text></View>
+                <View style={{ marginBottom: 8 }}>
+                  <View style={[s.actionBtn, { borderWidth: 1, borderColor: C.ok, marginBottom: 0 }]}><Ionicons name="gift" size={18} color={C.ok} />
+                    <Text style={[s.actionTxt, { color: C.ok, flex: 1 }]}>{`Gratis${ev.freeVia ? ` · vía ${ev.freeVia}` : ''} · revisa si piden registro`}</Text></View>
+                  {(() => { // el mismo show también está en una boletera con costo
+                    const paid = (ev.sources || []).find((x) => PAID_SOURCES[x.id] && x.url);
+                    return paid ? (
+                      <TouchableOpacity onPress={() => Linking.openURL(paid.url)} style={{ paddingVertical: 8, paddingHorizontal: 4 }}>
+                        <Text style={[s.sub, { fontSize: 12 }]}>También se vende en {PAID_SOURCES[paid.id]}{ev.paidPrice ? ` (${ev.paidPrice})` : ''} → <Text style={{ color: C.accent, fontWeight: '700' }}>ver</Text></Text>
+                      </TouchableOpacity>
+                    ) : null;
+                  })()}
+                </View>
               ) : null}
               {checkinDate ? <ActionBtn icon="checkmark-circle" label={attended.length ? 'Ver mi check-in' : 'Asistí ✅'} color={C.ok} onPress={() => onCheckin(ev, checkinDate)} /> : null}
               <ActionBtn icon={isHidden ? 'eye' : 'eye-off'} label={isHidden ? 'Mostrar de nuevo' : 'No me interesa'} color={C.danger}
@@ -1475,6 +1513,8 @@ const s = StyleSheet.create({
   chip: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 10, paddingVertical: 6, borderRadius: 14, borderWidth: 1, borderColor: C.line, marginRight: 6, marginBottom: 6 },
   chipTxt: { color: C.text, fontSize: 12, marginLeft: 4 },
   searchBox: { flexDirection: 'row', alignItems: 'center', backgroundColor: 'rgba(255,255,255,0.10)', marginHorizontal: 12, borderRadius: 10, paddingHorizontal: 10, marginBottom: 6 },
+  freePill: { flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderColor: 'rgba(62,230,160,0.5)', borderRadius: 18, paddingHorizontal: 10, paddingVertical: 7, marginBottom: 6, gap: 4 },
+  freeTxt: { color: C.ok, fontWeight: '800', fontSize: 13, marginLeft: 4 },
   searchInput: { flex: 1, color: C.text, paddingVertical: 8, marginLeft: 6 },
   secHead: { color: C.text, fontWeight: '800', fontSize: 15, paddingHorizontal: 16, paddingTop: 14, paddingBottom: 6, backgroundColor: 'rgba(29,17,66,0.96)' },
   secCount: { color: C.sub, fontWeight: '400' },
