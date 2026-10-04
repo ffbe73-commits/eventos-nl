@@ -19,7 +19,9 @@ module.exports = {
         const cls = (e.classifications && e.classifications[0]) || {};
         const seg = cls.segment && cls.segment.name;
         const pr = (e.priceRanges && e.priceRanges[0]) || null;
-        const img = (e.images || []).sort((a, b) => b.width - a.width).find((i) => i.ratio === '16_9') || (e.images || [])[0];
+        // La más grande que siga siendo de tamaño celular (≈1136 px); la "SOURCE" original es enorme y hace lenta la app.
+        const imgs = (e.images || []).filter((i) => i.ratio === '16_9').sort((a, b) => b.width - a.width);
+        const img = imgs.find((i) => i.width <= 1200 && !/_SOURCE/.test(i.url)) || imgs[imgs.length - 1] || (e.images || [])[0];
         const status = e.dates && e.dates.status && e.dates.status.code;
         if (status === 'cancelled') continue;
         // Preventas y venta general que todavía no empiezan: para avisarte antes de que se agoten.
