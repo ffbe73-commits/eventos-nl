@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-04T16:32:28.753Z",
+ "generatedAt": "2026-10-04T16:48:00.644Z",
  "timezone": "America/Monterrey",
- "total": 607,
+ "total": 605,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,9 +10,9 @@
    "ok": true,
    "count": 80,
    "error": null,
-   "checkedAt": "2026-10-04T16:29:34.891Z",
-   "lastSuccess": "2026-10-04T16:29:34.891Z",
-   "ms": 2373
+   "checkedAt": "2026-10-04T16:45:16.628Z",
+   "lastSuccess": "2026-10-04T16:45:16.628Z",
+   "ms": 5236
   },
   {
    "id": "arema",
@@ -21,9 +21,9 @@
    "ok": true,
    "count": 151,
    "error": null,
-   "checkedAt": "2026-10-04T16:29:37.264Z",
-   "lastSuccess": "2026-10-04T16:29:37.264Z",
-   "ms": 23802
+   "checkedAt": "2026-10-04T16:45:21.865Z",
+   "lastSuccess": "2026-10-04T16:45:21.865Z",
+   "ms": 29079
   },
   {
    "id": "superboletos",
@@ -32,9 +32,9 @@
    "ok": true,
    "count": 91,
    "error": null,
-   "checkedAt": "2026-10-04T16:30:01.066Z",
-   "lastSuccess": "2026-10-04T16:30:01.066Z",
-   "ms": 619
+   "checkedAt": "2026-10-04T16:45:50.944Z",
+   "lastSuccess": "2026-10-04T16:45:50.944Z",
+   "ms": 472
   },
   {
    "id": "ticketmaster",
@@ -43,9 +43,9 @@
    "ok": true,
    "count": 145,
    "error": null,
-   "checkedAt": "2026-10-04T16:30:01.685Z",
-   "lastSuccess": "2026-10-04T16:30:01.685Z",
-   "ms": 612
+   "checkedAt": "2026-10-04T16:45:51.416Z",
+   "lastSuccess": "2026-10-04T16:45:51.416Z",
+   "ms": 616
   },
   {
    "id": "conciertos_mty",
@@ -54,9 +54,9 @@
    "ok": true,
    "count": 73,
    "error": null,
-   "checkedAt": "2026-10-04T16:30:02.297Z",
-   "lastSuccess": "2026-10-04T16:30:02.297Z",
-   "ms": 3860
+   "checkedAt": "2026-10-04T16:45:52.032Z",
+   "lastSuccess": "2026-10-04T16:45:52.032Z",
+   "ms": 3117
   },
   {
    "id": "conarte_agenda",
@@ -65,9 +65,9 @@
    "ok": true,
    "count": 56,
    "error": null,
-   "checkedAt": "2026-10-04T16:30:06.157Z",
-   "lastSuccess": "2026-10-04T16:30:06.157Z",
-   "ms": 100538
+   "checkedAt": "2026-10-04T16:45:55.149Z",
+   "lastSuccess": "2026-10-04T16:45:55.149Z",
+   "ms": 63907
   },
   {
    "id": "cineteca",
@@ -76,9 +76,9 @@
    "ok": true,
    "count": 31,
    "error": null,
-   "checkedAt": "2026-10-04T16:31:46.695Z",
-   "lastSuccess": "2026-10-04T16:31:46.695Z",
-   "ms": 18911
+   "checkedAt": "2026-10-04T16:46:59.057Z",
+   "lastSuccess": "2026-10-04T16:46:59.057Z",
+   "ms": 19120
   },
   {
    "id": "santa_lucia",
@@ -87,9 +87,9 @@
    "ok": true,
    "count": 146,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:05.607Z",
-   "lastSuccess": "2026-10-04T16:32:05.607Z",
-   "ms": 1
+   "checkedAt": "2026-10-04T16:47:18.177Z",
+   "lastSuccess": "2026-10-04T16:47:18.177Z",
+   "ms": 2
   },
   {
    "id": "nuevoleon_travel",
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:05.608Z",
-   "lastSuccess": "2026-10-04T16:32:05.608Z",
-   "ms": 1324
+   "checkedAt": "2026-10-04T16:47:18.179Z",
+   "lastSuccess": "2026-10-04T16:47:18.179Z",
+   "ms": 1007
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:06.932Z",
-   "lastSuccess": "2026-10-04T16:32:06.932Z",
-   "ms": 350
+   "checkedAt": "2026-10-04T16:47:19.186Z",
+   "lastSuccess": "2026-10-04T16:47:19.186Z",
+   "ms": 280
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:07.282Z",
-   "lastSuccess": "2026-10-04T16:32:07.282Z",
-   "ms": 621
+   "checkedAt": "2026-10-04T16:47:19.466Z",
+   "lastSuccess": "2026-10-04T16:47:19.466Z",
+   "ms": 144
   },
   {
    "id": "marco",
@@ -131,20 +131,20 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:07.903Z",
-   "lastSuccess": "2026-10-04T16:32:07.903Z",
-   "ms": 429
+   "checkedAt": "2026-10-04T16:47:19.610Z",
+   "lastSuccess": "2026-10-04T16:47:19.610Z",
+   "ms": 486
   },
   {
    "id": "tres_museos",
    "name": "3 Museos",
    "home": "https://www.3museos.com/eventos/",
-   "ok": true,
-   "count": 4,
-   "error": null,
-   "checkedAt": "2026-10-04T16:32:08.332Z",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 en https://www.3museos.com/eventos/",
+   "checkedAt": "2026-10-04T16:47:20.096Z",
    "lastSuccess": "2026-10-04T16:32:08.332Z",
-   "ms": 1023
+   "ms": 3579
   },
   {
    "id": "cintermex",
@@ -153,9 +153,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:09.355Z",
-   "lastSuccess": "2026-10-04T16:32:09.355Z",
-   "ms": 736
+   "checkedAt": "2026-10-04T16:47:23.675Z",
+   "lastSuccess": "2026-10-04T16:47:23.675Z",
+   "ms": 794
   },
   {
    "id": "foro_corona",
@@ -164,9 +164,9 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:10.092Z",
-   "lastSuccess": "2026-10-04T16:32:10.092Z",
-   "ms": 224
+   "checkedAt": "2026-10-04T16:47:24.469Z",
+   "lastSuccess": "2026-10-04T16:47:24.469Z",
+   "ms": 56
   },
   {
    "id": "fever",
@@ -175,9 +175,9 @@
    "ok": true,
    "count": 80,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:10.316Z",
-   "lastSuccess": "2026-10-04T16:32:10.316Z",
-   "ms": 7886
+   "checkedAt": "2026-10-04T16:47:24.525Z",
+   "lastSuccess": "2026-10-04T16:47:24.525Z",
+   "ms": 8515
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:18.202Z",
-   "lastSuccess": "2026-10-04T16:32:18.202Z",
-   "ms": 428
+   "checkedAt": "2026-10-04T16:47:33.041Z",
+   "lastSuccess": "2026-10-04T16:47:33.041Z",
+   "ms": 177
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:18.630Z",
-   "lastSuccess": "2026-10-04T16:32:18.630Z",
-   "ms": 1105
+   "checkedAt": "2026-10-04T16:47:33.218Z",
+   "lastSuccess": "2026-10-04T16:47:33.218Z",
+   "ms": 1100
   },
   {
    "id": "ballet_mty",
@@ -208,9 +208,9 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:19.735Z",
-   "lastSuccess": "2026-10-04T16:32:19.735Z",
-   "ms": 2872
+   "checkedAt": "2026-10-04T16:47:34.318Z",
+   "lastSuccess": "2026-10-04T16:47:34.318Z",
+   "ms": 18459
   },
   {
    "id": "sanpedro_vive",
@@ -219,9 +219,9 @@
    "ok": true,
    "count": 77,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:22.607Z",
-   "lastSuccess": "2026-10-04T16:32:22.607Z",
-   "ms": 2107
+   "checkedAt": "2026-10-04T16:47:52.777Z",
+   "lastSuccess": "2026-10-04T16:47:52.777Z",
+   "ms": 2905
   },
   {
    "id": "sanpedro_parques",
@@ -230,9 +230,9 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:24.714Z",
-   "lastSuccess": "2026-10-04T16:32:24.714Z",
-   "ms": 3549
+   "checkedAt": "2026-10-04T16:47:55.682Z",
+   "lastSuccess": "2026-10-04T16:47:55.682Z",
+   "ms": 4275
   },
   {
    "id": "chipinque",
@@ -241,9 +241,9 @@
    "ok": true,
    "count": 26,
    "error": null,
-   "checkedAt": "2026-10-04T16:32:28.263Z",
-   "lastSuccess": "2026-10-04T16:32:28.263Z",
-   "ms": 219
+   "checkedAt": "2026-10-04T16:47:59.957Z",
+   "lastSuccess": "2026-10-04T16:47:59.957Z",
+   "ms": 177
   }
  ],
  "notIncluded": [
@@ -844,6 +844,27 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "d841f72258f7",
+   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "start": "2026-10-04T09:00",
+   "end": "2026-11-29T19:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "title": "Mercado de La Fregonería",
    "start": "2026-10-04T09:00",
    "end": "2027-05-30T13:00",
@@ -1190,6 +1211,48 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "3f6ed36dceac",
+   "skey": "fuga prisionero san pedro|parque capitan",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "start": "2026-10-04T10:00",
+   "end": "2026-11-01T18:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
+    }
+   ],
+   "url": "https://feverup.com/m/629878",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "08e08daa518b",
+   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
+   "start": "2026-10-04T10:00",
+   "end": "2026-12-30T10:00",
+   "price": "Desde $220",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
+    }
+   ],
+   "url": "https://feverup.com/m/685013",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "id": "a0045bbddbe4",
    "skey": "papalote museo nino expo dinosaurios|papalote museo",
    "title": "Papalote Museo del Niño + Expo Dinosaurios",
@@ -1370,6 +1433,27 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "99d18b77f092",
+   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "start": "2026-10-04T11:00",
+   "end": "2026-12-06T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "title": "Ludoteca La Montaña",
    "end": "2026-11-22T11:00",
    "venue": "Chipinque · Ludoteca La Montaña, Meseta",
@@ -1451,48 +1535,6 @@
     }
    ],
    "url": "https://feverup.com/m/612272",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "99d18b77f092",
-   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "start": "2026-10-04T12:00",
-   "end": "2026-12-06T17:00",
-   "price": "Desde $370",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "3f6ed36dceac",
-   "skey": "fuga prisionero san pedro|parque capitan",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "start": "2026-10-04T12:00",
-   "end": "2026-11-01T18:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -1625,27 +1667,6 @@
     }
    ],
    "url": "https://conarte.org.mx/cineteca/un-reino-para-todos-nosotros/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "d841f72258f7",
-   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "start": "2026-10-04T13:00",
-   "end": "2026-11-29T19:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -1982,6 +2003,27 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "c09df5d283e2",
+   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "start": "2026-10-04T17:00",
+   "end": "2026-11-29T17:00",
+   "price": "Desde $799",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "id": "bc2b8ca0f7c0",
    "skey": "dos estaciones|cineteca alejandra",
    "title": "Dos estaciones",
@@ -2015,7 +2057,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/b41/b500c5eb-bbf7-448f-bb7d-54e4b988eb41_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/b41/b500c5eb-bbf7-448f-bb7d-54e4b988eb41_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -2303,7 +2345,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/264/a2e8506c-2d21-40fc-9214-593cd1f78264_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/264/a2e8506c-2d21-40fc-9214-593cd1f78264_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -2351,7 +2393,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/906/df6740a6-5065-41ce-a766-7a60ed872906_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/906/df6740a6-5065-41ce-a766-7a60ed872906_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -2368,27 +2410,6 @@
    ],
    "description": "Álvaro Diaz en el Auditorio Banamex [](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: No Hay Pagan boleto a partir de: 3 años Restricciones: No ingresan cámaras fotográficas profesionales, semi-pr",
    "url": "https://www.ticketmaster.com.mx/alvaro-diaz-monterrey-04-10-2026/event/140064CBB2F6E40F",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "d55389ce3b44",
-   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
-   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
-   "venue": "Banco Mercantil",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
-   "start": "2026-10-05T10:00",
-   "end": "2026-12-30T10:00",
-   "price": "Desde $220",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/685013"
-    }
-   ],
-   "url": "https://feverup.com/m/685013",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -2452,27 +2473,6 @@
     }
    ],
    "url": "https://sanpedroparques.mx/eventos/pilates-hiit-10/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "82cea8aa1f53",
-   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
-   "start": "2026-10-06T11:00",
-   "end": "2026-11-29T17:00",
-   "price": "Desde $799",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/707636"
-    }
-   ],
-   "url": "https://feverup.com/m/707636",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -2626,26 +2626,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "8a78955b1daf",
-   "skey": "otra historia retablo presencia omision femenina titeres|museos",
-   "title": "La otra historia del retablo: Presencia y omisión femenina en los títeres",
-   "start": "2026-10-06T19:00",
-   "end": null,
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/6oct_conf_-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=la-otra-historia-del-retablo-presencia-y-omision-femenina-en-los-titeres",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "title": "Taller de costura y upcycling: texturas urbanas",
    "start": "2026-10-06T19:00",
    "end": "2026-10-20T19:00",
@@ -2724,7 +2704,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/b6d/6e592741-5af3-4f93-a6bb-8e1917797b6d_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/b6d/6e592741-5af3-4f93-a6bb-8e1917797b6d_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -2958,43 +2938,6 @@
      "start": "2026-12-16T11:30",
      "end": null,
      "url": "https://vive.sanpedro.gob.mx/evento/1122"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Coloquio Somos Vínculos. Encuentro franco-mexicano-texano",
-   "start": "2026-10-07T17:00",
-   "end": "2026-10-09T10:15",
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/09/7-8-9_somos-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano",
-   "skey": "coloquio somos vinculos encuentro franco mexicano texano|museos",
-   "id": "abe0f10a6f03",
-   "dates": [
-    {
-     "start": "2026-10-07T17:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-08T10:00",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
-    },
-    {
-     "start": "2026-10-09T10:15",
-     "end": null,
-     "url": "https://www.3museos.com/?eventos=coloquio-somos-vinculo-encuentro-franco-mexicano-texano"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
@@ -3777,7 +3720,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/c/efe/3c52b28b-0180-4ddc-b4f3-72e93ea06efe_105451_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "image": "https://s1.ticketm.net/dam/c/efe/3c52b28b-0180-4ddc-b4f3-72e93ea06efe_105451_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -4201,7 +4144,7 @@
    "city": "Monterrey",
    "category": "Teatro",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/3ad/e7d0e551-889a-48f1-b96c-56347aa3b3ad_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/3ad/e7d0e551-889a-48f1-b96c-56347aa3b3ad_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -4365,7 +4308,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/e2e/50b49a78-1793-4885-9a5d-fe6fdd630e2e_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/e2e/50b49a78-1793-4885-9a5d-fe6fdd630e2e_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -5336,7 +5279,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/e40/39bf41c8-7365-4302-aeb6-322955473e40_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/e40/39bf41c8-7365-4302-aeb6-322955473e40_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -5858,7 +5801,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/268/74f4b44c-2a19-4acc-b398-ccb40427b268_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/268/74f4b44c-2a19-4acc-b398-ccb40427b268_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -6128,7 +6071,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/ea6/3b128815-bab3-470b-9dd2-fee8545a7ea6_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/ea6/3b128815-bab3-470b-9dd2-fee8545a7ea6_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -6889,7 +6832,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/6c9/2e6344df-3add-44b2-957a-fe3d7b4e06c9_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/6c9/2e6344df-3add-44b2-957a-fe3d7b4e06c9_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -6966,7 +6909,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/b56/0c11d4bc-f495-4184-8ec5-4b51cff8bb56_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/b56/0c11d4bc-f495-4184-8ec5-4b51cff8bb56_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -7011,7 +6954,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/148/83b0f04d-0603-40ec-afad-d0b880abc148_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/148/83b0f04d-0603-40ec-afad-d0b880abc148_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -7163,7 +7106,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/866/6e3bb025-1bac-469f-b459-7380b9f94866_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/866/6e3bb025-1bac-469f-b459-7380b9f94866_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -7246,7 +7189,7 @@
    "city": "Monterrey",
    "category": "Talleres y charlas",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/945/03096672-e888-4171-b56e-03fbface6945_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/945/03096672-e888-4171-b56e-03fbface6945_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -7836,7 +7779,7 @@
    "city": "Monterrey",
    "category": "Otros",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/412/dcb23d85-b857-4476-a015-c5efc2bea412_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/412/dcb23d85-b857-4476-a015-c5efc2bea412_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -8031,7 +7974,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/9cb/5ab054c9-4bf1-4e69-91f9-97960ac2e9cb_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/9cb/5ab054c9-4bf1-4e69-91f9-97960ac2e9cb_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -8205,7 +8148,7 @@
    "city": "San Pedro Garza García",
    "category": "Otros",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/d99/2ae43ad6-33af-4088-ad77-5fe29d026d99_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/d99/2ae43ad6-33af-4088-ad77-5fe29d026d99_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -8526,7 +8469,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/637/c6ad2fa9-4658-48e6-b7bf-adcb53a79637_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/637/c6ad2fa9-4658-48e6-b7bf-adcb53a79637_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -8551,7 +8494,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/0b7/408c3969-e2a3-44b1-9c5a-87a05415f0b7_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/0b7/408c3969-e2a3-44b1-9c5a-87a05415f0b7_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -8912,7 +8855,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/cd6/bb71a31e-7e9f-4031-b5dd-bab89259ccd6_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/cd6/bb71a31e-7e9f-4031-b5dd-bab89259ccd6_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -9259,7 +9202,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/73e/93662de1-53f8-413f-ae91-d3000375173e_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/73e/93662de1-53f8-413f-ae91-d3000375173e_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -9833,7 +9776,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/276/cd0c96dc-30e5-4611-858e-2d91762ff276_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/276/cd0c96dc-30e5-4611-858e-2d91762ff276_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -10549,7 +10492,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/ada/a9db5742-66ca-48a1-af53-826944296ada_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/ada/a9db5742-66ca-48a1-af53-826944296ada_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -10608,7 +10551,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/59d/07a776f0-3734-4f2b-ace2-2e208032859d_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/59d/07a776f0-3734-4f2b-ace2-2e208032859d_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -10632,7 +10575,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/5f4/3a7f015a-3a7f-4a7a-a81f-c187200ba5f4_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/5f4/3a7f015a-3a7f-4a7a-a81f-c187200ba5f4_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -10933,7 +10876,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/784/d9531126-05ed-4424-8243-acff558a7784_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/784/d9531126-05ed-4424-8243-acff558a7784_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -11351,7 +11294,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/8a9/03d716a1-d4b9-4f6b-9dce-84299b6dc8a9_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/8a9/03d716a1-d4b9-4f6b-9dce-84299b6dc8a9_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -11508,7 +11451,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/f76/94a623c2-ed96-43de-badc-eb0350793f76_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/f76/94a623c2-ed96-43de-badc-eb0350793f76_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -11556,7 +11499,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/4b0/8c765de5-c6af-4737-bb17-46a88635b4b0_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/4b0/8c765de5-c6af-4737-bb17-46a88635b4b0_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -11575,7 +11518,7 @@
    "city": "Monterrey",
    "category": "Otros",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/cd8/0bf8e0ab-5369-4a9b-b90d-31d8819d1cd8_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/cd8/0bf8e0ab-5369-4a9b-b90d-31d8819d1cd8_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -11695,7 +11638,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/c93/4289a780-d91a-4c23-87f8-f76cebe2bc93_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/c93/4289a780-d91a-4c23-87f8-f76cebe2bc93_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -11780,7 +11723,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/1f3/8c53cb50-00ff-43bf-a1d1-bacbabbd81f3_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/1f3/8c53cb50-00ff-43bf-a1d1-bacbabbd81f3_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -11889,7 +11832,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/a66/312da6fe-9915-4c40-ad21-bb8294d90a66_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/a66/312da6fe-9915-4c40-ad21-bb8294d90a66_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -12011,7 +11954,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/4e3/92320477-f6cc-4c43-8a77-bca11f1174e3_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/4e3/92320477-f6cc-4c43-8a77-bca11f1174e3_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -12177,7 +12120,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/a51/b809dcd6-44a9-4df2-bcec-f255455c0a51_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/a51/b809dcd6-44a9-4df2-bcec-f255455c0a51_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -12371,7 +12314,7 @@
    "city": "Monterrey",
    "category": "Otros",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/e77/54edf852-a31b-4ece-8691-4c2f25131e77_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/e77/54edf852-a31b-4ece-8691-4c2f25131e77_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -12411,7 +12354,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/3c2/9a31638f-c899-4d10-a6e1-18f3bfd2f3c2_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/3c2/9a31638f-c899-4d10-a6e1-18f3bfd2f3c2_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -12461,7 +12404,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/739/88645416-a38e-4a1a-8e56-b625d0742739_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/739/88645416-a38e-4a1a-8e56-b625d0742739_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -12642,7 +12585,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/c93/23ed7a09-a2aa-4ff3-8caa-20cd8f88bc93_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/c93/23ed7a09-a2aa-4ff3-8caa-20cd8f88bc93_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -12687,7 +12630,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/f12/2fd53227-9276-4da7-aed9-db9cb373df12_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/f12/2fd53227-9276-4da7-aed9-db9cb373df12_RETINA_LANDSCAPE_16_9.jpg",
    "sources": [
     {
      "id": "ticketmaster",
@@ -12767,7 +12710,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/4ec/7da404c6-6b78-41ce-84d8-7740737444ec_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/4ec/7da404c6-6b78-41ce-84d8-7740737444ec_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -12942,7 +12885,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/808/4b378b13-0025-490c-b2f8-63a22e469808_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/808/4b378b13-0025-490c-b2f8-63a22e469808_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13057,7 +13000,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/5d7/7f16ad95-d4b3-4843-8698-239800f4f5d7_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/5d7/7f16ad95-d4b3-4843-8698-239800f4f5d7_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13102,7 +13045,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/af5/7a584936-3b90-4c19-aedd-7c3bb998eaf5_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/af5/7a584936-3b90-4c19-aedd-7c3bb998eaf5_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13179,7 +13122,7 @@
    "city": "Monterrey",
    "category": "Otros",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/9b5/0e53eac9-ffe5-4d00-8d33-83fb6fc9e9b5_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/9b5/0e53eac9-ffe5-4d00-8d33-83fb6fc9e9b5_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13318,7 +13261,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/0fb/bc7842bd-aaa0-43b0-8e92-4a8bc1b8f0fb_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/0fb/bc7842bd-aaa0-43b0-8e92-4a8bc1b8f0fb_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13482,7 +13425,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/1d1/65a47f8e-6696-4003-a33c-179363c8c1d1_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/1d1/65a47f8e-6696-4003-a33c-179363c8c1d1_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13503,7 +13446,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/438/36ff0616-02a4-4610-8860-c402373cc438_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/438/36ff0616-02a4-4610-8860-c402373cc438_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13524,7 +13467,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/9eb/c3839c32-0eef-41c1-bf81-2cf87724d9eb_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/9eb/c3839c32-0eef-41c1-bf81-2cf87724d9eb_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13613,7 +13556,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/256/2b6335dc-337a-402e-b560-264152d7d256_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/256/2b6335dc-337a-402e-b560-264152d7d256_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13779,7 +13722,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/d46/45072bed-c814-4372-9a06-a4ea9aa47d46_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/d46/45072bed-c814-4372-9a06-a4ea9aa47d46_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13863,7 +13806,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/f80/d067a9ba-fb6c-4efe-aadd-f78e47c54f80_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/f80/d067a9ba-fb6c-4efe-aadd-f78e47c54f80_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -13942,7 +13885,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/1cd/443a2c5d-37fa-462b-b983-b58f3c7811cd_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/1cd/443a2c5d-37fa-462b-b983-b58f3c7811cd_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14164,7 +14107,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/443/4ae07036-4620-46ee-bdb6-754ccdfc1443_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/443/4ae07036-4620-46ee-bdb6-754ccdfc1443_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14239,7 +14182,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/4ad/4984a6b9-09d7-42b0-ba25-2412caa544ad_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/4ad/4984a6b9-09d7-42b0-ba25-2412caa544ad_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14282,7 +14225,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/864/68fb437c-9b32-463d-8a3c-69ef21ce3864_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/864/68fb437c-9b32-463d-8a3c-69ef21ce3864_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14303,7 +14246,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/621/5cfddbc4-a237-4137-ae38-5f451f4a4621_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/621/5cfddbc4-a237-4137-ae38-5f451f4a4621_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14520,7 +14463,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/d0a/047cd664-70a8-449a-8289-614efd5ecd0a_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/d0a/047cd664-70a8-449a-8289-614efd5ecd0a_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14587,7 +14530,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/1eb/589c46a9-9228-482a-90fa-e11c25d461eb_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/1eb/589c46a9-9228-482a-90fa-e11c25d461eb_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14636,7 +14579,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/aa7/ae3269c8-6fe5-4915-aa7e-32a4e23aaaa7_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/aa7/ae3269c8-6fe5-4915-aa7e-32a4e23aaaa7_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14712,7 +14655,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/bc4/a092bed8-4ebc-4274-83c6-73d167f8bbc4_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/bc4/a092bed8-4ebc-4274-83c6-73d167f8bbc4_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14762,7 +14705,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/7d7/1c54a5e7-446f-40ef-9622-2a35195ab7d7_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/7d7/1c54a5e7-446f-40ef-9622-2a35195ab7d7_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14831,7 +14774,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/710/44fe7c02-78d1-4b38-a188-6e770ec9a710_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/710/44fe7c02-78d1-4b38-a188-6e770ec9a710_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14961,7 +14904,7 @@
    "city": "Monterrey",
    "category": "Experiencias",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/4a5/2aa89255-9322-414a-ad91-d5a3e9b7b4a5_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/4a5/2aa89255-9322-414a-ad91-d5a3e9b7b4a5_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -14982,7 +14925,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/0a4/653d69ab-0ce5-4ca5-8515-1950e01ed0a4_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/0a4/653d69ab-0ce5-4ca5-8515-1950e01ed0a4_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15134,7 +15077,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/fb7/668c8538-e0de-42b3-8822-1509ca84cfb7_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/fb7/668c8538-e0de-42b3-8822-1509ca84cfb7_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15155,7 +15098,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/888/c17d98b9-4505-4332-8ec0-475dd6f41888_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/888/c17d98b9-4505-4332-8ec0-475dd6f41888_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15294,7 +15237,7 @@
    "city": "Col. Centro Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/f05/3c6e5f55-f3e0-45a5-a121-0581bf9caf05_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/f05/3c6e5f55-f3e0-45a5-a121-0581bf9caf05_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15549,7 +15492,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/d1f/109b2277-00bd-4a95-813e-7cec6b933d1f_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/d1f/109b2277-00bd-4a95-813e-7cec6b933d1f_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15645,7 +15588,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/c6e/63eced0d-8627-489e-9dd2-1f6d0236dc6e_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/c6e/63eced0d-8627-489e-9dd2-1f6d0236dc6e_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15666,7 +15609,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/47d/8130c475-62b7-4b11-bc59-7b074772647d_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/47d/8130c475-62b7-4b11-bc59-7b074772647d_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15760,7 +15703,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/47c/bab4a9e1-2562-40d2-ba27-1745844fc47c_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/47c/bab4a9e1-2562-40d2-ba27-1745844fc47c_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15825,7 +15768,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/797/4a131eea-b700-4399-851c-9814031c7797_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/797/4a131eea-b700-4399-851c-9814031c7797_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15947,7 +15890,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/fe3/b44f131f-f928-43a6-bfae-fa9fdcf31fe3_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/fe3/b44f131f-f928-43a6-bfae-fa9fdcf31fe3_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -15968,7 +15911,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/13b/176a9453-b7a9-44f8-aaa5-c1467fc4313b_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/13b/176a9453-b7a9-44f8-aaa5-c1467fc4313b_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -16064,7 +16007,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/de7/3ab0aefd-1fae-4fe5-b3e9-ddaf69aedde7_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/de7/3ab0aefd-1fae-4fe5-b3e9-ddaf69aedde7_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -16175,7 +16118,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/576/96086095-9de1-4caf-a5ce-f06934b75576_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/576/96086095-9de1-4caf-a5ce-f06934b75576_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -16196,7 +16139,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/89f/cfc4e11c-9cb4-4c46-b44c-0140a127189f_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/89f/cfc4e11c-9cb4-4c46-b44c-0140a127189f_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -16502,7 +16445,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/98a/f4fb9274-64e6-4e78-968a-27585a09d98a_SOURCE",
+   "image": "https://s1.ticketm.net/dam/e/98a/f4fb9274-64e6-4e78-968a-27585a09d98a_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
@@ -16547,7 +16490,7 @@
    "city": "Monterrey",
    "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/f59/bc8cd2cb-97e8-49cb-b7ed-26c5842e6f59_SOURCE",
+   "image": "https://s1.ticketm.net/dam/a/f59/bc8cd2cb-97e8-49cb-b7ed-26c5842e6f59_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
    "sources": [
     {
