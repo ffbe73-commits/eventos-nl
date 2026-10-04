@@ -16,6 +16,10 @@
     "@expo/vector-icons": "^15.0.2",
     "expo-document-picker": "~55.0.17",
     "@react-native-community/datetimepicker": "8.6.0",
-    "@react-native-async-storage/async-storage": "2.2.0"
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo-font": "~55.0.8"
+  },
+  "overrides": {
+    "expo-font": "~55.0.8"
   }
 }
