@@ -1,0 +1,36 @@
+== Abrir la app ==
+   ✓ la app sigue abierta
+== Filtros ==
+→ no encontré "Filtros" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "Desactivar todas" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "Activar todas" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "Este finde" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "3 meses" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "Hoy" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "solo" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "Restablecer" en pantalla
+   ✓ la app sigue abierta
+→ no encontré "Ver " en pantalla
+   ✓ la app sigue abierta
+== Lista ==
+→ scroll hacia abajo
+   ✓ la app sigue abierta
+→ scroll hacia abajo
+   ✓ la app sigue abierta
+→ deslizar tarjeta a la izquierda (no me interesa)
+   ✓ la app sigue abierta
+→ toco "Compacta" (683 281)
+   ✓ la app sigue abierta
+→ scroll hacia abajo
+   ✓ la app sigue abierta
+→ no encontré "Buscar evento" en pantalla
+   ✓ la app sigue abierta
+   ✓ la app sigue abierta
+== Fin: la app aguantó todos los pasos ==
