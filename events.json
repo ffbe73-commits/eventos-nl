@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-04T20:36:10.640Z",
+ "generatedAt": "2026-10-04T21:26:53.990Z",
  "timezone": "America/Monterrey",
- "total": 609,
+ "total": 615,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,20 +10,20 @@
    "ok": true,
    "count": 80,
    "error": null,
-   "checkedAt": "2026-10-04T20:33:43.430Z",
-   "lastSuccess": "2026-10-04T20:33:43.430Z",
-   "ms": 2305
+   "checkedAt": "2026-10-04T21:24:15.464Z",
+   "lastSuccess": "2026-10-04T21:24:15.464Z",
+   "ms": 5047
   },
   {
    "id": "arema",
    "name": "Arema",
    "home": "https://arema.mx/",
    "ok": true,
-   "count": 150,
+   "count": 151,
    "error": null,
-   "checkedAt": "2026-10-04T20:33:45.736Z",
-   "lastSuccess": "2026-10-04T20:33:45.736Z",
-   "ms": 27921
+   "checkedAt": "2026-10-04T21:24:20.512Z",
+   "lastSuccess": "2026-10-04T21:24:20.512Z",
+   "ms": 29036
   },
   {
    "id": "superboletos",
@@ -32,9 +32,9 @@
    "ok": true,
    "count": 91,
    "error": null,
-   "checkedAt": "2026-10-04T20:34:13.658Z",
-   "lastSuccess": "2026-10-04T20:34:13.658Z",
-   "ms": 604
+   "checkedAt": "2026-10-04T21:24:49.548Z",
+   "lastSuccess": "2026-10-04T21:24:49.548Z",
+   "ms": 902
   },
   {
    "id": "ticketmaster",
@@ -43,9 +43,9 @@
    "ok": true,
    "count": 144,
    "error": null,
-   "checkedAt": "2026-10-04T20:34:14.262Z",
-   "lastSuccess": "2026-10-04T20:34:14.262Z",
-   "ms": 657
+   "checkedAt": "2026-10-04T21:24:50.450Z",
+   "lastSuccess": "2026-10-04T21:24:50.450Z",
+   "ms": 774
   },
   {
    "id": "conciertos_mty",
@@ -54,9 +54,9 @@
    "ok": true,
    "count": 73,
    "error": null,
-   "checkedAt": "2026-10-04T20:34:14.919Z",
-   "lastSuccess": "2026-10-04T20:34:14.919Z",
-   "ms": 3844
+   "checkedAt": "2026-10-04T21:24:51.224Z",
+   "lastSuccess": "2026-10-04T21:24:51.224Z",
+   "ms": 3463
   },
   {
    "id": "conarte_agenda",
@@ -65,9 +65,9 @@
    "ok": true,
    "count": 56,
    "error": null,
-   "checkedAt": "2026-10-04T20:34:18.763Z",
-   "lastSuccess": "2026-10-04T20:34:18.763Z",
-   "ms": 66984
+   "checkedAt": "2026-10-04T21:24:54.687Z",
+   "lastSuccess": "2026-10-04T21:24:54.687Z",
+   "ms": 64837
   },
   {
    "id": "cineteca",
@@ -76,19 +76,19 @@
    "ok": true,
    "count": 31,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:25.747Z",
-   "lastSuccess": "2026-10-04T20:35:25.747Z",
-   "ms": 19259
+   "checkedAt": "2026-10-04T21:25:59.525Z",
+   "lastSuccess": "2026-10-04T21:25:59.525Z",
+   "ms": 18885
   },
   {
    "id": "santa_lucia",
    "name": "Festival Santa Lucía (agenda PDF)",
    "home": "https://festivalsantalucia.gob.mx/",
    "ok": true,
-   "count": 147,
+   "count": 153,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:45.006Z",
-   "lastSuccess": "2026-10-04T20:35:45.006Z",
+   "checkedAt": "2026-10-04T21:26:18.410Z",
+   "lastSuccess": "2026-10-04T21:26:18.410Z",
    "ms": 1
   },
   {
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:45.007Z",
-   "lastSuccess": "2026-10-04T20:35:45.007Z",
-   "ms": 1332
+   "checkedAt": "2026-10-04T21:26:18.411Z",
+   "lastSuccess": "2026-10-04T21:26:18.411Z",
+   "ms": 1290
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:46.339Z",
-   "lastSuccess": "2026-10-04T20:35:46.339Z",
-   "ms": 335
+   "checkedAt": "2026-10-04T21:26:19.701Z",
+   "lastSuccess": "2026-10-04T21:26:19.701Z",
+   "ms": 264
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:46.674Z",
-   "lastSuccess": "2026-10-04T20:35:46.674Z",
-   "ms": 675
+   "checkedAt": "2026-10-04T21:26:19.965Z",
+   "lastSuccess": "2026-10-04T21:26:19.965Z",
+   "ms": 629
   },
   {
    "id": "marco",
@@ -131,9 +131,9 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:47.349Z",
-   "lastSuccess": "2026-10-04T20:35:47.349Z",
-   "ms": 467
+   "checkedAt": "2026-10-04T21:26:20.594Z",
+   "lastSuccess": "2026-10-04T21:26:20.594Z",
+   "ms": 609
   },
   {
    "id": "tres_museos",
@@ -142,9 +142,9 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:47.816Z",
-   "lastSuccess": "2026-10-04T20:35:47.816Z",
-   "ms": 1063
+   "checkedAt": "2026-10-04T21:26:21.203Z",
+   "lastSuccess": "2026-10-04T21:26:21.203Z",
+   "ms": 1073
   },
   {
    "id": "cintermex",
@@ -153,9 +153,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:48.879Z",
-   "lastSuccess": "2026-10-04T20:35:48.879Z",
-   "ms": 715
+   "checkedAt": "2026-10-04T21:26:22.276Z",
+   "lastSuccess": "2026-10-04T21:26:22.276Z",
+   "ms": 812
   },
   {
    "id": "foro_corona",
@@ -164,9 +164,9 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:49.594Z",
-   "lastSuccess": "2026-10-04T20:35:49.594Z",
-   "ms": 292
+   "checkedAt": "2026-10-04T21:26:23.088Z",
+   "lastSuccess": "2026-10-04T21:26:23.088Z",
+   "ms": 389
   },
   {
    "id": "fever",
@@ -175,9 +175,9 @@
    "ok": true,
    "count": 80,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:49.886Z",
-   "lastSuccess": "2026-10-04T20:35:49.886Z",
-   "ms": 8586
+   "checkedAt": "2026-10-04T21:26:23.477Z",
+   "lastSuccess": "2026-10-04T21:26:23.477Z",
+   "ms": 8448
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 17,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:58.472Z",
-   "lastSuccess": "2026-10-04T20:35:58.472Z",
-   "ms": 277
+   "checkedAt": "2026-10-04T21:26:31.926Z",
+   "lastSuccess": "2026-10-04T21:26:31.926Z",
+   "ms": 201
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:58.749Z",
-   "lastSuccess": "2026-10-04T20:35:58.749Z",
-   "ms": 1091
+   "checkedAt": "2026-10-04T21:26:32.127Z",
+   "lastSuccess": "2026-10-04T21:26:32.127Z",
+   "ms": 1010
   },
   {
    "id": "ballet_mty",
@@ -208,9 +208,9 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "checkedAt": "2026-10-04T20:35:59.840Z",
-   "lastSuccess": "2026-10-04T20:35:59.840Z",
-   "ms": 3287
+   "checkedAt": "2026-10-04T21:26:33.137Z",
+   "lastSuccess": "2026-10-04T21:26:33.137Z",
+   "ms": 13248
   },
   {
    "id": "sanpedro_vive",
@@ -219,9 +219,9 @@
    "ok": true,
    "count": 77,
    "error": null,
-   "checkedAt": "2026-10-04T20:36:03.127Z",
-   "lastSuccess": "2026-10-04T20:36:03.127Z",
-   "ms": 2765
+   "checkedAt": "2026-10-04T21:26:46.385Z",
+   "lastSuccess": "2026-10-04T21:26:46.385Z",
+   "ms": 3101
   },
   {
    "id": "sanpedro_parques",
@@ -230,9 +230,9 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "checkedAt": "2026-10-04T20:36:05.892Z",
-   "lastSuccess": "2026-10-04T20:36:05.892Z",
-   "ms": 4177
+   "checkedAt": "2026-10-04T21:26:49.487Z",
+   "lastSuccess": "2026-10-04T21:26:49.487Z",
+   "ms": 3806
   },
   {
    "id": "chipinque",
@@ -241,9 +241,9 @@
    "ok": true,
    "count": 26,
    "error": null,
-   "checkedAt": "2026-10-04T20:36:10.070Z",
-   "lastSuccess": "2026-10-04T20:36:10.070Z",
-   "ms": 192
+   "checkedAt": "2026-10-04T21:26:53.292Z",
+   "lastSuccess": "2026-10-04T21:26:53.292Z",
+   "ms": 378
   }
  ],
  "notIncluded": [
@@ -518,6 +518,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -562,6 +564,28 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "12fe2f94e1e8",
+   "skey": "natura programa arte publico artes|parque fundidora",
+   "title": "NATURA – Programa de arte público de Las Artes Monterrey",
+   "start": "2026-09-26",
+   "end": "2026-11-08",
+   "venue": "Parque Fundidora",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": "IX edición del programa de arte público de Las Artes Monterrey, parte del Festival Internacional de Santa Lucía. El mapa está en el código QR del cartel.",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "firstSeen": "2026-10-04T21:26:53.990Z"
+  },
+  {
    "id": "28308f5031a4",
    "skey": "mundo mira un balon|museo historia",
    "title": "El mundo mira un balón",
@@ -598,6 +622,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -742,6 +768,8 @@
      "url": "http://expomaternidadybebe.com.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Cintermex",
    "url": "http://expomaternidadybebe.com.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -769,6 +797,44 @@
    ],
    "url": "http://www.horrorfest.mx",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "Digger - IMAX 1.43:1",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/cc49fa52-ab4e-11f1-abab-c69fe7881e8a.png",
+   "start": "2026-10-03T21:40",
+   "end": "2026-10-14T19:30",
+   "price": "Desde $170",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/750169"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/digger-imax-143-1/2700030727879615"
+    }
+   ],
+   "url": "https://feverup.com/m/750169",
+   "skey": "digger imax 43|papalote museo",
+   "id": "49070a934fe9",
+   "dates": [
+    {
+     "start": "2026-10-03T21:40",
+     "end": "2026-10-14T19:30",
+     "url": "https://feverup.com/m/750169"
+    },
+    {
+     "start": "2026-10-04T19:00",
+     "end": null,
+     "url": "https://allevents.in/monterrey/digger-imax-143-1/2700030727879615"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-10-04T21:26:53.990Z"
   },
   {
    "id": "95ea92a0999a",
@@ -826,6 +892,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "liga basquetbol 3x3|parque clouthier",
    "id": "37da25570fed",
@@ -861,6 +929,27 @@
     }
    ],
    "url": "https://allevents.in/monterrey/liii-congreso-anual-del-colegio-mexicano-de-medicina-crítica/200030258341547",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "d841f72258f7",
+   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "start": "2026-10-04T09:00",
+   "end": "2026-11-29T19:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -1210,6 +1299,48 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "3f6ed36dceac",
+   "skey": "fuga prisionero san pedro|parque capitan",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "start": "2026-10-04T10:00",
+   "end": "2026-11-01T18:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
+    }
+   ],
+   "url": "https://feverup.com/m/629878",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "08e08daa518b",
+   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
+   "start": "2026-10-04T10:00",
+   "end": "2026-12-30T10:00",
+   "price": "Desde $220",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
+    }
+   ],
+   "url": "https://feverup.com/m/685013",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "id": "a0045bbddbe4",
    "skey": "papalote museo nino expo dinosaurios|papalote museo",
    "title": "Papalote Museo del Niño + Expo Dinosaurios",
@@ -1247,6 +1378,8 @@
      "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-04/"
     }
    ],
+   "free": true,
+   "freeVia": "Cartelera Escénica",
    "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-04/",
    "skey": "primera bienal fotografia nuevo leon|cineteca fototeca",
    "id": "3928f60f4500",
@@ -1390,6 +1523,27 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "99d18b77f092",
+   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "start": "2026-10-04T11:00",
+   "end": "2026-12-06T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "title": "Ludoteca La Montaña",
    "end": "2026-11-22T11:00",
    "venue": "Chipinque · Ludoteca La Montaña, Meseta",
@@ -1450,6 +1604,48 @@
      "url": "https://www.chipinque.org.mx/inicio/eventos"
     }
    ],
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "c09df5d283e2",
+   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "start": "2026-10-04T11:00",
+   "end": "2026-11-29T17:00",
+   "price": "Desde $799",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "82dfd50e57af",
+   "skey": "virtuality world cumpleanos infantiles|galerias valle",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "start": "2026-10-04T11:00",
+   "end": "2027-01-31T19:00",
+   "price": "Desde $635",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -1537,6 +1733,27 @@
      "url": "https://www.chipinque.org.mx/inicio/eventos"
     }
    ],
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "05fb3f1051b2",
+   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "start": "2026-10-04T12:30",
+   "end": "2026-10-28T18:00",
+   "price": "Desde $300",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -1734,6 +1951,11 @@
      "url": "https://arema.mx/e/21195-botargas-y-traicion"
     },
     {
+     "start": "2026-10-04T18:30",
+     "end": null,
+     "url": "https://arema.mx/e/21195-botargas-y-traicion"
+    },
+    {
      "start": "2026-10-10T15:00",
      "end": null,
      "url": "https://arema.mx/e/21195-botargas-y-traicion"
@@ -1744,70 +1966,8 @@
      "url": "https://arema.mx/e/21195-botargas-y-traicion"
     }
    ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "05fb3f1051b2",
-   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "start": "2026-10-04T15:00",
-   "end": "2026-10-28T18:00",
-   "price": "Desde $300",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "82dfd50e57af",
-   "skey": "virtuality world cumpleanos infantiles|galerias valle",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "start": "2026-10-04T15:00",
-   "end": "2027-01-31T19:00",
-   "price": "Desde $635",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "99d18b77f092",
-   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "start": "2026-10-04T16:00",
-   "end": "2026-12-06T17:00",
-   "price": "Desde $370",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-10-04T21:26:53.990Z"
   },
   {
    "id": "be222165aa92",
@@ -1827,6 +1987,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -1874,48 +2036,6 @@
     }
    ],
    "url": "https://carteleraescenica.com/eventos/grease-llega-a-escobedo/2026-10-04/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "3f6ed36dceac",
-   "skey": "fuga prisionero san pedro|parque capitan",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "start": "2026-10-04T16:00",
-   "end": "2026-11-01T18:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "d841f72258f7",
-   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "start": "2026-10-04T17:00",
-   "end": "2026-11-29T19:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -2130,31 +2250,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "f0d9b85f4e74",
-   "skey": "digger imax 43|papalote museo",
-   "title": "Digger - IMAX 1.43:1",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/cc49fa52-ab4e-11f1-abab-c69fe7881e8a.png",
-   "start": "2026-10-04T19:00",
-   "end": "2026-10-14T19:30",
-   "price": "Desde $170",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/750169"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/digger-imax-143-1/2700030727879615"
-    }
-   ],
-   "url": "https://feverup.com/m/750169",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "id": "814a4b59e13b",
    "skey": "acontecimiento|teatro centro",
    "title": "El acontecimiento",
@@ -2176,6 +2271,8 @@
      "url": "https://conarte.org.mx/agenda/escena-conarte-i-el-acontecimiento/"
     }
    ],
+   "free": true,
+   "freeVia": "Cartelera Escénica",
    "url": "https://carteleraescenica.com/eventos/el-acontecimiento/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -2187,7 +2284,7 @@
    "address": "Calle Bosques de los Pirineos, Bosques del Valle, San Pedro Garza García, Nuevo León, 66268, México",
    "city": "San Pedro Garza García",
    "category": "Música",
-   "price": null,
+   "price": "Entrada libre",
    "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f124794-ee1c-6e20-94b0-14c57260ca73.png",
    "description": "Conciertos de música en vivo en el parque Entrada libre*",
    "sources": [
@@ -2200,6 +2297,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "Vive San Pedro",
    "url": "https://vive.sanpedro.gob.mx/evento/1273",
    "skey": "musica parque|parque bosques",
    "id": "bdf7c718def3",
@@ -2386,27 +2485,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "d55389ce3b44",
-   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
-   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
-   "venue": "Banco Mercantil",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
-   "start": "2026-10-05T10:00",
-   "end": "2026-12-30T10:00",
-   "price": "Desde $220",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/685013"
-    }
-   ],
-   "url": "https://feverup.com/m/685013",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "id": "a23e5c913603",
    "skey": "comunidad slackline|parque bosques",
    "title": "Comunidad slackline",
@@ -2424,6 +2502,8 @@
      "url": "https://sanpedroparques.mx/eventos/comunidad-slackline-4/"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/comunidad-slackline-4/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -2445,6 +2525,8 @@
      "url": "https://sanpedroparques.mx/eventos/zhineng-qi-gong-4/"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/zhineng-qi-gong-4/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -2466,28 +2548,9 @@
      "url": "https://sanpedroparques.mx/eventos/pilates-hiit-10/"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/pilates-hiit-10/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "82cea8aa1f53",
-   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
-   "start": "2026-10-06T11:00",
-   "end": "2026-11-29T17:00",
-   "price": "Desde $799",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/707636"
-    }
-   ],
-   "url": "https://feverup.com/m/707636",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -2508,6 +2571,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -2563,6 +2628,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "curso elixir tierra lombricomposta|parque mirador",
    "id": "8461cbac03f6",
@@ -2726,6 +2793,8 @@
      "url": "https://sanpedroparques.mx/eventos/yoga-con-orlando-4/"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/yoga-con-orlando-4/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -2940,6 +3009,8 @@
      "url": "https://vive.sanpedro.gob.mx/evento/1117"
     }
    ],
+   "free": true,
+   "freeVia": "Vive San Pedro",
    "url": "https://vive.sanpedro.gob.mx/evento/1117",
    "skey": "miercoles ciudadano|bajos palacio",
    "id": "6f57d4301e65",
@@ -3066,6 +3137,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "club journaling paper club|parque mississippi",
    "id": "4a59a1f8843d",
@@ -3125,6 +3198,8 @@
      "url": "https://sanpedroparques.mx/eventos/mindfulness-y-afirmaciones-con-cuencos-2/"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/mindfulness-y-afirmaciones-con-cuencos-2/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3146,6 +3221,8 @@
      "url": "https://sanpedroparques.mx/eventos/yoga-con-cecilia/"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/yoga-con-cecilia/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3326,6 +3403,8 @@
      "url": "https://conarte.org.mx/agenda/expo-venta-de-materiales/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/expo-venta-de-materiales/",
    "skey": "expo venta materiales|escuela adolfo",
    "id": "738ede129c84",
@@ -3364,6 +3443,8 @@
      "url": "https://conarte.org.mx/agenda/expo-venta-de-obra-grafica/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/expo-venta-de-obra-grafica/",
    "skey": "expo venta obra grafica|escuela adolfo",
    "id": "f7ace8617e42",
@@ -3402,6 +3483,8 @@
      "url": "https://conarte.org.mx/agenda/clase-maestra-impresion-de-diferentes-tecnicas-de-grabado/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/clase-maestra-impresion-de-diferentes-tecnicas-de-grabado/",
    "skey": "clase maestra impresion diferentes tecnicas grabado|escuela adolfo",
    "id": "56843b6bcc76",
@@ -3531,6 +3614,8 @@
      "url": "https://conarte.org.mx/agenda/conversatorio-mesa-1-coleccionismo/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conversatorio-mesa-1-coleccionismo/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3552,6 +3637,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3607,6 +3694,8 @@
      "url": "https://conarte.org.mx/agenda/inauguracion-septentrional-ii-encuentro-nacional-de-grafica-2026/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/inauguracion-septentrional-ii-encuentro-nacional-de-grafica-2026/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3889,6 +3978,8 @@
      "url": "https://conarte.org.mx/agenda/taller-demostracion-de-grabado-en-jicaras/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/taller-demostracion-de-grabado-en-jicaras/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3910,6 +4001,8 @@
      "url": "https://conarte.org.mx/agenda/intercambio-grafico-sororidad-por-la-colectiva-mayahuel-grafica/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/intercambio-grafico-sororidad-por-la-colectiva-mayahuel-grafica/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3931,6 +4024,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-bon-a-tirerm-legado-editorial-de-la-grafica-en-mexico/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-bon-a-tirerm-legado-editorial-de-la-grafica-en-mexico/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3952,6 +4047,8 @@
      "url": "https://conarte.org.mx/agenda/pechakucha-i/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/pechakucha-i/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3973,6 +4070,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-promocion-y-difusion-de-la-grafica/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-promocion-y-difusion-de-la-grafica/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -3994,6 +4093,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-el-origen-del-concepto-de-original-multiple/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-el-origen-del-concepto-de-original-multiple/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4015,6 +4116,8 @@
      "url": "https://conarte.org.mx/agenda/clase-maestra-galvanografia/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/clase-maestra-galvanografia/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4036,6 +4139,8 @@
      "url": "https://conarte.org.mx/agenda/clase-maestra-la-prensa-portatil-construccion-y-sus-posibilidades/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/clase-maestra-la-prensa-portatil-construccion-y-sus-posibilidades/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4136,7 +4241,7 @@
      "start": "2027-01-16T21:00",
      "end": null,
      "url": "https://feverup.com/m/392211",
-     "price": "$500 – $1,150"
+     "price": "$520 – $1,150"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
@@ -4159,6 +4264,8 @@
      "url": "https://conarte.org.mx/agenda/conversatorio-mesa-2-cruces-interdisciplinarios/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conversatorio-mesa-2-cruces-interdisciplinarios/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4510,6 +4617,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "parquemovil programa recreativo itinerante|parque pajaro",
    "id": "92b7015add42",
@@ -4577,6 +4686,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4630,6 +4741,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-i-guayo-valenzuela-obra-personal/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-i-guayo-valenzuela-obra-personal/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4683,6 +4796,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-club-de-grafica-y-grabado-en-la-escuela-adolfo-prieto/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-club-de-grafica-y-grabado-en-la-escuela-adolfo-prieto/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4704,6 +4819,8 @@
      "url": "https://conarte.org.mx/agenda/clase-maestra-cata-de-papel/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/clase-maestra-cata-de-papel/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4725,6 +4842,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4746,6 +4865,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-el-oficio-de-estampar/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-el-oficio-de-estampar/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4842,6 +4963,8 @@
      "url": "https://conarte.org.mx/agenda/pechakucha-ii/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/pechakucha-ii/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4863,6 +4986,8 @@
      "url": "https://conarte.org.mx/agenda/conversatorio-mesa-3-estampa-intima-narrativas-personales/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conversatorio-mesa-3-estampa-intima-narrativas-personales/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4882,6 +5007,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "mercado poniente|parque clouthier",
    "id": "6d58ffd8fbd6",
@@ -4962,6 +5089,8 @@
      "url": "https://conarte.org.mx/agenda/procesos-graficos/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/procesos-graficos/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -4983,6 +5112,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-forma-5-historia-del-taller/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-forma-5-historia-del-taller/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5050,6 +5181,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-el-grabado-y-la-numismatica-la-casa-de-moneda-y-los-grabadores/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-el-grabado-y-la-numismatica-la-casa-de-moneda-y-los-grabadores/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5182,6 +5315,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-a-200-anos-de-la-litografia-en-mexico/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-a-200-anos-de-la-litografia-en-mexico/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5227,6 +5362,8 @@
      "url": "https://conarte.org.mx/agenda/conferencia-autogestion/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conferencia-autogestion/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5248,6 +5385,8 @@
      "url": "https://conarte.org.mx/agenda/conversatorio-mesa-4-territorio-de-encuentros/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/conversatorio-mesa-4-territorio-de-encuentros/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5269,6 +5408,8 @@
      "url": "https://conarte.org.mx/agenda/clausura-septentrional-ii-segundo-encuentro-nacional-de-grafica-nuevo-leon-2026/"
     }
    ],
+   "free": true,
+   "freeVia": "CONARTE",
    "url": "https://conarte.org.mx/agenda/clausura-septentrional-ii-segundo-encuentro-nacional-de-grafica-nuevo-leon-2026/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5473,6 +5614,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "emociones memorias habitantes rio|museo historia",
    "id": "e781b2ffc32b",
@@ -5537,6 +5680,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5801,6 +5946,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5822,6 +5969,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5925,6 +6074,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -5987,6 +6138,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "curso biofertilizantes bocashi|parque mirador",
    "id": "656c1e163725",
@@ -6022,6 +6175,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -6385,6 +6540,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -6596,6 +6753,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -6732,6 +6891,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7013,6 +7174,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7380,6 +7543,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7420,6 +7585,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7510,6 +7677,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2026-10-04T20:13:02.499Z"
   },
@@ -7613,6 +7782,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7633,6 +7804,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7653,6 +7826,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7721,6 +7896,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7741,6 +7918,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7761,6 +7940,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7781,6 +7962,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -7799,6 +7982,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "bandakadabra techno brass composer|nuevo parque",
    "id": "fa14b730ca71",
@@ -7838,6 +8023,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8141,6 +8328,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "mercadinn|parque mississippi",
    "id": "2e90507d9c49",
@@ -8176,6 +8365,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8195,6 +8386,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "mofu mofu kawaii market|parque clouthier",
    "id": "1b33cf2e02b2",
@@ -8229,6 +8422,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8326,6 +8521,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8384,6 +8581,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8404,6 +8603,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8424,6 +8625,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8442,6 +8645,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "bandakadabra techno brass composer|plaza principal",
    "id": "fb257c10d912",
@@ -8476,6 +8681,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8496,6 +8703,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8514,6 +8723,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "giramundo cores aide|nuevo parque",
    "id": "22a9f32f2035",
@@ -8548,6 +8759,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8690,6 +8903,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8712,6 +8927,8 @@
      "url": "https://arema.mx/e/20603-expo-kawaii-halloween-en-monterrey"
     }
    ],
+   "free": true,
+   "freeVia": "Arema",
    "url": "https://arema.mx/e/20603-expo-kawaii-halloween-en-monterrey",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8733,6 +8950,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8753,6 +8972,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8774,6 +8995,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8795,6 +9018,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8813,6 +9038,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "safari baldufa|escenario aire",
    "id": "add7c446ec23",
@@ -9006,6 +9233,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9027,6 +9256,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9047,6 +9278,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9067,6 +9300,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9087,6 +9322,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9107,6 +9344,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9126,6 +9365,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "skey": "murcisemana recorrido nocturno conociendo murcielagos|parque capitan",
    "id": "094b5329589f",
@@ -9160,6 +9401,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9180,6 +9423,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9198,6 +9443,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "tingo tango bomba teatro|nuevo parque",
    "id": "f0d1e0283b79",
@@ -9240,6 +9487,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f124794-ee1c-6e20-94b0-14c57260ca73.png",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
@@ -9261,6 +9510,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9281,6 +9532,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9347,6 +9600,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9365,6 +9620,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "bandakadabra techno brass composer|centro comunitario",
    "id": "0d15a9232eb3",
@@ -9404,6 +9661,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9424,6 +9683,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9444,6 +9705,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9546,6 +9809,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9564,6 +9829,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "festival intrauniversitario rondallas uanl|aula magna",
    "id": "cfbd02095012",
@@ -9598,6 +9865,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9618,8 +9887,32 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "af1e56f11fd9",
+   "skey": "retrato dorian gray compania teatro tec festival santa lucia|teatro centro",
+   "title": "El Retrato de Dorian Gray – Compañía de Teatro del Tec de Monterrey (Festival Santa Lucía)",
+   "start": "2026-10-27T19:00",
+   "end": null,
+   "venue": "Teatro Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "De Oscar Wilde. Dirección y adaptación de Emanuel Anguiano. La Compañía de Teatro del Tecnológico de Monterrey presenta esta función como participación en el Festival Internacional de Santa Lucía.",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "firstSeen": "2026-10-04T21:26:53.990Z"
   },
   {
    "id": "18970893dfc6",
@@ -9638,6 +9931,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9658,6 +9953,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9700,6 +9997,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9720,6 +10019,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9741,6 +10042,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9761,6 +10064,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9781,6 +10086,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9801,6 +10108,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9855,6 +10164,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9878,6 +10189,28 @@
    ],
    "url": "https://www.ticketmaster.com.mx/eterno-marcos-vidal-marcos-witt-marco-monterrey-28-10-2026/event/140064C681572E2A",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "5b04969e7ea4",
+   "skey": "fisl 26 artista sorpresa|explanada heroes",
+   "title": "FISL 26: Artista Sorpresa",
+   "start": "2026-10-28T20:00",
+   "end": null,
+   "venue": "Explanada de los Héroes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": "Entrada libre",
+   "description": "Concierto con artista sorpresa del Festival Internacional de Santa Lucía. Todo público.",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "firstSeen": "2026-10-04T21:26:53.990Z"
   },
   {
    "id": "dd36845f37fb",
@@ -9950,8 +10283,30 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "65f739963058",
+   "skey": "cuadrante encuentro arte diseno arquitectura festival santa lucia|varias sedes",
+   "title": "CUADRANTE – Encuentro de Arte, Diseño y Arquitectura (Festival Santa Lucía)",
+   "start": "2026-10-29",
+   "end": "2026-11-08",
+   "venue": "Varias sedes en Monterrey",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Consultar agenda",
+   "description": "Plataforma cultural de once días: artistas, diseñadores, arquitectos, instituciones y espacios independientes presentan una agenda que hace visible el talento y la economía creativa de Nuevo León. La agenda completa está en el código QR del cartel del festival.",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "firstSeen": "2026-10-04T21:26:53.990Z"
   },
   {
    "id": "1a4f95f36963",
@@ -9970,6 +10325,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -9991,6 +10348,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10011,6 +10370,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10029,6 +10390,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "giramundo cores aide|esfera cultural",
    "id": "3065c17fddc1",
@@ -10047,6 +10410,28 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "23f9c1fe7e8c",
+   "skey": "mexico yo ciudadanos mundo mural corte liston|juan ignacio",
+   "title": "México y Yo: Ciudadanos del Mundo – mural (corte de listón)",
+   "start": "2026-10-29T18:00",
+   "end": null,
+   "venue": "Juan Ignacio Ramón 835, Centro",
+   "city": "Monterrey",
+   "category": "Exposiciones",
+   "price": "Entrada libre",
+   "description": "Cierre en Monterrey del recorrido de México y Yo: Un Viaje a Color. Inauguración de un mural bajo la narrativa Ciudadanos del Mundo. Intervención artística permanente. Todo público.",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "firstSeen": "2026-10-04T21:26:53.990Z"
+  },
+  {
    "id": "db2f2f49a052",
    "skey": "cine fisl monkey tale le chateau des singes|explanada cultural",
    "title": "Cine FISL: A Monkey's Tale (Le Château des singes)",
@@ -10063,6 +10448,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10081,6 +10468,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "recreo flip fabrique|nuevo parque",
    "id": "7dcb8d3aa21b",
@@ -10156,6 +10545,26 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "79331b244cb4",
+   "skey": "fuckup nights festival internacional santa lucia edition|museo historia",
+   "title": "Fuckup Nights Monterrey – Festival Internacional Santa Lucía Edition",
+   "start": "2026-10-29T19:30",
+   "end": null,
+   "venue": "Museo de Historia Mexicana",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "description": "Historias de fracasos y aprendizajes con Guillermo Martínez, Clara Villarreal, Gonzalo Iglesias, Hazael Misraím López, Rodrigo Rivera del Río, Omar Méndez, Guillermo MH y Rubendario.",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "firstSeen": "2026-10-04T21:26:53.990Z"
+  },
+  {
    "id": "458e709a4cda",
    "skey": "enigmas mente magia dr|dramatico",
    "title": "Los Enigmas de la Mente: La Magia del Dr. G",
@@ -10198,6 +10607,8 @@
      "url": "https://orquestasinfonica.uanl.mx/temporada-2026-tercera-serie/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "image": "https://orquestasinfonica.uanl.mx/wp-content/uploads/2026/09/TERCERA-SERIE-20264.png",
    "tickets": "https://boletia.com/",
    "url": "https://festivalsantalucia.gob.mx/",
@@ -10318,6 +10729,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10339,6 +10752,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10360,6 +10775,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10380,6 +10797,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10401,6 +10820,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10421,6 +10842,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10441,6 +10864,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10461,6 +10886,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10553,6 +10980,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10573,6 +11002,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10747,6 +11178,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10768,6 +11201,8 @@
      "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
     }
    ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10788,6 +11223,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10808,6 +11245,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10828,6 +11267,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10848,6 +11289,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10868,6 +11311,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10888,6 +11333,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10908,6 +11355,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10928,6 +11377,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -11075,6 +11526,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "skey": "recreo flip fabrique|san pedro",
    "id": "fa61f8da58b1",
@@ -11109,6 +11562,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -11151,6 +11606,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -11171,6 +11628,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -11191,6 +11650,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -11211,6 +11672,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -11258,6 +11721,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -11440,6 +11905,8 @@
      "url": "https://festivalsantalucia.gob.mx/"
     }
    ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
