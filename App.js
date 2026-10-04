@@ -1,4 +1,4 @@
-// Eventos NL — V2.1 (vista grande/compacta, deslizar para decidir, cartelera arriba)
+// Eventos NL — V2.2 (vista grande/compacta, deslizar para decidir, cartelera arriba)
 // Lee los eventos que junta el recolector de GitHub y te deja agendarlos, marcarlos y guardar a cuáles fuiste.
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import {
@@ -417,8 +417,9 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
   const catsPresent = useMemo(() => Object.keys(CAT).filter((c) => allEvents.some((e) => e.category === c)), [allEvents]);
   const nOn = catsPresent.filter((c) => !off[c]).length;
 
+  const qd = React.useDeferredValue(q); // escribir no se traba: la lista se filtra cuando hay tiempo
   const visibles = useMemo(() => allEvents.filter((e) => !isHiddenEv(hidden, e) && !off[e.category]
-    && (!q || `${e.title} ${e.venue || ''}`.toLowerCase().includes(q.toLowerCase()))), [allEvents, hidden, off, q]);
+    && (!qd || `${e.title} ${e.venue || ''}`.toLowerCase().includes(qd.toLowerCase()))), [allEvents, hidden, off, qd]);
 
   const perDay = useMemo(() => {
     const m = {};
@@ -452,6 +453,13 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
   }, [visibles, a, b, t]);
 
   const total = sections.reduce((n, sct) => n + sct.data.length, 0);
+  // Acciones estables: así cada tarjeta sólo se vuelve a dibujar si cambia ELLA (no toda la lista).
+  const act = React.useRef({});
+  act.current = { open, hideNow, likeNow, askHide, toggleFav };
+  const renderRow = useCallback(({ item }) => (
+    <EventRow item={item} act={act} compact={compact} isNew={!!lastSeen && !!item.e.firstSeen && item.e.firstSeen > lastSeen}
+      fav={!!favs[item.e.id]} agendado={!!agendados[item.e.id]} />
+  ), [compact, lastSeen, favs, agendados]);
   // "No te lo pierdas": lo que se está vendiendo rápido (sin importar el mes) y lo recién anunciado.
   const isNewEv = (e) => !!lastSeen && !!e.firstSeen && e.firstSeen > lastSeen;
   const hotList = useMemo(() => visibles.filter((e) => isHot(e) && !e.soldOut && day(e.end || e.start) >= t)
@@ -548,11 +556,12 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
         stickySectionHeadersEnabled
         renderSectionHeader={({ section }) => <Text style={s.secHead}>{section.title} <Text style={s.secCount}>· {section.data.length}</Text></Text>}
         ListHeaderComponent={header}
-        renderItem={({ item }) => (
-          <SwipeRow onLeft={() => hideNow(item.e)} onRight={() => likeNow(item.e)}>
-            <EventCard ev={item.e} occ={item.occ} compact={compact} isNew={isNewEv(item.e)} fav={!!favs[item.e.id]} agendado={!!agendados[item.e.id]} onPress={() => open(item.e)} onLongPress={() => askHide(item.e)} onFav={() => toggleFav(item.e)} />
-          </SwipeRow>
-        )}
+        renderItem={renderRow}
+        initialNumToRender={compact ? 10 : 5}
+        maxToRenderPerBatch={compact ? 10 : 5}
+        updateCellsBatchingPeriod={40}
+        windowSize={7}
+        removeClippedSubviews={Platform.OS === 'android'}
         refreshControl={<RefreshControl refreshing={refreshing} tintColor={C.accent} colors={[C.accent]} onRefresh={async () => { setRefreshing(true); await onRefresh(); setRefreshing(false); }} />}
         ListEmptyComponent={<View style={s.center}><Ionicons name="calendar-clear-outline" size={40} color={C.sub} /><Text style={s.sub}>{nOn ? 'No hay eventos con estos filtros.' : 'No hay categorías activas. Abre Filtros y elige al menos una.'}</Text></View>}
         ListFooterComponent={total ? <Text style={[s.sub, { textAlign: 'center', padding: 16 }]}>{total} resultados</Text> : null}
@@ -758,11 +767,18 @@ function NoImage({ ev, style, big }) {
 }
 
 // Imagen del evento; si no carga, muestra el recuadro de su categoría.
-function EvImage({ ev, style, big }) {
+// Pide la imagen en tamaño de celular (no la original de 2000+ px) cuando el sitio lo permite.
+const imgUri = (u, w = 700) => {
+  if (!u) return u;
+  if (/feverup\.com\/image\/upload\//.test(u) && !/\/upload\/[a-z]_/.test(u)) return u.replace('/image/upload/', `/image/upload/w_${w},c_limit,q_auto/`);
+  return u;
+};
+const EvImage = React.memo(function EvImage({ ev, style, big }) {
   const [bad, setBad] = useState(false);
   if (!ev.image || bad) return <NoImage ev={ev} style={style} big={big} />;
-  return <Image source={{ uri: ev.image }} style={style} onError={() => setBad(true)} />;
-}
+  // resizeMethod="resize": Android reduce la imagen al decodificarla (mucho menos memoria y trabajo).
+  return <Image source={{ uri: imgUri(ev.image, big ? 800 : 300) }} style={style} resizeMethod="resize" fadeDuration={120} onError={() => setBad(true)} />;
+});
 
 // Talón de boleto en la esquina de la foto: SÁB / 24 / OCT (o "HASTA 12 NOV" en temporadas).
 function DateStub({ ev, occ }) {
@@ -868,6 +884,17 @@ function EventCard({ ev, occ, fav, agendado, onPress, onLongPress, onFav, right,
 
 // Deslizar estilo Tinder: ← izquierda = No me interesa (se oculta), → derecha = Me interesa (⭐).
 // Tocar la tarjeta sigue abriendo el detalle; el deslizamiento sólo se activa con un movimiento claramente horizontal.
+const EventRow = React.memo(function EventRow({ item, act, compact, isNew, fav, agendado }) {
+  const e = item.e;
+  return (
+    <SwipeRow onLeft={() => act.current.hideNow(e)} onRight={() => act.current.likeNow(e)}>
+      <EventCard ev={e} occ={item.occ} compact={compact} isNew={isNew} fav={fav} agendado={agendado}
+        onPress={() => act.current.open(e)} onLongPress={() => act.current.askHide(e)} onFav={() => act.current.toggleFav(e)} />
+    </SwipeRow>
+  );
+}, (p, n) => p.item.e === n.item.e && p.item.occ.start === n.item.occ.start && p.compact === n.compact
+  && p.isNew === n.isNew && p.fav === n.fav && p.agendado === n.agendado);
+
 function SwipeRow({ children, onLeft, onRight }) {
   const x = React.useRef(new Animated.Value(0)).current;
   const cb = React.useRef({ onLeft, onRight });
@@ -961,7 +988,7 @@ function DetailModal({ ev, onClose, favs, hidden, agendados, checkins, toggleFav
           </View>
         </View>
         <ScrollView contentContainerStyle={{ paddingBottom: 40 }}>
-          {ev.image ? <Image source={{ uri: ev.image }} style={s.hero} resizeMode="cover" /> : null}
+          {ev.image ? <Image source={{ uri: imgUri(ev.image, 1000) }} style={s.hero} resizeMode="cover" resizeMethod="resize" /> : null}
           <View style={{ padding: 16 }}>
             <Text style={[s.badge, { color: ci.c, fontSize: 13 }]}><Ionicons name={ci.i} size={13} /> {ev.category}</Text>
             <Text style={s.h2}>{ev.title}</Text>
