@@ -1,201 +1,376 @@
-10-04 01:01:58.286 D/CarrierSvcBindHelper( 1054): onPackageAdded: com.ediel.eventosnl
-10-04 01:01:58.290 I/SafetyLabelChangedBroadcastReceiver(  855): received broadcast packageName: com.ediel.eventosnl, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
-10-04 01:01:58.291 I/SdkSandboxManager(  520): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10192, mPackageName='com.ediel.eventosnl, mAppProcessToken='null'}
-10-04 01:01:58.296 D/ImsResolver( 1054): maybeAddedImsService, packageName: com.ediel.eventosnl
-10-04 01:01:58.409 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:01:58.477 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:01:58.716 D/AndroidRuntime( 3310): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-10-04 01:01:58.721 I/AndroidRuntime( 3310): Using default boot image
-10-04 01:01:58.729 I/AndroidRuntime( 3310): Leaving lock profiling enabled
-10-04 01:01:58.800 E/PhenotypeFlagCommitter( 3058): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:01:58.810 W/SP.AiAi ( 1583): Error downloading: manifests:webref-2-en-us-19071200
-10-04 01:01:58.831 W/AsyncOperation( 1406): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
-10-04 01:01:58.835 W/AsyncOperation( 1406): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
-10-04 01:01:58.929 D/CarrierSvcBindHelper( 1054): onPackageModified: com.ediel.eventosnl
-10-04 01:01:58.955 D/ImsResolver( 1054): maybeAddedImsService, packageName: com.ediel.eventosnl
-10-04 01:01:59.121 D/AndroidRuntime( 3310): Calling main entry com.android.commands.monkey.Monkey
-10-04 01:01:59.122 W/Monkey  ( 3310): args: [-p, com.ediel.eventosnl, -c, android.intent.category.LAUNCHER, 1]
-10-04 01:01:59.123 W/Monkey  ( 3310):  arg: "com.ediel.eventosnl"
-10-04 01:01:59.123 W/Monkey  ( 3310): data="com.ediel.eventosnl"
-10-04 01:01:59.502 V/WindowManagerShell(  841): Transition requested: android.os.BinderProxy@ca82fa4 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ediel.eventosnl/.MainActivity } baseActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} topActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} origActivity=null realActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} numActivities=1 lastActiveTime=54563 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@ef8710d} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{f4848c2 com.ediel.eventosnl.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
-10-04 01:01:59.510 I/ActivityTaskManager(  520): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ediel.eventosnl/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
-10-04 01:01:59.531 D/CoreBackPreview(  520): Window{1c326a u0 Splash Screen com.ediel.eventosnl}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@dbba4d1, mPriority=0, mIsAnimationCallback=false}
-10-04 01:01:59.557 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:01:59.637 I/ediel.eventosnl( 3394): Using CollectorTypeCC GC.
-10-04 01:01:59.638 W/ediel.eventosnl( 3394): Unexpected CPU variant for x86: x86_64.
-10-04 01:01:59.638 W/ediel.eventosnl( 3394): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
-10-04 01:01:59.639 E/ediel.eventosnl( 3394): Not starting debugger since process cannot load the jdwp agent.
-10-04 01:01:59.646 I/ActivityManager(  520): Start proc 3394:com.ediel.eventosnl/u0a192 for next-top-activity {com.ediel.eventosnl/com.ediel.eventosnl.MainActivity}
-10-04 01:01:59.662 I/AndroidRuntime( 3310): VM exiting with result code 0.
-10-04 01:01:59.666 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:01:59.707 W/AiAiAutofill( 1583): java.lang.SecurityException: caller is not user's Augmented Autofill Service
-10-04 01:01:59.765 V/WindowManager(  520): Sent Transition #6 createdAt=10-04 01:01:59.371 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ediel.eventosnl/.MainActivity } baseActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} topActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} origActivity=null realActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} numActivities=1 lastActiveTime=54563 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{24b9cc4 Task{eb213b2 #8 type=standard A=10192:com.ediel.eventosnl}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{78da7ad com.ediel.eventosnl.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
-10-04 01:01:59.777 V/WindowManager(  520):     info={id=6 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{24b9cc4 Task{eb213b2 #8 type=standard A=10192:com.ediel.eventosnl}}} m=OPEN f=NONE leash=Surface(name=Task=8)/@0x7b58ef5 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{WCT{RemoteToken{461332e Task{7f5b70d #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x978db74 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0}]}
-10-04 01:01:59.840 D/nativeloader( 3394): Configuring clns-6 for other apk /data/app/~~IBIC0NPNqFZVDuusWK6ZRg==/com.ediel.eventosnl-0fEucL6qyYQfE4ptmD9qpw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~IBIC0NPNqFZVDuusWK6ZRg==/com.ediel.eventosnl-0fEucL6qyYQfE4ptmD9qpw==/lib/x86_64:/data/app/~~IBIC0NPNqFZVDuusWK6ZRg==/com.ediel.eventosnl-0fEucL6qyYQfE4ptmD9qpw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.ediel.eventosnl
-10-04 01:01:59.844 V/GraphicsEnvironment( 3394): ANGLE GameManagerService for com.ediel.eventosnl: false
-10-04 01:01:59.844 V/GraphicsEnvironment( 3394): com.ediel.eventosnl is not listed in per-application setting
-10-04 01:01:59.881 W/SoLoader( 3394): Initializing SoLoader: 0
-10-04 01:01:59.881 W/SoLoader( 3394): Recording new base apk path: /data/app/~~IBIC0NPNqFZVDuusWK6ZRg==/com.ediel.eventosnl-0fEucL6qyYQfE4ptmD9qpw==/base.apk
-10-04 01:01:59.881 W/SoLoader( 3394): Previously recorded 0 base apk paths.
-10-04 01:01:59.882 I/SoLoader( 3394): Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
-10-04 01:01:59.883 I/SoLoader( 3394): Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
-10-04 01:01:59.883 I/SoLoader( 3394): Preparing SO source: DirectApkSoSource[root = [/data/app/~~IBIC0NPNqFZVDuusWK6ZRg==/com.ediel.eventosnl-0fEucL6qyYQfE4ptmD9qpw==/base.apk!/lib/x86_64]]
-10-04 01:01:59.888 I/SoLoader( 3394): Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~IBIC0NPNqFZVDuusWK6ZRg==/com.ediel.eventosnl-0fEucL6qyYQfE4ptmD9qpw==/lib/x86_64 flags = 0]]
-10-04 01:01:59.892 I/SoLoader( 3394): init finish: 4 SO sources prepared
-10-04 01:01:59.892 W/SoLoader( 3394): SoLoader initialized: 8
-10-04 01:02:00.087 W/Telephony( 1054): registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
-10-04 01:02:00.093 W/Telephony( 1054): registerImsRegistrationCallback: registration failed, no ImsService available. Exception: code: 1
-10-04 01:02:00.239 W/Telephony( 1054): registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
-10-04 01:02:00.247 W/AiAiAutofill( 1583): java.lang.SecurityException: caller is not user's Augmented Autofill Service
-10-04 01:02:00.254 W/AsyncOperation( 1406): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
-10-04 01:02:00.528 D/CoreBackPreview(  520): Window{2c58b00 u0 com.ediel.eventosnl/com.ediel.eventosnl.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@dc36edf, mPriority=0, mIsAnimationCallback=false}
-10-04 01:02:00.589 E/SystemServiceRegistry( 1007): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
-10-04 01:02:00.624 W/Telephony( 1054): registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
-10-04 01:02:00.640 I/ExpoModulesCore( 3394): ✅ AppContext was initialized
-10-04 01:02:00.847 I/ImeTracker(  520): com.ediel.eventosnl:2dccdeee: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
-10-04 01:02:00.850 I/ImeTracker(  520): com.ediel.eventosnl:2dccdeee: onCancelled at PHASE_SERVER_SHOULD_HIDE
-10-04 01:02:00.874 I/GoogleInputMethodService( 1499): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.ediel.eventosnl fieldId=0 fieldName=null extras=null}, false)
-10-04 01:02:00.874 D/CoreBackPreview(  520): Window{1c326a u0 Splash Screen com.ediel.eventosnl}: Setting back callback null
-10-04 01:02:00.877 W/InputManager-JNI(  520): Input channel object '1c326a Splash Screen com.ediel.eventosnl (client)' was disposed without first being removed with the input manager!
-10-04 01:02:00.932 I/ExpoModulesCore( 3394): ✅ JSI interop was installed
-10-04 01:02:00.935 I/ExpoModulesCore( 3394): ✅ Constants were exported
-10-04 01:02:00.951 W/unknown:ViewManagerPropertyUpdater( 3394): Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
-10-04 01:02:00.955 W/unknown:ViewManagerPropertyUpdater( 3394): Could not find generated setter for class expo.modules.kotlin.views.SimpleViewManagerWrapper
-10-04 01:02:01.029 I/ActivityTaskManager(  520): Displayed com.ediel.eventosnl/.MainActivity for user 0: +1s534ms
-10-04 01:02:01.061 V/AsyncStorageExpoMigration( 3394): No scoped database found
-10-04 01:02:01.083 I/ReactNativeJS( 3394): Running "main"
-10-04 01:02:01.089 W/ReactNativeJS( 3394): SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context
-10-04 01:02:01.378 W/unknown:ReactNative( 3394): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
-10-04 01:02:01.379 W/unknown:ReactNative( 3394): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
-10-04 01:02:01.621 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:01.873 D/StrictMode( 1693): 	at android.os.Parcel.readExceptionCode(Parcel.java:3002)
-10-04 01:02:01.873 D/StrictMode( 1693): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:139)
-10-04 01:02:01.873 D/StrictMode( 1693): 	at android.os.Parcel.readExceptionCode(Parcel.java:3002)
-10-04 01:02:01.873 D/StrictMode( 1693): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:139)
-10-04 01:02:01.873 D/StrictMode( 1693): 	at android.os.Parcel.readExceptionCode(Parcel.java:3002)
-10-04 01:02:01.873 D/StrictMode( 1693): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:139)
-10-04 01:02:01.906 E/Auth    ( 1816): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:01.942 W/unknown:ReactNative( 3394): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
-10-04 01:02:02.182 W/ediel.eventosnl( 3394): Entry not found
-10-04 01:02:02.267 I/cr_VariationsUtils( 3394): Failed reading seed file "/data/user/0/com.ediel.eventosnl/app_webview/variations_seed_new"
-10-04 01:02:02.267 I/cr_VariationsUtils( 3394): Failed reading seed file "/data/user/0/com.ediel.eventosnl/app_webview/variations_seed"
-10-04 01:02:02.475 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:03.294 W/unknown:ReactNative( 3394): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
-10-04 01:02:04.775 E/TaskWorkerFactory( 2972): java.lang.NoSuchMethodException: com.android.devicelockcontroller.provision.worker.DeviceCheckInWorker.<init> [class android.content.Context, class androidx.work.WorkerParameters, interface com.google.common.util.concurrent.ListeningExecutorService]
-10-04 01:02:04.978 I/AiAiEcho( 1583): AppFetcherImplV2 updateApps package:[com.ediel.eventosnl], userId:[0], reason:[package is added.].
-10-04 01:02:05.656 D/ProfileInstaller( 3394): Installing profile for com.ediel.eventosnl
-10-04 01:02:06.266 W/Icing   ( 1816): Failed to get Lockbox signed-in status: java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:06.287 I/AiAiEcho( 1583): AppFetcherImpl onPackageChanged com.ediel.eventosnl.
-10-04 01:02:06.318 I/AiAiEcho( 1583): AppIndexer Package:[com.ediel.eventosnl] UserProfile:[0] Enabled:[true].
-10-04 01:02:06.318 I/AiAiEcho( 1583): AppFetcherImplV2 updateApps package:[com.ediel.eventosnl], userId:[0], reason:[package is updated.].
-10-04 01:02:06.431 E/GmsCoreLogger( 1406): java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException
-10-04 01:02:06.431 E/GmsCoreLogger( 1406): Caused by: java.util.concurrent.TimeoutException
-10-04 01:02:06.639 W/ediel.eventosnl( 3394): Long monitor contention with owner FrescoIoBoundExecutor-2 (3657) at com.facebook.binaryresource.BinaryResource com.facebook.cache.disk.DiskStorageCache.endInsert(com.facebook.cache.disk.DiskStorage$Inserter, com.facebook.cache.common.CacheKey, java.lang.String)(DiskStorageCache.java:338) waiters=0 in com.facebook.binaryresource.BinaryResource com.facebook.cache.disk.DiskStorageCache.insert(com.facebook.cache.common.CacheKey, com.facebook.cache.common.WriterCallback) for 190ms
-10-04 01:02:06.769 W/Icing   ( 1816): Failed to get Lockbox signed-in status: java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:07.114 E/PackageManager(  520): java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
-10-04 01:02:08.126 W/CorpusConfigHelper( 1688): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
-10-04 01:02:08.126 W/CorpusConfigHelper( 1688): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
-10-04 01:02:08.205 I/ediel.eventosnl( 3394): NativeAlloc concurrent copying GC freed 497700(23MB) AllocSpace objects, 37(4880KB) LOS objects, 49% free, 12MB/24MB, paused 72us,23us total 1.133s
-10-04 01:02:09.374 W/AsyncOperation( 1406): OperationException[Status{statusCode=Stale snapshot for com.google.android.googlequicksearchbox(change count changed - expected 2  but was 1), resolution=null}]
-10-04 01:02:09.405 W/AsyncOperation( 1406): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
-10-04 01:02:09.651 W/AsyncOperation( 1406): OperationException[Status{statusCode=Stale snapshot for com.google.apps.dynamite.device#com.google.android.gm(change count changed - expected 1  but was 0), resolution=null}]
-10-04 01:02:09.653 W/AsyncOperation( 1406): OperationException[Status{statusCode=Stale snapshot for com.google.android.libraries.communications.conference.device#com.google.android.gm(change count changed - expected 1  but was 0), resolution=null}]
-10-04 01:02:09.654 W/AsyncOperation( 1406): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
-10-04 01:02:09.685 W/AsyncOperation( 1406): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
-10-04 01:02:09.686 W/AsyncOperation( 1406): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
-10-04 01:02:09.790 E/VS.BluetoothShim( 1612): Error locating SCO method
-10-04 01:02:09.790 E/VS.BluetoothShim( 1612): java.lang.NoSuchMethodException: android.bluetooth.BluetoothHeadset.startScoUsingVirtualVoiceCall [class android.bluetooth.BluetoothDevice]
-10-04 01:02:11.026 W/AsyncOperation( 1406): OperationException[Status{statusCode=Stale snapshot for com.google.android.libraries.consentverifier#com.google.android.gm(change count changed - expected 1  but was 0), resolution=null}]
-10-04 01:02:11.494 E/dlpn    ( 1406): RuntimeException while executing runnable dlqc{qze@2871d51} with executor MoreExecutors.directExecutor()
-10-04 01:02:11.494 E/dlpn    ( 1406): java.lang.NullPointerException: Attempt to get length of null array
-10-04 01:02:11.811 E/constellation( 1816): java.io.IOException: AUTHENTICATION_FAILED
-10-04 01:02:12.233 E/ApplicationPropertiesBu( 1688): Error when converting version: messages.android_20230529_03_RC01_alldpi.x86_64.phone
-10-04 01:02:12.233 E/ApplicationPropertiesBu( 1688): java.lang.NumberFormatException: For input string: "messages"
-10-04 01:02:12.247 W/SnapshotHandler( 1688): java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
-10-04 01:02:12.247 W/SnapshotHandler( 1688): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
-10-04 01:02:12.391 W/A       ( 1688): Exception while fetching versionCode for package[com.google.android.apps.tv.dreamx].
-10-04 01:02:12.391 W/A       ( 1688): android.content.pm.PackageManager$NameNotFoundException: com.google.android.apps.tv.dreamx
-10-04 01:02:12.393 W/A       ( 1688): Exception while fetching versionCode for package[com.google.android.apps.tv.launcherx].
-10-04 01:02:12.393 W/A       ( 1688): android.content.pm.PackageManager$NameNotFoundException: com.google.android.apps.tv.launcherx
-10-04 01:02:12.401 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:12.432 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:12.565 E/A       ( 1688): onError
-10-04 01:02:12.570 E/cr_CronetUrlRequestContext( 1688): Exception in upload method
-10-04 01:02:12.570 E/cr_CronetUrlRequestContext( 1688): com.google.android.apps.gsa.shared.r.d: Error code: 262182
-10-04 01:02:12.748 W/SnapshotHandler( 1688): java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications.platform#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
-10-04 01:02:12.748 W/SnapshotHandler( 1688): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
-10-04 01:02:13.138 W/ConfigFileUtils( 1816): Failed to read asset ChimeraModuleSetList.pb: java.io.FileNotFoundException: ChimeraModuleSetList.pb
-10-04 01:02:13.313 W/WellbeingSettingsProvid( 1522): java.util.concurrent.TimeoutException: Waited 5000 milliseconds (plus 154988 nanoseconds delay) for lki@33e61e[status=PENDING, info=[inputFuture=[lkh@f6a4eff[status=PENDING, setFuture=[ljp@c8f84cc[status=PENDING, info=[inputFuture=[lki@559e315[status=PENDING, info=[inputFuture=[lki@1b4462a[status=PENDING, info=[inputFuture=[lld@59edc1b[status=PENDING, info=[futures=[lki@39621b8[status=PENDING, info=[inputFuture=[lki@1829b91[status=PENDING, info=[inputFuture=[lmb@3289af6[status=PENDING, info=[delegate=[lng@7c51ef7[status=PENDING, setFuture=[lki@867a164[status=PENDING, info=[inputFuture=[lkh@ea45fcd[status=PENDING, info=[inputFuture=[lmb@6bb7082[status=PENDING, info=[delegate=[lng@a2b393[status=PENDING, setFuture=[lkh@eaf6fd0[status=PENDING, info=[function=[propagating=[cac@fa42bc9]]]]]]]]]], function=[propagating=[bwd@4b412ce]]]]], function=[propagating=[bwc@7baf5ef]]]]]]]]]], function=[propagating=[bvr@763b8fc]]]]], function=[propagating=[cur@6babb85]]]]]]]], function=[propagating=[dce@828dda]]]]], function=[propagating=[bvq@f6b020b]]]]], exceptionType=[class java.lang.Throwable], fallback=[propagating=[bwc@ab168e8]]]]]]], function=[propagating=[bvq@6f08b01]]]]
-10-04 01:02:13.538 I/NearbyDiscovery( 1406): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:13.657 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:13.695 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:14.180 W/BaseSearchIndex( 1070): Error initial controller
-10-04 01:02:14.379 E/SystemServiceRegistry( 1070): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
-10-04 01:02:14.386 E/HardwareInfoFeatureProviderImpl( 1070): java.lang.NumberFormatException: For input string: "E"
-10-04 01:02:14.533 W/Icing   ( 1816): Failed to get Lockbox signed-in status: java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:14.594 W/FileUtils(  520): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
-10-04 01:02:14.805 I/NearbyDiscovery( 1406): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:15.403 E/PhenotypeFlagCommitter( 1816): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:15.657 E/PhoneInterfaceManager( 1054): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
-10-04 01:02:15.659 E/PhoneInterfaceManager( 1054): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
-10-04 01:02:15.676 W/BaseSearchIndex( 1070): Error initial controller
-10-04 01:02:15.813 W/PhenotypeCommitHelper( 1406): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:15.817 E/PhenotypeFlagCommitter( 1406): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:16.051 I/NearbyDiscovery( 1406): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:16.688 W/RingtonePlayer(  841): java.io.IOException: setDataSource failed.: status=0x80000000
-10-04 01:02:17.020 W/ModernMediaScanner( 1563): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
-10-04 01:02:17.315 W/BugleRcs( 4374): android.content.pm.PackageManager$NameNotFoundException: com.google.android.ims
-10-04 01:02:17.699 I/BlockstoreStorage( 1816): Clearing Blockstore Data for package com.ediel.eventosnl [CONTEXT service_id=258 ]
-10-04 01:02:18.019 D/BoundBrokerSvc( 1406): onBind: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps }
-10-04 01:02:18.019 D/BoundBrokerSvc( 1406): Loading bound service for intent: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps }
-10-04 01:02:18.203 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:18.236 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:18.386 W/GLSUser ( 1406): [AppCertManager] Exception while requesting key: 
-10-04 01:02:18.386 W/GLSUser ( 1406): java.io.IOException: Invalid device key response.
-10-04 01:02:18.516 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:18.604 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:18.611 W/GCM-GMS ( 1816): Failed to get registration: java.io.IOException: AUTHENTICATION_FAILED
-10-04 01:02:18.768 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:18.819 W/Conscrypt( 1816): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:19.161 W/SemanticLocation( 1406): java.util.concurrent.TimeoutException: Waited 5000 milliseconds (plus 210317 nanoseconds delay) for dlnx@b066b2e[status=PENDING, info=[function=[bzrs@9f7d6cf]]]
-10-04 01:02:19.666 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:19.719 W/Conscrypt( 1406): Could not set socket write timeout: java.net.SocketException: Socket closed
-10-04 01:02:21.288 E/bwel    ( 1406): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:23.070 W/PhenotypeRegOp( 1816): java.util.concurrent.TimeoutException: Timed out waiting for Task
-10-04 01:02:23.529 W/ModernMediaScanner( 1563): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
-10-04 01:02:23.529 W/ModernMediaScanner( 1563): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
-10-04 01:02:24.462 W/ModernMediaScanner( 1563): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
-10-04 01:02:24.513 W/MediaProvider( 1563): java.io.IOException: Failed to update quota type for /storage/emulated/0/Android
-10-04 01:02:24.516 W/MediaProvider( 1563): java.io.IOException: Failed to update quota type for /storage/emulated/0/Android/media
-10-04 01:02:26.110 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.telephony.CallsDefaultSubscriptionController
-10-04 01:02:26.110 W/SliceDataConverter( 1070): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.telephony.CallsDefaultSubscriptionController.<init> [class android.content.Context, class java.lang.String]
-10-04 01:02:26.145 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
-10-04 01:02:26.145 W/SliceDataConverter( 1070): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
-10-04 01:02:26.145 W/SliceDataConverter( 1070): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
-10-04 01:02:26.154 E/HardwareInfoFeatureProviderImpl( 1070): java.lang.NumberFormatException: For input string: "E"
-10-04 01:02:26.158 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
-10-04 01:02:26.158 W/SliceDataConverter( 1070): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
-10-04 01:02:26.158 W/SliceDataConverter( 1070): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
-10-04 01:02:26.161 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.accessibility.VibrationMainSwitchPreferenceController
-10-04 01:02:26.161 W/SliceDataConverter( 1070): Caused by: java.lang.reflect.InvocationTargetException
-10-04 01:02:26.161 W/SliceDataConverter( 1070): Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[binder:1070_3,5,main] that has not called Looper.prepare()
-10-04 01:02:26.164 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.NetworkProviderSimsCategoryController
-10-04 01:02:26.164 W/SliceDataConverter( 1070): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.NetworkProviderSimsCategoryController.<init> [class android.content.Context, class java.lang.String]
-10-04 01:02:26.176 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.credentials.CredentialManagerPreferenceController
-10-04 01:02:26.176 W/SliceDataConverter( 1070): Caused by: java.lang.reflect.InvocationTargetException
-10-04 01:02:26.176 W/SliceDataConverter( 1070): Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[binder:1070_3,5,main] that has not called Looper.prepare()
-10-04 01:02:26.200 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.telephony.CallsDefaultSubscriptionController
-10-04 01:02:26.200 W/SliceDataConverter( 1070): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.telephony.CallsDefaultSubscriptionController.<init> [class android.content.Context, class java.lang.String]
-10-04 01:02:26.201 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.fuelgauge.batteryusage.BatteryChartPreferenceController
-10-04 01:02:26.201 W/SliceDataConverter( 1070): Caused by: java.lang.NoSuchMethodException: com.android.settings.fuelgauge.batteryusage.BatteryChartPreferenceController.<init> [class android.content.Context, class java.lang.String]
-10-04 01:02:26.223 E/SystemServiceRegistry( 1070): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
-10-04 01:02:26.225 W/SliceDataConverter( 1070): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
-10-04 01:02:26.225 W/SliceDataConverter( 1070): Caused by: java.lang.ClassNotFoundException: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
-10-04 01:02:26.225 W/SliceDataConverter( 1070): Caused by: java.lang.ClassNotFoundException: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
-10-04 01:02:28.835 W/CorpusConfigHelper( 1688): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
-10-04 01:02:28.835 W/CorpusConfigHelper( 1688): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
-10-04 01:02:28.879 E/A       ( 1688): onError
-10-04 01:02:28.881 E/cr_CronetUrlRequestContext( 1688): Exception in upload method
-10-04 01:02:28.881 E/cr_CronetUrlRequestContext( 1688): com.google.android.apps.gsa.shared.r.d: Error code: 262182
-10-04 01:02:28.964 W/CorpusConfigHelper( 1688): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
-10-04 01:02:28.964 W/CorpusConfigHelper( 1688): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:28:37.808 D/AndroidRuntime( 3379): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-04 17:28:37.811 I/AndroidRuntime( 3379): Using default boot image
+10-04 17:28:37.816 I/AndroidRuntime( 3379): Leaving lock profiling enabled
+10-04 17:28:37.847 W/Telephony( 1046): registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: code: 1
+10-04 17:28:38.164 D/AndroidRuntime( 3379): Calling main entry com.android.commands.monkey.Monkey
+10-04 17:28:38.165 W/Monkey  ( 3379): args: [-p, com.ediel.eventosnl, -c, android.intent.category.LAUNCHER, 1]
+10-04 17:28:38.173 W/Monkey  ( 3379):  arg: "com.ediel.eventosnl"
+10-04 17:28:38.174 W/Monkey  ( 3379): data="com.ediel.eventosnl"
+10-04 17:28:38.272 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:38.293 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:38.319 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:38.374 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:38.414 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:38.447 I/ActivityTaskManager(  518): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ediel.eventosnl/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-04 17:28:38.451 V/WindowManagerShell(  829): Transition requested: android.os.BinderProxy@e7a54aa TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ediel.eventosnl/.MainActivity } baseActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} topActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} origActivity=null realActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} numActivities=1 lastActiveTime=41701 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@55e089b} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{28b1438 com.ediel.eventosnl.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-04 17:28:38.494 D/CoreBackPreview(  518): Window{f1a6d4a u0 Splash Screen com.ediel.eventosnl}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@78f8f84, mPriority=0, mIsAnimationCallback=false}
+10-04 17:28:38.500 I/AndroidRuntime( 3379): VM exiting with result code 0.
+10-04 17:28:38.588 V/WindowManager(  518): Sent Transition #6 createdAt=10-04 17:28:38.434 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ediel.eventosnl/.MainActivity } baseActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} topActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} origActivity=null realActivity=ComponentInfo{com.ediel.eventosnl/com.ediel.eventosnl.MainActivity} numActivities=1 lastActiveTime=41701 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{7d55576 Task{762eba9 #8 type=standard A=10192:com.ediel.eventosnl}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{5238777 com.ediel.eventosnl.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-04 17:28:38.588 V/WindowManager(  518):     info={id=6 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{7d55576 Task{762eba9 #8 type=standard A=10192:com.ediel.eventosnl}}} m=OPEN f=NONE leash=Surface(name=Task=8)/@0xcddaec6 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{WCT{RemoteToken{63a3c4d Task{848b3e5 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xf80e6af sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0}]}
+10-04 17:28:38.597 I/SdkSandboxManager(  518): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10192, mPackageName='com.ediel.eventosnl, mAppProcessToken='null'}
+10-04 17:28:38.809 I/ActivityManager(  518): Start proc 3461:com.ediel.eventosnl/u0a192 for next-top-activity {com.ediel.eventosnl/com.ediel.eventosnl.MainActivity}
+10-04 17:28:38.820 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:38.939 W/ConfigFileUtils( 1448): Failed to read asset ChimeraModuleSetList.pb: java.io.FileNotFoundException: ChimeraModuleSetList.pb
+10-04 17:28:39.019 I/ediel.eventosnl( 3461): Using CollectorTypeCC GC.
+10-04 17:28:39.024 W/ediel.eventosnl( 3461): Unexpected CPU variant for x86: x86_64.
+10-04 17:28:39.024 W/ediel.eventosnl( 3461): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-04 17:28:39.030 E/ediel.eventosnl( 3461): Not starting debugger since process cannot load the jdwp agent.
+10-04 17:28:39.098 W/AiAiAutofill( 1588): java.lang.SecurityException: caller is not user's Augmented Autofill Service
+10-04 17:28:39.247 D/nativeloader( 3461): Configuring clns-6 for other apk /data/app/~~01yce2M9PilkfcULqboKNw==/com.ediel.eventosnl-ALR7oIH894VLz6XqqdU4eA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~01yce2M9PilkfcULqboKNw==/com.ediel.eventosnl-ALR7oIH894VLz6XqqdU4eA==/lib/x86_64:/data/app/~~01yce2M9PilkfcULqboKNw==/com.ediel.eventosnl-ALR7oIH894VLz6XqqdU4eA==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.ediel.eventosnl
+10-04 17:28:39.260 V/GraphicsEnvironment( 3461): ANGLE GameManagerService for com.ediel.eventosnl: false
+10-04 17:28:39.260 V/GraphicsEnvironment( 3461): com.ediel.eventosnl is not listed in per-application setting
+10-04 17:28:39.281 W/SoLoader( 3461): Initializing SoLoader: 0
+10-04 17:28:39.281 W/SoLoader( 3461): Recording new base apk path: /data/app/~~01yce2M9PilkfcULqboKNw==/com.ediel.eventosnl-ALR7oIH894VLz6XqqdU4eA==/base.apk
+10-04 17:28:39.281 W/SoLoader( 3461): Previously recorded 0 base apk paths.
+10-04 17:28:39.281 I/SoLoader( 3461): Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+10-04 17:28:39.281 I/SoLoader( 3461): Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+10-04 17:28:39.281 I/SoLoader( 3461): Preparing SO source: DirectApkSoSource[root = [/data/app/~~01yce2M9PilkfcULqboKNw==/com.ediel.eventosnl-ALR7oIH894VLz6XqqdU4eA==/base.apk!/lib/x86_64]]
+10-04 17:28:39.284 I/SoLoader( 3461): Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~01yce2M9PilkfcULqboKNw==/com.ediel.eventosnl-ALR7oIH894VLz6XqqdU4eA==/lib/x86_64 flags = 0]]
+10-04 17:28:39.284 I/SoLoader( 3461): init finish: 4 SO sources prepared
+10-04 17:28:39.284 W/SoLoader( 3461): SoLoader initialized: 8
+10-04 17:28:39.484 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:39.485 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:39.485 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:39.750 I/ExpoModulesCore( 3461): ✅ AppContext was initialized
+10-04 17:28:39.773 D/CoreBackPreview(  518): Window{5c747a2 u0 com.ediel.eventosnl/com.ediel.eventosnl.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f9ec569, mPriority=0, mIsAnimationCallback=false}
+10-04 17:28:39.936 I/ExpoModulesCore( 3461): ✅ JSI interop was installed
+10-04 17:28:39.939 I/ExpoModulesCore( 3461): ✅ Constants were exported
+10-04 17:28:40.034 I/ActivityTaskManager(  518): Displayed com.ediel.eventosnl/.MainActivity for user 0: +1s605ms
+10-04 17:28:40.053 W/unknown:ViewManagerPropertyUpdater( 3461): Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
+10-04 17:28:40.055 W/unknown:ViewManagerPropertyUpdater( 3461): Could not find generated setter for class expo.modules.kotlin.views.SimpleViewManagerWrapper
+10-04 17:28:40.083 W/InputManager-JNI(  518): Input channel object 'f1a6d4a Splash Screen com.ediel.eventosnl (client)' was disposed without first being removed with the input manager!
+10-04 17:28:40.097 I/ImeTracker(  518): com.ediel.eventosnl:86df282d: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-04 17:28:40.099 I/ImeTracker(  518): com.ediel.eventosnl:86df282d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-04 17:28:40.163 I/GoogleInputMethodService( 1511): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.ediel.eventosnl fieldId=0 fieldName=null extras=null}, false)
+10-04 17:28:40.167 V/AsyncStorageExpoMigration( 3461): No scoped database found
+10-04 17:28:40.197 I/ReactNativeJS( 3461): Running "main"
+10-04 17:28:40.247 W/unknown:ReactNative( 3461): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+10-04 17:28:40.247 W/unknown:ReactNative( 3461): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+10-04 17:28:40.372 D/CarrierSvcBindHelper( 1046): onPackageAdded: com.ediel.eventosnl
+10-04 17:28:40.460 D/ImsResolver( 1046): maybeAddedImsService, packageName: com.ediel.eventosnl
+10-04 17:28:40.525 E/TaskWorkerFactory( 1708): java.lang.NoSuchMethodException: com.android.devicelockcontroller.provision.worker.DeviceCheckInWorker.<init> [class android.content.Context, class androidx.work.WorkerParameters, interface com.google.common.util.concurrent.ListeningExecutorService]
+10-04 17:28:40.637 W/unknown:ReactNative( 3461): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+10-04 17:28:40.637 W/unknown:ReactNative( 3461): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+10-04 17:28:40.768 E/ediel.eventosnl( 3461): Failed to open APK '/data/resource-cache/com.android.systemui-neutral-Jpsz.frro': Invalid file
+10-04 17:28:40.769 E/ediel.eventosnl( 3461): Failed to open APK '/data/resource-cache/com.android.systemui-accent-EdFR.frro': Invalid file
+10-04 17:28:40.770 E/ediel.eventosnl( 3461): Failed to open APK '/data/resource-cache/com.android.systemui-dynamic-CZtj.frro': Invalid file
+10-04 17:28:40.777 W/ediel.eventosnl( 3461): Entry not found
+10-04 17:28:40.814 E/GmsCoreLogger( 1392): java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException
+10-04 17:28:40.814 E/GmsCoreLogger( 1392): Caused by: java.util.concurrent.TimeoutException
+10-04 17:28:40.843 I/cr_VariationsUtils( 3461): Failed reading seed file "/data/user/0/com.ediel.eventosnl/app_webview/variations_seed_new"
+10-04 17:28:40.843 I/cr_VariationsUtils( 3461): Failed reading seed file "/data/user/0/com.ediel.eventosnl/app_webview/variations_seed"
+10-04 17:28:41.092 E/PackageManager(  518): java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+10-04 17:28:41.155 D/CarrierSvcBindHelper( 1046): onPackageModified: com.ediel.eventosnl
+10-04 17:28:41.202 E/CCTFlatFileLogStore( 1392): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:41.271 D/ImsResolver( 1046): maybeAddedImsService, packageName: com.ediel.eventosnl
+10-04 17:28:41.868 W/unknown:ReactNative( 3461): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+10-04 17:28:41.868 W/unknown:ReactNative( 3461): StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+10-04 17:28:42.120 W/SnapshotHandler( 1749): java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
+10-04 17:28:42.120 W/SnapshotHandler( 1749): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:42.438 W/SnapshotHandler( 1749): java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications.platform#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
+10-04 17:28:42.438 W/SnapshotHandler( 1749): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:42.606 E/A       ( 1749): onError
+10-04 17:28:42.619 E/cr_CronetUrlRequestContext( 1749): Exception in upload method
+10-04 17:28:42.619 E/cr_CronetUrlRequestContext( 1749): com.google.android.apps.gsa.shared.r.d: Error code: 262182
+10-04 17:28:43.094 W/AiAiAutofill( 1588): java.lang.SecurityException: caller is not user's Augmented Autofill Service
+10-04 17:28:43.706 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:43.708 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:43.749 W/AsyncOperation( 1392): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+10-04 17:28:43.848 I/SafetyLabelChangedBroadcastReceiver(  842): received broadcast packageName: com.ediel.eventosnl, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+10-04 17:28:44.717 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:44.736 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:44.750 I/NearbyDiscovery( 1392): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:44.780 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:44.804 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:45.252 I/AiAiEcho( 1588): AppFetcherImplV2 updateApps package:[com.ediel.eventosnl], userId:[0], reason:[package is added.].
+10-04 17:28:45.320 E/constellation( 1448): java.io.IOException: AUTHENTICATION_FAILED
+10-04 17:28:45.335 D/ProfileInstaller( 3461): Installing profile for com.ediel.eventosnl
+10-04 17:28:45.700 W/FileUtils(  518): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+10-04 17:28:45.750 W/PhenotypeFlagCommitter( 3811): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:45.826 E/dlpn    ( 1392): RuntimeException while executing runnable dlqc{qze@9a3bc96} with executor MoreExecutors.directExecutor()
+10-04 17:28:45.826 E/dlpn    ( 1392): java.lang.NullPointerException: Attempt to get length of null array
+10-04 17:28:45.877 W/BaseSearchIndex( 1047): Error initial controller
+10-04 17:28:45.887 E/SystemServiceRegistry( 1047): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+10-04 17:28:45.969 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:46.247 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:46.271 I/NearbyDiscovery( 1392): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:46.359 W/GCM-GMS ( 1448): Failed to get registration: java.io.IOException: AUTHENTICATION_FAILED
+10-04 17:28:46.397 E/HardwareInfoFeatureProviderImpl( 1047): java.lang.NumberFormatException: For input string: "E"
+10-04 17:28:46.400 E/PhoneInterfaceManager( 1046): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+10-04 17:28:46.400 E/PhoneInterfaceManager( 1046): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+10-04 17:28:46.455 W/BaseSearchIndex( 1047): Error initial controller
+10-04 17:28:46.495 I/AiAiEcho( 1588): AppFetcherImpl onPackageChanged com.ediel.eventosnl.
+10-04 17:28:46.497 I/AiAiEcho( 1588): AppIndexer Package:[com.ediel.eventosnl] UserProfile:[0] Enabled:[true].
+10-04 17:28:46.497 I/AiAiEcho( 1588): AppFetcherImplV2 updateApps package:[com.ediel.eventosnl], userId:[0], reason:[package is updated.].
+10-04 17:28:46.906 W/ModernMediaScanner( 1583): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+10-04 17:28:46.947 W/GCM-GMS ( 1448): Failed to get direct boot token: java.io.IOException: AUTHENTICATION_FAILED
+10-04 17:28:47.528 I/BlockstoreStorage( 1448): Clearing Blockstore Data for package com.ediel.eventosnl [CONTEXT service_id=258 ]
+10-04 17:28:47.553 W/SemanticLocation( 1392): java.util.concurrent.TimeoutException: Waited 5000 milliseconds (plus 920298 nanoseconds delay) for dlnx@221269c[status=PENDING, info=[function=[bzrs@a8928a5]]]
+10-04 17:28:47.751 E/PhenotypeFlagCommitter( 3811): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:48.192 W/BugleRcs( 4287): android.content.pm.PackageManager$NameNotFoundException: com.google.android.ims
+10-04 17:28:48.215 D/BoundBrokerSvc( 1392): onBind: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps }
+10-04 17:28:48.216 D/BoundBrokerSvc( 1392): Loading bound service for intent: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps }
+10-04 17:28:48.581 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:28:48.581 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:28:48.595 E/VS.BluetoothShim( 1610): Error locating SCO method
+10-04 17:28:48.595 E/VS.BluetoothShim( 1610): java.lang.NoSuchMethodException: android.bluetooth.BluetoothHeadset.startScoUsingVirtualVoiceCall [class android.bluetooth.BluetoothDevice]
+10-04 17:28:49.006 I/SemanticLocation( 1392): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/default_model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-04 17:28:49.006 I/SemanticLocation( 1392): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:49.124 I/SemanticLocation( 1392): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-04 17:28:49.124 I/SemanticLocation( 1392): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:49.292 I/SemanticLocation( 1392): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-04 17:28:49.292 I/SemanticLocation( 1392): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:50.109 W/RingtonePlayer(  829): java.io.IOException: setDataSource failed.: status=0x80000000
+10-04 17:28:50.446 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:50.500 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:50.807 E/bwel    ( 1392): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:52.792 W/ModernMediaScanner( 1583): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+10-04 17:28:52.794 W/ModernMediaScanner( 1583): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+10-04 17:28:53.175 W/ModernMediaScanner( 1583): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+10-04 17:28:53.212 W/MediaProvider( 1583): java.io.IOException: Failed to update quota type for /storage/emulated/0/Android
+10-04 17:28:53.214 W/MediaProvider( 1583): java.io.IOException: Failed to update quota type for /storage/emulated/0/Android/media
+10-04 17:28:53.351 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:53.650 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:53.652 W/PhenotypeRegOp( 1448): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:53.756 E/RecoverySnapshotStorage(  518): Error reading snapshot for 10131 from disk
+10-04 17:28:53.756 E/RecoverySnapshotStorage(  518): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+10-04 17:28:53.756 E/RecoverySnapshotStorage(  518): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:53.925 E/RecoverySnapshotStorage(  518): Error reading snapshot for 10131 from disk
+10-04 17:28:53.925 E/RecoverySnapshotStorage(  518): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+10-04 17:28:53.925 E/RecoverySnapshotStorage(  518): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:53.931 E/keystore2(  159):     3: Error::Rc(r#SYSTEM_ERROR)
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): [WrappingKeyManager] InternalRecoveryServiceException during wrapping key generation [CONTEXT service_id=172 ]
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): android.security.keystore.recovery.InternalRecoveryServiceException: Failed to import secret key.
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): 	at android.security.keystore.recovery.RecoveryController.wrapUnexpectedServiceSpecificException(RecoveryController.java:783)
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): Caused by: android.os.ServiceSpecificException: Failed to import secret key. (code 22)
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3071)
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.createException(Parcel.java:3041)
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.readException(Parcel.java:3024)
+10-04 17:28:53.932 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.readException(Parcel.java:2966)
+10-04 17:28:54.245 E/enyj    ( 1448): java.lang.RuntimeException: ManagedChannel allocation site
+10-04 17:28:54.245 E/enyj    ( 1448): java.lang.RuntimeException: ManagedChannel allocation site
+10-04 17:28:54.408 E/enyj    ( 1392): java.lang.RuntimeException: ManagedChannel allocation site
+10-04 17:28:54.449 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:54.453 W/PeoplePU( 1448): java.lang.IllegalArgumentException: Unknown component: ComponentInfo{com.google.android.syncadapters.contacts/com.google.android.syncadapters.contacts.ProxyGalProvider}
+10-04 17:28:54.453 W/PeoplePU( 1448): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3061)
+10-04 17:28:54.453 W/PeoplePU( 1448): 	at android.os.Parcel.createException(Parcel.java:3041)
+10-04 17:28:54.453 W/PeoplePU( 1448): 	at android.os.Parcel.readException(Parcel.java:3024)
+10-04 17:28:54.453 W/PeoplePU( 1448): 	at android.os.Parcel.readException(Parcel.java:2966)
+10-04 17:28:54.459 W/PeoplePU( 1448): android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.google.android.gms/com.google.android.gms.people.sync.focus.ContactsSyncAdapterService}
+10-04 17:28:54.632 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:54.649 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:54.709 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:54.843 I/SemanticLocation( 1392): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-04 17:28:54.843 I/SemanticLocation( 1392): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:54.901 I/SemanticLocation( 1392): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-04 17:28:54.901 I/SemanticLocation( 1392): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:55.149 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:55.172 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:28:55.866 E/PhenotypeFlagCommitter( 1448): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:56.426 E/PhenotypeFlagCommitter( 1448): java.util.concurrent.TimeoutException: Timed out waiting for Task
+10-04 17:28:57.670 E/A       ( 1749): onError
+10-04 17:28:57.671 E/cr_CronetUrlRequestContext( 1749): Exception in upload method
+10-04 17:28:57.671 E/cr_CronetUrlRequestContext( 1749): com.google.android.apps.gsa.shared.r.d: Error code: 262182
+10-04 17:28:57.689 E/cr_CronetUrlRequestContext( 1749): Exception in upload method
+10-04 17:28:57.689 E/cr_CronetUrlRequestContext( 1749): com.google.android.apps.gsa.shared.r.d: Error code: 262182
+10-04 17:28:57.856 W/AsyncOperation( 1392): OperationException[Status{statusCode=Stale snapshot for com.google.android.gm#com.google.android.gm_Hub(change count changed - expected 1  but was 0), resolution=null}]
+10-04 17:28:57.910 W/AsyncOperation( 1392): OperationException[Status{statusCode=Stale snapshot for com.google.android.googlequicksearchbox(change count changed - expected 2  but was 1), resolution=null}]
+10-04 17:28:57.967 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:28:57.967 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:28:58.326 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.accessibility.VibrationMainSwitchPreferenceController
+10-04 17:28:58.326 W/SliceDataConverter( 1047): Caused by: java.lang.reflect.InvocationTargetException
+10-04 17:28:58.326 W/SliceDataConverter( 1047): Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[binder:1047_6,5,main] that has not called Looper.prepare()
+10-04 17:28:58.334 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.telephony.CallsDefaultSubscriptionController
+10-04 17:28:58.334 W/SliceDataConverter( 1047): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.telephony.CallsDefaultSubscriptionController.<init> [class android.content.Context, class java.lang.String]
+10-04 17:28:58.353 E/SystemServiceRegistry( 1047): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+10-04 17:28:58.386 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.credentials.CredentialManagerPreferenceController
+10-04 17:28:58.386 W/SliceDataConverter( 1047): Caused by: java.lang.reflect.InvocationTargetException
+10-04 17:28:58.386 W/SliceDataConverter( 1047): Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[binder:1047_6,5,main] that has not called Looper.prepare()
+10-04 17:28:58.390 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+10-04 17:28:58.390 W/SliceDataConverter( 1047): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+10-04 17:28:58.390 W/SliceDataConverter( 1047): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+10-04 17:28:58.396 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
+10-04 17:28:58.396 W/SliceDataConverter( 1047): Caused by: java.lang.ClassNotFoundException: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
+10-04 17:28:58.396 W/SliceDataConverter( 1047): Caused by: java.lang.ClassNotFoundException: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
+10-04 17:28:58.478 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.fuelgauge.batteryusage.BatteryChartPreferenceController
+10-04 17:28:58.478 W/SliceDataConverter( 1047): Caused by: java.lang.NoSuchMethodException: com.android.settings.fuelgauge.batteryusage.BatteryChartPreferenceController.<init> [class android.content.Context, class java.lang.String]
+10-04 17:28:58.493 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.telephony.CallsDefaultSubscriptionController
+10-04 17:28:58.493 W/SliceDataConverter( 1047): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.telephony.CallsDefaultSubscriptionController.<init> [class android.content.Context, class java.lang.String]
+10-04 17:28:58.495 E/HardwareInfoFeatureProviderImpl( 1047): java.lang.NumberFormatException: For input string: "E"
+10-04 17:28:58.551 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+10-04 17:28:58.551 W/SliceDataConverter( 1047): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+10-04 17:28:58.551 W/SliceDataConverter( 1047): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+10-04 17:28:58.551 W/SliceDataConverter( 1047): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.NetworkProviderSimsCategoryController
+10-04 17:28:58.551 W/SliceDataConverter( 1047): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.NetworkProviderSimsCategoryController.<init> [class android.content.Context, class java.lang.String]
+10-04 17:28:58.936 W/RcsClientLib( 4287): Error while stopping RCS engine.
+10-04 17:28:58.936 W/RcsClientLib( 4287): java.lang.IllegalStateException: JibeService Not Initialized
+10-04 17:28:58.936 W/RcsClientLib( 4287): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3065)
+10-04 17:28:58.936 W/RcsClientLib( 4287): 	at android.os.Parcel.createException(Parcel.java:3041)
+10-04 17:28:58.936 W/RcsClientLib( 4287): 	at android.os.Parcel.readException(Parcel.java:3024)
+10-04 17:28:58.936 W/RcsClientLib( 4287): 	at android.os.Parcel.readException(Parcel.java:2966)
+10-04 17:28:58.936 W/RcsClientLib( 4287): 	at com.google.android.aidl.BaseProxy.transactAndReadExceptionReturnVoid(PG:3)
+10-04 17:28:59.152 W/RcsClientLib( 4287): Error while stopping RCS engine.
+10-04 17:28:59.153 W/RcsClientLib( 4287): java.lang.IllegalStateException: JibeService Not Initialized
+10-04 17:28:59.153 W/RcsClientLib( 4287): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3065)
+10-04 17:28:59.153 W/RcsClientLib( 4287): 	at android.os.Parcel.createException(Parcel.java:3041)
+10-04 17:28:59.153 W/RcsClientLib( 4287): 	at android.os.Parcel.readException(Parcel.java:3024)
+10-04 17:28:59.153 W/RcsClientLib( 4287): 	at android.os.Parcel.readException(Parcel.java:2966)
+10-04 17:28:59.153 W/RcsClientLib( 4287): 	at com.google.android.aidl.BaseProxy.transactAndReadExceptionReturnVoid(PG:3)
+10-04 17:28:59.297 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:28:59.297 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:28:59.359 E/RecoverySnapshotStorage(  518): Error reading snapshot for 10131 from disk
+10-04 17:28:59.359 E/RecoverySnapshotStorage(  518): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+10-04 17:28:59.359 E/RecoverySnapshotStorage(  518): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:28:59.361 E/keystore2(  159):     3: Error::Rc(r#SYSTEM_ERROR)
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): [WrappingKeyManager] InternalRecoveryServiceException during wrapping key generation [CONTEXT service_id=172 ]
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): android.security.keystore.recovery.InternalRecoveryServiceException: Failed to import secret key.
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): 	at android.security.keystore.recovery.RecoveryController.wrapUnexpectedServiceSpecificException(RecoveryController.java:783)
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): Caused by: android.os.ServiceSpecificException: Failed to import secret key. (code 22)
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3071)
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.createException(Parcel.java:3041)
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.readException(Parcel.java:3024)
+10-04 17:28:59.361 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.readException(Parcel.java:2966)
+10-04 17:28:59.436 W/RcsClientLib( 4287): Error while stopping RCS engine.
+10-04 17:28:59.436 W/RcsClientLib( 4287): java.lang.IllegalStateException: JibeService Not Initialized
+10-04 17:28:59.436 W/RcsClientLib( 4287): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3065)
+10-04 17:28:59.436 W/RcsClientLib( 4287): 	at android.os.Parcel.createException(Parcel.java:3041)
+10-04 17:28:59.436 W/RcsClientLib( 4287): 	at android.os.Parcel.readException(Parcel.java:3024)
+10-04 17:28:59.436 W/RcsClientLib( 4287): 	at android.os.Parcel.readException(Parcel.java:2966)
+10-04 17:28:59.436 W/RcsClientLib( 4287): 	at com.google.android.aidl.BaseProxy.transactAndReadExceptionReturnVoid(PG:3)
+10-04 17:28:59.467 W/AsyncOperation( 1392): OperationException[Status{statusCode=Stale snapshot for com.google.android.apps.messaging.auto#com.google.android.apps.messaging(change count changed - expected 1  but was 0), resolution=null}]
+10-04 17:28:59.467 W/AsyncOperation( 1392): OperationException[Status{statusCode=Stale snapshot for com.google.android.inputmethod.latin#com.google.android.inputmethod.latin(change count changed - expected 1  but was 0), resolution=null}]
+10-04 17:28:59.523 W/AsyncOperation( 1392): OperationException[Status{statusCode=Stale snapshot for com.google.android.googlequicksearchbox(change count changed - expected 3  but was 2), resolution=null}]
+10-04 17:28:59.542 W/AsyncOperation( 1392): OperationException[Status{statusCode=Stale snapshot for com.google.android.libraries.performance.primes#com.google.android.apps.messaging(change count changed - expected 1  but was 0), resolution=null}]
+10-04 17:28:59.904 W/NetworkScheduler( 1392): java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+10-04 17:29:00.127 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:00.127 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:00.284 E/RecoverySnapshotStorage(  518): Error reading snapshot for 10131 from disk
+10-04 17:29:00.284 E/RecoverySnapshotStorage(  518): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+10-04 17:29:00.284 E/RecoverySnapshotStorage(  518): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-04 17:29:00.291 E/keystore2(  159):     3: Error::Rc(r#SYSTEM_ERROR)
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): [WrappingKeyManager] InternalRecoveryServiceException during wrapping key generation [CONTEXT service_id=172 ]
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): android.security.keystore.recovery.InternalRecoveryServiceException: Failed to import secret key.
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): 	at android.security.keystore.recovery.RecoveryController.wrapUnexpectedServiceSpecificException(RecoveryController.java:783)
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): Caused by: android.os.ServiceSpecificException: Failed to import secret key. (code 22)
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3071)
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.createException(Parcel.java:3041)
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.readException(Parcel.java:3024)
+10-04 17:29:00.299 W/RecoverableKeyStoreGms( 1448): 	at android.os.Parcel.readException(Parcel.java:2966)
+10-04 17:29:00.364 W/NetworkScheduler( 1392): java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+10-04 17:29:00.845 E/AppOps  (  518): java.lang.SecurityException: Specified package "android" under uid 10178 but it is not
+10-04 17:29:00.846 E/AppOps  (  518): java.lang.SecurityException: Specified package "android" under uid 10178 but it is not
+10-04 17:29:00.846 E/AppOps  (  518): java.lang.SecurityException: Specified package "android" under uid 10178 but it is not
+10-04 17:29:00.846 E/AppOps  (  518): java.lang.SecurityException: Specified package "android" under uid 10178 but it is not
+10-04 17:29:00.930 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:00.930 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:01.264 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:01.264 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:01.308 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:29:01.479 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:01.479 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:01.621 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:01.621 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:01.680 E/AmbientMusicServiceMana( 1588): oxe: java.lang.reflect.InvocationTargetException
+10-04 17:29:01.680 E/AmbientMusicServiceMana( 1588): Caused by: java.lang.reflect.InvocationTargetException
+10-04 17:29:01.680 E/AmbientMusicServiceMana( 1588): Caused by: java.lang.IllegalStateException: No underlying SoundTriggerModule available
+10-04 17:29:01.685 W/Conscrypt( 1448): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:29:01.840 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:01.840 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:01.905 W/BaseSearchIndex( 1047): Error initial controller
+10-04 17:29:01.928 E/HardwareInfoFeatureProviderImpl( 1047): java.lang.NumberFormatException: For input string: "E"
+10-04 17:29:01.941 W/BaseSearchIndex( 1047): Error initial controller
+10-04 17:29:01.950 E/JavaBinder( 1047): *** Uncaught remote exception! Exceptions are not yet supported across processes. Client PID 3963 UID 10118.
+10-04 17:29:01.950 E/JavaBinder( 1047): android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+10-04 17:29:02.111 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:02.111 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:02.187 W/BaseSearchIndex( 1047): Error initial controller
+10-04 17:29:02.196 E/SystemServiceRegistry( 1047): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+10-04 17:29:02.411 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:02.411 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:02.661 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:02.661 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:02.675 E/PhoneInterfaceManager( 1046): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+10-04 17:29:02.675 E/PhoneInterfaceManager( 1046): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+10-04 17:29:02.683 E/HardwareInfoFeatureProviderImpl( 1047): java.lang.NumberFormatException: For input string: "E"
+10-04 17:29:02.705 W/BaseSearchIndex( 1047): Error initial controller
+10-04 17:29:02.891 W/GmsPipelineLogger( 1448): java.lang.NullPointerException
+10-04 17:29:02.927 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:02.927 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:03.003 W/WifiService(  518): Permission violation - getConfiguredNetworks not allowed for uid=10118, packageName=com.google.android.settings.intelligence, reason=java.lang.SecurityException: UID 10118 has no location permission
+10-04 17:29:03.275 D/SettingsSliceProvider( 1047): java.lang.IllegalStateException: Invalid Slices key from path: wifi_calling
+10-04 17:29:03.278 D/BoundBrokerSvc( 1392): onUnbind: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps }
+10-04 17:29:03.305 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:03.305 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@9cc01fb} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@88fe471} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@7cec2d7} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@2ed56ad} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@d2b573} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@435b0a9} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@71935cf} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.951 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@28fae65} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.951 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.990 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@5d1cbe1} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.990 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.990 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@1f00fc7} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.990 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.990 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@2be451d} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.990 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.990 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@fd3e163} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.990 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.992 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:29:03.993 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@dff1619} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.993 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.993 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@29930bf} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.993 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.995 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@2e1fad5} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.995 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:03.995 E/ctbc    ( 4287): RuntimeException while executing runnable ctdz{cnpz@83a19db} with executor MoreExecutors.directExecutor()
+10-04 17:29:03.995 E/ctbc    ( 4287): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+10-04 17:29:04.005 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:04.005 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:04.156 W/Conscrypt( 1392): Could not set socket write timeout: java.net.SocketException: Socket closed
+10-04 17:29:04.342 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:04.342 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:04.653 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:04.653 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:06.139 W/ActivityManager(  518): Exception when unbinding service com.google.android.gms/.ads.identifier.service.AdvertisingIdService
+10-04 17:29:06.139 W/ActivityManager(  518): android.os.DeadObjectException
+10-04 17:29:06.143 W/ActivityManager(  518): Exception when unbinding service com.google.android.gms/.nearby.exposurenotification.WakeUpService
+10-04 17:29:06.143 W/ActivityManager(  518): android.os.DeadObjectException
+10-04 17:29:06.240 W/ActivityManager(  518): Scheduling restart of crashed service com.google.android.gms/.nearby.exposurenotification.service.ExposureMatchingService in 200933ms for start-requested
+10-04 17:29:06.243 W/ActivityManager(  518): Scheduling restart of crashed service com.google.android.gms/.nearby.exposurenotification.service.ExposureNotificationInternalService in 330929ms for start-requested
+10-04 17:29:06.573 E/PackageManager(  518): java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+10-04 17:29:06.831 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/en.fb.metadata: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.fb.metadata
+10-04 17:29:06.879 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/en.fb: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.fb
+10-04 17:29:07.224 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:07.224 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:07.380 W/CorpusConfigHelper( 1749): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-04 17:29:07.380 W/CorpusConfigHelper( 1749): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-04 17:29:07.824 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/model.smfb.metadata: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/model.smfb.metadata
+10-04 17:29:07.880 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/model.smfb: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/model.smfb
+10-04 17:29:08.048 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/08202014-metadata.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/08202014-metadata.txt
+10-04 17:29:08.078 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/08202014-pins.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/08202014-pins.txt
+10-04 17:29:08.231 W/GmsPipelineLogger( 5051): java.lang.NullPointerException
+10-04 17:29:08.526 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/en.model.metadata: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.model.metadata
+10-04 17:29:08.688 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/en.model: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.model
+10-04 17:29:09.220 W/ConfigFileUtils( 5139): Failed to read asset ChimeraModuleSetList.pb: java.io.FileNotFoundException: ChimeraModuleSetList.pb
+10-04 17:29:09.492 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/05132026-sms-denylist-metadata.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/05132026-sms-denylist-metadata.txt
+10-04 17:29:09.511 W/ModernMediaScanner( 1583): Failed to visit /data/data/com.android.providers.downloads/cache/05132026-sms-denylist.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/05132026-sms-denylist.txt
