@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T20:13:02.499Z",
+ "generatedAt": "2026-10-04T20:36:10.640Z",
  "timezone": "America/Monterrey",
  "total": 609,
  "sources": [
@@ -10,20 +10,20 @@
    "ok": true,
    "count": 80,
    "error": null,
-   "checkedAt": "2026-10-04T20:10:30.673Z",
-   "lastSuccess": "2026-10-04T20:10:30.673Z",
-   "ms": 4623
+   "checkedAt": "2026-10-04T20:33:43.430Z",
+   "lastSuccess": "2026-10-04T20:33:43.430Z",
+   "ms": 2305
   },
   {
    "id": "arema",
    "name": "Arema",
    "home": "https://arema.mx/",
    "ok": true,
-   "count": 151,
+   "count": 150,
    "error": null,
-   "checkedAt": "2026-10-04T20:10:35.296Z",
-   "lastSuccess": "2026-10-04T20:10:35.296Z",
-   "ms": 29206
+   "checkedAt": "2026-10-04T20:33:45.736Z",
+   "lastSuccess": "2026-10-04T20:33:45.736Z",
+   "ms": 27921
   },
   {
    "id": "superboletos",
@@ -32,9 +32,9 @@
    "ok": true,
    "count": 91,
    "error": null,
-   "checkedAt": "2026-10-04T20:11:04.502Z",
-   "lastSuccess": "2026-10-04T20:11:04.502Z",
-   "ms": 836
+   "checkedAt": "2026-10-04T20:34:13.658Z",
+   "lastSuccess": "2026-10-04T20:34:13.658Z",
+   "ms": 604
   },
   {
    "id": "ticketmaster",
@@ -43,9 +43,9 @@
    "ok": true,
    "count": 144,
    "error": null,
-   "checkedAt": "2026-10-04T20:11:05.338Z",
-   "lastSuccess": "2026-10-04T20:11:05.338Z",
-   "ms": 564
+   "checkedAt": "2026-10-04T20:34:14.262Z",
+   "lastSuccess": "2026-10-04T20:34:14.262Z",
+   "ms": 657
   },
   {
    "id": "conciertos_mty",
@@ -54,9 +54,9 @@
    "ok": true,
    "count": 73,
    "error": null,
-   "checkedAt": "2026-10-04T20:11:05.902Z",
-   "lastSuccess": "2026-10-04T20:11:05.902Z",
-   "ms": 3109
+   "checkedAt": "2026-10-04T20:34:14.919Z",
+   "lastSuccess": "2026-10-04T20:34:14.919Z",
+   "ms": 3844
   },
   {
    "id": "conarte_agenda",
@@ -65,9 +65,9 @@
    "ok": true,
    "count": 56,
    "error": null,
-   "checkedAt": "2026-10-04T20:11:09.011Z",
-   "lastSuccess": "2026-10-04T20:11:09.011Z",
-   "ms": 66504
+   "checkedAt": "2026-10-04T20:34:18.763Z",
+   "lastSuccess": "2026-10-04T20:34:18.763Z",
+   "ms": 66984
   },
   {
    "id": "cineteca",
@@ -76,9 +76,9 @@
    "ok": true,
    "count": 31,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:15.515Z",
-   "lastSuccess": "2026-10-04T20:12:15.515Z",
-   "ms": 20143
+   "checkedAt": "2026-10-04T20:35:25.747Z",
+   "lastSuccess": "2026-10-04T20:35:25.747Z",
+   "ms": 19259
   },
   {
    "id": "santa_lucia",
@@ -87,9 +87,9 @@
    "ok": true,
    "count": 147,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:35.658Z",
-   "lastSuccess": "2026-10-04T20:12:35.658Z",
-   "ms": 2
+   "checkedAt": "2026-10-04T20:35:45.006Z",
+   "lastSuccess": "2026-10-04T20:35:45.006Z",
+   "ms": 1
   },
   {
    "id": "nuevoleon_travel",
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:35.660Z",
-   "lastSuccess": "2026-10-04T20:12:35.660Z",
-   "ms": 1064
+   "checkedAt": "2026-10-04T20:35:45.007Z",
+   "lastSuccess": "2026-10-04T20:35:45.007Z",
+   "ms": 1332
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:36.725Z",
-   "lastSuccess": "2026-10-04T20:12:36.725Z",
-   "ms": 209
+   "checkedAt": "2026-10-04T20:35:46.339Z",
+   "lastSuccess": "2026-10-04T20:35:46.339Z",
+   "ms": 335
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:36.934Z",
-   "lastSuccess": "2026-10-04T20:12:36.934Z",
-   "ms": 406
+   "checkedAt": "2026-10-04T20:35:46.674Z",
+   "lastSuccess": "2026-10-04T20:35:46.674Z",
+   "ms": 675
   },
   {
    "id": "marco",
@@ -131,9 +131,9 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:37.340Z",
-   "lastSuccess": "2026-10-04T20:12:37.340Z",
-   "ms": 458
+   "checkedAt": "2026-10-04T20:35:47.349Z",
+   "lastSuccess": "2026-10-04T20:35:47.349Z",
+   "ms": 467
   },
   {
    "id": "tres_museos",
@@ -142,9 +142,9 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:37.798Z",
-   "lastSuccess": "2026-10-04T20:12:37.798Z",
-   "ms": 1126
+   "checkedAt": "2026-10-04T20:35:47.816Z",
+   "lastSuccess": "2026-10-04T20:35:47.816Z",
+   "ms": 1063
   },
   {
    "id": "cintermex",
@@ -153,9 +153,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:38.924Z",
-   "lastSuccess": "2026-10-04T20:12:38.924Z",
-   "ms": 723
+   "checkedAt": "2026-10-04T20:35:48.879Z",
+   "lastSuccess": "2026-10-04T20:35:48.879Z",
+   "ms": 715
   },
   {
    "id": "foro_corona",
@@ -164,9 +164,9 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:39.647Z",
-   "lastSuccess": "2026-10-04T20:12:39.647Z",
-   "ms": 129
+   "checkedAt": "2026-10-04T20:35:49.594Z",
+   "lastSuccess": "2026-10-04T20:35:49.594Z",
+   "ms": 292
   },
   {
    "id": "fever",
@@ -175,9 +175,9 @@
    "ok": true,
    "count": 80,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:39.776Z",
-   "lastSuccess": "2026-10-04T20:12:39.776Z",
-   "ms": 8458
+   "checkedAt": "2026-10-04T20:35:49.886Z",
+   "lastSuccess": "2026-10-04T20:35:49.886Z",
+   "ms": 8586
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 17,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:48.235Z",
-   "lastSuccess": "2026-10-04T20:12:48.235Z",
-   "ms": 229
+   "checkedAt": "2026-10-04T20:35:58.472Z",
+   "lastSuccess": "2026-10-04T20:35:58.472Z",
+   "ms": 277
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:48.464Z",
-   "lastSuccess": "2026-10-04T20:12:48.464Z",
-   "ms": 1261
+   "checkedAt": "2026-10-04T20:35:58.749Z",
+   "lastSuccess": "2026-10-04T20:35:58.749Z",
+   "ms": 1091
   },
   {
    "id": "ballet_mty",
@@ -208,9 +208,9 @@
    "ok": true,
    "count": 7,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:49.725Z",
-   "lastSuccess": "2026-10-04T20:12:49.725Z",
-   "ms": 4819
+   "checkedAt": "2026-10-04T20:35:59.840Z",
+   "lastSuccess": "2026-10-04T20:35:59.840Z",
+   "ms": 3287
   },
   {
    "id": "sanpedro_vive",
@@ -219,9 +219,9 @@
    "ok": true,
    "count": 77,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:54.544Z",
-   "lastSuccess": "2026-10-04T20:12:54.544Z",
-   "ms": 3111
+   "checkedAt": "2026-10-04T20:36:03.127Z",
+   "lastSuccess": "2026-10-04T20:36:03.127Z",
+   "ms": 2765
   },
   {
    "id": "sanpedro_parques",
@@ -230,9 +230,9 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "checkedAt": "2026-10-04T20:12:57.655Z",
-   "lastSuccess": "2026-10-04T20:12:57.655Z",
-   "ms": 4067
+   "checkedAt": "2026-10-04T20:36:05.892Z",
+   "lastSuccess": "2026-10-04T20:36:05.892Z",
+   "ms": 4177
   },
   {
    "id": "chipinque",
@@ -241,9 +241,9 @@
    "ok": true,
    "count": 26,
    "error": null,
-   "checkedAt": "2026-10-04T20:13:01.722Z",
-   "lastSuccess": "2026-10-04T20:13:01.722Z",
-   "ms": 411
+   "checkedAt": "2026-10-04T20:36:10.070Z",
+   "lastSuccess": "2026-10-04T20:36:10.070Z",
+   "ms": 192
   }
  ],
  "notIncluded": [
@@ -1564,27 +1564,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "05fb3f1051b2",
-   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "start": "2026-10-04T13:30",
-   "end": "2026-10-28T18:00",
-   "price": "Desde $300",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "title": "Jikuri – Viaje al país de los Tarahumaras",
    "start": "2026-10-04T14:00",
    "end": "2026-10-07T16:00",
@@ -1755,11 +1734,6 @@
      "url": "https://arema.mx/e/21195-botargas-y-traicion"
     },
     {
-     "start": "2026-10-04T18:30",
-     "end": null,
-     "url": "https://arema.mx/e/21195-botargas-y-traicion"
-    },
-    {
      "start": "2026-10-10T15:00",
      "end": null,
      "url": "https://arema.mx/e/21195-botargas-y-traicion"
@@ -1773,45 +1747,24 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "99d18b77f092",
-   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "venue": "Parque Rufino Tamayo",
+   "id": "05fb3f1051b2",
+   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "venue": "Papalote Museo del Niño-Monterrey",
    "city": "Monterrey",
    "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
    "start": "2026-10-04T15:00",
-   "end": "2026-12-06T17:00",
-   "price": "Desde $370",
+   "end": "2026-10-28T18:00",
+   "price": "Desde $300",
    "demand": null,
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/287670"
+     "url": "https://feverup.com/m/341894"
     }
    ],
-   "url": "https://feverup.com/m/287670",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "3f6ed36dceac",
-   "skey": "fuga prisionero san pedro|parque capitan",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "start": "2026-10-04T15:00",
-   "end": "2026-11-01T18:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878",
+   "url": "https://feverup.com/m/341894",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -1833,6 +1786,27 @@
     }
    ],
    "url": "https://feverup.com/m/612272",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "99d18b77f092",
+   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "start": "2026-10-04T16:00",
+   "end": "2026-12-06T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -1881,27 +1855,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "d841f72258f7",
-   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "start": "2026-10-04T16:00",
-   "end": "2026-11-29T19:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "id": "7ed5a1df114c",
    "skey": "grease llega escobedo|teatro digital",
    "title": "GREASE llega a Escobedo",
@@ -1921,6 +1874,48 @@
     }
    ],
    "url": "https://carteleraescenica.com/eventos/grease-llega-a-escobedo/2026-10-04/",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "3f6ed36dceac",
+   "skey": "fuga prisionero san pedro|parque capitan",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
+   "start": "2026-10-04T16:00",
+   "end": "2026-11-01T18:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
+    }
+   ],
+   "url": "https://feverup.com/m/629878",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "d841f72258f7",
+   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "start": "2026-10-04T17:00",
+   "end": "2026-11-29T19:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -7874,7 +7869,7 @@
    "end": "2026-10-25T19:00",
    "venue": "Auditorio Luis Elizondo",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Teatro",
    "price": null,
    "image": "https://s1.ticketm.net/dam/e/412/dcb23d85-b857-4476-a015-c5efc2bea412_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
@@ -11613,7 +11608,7 @@
    "end": "2026-11-08T19:00",
    "venue": "Auditorio Luis Elizondo",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Teatro",
    "price": null,
    "image": "https://s1.ticketm.net/dam/e/cd8/0bf8e0ab-5369-4a9b-b90d-31d8819d1cd8_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
@@ -12409,7 +12404,7 @@
    "end": "2026-11-15T19:00",
    "venue": "Auditorio Luis Elizondo",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Teatro",
    "price": null,
    "image": "https://s1.ticketm.net/dam/e/e77/54edf852-a31b-4ece-8691-4c2f25131e77_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
@@ -13217,7 +13212,7 @@
    "end": "2026-11-22T19:00",
    "venue": "Auditorio Luis Elizondo",
    "city": "Monterrey",
-   "category": "Otros",
+   "category": "Teatro",
    "price": null,
    "image": "https://s1.ticketm.net/dam/e/9b5/0e53eac9-ffe5-4d00-8d33-83fb6fc9e9b5_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": null,
