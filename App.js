@@ -1,9 +1,9 @@
-// Eventos NL — V1
+// Eventos NL — V2.1 (vista grande/compacta, deslizar para decidir, cartelera arriba)
 // Lee los eventos que junta el recolector de GitHub y te deja agendarlos, marcarlos y guardar a cuáles fuiste.
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import {
   View, Text, StyleSheet, FlatList, SectionList, TouchableOpacity, Image, Modal, ScrollView,
-  TextInput, Alert, Linking, RefreshControl, ActivityIndicator, StatusBar, Platform, SafeAreaView, Share,
+  TextInput, Alert, Linking, RefreshControl, ActivityIndicator, StatusBar, Platform, Share, Vibration,
   Animated, PanResponder, Dimensions,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -24,13 +24,23 @@ const C = {
   solid: '#1d1142', // fondo sólido para encabezados fijos y menús
 };
 // Degradados: noche de festival (morado → magenta → azul) y acento atardecer (naranja → rosa).
-const BG = ['#2b0f5a', '#160c33', '#0d1d4a'];
+const BG = ['#1a1035', '#120c27', '#0e0c22']; // fondo oscuro casi plano: las fotos son las protagonistas
 const ACC = ['#ff8a3d', '#ff3d8b'];
 const LG = (() => { try { return require('expo-linear-gradient').LinearGradient; } catch (e) { return null; } })();
 function Grad({ colors, style, children, start = { x: 0, y: 0 }, end = { x: 1, y: 1 } }) {
   if (LG) return <LG colors={colors} start={start} end={end} style={style}>{children}</LG>;
   return <View style={[style, { backgroundColor: colors[Math.floor(colors.length / 2)] }]}>{children}</View>;
 }
+// Zonas seguras: la app se acomoda arriba del reloj y ARRIBA de los botones de Android (nunca tapada).
+const SAC = (() => { try { return require('react-native-safe-area-context'); } catch (e) { return null; } })();
+const SafeProvider = SAC && SAC.SafeAreaProvider ? SAC.SafeAreaProvider : ({ children }) => children;
+const FALLBACK_INSETS = { top: Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 0, bottom: Platform.OS === 'android' ? 48 : 0, left: 0, right: 0 };
+function useInsets() { return SAC && SAC.useSafeAreaInsets ? SAC.useSafeAreaInsets() : FALLBACK_INSETS; }
+function SafeBox({ children, style, bottom = true }) {
+  const ins = useInsets();
+  return <View style={[{ flex: 1, paddingTop: ins.top, paddingBottom: bottom ? ins.bottom : 0 }, style]}>{children}</View>;
+}
+const vibrar = () => { try { Vibration.vibrate(12); } catch (e) { /* sin vibración */ } };
 const Screen = ({ children }) => (
   <Grad colors={BG} start={{ x: 0, y: 0 }} end={{ x: 0.3, y: 1 }} style={{ flex: 1 }}>{children}</Grad>
 );
@@ -93,7 +103,7 @@ function weekendRange() {
 // ---------------- Modelo de eventos ----------------
 // Cada evento puede tener: start/end (rango) o dates[] (varias funciones).
 function occurrences(e) {
-  if (e.dates && e.dates.length) return e.dates.map((d) => ({ start: d.start, end: d.end || null, url: d.url }));
+  if (e.dates && e.dates.length) return e.dates.map((d) => ({ start: d.start, end: d.end || null, url: d.url, avail: d.avail, left: d.left, price: d.price }));
   return [{ start: e.start, end: e.end || null, url: e.url }];
 }
 // Un concierto que "termina" a la 1 am del día siguiente no es un evento de varios días.
@@ -215,6 +225,11 @@ async function pickPhotos() {
 
 // =====================================================================
 export default function App() {
+  return <SafeProvider><AppInner /></SafeProvider>;
+}
+
+function AppInner() {
+  const ins = useInsets();
   const [tab, setTab] = useState('explorar');
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -227,6 +242,7 @@ export default function App() {
   const [detail, setDetail] = useState(null);
   const [checkinOpen, setCheckinOpen] = useState(null);
   const [manualOpen, setManualOpen] = useState(false);
+  const [lastSeen, setLastSeen] = useState(null); // para "Nuevos desde tu última visita"
 
   const fetchData = useCallback(async () => {
     setError(null);
@@ -243,7 +259,10 @@ export default function App() {
 
   useEffect(() => {
     (async () => {
-      const [cache, f, h, a, c, m] = await Promise.all([load(K.cache, null), load(K.favs, {}), load(K.hidden, {}), load(K.agendados, {}), load(K.checkins, []), load(K.manual, [])]);
+      const [cache, f, h, a, c, m, ls] = await Promise.all([load(K.cache, null), load(K.favs, {}), load(K.hidden, {}), load(K.agendados, {}), load(K.checkins, []), load(K.manual, []), load('enl_lastseen', null)]);
+      // Lo "nuevo" se mide contra la última vez que abriste la app (la primera vez: los últimos 3 días).
+      setLastSeen(ls || new Date(Date.now() - 3 * 864e5).toISOString());
+      save('enl_lastseen', new Date().toISOString());
       if (cache) { setData(cache); setLoading(false); }
       setFavs(f); setHidden(h); setAgendados(a); setCheckins(c); setManual(m);
       fetchData();
@@ -296,17 +315,36 @@ export default function App() {
   const saveManual = (m) => { const list = [m, ...manual]; setManual(list); save(K.manual, list); };
   const deleteManual = (id) => { const list = manual.filter((m) => m.id !== id); setManual(list); save(K.manual, list); setDetail(null); };
 
-  const ctx = { allEvents, byId, favs, hidden, agendados, checkins, toggleFav, toggleHidden, askHide, onCalendar, open: setDetail,
-    unhide: (key) => setHidden((p) => { const n = { ...p }; delete n[key]; save(K.hidden, n); return n; }) };
+  const unhide = (key) => setHidden((p) => { const n = { ...p }; delete n[key]; save(K.hidden, n); return n; });
+  // Aviso flotante con "Deshacer" por si deslizaste sin querer.
+  const [toast, setToast] = useState(null);
+  const toastTimer = React.useRef(null);
+  const notify = (msg, undo) => {
+    clearTimeout(toastTimer.current);
+    setToast({ msg, undo });
+    toastTimer.current = setTimeout(() => setToast(null), 4500);
+  };
+  const hideNow = (e) => {
+    if (isHiddenEv(hidden, e)) return;
+    const key = titleKey(e);
+    setHidden((p) => { const n = { ...p, [key]: { title: e.title, kind: 'evento', at: todayStr() } }; save(K.hidden, n); return n; });
+    notify(`Oculto: ${e.title}`, () => unhide(key));
+  };
+  const likeNow = (e) => {
+    if (favs[e.id]) { notify('Ya estaba en Me interesa ⭐'); return; }
+    toggleFav(e);
+    notify('⭐ Guardado en Me interesa', () => setFavs((p) => { const n = { ...p }; delete n[e.id]; save(K.favs, n); return n; }));
+  };
+  const ctx = { allEvents, byId, favs, hidden, agendados, checkins, toggleFav, toggleHidden, askHide, onCalendar, open: setDetail, unhide, hideNow, likeNow };
 
   return (
-    <Screen><SafeAreaView style={s.safe}>
-      <StatusBar barStyle="light-content" backgroundColor={BG[0]} />
-      <View style={{ flex: 1, paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 0 : 0 }}>
+    <Screen><View style={s.safe}>
+      <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
+      <View style={{ flex: 1, paddingTop: ins.top }}>
         {loading && !data ? (
           <View style={s.center}><ActivityIndicator color={C.accent} size="large" /><Text style={s.sub}>Cargando eventos…</Text></View>
         ) : tab === 'explorar' ? (
-          <Explorar {...ctx} data={data} error={error} onRefresh={fetchData} />
+          <Explorar {...ctx} data={data} error={error} onRefresh={fetchData} lastSeen={lastSeen} />
         ) : tab === 'mis' ? (
           <MisEventos {...ctx} onOpenCheckin={setCheckinOpen} onAddManual={() => setManualOpen(true)} />
         ) : (
@@ -320,9 +358,15 @@ export default function App() {
               setManual(b.manual || []); save(K.manual, b.manual || []);
             }} />
         )}
+        {toast ? (
+          <View style={s.toast}>
+            <Text style={s.toastTxt} numberOfLines={2}>{toast.msg}</Text>
+            {toast.undo ? <TouchableOpacity onPress={() => { toast.undo(); setToast(null); }} hitSlop={10}><Text style={s.toastUndo}>Deshacer</Text></TouchableOpacity> : null}
+          </View>
+        ) : null}
       </View>
 
-      <View style={s.tabbar}>
+      <View style={[s.tabbar, { paddingBottom: Math.max(ins.bottom, 6) }]}>
         {[['explorar', 'compass', 'Explorar'], ['mis', 'heart', 'Mis eventos'], ['ajustes', 'settings', 'Fuentes']].map(([k, ic, label]) => (
           <TouchableOpacity key={k} style={s.tabBtn} onPress={() => setTab(k)}>
             <Ionicons name={tab === k ? ic : `${ic}-outline`} size={22} color={tab === k ? C.accent : C.sub} />
@@ -336,7 +380,7 @@ export default function App() {
         onSave={(c) => saveCheckins(checkins.map((x) => (x.id === c.id ? c : x)))}
         onDelete={(id) => { saveCheckins(checkins.filter((x) => x.id !== id)); setCheckinOpen(null); }} />
       <ManualModal visible={manualOpen} onClose={() => setManualOpen(false)} onSave={(m) => { saveManual(m); setManualOpen(false); }} />
-    </SafeAreaView></Screen>
+    </View></Screen>
   );
 }
 
@@ -352,12 +396,19 @@ const PRESETS = [
   ['3meses', '3 meses', (t) => [t, addDays(t, 91)]],
 ];
 
-function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open, data, error, onRefresh }) {
+function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open, data, error, onRefresh, hideNow, likeNow, lastSeen }) {
   const t = todayStr();
   const [range, setRange] = useState(() => [t, addDays(t, 60)]);
   const [preset, setPreset] = useState('2meses');
-  const [cartelera, setCartelera] = useState(false);
   const [drawer, setDrawer] = useState(false);
+  const [compact, setCompact] = useState(false); // vista grande (≈3 por pantalla) o compacta (≈5)
+  const [hint, setHint] = useState(false);
+  useEffect(() => {
+    load('enl_view', 'grande').then((v) => setCompact(v === 'compacta'));
+    load('enl_hint_swipe', false).then((v) => setHint(!v));
+  }, []);
+  const toggleView = () => setCompact((c) => { save('enl_view', c ? 'grande' : 'compacta'); return !c; });
+  const closeHint = () => { setHint(false); save('enl_hint_swipe', true); };
   const [off, setOff] = useState({}); // categorías apagadas (por defecto: todas prendidas)
   const [q, setQ] = useState('');
   const [refreshing, setRefreshing] = useState(false);
@@ -382,10 +433,6 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
   }, [visibles, t]);
 
   const sections = useMemo(() => {
-    if (cartelera) {
-      const list = visibles.filter((e) => isLongRange(e) && day(e.start) <= b && day(e.end) >= a).sort((x, y) => (x.end < y.end ? -1 : 1));
-      return list.length ? [{ title: 'Exposiciones y temporadas', data: list.map((e) => ({ e, occ: { start: e.start, end: e.end } })) }] : [];
-    }
     const short = daysBetween(a, b) <= 7;
     const groups = {};
     for (const e of visibles) {
@@ -402,12 +449,60 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
       title: relativeLabel(d),
       data: groups[d].sort((x, y) => (hasTime(x.occ.start) ? x.occ.start : `${d}T99`) < (hasTime(y.occ.start) ? y.occ.start : `${d}T99`) ? -1 : 1),
     }));
-  }, [visibles, a, b, t, cartelera]);
+  }, [visibles, a, b, t]);
 
   const total = sections.reduce((n, sct) => n + sct.data.length, 0);
-  const nCartelera = useMemo(() => visibles.filter((e) => isLongRange(e) && day(e.end) >= t).length, [visibles, t]);
-  const rangeLabel = cartelera ? 'En cartelera' : a === b ? relativeLabel(a) : `${fmtDayShort(a)} → ${fmtDayShort(b)}`;
-  const nFiltros = (nOn < catsPresent.length ? 1 : 0) + (cartelera ? 1 : 0);
+  // "No te lo pierdas": lo que se está vendiendo rápido (sin importar el mes) y lo recién anunciado.
+  const isNewEv = (e) => !!lastSeen && !!e.firstSeen && e.firstSeen > lastSeen;
+  const hotList = useMemo(() => visibles.filter((e) => isHot(e) && !e.soldOut && day(e.end || e.start) >= t)
+    .sort((x, y) => (nextOccurrence(x, t) || x).start < (nextOccurrence(y, t) || y).start ? -1 : 1), [visibles, t]);
+  const newList = useMemo(() => visibles.filter((e) => isNewEv(e) && day(e.end || e.start) >= t)
+    .sort((x, y) => (x.firstSeen < y.firstSeen ? 1 : -1)), [visibles, t, lastSeen]);
+  const occLabel = (e) => { const o = nextOccurrence(e, t); return o ? fmtDayShort(day(o.start)) : `Hasta ${fmtDayShort(e.end)}`; };
+  // Exposiciones y temporadas abiertas en el rango: van en una fila aparte arriba, ordenadas por la que cierra primero.
+  const carteleraList = useMemo(() => visibles.filter((e) => isLongRange(e) && day(e.start) <= b && day(e.end) >= a && day(e.end) >= t)
+    .sort((x, y) => (x.end < y.end ? -1 : 1)), [visibles, a, b, t]);
+  const rangeLabel = a === b ? relativeLabel(a) : `${fmtDayShort(a)} → ${fmtDayShort(b)}`;
+  const nFiltros = nOn < catsPresent.length ? 1 : 0;
+  const header = (
+    <View>
+      {hint ? (
+        <View style={s.hint}>
+          <Ionicons name="swap-horizontal" size={18} color={C.accent} />
+          <Text style={[s.sub, { flex: 1, marginLeft: 8, fontSize: 12 }]}>Desliza una tarjeta: ← no me interesa · → me interesa. Tócala para ver el detalle.</Text>
+          <TouchableOpacity onPress={closeHint} hitSlop={10}><Ionicons name="close" size={18} color={C.sub} /></TouchableOpacity>
+        </View>
+      ) : null}
+      {hotList.length ? (
+        <View style={{ marginBottom: 4 }}>
+          <Text style={s.rowHead}>🔥 Alta demanda <Text style={s.secCount}>· compra antes de que se agoten</Text></Text>
+          <FlatList horizontal data={hotList} keyExtractor={(e) => `h_${e.id}`} showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12 }}
+            renderItem={({ item }) => <Poster ev={item} onPress={() => open(item)} onLongPress={() => askHide(item)}
+              sub={`${item.waitlist ? 'Lista de espera' : recentMoreDates(item) && item.demand !== 'alta' ? 'Agregaron fechas' : item.demandWhy ? 'Alta demanda' : 'Se agota rápido'} · ${occLabel(item)}`} subColor="#ff8a3d" />} />
+        </View>
+      ) : null}
+      {newList.length ? (
+        <View style={{ marginBottom: 4 }}>
+          <Text style={s.rowHead}>✨ Nuevos desde tu última visita <Text style={s.secCount}>· {newList.length}</Text></Text>
+          <FlatList horizontal data={newList} keyExtractor={(e) => `n_${e.id}`} showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12 }}
+            renderItem={({ item }) => <Poster ev={item} onPress={() => open(item)} onLongPress={() => askHide(item)} sub={occLabel(item)} subColor="#7cc4ff" />} />
+        </View>
+      ) : null}
+      {carteleraList.length ? (
+        <View style={{ marginBottom: 4 }}>
+          <Text style={s.rowHead}>En cartelera <Text style={s.secCount}>· {carteleraList.length} exposiciones y temporadas</Text></Text>
+          <FlatList
+            horizontal
+            data={carteleraList}
+            keyExtractor={(e) => `c_${e.id}`}
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={{ paddingHorizontal: 12 }}
+            renderItem={({ item }) => <Poster ev={item} onPress={() => open(item)} onLongPress={() => askHide(item)} />}
+          />
+        </View>
+      ) : null}
+    </View>
+  );
 
   return (
     <View style={{ flex: 1 }}>
@@ -416,6 +511,10 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
           <Text style={s.h1}>Eventos NL</Text>
           <Text style={s.sub}>{data ? `${data.total || allEvents.length} eventos · actualizado ${fmtUpdated(data.generatedAt)}` : ''}</Text>
         </View>
+        <TouchableOpacity onPress={toggleView} style={s.viewBtn} hitSlop={6} activeOpacity={0.8}>
+          <Ionicons name={compact ? 'albums-outline' : 'list'} size={20} color={C.text} />
+          <Text style={s.viewTxt}>{compact ? 'Grande' : 'Compacta'}</Text>
+        </TouchableOpacity>
         <TouchableOpacity onPress={() => setDrawer(true)} activeOpacity={0.85}>
           <Grad colors={ACC} style={s.filterBtn}>
             <Ionicons name="options" size={20} color="#fff" />
@@ -428,7 +527,7 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
 
       <TouchableOpacity onPress={() => setDrawer(true)} activeOpacity={0.85} style={{ marginHorizontal: 12, marginBottom: 10 }}>
         <Grad colors={['rgba(255,138,61,0.30)', 'rgba(255,61,139,0.22)', 'rgba(124,92,255,0.25)']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={s.rangeBtn}>
-          <Ionicons name={cartelera ? 'easel' : 'calendar'} size={20} color="#fff" />
+          <Ionicons name="calendar" size={20} color="#fff" />
           <View style={{ flex: 1, marginLeft: 10 }}>
             <Text style={s.rangeTxt}>{rangeLabel}</Text>
             <Text style={[s.sub, { fontSize: 12 }]}>{nOn === catsPresent.length ? 'Todas las categorías' : `${nOn} de ${catsPresent.length} categorías`}</Text>
@@ -448,24 +547,29 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
         keyExtractor={(it, i) => `${it.e.id}_${it.occ.start}_${i}`}
         stickySectionHeadersEnabled
         renderSectionHeader={({ section }) => <Text style={s.secHead}>{section.title} <Text style={s.secCount}>· {section.data.length}</Text></Text>}
-        renderItem={({ item }) => <EventCard ev={item.e} occ={item.occ} fav={!!favs[item.e.id]} agendado={!!agendados[item.e.id]} onPress={() => open(item.e)} onLongPress={() => askHide(item.e)} onFav={() => toggleFav(item.e)} />}
+        ListHeaderComponent={header}
+        renderItem={({ item }) => (
+          <SwipeRow onLeft={() => hideNow(item.e)} onRight={() => likeNow(item.e)}>
+            <EventCard ev={item.e} occ={item.occ} compact={compact} isNew={isNewEv(item.e)} fav={!!favs[item.e.id]} agendado={!!agendados[item.e.id]} onPress={() => open(item.e)} onLongPress={() => askHide(item.e)} onFav={() => toggleFav(item.e)} />
+          </SwipeRow>
+        )}
         refreshControl={<RefreshControl refreshing={refreshing} tintColor={C.accent} colors={[C.accent]} onRefresh={async () => { setRefreshing(true); await onRefresh(); setRefreshing(false); }} />}
-        ListEmptyComponent={<View style={s.center}><Ionicons name="calendar-clear-outline" size={40} color={C.sub} /><Text style={s.sub}>No hay eventos con estos filtros.</Text></View>}
+        ListEmptyComponent={<View style={s.center}><Ionicons name="calendar-clear-outline" size={40} color={C.sub} /><Text style={s.sub}>{nOn ? 'No hay eventos con estos filtros.' : 'No hay categorías activas. Abre Filtros y elige al menos una.'}</Text></View>}
         ListFooterComponent={total ? <Text style={[s.sub, { textAlign: 'center', padding: 16 }]}>{total} resultados</Text> : null}
         contentContainerStyle={{ paddingBottom: 24 }}
       />
 
       <FiltersDrawer visible={drawer} onClose={() => setDrawer(false)} today={t}
-        range={range} preset={preset} cartelera={cartelera} nCartelera={nCartelera} perDay={perDay}
-        catsPresent={catsPresent} off={off} total={total}
+        range={range} preset={preset} perDay={perDay}
+        catsPresent={catsPresent} off={off} total={total + carteleraList.length}
         outside={((data && data.notIncluded) || []).filter((x) => x.status !== 'indirecto')}
-        setPreset={(k, r) => { setPreset(k); setRange(r); setCartelera(false); }}
-        setRange={(r) => { setRange(r); setPreset(null); setCartelera(false); }}
-        setCartelera={setCartelera}
+        setPreset={(k, r) => { setPreset(k); setRange(r); }}
+        setRange={(r) => { setRange(r); setPreset(null); }}
         toggleCat={(c) => setOff((p) => { const n = { ...p }; if (n[c]) delete n[c]; else n[c] = true; return n; })}
         onlyCat={(c) => setOff(Object.fromEntries(catsPresent.filter((x) => x !== c).map((x) => [x, true])))}
         allCats={() => setOff({})}
-        reset={() => { setOff({}); setRange([t, addDays(t, 60)]); setPreset('2meses'); setCartelera(false); }} />
+        noCats={() => setOff(Object.fromEntries(catsPresent.map((x) => [x, true])))}
+        reset={() => { setOff({}); setRange([t, addDays(t, 60)]); setPreset('2meses'); }} />
     </View>
   );
 }
@@ -493,8 +597,8 @@ function OutsidePages({ list, compact }) {
 }
 
 // Menú lateral de filtros: entra deslizándose desde la derecha; se cierra tocando afuera o deslizando a la derecha.
-function FiltersDrawer({ visible, onClose, today, range, preset, cartelera, nCartelera, perDay, catsPresent, off, total, outside,
-  setPreset, setRange, setCartelera, toggleCat, onlyCat, allCats, reset }) {
+function FiltersDrawer({ visible, onClose, today, range, preset, perDay, catsPresent, off, total, outside,
+  setPreset, setRange, toggleCat, onlyCat, allCats, noCats, reset }) {
   const W = Math.min(Dimensions.get('window').width * 0.88, 420);
   const x = React.useRef(new Animated.Value(W)).current;
   const [mounted, setMounted] = useState(visible);
@@ -509,12 +613,13 @@ function FiltersDrawer({ visible, onClose, today, range, preset, cartelera, nCar
   })).current;
   if (!mounted) return null;
   const allOn = catsPresent.every((c) => !off[c]);
+  const noneOn = catsPresent.every((c) => off[c]);
   return (
-    <Modal visible transparent animationType="none" onRequestClose={onClose}>
+    <Modal visible transparent animationType="none" onRequestClose={onClose} statusBarTranslucent navigationBarTranslucent>
       <TouchableOpacity style={s.overlay} activeOpacity={1} onPress={onClose} />
       <Animated.View style={[s.drawer, { width: W, transform: [{ translateX: x }] }]} {...pan.panHandlers}>
         <Grad colors={['#341270', '#1d1142', '#0f2257']} start={{ x: 0, y: 0 }} end={{ x: 0.4, y: 1 }} style={{ flex: 1 }}>
-          <SafeAreaView style={{ flex: 1, paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 0 : 0 }}>
+          <SafeBox>
             <View style={[s.row, { justifyContent: 'space-between', padding: 16, paddingBottom: 6 }]}>
               <Text style={s.h2}>Filtros</Text>
               <TouchableOpacity onPress={onClose} hitSlop={12}><Ionicons name="close" size={26} color={C.text} /></TouchableOpacity>
@@ -523,7 +628,7 @@ function FiltersDrawer({ visible, onClose, today, range, preset, cartelera, nCar
               <Text style={s.drawerHead}>¿Cuándo?</Text>
               <View style={s.wrap}>
                 {PRESETS.map(([k, label, fn]) => {
-                  const on = !cartelera && preset === k;
+                  const on = preset === k;
                   return (
                     <TouchableOpacity key={k} onPress={() => setPreset(k, fn(today))} style={{ marginRight: 8, marginBottom: 8 }}>
                       {on ? <Grad colors={ACC} style={s.pill}><Text style={[s.pillTxt, { color: '#fff' }]}>{label}</Text></Grad>
@@ -534,18 +639,13 @@ function FiltersDrawer({ visible, onClose, today, range, preset, cartelera, nCar
               </View>
               <RangeCalendar today={today} range={range} perDay={perDay} onChange={setRange} />
 
-              <TouchableOpacity onPress={() => setCartelera(!cartelera)} style={[s.toggleRow, cartelera && { borderColor: C.pink }]}>
-                <Ionicons name="easel" size={18} color={cartelera ? C.pink : C.sub} />
-                <View style={{ flex: 1, marginLeft: 10 }}>
-                  <Text style={s.text}>Exposiciones y temporadas</Text>
-                  <Text style={[s.sub, { fontSize: 12 }]}>{nCartelera} en cartelera ahora</Text>
-                </View>
-                <Ionicons name={cartelera ? 'checkmark-circle' : 'ellipse-outline'} size={22} color={cartelera ? C.pink : C.sub} />
-              </TouchableOpacity>
-
               <View style={[s.row, { justifyContent: 'space-between', marginTop: 18 }]}>
                 <Text style={[s.drawerHead, { marginTop: 0 }]}>Categorías</Text>
-                <TouchableOpacity onPress={allCats} disabled={allOn}><Text style={{ color: allOn ? C.sub : C.accent, fontWeight: '700' }}>{allOn ? 'Todas activas' : 'Activar todas'}</Text></TouchableOpacity>
+                <View style={s.row}>
+                  <TouchableOpacity onPress={allCats} disabled={allOn} hitSlop={8}><Text style={{ color: allOn ? C.sub : C.accent, fontWeight: '700' }}>Activar todas</Text></TouchableOpacity>
+                  <Text style={{ color: C.line, marginHorizontal: 8 }}>|</Text>
+                  <TouchableOpacity onPress={noCats} disabled={noneOn} hitSlop={8}><Text style={{ color: noneOn ? C.sub : C.accent, fontWeight: '700' }}>Desactivar todas</Text></TouchableOpacity>
+                </View>
               </View>
               {catsPresent.map((c) => {
                 const on = !off[c];
@@ -575,11 +675,11 @@ function FiltersDrawer({ visible, onClose, today, range, preset, cartelera, nCar
               <TouchableOpacity onPress={reset} style={[s.pill, s.pillOff, { marginRight: 10 }]}><Text style={s.pillTxt}>Restablecer</Text></TouchableOpacity>
               <TouchableOpacity onPress={onClose} style={{ flex: 1 }}>
                 <Grad colors={ACC} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={[s.pill, { alignItems: 'center' }]}>
-                  <Text style={[s.pillTxt, { color: '#fff', fontWeight: '800' }]}>Ver {total} eventos</Text>
+                  <Text style={[s.pillTxt, { color: '#fff', fontWeight: '800' }]}>{noneOn ? 'Elige al menos una categoría' : `Ver ${total} eventos`}</Text>
                 </Grad>
               </TouchableOpacity>
             </View>
-          </SafeAreaView>
+          </SafeBox>
         </Grad>
       </Animated.View>
     </Modal>
@@ -646,33 +746,186 @@ function fmtUpdated(iso) {
   return `${d.getDate()} ${MESES_C[d.getMonth()]} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
 }
 
-function EventCard({ ev, occ, fav, agendado, onPress, onLongPress, onFav, right }) {
+// Recuadro para eventos sin foto: color de su categoría + ícono grande (se ve intencional, no roto).
+function NoImage({ ev, style, big }) {
   const ci = catInfo(ev.category);
-  const n = ev.dates ? ev.dates.length : 0;
-  const when = isLongRange(ev) || isShortRange(ev)
+  return (
+    <Grad colors={[`${ci.c}66`, `${ci.c}22`]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={[style, { alignItems: 'center', justifyContent: 'center' }]}>
+      <Ionicons name={ci.i} size={big ? 46 : 24} color={ci.c} />
+      {big ? <Text style={{ color: ci.c, fontWeight: '800', fontSize: 12, marginTop: 6, letterSpacing: 1, textTransform: 'uppercase' }}>{ev.category}</Text> : null}
+    </Grad>
+  );
+}
+
+// Imagen del evento; si no carga, muestra el recuadro de su categoría.
+function EvImage({ ev, style, big }) {
+  const [bad, setBad] = useState(false);
+  if (!ev.image || bad) return <NoImage ev={ev} style={style} big={big} />;
+  return <Image source={{ uri: ev.image }} style={style} onError={() => setBad(true)} />;
+}
+
+// Talón de boleto en la esquina de la foto: SÁB / 24 / OCT (o "HASTA 12 NOV" en temporadas).
+function DateStub({ ev, occ }) {
+  const longish = isLongRange(ev) || isShortRange(ev);
+  const d = parseLocal(day(longish && day(ev.start) < todayStr() ? ev.end : occ.start) || todayStr());
+  return (
+    <View style={s.stub}>
+      <Text style={s.stubTop}>{longish && day(ev.start) < todayStr() ? 'HASTA' : DIAS_C[d.getDay()].toUpperCase()}</Text>
+      <Text style={s.stubDay}>{d.getDate()}</Text>
+      <Text style={s.stubTop}>{MESES_C[d.getMonth()].toUpperCase()}</Text>
+    </View>
+  );
+}
+
+// Señales de "no te lo pierdas": demanda alta, más fechas agregadas, preventas, promos.
+const MORE_DATES_DAYS = 21;
+const recentMoreDates = (ev) => !!ev.moreDatesAt && daysBetween(day(ev.moreDatesAt), todayStr()) <= MORE_DATES_DAYS;
+const isHot = (ev) => ev.demand === 'alta' || ev.waitlist || recentMoreDates(ev);
+function nextSale(ev) {
+  const o = ev.onsale;
+  if (!o) return null;
+  const now = `${todayStr()}T${pad(new Date().getHours())}:${pad(new Date().getMinutes())}`;
+  const list = [...(o.presales || []).map((p) => ({ label: p.name || 'Preventa', start: p.start })), ...(o.general ? [{ label: 'Venta general', start: o.general }] : [])]
+    .filter((x) => x.start && x.start > now).sort((a, b) => (a.start < b.start ? -1 : 1));
+  return list.length ? list : null;
+}
+function DemandTags({ ev, isNew }) {
+  const sale = nextSale(ev);
+  const items = [];
+  if (ev.soldOut) items.push(['Agotado', C.danger]);
+  else if (ev.waitlist) items.push(['Lista de espera', C.danger]);
+  else if (ev.demand === 'alta') items.push([ev.demandWhy ? `🔥 Alta demanda: "${ev.demandWhy}"` : '🔥 Se agota rápido', '#ff8a3d']);
+  if (recentMoreDates(ev)) items.push(['🔥 Más fechas', '#ff8a3d']);
+  if (sale) items.push([`🎟️ ${sale[0].label === 'Venta general' ? 'Venta' : 'Preventa'} ${fmtDayShort(day(sale[0].start))}`, C.star]);
+  if (ev.promo) items.push([ev.promo, C.ok]);
+  if (isNew) items.push(['Nuevo', '#7cc4ff']);
+  if (!items.length) return null;
+  return (
+    <View style={[s.row, { marginTop: 4 }]}>
+      {items.map(([t, c]) => <Text key={t} style={[s.hotTag, { color: c, borderColor: c }]}>{t}</Text>)}
+    </View>
+  );
+}
+
+function whenText(ev, occ) {
+  return isLongRange(ev) || isShortRange(ev)
     ? `${fmtDayShort(ev.start)} – ${fmtDayShort(ev.end)}`
     : hasTime(occ.start) ? fmtTime(occ.start) : 'Horario por confirmar';
+}
+
+function EventCard({ ev, occ, fav, agendado, onPress, onLongPress, onFav, right, compact, isNew }) {
+  const ci = catInfo(ev.category);
+  const n = ev.dates ? ev.dates.length : 0;
+  const when = whenText(ev, occ);
+  const tags = (
+    <View style={s.row}>
+      <Text style={[s.badge, { color: ci.c }]}>{ev.category}</Text>
+      {ev.price ? <Text style={s.badgeMuted} numberOfLines={1}>{ev.price}</Text> : null}
+      {n > 1 ? <Text style={s.badgeMuted}>{n} funciones</Text> : null}
+      {ev.manual ? <Text style={s.badgeMuted}>manual</Text> : null}
+      {agendado ? <Ionicons name="calendar" size={13} color={C.ok} style={{ marginLeft: 2, marginTop: 4 }} /> : null}
+    </View>
+  );
+  if (!compact) {
+    return (
+      <TouchableOpacity style={s.bigCard} onPress={onPress} onLongPress={onLongPress} delayLongPress={350} activeOpacity={0.9}>
+        <View>
+          <EvImage ev={ev} style={s.bigImg} big />
+          <DateStub ev={ev} occ={occ} />
+          {right || (
+            <TouchableOpacity onPress={onFav} hitSlop={10} style={s.bigStar}>
+              <Ionicons name={fav ? 'star' : 'star-outline'} size={20} color={fav ? C.star : '#fff'} />
+            </TouchableOpacity>
+          )}
+        </View>
+        <View style={{ padding: 12, paddingTop: 10 }}>
+          <Text style={s.bigTitle} numberOfLines={2}>{ev.title}</Text>
+          <Text style={s.cardMeta} numberOfLines={1}>{when}{ev.venue ? ` · ${ev.venue}` : ''}</Text>
+          {tags}
+          <DemandTags ev={ev} isNew={isNew} />
+        </View>
+      </TouchableOpacity>
+    );
+  }
   return (
     <TouchableOpacity style={s.card} onPress={onPress} onLongPress={onLongPress} delayLongPress={350} activeOpacity={0.8}>
       <View style={[s.catBar, { backgroundColor: ci.c }]} />
-      {ev.image ? <Image source={{ uri: ev.image }} style={s.thumb} /> : (
-        <View style={[s.thumb, { backgroundColor: C.card2, alignItems: 'center', justifyContent: 'center' }]}><Ionicons name={ci.i} size={22} color={ci.c} /></View>
-      )}
+      <EvImage ev={ev} style={s.thumb} />
       <View style={{ flex: 1, paddingRight: 6 }}>
         <Text style={s.cardTitle} numberOfLines={2}>{ev.title}</Text>
         <Text style={s.cardMeta} numberOfLines={1}>{when}{ev.venue ? ` · ${ev.venue}` : ''}</Text>
-        <View style={s.row}>
-          <Text style={[s.badge, { color: ci.c }]}>{ev.category}</Text>
-          {ev.price ? <Text style={s.badgeMuted} numberOfLines={1}>{ev.price}</Text> : null}
-          {n > 1 ? <Text style={s.badgeMuted}>{n} funciones</Text> : null}
-          {ev.manual ? <Text style={s.badgeMuted}>manual</Text> : null}
-          {agendado ? <Ionicons name="calendar" size={13} color={C.ok} style={{ marginLeft: 4 }} /> : null}
-        </View>
+        {tags}
+        <DemandTags ev={ev} isNew={isNew} />
       </View>
       {right || (
         <TouchableOpacity onPress={onFav} hitSlop={12} style={{ padding: 4 }}>
           <Ionicons name={fav ? 'star' : 'star-outline'} size={22} color={fav ? C.star : C.sub} />
         </TouchableOpacity>
+      )}
+    </TouchableOpacity>
+  );
+}
+
+// Deslizar estilo Tinder: ← izquierda = No me interesa (se oculta), → derecha = Me interesa (⭐).
+// Tocar la tarjeta sigue abriendo el detalle; el deslizamiento sólo se activa con un movimiento claramente horizontal.
+function SwipeRow({ children, onLeft, onRight }) {
+  const x = React.useRef(new Animated.Value(0)).current;
+  const cb = React.useRef({ onLeft, onRight });
+  cb.current = { onLeft, onRight };
+  const moved = React.useRef(false); // si hubo deslizamiento, el toque no abre el detalle
+  const settle = () => setTimeout(() => { moved.current = false; }, 350);
+  const W = Dimensions.get('window').width;
+  const back = () => Animated.spring(x, { toValue: 0, useNativeDriver: false, bounciness: 6 }).start();
+  const pan = React.useRef(PanResponder.create({
+    onMoveShouldSetPanResponderCapture: (_, g) => Math.abs(g.dx) > 14 && Math.abs(g.dx) > Math.abs(g.dy) * 1.8,
+    onMoveShouldSetPanResponder: (_, g) => Math.abs(g.dx) > 14 && Math.abs(g.dx) > Math.abs(g.dy) * 1.8,
+    onPanResponderTerminationRequest: () => false,
+    onPanResponderMove: (_, g) => { moved.current = true; x.setValue(g.dx); },
+    onPanResponderRelease: (_, g) => {
+      settle();
+      if (g.dx < -110 || (g.dx < -40 && g.vx < -0.8)) {
+        vibrar();
+        Animated.timing(x, { toValue: -W, duration: 170, useNativeDriver: false }).start(() => { cb.current.onLeft(); x.setValue(0); });
+      } else if (g.dx > 110 || (g.dx > 40 && g.vx > 0.8)) {
+        vibrar(); cb.current.onRight(); back();
+      } else back();
+    },
+    onPanResponderTerminate: () => { settle(); back(); },
+  })).current;
+  const child = React.Children.only(children);
+  const guarded = React.cloneElement(child, {
+    onPress: () => { if (!moved.current && child.props.onPress) child.props.onPress(); },
+    onLongPress: () => { if (!moved.current && child.props.onLongPress) child.props.onLongPress(); },
+  });
+  const rotate = x.interpolate({ inputRange: [-W, 0, W], outputRange: ['-7deg', '0deg', '7deg'] });
+  const likeO = x.interpolate({ inputRange: [0, 90], outputRange: [0, 1], extrapolate: 'clamp' });
+  const nopeO = x.interpolate({ inputRange: [-90, 0], outputRange: [1, 0], extrapolate: 'clamp' });
+  return (
+    <View>
+      <Animated.View pointerEvents="none" style={[s.swipeBg, { backgroundColor: 'rgba(62,230,160,0.16)', opacity: likeO }]}>
+        <Ionicons name="star" size={26} color={C.star} /><Text style={[s.swipeTxt, { color: C.ok }]}>Me interesa</Text>
+      </Animated.View>
+      <Animated.View pointerEvents="none" style={[s.swipeBg, { justifyContent: 'flex-end', backgroundColor: 'rgba(255,107,129,0.16)', opacity: nopeO }]}>
+        <Text style={[s.swipeTxt, { color: C.danger }]}>No me interesa</Text><Ionicons name="close-circle" size={26} color={C.danger} />
+      </Animated.View>
+      <Animated.View {...pan.panHandlers} style={{ transform: [{ translateX: x }, { rotate }] }}>{guarded}</Animated.View>
+    </View>
+  );
+}
+
+// Póster vertical para la fila "En cartelera" (exposiciones y temporadas largas).
+function Poster({ ev, onPress, onLongPress, sub, subColor }) {
+  const t = todayStr();
+  const left = daysBetween(t, day(ev.end));
+  const closing = left <= 7;
+  return (
+    <TouchableOpacity style={s.poster} onPress={onPress} onLongPress={onLongPress} delayLongPress={350} activeOpacity={0.85}>
+      <EvImage ev={ev} style={s.posterImg} big />
+      <Text style={s.posterTitle} numberOfLines={2}>{ev.title}</Text>
+      {sub ? <Text style={[s.posterSub, subColor && { color: subColor, fontWeight: '700' }]} numberOfLines={1}>{sub}</Text> : (
+        <Text style={[s.posterSub, closing && { color: C.accent, fontWeight: '700' }]} numberOfLines={1}>
+          {left <= 0 ? 'Último día' : closing ? `Cierra en ${left} día${left === 1 ? '' : 's'}` : `Hasta ${fmtDayShort(ev.end)}`}
+        </Text>
       )}
     </TouchableOpacity>
   );
@@ -699,8 +952,8 @@ function DetailModal({ ev, onClose, favs, hidden, agendados, checkins, toggleFav
   const checkinDate = range ? t : (occ.filter((o) => day(o.start) <= t).pop() || {}).start;
 
   return (
-    <Modal visible animationType="slide" onRequestClose={onClose}>
-      <Screen><SafeAreaView style={[s.safe, { paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 0 : 0 }]}>
+    <Modal visible animationType="slide" onRequestClose={onClose} statusBarTranslucent navigationBarTranslucent>
+      <Screen><SafeBox>
         <View style={s.modalTop}>
           <TouchableOpacity onPress={onClose} hitSlop={12}><Ionicons name="chevron-down" size={28} color={C.text} /></TouchableOpacity>
           <View style={{ flexDirection: 'row' }}>
@@ -721,6 +974,19 @@ function DetailModal({ ev, onClose, favs, hidden, agendados, checkins, toggleFav
             ) : null}
             {range ? <InfoRow icon="calendar" text={`Del ${fmtDayLong(ev.start)} al ${fmtDayLong(ev.end)}`} /> : null}
             {ev.price ? <InfoRow icon="pricetag" text={ev.price} /> : null}
+            <DemandTags ev={ev} />
+            {(nextSale(ev) || []).map((x) => (
+              <View key={x.start} style={[s.occRow, { marginTop: 8, borderWidth: 1, borderColor: 'rgba(255,212,59,0.4)' }]}>
+                <Ionicons name="ticket" size={18} color={C.star} />
+                <View style={{ flex: 1, marginLeft: 10 }}>
+                  <Text style={s.occDay}>{x.label}</Text>
+                  <Text style={s.sub}>{fmtDayLong(day(x.start))}{hasTime(x.start) ? ` · ${fmtTime(x.start)}` : ''}</Text>
+                </View>
+                <TouchableOpacity style={s.calBtn} onPress={() => addToCalendar({ ...ev, title: `🎟️ ${x.label}: ${ev.title}`, venue: '', city: '', price: null }, { start: x.start, url: ticketLink(ev) ? ticketLink(ev).url : ev.url })}>
+                  <Ionicons name="alarm" size={16} color="#111" /><Text style={s.calTxt}>Recordar</Text>
+                </TouchableOpacity>
+              </View>
+            ))}
             {ev.description ? <Description text={ev.description} /> : null}
 
             <Text style={s.h3}>{range ? 'Agendar' : upcoming.length > 1 ? `Funciones (${upcoming.length})` : 'Fecha'}</Text>
@@ -729,7 +995,9 @@ function DetailModal({ ev, onClose, favs, hidden, agendados, checkins, toggleFav
               <View key={i} style={s.occRow}>
                 <View style={{ flex: 1 }}>
                   <Text style={s.occDay}>{range ? 'Visita cuando quieras' : relativeLabel(day(o.start))}</Text>
-                  <Text style={s.sub}>{range ? `Hasta el ${fmtDayLong(ev.end)}` : hasTime(o.start) ? fmtTime(o.start) : 'Horario por confirmar'}</Text>
+                  <Text style={s.sub}>{range ? `Hasta el ${fmtDayLong(ev.end)}` : hasTime(o.start) ? fmtTime(o.start) : 'Horario por confirmar'}{o.price ? ` · ${o.price}` : ''}</Text>
+                  {o.avail === 'agotado' ? <Text style={[s.sub, { color: C.danger, fontWeight: '700' }]}>Agotada</Text>
+                    : o.avail === 'ultimos' ? <Text style={[s.sub, { color: '#ff8a3d', fontWeight: '700' }]}>🔥 Últimos boletos{o.left ? ` · quedan ${o.left}` : ''}</Text> : null}
                 </View>
                 <TouchableOpacity style={s.calBtn} onPress={() => onCalendar(ev, range ? { start: t, end: null, url: ev.url } : o)}>
                   <Ionicons name="calendar" size={16} color="#111" />
@@ -776,7 +1044,7 @@ function DetailModal({ ev, onClose, favs, hidden, agendados, checkins, toggleFav
             ) : null}
           </View>
         </ScrollView>
-      </SafeAreaView></Screen>
+      </SafeBox></Screen>
     </Modal>
   );
 }
@@ -848,7 +1116,7 @@ function MisEventos({ allEvents, byId, favs, hidden, unhide, agendados, checkins
           renderItem={({ item }) => (
             <View>
               <Text style={s.miniHead}>{isLongRange(item.e) ? 'En cartelera' : relativeLabel(day(item.occ.start))}</Text>
-              <EventCard ev={item.e} occ={item.occ} fav agendado={!!agendados[item.e.id]} onPress={() => open(item.e)} onFav={() => toggleFav(item.e)} />
+              <EventCard compact ev={item.e} occ={item.occ} fav agendado={!!agendados[item.e.id]} onPress={() => open(item.e)} onFav={() => toggleFav(item.e)} />
             </View>
           )}
           ListHeaderComponent={manualFuturos.length ? <Text style={[s.sub, { paddingHorizontal: 16, paddingBottom: 6 }]}>Tus eventos manuales también aparecen en Explorar.</Text> : null}
@@ -928,8 +1196,8 @@ function CheckinModal({ checkin, onClose, onSave, onDelete }) {
     { text: 'Cancelar' }, { text: 'Quitar', style: 'destructive', onPress: () => { onSave({ ...checkin, photos: checkin.photos.filter((p) => p !== u) }); setViewer(null); } },
   ]);
   return (
-    <Modal visible animationType="slide" onRequestClose={() => { onSave({ ...checkin, note }); onClose(); }}>
-      <Screen><SafeAreaView style={[s.safe, { paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 0 : 0 }]}>
+    <Modal visible animationType="slide" onRequestClose={() => { onSave({ ...checkin, note }); onClose(); }} statusBarTranslucent navigationBarTranslucent>
+      <Screen><SafeBox>
         <View style={s.modalTop}>
           <TouchableOpacity onPress={() => { onSave({ ...checkin, note }); onClose(); }} hitSlop={12}><Ionicons name="chevron-down" size={28} color={C.text} /></TouchableOpacity>
           <TouchableOpacity onPress={() => Alert.alert('Quitar check-in', '¿Quitar este evento de "Asistí"?', [{ text: 'Cancelar' }, { text: 'Quitar', style: 'destructive', onPress: () => onDelete(checkin.id) }])}>
@@ -965,7 +1233,7 @@ function CheckinModal({ checkin, onClose, onSave, onDelete }) {
             <Text style={s.sub}>Toca para cerrar · mantén presionado en la cuadrícula para quitar</Text>
           </TouchableOpacity>
         </Modal>
-      </SafeAreaView></Screen>
+      </SafeBox></Screen>
     </Modal>
   );
 }
@@ -986,8 +1254,8 @@ function ManualModal({ visible, onClose, onSave }) {
     onSave({ id: `m${Date.now()}`, title: title.trim(), venue: venue.trim(), city: '', start, end: null, category: cat, price: null, url: link.trim() || null, image: null });
   };
   return (
-    <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
-      <Screen><SafeAreaView style={[s.safe, { paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 0 : 0 }]}>
+    <Modal visible={visible} animationType="slide" onRequestClose={onClose} statusBarTranslucent navigationBarTranslucent>
+      <Screen><SafeBox>
         <View style={s.modalTop}>
           <TouchableOpacity onPress={onClose}><Text style={[s.text, { color: C.sub }]}>Cancelar</Text></TouchableOpacity>
           <Text style={s.h3}>Evento manual</Text>
@@ -1021,7 +1289,7 @@ function ManualModal({ visible, onClose, onSave }) {
           <Text style={s.label}>Link (opcional)</Text>
           <TextInput value={link} onChangeText={setLink} placeholder="Boletos, Instagram…" placeholderTextColor={C.sub} style={s.input} autoCapitalize="none" />
         </ScrollView>
-      </SafeAreaView></Screen>
+      </SafeBox></Screen>
     </Modal>
   );
 }
@@ -1067,13 +1335,14 @@ function Ajustes({ data, hidden, toggleHiddenId, onRefresh, backup, onRestore })
         <Text style={s.h1}>Fuentes</Text>
         <Text style={s.sub}>{data ? `Última actualización: ${fmtUpdated(data.generatedAt)} · ${data.total} eventos` : 'Sin datos aún'}</Text>
       </View>
+      <Text style={[s.sub, { marginHorizontal: 16, marginBottom: 8, fontSize: 12 }]}>Toca una fuente para abrir su página de eventos.</Text>
       <TouchableOpacity style={[s.actionBtn, { marginHorizontal: 12 }]} onPress={async () => { setBusy(true); await onRefresh(); setBusy(false); }}>
         {busy ? <ActivityIndicator color={C.accent} /> : <Ionicons name="refresh" size={18} color={C.accent} />}
         <Text style={[s.actionTxt, { color: C.accent }]}>Volver a descargar la lista</Text>
       </TouchableOpacity>
       <View style={s.box}>
         {sources.map((src) => (
-          <View key={src.id} style={s.srcRow}>
+          <TouchableOpacity key={src.id} style={s.srcRow} onPress={() => src.home && Linking.openURL(src.home)} activeOpacity={0.7}>
             <Ionicons name={src.ok ? 'checkmark-circle' : src.skipped ? 'remove-circle' : 'alert-circle'} size={18} color={src.ok ? C.ok : src.skipped ? C.sub : C.danger} />
             <View style={{ flex: 1, marginLeft: 8 }}>
               <Text style={s.text}>{src.name}</Text>
@@ -1081,7 +1350,8 @@ function Ajustes({ data, hidden, toggleHiddenId, onRefresh, backup, onRestore })
               {src.warning ? <Text style={[s.sub, { fontSize: 12, color: C.accent }]}>⚠ {src.warning}</Text> : null}
             </View>
             <Text style={[s.text, { fontWeight: '700' }]}>{src.count}</Text>
-          </View>
+            <Ionicons name="open-outline" size={15} color={C.sub} style={{ marginLeft: 8 }} />
+          </TouchableOpacity>
         ))}
       </View>
 
@@ -1217,5 +1487,26 @@ const s = StyleSheet.create({
   buySub: { color: 'rgba(255,255,255,0.85)', fontSize: 12, marginTop: 1 },
   linkRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: 10, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line },
   unhideBtn: { flexDirection: 'row', alignItems: 'center', marginLeft: 8, paddingHorizontal: 10, paddingVertical: 8, borderRadius: 12, borderWidth: 1, borderColor: C.accent },
+  bigCard: { backgroundColor: C.card, marginHorizontal: 12, marginVertical: 6, borderRadius: 18, overflow: 'hidden', borderWidth: 1, borderColor: 'rgba(255,255,255,0.07)' },
+  bigImg: { width: '100%', height: 150, backgroundColor: C.card2 },
+  bigTitle: { color: C.text, fontSize: 17, fontWeight: '800', letterSpacing: -0.2 },
+  bigStar: { position: 'absolute', top: 10, right: 10, backgroundColor: 'rgba(10,6,25,0.55)', borderRadius: 18, padding: 7 },
+  stub: { position: 'absolute', top: 10, left: 10, backgroundColor: '#fff', borderRadius: 10, paddingHorizontal: 9, paddingVertical: 5, alignItems: 'center', minWidth: 48 },
+  stubTop: { color: '#1a1035', fontSize: 10, fontWeight: '800', letterSpacing: 0.8 },
+  stubDay: { color: C.accent, fontSize: 20, fontWeight: '900', lineHeight: 22 },
+  swipeBg: { ...StyleSheet.absoluteFillObject, marginHorizontal: 12, marginVertical: 6, borderRadius: 18, flexDirection: 'row', alignItems: 'center', paddingHorizontal: 22 },
+  swipeTxt: { fontWeight: '800', fontSize: 15, marginHorizontal: 8 },
+  poster: { width: 132, marginRight: 10 },
+  posterImg: { width: 132, height: 176, borderRadius: 14, backgroundColor: C.card2 },
+  posterTitle: { color: C.text, fontSize: 13, fontWeight: '700', marginTop: 6 },
+  posterSub: { color: C.sub, fontSize: 11, marginTop: 2 },
+  rowHead: { color: C.text, fontWeight: '800', fontSize: 15, paddingHorizontal: 16, paddingTop: 10, paddingBottom: 8 },
+  hint: { flexDirection: 'row', alignItems: 'center', backgroundColor: 'rgba(255,107,74,0.10)', borderColor: 'rgba(255,107,74,0.35)', borderWidth: 1, marginHorizontal: 12, marginTop: 6, borderRadius: 12, padding: 10 },
+  viewBtn: { alignItems: 'center', marginRight: 10, paddingHorizontal: 6 },
+  viewTxt: { color: C.sub, fontSize: 10, marginTop: 1 },
+  toast: { position: 'absolute', left: 12, right: 12, bottom: 10, backgroundColor: '#2a2148', borderRadius: 14, paddingHorizontal: 14, paddingVertical: 12, flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderColor: 'rgba(255,255,255,0.12)' },
+  toastTxt: { color: C.text, flex: 1, fontSize: 13, marginRight: 10 },
+  toastUndo: { color: C.accent, fontWeight: '800' },
+  hotTag: { fontSize: 11, fontWeight: '800', borderWidth: 1, borderRadius: 8, paddingHorizontal: 6, paddingVertical: 2, marginRight: 6, marginTop: 2, overflow: 'hidden' },
   pickBtn: { flexDirection: 'row', alignItems: 'center', backgroundColor: C.card, paddingHorizontal: 12, paddingVertical: 10, borderRadius: 10, marginRight: 8 },
 });
