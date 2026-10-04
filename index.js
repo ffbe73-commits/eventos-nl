@@ -67,6 +67,7 @@ const CATS = [
 ];
 const TALLER = /^(taller|conferencia|clase maestra|conversatorio|charla|pechakucha|curso|seminario|congreso|di[aá]logos)|congreso|conferencia/i;
 const MUSIC_VENUES = /arena monterrey|auditorio (banamex|citibanamex)|escenario gnp|caf[eé] iguana|showcenter|foro corona|estadio|rinc[oó]n tostitos|foro urbano|venue 867/i;
+const THEATER_VENUES = /teatro|auditorio luis elizondo|aula magna|auditorio san pedro|casa de la cultura|foro de las artes/i;
 function categorize(e) {
   if (TALLER.test(e.title || '')) return 'Talleres y charlas';
   const hay = `${e.category || ''}`;
@@ -74,6 +75,8 @@ function categorize(e) {
   const text = `${e.title} ${e.description || ''}`;
   for (const [name, re] of CATS) if (re.test(text)) return name;
   if (MUSIC_VENUES.test(e.venue || '')) return 'Música';
+  // Sin pistas en el título: si es en un teatro/auditorio escénico, casi siempre es una obra (ej. El Retrato de Dorian Gray).
+  if (THEATER_VENUES.test(e.venue || '')) return 'Teatro';
   return 'Otros';
 }
 

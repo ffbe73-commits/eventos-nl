@@ -1,4 +1,4 @@
-// Eventos NL — V2.3 (vista grande/compacta, deslizar para decidir, cartelera arriba)
+// Eventos NL — V2.4 (vista grande/compacta, deslizar para decidir, cartelera arriba)
 // Lee los eventos que junta el recolector de GitHub y te deja agendarlos, marcarlos y guardar a cuáles fuiste.
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import {
@@ -161,6 +161,25 @@ const normKey = (x) => (x || '').toLowerCase().normalize('NFD').replace(/[\u0300
 const titleKey = (e) => `t:${normKey(e.title)}`;
 const venueKey = (e) => `v:${normKey((e.venue || '').split(/[|,]/)[0])}`;
 const isHiddenEv = (hidden, e) => !!(hidden[e.id] || hidden[titleKey(e)] || (e.venue && hidden[venueKey(e)]));
+
+// Búsqueda tolerante: sin acentos, palabra por palabra y aguanta un error de dedo ("Grey" encuentra "Gray").
+const fold = (x) => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const near1 = (a, b) => { // ¿a y b difieren en máximo una letra?
+  if (Math.abs(a.length - b.length) > 1) return false;
+  let i = 0, j = 0, diff = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) { i++; j++; continue; }
+    if (++diff > 1) return false;
+    if (a.length > b.length) i++; else if (b.length > a.length) j++; else { i++; j++; }
+  }
+  return diff + (a.length - i) + (b.length - j) <= 1;
+};
+function searchMatch(text, query) {
+  const hay = fold(text);
+  const words = hay.split(/[^a-z0-9ñ]+/).filter(Boolean);
+  return fold(query).split(/\s+/).filter(Boolean).every((w) => hay.includes(w)
+    || (w.length >= 4 && words.some((x) => near1(w, x) || (x.length > w.length && near1(w, x.slice(0, w.length))))));
+}
 
 // ---------------- Almacenamiento ----------------
 const K = { cache: 'enl_cache', favs: 'enl_favs', hidden: 'enl_hidden', agendados: 'enl_agendados', checkins: 'enl_checkins', manual: 'enl_manual' };
@@ -412,14 +431,18 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
   const [off, setOff] = useState({}); // categorías apagadas (por defecto: todas prendidas)
   const [q, setQ] = useState('');
   const [refreshing, setRefreshing] = useState(false);
-  const [a, b] = range;
+  const qd = React.useDeferredValue(q); // escribir no se traba: la lista se filtra cuando hay tiempo
+  // Al BUSCAR se busca en todo: cualquier fecha futura y cualquier categoría (aunque esté apagada en Filtros).
+  const [a, b] = qd ? [t, addDays(t, 400)] : range;
 
   const catsPresent = useMemo(() => Object.keys(CAT).filter((c) => allEvents.some((e) => e.category === c)), [allEvents]);
   const nOn = catsPresent.filter((c) => !off[c]).length;
 
-  const qd = React.useDeferredValue(q); // escribir no se traba: la lista se filtra cuando hay tiempo
-  const visibles = useMemo(() => allEvents.filter((e) => !isHiddenEv(hidden, e) && !off[e.category]
-    && (!qd || `${e.title} ${e.venue || ''}`.toLowerCase().includes(qd.toLowerCase()))), [allEvents, hidden, off, qd]);
+  const matchQ = (e) => searchMatch(`${e.title} ${e.venue || ''}`, qd);
+  const visibles = useMemo(() => allEvents.filter((e) => !isHiddenEv(hidden, e) && (qd || !off[e.category])
+    && (!qd || matchQ(e))), [allEvents, hidden, off, qd]);
+  // Si lo que buscas está en "No me interesa", avisar en lugar de mostrar la lista vacía.
+  const hiddenMatches = useMemo(() => (qd ? allEvents.filter((e) => isHiddenEv(hidden, e) && matchQ(e)) : []), [allEvents, hidden, qd]);
 
   const perDay = useMemo(() => {
     const m = {};
@@ -565,7 +588,7 @@ function Explorar({ allEvents, favs, hidden, agendados, toggleFav, askHide, open
         // tumba la app cuando la lista cambia (al aplicar filtros). Fue la causa del cierre en V2.2.
         removeClippedSubviews={false}
         refreshControl={<RefreshControl refreshing={refreshing} tintColor={C.accent} colors={[C.accent]} onRefresh={async () => { setRefreshing(true); await onRefresh(); setRefreshing(false); }} />}
-        ListEmptyComponent={<View style={s.center}><Ionicons name="calendar-clear-outline" size={40} color={C.sub} /><Text style={s.sub}>{nOn ? 'No hay eventos con estos filtros.' : 'No hay categorías activas. Abre Filtros y elige al menos una.'}</Text></View>}
+        ListEmptyComponent={<View style={s.center}><Ionicons name="calendar-clear-outline" size={40} color={C.sub} /><Text style={[s.sub, { textAlign: 'center', paddingHorizontal: 24 }]}>{hiddenMatches.length ? `"${hiddenMatches[0].title}" está en tu lista de No me interesa. Ve a Mis eventos → No me interesa para volver a mostrarlo.` : qd ? 'No encontré eventos con ese nombre.' : nOn ? 'No hay eventos con estos filtros.' : 'No hay categorías activas. Abre Filtros y elige al menos una.'}</Text></View>}
         ListFooterComponent={total ? <Text style={[s.sub, { textAlign: 'center', padding: 16 }]}>{total} resultados</Text> : null}
         contentContainerStyle={{ paddingBottom: 24 }}
       />
