@@ -48,21 +48,21 @@ jobs:
           api-level: 34
           arch: x86_64
           target: google_apis
+          profile: pixel_6
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
           script: |
             adb install -r movil/android/app/build/outputs/apk/release/app-release.apk
             adb logcat -c
-            adb shell monkey -p com.ediel.eventosnl -c android.intent.category.LAUNCHER 1
-            sleep 30
-            adb exec-out screencap -p > pantalla.png
+            bash diagnostico-toques.sh > pasos.txt 2>&1 || true
             adb logcat -d -v time > logcat.txt
 
       - name: Guardar diagnóstico en el repositorio
         if: always()
         run: |
           mkdir -p diagnostico
-          [ -f pantalla.png ] && cp pantalla.png diagnostico/pantalla.png || true
+          [ -f pasos.txt ] && cp pasos.txt diagnostico/pasos.txt || true
+          rm -rf diagnostico/capturas; [ -d capturas ] && cp -r capturas diagnostico/capturas || true
           if [ -f logcat.txt ]; then
             grep -E "FATAL|AndroidRuntime|ReactNative|ReactNativeJS|Hermes|Expo|expo|eventosnl|SoLoader|UnsatisfiedLink|Exception|Error" logcat.txt | head -n 1500 > diagnostico/errores.txt || true
             tail -n 1500 logcat.txt > diagnostico/logcat-final.txt
