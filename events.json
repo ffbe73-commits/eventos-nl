@@ -1,94 +1,94 @@
 {
- "generatedAt": "2026-10-30T12:54:13.354Z",
+ "generatedAt": "2026-10-31T12:47:31.707Z",
  "timezone": "America/Monterrey",
- "total": 496,
+ "total": 472,
  "sources": [
   {
    "id": "cartelera_escenica",
    "name": "Cartelera Escénica",
    "home": "https://carteleraescenica.com/cartelera/",
    "ok": true,
-   "count": 100,
+   "count": 95,
    "error": null,
-   "checkedAt": "2026-10-30T12:50:19.359Z",
-   "lastSuccess": "2026-10-30T12:50:19.359Z",
-   "ms": 2523
+   "checkedAt": "2026-10-31T12:44:39.538Z",
+   "lastSuccess": "2026-10-31T12:44:39.538Z",
+   "ms": 5204
   },
   {
    "id": "arema",
    "name": "Arema",
    "home": "https://arema.mx/",
    "ok": true,
-   "count": 131,
+   "count": 144,
    "error": null,
-   "checkedAt": "2026-10-30T12:50:21.883Z",
-   "lastSuccess": "2026-10-30T12:50:21.883Z",
-   "ms": 24272
+   "checkedAt": "2026-10-31T12:44:44.743Z",
+   "lastSuccess": "2026-10-31T12:44:44.743Z",
+   "ms": 31522
   },
   {
    "id": "superboletos",
    "name": "SuperBoletos",
    "home": "https://www.superboletos.com/",
    "ok": true,
-   "count": 83,
+   "count": 85,
    "error": null,
-   "checkedAt": "2026-10-30T12:50:46.155Z",
-   "lastSuccess": "2026-10-30T12:50:46.155Z",
-   "ms": 556
+   "checkedAt": "2026-10-31T12:45:16.265Z",
+   "lastSuccess": "2026-10-31T12:45:16.265Z",
+   "ms": 592
   },
   {
    "id": "ticketmaster",
    "name": "Ticketmaster",
    "home": "https://www.ticketmaster.com.mx/discover/monterrey",
    "ok": true,
-   "count": 122,
+   "count": 117,
    "error": null,
-   "checkedAt": "2026-10-30T12:50:46.711Z",
-   "lastSuccess": "2026-10-30T12:50:46.711Z",
-   "ms": 526
+   "checkedAt": "2026-10-31T12:45:16.857Z",
+   "lastSuccess": "2026-10-31T12:45:16.857Z",
+   "ms": 500
   },
   {
    "id": "conciertos_mty",
    "name": "Conciertos en Monterrey",
    "home": "https://conciertosenmonterrey.com/cartelera",
    "ok": true,
-   "count": 52,
+   "count": 51,
    "error": null,
-   "checkedAt": "2026-10-30T12:50:47.237Z",
-   "lastSuccess": "2026-10-30T12:50:47.237Z",
-   "ms": 3888
+   "checkedAt": "2026-10-31T12:45:17.357Z",
+   "lastSuccess": "2026-10-31T12:45:17.357Z",
+   "ms": 3177
   },
   {
    "id": "conarte_agenda",
    "name": "CONARTE (agenda)",
    "home": "https://conarte.org.mx/agenda/",
    "ok": true,
-   "count": 106,
+   "count": 104,
    "error": null,
-   "checkedAt": "2026-10-30T12:50:51.125Z",
-   "lastSuccess": "2026-10-30T12:50:51.125Z",
-   "ms": 161548
+   "checkedAt": "2026-10-31T12:45:20.534Z",
+   "lastSuccess": "2026-10-31T12:45:20.534Z",
+   "ms": 90991
   },
   {
    "id": "cineteca",
    "name": "Cineteca Nuevo León",
    "home": "https://conarte.org.mx/cineteca/",
    "ok": true,
-   "count": 34,
+   "count": 27,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:32.673Z",
-   "lastSuccess": "2026-10-30T12:53:32.673Z",
-   "ms": 14069
+   "checkedAt": "2026-10-31T12:46:51.525Z",
+   "lastSuccess": "2026-10-31T12:46:51.525Z",
+   "ms": 12564
   },
   {
    "id": "santa_lucia",
    "name": "Festival Santa Lucía (agenda PDF)",
    "home": "https://festivalsantalucia.gob.mx/",
    "ok": true,
-   "count": 61,
+   "count": 46,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:46.742Z",
-   "lastSuccess": "2026-10-30T12:53:46.742Z",
+   "checkedAt": "2026-10-31T12:47:04.089Z",
+   "lastSuccess": "2026-10-31T12:47:04.089Z",
    "ms": 1
   },
   {
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:46.743Z",
-   "lastSuccess": "2026-10-30T12:53:46.743Z",
-   "ms": 1169
+   "checkedAt": "2026-10-31T12:47:04.090Z",
+   "lastSuccess": "2026-10-31T12:47:04.090Z",
+   "ms": 1254
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:47.912Z",
-   "lastSuccess": "2026-10-30T12:53:47.912Z",
-   "ms": 424
+   "checkedAt": "2026-10-31T12:47:05.344Z",
+   "lastSuccess": "2026-10-31T12:47:05.344Z",
+   "ms": 361
   },
   {
    "id": "ctxplorer",
@@ -120,42 +120,42 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:48.336Z",
-   "lastSuccess": "2026-10-30T12:53:48.336Z",
-   "ms": 642
+   "checkedAt": "2026-10-31T12:47:05.705Z",
+   "lastSuccess": "2026-10-31T12:47:05.705Z",
+   "ms": 418
   },
   {
    "id": "marco",
    "name": "MARCO",
    "home": "https://www.marco.org.mx/eventos/",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:48.978Z",
-   "lastSuccess": "2026-10-30T12:53:48.978Z",
-   "ms": 564
+   "checkedAt": "2026-10-31T12:47:06.123Z",
+   "lastSuccess": "2026-10-31T12:47:06.123Z",
+   "ms": 517
   },
   {
    "id": "tres_museos",
    "name": "3 Museos",
    "home": "https://www.3museos.com/eventos/",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 en https://www.3museos.com/eventos/",
-   "checkedAt": "2026-10-30T12:53:49.542Z",
-   "lastSuccess": "2026-10-29T12:53:18.794Z",
-   "ms": 3471
+   "ok": true,
+   "count": 3,
+   "error": null,
+   "checkedAt": "2026-10-31T12:47:06.640Z",
+   "lastSuccess": "2026-10-31T12:47:06.640Z",
+   "ms": 1102
   },
   {
    "id": "cintermex",
    "name": "Cintermex",
    "home": "https://www.cintermex.com/calendario",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "checkedAt": "2026-10-30T12:53:53.013Z",
+   "ok": false,
+   "count": 0,
+   "error": "fetch failed",
+   "checkedAt": "2026-10-31T12:47:07.742Z",
    "lastSuccess": "2026-10-30T12:53:53.013Z",
-   "ms": 868
+   "ms": 3906
   },
   {
    "id": "foro_corona",
@@ -164,31 +164,31 @@
    "ok": true,
    "count": 17,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:53.881Z",
-   "lastSuccess": "2026-10-30T12:53:53.881Z",
-   "ms": 203
+   "checkedAt": "2026-10-31T12:47:11.648Z",
+   "lastSuccess": "2026-10-31T12:47:11.648Z",
+   "ms": 107
   },
   {
    "id": "fever",
    "name": "Fever",
    "home": "https://feverup.com/es/monterrey",
    "ok": true,
-   "count": 72,
+   "count": 74,
    "error": null,
-   "checkedAt": "2026-10-30T12:53:54.084Z",
-   "lastSuccess": "2026-10-30T12:53:54.084Z",
-   "ms": 7683
+   "checkedAt": "2026-10-31T12:47:11.755Z",
+   "lastSuccess": "2026-10-31T12:47:11.755Z",
+   "ms": 6127
   },
   {
    "id": "primetickets",
    "name": "Prime Tickets",
    "home": "https://cartelera.primetickets.mx/",
    "ok": true,
-   "count": 20,
+   "count": 18,
    "error": null,
-   "checkedAt": "2026-10-30T12:54:01.767Z",
-   "lastSuccess": "2026-10-30T12:54:01.767Z",
-   "ms": 339
+   "checkedAt": "2026-10-31T12:47:17.883Z",
+   "lastSuccess": "2026-10-31T12:47:17.883Z",
+   "ms": 211
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 5,
    "error": null,
-   "checkedAt": "2026-10-30T12:54:02.106Z",
-   "lastSuccess": "2026-10-30T12:54:02.106Z",
-   "ms": 754
+   "checkedAt": "2026-10-31T12:47:18.094Z",
+   "lastSuccess": "2026-10-31T12:47:18.094Z",
+   "ms": 1362
   },
   {
    "id": "ballet_mty",
@@ -208,31 +208,31 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-10-30T12:54:02.860Z",
-   "lastSuccess": "2026-10-30T12:54:02.860Z",
-   "ms": 2817
+   "checkedAt": "2026-10-31T12:47:19.456Z",
+   "lastSuccess": "2026-10-31T12:47:19.456Z",
+   "ms": 2423
   },
   {
    "id": "sanpedro_vive",
    "name": "Vive San Pedro",
    "home": "https://vive.sanpedro.gob.mx/",
    "ok": true,
-   "count": 65,
+   "count": 64,
    "error": null,
-   "checkedAt": "2026-10-30T12:54:05.677Z",
-   "lastSuccess": "2026-10-30T12:54:05.677Z",
-   "ms": 2516
+   "checkedAt": "2026-10-31T12:47:21.879Z",
+   "lastSuccess": "2026-10-31T12:47:21.879Z",
+   "ms": 3214
   },
   {
    "id": "sanpedro_parques",
    "name": "San Pedro + Parques",
    "home": "https://sanpedroparques.mx/calendario-eventos/",
    "ok": true,
-   "count": 40,
+   "count": 19,
    "error": null,
-   "checkedAt": "2026-10-30T12:54:08.193Z",
-   "lastSuccess": "2026-10-30T12:54:08.193Z",
-   "ms": 4577
+   "checkedAt": "2026-10-31T12:47:25.093Z",
+   "lastSuccess": "2026-10-31T12:47:25.093Z",
+   "ms": 6093
   },
   {
    "id": "chipinque",
@@ -241,9 +241,9 @@
    "ok": true,
    "count": 26,
    "error": null,
-   "checkedAt": "2026-10-30T12:54:12.770Z",
-   "lastSuccess": "2026-10-30T12:54:12.770Z",
-   "ms": 250
+   "checkedAt": "2026-10-31T12:47:31.186Z",
+   "lastSuccess": "2026-10-31T12:47:31.186Z",
+   "ms": 118
   }
  ],
  "notIncluded": [
@@ -440,26 +440,6 @@
    ],
    "url": "https://festivalsantalucia.gob.mx/",
    "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "85fb2857c441",
-   "skey": "tus ojos mis ojos|centro cultural",
-   "title": "Tus ojos en mis ojos",
-   "start": "2026-09-04",
-   "end": "2026-10-30",
-   "venue": "Centro Cultural Anastacio Villarreal",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://cartelera.primetickets.mx/storage/event_files/12/268/cartelera.webp",
-   "sources": [
-    {
-     "id": "primetickets",
-     "url": "https://cartelera.primetickets.mx/tus-ojos-en-mis-ojos-sannicolas"
-    }
-   ],
-   "url": "https://cartelera.primetickets.mx/tus-ojos-en-mis-ojos-sannicolas",
-   "firstSeen": "2026-10-27T12:45:08.776Z"
   },
   {
    "id": "34233016781a",
@@ -668,26 +648,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "0907c4b1fc2a",
-   "skey": "telar|foro 13",
-   "title": "El Telar",
-   "start": "2026-10-09",
-   "end": "2026-10-30",
-   "venue": "FORO 13",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://cartelera.primetickets.mx/storage/event_files/6/256/cartelera.webp",
-   "sources": [
-    {
-     "id": "primetickets",
-     "url": "https://cartelera.primetickets.mx/el-telar"
-    }
-   ],
-   "url": "https://cartelera.primetickets.mx/el-telar",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "id": "7c05362aabfd",
    "skey": "cursos talleres octubre noviembre|marco",
    "title": "Cursos y Talleres | Octubre – Noviembre 2026",
@@ -809,7 +769,7 @@
     },
     {
      "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/incendios-en-monterrey/2026-10-30/"
+     "url": "https://carteleraescenica.com/eventos/incendios-en-monterrey/2026-11-05/"
     }
    ],
    "url": "https://cartelera.primetickets.mx/incendios",
@@ -820,11 +780,6 @@
      "start": "2026-10-22",
      "end": "2026-11-20",
      "url": "https://cartelera.primetickets.mx/incendios"
-    },
-    {
-     "start": "2026-10-30T20:00",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/incendios-en-monterrey/2026-10-30/"
     },
     {
      "start": "2026-11-05T20:00",
@@ -927,27 +882,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "584260eed2b3",
-   "skey": "fundiexpo|cintermex",
-   "title": "Fundiexpo 2026",
-   "start": "2026-10-28",
-   "end": "2026-10-30",
-   "venue": "Cintermex",
-   "city": "Monterrey",
-   "category": "Ferias y expos",
-   "price": null,
-   "image": "https://www.cintermex.com/verimagen/59394",
-   "description": "El evento más influyente en la industria de la fundición de los metales ferrosos y no ferrosos en Latinoamérica.",
-   "sources": [
-    {
-     "id": "cintermex",
-     "url": "http://fundiexpo.mx/"
-    }
-   ],
-   "url": "http://fundiexpo.mx/",
-   "firstSeen": "2026-10-15T12:42:21.274Z"
-  },
-  {
    "id": "65f739963058",
    "skey": "cuadrante encuentro arte diseno arquitectura festival santa lucia|varias sedes",
    "title": "CUADRANTE – Encuentro de Arte, Diseño y Arquitectura (Festival Santa Lucía)",
@@ -1010,1751 +944,6 @@
    "firstSeen": "2026-10-29T12:53:41.351Z"
   },
   {
-   "id": "32b9ffcde7b9",
-   "skey": "javier rosas|av colon",
-   "title": "Javier Rosas en Concierto",
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "venue": "Av Colon 1050, Monterrey",
-   "city": "Monterrey",
-   "price": null,
-   "image": "https://admin.arenamonterrey.warelan.com/uploads/event/banner/921/WEB_JAVIER_ROSASWEB_ZIGNIA_2880X1200.webp?v=1785453411",
-   "genre": null,
-   "description": "Javier Rosas en Concierto es el viernes 30 de octubre de 2026 a las 21:00 h en Arena Monterrey, Monterrey.",
-   "category": "Música",
-   "sources": [
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/javier-rosas-en-concierto-zg-1297"
-    }
-   ],
-   "url": "https://ctxplorer.com/events/javier-rosas-en-concierto-zg-1297",
-   "firstSeen": "2026-10-29T12:53:41.351Z"
-  },
-  {
-   "id": "56d176b53b87",
-   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "start": "2026-10-30T09:00",
-   "end": "2026-11-29T19:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "65784d7df5c0",
-   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "start": "2026-10-30T10:00",
-   "end": "2026-12-06T17:00",
-   "price": "Desde $370",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "389b33e17b1f",
-   "skey": "fuga prisionero san pedro|parque capitan",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "start": "2026-10-30T10:00",
-   "end": "2026-11-01T18:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "f82d5ee37ec8",
-   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
-   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
-   "venue": "Banco Mercantil",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
-   "start": "2026-10-30T10:00",
-   "end": "2026-12-30T10:00",
-   "price": "Desde $300",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/685013"
-    }
-   ],
-   "url": "https://feverup.com/m/685013",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "9bfdc2441ab5",
-   "skey": "papalote museo nino expo dinosaurios|papalote museo",
-   "title": "Papalote Museo del Niño + Expo Dinosaurios",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
-   "start": "2026-10-30T10:00",
-   "end": "2026-12-02T10:00",
-   "price": "Desde $280",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/338223"
-    }
-   ],
-   "url": "https://feverup.com/m/338223",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "b145ccab388c",
-   "skey": "primera bienal fotografia nuevo leon|cineteca fototeca",
-   "title": "Primera Bienal de Fotografía Nuevo León 2026",
-   "start": "2026-10-30T10:00",
-   "end": "2026-10-30T18:00",
-   "venue": "Cineteca y Fototeca Nuevo León | CONARTE",
-   "city": "Monterrey",
-   "category": "Exposiciones",
-   "price": "Gratuito",
-   "tickets": null,
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/08/bienal-fotografia.jpg",
-   "description": "Calificación promedio Aún no hay calificación La Primera Bienal de Fotografía Nuevo León 2026 reúne una selección de miradas que exploran el territorio, el paisaje y la identidad de Nuevo León. A través de tres ejes: la luz, el cuerpo y las dinámicas del espacio urbano, la exposición propone distintas formas de observar y reflexionar sobre la región. Las imágenes recorren temas como la memoria, la naturaleza y las transformaciones sociales que atraviesan el estado.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-30/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Cartelera Escénica",
-   "url": "https://carteleraescenica.com/eventos/primera-bienal-de-fotografia-nuevo-leon-2026/2026-10-30/",
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "id": "163f2d269a83",
-   "skey": "virtuality world cumpleanos infantiles|galerias valle",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "start": "2026-10-30T11:00",
-   "end": "2027-01-31T19:00",
-   "price": "Desde $635",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Laberinto de Leyendas en San Nicolás",
-   "venue": "Paseo La Fe",
-   "city": "San Nicolás de los Garza",
-   "category": "Experiencias",
-   "price": null,
-   "tickets": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas",
-   "image": null,
-   "description": "Fecha: Del 12 al 31 de Octubre 2026 Recorridos: Lunes a Viernes: Horarios • 15:00 • 15:30 • 16:00 • 16:30 • 17:00 • 18:00 • 18:30 • 19:00 • 19:30 • 20:00 Recorridos Sábado y Domingo: Horarios: • 13:00 • 13:30 • 14:00 • 14:30 • 15:00 • 15:30 • 16:00 • 17:00 • 17:30 • 18:00 • 18:30 • 19:00 • 19:30 • 20:00 Lugar: Paseo La Fe, Zona El Solar Dirección del evento: Av. Miguel Alemán 200, Parque la Talaverna, 66470 San Nicolás de los Garza, N.L. Zonas de precio: General: $250 (Precio más cargos por servicio) Sinopsis: Hay un camino que pocos terminan de recorrer.",
-   "start": "2026-10-30T12:00",
-   "end": "2026-10-31T13:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas"
-    }
-   ],
-   "url": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas",
-   "skey": "laberinto leyendas san nicolas|paseo fe",
-   "id": "dba5fcddb966",
-   "dates": [
-    {
-     "start": "2026-10-30T12:00",
-     "end": null,
-     "url": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas"
-    },
-    {
-     "start": "2026-10-31T12:00",
-     "end": null,
-     "url": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "d43e6840d4cf",
-   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "start": "2026-10-30T12:30",
-   "end": "2026-12-02T18:00",
-   "price": null,
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "84e2cbfe2c2c",
-   "skey": "viernes arte|marco",
-   "title": "VIERNES DE ARTE",
-   "start": "2026-10-30T13:00",
-   "end": null,
-   "venue": "MARCO",
-   "city": "Monterrey",
-   "category": "Museos",
-   "price": "$400 MXN",
-   "image": "https://www.marco.org.mx/imagenes/2025/09/IMG_1513-scaled.jpg",
-   "sources": [
-    {
-     "id": "marco",
-     "url": "https://www.marco.org.mx/eventos/viernes-de-arte-2/"
-    }
-   ],
-   "url": "https://www.marco.org.mx/eventos/viernes-de-arte-2/",
-   "firstSeen": "2026-10-29T12:53:41.351Z"
-  },
-  {
-   "title": "Murcisemana: Juega y aprende sobre murciélagos",
-   "start": "2026-10-30T15:30",
-   "end": "2026-10-30T17:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/murcisemana-juega-y-aprende-sobre-murcielagos/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/murcisemana-juega-y-aprende-sobre-murcielagos/",
-   "skey": "murcisemana juega aprende sobre murcielagos|parque rufino",
-   "id": "79d33173e956",
-   "dates": [
-    {
-     "start": "2026-10-30T15:30",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/murcisemana-juega-y-aprende-sobre-murcielagos/"
-    }
-   ],
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "title": "Tinsman Road: Camino al miedo",
-   "start": "2026-10-30T15:30",
-   "end": "2026-11-04T18:00",
-   "times": [
-    "15:30"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tinsman-Road-Imagen-e1792614695166-700x360.png",
-   "description": "Independiente hasta la médula y filmada íntegramente en una Mini-DV 4:3 en los bosques de Nueva Jersey, TINSMAN ROAD: CAMINO AL MIEDO lleva al espectador a un viaje emocionalmente retorcido por el desolado camino de la muerte y el dolor. La historia se centra en un joven que se adentra en el intrincado misterio que rodea la desaparición de su hermana y la antigua casa familiar.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/",
-   "skey": "tinsman road camino miedo|cineteca alejandra",
-   "id": "1e0234292a39",
-   "dates": [
-    {
-     "start": "2026-10-30T15:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    },
-    {
-     "start": "2026-10-31T15:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    },
-    {
-     "start": "2026-11-01T18:45",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    },
-    {
-     "start": "2026-11-04T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "8b1626ee5a78",
-   "skey": "academia basquetbol diversas categorias osos san pedro|parque clouthier",
-   "title": "Academia basquetbol diversas categorias Osos San Pedro",
-   "start": "2026-10-30T16:00",
-   "end": "2026-10-30T20:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-5/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-5/var/ri-19.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "1703e6c5ba15",
-   "skey": "beisbol ligas pequenas osos san pedro|parque clouthier",
-   "title": "Beisbol Ligas pequeñas Osos San Pedro",
-   "start": "2026-10-30T16:00",
-   "end": "2026-10-30T20:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-7/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-7/var/ri-19.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "0fca0635782d",
-   "skey": "futbholistico cobro|parque capitan",
-   "title": "Futbholístico COBRO",
-   "start": "2026-10-30T16:00",
-   "end": "2026-10-30T17:00",
-   "venue": "Parque El Capitán",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": "Con costo",
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/futbholistico-cobro/var/ri-11.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/futbholistico-cobro/var/ri-11.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "title": "Mamut: El regreso de los dinusaurios",
-   "start": "2026-10-30T16:00",
-   "end": "2026-11-04T16:00",
-   "times": [
-    "16:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Mamut-Imagen-700x360.jpg",
-   "description": "Los dinosaurios vuelven a la vida, desatando una amenaza imparable. Mientras fuerzas armadas y mercenarios intentan controlarlos, el mundo se enfrenta a un caos prehistórico sin precedentes. ESTA PELÍCULA SE PRESENTARÁ DOBLADA AL ESPAÑOL",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/",
-   "skey": "mamut regreso dinusaurios|cineteca alejandra",
-   "id": "3b06174d3bc7",
-   "dates": [
-    {
-     "start": "2026-10-30T16:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/"
-    },
-    {
-     "start": "2026-10-31T14:15",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/"
-    },
-    {
-     "start": "2026-11-04T16:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "f9455cf17cd0",
-   "skey": "skateboarding|parque clouthier",
-   "title": "Skateboarding",
-   "start": "2026-10-30T16:00",
-   "end": "2026-10-30T17:30",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/skateboarding-4/var/ri-11.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/skateboarding-4/var/ri-11.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "c4274049a155",
-   "skey": "softball femenil osos san pedro|parque clouthier",
-   "title": "Softball femenil Osos San Pedro",
-   "start": "2026-10-30T16:00",
-   "end": "2026-10-30T20:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-7/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-7/var/ri-19.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "82db52ee16f6",
-   "skey": "noche museos casa oscuras|casa cultura",
-   "title": "Noche de Museos I La casa a oscuras",
-   "start": "2026-10-30T16:30",
-   "end": null,
-   "venue": "Casa de la Cultura de Nuevo León",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/26390_PORTADA_NOCHE-DE-MUSEOS-700x360.jpg",
-   "description": "En colaboración con el Círculo Lovecraftiano & Horror Atrévete a recorrer un espacio emblemático de la ciudad bajo la oscuridad de la noche. Descubre sus historias, leyendas y personajes ocultos, y vive una experiencia cultural única como jamás la habías experimentado. 16:30 h – Taller familiar: ¡Píntate de calavera! 19:00 h – Recorrido guiado por La Percha Teatro 19:45 h – Micro abierto 20:39 h – DJ set con Pau Pau Selectors 21:30 h – Concurso de disfraces Doublé Feature de media noche 22:30 h – Sleepawat Camp (1983, R.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/noche-de-museos-i-la-casa-a-oscuras-2/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/noche-de-museos-i-la-casa-a-oscuras-2/",
-   "firstSeen": "2026-10-21T12:41:56.086Z"
-  },
-  {
-   "title": "Barrio triste",
-   "start": "2026-10-30T17:00",
-   "end": "2026-11-04T19:00",
-   "times": [
-    "17:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Barrio-triste-Imagen-e1790801643675-700x360.png",
-   "description": "En las afueras de Medellín a finales de la década de 1980, mientras un reportero realiza una nota para la televisión local sobre unas luces que descienden del cielo, un grupo de adolescentes le roba la cámara. En manos de sus nuevos dueños, la cámara recorre el barrio registrando sus vidas y los extraños fenómenos que acechan en el lugar.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/barrio-triste/",
-   "skey": "barrio triste|cineteca alejandra",
-   "id": "b3d3ca9180ed",
-   "dates": [
-    {
-     "start": "2026-10-30T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    },
-    {
-     "start": "2026-10-31T20:15",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    },
-    {
-     "start": "2026-11-01T16:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    },
-    {
-     "start": "2026-11-04T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    }
-   ],
-   "firstSeen": "2026-10-08T12:31:59.221Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "title": "La Nocturna",
-   "start": "2026-10-30T17:00",
-   "end": "2026-10-30T22:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/la-nocturna-3/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/la-nocturna-3/",
-   "skey": "nocturna|parque clouthier",
-   "id": "8927dd5daff0",
-   "dates": [
-    {
-     "start": "2026-10-30T17:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/la-nocturna-3/"
-    }
-   ],
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "63642f2796ac",
-   "skey": "paratletismo osos san pedro|parque clouthier",
-   "title": "Paratletismo Osos San Pedro",
-   "start": "2026-10-30T17:00",
-   "end": "2026-10-30T18:30",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro/var/ri-19.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "8ea281bd3cf8",
-   "skey": "murcisemana ecolocalizacion murcielagos|parque rufino",
-   "title": "Murcisemana: Ecolocalización de los Murciélagos",
-   "venue": "Parque Rufino Tamayo",
-   "start": "2026-10-30T17:30",
-   "category": "Talleres y charlas",
-   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
-   "end": null,
-   "city": "San Pedro Garza García",
-   "price": null,
-   "image": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "title": "SAFARI – La Baldufa",
-   "start": "2026-10-30T17:30",
-   "end": "2026-11-01T19:00",
-   "venue": "Escenario al aire libre del Teatro de la Ciudad",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "Entrada libre",
-   "description": "España · Teatro visual para niñas, niños y familias sobre el acoso escolar",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "skey": "safari baldufa|escenario aire",
-   "id": "add7c446ec23",
-   "dates": [
-    {
-     "start": "2026-10-30T17:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-30T19:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T16:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T17:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T19:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-11-01T16:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-11-01T17:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-11-01T19:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "709493941d6b",
-   "skey": "dialogos carolina maier burnout creativo|auditorio museo",
-   "title": "Diálogos: Carolina Maier – Burnout creativo",
-   "start": "2026-10-30T18:00",
-   "end": null,
-   "venue": "Auditorio del Museo de Historia Mexicana",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": "Entrada libre",
-   "description": "Mayores de 12 años",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "38985a1eca72",
-   "skey": "murcisemana ecolocalizacion recorrido nocturno conociendo murcielagos|parque rufino",
-   "title": "Murcisemana | Ecolocalización y recorrido nocturno, conociendo los murciélagos",
-   "start": "2026-10-30T18:00",
-   "end": "2026-10-30T20:00",
-   "venue": "Parque Rufino Tamayo",
-   "address": "Avenida Rufino Tamayo, Valle Oriente, San Pedro Garza García, Nuevo León, 66269, México",
-   "city": "San Pedro Garza García",
-   "category": "Museos",
-   "price": "Entrada libre",
-   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f1c198d-ae16-63b0-8feb-5b182bb4efa4.png",
-   "description": "Cuando cae la noche, los parques se convierten en el escenario de una gran actividad. Entre sus habitantes nocturnos se encuentran los murciélagos, mamíferos que utilizan la ecolocalización para orientarse y encontrar alimento en la oscuridad. Te invitamos a participar en un recorrido nocturno para conocer más sobre estos fascinantes animales y descubrir cómo utilizan el sonido para desenvolverse en su entorno. Durante la actividad aprenderemos qué es la ecolocalización, cómo funciona y cómo podemos utilizar herramientas de detección para identificar la presencia de murciélagos.",
-   "sources": [
-    {
-     "id": "sanpedro_vive",
-     "url": "https://vive.sanpedro.gob.mx/evento/1677"
-    },
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/murcisemana-ecolocalizacion-de-los-murcielagos-2/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://vive.sanpedro.gob.mx/evento/1677",
-   "firstSeen": "2026-10-11T12:26:52.848Z"
-  },
-  {
-   "id": "5875030c0bc4",
-   "skey": "murcisemana murcielagos urbanos conversacion dra emma gomez|parque rufino",
-   "title": "Murcisemana: Murciélagos Urbanos, conversación con la Dra. Emma Gómez",
-   "venue": "Parque Rufino Tamayo",
-   "start": "2026-10-30T18:00",
-   "category": "Talleres y charlas",
-   "description": "Murcisemana. Requiere registro por mensaje en redes sociales de San Pedro + Parques.",
-   "end": null,
-   "city": "San Pedro Garza García",
-   "price": null,
-   "image": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/wp-content/uploads/2026/10/Redes-Calendarios-Octubre-2026.pdf",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "b37a4633708e",
-   "skey": "murcisemana recorrido nocturno conociendo murcielagos|parque rufino",
-   "title": "Murcisemana: Recorrido nocturno, conociendo los murciélagos",
-   "start": "2026-10-30T18:00",
-   "end": "2026-10-30T19:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "San Pedro Garza García",
-   "category": "Museos",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/murcisemana-recorrido-nocturno-conociendo-los-murcielagos-2/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/murcisemana-recorrido-nocturno-conociendo-los-murcielagos-2/",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "title": "Tierra de mi padre",
-   "start": "2026-10-30T18:00",
-   "end": "2026-11-04T21:00",
-   "times": [
-    "18:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tierra-de-mi-Padre-Imagen-scaled-e1792615008891-700x360.jpg",
-   "description": "La relación entre el escritor ganador del Premio Nobel Thomas Mann y su hija Erika, actriz, escritora y piloto de carreras. En el apogeo de la Guerra Fría, y tras regresar a casa tras dieciséis años de exilio en Estados Unidos, Mann y su hija emprenden un desafiante y emotivo viaje por carretera atravesando una patria tan dividida como su propia familia.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/",
-   "skey": "tierra mi padre|cineteca alejandra",
-   "id": "768be4b26f82",
-   "dates": [
-    {
-     "start": "2026-10-30T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    },
-    {
-     "start": "2026-10-31T20:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    },
-    {
-     "start": "2026-11-01T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    },
-    {
-     "start": "2026-11-04T21:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    }
-   ],
-   "firstSeen": "2026-10-22T12:42:57.169Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "a95250c9b9fe",
-   "skey": "bandakadabra techno brass composer|plaza principal",
-   "title": "Bandakadabra – Techno Brass Composer",
-   "start": "2026-10-30T18:30",
-   "end": null,
-   "venue": "Plaza Principal",
-   "city": "Juárez",
-   "category": "Música",
-   "price": "Entrada libre",
-   "description": "Italia",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "297d6413e330",
-   "skey": "cine fisl bubblegum|cinema fosforo",
-   "title": "Cine FISL: Bubblegum",
-   "start": "2026-10-30T18:30",
-   "end": null,
-   "venue": "Cinema Fósforo, Colegio Civil CCU",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": "Entrada libre",
-   "description": null,
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "af95143901a3",
-   "skey": "cine fisl gundi legend of love|explanada cultural",
-   "title": "Cine FISL: Gundi: Legend of Love",
-   "start": "2026-10-30T18:30",
-   "end": null,
-   "venue": "Explanada Cultural del LABNL",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": "Entrada libre",
-   "description": null,
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Recreo – Flip Fabrique!",
-   "start": "2026-10-30T18:30",
-   "end": "2026-10-31T20:30",
-   "venue": "Nuevo Parque del Agua",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "Entrada libre",
-   "description": "Canadá · Acrobacia",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "skey": "recreo flip fabrique|nuevo parque",
-   "id": "7dcb8d3aa21b",
-   "dates": [
-    {
-     "start": "2026-10-30T18:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-30T19:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-30T20:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T18:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T19:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T20:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Carrie",
-   "start": "2026-10-30T19:00",
-   "end": "2026-11-01T18:30",
-   "times": [
-    "19:00",
-    "21:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2018/06/Carrie-Imagen-e1792615768767-700x360.jpg",
-   "description": "Carrie White, una tímida adolescente que vive con su madre, una fanática religiosa, es objeto de las burlas constantes de sus compañeros de instituto. Cuando, en las duchas del gimnasio, la chica sufre un ataque de histeria al tener su primera menstruación, a una de sus compañeras se le ocurre gastarle una broma macabra durante la fiesta de graduación. Lo que todos ignoran es que Carrie posee poderes telequinésicos. VERSIÓN RESTAURADA EN 4K 50 ANIVERSARIO",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/carrie-3/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/carrie-3/",
-   "skey": "carrie|cineteca alejandra",
-   "id": "6e7d28bfd258",
-   "dates": [
-    {
-     "start": "2026-10-30T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/carrie-3/"
-    },
-    {
-     "start": "2026-10-31T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/carrie-3/"
-    },
-    {
-     "start": "2026-11-01T18:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/carrie-3/"
-    }
-   ],
-   "firstSeen": "2026-10-22T12:42:57.169Z",
-   "moreDatesAt": "2026-10-23T12:38:48.452Z"
-  },
-  {
-   "title": "Deep Dive Deep",
-   "venue": "Teatro Esp. Rogelio Villarreal E",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "tickets": "https://arema.mx/e/21550-deep-dive-deep",
-   "image": null,
-   "description": "Deep-Dive-Deep es un \"clavado\" a las profundidades del mar. Es un ejercicio coreográfico que desafía el miedo a perderse en la memoria, en los pensamientos y las complejidades del ser humano. El calor del sol, la arena y el agua salada serán la guía para descubrir un universo junto al mar, para percibir la infinitud de las cosas y dejarse llevar por ella.",
-   "start": "2026-10-30T19:00",
-   "end": "2026-11-01T18:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21550-deep-dive-deep"
-    }
-   ],
-   "url": "https://arema.mx/e/21550-deep-dive-deep",
-   "skey": "deep dive deep|teatro esp",
-   "id": "3e10381b65e7",
-   "dates": [
-    {
-     "start": "2026-10-30T19:00",
-     "end": null,
-     "url": "https://arema.mx/e/21550-deep-dive-deep"
-    },
-    {
-     "start": "2026-10-31T18:00",
-     "end": null,
-     "url": "https://arema.mx/e/21550-deep-dive-deep"
-    },
-    {
-     "start": "2026-11-01T18:00",
-     "end": null,
-     "url": "https://arema.mx/e/21550-deep-dive-deep"
-    }
-   ],
-   "firstSeen": "2026-10-22T12:42:57.169Z"
-  },
-  {
-   "id": "12c816bbd656",
-   "skey": "giramundo cores aide|esfera cultural",
-   "title": "Giramundo – Cores de Aidé",
-   "start": "2026-10-30T19:00",
-   "end": null,
-   "venue": "Esfera Cultural El Carmen",
-   "city": "El Carmen",
-   "category": "Música",
-   "price": "Entrada libre",
-   "description": "Brasil",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "La Diva y el Gánster – Monterrey",
-   "start": "2026-10-30T19:00",
-   "end": "2026-10-31T20:30",
-   "venue": "Punto y Coma",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "$250",
-   "tickets": "https://www.eventbrite.com/e/teatro-la-diva-y-el-ganster-tickets-2001106350964",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/la-diva.jpg",
-   "description": "Calificación promedio Aún no hay calificación Dos personajes extremos y contradictorios se enfrentan en la peligrosa frontera entre la mafia y el mundo del teatro y el cine. Atrapados en una red de drogas, dinero, armas y poder, sus destinos se entrelazan en una historia marcada por la violencia, la ambición, la venganza y la búsqueda de justicia. En el centro del conflicto se encuentran un capo de la mafia y una actriz que sueña con convertirse en una diva glamurosa y alcanzar la fama en los escenarios teatrales y las pantallas cinematográficas.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/la-diva-y-el-ganster-monterrey/2026-10-30/"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/la-diva-y-el-ganster-monterrey/2026-10-30/",
-   "skey": "diva ganster|punto coma",
-   "id": "ac6acc2656d7",
-   "dates": [
-    {
-     "start": "2026-10-30T19:00",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/la-diva-y-el-ganster-monterrey/2026-10-30/"
-    },
-    {
-     "start": "2026-10-31T19:00",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/la-diva-y-el-ganster-monterrey/2026-10-31/"
-    }
-   ],
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "id": "d9addc9ec056",
-   "skey": "muda tropa udem|teatro centro",
-   "title": "Muda – La Tropa UDEM",
-   "start": "2026-10-30T19:00",
-   "end": null,
-   "venue": "Teatro Centro de las Artes",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "Entrada libre",
-   "description": "México · Danza contemporánea",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Observación Astronómica: Saturno",
-   "start": "2026-10-30T19:00",
-   "end": "2026-10-31T20:30",
-   "venue": "Observatorio Astronómico UDEM",
-   "city": "San Pedro Garza García",
-   "category": "Familiar",
-   "price": "Registro previo",
-   "description": "Cupo limitado: registro a observatorio.astronomico@udem.edu",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "url": "https://festivalsantalucia.gob.mx/",
-   "skey": "observacion astronomica saturno|observatorio astronomico",
-   "id": "5157ab4ae411",
-   "dates": [
-    {
-     "start": "2026-10-30T19:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-30T20:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T19:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-10-31T20:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "7cdb64f4bcb6",
-   "skey": "psyloween by ace ventura|venue 867",
-   "title": "Psyloween by Ace Ventura",
-   "start": "2026-10-30T19:00",
-   "end": null,
-   "venue": "Venue 867",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEvYmFubmVycy9hZTMyMDJlMTRjNmI2NzY3MGQ1YmZjY2RiOGI4Njg3MWNlZWE3OGJmNTM4MjNjNGU5NmY0NWRlZDYyYWNmNGUzLXJpbWctdzEyMDAtaDE1MDAtZGMyZDE5MmQtZ21pci5qcGc_dj0xNzg1MDc0NzEx.avif",
-   "sources": [
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/psyloween-by-ace-ventura/100001995174240863"
-    }
-   ],
-   "url": "https://allevents.in/monterrey/psyloween-by-ace-ventura/100001995174240863",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Círculo aquí y ahora: Charlas para el alma.",
-   "start": "2026-10-30T19:30",
-   "end": "2026-11-06T20:30",
-   "venue": "Parque Bosques del Valle",
-   "city": "San Pedro Garza García",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/circulo-aqui-y-ahora-charlas-para-el-alma-2/var/ri-4.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/circulo-aqui-y-ahora-charlas-para-el-alma-2/var/ri-4.l-L1",
-   "skey": "circulo aqui ahora charlas para alma|parque bosques",
-   "id": "f32ba1c8d548",
-   "dates": [
-    {
-     "start": "2026-10-30T19:30",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/circulo-aqui-y-ahora-charlas-para-el-alma-2/var/ri-4.l-L1"
-    },
-    {
-     "start": "2026-11-06T19:30",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/circulo-aqui-y-ahora-charlas-para-el-alma-3/"
-    }
-   ],
-   "firstSeen": "2026-10-20T12:41:33.774Z",
-   "moreDatesAt": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "title": "El evangelio de la revolución",
-   "start": "2026-10-30T19:30",
-   "end": "2026-11-04T17:00",
-   "times": [
-    "19:30"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/El-Evangelio-de-la-Revolucion-Imagen-e1791927790514-700x360.png",
-   "description": "El Evangelio de la Revolución, primer documental histórico sobre la teología de la liberación y la participación de los cristianos en las luchas revolucionarias en América Latina.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/",
-   "skey": "evangelio revolucion|cineteca alejandra",
-   "id": "d5a26ee27b99",
-   "dates": [
-    {
-     "start": "2026-10-30T19:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    },
-    {
-     "start": "2026-10-31T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    },
-    {
-     "start": "2026-11-01T19:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    },
-    {
-     "start": "2026-11-04T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "title": "Hope: El primer impacto",
-   "start": "2026-10-30T19:45",
-   "end": "2026-11-04T15:00",
-   "times": [
-    "19:45"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Hope-Imagen-700x360.jpg",
-   "description": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/",
-   "skey": "hope primer impacto|cineteca alejandra",
-   "id": "34384ce9c822",
-   "dates": [
-    {
-     "start": "2026-10-30T19:45",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
-    },
-    {
-     "start": "2026-11-01T14:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
-    },
-    {
-     "start": "2026-11-04T15:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
-    }
-   ],
-   "firstSeen": "2026-10-22T12:42:57.169Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "c885e7221792",
-   "skey": "culichi zagar comedy bar cumbres|zagar comedy",
-   "title": "Culichi en Zagar Comedy Bar Cumbres",
-   "venue": "Zagar Comedy Bar Cumbres",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "tickets": "https://arema.mx/e/21123-culichi-en-zagar-comedy-bar-cumbres",
-   "image": null,
-   "description": "Fecha: 30 de octubre 2026 Hora: 20:00 hrs Lugar: Zagar Comedy Bar Cumbres Dirección del evento: Av. Nacional de la Banca 99, Cumbres Elite, Sector Villas, 64346 Monterrey, N.L. Zonas y Precios: • Preventa: $300 por persona • Mesa 2 Px: $800 ($400 por persona) • Mesa 4 Px: $1,600 ($400 por persona) • Mesa 6 Px: $2,400 ($400 por persona) Precios + Cargos por servicio IMPORTANTE: Al escoger su lugar, tomar de referencia el Mapa para la ubicación de su Mesa En caso de comprar una mesa por este medio y desea agregar una silla adicional, esto queda sujeto a disponibilidad, Favor de contactarnos al…",
-   "start": "2026-10-30T20:00",
-   "end": "2026-10-30T20:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21123-culichi-en-zagar-comedy-bar-cumbres"
-    }
-   ],
-   "url": "https://arema.mx/e/21123-culichi-en-zagar-comedy-bar-cumbres",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "8920f2bc449b",
-   "skey": "esgrima historica|parque capitan",
-   "title": "Esgrima Historica",
-   "start": "2026-10-30T20:00",
-   "end": "2026-10-30T21:30",
-   "venue": "Parque El Capitán",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/esgrima-historica-6/var/ri-6.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/esgrima-historica-6/var/ri-6.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "decd29670631",
-   "skey": "kevin kaarl|auditorio banamex",
-   "title": "Kevin Kaarl",
-   "start": "2026-10-30T20:00",
-   "end": "2026-10-30T23:00",
-   "venue": "Auditorio Banamex",
-   "city": "Monterrey",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/09/kevin-kaarl-auditorio-banamex-monterrey-2026-scaled.jpg",
-   "genre": null,
-   "description": "Kevin Kaarl en Auditorio Banamex, 30 de octubre, 2026. Consulta toda la información y compra boletos.",
-   "category": "Música",
-   "sources": [
-    {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/kevin-kaarl-auditorio-banamex-monterrey-2026"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/kevin-kaarl-monterrey-30-10-2026/event/140064F9884E29EE"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/kevin-kaarl/210002054399723"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/kevin-kaarl-tm-62JFKxEm"
-    }
-   ],
-   "url": "https://conciertosenmonterrey.com/cartelera/kevin-kaarl-auditorio-banamex-monterrey-2026",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "6b00e00b572a",
-   "skey": "felicidad jose emilio hernandez|auditorio san",
-   "title": "La felicidad, de José Emilio Hernández",
-   "start": "2026-10-30T20:00",
-   "end": "2026-10-30T21:00",
-   "venue": "Auditorio San Pedro",
-   "city": "san pedro garza garcía",
-   "category": "Teatro",
-   "price": "Gratuito",
-   "tickets": null,
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/La-felicidad.jpg",
-   "description": "Calificación promedio Aún no hay calificación Clara, una adolescente inteligente e intrépida, decide huir de Tapachula, Chiapas, después de tener un sueño con barcos y gigantes. Entre boings de mango, guayabas y rocas, emprende un viaje sin saber muy bien hacia dónde la llevará el camino. La felicidad es una comedia poética que entrelaza la pérdida, la nostalgia y la amistad a través de la historia de un padre y una hija que atraviesan un duelo compartido.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/la-felicidad-de-jose-emilio-hernandez/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Cartelera Escénica",
-   "url": "https://carteleraescenica.com/eventos/la-felicidad-de-jose-emilio-hernandez/",
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "id": "aaf634915a5e",
-   "skey": "canciones mi padre lab danza contemporanea uanl|aula magna",
-   "title": "Las canciones de mi padre – Lab. de Danza Contemporánea UANL",
-   "start": "2026-10-30T20:00",
-   "end": null,
-   "venue": "Aula Magna, Colegio Civil Centro Cultural Universitario",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "Entrada libre",
-   "description": "México · Danza contemporánea",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "97df96c8488c",
-   "skey": "monster mash party|aparato",
-   "title": "Monster Mash Party en Monterrey",
-   "venue": "APARATO",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://arema.mx/e/21423-monster-mash-party-en-monterrey",
-   "image": null,
-   "description": "Fecha: 30 de Octubre 2027 Hora: 20:00 a 02:00 horas Lugar: Aparato Dirección del evento: Padre Mier 818, Centro, 64000 Monterrey, N.L. Zonas y Precios: Preventa: $250 (hasta el 15 de Octubre) General: $350 (a partir del 15 de Octubre) (Precios más cargos por servicio) Puntos de venta oficiales: * Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. * Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L. * Jardin 85 Tostitos Av Lázaro Cárdenas 2610, Del Paseo Residencial, 64920 Monterrey, N.L.",
-   "start": "2026-10-30T20:00",
-   "end": "2026-10-30T20:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21423-monster-mash-party-en-monterrey"
-    }
-   ],
-   "url": "https://arema.mx/e/21423-monster-mash-party-en-monterrey",
-   "firstSeen": "2026-10-08T12:31:59.221Z"
-  },
-  {
-   "id": "05cb5da0f0b7",
-   "skey": "paris romanticismo orquesta camara toulouse|explanada heroes",
-   "title": "París y el Romanticismo – Orquesta de Cámara de Toulouse",
-   "start": "2026-10-30T20:00",
-   "end": null,
-   "venue": "Explanada de los Héroes",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "Entrada libre",
-   "description": "Francia · Con la violinista Manon Galy: Chopin, Saint-Saëns, Fauré, Bizet, Elgar",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "SinfonicaTec presenta: Escalofríos",
-   "start": "2026-10-30T20:00",
-   "end": "2026-10-31",
-   "venue": "Auditorio Luis Elizondo",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://s1.ticketm.net/dam/e/ada/a9db5742-66ca-48a1-af53-826944296ada_RETINA_LANDSCAPE_16_9.jpg",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-30-10-2026/event/1400650D97C64BFE"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/sinfonicatec-presenta-escalofríos/210002846862235"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/sinfonicatec-presenta-escalofrios-tm-GkU9s0RX"
-    }
-   ],
-   "description": "Escalofrío es un concierto de la Sinfónica Tec que te llevará por las bandas sonoras más icónicas del cine de terror, suspenso y ciencia ficción. Revive la tensión de Psycho, el peligro de Jaws (Tibur",
-   "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-30-10-2026/event/1400650D97C64BFE",
-   "skey": "sinfonicatec escalofrios|auditorio luis",
-   "id": "b9597b33f9d0",
-   "dates": [
-    {
-     "start": "2026-10-30T20:00",
-     "end": null,
-     "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-30-10-2026/event/1400650D97C64BFE"
-    },
-    {
-     "start": "2026-10-31T19:00",
-     "end": null,
-     "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-31-10-2026/event/1400650D98824DE3"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "0a588b2b62fb",
-   "skey": "zumba activacion ana gonzalez|parque clouthier",
-   "title": "Zumba y activación con Ana Gonzalez",
-   "start": "2026-10-30T20:00",
-   "end": null,
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez/var/ri-19.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "3ebb517422ba",
-   "skey": "noche chicxs|foro corona",
-   "title": "Noche de chicxs en Monterrey",
-   "start": "2026-10-30T20:30",
-   "end": "2026-10-30",
-   "venue": "Foro Corona Monterrey",
-   "city": "Col. Centro Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://s1.ticketm.net/dam/a/59d/07a776f0-3734-4f2b-ace2-2e208032859d_RETINA_LANDSCAPE_16_9.jpg",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/noche-de-chicxs-en-monterrey-col-centro-monterrey-30-10-2026/event/3D0064CAED1256C7"
-    },
-    {
-     "id": "foro_corona",
-     "url": "https://www.forocorona.com/cartelera"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/noche-de-chicxs-en-monterrey-tm-_Glc7Ph6"
-    }
-   ],
-   "description": "Noche de chicxs en Monterrey en Monterrey. Fechas, boletos e información en CTXplorer.",
-   "url": "https://www.ticketmaster.com.mx/noche-de-chicxs-en-monterrey-col-centro-monterrey-30-10-2026/event/3D0064CAED1256C7",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Room with a view",
-   "start": "2026-10-30T20:30",
-   "end": "2026-10-31T21:00",
-   "venue": "Teatro de la Ciudad I Gran Sala",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/26244-Portada-we-_Room-with-a-view-700x360.jpg",
-   "description": "Creado por La Horde, Ballet Nacional de Marsella X Rone En Room with a View los coreógrafos de (LA)HORDE exploran la protesta y la rebelión a través de la danza, abordando el poder del colectivo compuesto de individuos únicos, pero unidos. Ahí, en esa unión, se encuentra la luz de la esperanza: nada ocurre en solitario, todo sucede con los demás. Esa es la belleza del grupo. El escenario es un espacio en blanco, una cantera de mármol, donde diversas máquinas trabajan cortando y puliendo la piedra.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/room-with-a-view/"
-    },
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21258-room-with-a-view"
-    }
-   ],
-   "tickets": "https://arema.mx/e/21258-room-with-a-view",
-   "url": "https://conarte.org.mx/agenda/room-with-a-view/",
-   "skey": "room with view|teatro ciudad",
-   "id": "83627ee58809",
-   "dates": [
-    {
-     "start": "2026-10-30T20:30",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/room-with-a-view/"
-    },
-    {
-     "start": "2026-10-31T19:30",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/room-with-a-view/"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Tus ojos en mis ojos – Teatro",
-   "start": "2026-10-30T20:30",
-   "end": "2026-11-27T22:00",
-   "venue": "Auditorio Anastacio Villarreal",
-   "city": "San Nicolás de los Garza",
-   "category": "Teatro",
-   "price": "$350",
-   "tickets": "https://cartelera.primetickets.mx/tus-ojos-en-mis-ojos-sannicolas",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/Tus-ojos-2.jpg",
-   "description": "Calificación promedio Aún no hay calificación Tus ojos en mis ojos es un espejo de la relación de pareja donde te puedes reflejar y así tomar conciencia de tu propia situación. Se aborda el tema de la pareja actual de una forma muy divertida Duración 90 minutos Público al que va dirigido Solo adultos, mayores de 18 años Créditos Escrita, dirigida y actuada por Maripaz García y Mauro Samaniego Auditorio Anastasio Villarreal · San Nicolás de los Garza Funciones 23 oct de 2026 · 20:30 h 30 oct de 2026 · 20:30 h 6 nov de 2026 · 20:30 h 13 nov de 2026 · 20:30 h 20 nov de 2026 · 20:30 h 27 nov de…",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-10-30/"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-10-30/",
-   "skey": "tus ojos mis ojos teatro|auditorio anastacio",
-   "id": "f3aa17657485",
-   "dates": [
-    {
-     "start": "2026-10-30T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-10-30/"
-    },
-    {
-     "start": "2026-11-06T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-06/"
-    },
-    {
-     "start": "2026-11-13T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-13/"
-    },
-    {
-     "start": "2026-11-20T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-20/"
-    },
-    {
-     "start": "2026-11-27T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-27/"
-    }
-   ],
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "id": "85bc72165d3b",
-   "skey": "aldo gary locos comedia|merequetengue",
-   "title": "Aldo Y Gary los Locos de la Comedia",
-   "venue": "Merequetengue",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "tickets": "https://arema.mx/e/21554-aldo-y-gary-los-locos-de-la-comedia",
-   "image": null,
-   "description": "Fecha: 30 de Octubre 2026 Hora: 21:00 horas Lugar: Merequetengue Dirección del evento: Av. Topo Chico 808, Anáhuac, 64260 Monterrey, N.L. Zonas y Precios: (Precios más cargos por servicio) Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. - Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L. - Jardin 85: Av Lázaro Cárdenas 2610, Del Paseo Residencial, 64920 Monterrey, N.L.",
-   "start": "2026-10-30T21:00",
-   "end": "2026-10-30T21:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21554-aldo-y-gary-los-locos-de-la-comedia"
-    }
-   ],
-   "url": "https://arema.mx/e/21554-aldo-y-gary-los-locos-de-la-comedia",
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "54cf391f0739",
-   "skey": "carlos ballarta|escenario gnp",
-   "title": "Carlos Ballarta",
-   "start": "2026-10-30T21:00",
-   "end": "2026-10-30",
-   "venue": "Escenario GNP Seguros",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://s1.ticketm.net/dam/e/5f4/3a7f015a-3a7f-4a7a-a81f-c187200ba5f4_RETINA_LANDSCAPE_16_9.jpg",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/carlos-ballarta-monterrey-30-10-2026/event/140064C4E0FA58C0"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/carlos-ballarta/210002355274760"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/carlos-ballarta-tm-6GKOXPNZ"
-    }
-   ],
-   "description": "El as de la comedia negra y el maestro del humor ácido en español, Carlos Ballarta, se prepara para apoderarse del escenario con una propuesta que es, al mismo tiempo, una catarsis de carcajadas y una",
-   "url": "https://www.ticketmaster.com.mx/carlos-ballarta-monterrey-30-10-2026/event/140064C4E0FA58C0",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "aae5e1bb559b",
-   "skey": "rayadas pumas j13 ap26|estadio bbva",
-   "title": "Rayadas v. Pumas J13 AP26",
-   "start": "2026-10-30T21:00",
-   "end": "2026-10-30",
-   "venue": "Estadio BBVA",
-   "city": "Guadalupe",
-   "category": "Música",
-   "price": null,
-   "image": "https://s1.ticketm.net/dam/a/5fb/d9773f7a-5af4-4f7e-9d8f-18fd2d8cd5fb_RETINA_LANDSCAPE_16_9.jpg",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/rayadas-v-pumas-j13-ap26-guadalupe-30-10-2026/event/3D006487BB5E3A28"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/rayadas-v-pumas-j13-ap26-tm-_FrD9NII"
-    }
-   ],
-   "description": "Rayadas v. Pumas J13 AP26 en Monterrey. Fechas, boletos e información en CTXplorer.",
-   "url": "https://www.ticketmaster.com.mx/rayadas-v-pumas-j13-ap26-guadalupe-30-10-2026/event/3D006487BB5E3A28",
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "4466c39e8df7",
-   "skey": "halloween night britney|dion center",
-   "title": "HALLOWEEN NIGHT BRITNEY",
-   "start": "2026-10-30T21:30",
-   "end": null,
-   "venue": "Dion Live Center",
-   "city": "San Pedro Garza García",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/fmRKEQEnPfUlUiQv71buNw",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT152024.webp?v=20261012115337",
-   "description": null,
-   "onsale": null,
-   "promo": null,
-   "sources": [
-    {
-     "id": "superboletos",
-     "url": "https://www.superboletos.com/landing-evento/fmRKEQEnPfUlUiQv71buNw"
-    }
-   ],
-   "url": "https://www.superboletos.com/landing-evento/fmRKEQEnPfUlUiQv71buNw",
-   "firstSeen": "2026-10-13T12:31:43.871Z"
-  },
-  {
    "id": "18600424e72d",
    "skey": "parquemovil programa recreativo itinerante|parque pajaro",
    "title": "Parquemovil: Programa Recreativo Itinerante",
@@ -2778,109 +967,88 @@
    "firstSeen": "2026-10-20T12:41:33.774Z"
   },
   {
-   "id": "a5f4ffa764b5",
-   "skey": "comunidad running fenix crew|parque mississippi",
-   "title": "Comunidad Running con Fenix Crew",
-   "start": "2026-10-31T05:30",
-   "end": "2026-10-31T08:30",
-   "venue": "Parque Mississippi",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/comunidad-running-con-fenix-crew-3/var/ri-7.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/comunidad-running-con-fenix-crew-3/var/ri-7.l-L1",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "title": "Adiestramiento canino (COBRO)",
+   "id": "fa96d7bdb22a",
+   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
    "start": "2026-10-31T09:00",
-   "end": "2026-11-07T10:30",
-   "venue": "Parque Bosques del Valle",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": "Con costo",
-   "image": null,
-   "description": null,
+   "end": "2026-11-29T19:00",
+   "price": "Desde $530",
+   "demand": null,
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/adiestramiento-canino-cobro-3/var/ri-4.l-L1"
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/adiestramiento-canino-cobro-3/var/ri-4.l-L1",
-   "skey": "adiestramiento canino cobro|parque bosques",
-   "id": "7b00daba7344",
-   "dates": [
-    {
-     "start": "2026-10-31T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/adiestramiento-canino-cobro-3/var/ri-4.l-L1"
-    },
-    {
-     "start": "2026-11-07T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/adiestramiento-canino-cobro-4/"
-    }
-   ],
-   "firstSeen": "2026-10-20T12:41:33.774Z",
-   "moreDatesAt": "2026-10-30T12:54:13.354Z"
+   "url": "https://feverup.com/m/638206",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "993972108dce",
-   "skey": "clases huerto|parque mississippi",
-   "title": "Clases de Huerto",
+   "id": "0d729f1441fd",
+   "skey": "fuga prisionero san pedro|parque capitan",
+   "title": "La Fuga del Prisionero - San Pedro",
+   "venue": "Parque El Capitán",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
    "start": "2026-10-31T10:00",
-   "end": "2026-10-31T11:30",
-   "venue": "Parque Mississippi",
-   "city": "San Pedro Garza García",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": null,
-   "description": null,
+   "end": "2026-11-01T18:00",
+   "price": "Desde $530",
+   "demand": null,
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/clases-de-huerto-12/"
+     "id": "fever",
+     "url": "https://feverup.com/m/629878"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/clases-de-huerto-12/",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
+   "url": "https://feverup.com/m/629878",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "59f42fd4801a",
-   "skey": "clases huertos comunitarios|parque mirador",
-   "title": "Clases Huertos Comunitarios",
+   "id": "d33e5d202252",
+   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
    "start": "2026-10-31T10:00",
-   "end": "2026-10-31T12:00",
-   "venue": "Parque Mirador Garza Ayala",
-   "city": "San Pedro Garza García",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": null,
-   "description": null,
+   "end": "2026-12-30T10:00",
+   "price": "Desde $300",
+   "demand": null,
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/clases-huertos-comunitarios-3/"
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/clases-huertos-comunitarios-3/",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
+   "url": "https://feverup.com/m/685013",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "a1ac29cd6120",
+   "skey": "papalote museo nino expo dinosaurios|papalote museo",
+   "title": "Papalote Museo del Niño + Expo Dinosaurios",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
+   "start": "2026-10-31T10:00",
+   "end": "2026-12-02T10:00",
+   "price": "Desde $280",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/338223"
+    }
+   ],
+   "url": "https://feverup.com/m/338223",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "title": "Seminario I Ciudad fortuita: Seminario de prácticas contemporáneas de fotografía de calle – Octubre 2026",
@@ -3031,6 +1199,27 @@
    "moreDatesAt": "2026-10-29T12:53:41.351Z"
   },
   {
+   "id": "e6ef7968c122",
+   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "start": "2026-10-31T11:00",
+   "end": "2026-12-06T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "id": "2c72eca3bb59",
    "skey": "mercado cultural vagon amarillo octubre|casa cultura",
    "title": "Mercado cultural I El vagón amarillo – Octubre 2026",
@@ -3052,24 +1241,24 @@
    "firstSeen": "2026-10-17T12:35:16.355Z"
   },
   {
-   "id": "957375e4fafa",
-   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "venue": "Parque Rufino Tamayo",
+   "id": "6e2c25027b91",
+   "skey": "virtuality world cumpleanos infantiles|galerias valle",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "venue": "Galerías Valle Oriente",
    "city": "Monterrey",
    "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
    "start": "2026-10-31T11:00",
-   "end": "2026-11-29T17:00",
-   "price": "Desde $799",
+   "end": "2027-01-31T19:00",
+   "price": "Desde $635",
    "demand": null,
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/707636"
+     "url": "https://feverup.com/m/612272"
     }
    ],
-   "url": "https://feverup.com/m/707636",
+   "url": "https://feverup.com/m/612272",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -3104,6 +1293,49 @@
    ],
    "firstSeen": "2026-10-09T12:28:04.203Z",
    "moreDatesAt": "2026-10-12T12:42:04.831Z"
+  },
+  {
+   "id": "cdd21dace15a",
+   "skey": "laberinto leyendas san nicolas|paseo fe",
+   "title": "Laberinto de Leyendas en San Nicolás",
+   "venue": "Paseo La Fe",
+   "city": "San Nicolás de los Garza",
+   "category": "Experiencias",
+   "price": null,
+   "tickets": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas",
+   "image": null,
+   "description": "Fecha: Del 12 al 31 de Octubre 2026 Recorridos: Lunes a Viernes: Horarios • 15:00 • 15:30 • 16:00 • 16:30 • 17:00 • 18:00 • 18:30 • 19:00 • 19:30 • 20:00 Recorridos Sábado y Domingo: Horarios: • 13:00 • 13:30 • 14:00 • 14:30 • 15:00 • 15:30 • 16:00 • 17:00 • 17:30 • 18:00 • 18:30 • 19:00 • 19:30 • 20:00 Lugar: Paseo La Fe, Zona El Solar Dirección del evento: Av. Miguel Alemán 200, Parque la Talaverna, 66470 San Nicolás de los Garza, N.L. Zonas de precio: General: $250 (Precio más cargos por servicio) Sinopsis: Hay un camino que pocos terminan de recorrer.",
+   "start": "2026-10-31T12:00",
+   "end": "2026-10-31T13:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas"
+    }
+   ],
+   "url": "https://arema.mx/e/21282-laberinto-de-leyendas-en-san-nicolas",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "1afdecf30e20",
+   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "start": "2026-10-31T12:30",
+   "end": "2026-12-02T18:00",
+   "price": null,
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "id": "1df7cb33e843",
@@ -3240,6 +1472,42 @@
    "moreDatesAt": "2026-10-23T12:38:48.452Z"
   },
   {
+   "title": "Mamut: El regreso de los dinusaurios",
+   "start": "2026-10-31T14:15",
+   "end": "2026-11-04T16:00",
+   "times": [
+    "14:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Mamut-Imagen-700x360.jpg",
+   "description": "Los dinosaurios vuelven a la vida, desatando una amenaza imparable. Mientras fuerzas armadas y mercenarios intentan controlarlos, el mundo se enfrenta a un caos prehistórico sin precedentes. ESTA PELÍCULA SE PRESENTARÁ DOBLADA AL ESPAÑOL",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/",
+   "skey": "mamut regreso dinusaurios|cineteca alejandra",
+   "id": "3b06174d3bc7",
+   "dates": [
+    {
+     "start": "2026-10-31T14:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/"
+    },
+    {
+     "start": "2026-11-04T16:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/"
+    }
+   ],
+   "firstSeen": "2026-10-28T12:53:26.477Z"
+  },
+  {
    "title": "Mercado Mx",
    "start": "2026-10-31T15:00",
    "end": "2026-10-31T22:00",
@@ -3268,6 +1536,47 @@
     }
    ],
    "firstSeen": "2026-10-20T12:41:33.774Z"
+  },
+  {
+   "title": "Tinsman Road: Camino al miedo",
+   "start": "2026-10-31T15:30",
+   "end": "2026-11-04T18:00",
+   "times": [
+    "15:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tinsman-Road-Imagen-e1792614695166-700x360.png",
+   "description": "Independiente hasta la médula y filmada íntegramente en una Mini-DV 4:3 en los bosques de Nueva Jersey, TINSMAN ROAD: CAMINO AL MIEDO lleva al espectador a un viaje emocionalmente retorcido por el desolado camino de la muerte y el dolor. La historia se centra en un joven que se adentra en el intrincado misterio que rodea la desaparición de su hermana y la antigua casa familiar.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/",
+   "skey": "tinsman road camino miedo|cineteca alejandra",
+   "id": "1e0234292a39",
+   "dates": [
+    {
+     "start": "2026-10-31T15:30",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
+    },
+    {
+     "start": "2026-11-01T18:45",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
+    },
+    {
+     "start": "2026-11-04T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
+    }
+   ],
+   "firstSeen": "2026-10-28T12:53:26.477Z"
   },
   {
    "id": "034739867501",
@@ -3332,6 +1641,60 @@
    "free": true,
    "freeVia": "Festival Santa Lucía",
    "url": "https://festivalsantalucia.gob.mx/",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "SAFARI – La Baldufa",
+   "start": "2026-10-31T16:00",
+   "end": "2026-11-01T19:00",
+   "venue": "Escenario al aire libre del Teatro de la Ciudad",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "España · Teatro visual para niñas, niños y familias sobre el acoso escolar",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "skey": "safari baldufa|escenario aire",
+   "id": "add7c446ec23",
+   "dates": [
+    {
+     "start": "2026-10-31T16:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T17:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T16:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T17:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-11-01T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -3413,6 +1776,47 @@
      "start": "2026-11-04T20:30",
      "end": null,
      "url": "https://conarte.org.mx/cineteca/jonna-cronicas-de-una-policia-novata/"
+    }
+   ],
+   "firstSeen": "2026-10-28T12:53:26.477Z"
+  },
+  {
+   "title": "El evangelio de la revolución",
+   "start": "2026-10-31T17:00",
+   "end": "2026-11-04T17:00",
+   "times": [
+    "17:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/El-Evangelio-de-la-Revolucion-Imagen-e1791927790514-700x360.png",
+   "description": "El Evangelio de la Revolución, primer documental histórico sobre la teología de la liberación y la participación de los cristianos en las luchas revolucionarias en América Latina.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/",
+   "skey": "evangelio revolucion|cineteca alejandra",
+   "id": "d5a26ee27b99",
+   "dates": [
+    {
+     "start": "2026-10-31T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
+    },
+    {
+     "start": "2026-11-01T19:30",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
+    },
+    {
+     "start": "2026-11-04T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
     }
    ],
    "firstSeen": "2026-10-28T12:53:26.477Z"
@@ -3582,6 +1986,40 @@
     }
    ],
    "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
+   "title": "Deep Dive Deep",
+   "venue": "Teatro Esp. Rogelio Villarreal E",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21550-deep-dive-deep",
+   "image": null,
+   "description": "Deep-Dive-Deep es un \"clavado\" a las profundidades del mar. Es un ejercicio coreográfico que desafía el miedo a perderse en la memoria, en los pensamientos y las complejidades del ser humano. El calor del sol, la arena y el agua salada serán la guía para descubrir un universo junto al mar, para percibir la infinitud de las cosas y dejarse llevar por ella.",
+   "start": "2026-10-31T18:00",
+   "end": "2026-11-01T18:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21550-deep-dive-deep"
+    }
+   ],
+   "url": "https://arema.mx/e/21550-deep-dive-deep",
+   "skey": "deep dive deep|teatro esp",
+   "id": "3e10381b65e7",
+   "dates": [
+    {
+     "start": "2026-10-31T18:00",
+     "end": null,
+     "url": "https://arema.mx/e/21550-deep-dive-deep"
+    },
+    {
+     "start": "2026-11-01T18:00",
+     "end": null,
+     "url": "https://arema.mx/e/21550-deep-dive-deep"
+    }
+   ],
+   "firstSeen": "2026-10-22T12:42:57.169Z"
   },
   {
    "id": "72a3511d63bd",
@@ -3760,6 +2198,158 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "title": "Recreo – Flip Fabrique!",
+   "start": "2026-10-31T18:30",
+   "end": "2026-10-31T20:30",
+   "venue": "Nuevo Parque del Agua",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "Entrada libre",
+   "description": "Canadá · Acrobacia",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "free": true,
+   "freeVia": "Festival Santa Lucía",
+   "url": "https://festivalsantalucia.gob.mx/",
+   "skey": "recreo flip fabrique|nuevo parque",
+   "id": "7dcb8d3aa21b",
+   "dates": [
+    {
+     "start": "2026-10-31T18:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T19:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "Carrie",
+   "start": "2026-10-31T19:00",
+   "end": "2026-11-01T18:30",
+   "times": [
+    "19:00",
+    "21:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2018/06/Carrie-Imagen-e1792615768767-700x360.jpg",
+   "description": "Carrie White, una tímida adolescente que vive con su madre, una fanática religiosa, es objeto de las burlas constantes de sus compañeros de instituto. Cuando, en las duchas del gimnasio, la chica sufre un ataque de histeria al tener su primera menstruación, a una de sus compañeras se le ocurre gastarle una broma macabra durante la fiesta de graduación. Lo que todos ignoran es que Carrie posee poderes telequinésicos. VERSIÓN RESTAURADA EN 4K 50 ANIVERSARIO",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/carrie-3/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/carrie-3/",
+   "skey": "carrie|cineteca alejandra",
+   "id": "6e7d28bfd258",
+   "dates": [
+    {
+     "start": "2026-10-31T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/carrie-3/"
+    },
+    {
+     "start": "2026-11-01T18:30",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/carrie-3/"
+    }
+   ],
+   "firstSeen": "2026-10-22T12:42:57.169Z",
+   "moreDatesAt": "2026-10-23T12:38:48.452Z"
+  },
+  {
+   "id": "e66885a70388",
+   "skey": "club 1945 rayados tijuana j15 ap26|estadio bbva",
+   "title": "Club 1945 - Rayados v. Tijuana J15 AP26",
+   "start": "2026-10-31T19:00",
+   "end": null,
+   "venue": "Estadio BBVA",
+   "city": "Guadalupe",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/a/5fb/d9773f7a-5af4-4f7e-9d8f-18fd2d8cd5fb_RETINA_LANDSCAPE_16_9.jpg",
+   "onsale": null,
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://am.ticketmaster.com/rayados/es-mx/buy/rayadosvstijuana?promocode=Q0xVQjE5NDU%3D"
+    }
+   ],
+   "url": "https://am.ticketmaster.com/rayados/es-mx/buy/rayadosvstijuana?promocode=Q0xVQjE5NDU%3D",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
+   "id": "32e0d7d14d73",
+   "skey": "diva ganster|punto coma",
+   "title": "La Diva y el Gánster – Monterrey",
+   "start": "2026-10-31T19:00",
+   "end": "2026-10-31T20:30",
+   "venue": "Punto y Coma",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$250",
+   "tickets": "https://www.eventbrite.com/e/teatro-la-diva-y-el-ganster-tickets-2001106350964",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/la-diva.jpg",
+   "description": "Calificación promedio Aún no hay calificación Dos personajes extremos y contradictorios se enfrentan en la peligrosa frontera entre la mafia y el mundo del teatro y el cine. Atrapados en una red de drogas, dinero, armas y poder, sus destinos se entrelazan en una historia marcada por la violencia, la ambición, la venganza y la búsqueda de justicia. En el centro del conflicto se encuentran un capo de la mafia y una actriz que sueña con convertirse en una diva glamurosa y alcanzar la fama en los escenarios teatrales y las pantallas cinematográficas.",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/la-diva-y-el-ganster-monterrey/2026-10-31/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/la-diva-y-el-ganster-monterrey/2026-10-31/",
+   "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
+   "title": "Observación Astronómica: Saturno",
+   "start": "2026-10-31T19:00",
+   "end": "2026-10-31T20:30",
+   "venue": "Observatorio Astronómico UDEM",
+   "city": "San Pedro Garza García",
+   "category": "Familiar",
+   "price": "Registro previo",
+   "description": "Cupo limitado: registro a observatorio.astronomico@udem.edu",
+   "sources": [
+    {
+     "id": "santa_lucia",
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "url": "https://festivalsantalucia.gob.mx/",
+   "skey": "observacion astronomica saturno|observatorio astronomico",
+   "id": "5157ab4ae411",
+   "dates": [
+    {
+     "start": "2026-10-31T19:00",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    },
+    {
+     "start": "2026-10-31T20:30",
+     "end": null,
+     "url": "https://festivalsantalucia.gob.mx/"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "id": "ba1b965ab081",
    "skey": "presentacion mapa vino mezcal noreste muestra destilados tradicionales region|marco",
    "title": "Presentación: Mapa Vino Mezcal del Noreste y muestra de los destilados tradicionales de la región",
@@ -3784,19 +2374,23 @@
    "skey": "rayados tijuana j15 ap26|estadio bbva",
    "title": "Rayados v. Tijuana J15 AP26",
    "start": "2026-10-31T19:00",
-   "end": null,
+   "end": "2026-10-31",
    "venue": "Estadio BBVA",
    "city": "Guadalupe",
    "category": "Música",
    "price": null,
    "image": "https://s1.ticketm.net/dam/a/5fb/d9773f7a-5af4-4f7e-9d8f-18fd2d8cd5fb_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
    "sources": [
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/rayados-v-tijuana-j15-ap26-guadalupe-31-10-2026/event/3D006487C3A83ED9"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/rayados-v-tijuana-j15-ap26-tm-_FLdndD_"
     }
    ],
+   "description": "Rayados v. Tijuana J15 AP26 es el sábado 31 de octubre de 2026 a las 19:00 en Av. Pablo Livas No. 2011, Monterrey. Fechas, boletos e información en CTXplorer.",
    "url": "https://www.ticketmaster.com.mx/rayados-v-tijuana-j15-ap26-guadalupe-31-10-2026/event/3D006487C3A83ED9",
    "firstSeen": "2026-10-27T12:45:08.776Z"
   },
@@ -3819,6 +2413,61 @@
    ],
    "url": "https://allevents.in/monterrey/rico-rico-inferno-halloween-party/100001999251084813",
    "firstSeen": "2026-10-18T12:34:15.084Z"
+  },
+  {
+   "id": "7c7a19f7f6e2",
+   "skey": "sinfonicatec escalofrios|auditorio luis",
+   "title": "SinfonicaTec presenta: Escalofríos",
+   "start": "2026-10-31T19:00",
+   "end": "2026-10-31",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/3b1/6d5da30a-c534-4946-b4e5-647b04cde3b1_RETINA_LANDSCAPE_16_9.jpg",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-31-10-2026/event/1400650D98824DE3"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/sinfonicatec-presenta-escalofríos/210002846862235"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/sinfonicatec-presenta-escalofrios-tm-GkUbO0MN"
+    }
+   ],
+   "description": "Escalofrío es un concierto de la Sinfónica Tec que te llevará por las bandas sonoras más icónicas del cine de terror, suspenso y ciencia ficción. Revive la tensión de Psycho, el peligro de Jaws (Tibur",
+   "url": "https://www.ticketmaster.com.mx/sinfonicatec-presenta-escalofrios-monterrey-31-10-2026/event/1400650D98824DE3",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "b021a24db31d",
+   "skey": "room with view|teatro ciudad",
+   "title": "Room with a view",
+   "start": "2026-10-31T19:30",
+   "end": "2026-10-31T21:00",
+   "venue": "Teatro de la Ciudad I Gran Sala",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/26244-Portada-we-_Room-with-a-view-700x360.jpg",
+   "description": "Creado por La Horde, Ballet Nacional de Marsella X Rone En Room with a View los coreógrafos de (LA)HORDE exploran la protesta y la rebelión a través de la danza, abordando el poder del colectivo compuesto de individuos únicos, pero unidos. Ahí, en esa unión, se encuentra la luz de la esperanza: nada ocurre en solitario, todo sucede con los demás. Esa es la belleza del grupo. El escenario es un espacio en blanco, una cantera de mármol, donde diversas máquinas trabajan cortando y puliendo la piedra.",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/room-with-a-view/"
+    },
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21258-room-with-a-view"
+    }
+   ],
+   "tickets": "https://arema.mx/e/21258-room-with-a-view",
+   "url": "https://conarte.org.mx/agenda/room-with-a-view/",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "id": "2ff6fe9ac2ca",
@@ -3926,6 +2575,48 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "title": "Tierra de mi padre",
+   "start": "2026-10-31T20:00",
+   "end": "2026-11-04T21:00",
+   "times": [
+    "20:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tierra-de-mi-Padre-Imagen-scaled-e1792615008891-700x360.jpg",
+   "description": "La relación entre el escritor ganador del Premio Nobel Thomas Mann y su hija Erika, actriz, escritora y piloto de carreras. En el apogeo de la Guerra Fría, y tras regresar a casa tras dieciséis años de exilio en Estados Unidos, Mann y su hija emprenden un desafiante y emotivo viaje por carretera atravesando una patria tan dividida como su propia familia.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/",
+   "skey": "tierra mi padre|cineteca alejandra",
+   "id": "768be4b26f82",
+   "dates": [
+    {
+     "start": "2026-10-31T20:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
+    },
+    {
+     "start": "2026-11-01T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
+    },
+    {
+     "start": "2026-11-04T21:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
+    }
+   ],
+   "firstSeen": "2026-10-22T12:42:57.169Z",
+   "moreDatesAt": "2026-10-28T12:53:26.477Z"
+  },
+  {
    "id": "623b86ed07e4",
    "skey": "tito ranchero zagar comedy bar san nicolas|zagar comedy",
    "title": "Tito el Ranchero en Zagar Comedy Bar San Nicolas",
@@ -3935,7 +2626,7 @@
    "price": null,
    "tickets": "https://arema.mx/e/20263-tito-el-ranchero-en-zagar-comedy-bar-san-nicolas",
    "image": null,
-   "description": "Fecha: 31 de Octubre 2026 Horario: 20:00 horas Lugar: Zagar Comedy Bar San Nicolás Dirección del evento: Av. Sendero Nte, Paseo Almenares #200, El Centenario, 66418 San Nicolás de los Garza, N.L. Precios: (Aplican cargos por servicio) Mesa 2 Px: $500 ($250 por persona) Mesa 4 Px: $1,000 ($250 por persona) Mesa 6 Px: $1,500 ($250 por persona) IMPORTANTE: Al Escoger su lugar, tomar de referencia el Mapa para la ubicacion de su Mesa En caso de comprar una mesa por este medio y desea agregar una silla adicional, esto queda sujeto a disponibilidad, Favor de contactarnos al Whatsapp 81 1119 2612…",
+   "description": "Fecha: 31 de Octubre 2026 Horario: 20:00 horas Lugar: Zagar Comedy Bar San Nicolás Dirección del evento: Av. Sendero Nte, Paseo Almenares #200, El Centenario, 66418 San Nicolás de los Garza, N.L. Precios: (Aplican cargos por servicio) • Mesa 2 Px: $500 ($250 por persona) • Mesa 4 Px: $1,000 ($250 por persona) • Mesa 6 Px: $1,500 ($250 por persona) IMPORTANTE: Al Escoger su lugar, tomar de referencia el Mapa para la ubicacion de su Mesa En caso de comprar una mesa por este medio y desea agregar una silla adicional, esto queda sujeto a disponibilidad, Favor de contactarnos al Whatsapp 81 1119…",
    "start": "2026-10-31T20:00",
    "end": "2026-10-31T20:30",
    "sources": [
@@ -3946,6 +2637,48 @@
    ],
    "url": "https://arema.mx/e/20263-tito-el-ranchero-en-zagar-comedy-bar-san-nicolas",
    "firstSeen": "2026-10-15T12:42:21.274Z"
+  },
+  {
+   "title": "Barrio triste",
+   "start": "2026-10-31T20:15",
+   "end": "2026-11-04T19:00",
+   "times": [
+    "20:15"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Barrio-triste-Imagen-e1790801643675-700x360.png",
+   "description": "En las afueras de Medellín a finales de la década de 1980, mientras un reportero realiza una nota para la televisión local sobre unas luces que descienden del cielo, un grupo de adolescentes le roba la cámara. En manos de sus nuevos dueños, la cámara recorre el barrio registrando sus vidas y los extraños fenómenos que acechan en el lugar.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/barrio-triste/",
+   "skey": "barrio triste|cineteca alejandra",
+   "id": "b3d3ca9180ed",
+   "dates": [
+    {
+     "start": "2026-10-31T20:15",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    },
+    {
+     "start": "2026-11-01T16:30",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    },
+    {
+     "start": "2026-11-04T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    }
+   ],
+   "firstSeen": "2026-10-08T12:31:59.221Z",
+   "moreDatesAt": "2026-10-28T12:53:26.477Z"
   },
   {
    "id": "b3e094bf7ec8",
@@ -4534,25 +3267,25 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "e66d55fbd5a1",
-   "skey": "mision rescate juego callejero guiado app|macroplaza",
-   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
-   "venue": "Macroplaza",
+   "id": "3173fad658d1",
+   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "venue": "Parque Rufino Tamayo",
    "city": "Monterrey",
    "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
    "start": "2026-11-01T11:00",
-   "end": "2027-01-03T17:00",
-   "price": "Desde $370",
+   "end": "2026-11-29T17:00",
+   "price": "Desde $799",
    "demand": null,
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/283501"
+     "url": "https://feverup.com/m/707636"
     }
    ],
-   "url": "https://feverup.com/m/283501",
-   "firstSeen": "2026-10-24T12:35:51.731Z"
+   "url": "https://feverup.com/m/707636",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "title": "Recorridos Guiados",
@@ -4616,6 +3349,43 @@
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "Hope: El primer impacto",
+   "start": "2026-11-01T14:00",
+   "end": "2026-11-04T15:00",
+   "times": [
+    "14:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Hope-Imagen-700x360.jpg",
+   "description": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/",
+   "skey": "hope primer impacto|cineteca alejandra",
+   "id": "34384ce9c822",
+   "dates": [
+    {
+     "start": "2026-11-01T14:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
+    },
+    {
+     "start": "2026-11-04T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
+    }
+   ],
+   "firstSeen": "2026-10-22T12:42:57.169Z",
+   "moreDatesAt": "2026-10-28T12:53:26.477Z"
   },
   {
    "id": "d4ec14bcc0f5",
@@ -4831,6 +3601,10 @@
     {
      "id": "chipinque",
      "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=dia-de-muertos-2026"
     }
    ],
    "url": "https://www.chipinque.org.mx/inicio/eventos",
@@ -5097,6 +3871,31 @@
    "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
+   "id": "f8656942cb8d",
+   "skey": "yolanda rio gran regreso|escenario gnp",
+   "title": "Yolanda del Rio, El Gran Regreso",
+   "start": "2026-11-01T19:00",
+   "end": "2026-11-01",
+   "venue": "Escenario GNP Seguros",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85NzVkZWY3MGUwYWYxNmEwMjZlMWUyZGRjMTczMzI5ZWNiYTRiMTY0NmZkMjljN2ZmODM1ZjM3YTRkOGIzNmI1LXJpbWctdzEwMjQtaDU3Ni1kYzMwMTkxMi1nbWlyLmpwZz92PTE3ODQ2MjQ0MjQ.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/yolanda-del-rio-el-gran-regreso/210003499850065"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/yolanda-del-rio-el-gran-regreso-tm-6G2x_mPr"
+    }
+   ],
+   "description": "[](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: Todas las edades. Pagan boleto a partir de: 3 años. Restricciones: Prohibido ingresar alimentos, bebidas, mochilas, paraguas, rayos, selfie sticks",
+   "url": "https://allevents.in/monterrey/yolanda-del-rio-el-gran-regreso/210003499850065",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
    "id": "706d90d8941f",
    "skey": "galantis|explanada heroes",
    "title": "GALANTIS",
@@ -5141,6 +3940,27 @@
    ],
    "url": "https://www.superboletos.com/landing-evento/_IacN85OR0rCGEs3H0slUQ",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "663fa558624f",
+   "skey": "mision rescate juego callejero guiado app|macroplaza",
+   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
+   "venue": "Macroplaza",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
+   "start": "2026-11-02T10:00",
+   "end": "2027-01-03T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/283501"
+    }
+   ],
+   "url": "https://feverup.com/m/283501",
+   "firstSeen": "2026-10-24T12:35:51.731Z"
   },
   {
    "id": "f7621c9503f0",
@@ -5658,6 +4478,10 @@
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/paco-de-miguel-presenta-mi-familia-es-tu-familia/200030347869748"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/paco-de-miguel-en-mi-familia-es-tu-familia-tm-GkdPn7J0"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/paco-de-miguel-en-mi-familia-es-tu-familia/",
@@ -5745,6 +4569,26 @@
     }
    ],
    "firstSeen": "2026-10-28T12:53:26.477Z"
+  },
+  {
+   "id": "9f1d9d905b28",
+   "skey": "anni albers arte olvidado nuevo leon|museos",
+   "title": "Anni Albers y el arte olvidado de Nuevo León",
+   "start": "2026-11-04T19:00",
+   "end": null,
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/10/4nov-albers-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=anni-albers-y-el-arte-olvidado-de-nuevo-leon"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=anni-albers-y-el-arte-olvidado-de-nuevo-leon",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "34651c3f2a14",
@@ -5949,19 +4793,23 @@
    "skey": "kapo|auditorio banamex",
    "title": "Kapo",
    "start": "2026-11-04T21:00",
-   "end": null,
+   "end": "2026-11-04",
    "venue": "Auditorio Banamex",
    "city": "Monterrey",
    "category": "Música",
    "price": null,
    "image": "https://s1.ticketm.net/dam/a/8a9/03d716a1-d4b9-4f6b-9dce-84299b6dc8a9_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
    "sources": [
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/kapo-monterrey-04-11-2026/event/1400648DAE778C2E"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/kapo-tm-GkUmqzYm"
     }
    ],
+   "description": "La nueva sensación del género urbano y el afrobeat en español, Kapo, se prepara para encender el escenario con una propuesta que desborda frescura, ritmo y un carisma arrollador. Con un talento único,",
    "url": "https://www.ticketmaster.com.mx/kapo-monterrey-04-11-2026/event/1400648DAE778C2E",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -6140,6 +4988,60 @@
    "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
+   "title": "Idos de la mente",
+   "venue": "Sala Exp. Teatro de la Ciudad",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21604-idos-de-la-mente",
+   "image": null,
+   "description": "De Luis Humberto Crosthwaite* Dirección Alberto Ontiveros* Compañía Gorguz Teatro Horarios: • 05 de noviembre | 20:00 hrs • 06 de noviembre | 20:00 hrs • 07 de noviembre | 20:00 hrs • 08 de diciembre | 20:00 hrs • 09 de diciembre | 20:00 hrs • 10 de diciembre | 20:00 hrs Lugar: Sala Experimental del Teatro de la Ciudad Dirección del evento: Dr. José Ma. Coss 732, Centro, 64000 Monterrey, N.L.",
+   "start": "2026-11-05T20:00",
+   "end": "2026-12-10T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21604-idos-de-la-mente"
+    }
+   ],
+   "url": "https://arema.mx/e/21604-idos-de-la-mente",
+   "skey": "idos mente|sala exp",
+   "id": "17f969d9c791",
+   "dates": [
+    {
+     "start": "2026-11-05T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21604-idos-de-la-mente"
+    },
+    {
+     "start": "2026-11-06T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21604-idos-de-la-mente"
+    },
+    {
+     "start": "2026-11-07T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21604-idos-de-la-mente"
+    },
+    {
+     "start": "2026-12-08T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21604-idos-de-la-mente"
+    },
+    {
+     "start": "2026-12-09T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21604-idos-de-la-mente"
+    },
+    {
+     "start": "2026-12-10T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21604-idos-de-la-mente"
+    }
+   ],
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
    "id": "157b29f1efe3",
    "skey": "inauguracion resolona|fototeca nuevo",
    "title": "Inauguración I Resolona",
@@ -6276,7 +5178,7 @@
    "skey": "bandido diamante cuentos para no dormir|foro corona",
    "title": "Bandido Diamante - Cuentos para no Dormir",
    "start": "2026-11-05T21:00",
-   "end": null,
+   "end": "2026-11-05",
    "venue": "Foro Corona Monterrey",
    "city": "Col. Centro Monterrey",
    "category": "Música",
@@ -6290,8 +5192,13 @@
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/bandido-diamante-cuentos-para-no-dormir-tm-_onyxyGA"
     }
    ],
+   "description": "Bandido Diamante - Cuentos para no Dormir es el jueves 5 de noviembre de 2026 a las 21:00 en Col. Centro Monterrey.",
    "url": "https://www.ticketmaster.com.mx/bandido-diamante-cuentos-para-no-dormir-col-centro-monterrey-05-11-2026/event/3D00651AB98B9305",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -6341,6 +5248,30 @@
    "firstSeen": "2026-10-28T12:53:26.477Z"
   },
   {
+   "id": "a192543f507e",
+   "skey": "circulo aqui ahora charlas para alma|parque bosques",
+   "title": "Círculo aquí y ahora: Charlas para el alma.",
+   "start": "2026-11-06T19:30",
+   "end": "2026-11-06T20:30",
+   "venue": "Parque Bosques del Valle",
+   "city": "San Pedro Garza García",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/circulo-aqui-y-ahora-charlas-para-el-alma-3/"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/circulo-aqui-y-ahora-charlas-para-el-alma-3/",
+   "firstSeen": "2026-10-20T12:41:33.774Z",
+   "moreDatesAt": "2026-10-30T12:54:13.354Z"
+  },
+  {
    "id": "b5866beaa0f6",
    "skey": "aferrados feria naranja|ecoparque pilon",
    "title": "Aferrados en la Feria de la Naranja 2026",
@@ -6387,6 +5318,28 @@
    ],
    "url": "https://carteleraescenica.com/eventos/cuando-el-pueblo-baila-ballet-alianza-folklorica/",
    "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
+   "id": "2290e3a5d63f",
+   "skey": "jose luis zagar zagar comedy bar cumbres|zagar comedy",
+   "title": "Jose Luis Zagar en Zagar Comedy Bar Cumbres",
+   "venue": "Zagar Comedy Bar Cumbres",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21572-jose-luis-zagar-en-zagar-comedy-bar-cumbres",
+   "image": null,
+   "description": "Fecha: 06 de Noviembre 2026 Hora: 20:00 hrs Lugar: Zagar Comedy Bar Cumbres Dirección del evento: Av. Nacional de la Banca 99, Cumbres Elite, Sector Villas, 64346 Monterrey, N.L. Zonas y Precios: • Mesa 2 Px: $1,200 ($600 por persona) • Mesa 4 Px: $2,400 ($600 por persona) • Mesa 6 Px: $3,600 ($600 por persona) Precios + Cargos por servicio IMPORTANTE: Al escoger su lugar, tomar de referencia el Mapa para la ubicación de su Mesa En caso de comprar una mesa por este medio y desea agregar una silla adicional, esto queda sujeto a disponibilidad, Favor de contactarnos al Whatsapp 81 2883 3498…",
+   "start": "2026-11-06T20:00",
+   "end": "2026-11-06T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21572-jose-luis-zagar-en-zagar-comedy-bar-cumbres"
+    }
+   ],
+   "url": "https://arema.mx/e/21572-jose-luis-zagar-en-zagar-comedy-bar-cumbres",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "62d917d5df93",
@@ -6513,6 +5466,50 @@
    "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
+   "title": "Tus ojos en mis ojos – Teatro",
+   "start": "2026-11-06T20:30",
+   "end": "2026-11-27T22:00",
+   "venue": "Auditorio Anastacio Villarreal",
+   "city": "San Nicolás de los Garza",
+   "category": "Teatro",
+   "price": "$350",
+   "tickets": "https://cartelera.primetickets.mx/tus-ojos-en-mis-ojos-sannicolas",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/Tus-ojos-2.jpg",
+   "description": "Calificación promedio Aún no hay calificación Tus ojos en mis ojos es un espejo de la relación de pareja donde te puedes reflejar y así tomar conciencia de tu propia situación. Se aborda el tema de la pareja actual de una forma muy divertida Duración 90 minutos Público al que va dirigido Solo adultos, mayores de 18 años Créditos Escrita, dirigida y actuada por Maripaz García y Mauro Samaniego Auditorio Anastasio Villarreal · San Nicolás de los Garza Funciones 23 oct de 2026 · 20:30 h 30 oct de 2026 · 20:30 h 6 nov de 2026 · 20:30 h 13 nov de 2026 · 20:30 h 20 nov de 2026 · 20:30 h 27 nov de…",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-06/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-06/",
+   "skey": "tus ojos mis ojos teatro|auditorio anastacio",
+   "id": "f3aa17657485",
+   "dates": [
+    {
+     "start": "2026-11-06T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-06/"
+    },
+    {
+     "start": "2026-11-13T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-13/"
+    },
+    {
+     "start": "2026-11-20T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-20/"
+    },
+    {
+     "start": "2026-11-27T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/tus-ojos-en-mis-ojos-teatro/2026-11-27/"
+    }
+   ],
+   "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
    "title": "Karol G: Viajando por el mundo, Tropitour",
    "start": "2026-11-06T21:00",
    "end": "2026-11-08T23:30",
@@ -6539,6 +5536,10 @@
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/karol-g-viajando-por-el-mundo-tropitour/200030476084438"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/karol-g-viajando-por-el-mundo-tropitour-tm-_FD0l9GE"
     },
     {
      "id": "nuevoleon_travel",
@@ -6750,6 +5751,30 @@
    "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/running-con-hector-2/",
    "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
+   "id": "3857689eb29c",
+   "skey": "adiestramiento canino cobro|parque bosques",
+   "title": "Adiestramiento canino (COBRO)",
+   "start": "2026-11-07T09:00",
+   "end": "2026-11-07T10:30",
+   "venue": "Parque Bosques del Valle",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": "Con costo",
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/adiestramiento-canino-cobro-4/"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/adiestramiento-canino-cobro-4/",
+   "firstSeen": "2026-10-20T12:41:33.774Z",
+   "moreDatesAt": "2026-10-30T12:54:13.354Z"
   },
   {
    "title": "Taller I Diario Textil: Taller de bordado y pintura textil",
@@ -7606,6 +6631,45 @@
    "firstSeen": "2026-10-28T12:53:26.477Z"
   },
   {
+   "title": "La Entidad Microondas",
+   "venue": "Teatro del Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21603-la-entidad-microondas",
+   "image": null,
+   "description": "Dramaturgia y dirección de Vidal Medina La Cuarta Transversal Horarios: • 10 de noviembre | 20:00 hrs • 11 de noviembre | 20:00 hrs • 12 de noviembre | 20:00 hrs Lugar: Teatro del Centro de las Artes Dirección del evento: Fundidora y Adolfo Prieto, SN, Col. Obrera, Centro, 64010 Monterrey, N.L. Interior del Parque Fundidora, acceso E6 Zonas y Precios: • General: $150 • Estudiantes, Maestros e INAPAM $100 (Con credencial Vigente, SOLO EN TAQUILLA) (Precios más cargos por servicio) Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L.",
+   "start": "2026-11-10T20:00",
+   "end": "2026-11-12T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21603-la-entidad-microondas"
+    }
+   ],
+   "url": "https://arema.mx/e/21603-la-entidad-microondas",
+   "skey": "entidad microondas|teatro centro",
+   "id": "216e364202db",
+   "dates": [
+    {
+     "start": "2026-11-10T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21603-la-entidad-microondas"
+    },
+    {
+     "start": "2026-11-11T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21603-la-entidad-microondas"
+    },
+    {
+     "start": "2026-11-12T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21603-la-entidad-microondas"
+    }
+   ],
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
    "id": "7082749f22b2",
    "skey": "eros ramazzotti|arena",
    "title": "Eros Ramazzotti",
@@ -7714,6 +6778,28 @@
    ],
    "url": "https://allevents.in/monterrey/dying-fetus-in-monterrey/3300029958854200",
    "firstSeen": "2026-10-24T12:35:51.731Z"
+  },
+  {
+   "id": "970de173ffef",
+   "skey": "jose luis zagar zagar comedy bar guadalupe|zagar comedy",
+   "title": "Jose Luis Zagar en Zagar Comedy Bar Guadalupe",
+   "venue": "Zagar Comedy Bar Guadalupe",
+   "city": "Guadalupe",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21575-jose-luis-zagar-en-zagar-comedy-bar-guadalupe",
+   "image": null,
+   "description": "Fecha: 12 de noviembre 2026 Horario: 20:00 horas Lugar: Zagar Comedy Bar Guadalupe Dirección del evento: Av Eloy Cavazos 3301, Camino Real, 67170 Guadalupe, N.L. Zonas y Precios: • Mesa 2 Px: $1,200 ($600 por persona) • Mesa 4 Px: $2,400 ($600 por persona) Precios + cargos por servicio IMPORTANTE: Al Escoger su lugar, tomar de referencia el Mapa para la ubicación de su Mesa En caso de comprar una mesa por este medio y desea agregar una silla adicional, esto queda sujeto a disponibilidad, Favor de contactarnos al Whatsapp 81 1687 5230 Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr.",
+   "start": "2026-11-12T20:00",
+   "end": "2026-11-12T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21575-jose-luis-zagar-en-zagar-comedy-bar-guadalupe"
+    }
+   ],
+   "url": "https://arema.mx/e/21575-jose-luis-zagar-en-zagar-comedy-bar-guadalupe",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "898a850f6df2",
@@ -8262,11 +7348,9 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "4f2a7257898e",
-   "skey": "matute disco stereo|escenario gnp",
    "title": "Matute - Disco Stereo Tour",
    "start": "2026-11-13T21:00",
-   "end": null,
+   "end": "2026-11-14T21:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
    "category": "Música",
@@ -8277,11 +7361,29 @@
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/matute-disco-stereo-tour/210009297125079"
     }
    ],
    "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F",
+   "skey": "matute disco stereo|escenario gnp",
+   "id": "2b993635159f",
+   "dates": [
+    {
+     "start": "2026-11-13T21:00",
+     "end": null,
+     "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F"
+    },
+    {
+     "start": "2026-11-14T21:00",
+     "end": null,
+     "url": "https://allevents.in/monterrey/matute-disco-stereo-tour/210009297125079"
+    }
+   ],
    "firstSeen": "2000-01-01T00:00:00Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
+   "moreDatesAt": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "24055a443aa8",
@@ -8583,6 +7685,28 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "cf309051436b",
+   "skey": "origin jazz festival|casa armadillo",
+   "title": "Origin Monterrey Jazz Festival",
+   "venue": "Casa Armadillo",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://arema.mx/e/21663-origin-monterrey-jazz-festival",
+   "image": null,
+   "description": "Fecha: 14 de Noviembre 2026 Hora: 19:00 horas Lugar: Casa Armadillo Dirección del evento: C. Dr. Enrique C. Livas 201-5, Vista Hermosa, 64620 Monterrey, N.L. Zonas y Precios: • General: $200 (Precios más cargos por servicio) Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. - Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L. - Jardin 85: Av Lázaro Cárdenas 2610, Del Paseo Residencial, 64920 Monterrey, N.L.",
+   "start": "2026-11-14T19:00",
+   "end": "2026-11-14T19:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21663-origin-monterrey-jazz-festival"
+    }
+   ],
+   "url": "https://arema.mx/e/21663-origin-monterrey-jazz-festival",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
    "id": "10b13fca55fe",
    "skey": "dimash qudaibergen|auditorio banamex",
    "title": "Dimash Qudaibergen",
@@ -8850,7 +7974,7 @@
    "category": "Deportes",
    "price": null,
    "tickets": "https://www.superboletos.com/landing-evento/tfMnAr95Dtj4o0ieY0VOKg",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT151284.webp?v=20261029134949",
+   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT151284.webp?v=20261030132011",
    "description": null,
    "onsale": null,
    "promo": null,
@@ -9023,12 +8147,9 @@
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-16-11-2026/event/140064EF9E4E4EBF"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/mon-laferte/210002572884275"
     }
    ],
+   "onsale": null,
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-mon-laferte-16-noviembre-auditorio-banamex-2026",
    "skey": "mon laferte|auditorio banamex",
    "id": "836076a92c87",
@@ -9045,6 +8166,26 @@
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "18d326dc098b",
+   "skey": "cafe historia home run|museos",
+   "title": "Café con Historia. De Home Run",
+   "start": "2026-11-17T19:00",
+   "end": "2026-11-24",
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/10/cafe_homerun-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=cafe-con-historia-de-home-run"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=cafe-con-historia-de-home-run",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "84b00d911af9",
@@ -9079,11 +8220,14 @@
    "category": "Música",
    "price": null,
    "image": "https://s1.ticketm.net/dam/e/808/4b378b13-0025-490c-b2f8-63a22e469808_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
    "sources": [
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/2026-hwang-in-youp-fan-meeting-monterrey-17-11-2026/event/1400652CE7CAB10F"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/2026-hwang-in-youp-fan-meeting-tour-in-monterrey/210003572821618"
     }
    ],
    "url": "https://www.ticketmaster.com.mx/2026-hwang-in-youp-fan-meeting-monterrey-17-11-2026/event/1400652CE7CAB10F",
@@ -9250,6 +8394,28 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "9f2627869d31",
+   "skey": "jose luis zagar zagar comedy bar esfera|zagar comedy",
+   "title": "Jose Luis Zagar en Zagar Comedy Bar Esfera",
+   "venue": "Zagar Comedy Bar Esfera",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21574-jose-luis-zagar-en-zagar-comedy-bar-esfera",
+   "image": null,
+   "description": "Fecha: 19 de Noviembre 2026 Horario: 20:00 horas Lugar: Zagar Comedy Bar Esfera Dirección del evento: Av. la Rioja 245, Villas La Rioja, 64985 Monterrey, N.L. Zonas y Precios: • Mesa 2 Px: $1,200 ($600 por persona) • Mesa 4 Px: $2,400 ($600 por persona) • Mesa 6 Px: $3,600 ($600 por persona) (Precios más cargos por servicio) IMPORTANTE: Al Escoger su lugar, tomar de referencia el Mapa para la ubicación de su Mesa, Tomar en cuenta que este recinto cuenta con PLANTA BAJA y PLANTA ALTA Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L.",
+   "start": "2026-11-19T20:00",
+   "end": "2026-11-19T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21574-jose-luis-zagar-en-zagar-comedy-bar-esfera"
+    }
+   ],
+   "url": "https://arema.mx/e/21574-jose-luis-zagar-en-zagar-comedy-bar-esfera",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
    "id": "5b52d3a95790",
    "skey": "osuanl tercera serie programa vii tamez gamboa loman marquez rimski korsakov enescu|teatro universitario",
    "title": "OSUANL Tercera Serie · Programa VII: Tamez, Gamboa, Lomán, Márquez, Rimski-Kórsakov, Enescu",
@@ -9270,6 +8436,40 @@
    ],
    "url": "https://orquestasinfonica.uanl.mx/temporada-2026-tercera-serie/",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "Zoonoros: Ladrido para mí mismo",
+   "venue": "Teatro del Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://arema.mx/e/21655-zoonoros-ladrido-para-mi-mismo",
+   "image": null,
+   "description": "ZOONOROS está integrado por: Maricarmen Graue — Violonchelo / Chelista e improvisadora Isaías Herrera — Multimedia / Diseño tecnológico y realidad virtual Fores Basura — Multinstrumentista / Constructor de instrumentos informales Edgar Lacolz — Textos / Escritor y performer. Zoonoros se define como un Laboratorio Interdisciplinario de Música, Literatura y Tecnología que articula un encuentro entre artes escénicas, tecnología e inclusión.",
+   "start": "2026-11-19T20:00",
+   "end": "2026-11-21T17:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21655-zoonoros-ladrido-para-mi-mismo"
+    }
+   ],
+   "url": "https://arema.mx/e/21655-zoonoros-ladrido-para-mi-mismo",
+   "skey": "zoonoros ladrido para mi mismo|teatro centro",
+   "id": "91e3465f74a2",
+   "dates": [
+    {
+     "start": "2026-11-19T20:00",
+     "end": null,
+     "url": "https://arema.mx/e/21655-zoonoros-ladrido-para-mi-mismo"
+    },
+    {
+     "start": "2026-11-21T17:00",
+     "end": null,
+     "url": "https://arema.mx/e/21655-zoonoros-ladrido-para-mi-mismo"
+    }
+   ],
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "cb28ca60626c",
@@ -9457,6 +8657,40 @@
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "Wenses y Lala",
+   "venue": "Teatro del Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21602-wenses-y-lala",
+   "image": null,
+   "description": "Wenses y Lala crecieron e hicieron su vida en algún lugar perdido del litoral del norte de México. La obra habita en una atractiva atemporalidad que consigue situarse en cualquier momento de nuestras vidas o la de nuestros conocidos. Es una historia de amor puro. Aquel que ni la muerte puede dejar de hacerlo vivir. Wenses, un hombre valiente, de fuertes convicciones, tímido y callado pero con sentimientos abrasadores como los del ojo de una tormenta en silencio. Lala, una maravillosa mujer, vivaz, alegre, entregada, con ese ímpetu por la vida que enamora.",
+   "start": "2026-11-20T20:30",
+   "end": "2026-11-21T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21602-wenses-y-lala"
+    }
+   ],
+   "url": "https://arema.mx/e/21602-wenses-y-lala",
+   "skey": "wenses lala|teatro centro",
+   "id": "7fdc1d057660",
+   "dates": [
+    {
+     "start": "2026-11-20T20:30",
+     "end": null,
+     "url": "https://arema.mx/e/21602-wenses-y-lala"
+    },
+    {
+     "start": "2026-11-21T20:30",
+     "end": null,
+     "url": "https://arema.mx/e/21602-wenses-y-lala"
+    }
+   ],
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "284df48f391e",
@@ -9771,6 +9005,28 @@
    ],
    "url": "https://arema.mx/e/20752-el-gran-viaje-improv-show",
    "firstSeen": "2026-10-22T12:42:57.169Z"
+  },
+  {
+   "id": "545a8a050430",
+   "skey": "jose luis zagar zagar comedy bar san nicolas|zagar comedy",
+   "title": "Jose Luis Zagar en Zagar Comedy Bar San Nicolas",
+   "venue": "Zagar Comedy Bar San Nicolás",
+   "city": "San Nicolás de los Garza",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21573-jose-luis-zagar-en-zagar-comedy-bar-san-nicolas",
+   "image": null,
+   "description": "Fecha: 21 de noviembre del 2026 Horario: 20:00 horas Lugar: Zagar Comedy Bar San Nicolás Dirección del evento: Av. Sendero Nte, Paseo Almenares #200, El Centenario, 66418 San Nicolás de los Garza, N.L. Precios: (Aplican cargos por servicio) • Mesa 2 Px: $1,200 ($600 por persona) • Mesa 4 Px: $2,400 ($600 por persona) • Mesa 6 Px: $3,600 ($600 por persona) IMPORTANTE: Al Escoger su lugar, tomar de referencia el Mapa para la ubicacion de su Mesa En caso de comprar una mesa por este medio y desea agregar una silla adicional, esto queda sujeto a disponibilidad, Favor de contactarnos al Whatsapp…",
+   "start": "2026-11-21T20:00",
+   "end": "2026-11-21T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21573-jose-luis-zagar-en-zagar-comedy-bar-san-nicolas"
+    }
+   ],
+   "url": "https://arema.mx/e/21573-jose-luis-zagar-en-zagar-comedy-bar-san-nicolas",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "9c8fd5b500cf",
@@ -11393,14 +10649,14 @@
      "end": null,
      "url": "https://feverup.com/m/577933",
      "avail": "ultimos",
-     "left": 27
+     "left": 24
     },
     {
      "start": "2026-12-05T21:30",
      "end": null,
      "url": "https://feverup.com/m/577933",
      "avail": "ultimos",
-     "left": 22
+     "left": 20
     },
     {
      "start": "2027-02-06T16:00",
@@ -11451,7 +10707,7 @@
    "venue": "Teatro Versalles",
    "city": "Monterrey",
    "category": "Música",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8e8d45a8-8c21-11f1-92c9-961de4cb6e34.jpg",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8e61e714-8c21-11f1-92c9-961de4cb6e34.jpg",
    "start": "2026-12-05T17:00",
    "end": "2026-12-05T20:00",
    "price": "$465 – $750",
@@ -12020,6 +11276,26 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "2f399e8bf762",
+   "skey": "juan freer|foro corona",
+   "title": "Juan Freer",
+   "start": "2026-12-11T21:00",
+   "end": null,
+   "venue": "Foro Corona",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": null,
+   "sources": [
+    {
+     "id": "foro_corona",
+     "url": "https://www.forocorona.com/cartelera"
+    }
+   ],
+   "url": "https://www.forocorona.com/cartelera",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
    "title": "Día Vekio en Monterrey",
    "venue": "Centro Cultural Plaza Fátima",
    "city": "San Pedro Garza García",
@@ -12060,7 +11336,7 @@
    "category": "Experiencias",
    "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/8a1c2652-127c-11f1-92b2-b2434481c692.jpg",
    "start": "2026-12-12T16:00",
-   "end": "2027-01-23T20:00",
+   "end": "2027-02-06T22:00",
    "price": "$400 – $600",
    "demand": null,
    "sources": [
@@ -12092,9 +11368,22 @@
      "start": "2027-01-23T19:00",
      "end": null,
      "url": "https://feverup.com/m/701017"
+    },
+    {
+     "start": "2027-02-06T19:00",
+     "end": null,
+     "url": "https://feverup.com/m/701017",
+     "price": "$340 – $535"
+    },
+    {
+     "start": "2027-02-06T21:00",
+     "end": null,
+     "url": "https://feverup.com/m/701017",
+     "price": "$340 – $535"
     }
    ],
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-10-31T12:47:31.707Z"
   },
   {
    "title": "Noche Vekio en Monterrey",
@@ -12173,11 +11462,13 @@
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/hCY5ufcTnU8j0mgLqYTW5g"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/alejandra-guzman-monterrey-tickets/100030655425548"
     }
    ],
    "tickets": "https://www.superboletos.com/landing-evento/hCY5ufcTnU8j0mgLqYTW5g",
-   "onsale": null,
-   "promo": null,
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-alejandra-guzman-arena-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -12246,6 +11537,28 @@
    ],
    "url": "https://www.ticketmaster.com.mx/plim-plim-en-vivo-energia-musical-monterrey-13-12-2026/event/14006555B5A4A119",
    "firstSeen": "2026-10-23T12:38:48.452Z"
+  },
+  {
+   "id": "c6094dfbb0ad",
+   "skey": "patranas musical|auditorio luis",
+   "title": "\"Patrañas, El Musical\" en Monterrey",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21622-patranas-el-musical-en-monterrey",
+   "image": null,
+   "description": "En un pasado no muy lejano, una niña llamada Lucy tiene el gran deseo de cantar y brillar en el festival que organizan en su pueblo. Tras creer que su talento no es suficiente, miente para resultar ser la ganadora. Al mismo tiempo, una misteriosa visitante que viene desde otra galaxia cae por accidente en el patio de Lucy y le advierte que el planeta Tierra está infestado de mentiras (representadas por unas criaturas alienígenas conocidas como Patrañas) y le cuenta cómo cada vez que alguien dice una mentira, se apaga una estrella en el cielo.",
+   "start": "2026-12-13T17:00",
+   "end": "2026-12-13T17:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21622-patranas-el-musical-en-monterrey"
+    }
+   ],
+   "url": "https://arema.mx/e/21622-patranas-el-musical-en-monterrey",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "29eb0b093f41",
@@ -13399,6 +12712,30 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "776833d41f49",
+   "skey": "parras arena|arena",
+   "title": "LOS PARRAS EN ARENA MONTERREY",
+   "start": "2027-02-19T21:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://www.superboletos.com/landing-evento/5q9nDijCZuIPeBXHFb6WLQ",
+   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT151463.webp?v=20261027092519",
+   "description": null,
+   "onsale": null,
+   "promo": null,
+   "sources": [
+    {
+     "id": "superboletos",
+     "url": "https://www.superboletos.com/landing-evento/5q9nDijCZuIPeBXHFb6WLQ"
+    }
+   ],
+   "url": "https://www.superboletos.com/landing-evento/5q9nDijCZuIPeBXHFb6WLQ",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
    "id": "a6d73eb8251f",
    "skey": "ana gabriel claro luna|arena",
    "title": "ANA GABRIEL CLARO DE LUNA TOUR",
@@ -13697,6 +13034,28 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "8641583c6643",
+   "skey": "esperon|cafe iguana",
+   "title": "Esperón en Monterrey",
+   "venue": "Café Iguana",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://arema.mx/e/21578-esperon-en-monterrey",
+   "image": null,
+   "description": "Fecha: 05 de Marzo 2027 Hora: 19:00 horas Lugar: Café Iguana Dirección del evento: C. Diego de Montemayor 927-Sur, Barrio Antiguo, Centro, 64000 Monterrey, N.L. Zonas y Precios: • Admisión + M&G: $1,000 • Admisión: $500 (Precios más cargos por servicio) Para todas las edades Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. - Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L. - Jardin 85: Av Lázaro Cárdenas 2610, Del Paseo Residencial, 64920 Monterrey, N.L.",
+   "start": "2027-03-05T19:00",
+   "end": "2027-03-05T19:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21578-esperon-en-monterrey"
+    }
+   ],
+   "url": "https://arema.mx/e/21578-esperon-en-monterrey",
+   "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
    "id": "bfc010ef1428",
    "skey": "chuponcito|auditorio rio",
    "title": "Chuponcito en Monterrey",
@@ -13717,28 +13076,6 @@
    ],
    "url": "https://arema.mx/e/21458-chuponcito-en-monterrey",
    "firstSeen": "2026-10-10T12:27:23.161Z"
-  },
-  {
-   "id": "8641583c6643",
-   "skey": "esperon|cafe iguana",
-   "title": "Esperón en Monterrey",
-   "venue": "Café Iguana",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://arema.mx/e/21578-esperon-en-monterrey",
-   "image": null,
-   "description": "Fecha: 05 de Marzo 2027 Hora: 21:00 horas Lugar: Café Iguana Dirección del evento: C. Diego de Montemayor 927-Sur, Barrio Antiguo, Centro, 64000 Monterrey, N.L. Zonas y Precios: • Admisión + M&G: $1,000 • Admisión: $500 (Precios más cargos por servicio) Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. - Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L. - Jardin 85: Av Lázaro Cárdenas 2610, Del Paseo Residencial, 64920 Monterrey, N.L.",
-   "start": "2027-03-05T21:00",
-   "end": null,
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21578-esperon-en-monterrey"
-    }
-   ],
-   "url": "https://arema.mx/e/21578-esperon-en-monterrey",
-   "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
    "id": "e7b941f6be60",
@@ -14071,6 +13408,54 @@
    ],
    "url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "91f973a10d73",
+   "skey": "upgrade merch vip este boleto no incluye entrada show|arena",
+   "title": "UPGRADE MERCH VIP - ESTE BOLETO NO INCLUYE ENTRADA AL SHOW",
+   "start": "2027-04-09T19:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://www.superboletos.com/landing-evento/8nIxZaGfrPEkA7454XBkYA",
+   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT152564.webp?v=20261023175546",
+   "description": null,
+   "onsale": null,
+   "promo": null,
+   "sources": [
+    {
+     "id": "superboletos",
+     "url": "https://www.superboletos.com/landing-evento/8nIxZaGfrPEkA7454XBkYA"
+    }
+   ],
+   "url": "https://www.superboletos.com/landing-evento/8nIxZaGfrPEkA7454XBkYA",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
+   "id": "10696c6418ae",
+   "skey": "nsqk|arena",
+   "title": "NSQK",
+   "start": "2027-04-09T21:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://www.superboletos.com/landing-evento/03CAI7km7e_36pPjsx6eNQ",
+   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT146964.webp?v=20261026104809",
+   "description": null,
+   "onsale": null,
+   "promo": null,
+   "sources": [
+    {
+     "id": "superboletos",
+     "url": "https://www.superboletos.com/landing-evento/03CAI7km7e_36pPjsx6eNQ"
+    }
+   ],
+   "url": "https://www.superboletos.com/landing-evento/03CAI7km7e_36pPjsx6eNQ",
+   "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "4cc216811d2c",
