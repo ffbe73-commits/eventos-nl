@@ -1,29 +1,29 @@
 {
- "generatedAt": "2026-11-01T12:48:57.211Z",
+ "generatedAt": "2026-11-02T13:02:44.220Z",
  "timezone": "America/Monterrey",
- "total": 434,
+ "total": 415,
  "sources": [
   {
    "id": "cartelera_escenica",
    "name": "Cartelera Escénica",
    "home": "https://carteleraescenica.com/cartelera/",
    "ok": true,
-   "count": 92,
+   "count": 89,
    "error": null,
-   "checkedAt": "2026-11-01T12:45:52.256Z",
-   "lastSuccess": "2026-11-01T12:45:52.256Z",
-   "ms": 2881
+   "checkedAt": "2026-11-02T12:59:48.131Z",
+   "lastSuccess": "2026-11-02T12:59:48.131Z",
+   "ms": 5258
   },
   {
    "id": "arema",
    "name": "Arema",
    "home": "https://arema.mx/",
    "ok": true,
-   "count": 140,
+   "count": 139,
    "error": null,
-   "checkedAt": "2026-11-01T12:45:55.137Z",
-   "lastSuccess": "2026-11-01T12:45:55.137Z",
-   "ms": 30542
+   "checkedAt": "2026-11-02T12:59:53.390Z",
+   "lastSuccess": "2026-11-02T12:59:53.390Z",
+   "ms": 30480
   },
   {
    "id": "superboletos",
@@ -32,64 +32,64 @@
    "ok": true,
    "count": 83,
    "error": null,
-   "checkedAt": "2026-11-01T12:46:25.680Z",
-   "lastSuccess": "2026-11-01T12:46:25.680Z",
-   "ms": 716
+   "checkedAt": "2026-11-02T13:00:23.870Z",
+   "lastSuccess": "2026-11-02T13:00:23.870Z",
+   "ms": 3512
   },
   {
    "id": "ticketmaster",
    "name": "Ticketmaster",
    "home": "https://www.ticketmaster.com.mx/discover/monterrey",
    "ok": true,
-   "count": 110,
+   "count": 109,
    "error": null,
-   "checkedAt": "2026-11-01T12:46:26.396Z",
-   "lastSuccess": "2026-11-01T12:46:26.396Z",
-   "ms": 512
+   "checkedAt": "2026-11-02T13:00:27.382Z",
+   "lastSuccess": "2026-11-02T13:00:27.382Z",
+   "ms": 707
   },
   {
    "id": "conciertos_mty",
    "name": "Conciertos en Monterrey",
    "home": "https://conciertosenmonterrey.com/cartelera",
    "ok": true,
-   "count": 51,
+   "count": 93,
    "error": null,
-   "checkedAt": "2026-11-01T12:46:26.909Z",
-   "lastSuccess": "2026-11-01T12:46:26.909Z",
-   "ms": 3307
+   "checkedAt": "2026-11-02T13:00:28.089Z",
+   "lastSuccess": "2026-11-02T13:00:28.089Z",
+   "ms": 3651
   },
   {
    "id": "conarte_agenda",
    "name": "CONARTE (agenda)",
    "home": "https://conarte.org.mx/agenda/",
    "ok": true,
-   "count": 98,
+   "count": 93,
    "error": null,
-   "checkedAt": "2026-11-01T12:46:30.216Z",
-   "lastSuccess": "2026-11-01T12:46:30.216Z",
-   "ms": 102935
+   "checkedAt": "2026-11-02T13:00:31.740Z",
+   "lastSuccess": "2026-11-02T13:00:31.740Z",
+   "ms": 96947
   },
   {
    "id": "cineteca",
    "name": "Cineteca Nuevo León",
    "home": "https://conarte.org.mx/cineteca/",
    "ok": true,
-   "count": 18,
+   "count": 8,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:13.151Z",
-   "lastSuccess": "2026-11-01T12:48:13.151Z",
-   "ms": 12579
+   "checkedAt": "2026-11-02T13:02:08.687Z",
+   "lastSuccess": "2026-11-02T13:02:08.687Z",
+   "ms": 11534
   },
   {
    "id": "santa_lucia",
    "name": "Festival Santa Lucía (agenda PDF)",
    "home": "https://festivalsantalucia.gob.mx/",
    "ok": true,
-   "count": 30,
+   "count": 17,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:25.730Z",
-   "lastSuccess": "2026-11-01T12:48:25.730Z",
-   "ms": 1
+   "checkedAt": "2026-11-02T13:02:20.221Z",
+   "lastSuccess": "2026-11-02T13:02:20.221Z",
+   "ms": 2
   },
   {
    "id": "nuevoleon_travel",
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:25.731Z",
-   "lastSuccess": "2026-11-01T12:48:25.731Z",
-   "ms": 1518
+   "checkedAt": "2026-11-02T13:02:20.223Z",
+   "lastSuccess": "2026-11-02T13:02:20.223Z",
+   "ms": 1056
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:27.249Z",
-   "lastSuccess": "2026-11-01T12:48:27.249Z",
-   "ms": 405
+   "checkedAt": "2026-11-02T13:02:21.279Z",
+   "lastSuccess": "2026-11-02T13:02:21.279Z",
+   "ms": 374
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:27.654Z",
-   "lastSuccess": "2026-11-01T12:48:27.654Z",
-   "ms": 446
+   "checkedAt": "2026-11-02T13:02:21.654Z",
+   "lastSuccess": "2026-11-02T13:02:21.654Z",
+   "ms": 548
   },
   {
    "id": "marco",
@@ -131,9 +131,9 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:28.100Z",
-   "lastSuccess": "2026-11-01T12:48:28.100Z",
-   "ms": 529
+   "checkedAt": "2026-11-02T13:02:22.202Z",
+   "lastSuccess": "2026-11-02T13:02:22.202Z",
+   "ms": 333
   },
   {
    "id": "tres_museos",
@@ -142,9 +142,9 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:28.630Z",
-   "lastSuccess": "2026-11-01T12:48:28.630Z",
-   "ms": 1077
+   "checkedAt": "2026-11-02T13:02:22.535Z",
+   "lastSuccess": "2026-11-02T13:02:22.535Z",
+   "ms": 1180
   },
   {
    "id": "cintermex",
@@ -153,9 +153,9 @@
    "ok": false,
    "count": 0,
    "error": "fetch failed",
-   "checkedAt": "2026-11-01T12:48:29.707Z",
+   "checkedAt": "2026-11-02T13:02:23.716Z",
    "lastSuccess": "2026-10-30T12:53:53.013Z",
-   "ms": 3827
+   "ms": 3663
   },
   {
    "id": "foro_corona",
@@ -164,20 +164,20 @@
    "ok": true,
    "count": 17,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:33.534Z",
-   "lastSuccess": "2026-11-01T12:48:33.534Z",
-   "ms": 122
+   "checkedAt": "2026-11-02T13:02:27.379Z",
+   "lastSuccess": "2026-11-02T13:02:27.379Z",
+   "ms": 183
   },
   {
    "id": "fever",
    "name": "Fever",
    "home": "https://feverup.com/es/monterrey",
    "ok": true,
-   "count": 72,
+   "count": 71,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:33.656Z",
-   "lastSuccess": "2026-11-01T12:48:33.656Z",
-   "ms": 6331
+   "checkedAt": "2026-11-02T13:02:27.562Z",
+   "lastSuccess": "2026-11-02T13:02:27.562Z",
+   "ms": 5303
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 18,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:39.987Z",
-   "lastSuccess": "2026-11-01T12:48:39.987Z",
-   "ms": 211
+   "checkedAt": "2026-11-02T13:02:32.865Z",
+   "lastSuccess": "2026-11-02T13:02:32.865Z",
+   "ms": 202
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 5,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:40.198Z",
-   "lastSuccess": "2026-11-01T12:48:40.198Z",
-   "ms": 1304
+   "checkedAt": "2026-11-02T13:02:33.067Z",
+   "lastSuccess": "2026-11-02T13:02:33.067Z",
+   "ms": 1253
   },
   {
    "id": "ballet_mty",
@@ -208,20 +208,20 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:41.502Z",
-   "lastSuccess": "2026-11-01T12:48:41.502Z",
-   "ms": 7079
+   "checkedAt": "2026-11-02T13:02:34.321Z",
+   "lastSuccess": "2026-11-02T13:02:34.321Z",
+   "ms": 2026
   },
   {
    "id": "sanpedro_vive",
    "name": "Vive San Pedro",
    "home": "https://vive.sanpedro.gob.mx/",
    "ok": true,
-   "count": 63,
+   "count": 59,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:48.581Z",
-   "lastSuccess": "2026-11-01T12:48:48.581Z",
-   "ms": 2730
+   "checkedAt": "2026-11-02T13:02:36.347Z",
+   "lastSuccess": "2026-11-02T13:02:36.347Z",
+   "ms": 2328
   },
   {
    "id": "sanpedro_parques",
@@ -230,20 +230,20 @@
    "ok": true,
    "count": 11,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:51.311Z",
-   "lastSuccess": "2026-11-01T12:48:51.311Z",
-   "ms": 5382
+   "checkedAt": "2026-11-02T13:02:38.675Z",
+   "lastSuccess": "2026-11-02T13:02:38.675Z",
+   "ms": 5067
   },
   {
    "id": "chipinque",
    "name": "Chipinque",
    "home": "https://www.chipinque.org.mx/inicio/eventos",
    "ok": true,
-   "count": 26,
+   "count": 25,
    "error": null,
-   "checkedAt": "2026-11-01T12:48:56.693Z",
-   "lastSuccess": "2026-11-01T12:48:56.693Z",
-   "ms": 173
+   "checkedAt": "2026-11-02T13:02:43.742Z",
+   "lastSuccess": "2026-11-02T13:02:43.742Z",
+   "ms": 162
   }
  ],
  "notIncluded": [
@@ -442,6 +442,26 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "85fb2857c441",
+   "skey": "tus ojos mis ojos|centro cultural",
+   "title": "Tus ojos en mis ojos",
+   "start": "2026-09-04",
+   "end": "2026-11-06",
+   "venue": "Centro Cultural Anastacio Villarreal",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/12/268/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/tus-ojos-en-mis-ojos-sannicolas"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/tus-ojos-en-mis-ojos-sannicolas",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
+  },
+  {
    "id": "34233016781a",
    "skey": "flavio garciandia autorretrato no autorizado|marco",
    "title": "Flavio Garciandía: Autorretrato no autorizado",
@@ -625,26 +645,6 @@
     }
    ],
    "url": "https://cartelera.primetickets.mx/la-sepultada",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "1725030899b2",
-   "skey": "ojos general|foro 13",
-   "title": "Los ojos del General",
-   "start": "2026-10-04",
-   "end": "2026-11-01",
-   "venue": "FORO 13",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://cartelera.primetickets.mx/storage/event_files/6/264/cartelera.webp",
-   "sources": [
-    {
-     "id": "primetickets",
-     "url": "https://cartelera.primetickets.mx/los-ojos-del-general"
-    }
-   ],
-   "url": "https://cartelera.primetickets.mx/los-ojos-del-general",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -838,28 +838,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "058350e1ce36",
-   "skey": "descubre arte ser cedim|escuela adolfo",
-   "title": "Descubre el Arte de Ser (CEDIM)",
-   "start": "2026-10-23T09:00",
-   "end": "2026-11-01",
-   "venue": "Escuela Adolfo Prieto (CONARTE)",
-   "city": "Monterrey",
-   "category": "Exposiciones",
-   "price": "Entrada libre",
-   "description": "México · Instalación inmersiva. Lun–sáb 9:00–19:00, dom 9:00–16:00",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "id": "5f98c3499525",
    "skey": "maser into grid|explanada heroes",
    "title": "Maser \"Into the Grid\"",
@@ -944,1606 +922,6 @@
    "firstSeen": "2026-10-29T12:53:41.351Z"
   },
   {
-   "id": "5ca7a05678c2",
-   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "start": "2026-11-01T09:00",
-   "end": "2026-11-29T19:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Mercado de La Fregonería",
-   "start": "2026-11-01T09:00",
-   "end": "2027-06-27T13:00",
-   "venue": "Mercado de La Fegonería",
-   "address": "Calzada San Pedro, Del Valle, San Pedro Garza García, Nuevo León, 66220, México",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f05e992-2677-6c60-b6c1-13987605dc55.jpeg",
-   "description": "Descubre lo mejor del emprendimiento local en El Mercado de la Fregonería, un espacio donde los productos artesanales de primer nivel y el talento de nuestros emprendedores sampetrinos se reúnen para brillar. 🍔 Área de comida y snacks 🐾 Productos para tu mascota 🕯️ Artículos para el hogar 🎨 Artesanías únicas 🗓 Todos los domingos 🕣 De 8:30 a 13:00 h 📍 A un lado de San Pedro de Pinta, en Calzada San Pedro hacia Río Volga",
-   "sources": [
-    {
-     "id": "sanpedro_vive",
-     "url": "https://vive.sanpedro.gob.mx/evento/592"
-    }
-   ],
-   "url": "https://vive.sanpedro.gob.mx/evento/592",
-   "skey": "mercado fregoneria|mercado fegoneria",
-   "id": "caba189aa5b1",
-   "dates": [
-    {
-     "start": "2026-11-01T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/592"
-    },
-    {
-     "start": "2026-11-08T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/593"
-    },
-    {
-     "start": "2026-11-15T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/594"
-    },
-    {
-     "start": "2026-11-22T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/595"
-    },
-    {
-     "start": "2026-11-29T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/596"
-    },
-    {
-     "start": "2026-12-06T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/597"
-    },
-    {
-     "start": "2026-12-13T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/598"
-    },
-    {
-     "start": "2026-12-20T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/599"
-    },
-    {
-     "start": "2026-12-27T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/600"
-    },
-    {
-     "start": "2027-01-03T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/601"
-    },
-    {
-     "start": "2027-01-10T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/602"
-    },
-    {
-     "start": "2027-01-17T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/603"
-    },
-    {
-     "start": "2027-01-24T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/604"
-    },
-    {
-     "start": "2027-01-31T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/605"
-    },
-    {
-     "start": "2027-02-07T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/606"
-    },
-    {
-     "start": "2027-02-14T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/607"
-    },
-    {
-     "start": "2027-02-21T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/608"
-    },
-    {
-     "start": "2027-02-28T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/609"
-    },
-    {
-     "start": "2027-03-07T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/610"
-    },
-    {
-     "start": "2027-03-14T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/611"
-    },
-    {
-     "start": "2027-03-21T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/612"
-    },
-    {
-     "start": "2027-03-28T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/613"
-    },
-    {
-     "start": "2027-04-04T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/614"
-    },
-    {
-     "start": "2027-04-11T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/615"
-    },
-    {
-     "start": "2027-04-18T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/616"
-    },
-    {
-     "start": "2027-04-25T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/617"
-    },
-    {
-     "start": "2027-05-02T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/618"
-    },
-    {
-     "start": "2027-05-09T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/619"
-    },
-    {
-     "start": "2027-05-16T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/620"
-    },
-    {
-     "start": "2027-05-23T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/621"
-    },
-    {
-     "start": "2027-05-30T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/622"
-    },
-    {
-     "start": "2027-06-06T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/623"
-    },
-    {
-     "start": "2027-06-13T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/624"
-    },
-    {
-     "start": "2027-06-20T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/625"
-    },
-    {
-     "start": "2027-06-27T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/626"
-    }
-   ],
-   "firstSeen": "2026-10-11T12:26:52.848Z",
-   "moreDatesAt": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "title": "San Pedro de Pinta",
-   "start": "2026-11-01T09:00",
-   "end": "2026-12-20T13:00",
-   "venue": "Rotonda - Las Calzadas",
-   "address": "7, Del Valle, San Pedro Garza García, Nuevo León, 66220, México",
-   "city": "San Pedro Garza García",
-   "category": "Familiar",
-   "price": null,
-   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f124788-e2ac-6880-8236-6c33773c8ec6.png",
-   "description": "Un punto de encuentro dominical que promueve la movilidad activa, la vida saludable y la convivencia familiar. Cada domingo, la Calzada del Valle y Calzada Mauricio Fernández se transforman en un espacio peatonal donde las familias disfrutan de caminar, correr, andar en bici o simplemente relajarse al aire libre.",
-   "sources": [
-    {
-     "id": "sanpedro_vive",
-     "url": "https://vive.sanpedro.gob.mx/evento/1201"
-    }
-   ],
-   "url": "https://vive.sanpedro.gob.mx/evento/1201",
-   "skey": "san pedro pinta|rotonda calzadas",
-   "id": "5a9d128c59b1",
-   "dates": [
-    {
-     "start": "2026-11-01T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1201"
-    },
-    {
-     "start": "2026-11-08T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1202"
-    },
-    {
-     "start": "2026-11-15T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1203"
-    },
-    {
-     "start": "2026-11-22T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1204"
-    },
-    {
-     "start": "2026-11-29T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1205"
-    },
-    {
-     "start": "2026-12-06T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1206"
-    },
-    {
-     "start": "2026-12-13T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1207"
-    },
-    {
-     "start": "2026-12-20T09:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1208"
-    }
-   ],
-   "firstSeen": "2026-10-11T12:26:52.848Z"
-  },
-  {
-   "title": "Yoga en Chipinque",
-   "end": "2026-12-20T09:00",
-   "venue": "Chipinque · Paraje Canoas",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": "https://chipinque-api-prod.onrender.com/media/events/ce9167ae-1f83-4213-8865-d4b2a9c598b2.webp",
-   "description": "Conexión cuerpo-naturaleza. Clases de yoga al aire libre en colaboración con Anahata Yoga. Practica entre los árboles del Paraje Canoas con vista a la sierra. Apto para todos los niveles.",
-   "start": "2026-11-01T09:00",
-   "sources": [
-    {
-     "id": "chipinque",
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    }
-   ],
-   "url": "https://www.chipinque.org.mx/inicio/eventos",
-   "skey": "yoga chipinque|chipinque paraje",
-   "id": "cd585786257a",
-   "dates": [
-    {
-     "start": "2026-11-01T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-08T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-15T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-22T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-29T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-06T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-13T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-20T09:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Recreo – Flip Fabrique!",
-   "start": "2026-11-01T09:30",
-   "end": "2026-11-01T11:30",
-   "venue": "San Pedro de Pinta",
-   "city": "San Pedro Garza García",
-   "category": "Teatro",
-   "price": "Entrada libre",
-   "description": "Canadá · Acrobacias",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "skey": "recreo flip fabrique|san pedro",
-   "id": "fa61f8da58b1",
-   "dates": [
-    {
-     "start": "2026-11-01T09:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-11-01T11:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "80088471126c",
-   "skey": "fuga prisionero san pedro|parque capitan",
-   "title": "La Fuga del Prisionero - San Pedro",
-   "venue": "Parque El Capitán",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e943bd44-3cdd-11f1-9ed4-4ed1c9adb717.jpeg",
-   "start": "2026-11-01T10:00",
-   "end": "2026-11-01T18:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/629878"
-    }
-   ],
-   "url": "https://feverup.com/m/629878",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "502f18377172",
-   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
-   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
-   "venue": "Banco Mercantil",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
-   "start": "2026-11-01T10:00",
-   "end": "2026-12-30T10:00",
-   "price": "Desde $300",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/685013"
-    }
-   ],
-   "url": "https://feverup.com/m/685013",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "418d912ed515",
-   "skey": "papalote museo nino expo dinosaurios|papalote museo",
-   "title": "Papalote Museo del Niño + Expo Dinosaurios",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
-   "start": "2026-11-01T10:00",
-   "end": "2026-12-02T10:00",
-   "price": "Desde $280",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/338223"
-    }
-   ],
-   "url": "https://feverup.com/m/338223",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Ciclo de arte y juego para los más pequeños 2026 I Gotitas de cuentos",
-   "start": "2026-11-01T11:00",
-   "end": "2026-11-01T12:30",
-   "venue": "Niños CONARTE",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_ArteyJuegoProg-700x360.jpg",
-   "description": "A cargo de Marcela del Río Narración oral escénica que invita a descubrir cómo la lluvia une pueblos, animales y plantas a través de leyendas tradicionales que cobran vida.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/ciclo-de-arte-y-juego-para-los-mas-pequenos-2026-i-gotitas-de-cuentos/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/ciclo-de-arte-y-juego-para-los-mas-pequenos-2026-i-gotitas-de-cuentos/",
-   "skey": "ciclo arte juego para mas pequenos gotitas cuentos|ninos conarte",
-   "id": "62b8ad7c91af",
-   "dates": [
-    {
-     "start": "2026-11-01T11:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/ciclo-de-arte-y-juego-para-los-mas-pequenos-2026-i-gotitas-de-cuentos/"
-    },
-    {
-     "start": "2026-11-01T12:30",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/ciclo-de-arte-y-juego-para-los-mas-pequenos-2026-i-gotitas-de-cuentos/"
-    }
-   ],
-   "firstSeen": "2026-10-17T12:35:16.355Z"
-  },
-  {
-   "id": "2af5310ef3ba",
-   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "start": "2026-11-01T11:00",
-   "end": "2026-12-06T17:00",
-   "price": "Desde $370",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Ludoteca La Montaña",
-   "end": "2026-12-20T11:00",
-   "venue": "Chipinque · Ludoteca La Montaña, Meseta",
-   "city": "San Pedro Garza García",
-   "category": "Familiar",
-   "price": null,
-   "image": "https://chipinque-api-prod.onrender.com/media/events/114c0a59-4d6e-4184-879b-f2da163dc00f.png",
-   "description": "Actividades creativas para niños. Espacio de actividades creativas y educativas para niños en un entorno natural. Cada domingo ofrece talleres de arte con materiales naturales, cuentacuentos del bosque, juegos ecológicos y manualidades inspiradas en la fauna de Chipinque.",
-   "start": "2026-11-01T11:00",
-   "sources": [
-    {
-     "id": "chipinque",
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    }
-   ],
-   "url": "https://www.chipinque.org.mx/inicio/eventos",
-   "skey": "ludoteca montana|chipinque ludoteca",
-   "id": "0d72feae3456",
-   "dates": [
-    {
-     "start": "2026-11-01T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-08T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-15T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-22T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-29T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-06T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-13T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-20T11:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "3173fad658d1",
-   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
-   "start": "2026-11-01T11:00",
-   "end": "2026-11-29T17:00",
-   "price": "Desde $799",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/707636"
-    }
-   ],
-   "url": "https://feverup.com/m/707636",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "05c140eb9cd4",
-   "skey": "virtuality world cumpleanos infantiles|galerias valle",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "start": "2026-11-01T11:00",
-   "end": "2027-01-31T19:00",
-   "price": "Desde $635",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "048d26c74c63",
-   "skey": "mas alla resultado|cineteca alejandra",
-   "title": "Más allá del resultado",
-   "start": "2026-11-01T12:00",
-   "end": null,
-   "times": [
-    "12:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Mas-alla-del-resultado-Poster-1-1-e1790208005729-700x360.jpg",
-   "description": "Un grupo de jóvenes de distintos puntos de Nuevo León recibe la oportunidad de representar a México en un torneo internacional de fútbol en Italia. A través del programa Espacios Infancia Adolescencia del DIF Nuevo León, emprenden un viaje que los llevará a enfrentar desafíos dentro y fuera de la cancha, descubrir el valor del trabajo en equipo y vivir una experiencia que marcará sus vidas. Una historia de sueños, esfuerzo y oportunidades que demuestra que el verdadero triunfo va mucho más allá del resultado",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/mas-alla-del-resultado/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/mas-alla-del-resultado/",
-   "firstSeen": "2026-10-22T12:42:57.169Z",
-   "moreDatesAt": "2026-10-23T12:38:48.452Z"
-  },
-  {
-   "title": "Recorridos Guiados",
-   "end": "2026-12-20T12:00",
-   "venue": "Chipinque · Cobertizo Don Toño, Meseta",
-   "city": "San Pedro Garza García",
-   "category": "Experiencias",
-   "price": null,
-   "image": "https://chipinque-api-prod.onrender.com/media/events/1c01153f-34d6-48ac-ad2f-ac2d1d8f2be3.webp",
-   "description": "Caminata interpretativa en La Manzanita. Recorridos guiados interpretativos por el sendero La Manzanita en la zona de la Meseta. Un guía naturalista te acompañará para identificar la flora y fauna del bosque de encino-pino.",
-   "start": "2026-11-01T12:00",
-   "sources": [
-    {
-     "id": "chipinque",
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    }
-   ],
-   "url": "https://www.chipinque.org.mx/inicio/eventos",
-   "skey": "recorridos guiados|chipinque cobertizo",
-   "id": "982908fa7492",
-   "dates": [
-    {
-     "start": "2026-11-01T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-08T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-15T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-22T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-11-29T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-06T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-13T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "start": "2026-12-20T12:00",
-     "end": null,
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "050b93de14ca",
-   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
-   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "start": "2026-11-01T12:30",
-   "end": "2026-12-02T18:00",
-   "price": null,
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Jonna: Crónicas de una policía novata",
-   "start": "2026-11-01T13:30",
-   "end": "2026-11-04T20:30",
-   "times": [
-    "13:30"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Jonna-Imagen-e1793136812516-700x338.jpg",
-   "description": "Jonna investiga el caso sin resolver de una violenta serie de feminicidios. Siguiendo las pistas, descubre que los feminicidios forman parte de una secta satánica.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/jonna-cronicas-de-una-policia-novata/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/jonna-cronicas-de-una-policia-novata/",
-   "skey": "jonna cronicas una policia novata|cineteca alejandra",
-   "id": "edc6cb0f5408",
-   "dates": [
-    {
-     "start": "2026-11-01T13:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/jonna-cronicas-de-una-policia-novata/"
-    },
-    {
-     "start": "2026-11-04T20:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/jonna-cronicas-de-una-policia-novata/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "title": "Hope: El primer impacto",
-   "start": "2026-11-01T14:00",
-   "end": "2026-11-04T15:00",
-   "times": [
-    "14:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Hope-Imagen-700x360.jpg",
-   "description": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/",
-   "skey": "hope primer impacto|cineteca alejandra",
-   "id": "34384ce9c822",
-   "dates": [
-    {
-     "start": "2026-11-01T14:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
-    },
-    {
-     "start": "2026-11-04T15:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
-    }
-   ],
-   "firstSeen": "2026-10-22T12:42:57.169Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "d4ec14bcc0f5",
-   "skey": "inauguracion muerte silencio mi cocol|nave generadores",
-   "title": "Inauguración I La muerte, el silencio… ¿y mi cocol?",
-   "start": "2026-11-01T14:00",
-   "end": null,
-   "venue": "Nave Generadores I Sala Acristalada",
-   "city": "Monterrey",
-   "category": "Exposiciones",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/26376_PORTADA_LA-MUERTE-EL-SILENCIO-700x360.jpg",
-   "description": "Reúne distintas miradas artísticas sobre la muerte y significado, desde la tristeza y el silencio hasta el humor y la celebración. Artistas: Alejandro Ordaz “Dras Tres”, Ariadna Espinoza “Arco Aris”, Ana Fabiola Medina, Aldo Sánchez Tovar, Amparo Vázquez, Azael González, Azhly Nirvana, Carlos García Salazar, César Tavera, Carlos Rodríguez, Benjamín Sierra Villaruel, David Hernández “Díaz”, Elvia Mante, Jeimy Galaviz, Jesús Leal, Joana Maldonado, José Soriano, José Rodríguez Aguilar, Pablo Alvarado, Salvador Díaz, Tomás Vinalay “Vina”, Xavier Salinas, Yolanda Lela y Perla Jtt.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/inauguracion-i-la-muerte-el-silencio-y-mi-cocol/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/inauguracion-i-la-muerte-el-silencio-y-mi-cocol/",
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "title": "Bailongo",
-   "start": "2026-11-01T15:00",
-   "end": "2026-12-20T19:00",
-   "venue": "Bajos del Palacio",
-   "address": "Presidencia Municipal de San Pedro Garza García, Calle Licenciado Benito Juárez, Casco Urbano, San Pedro Garza García, Nuevo León, 67286, México",
-   "city": "San Pedro Garza García",
-   "category": "Música",
-   "price": null,
-   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f12478f-976e-6470-a8e8-4eb9968e671d.png",
-   "description": "Bailes familiares con música en vivo",
-   "sources": [
-    {
-     "id": "sanpedro_vive",
-     "url": "https://vive.sanpedro.gob.mx/evento/1239"
-    }
-   ],
-   "url": "https://vive.sanpedro.gob.mx/evento/1239",
-   "skey": "bailongo|bajos palacio",
-   "id": "18b35435146c",
-   "dates": [
-    {
-     "start": "2026-11-01T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1239"
-    },
-    {
-     "start": "2026-11-08T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1240"
-    },
-    {
-     "start": "2026-11-15T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1241"
-    },
-    {
-     "start": "2026-11-22T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1242"
-    },
-    {
-     "start": "2026-11-29T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1243"
-    },
-    {
-     "start": "2026-12-06T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1244"
-    },
-    {
-     "start": "2026-12-13T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1245"
-    },
-    {
-     "start": "2026-12-20T15:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1246"
-    }
-   ],
-   "firstSeen": "2026-10-11T12:26:52.848Z"
-  },
-  {
-   "title": "Contra el huracán",
-   "start": "2026-11-01T16:00",
-   "end": "2026-11-04T18:30",
-   "times": [
-    "16:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Contra-el-huracan-Imagen-e1791927564242-700x360.jpg",
-   "description": "Dos hermanos distanciados luchan por sobrevivir al huracán Otis en Acapulco, donde su unión y valentía transforman la adversidad en esperanza. Inspirada en una historia real.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/contra-el-huracan/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/contra-el-huracan/",
-   "skey": "contra huracan|cineteca alejandra",
-   "id": "c33aeb8c929a",
-   "dates": [
-    {
-     "start": "2026-11-01T16:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/contra-el-huracan/"
-    },
-    {
-     "start": "2026-11-04T18:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/contra-el-huracan/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "006631e156b7",
-   "skey": "giramundo cores aide|centro cultural",
-   "title": "Giramundo – Cores de Aidé",
-   "start": "2026-11-01T16:00",
-   "end": null,
-   "venue": "Centro Cultural Rosa de los Vientos",
-   "city": "San Nicolás de los Garza",
-   "category": "Música",
-   "price": "Entrada libre",
-   "description": "Brasil",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "SAFARI – La Baldufa",
-   "start": "2026-11-01T16:00",
-   "end": "2026-11-01T19:00",
-   "venue": "Escenario al aire libre del Teatro de la Ciudad",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "Entrada libre",
-   "description": "España · Teatro visual para niñas, niños y familias sobre el acoso escolar",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "skey": "safari baldufa|escenario aire",
-   "id": "add7c446ec23",
-   "dates": [
-    {
-     "start": "2026-11-01T16:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-11-01T17:30",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    },
-    {
-     "start": "2026-11-01T19:00",
-     "end": null,
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Taller I Brincos y calacas",
-   "start": "2026-11-01T16:00",
-   "end": "2026-11-01T17:00",
-   "venue": "Niños CONARTE",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Brincos-700x360.jpg",
-   "description": "Imparten: Mediadores de Niños CONARTE Celebremos el Día de Muertos en familia, jugando y creando máscaras inspiradas en los personajes el cuento “La muerte pies ligeros” de Natalia Toledo. Para toda la familia",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-brincos-y-calacas/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-brincos-y-calacas/",
-   "skey": "taller brincos calacas|ninos conarte",
-   "id": "879d6c2087af",
-   "dates": [
-    {
-     "start": "2026-11-01T16:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-brincos-y-calacas/"
-    },
-    {
-     "start": "2026-11-01T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-brincos-y-calacas/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "title": "Barrio triste",
-   "start": "2026-11-01T16:30",
-   "end": "2026-11-04T19:00",
-   "times": [
-    "16:30"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Barrio-triste-Imagen-e1790801643675-700x360.png",
-   "description": "En las afueras de Medellín a finales de la década de 1980, mientras un reportero realiza una nota para la televisión local sobre unas luces que descienden del cielo, un grupo de adolescentes le roba la cámara. En manos de sus nuevos dueños, la cámara recorre el barrio registrando sus vidas y los extraños fenómenos que acechan en el lugar.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/barrio-triste/",
-   "skey": "barrio triste|cineteca alejandra",
-   "id": "b3d3ca9180ed",
-   "dates": [
-    {
-     "start": "2026-11-01T16:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    },
-    {
-     "start": "2026-11-04T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
-    }
-   ],
-   "firstSeen": "2026-10-08T12:31:59.221Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "aabf026ed43e",
-   "skey": "sin distorsion no hay redencion jamie rowe apodaca|next level",
-   "title": "Sin Distorsión no hay Redención 2026 con Jamie Rowe en Apodaca",
-   "venue": "Next Level Church",
-   "city": "Ciudad Apodaca",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://arema.mx/e/20337-sin-distorsion-no-hay-redencion-2026-con-jamie-rowe-en-apodaca",
-   "image": null,
-   "description": "Fecha: 01 de Noviembre 2026 Hora: 17:00 horas Lugar: Next Level Church Dirección del evento: Cam. Mezquital-Santa Rosa 476, Cantizales, 66630 Ciudad Apodaca, N.L.. Zonas y Precios: General: $550 (Precios más cargos por servicio) Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. - Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L. - Jardin 85: Av Lázaro Cárdenas 2610, Del Paseo Residencial, 64920 Monterrey, N.L.",
-   "start": "2026-11-01T17:00",
-   "end": "2026-11-01T17:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/20337-sin-distorsion-no-hay-redencion-2026-con-jamie-rowe-en-apodaca"
-    }
-   ],
-   "url": "https://arema.mx/e/20337-sin-distorsion-no-hay-redencion-2026-con-jamie-rowe-en-apodaca",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Tierra de mi padre",
-   "start": "2026-11-01T17:00",
-   "end": "2026-11-04T21:00",
-   "times": [
-    "17:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tierra-de-mi-Padre-Imagen-scaled-e1792615008891-700x360.jpg",
-   "description": "La relación entre el escritor ganador del Premio Nobel Thomas Mann y su hija Erika, actriz, escritora y piloto de carreras. En el apogeo de la Guerra Fría, y tras regresar a casa tras dieciséis años de exilio en Estados Unidos, Mann y su hija emprenden un desafiante y emotivo viaje por carretera atravesando una patria tan dividida como su propia familia.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/",
-   "skey": "tierra mi padre|cineteca alejandra",
-   "id": "768be4b26f82",
-   "dates": [
-    {
-     "start": "2026-11-01T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    },
-    {
-     "start": "2026-11-04T21:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
-    }
-   ],
-   "firstSeen": "2026-10-22T12:42:57.169Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "a577e2c7bc2a",
-   "skey": "brujas cuento drag mas divertido|dramaticomx",
-   "title": "Brujas el cuento DRAG más divertido",
-   "start": "2026-11-01T18:00",
-   "end": "2026-11-01T19:30",
-   "venue": "DramaticoMX",
-   "city": "MONTERREY",
-   "category": "Teatro",
-   "price": "$350 – $400",
-   "tickets": "https://arema.mx/e/21324-brujas-el-cuento-drag-mas-divertido",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/brujas.jpg",
-   "description": "Calificación promedio Aún no hay calificación ¡Después de seis años de éxito, regresa ¡Brujas! El cuento DRAG más divertido! Un espectáculo increíble, mágico y lleno de humor que lleva al escenario un mundo de hadas, princesas y brujas, entre lentejuelas, maquillaje y altos tacones. La historia sigue a Leire, una chica muy envidiosa que se adentra en el mundo de los cuentos para provocar el caos entre las princesas, hasta que se encuentra con las brujas de los cuentos.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/brujas-el-cuento-drag-mas-divertido/2026-11-01/"
-    },
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21324-brujas-el-cuento-drag-mas-divertido"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/brujas-el-cuento-drag-mas-divertido/2026-11-01/",
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "id": "acc352e90086",
-   "skey": "chipinque noche dia muertos experiencias juntas|chipinque reserva",
-   "title": "Chipinque de Noche: Día de Muertos. ¡3 experiencias juntas!",
-   "end": null,
-   "venue": "Chipinque · Reserva Natural Chipinque",
-   "city": "San Pedro Garza García",
-   "category": "Experiencias",
-   "price": "$280",
-   "image": "https://chipinque-api-prod.onrender.com/media/products/e6157318-5667-4ea3-9eeb-7c6fbd388096.webp",
-   "description": "Experiencias. Vive una noche especial en la montaña para celebrar el Día de Muertos a través del arte, el cine y las tradiciones. Disfruta de la presentación de ofrendas en el altar de muertos, una función de cine al aire libre y un espectáculo visual y sensorial. En “ El Libro de la Vida (2014)” , acompaña a Manolo en una aventura mágica entre el mundo de los vivos y los muertos, donde descubrirá su destino y el valor del amor, la amistad y sus raíces. La noche continúa con “ El quinto elemento y los 12 nahuales mayas” , un montaje visual y sensorial que explora el tiempo y la existencia a tr",
-   "start": "2026-11-01T18:00",
-   "sources": [
-    {
-     "id": "chipinque",
-     "url": "https://www.chipinque.org.mx/inicio/eventos"
-    },
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=dia-de-muertos-2026"
-    }
-   ],
-   "url": "https://www.chipinque.org.mx/inicio/eventos",
-   "firstSeen": "2026-10-17T12:35:16.355Z"
-  },
-  {
-   "id": "dfd6ce4b424d",
-   "skey": "concurso catrin catrina|explanada museo",
-   "title": "Concurso de Catrín y Catrina 2026",
-   "start": "2026-11-01T18:00",
-   "end": null,
-   "venue": "Explanada del Museo de Historia Mexicana",
-   "city": "Monterrey",
-   "category": "Familiar",
-   "price": "Entrada libre",
-   "description": "México · Inscripciones hasta el 16 de octubre",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "98fd79cd0419",
-   "skey": "deep dive deep|teatro esp",
-   "title": "Deep Dive Deep",
-   "venue": "Teatro Esp. Rogelio Villarreal E",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "tickets": "https://arema.mx/e/21550-deep-dive-deep",
-   "image": null,
-   "description": "Deep-Dive-Deep es un \"clavado\" a las profundidades del mar. Es un ejercicio coreográfico que desafía el miedo a perderse en la memoria, en los pensamientos y las complejidades del ser humano. El calor del sol, la arena y el agua salada serán la guía para descubrir un universo junto al mar, para percibir la infinitud de las cosas y dejarse llevar por ella.",
-   "start": "2026-11-01T18:00",
-   "end": "2026-11-01T18:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21550-deep-dive-deep"
-    }
-   ],
-   "url": "https://arema.mx/e/21550-deep-dive-deep",
-   "firstSeen": "2026-10-22T12:42:57.169Z"
-  },
-  {
-   "id": "8ab67af346f1",
-   "skey": "dialogos panel bateristas ritmo vida|transmision linea",
-   "title": "Diálogos: Panel de bateristas – El ritmo de la vida",
-   "start": "2026-11-01T18:00",
-   "end": null,
-   "venue": "Transmisión en línea (redes FISL)",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": "Entrada libre",
-   "description": "Tosh Peterson, JJ Wallace y más",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "6de59bcbedfe",
-   "skey": "ecos bosque oscuro danza jazz uanl|teatro universitario",
-   "title": "Ecos del Bosque Oscuro – Danza Jazz UANL",
-   "start": "2026-11-01T18:00",
-   "end": null,
-   "venue": "Teatro Universitario, Unidad Mederos",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "Entrada libre",
-   "description": "México · Danza jazz",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "0ed2fff3b08e",
-   "skey": "carrie|cineteca alejandra",
-   "title": "Carrie",
-   "start": "2026-11-01T18:30",
-   "end": null,
-   "times": [
-    "18:30",
-    "20:30"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2018/06/Carrie-Imagen-e1792615768767-700x360.jpg",
-   "description": "Carrie White, una tímida adolescente que vive con su madre, una fanática religiosa, es objeto de las burlas constantes de sus compañeros de instituto. Cuando, en las duchas del gimnasio, la chica sufre un ataque de histeria al tener su primera menstruación, a una de sus compañeras se le ocurre gastarle una broma macabra durante la fiesta de graduación. Lo que todos ignoran es que Carrie posee poderes telequinésicos. VERSIÓN RESTAURADA EN 4K 50 ANIVERSARIO",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/carrie-3/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/carrie-3/",
-   "firstSeen": "2026-10-22T12:42:57.169Z",
-   "moreDatesAt": "2026-10-23T12:38:48.452Z"
-  },
-  {
-   "id": "71e90cb01dd2",
-   "skey": "cine fisl maya dame un titulo|explanada cultural",
-   "title": "Cine FISL: Maya, dame un título",
-   "start": "2026-11-01T18:30",
-   "end": null,
-   "venue": "Explanada Cultural del LABNL",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": "Entrada libre",
-   "description": null,
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "LA SEÑORITA JULIA Teatro",
-   "start": "2026-11-01T18:30",
-   "end": "2026-11-29T20:00",
-   "venue": "Casa Musa",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "$450",
-   "tickets": "https://casamusa.janto4.mx/espectaculo/la-senorita-julia/SENORITAJULIA",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/Senorita-Julia.jpg",
-   "description": "Calificación promedio Aún no hay calificación En una noche de San Juan, JULIA, una joven aristócrata, se deja llevar por el deseo y la transgresión. Entre ella y Juan, su criado, se desata un juego de seducción, poder y lucha de clases que llevará sus límites hasta las últimas consecuencias. Duración 90 minutos sin intermedio Público al que va dirigido Solo adultos, mayores de 18 años Créditos Autor AUGUST STRINDBERG, direccion HERNÁN GALINDO, con LUDYVINA VELARDE, MIKE MONTFORT, ZIUI MONRAZ Casa Musa · Monterrey 25 oct de 2026 · 18:30 h 1 nov de 2026 · 18:30 h 8 nov de 2026 · 18:30 h 15 nov…",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-01/"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-01/",
-   "skey": "senorita julia teatro|casa musa",
-   "id": "d835dcd0c613",
-   "dates": [
-    {
-     "start": "2026-11-01T18:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-01/"
-    },
-    {
-     "start": "2026-11-08T18:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-08/"
-    },
-    {
-     "start": "2026-11-15T18:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-15/"
-    },
-    {
-     "start": "2026-11-22T18:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-22/"
-    },
-    {
-     "start": "2026-11-29T18:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-29/"
-    }
-   ],
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "title": "Tinsman Road: Camino al miedo",
-   "start": "2026-11-01T18:45",
-   "end": "2026-11-04T18:00",
-   "times": [
-    "18:45"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tinsman-Road-Imagen-e1792614695166-700x360.png",
-   "description": "Independiente hasta la médula y filmada íntegramente en una Mini-DV 4:3 en los bosques de Nueva Jersey, TINSMAN ROAD: CAMINO AL MIEDO lleva al espectador a un viaje emocionalmente retorcido por el desolado camino de la muerte y el dolor. La historia se centra en un joven que se adentra en el intrincado misterio que rodea la desaparición de su hermana y la antigua casa familiar.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/",
-   "skey": "tinsman road camino miedo|cineteca alejandra",
-   "id": "1e0234292a39",
-   "dates": [
-    {
-     "start": "2026-11-01T18:45",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    },
-    {
-     "start": "2026-11-04T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "ca87b1aaa93a",
-   "skey": "bandakadabra techno brass composer|nuevo parque",
-   "title": "Bandakadabra – Techno Brass Composer",
-   "start": "2026-11-01T19:00",
-   "end": null,
-   "venue": "Nuevo Parque del Agua",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "Entrada libre",
-   "description": "Italia · Desfile musical",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Música en el parque",
-   "start": "2026-11-01T19:00",
-   "end": "2026-12-20T20:00",
-   "venue": "Parque Bosques del Valle",
-   "address": "Calle Bosques de los Pirineos, Bosques del Valle, San Pedro Garza García, Nuevo León, 66268, México",
-   "city": "San Pedro Garza García",
-   "category": "Música",
-   "price": "Entrada libre",
-   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f124794-ee1c-6e20-94b0-14c57260ca73.png",
-   "description": "Conciertos de música en vivo en el parque Entrada libre*",
-   "sources": [
-    {
-     "id": "sanpedro_vive",
-     "url": "https://vive.sanpedro.gob.mx/evento/1277"
-    },
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/temporada-de-musica-2026-i-horizonte-interior-travesia-coral-hacia-la-esperanza/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Vive San Pedro",
-   "url": "https://vive.sanpedro.gob.mx/evento/1277",
-   "skey": "musica parque|parque bosques",
-   "id": "bdf7c718def3",
-   "dates": [
-    {
-     "start": "2026-11-01T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1277"
-    },
-    {
-     "start": "2026-11-08T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1278"
-    },
-    {
-     "start": "2026-11-15T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1279"
-    },
-    {
-     "start": "2026-11-22T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1280"
-    },
-    {
-     "start": "2026-11-29T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1281"
-    },
-    {
-     "start": "2026-12-06T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1282"
-    },
-    {
-     "start": "2026-12-13T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1283"
-    },
-    {
-     "start": "2026-12-20T19:00",
-     "end": null,
-     "url": "https://vive.sanpedro.gob.mx/evento/1284"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z",
-   "moreDatesAt": "2026-10-20T12:41:33.774Z"
-  },
-  {
-   "id": "f2ed825fe0f0",
-   "skey": "yolanda rio gran senora mexico|escenario gnp",
-   "title": "Yolanda del Río – La Gran Señora de México",
-   "start": "2026-11-01T19:00",
-   "end": "2026-11-01T21:00",
-   "venue": "Escenario GNP Seguros",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "$620 – $3100",
-   "tickets": "https://www.ticketmaster.com.mx/yolanda-del-rio-monterrey-01-11-2026/event/140064C3E266E95E",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/06/yolanda-del-rio.jpg",
-   "description": "Calificación promedio Aún no hay calificación ¡El gran regreso de Yolanda del Río a Monterrey! La Gran Señora de México llega a Monterrey para interpretar todos sus éxitos acompañada de mariachi. Fecha: 1 de noviembre de 2026 Hora: 7 pm Lugar: Escenario GNP Seguros",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/yolanda-del-rio-la-gran-senora-de-mexico/"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/yolanda-del-rio-el-gran-regreso-monterrey-01-11-2026/event/140064C3E266E95E"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/yolanda-del-rio-in-monterrey/3300030483696938"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/yolanda-del-rio-la-gran-senora-de-mexico/",
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "id": "f8656942cb8d",
-   "skey": "yolanda rio gran regreso|escenario gnp",
-   "title": "Yolanda del Rio, El Gran Regreso",
-   "start": "2026-11-01T19:00",
-   "end": "2026-11-01",
-   "venue": "Escenario GNP Seguros",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy85NzVkZWY3MGUwYWYxNmEwMjZlMWUyZGRjMTczMzI5ZWNiYTRiMTY0NmZkMjljN2ZmODM1ZjM3YTRkOGIzNmI1LXJpbWctdzEwMjQtaDU3Ni1kYzMwMTkxMi1nbWlyLmpwZz92PTE3ODQ2MjQ0MjQ.avif",
-   "sources": [
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/yolanda-del-rio-el-gran-regreso/210003499850065"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/yolanda-del-rio-el-gran-regreso-tm-6G2x_mPr"
-    }
-   ],
-   "description": "[](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: Todas las edades. Pagan boleto a partir de: 3 años. Restricciones: Prohibido ingresar alimentos, bebidas, mochilas, paraguas, rayos, selfie sticks",
-   "url": "https://allevents.in/monterrey/yolanda-del-rio-el-gran-regreso/210003499850065",
-   "firstSeen": "2026-10-31T12:47:31.707Z"
-  },
-  {
-   "title": "El evangelio de la revolución",
-   "start": "2026-11-01T19:30",
-   "end": "2026-11-04T17:00",
-   "times": [
-    "19:30"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/El-Evangelio-de-la-Revolucion-Imagen-e1791927790514-700x360.png",
-   "description": "El Evangelio de la Revolución, primer documental histórico sobre la teología de la liberación y la participación de los cristianos en las luchas revolucionarias en América Latina.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/",
-   "skey": "evangelio revolucion|cineteca alejandra",
-   "id": "d5a26ee27b99",
-   "dates": [
-    {
-     "start": "2026-11-01T19:30",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    },
-    {
-     "start": "2026-11-04T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "706d90d8941f",
-   "skey": "galantis|explanada heroes",
-   "title": "GALANTIS",
-   "start": "2026-11-01T20:00",
-   "end": null,
-   "venue": "Explanada de los Héroes",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "Entrada libre",
-   "description": "Suecia · Música electrónica",
-   "sources": [
-    {
-     "id": "santa_lucia",
-     "url": "https://festivalsantalucia.gob.mx/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Festival Santa Lucía",
-   "url": "https://festivalsantalucia.gob.mx/",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "d8648140248f",
-   "skey": "no dejes ninos solos|cineteca alejandra",
-   "title": "No dejes a los niños solos",
-   "start": "2026-11-01T21:00",
-   "end": null,
-   "times": [
-    "21:00"
-   ],
-   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/No-dejes-a-los-ninos-solos-Imagen-e1791928160780-700x294.jpg",
-   "description": "Una madre se muda a una casa nueva con sus dos hijos. Una noche debe dejar a los hermanos solos en casa. Lo que comienza como una explosión de juego despreocupado pronto se convierte en una claustrofóbica historia de terror.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/no-dejes-a-los-ninos-solos/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/no-dejes-a-los-ninos-solos/",
-   "firstSeen": "2026-10-14T12:42:57.871Z",
-   "moreDatesAt": "2026-10-28T12:53:26.477Z"
-  },
-  {
    "id": "4d4349bd5057",
    "skey": "waitress|showcenter complex",
    "title": "WAITRESS",
@@ -2565,6 +943,90 @@
     }
    ],
    "url": "https://www.superboletos.com/landing-evento/_IacN85OR0rCGEs3H0slUQ",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "48a9c2a989d2",
+   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "start": "2026-11-02T09:00",
+   "end": "2026-11-29T19:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "88d45148899d",
+   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "start": "2026-11-02T10:00",
+   "end": "2026-12-06T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "51aea207ffd2",
+   "skey": "nuevo leon city hop on hop off hoho|banco mercantil",
+   "title": "Nuevo León City Tour Hop On/ Hop Off (HOHO)",
+   "venue": "Banco Mercantil",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87c34f14-7c69-11f1-8da7-96c04bb7bbb6.png",
+   "start": "2026-11-02T10:00",
+   "end": "2026-12-30T10:00",
+   "price": "Desde $300",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/685013"
+    }
+   ],
+   "url": "https://feverup.com/m/685013",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "0157699e01e2",
+   "skey": "virtuality world cumpleanos infantiles|galerias valle",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "start": "2026-11-02T11:00",
+   "end": "2027-01-31T19:00",
+   "price": "Desde $635",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -2691,25 +1153,67 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "811803f0dec3",
-   "skey": "mision rescate juego callejero guiado app|macroplaza",
-   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
-   "venue": "Macroplaza",
+   "id": "e939e0f60752",
+   "skey": "papalote museo nino expo dinosaurios|papalote museo",
+   "title": "Papalote Museo del Niño + Expo Dinosaurios",
+   "venue": "Papalote Museo del Niño-Monterrey",
    "city": "Monterrey",
    "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
    "start": "2026-11-03T10:00",
-   "end": "2027-01-03T17:00",
-   "price": "Desde $370",
+   "end": "2026-12-02T10:00",
+   "price": "Desde $280",
    "demand": null,
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/283501"
+     "url": "https://feverup.com/m/338223"
     }
    ],
-   "url": "https://feverup.com/m/283501",
-   "firstSeen": "2026-10-24T12:35:51.731Z"
+   "url": "https://feverup.com/m/338223",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "26f88c7e2eb8",
+   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "start": "2026-11-03T11:00",
+   "end": "2026-11-29T17:00",
+   "price": "Desde $799",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "c9c66cbeda61",
+   "skey": "super paquete museo expo dinos documental imax laser|papalote museo",
+   "title": "Super Paquete: Museo + Expo Dinos + Documental IMAX Laser",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "start": "2026-11-03T12:30",
+   "end": "2026-12-02T18:00",
+   "price": null,
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "title": "Taller 2026 I Costura y upcycling: Texturas urbanas",
@@ -3060,6 +1564,27 @@
    "firstSeen": "2026-11-01T12:48:57.211Z"
   },
   {
+   "id": "bbde429847f9",
+   "skey": "mision rescate juego callejero guiado app|macroplaza",
+   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
+   "venue": "Macroplaza",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
+   "start": "2026-11-04T10:00",
+   "end": "2027-01-03T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/283501"
+    }
+   ],
+   "url": "https://feverup.com/m/283501",
+   "firstSeen": "2026-10-24T12:35:51.731Z"
+  },
+  {
    "title": "MIÉRCOLES CIUDADANO",
    "start": "2026-11-04T11:30",
    "end": "2026-12-16T13:00",
@@ -3106,6 +1631,31 @@
    "firstSeen": "2026-10-11T12:26:52.848Z"
   },
   {
+   "id": "f1ad2f5be490",
+   "skey": "hope primer impacto|cineteca alejandra",
+   "title": "Hope: El primer impacto",
+   "start": "2026-11-04T15:00",
+   "end": null,
+   "times": [
+    "15:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Hope-Imagen-700x360.jpg",
+   "description": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/hope-el-primer-impacto/",
+   "firstSeen": "2026-10-22T12:42:57.169Z",
+   "moreDatesAt": "2026-10-28T12:53:26.477Z"
+  },
+  {
    "id": "67fea0280149",
    "skey": "mamut regreso dinusaurios|cineteca alejandra",
    "title": "Mamut: El regreso de los dinusaurios",
@@ -3127,6 +1677,30 @@
     }
    ],
    "url": "https://conarte.org.mx/cineteca/mamut-el-regreso-de-los-dinusaurios/",
+   "firstSeen": "2026-10-28T12:53:26.477Z"
+  },
+  {
+   "id": "4ed9fa8aa162",
+   "skey": "evangelio revolucion|cineteca alejandra",
+   "title": "El evangelio de la revolución",
+   "start": "2026-11-04T17:00",
+   "end": null,
+   "times": [
+    "17:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/El-Evangelio-de-la-Revolucion-Imagen-e1791927790514-700x360.png",
+   "description": "El Evangelio de la Revolución, primer documental histórico sobre la teología de la liberación y la participación de los cristianos en las luchas revolucionarias en América Latina.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/el-evangelio-de-la-revolucion/",
    "firstSeen": "2026-10-28T12:53:26.477Z"
   },
   {
@@ -3247,6 +1821,54 @@
    "firstSeen": "2026-10-28T12:53:26.477Z"
   },
   {
+   "id": "206d1054e132",
+   "skey": "tinsman road camino miedo|cineteca alejandra",
+   "title": "Tinsman Road: Camino al miedo",
+   "start": "2026-11-04T18:00",
+   "end": null,
+   "times": [
+    "18:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tinsman-Road-Imagen-e1792614695166-700x360.png",
+   "description": "Independiente hasta la médula y filmada íntegramente en una Mini-DV 4:3 en los bosques de Nueva Jersey, TINSMAN ROAD: CAMINO AL MIEDO lleva al espectador a un viaje emocionalmente retorcido por el desolado camino de la muerte y el dolor. La historia se centra en un joven que se adentra en el intrincado misterio que rodea la desaparición de su hermana y la antigua casa familiar.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/tinsman-road-camino-al-miedo/",
+   "firstSeen": "2026-10-28T12:53:26.477Z"
+  },
+  {
+   "id": "ec60dd606bbe",
+   "skey": "contra huracan|cineteca alejandra",
+   "title": "Contra el huracán",
+   "start": "2026-11-04T18:30",
+   "end": null,
+   "times": [
+    "18:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Contra-el-huracan-Imagen-e1791927564242-700x360.jpg",
+   "description": "Dos hermanos distanciados luchan por sobrevivir al huracán Otis en Acapulco, donde su unión y valentía transforman la adversidad en esperanza. Inspirada en una historia real.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/contra-el-huracan/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/contra-el-huracan/",
+   "firstSeen": "2026-10-28T12:53:26.477Z"
+  },
+  {
    "id": "9f1d9d905b28",
    "skey": "anni albers arte olvidado nuevo leon|museos",
    "title": "Anni Albers y el arte olvidado de Nuevo León",
@@ -3265,6 +1887,31 @@
    ],
    "url": "https://www.3museos.com/?eventos=anni-albers-y-el-arte-olvidado-de-nuevo-leon",
    "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
+   "id": "fbcd55c3bfff",
+   "skey": "barrio triste|cineteca alejandra",
+   "title": "Barrio triste",
+   "start": "2026-11-04T19:00",
+   "end": null,
+   "times": [
+    "19:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Barrio-triste-Imagen-e1790801643675-700x360.png",
+   "description": "En las afueras de Medellín a finales de la década de 1980, mientras un reportero realiza una nota para la televisión local sobre unas luces que descienden del cielo, un grupo de adolescentes le roba la cámara. En manos de sus nuevos dueños, la cámara recorre el barrio registrando sus vidas y los extraños fenómenos que acechan en el lugar.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/barrio-triste/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/barrio-triste/",
+   "firstSeen": "2026-10-08T12:31:59.221Z",
+   "moreDatesAt": "2026-10-28T12:53:26.477Z"
   },
   {
    "id": "34651c3f2a14",
@@ -3465,6 +2112,30 @@
    "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
+   "id": "caf9760d5dad",
+   "skey": "jonna cronicas una policia novata|cineteca alejandra",
+   "title": "Jonna: Crónicas de una policía novata",
+   "start": "2026-11-04T20:30",
+   "end": null,
+   "times": [
+    "20:30"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Jonna-Imagen-e1793136812516-700x338.jpg",
+   "description": "Jonna investiga el caso sin resolver de una violenta serie de feminicidios. Siguiendo las pistas, descubre que los feminicidios forman parte de una secta satánica.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/jonna-cronicas-de-una-policia-novata/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/jonna-cronicas-de-una-policia-novata/",
+   "firstSeen": "2026-10-28T12:53:26.477Z"
+  },
+  {
    "id": "3bf8c1603943",
    "skey": "kapo|auditorio banamex",
    "title": "Kapo",
@@ -3488,6 +2159,28 @@
    "description": "La nueva sensación del género urbano y el afrobeat en español, Kapo, se prepara para encender el escenario con una propuesta que desborda frescura, ritmo y un carisma arrollador. Con un talento único,",
    "url": "https://www.ticketmaster.com.mx/kapo-monterrey-04-11-2026/event/1400648DAE778C2E",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "4f5c7342968b",
+   "skey": "paco miguel|escenario gnp",
+   "title": "Paco de Miguel",
+   "start": "2026-11-04T21:00",
+   "end": "2026-11-05T00:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/paco-de-miguel-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Paco de Miguel en Escenario GNP Seguros, 4 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/paco-de-miguel-escenario-gnp-seguros-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/paco-de-miguel-escenario-gnp-seguros-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "b8ee6f551c38",
@@ -3514,6 +2207,31 @@
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-romeo-santos-prince-royce-estadio-walmart-park-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "ce8aba123c58",
+   "skey": "tierra mi padre|cineteca alejandra",
+   "title": "Tierra de mi padre",
+   "start": "2026-11-04T21:00",
+   "end": null,
+   "times": [
+    "21:00"
+   ],
+   "venue": "Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Tierra-de-mi-Padre-Imagen-scaled-e1792615008891-700x360.jpg",
+   "description": "La relación entre el escritor ganador del Premio Nobel Thomas Mann y su hija Erika, actriz, escritora y piloto de carreras. En el apogeo de la Guerra Fría, y tras regresar a casa tras dieciséis años de exilio en Estados Unidos, Mann y su hija emprenden un desafiante y emotivo viaje por carretera atravesando una patria tan dividida como su propia familia.",
+   "sources": [
+    {
+     "id": "cineteca",
+     "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/"
+    }
+   ],
+   "url": "https://conarte.org.mx/cineteca/tierra-de-mi-padre/",
+   "firstSeen": "2026-10-22T12:42:57.169Z",
+   "moreDatesAt": "2026-10-28T12:53:26.477Z"
   },
   {
    "id": "fcbdd698f1ca",
@@ -3987,6 +2705,26 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "e634532a5fd1",
+   "skey": "coahuila entre historia poesia|museos",
+   "title": "Coahuila entre la historia y la poesía",
+   "start": "2026-11-06T19:00",
+   "end": null,
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/10/6nov_coahuila-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=coahuila-entre-la-historia-y-la-poesia"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=coahuila-entre-la-historia-y-la-poesia",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
+  },
+  {
    "id": "093ba7802b0b",
    "skey": "lectura voz alta noche te cuento iii|casa cultura",
    "title": "Lectura en voz alta I De noche te cuento III",
@@ -4356,6 +3094,10 @@
      "url": "https://carteleraescenica.com/eventos/la-cotorrisa/"
     },
     {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/la-cotorrisa-escenario-gnp-seguros-monterrey-2026"
+    },
+    {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/la-cotorrisa-monterrey-06-11-2026/event/1400650488F767FE"
     },
@@ -4467,17 +3209,21 @@
   {
    "id": "832e4ae63398",
    "skey": "yuri|arena",
-   "title": "YURI 2026",
+   "title": "Yuri",
    "start": "2026-11-06T21:00",
-   "end": "2026-11-06",
+   "end": "2026-11-07T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/vy13qO6-6dECaHMTZBvNAA",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT141603.webp?v=20260601105422",
-   "description": "Yuri 2026 es el viernes 6 de noviembre de 2026 a las 21:00 h en Arena Monterrey, Monterrey.",
+   "image": "https://conciertosenmonterrey.com/media/2026/11/yuri-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Yuri en Arena Monterrey, 6 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/yuri-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/vy13qO6-6dECaHMTZBvNAA"
@@ -4487,7 +3233,8 @@
      "url": "https://ctxplorer.com/events/yuri-2026-zg-1275"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/vy13qO6-6dECaHMTZBvNAA",
+   "tickets": "https://www.superboletos.com/landing-evento/vy13qO6-6dECaHMTZBvNAA",
+   "url": "https://conciertosenmonterrey.com/cartelera/yuri-arena-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -4885,13 +3632,19 @@
   {
    "title": "Elías Medina",
    "start": "2026-11-07T21:00",
-   "end": "2026-11-07T21:00",
+   "end": "2026-11-08T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/a66/312da6fe-9915-4c40-ad21-bb8294d90a66_RETINA_LANDSCAPE_16_9.jpg",
+   "image": "https://conciertosenmonterrey.com/media/2026/11/elias-medina-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Elías Medina en Escenario GNP Seguros, 7 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/elias-medina-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/elias-medina-monterrey-07-11-2026/event/140064A4BF45AFF7"
@@ -4905,15 +3658,14 @@
      "url": "https://ctxplorer.com/events/elias-medina-tm-613ToQTM"
     }
    ],
-   "description": "[](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: Todas las edades. Pagan boleto a partir de: 3 años. Restricciones: Prohibido ingresar alimentos, bebidas, mochilas, paraguas, rayos, selfie sticks",
-   "url": "https://www.ticketmaster.com.mx/elias-medina-monterrey-07-11-2026/event/140064A4BF45AFF7",
+   "url": "https://conciertosenmonterrey.com/cartelera/elias-medina-escenario-gnp-seguros-monterrey-2026",
    "skey": "elias medina|escenario gnp",
    "id": "d65d42fdd667",
    "dates": [
     {
      "start": "2026-11-07T21:00",
-     "end": null,
-     "url": "https://www.ticketmaster.com.mx/elias-medina-monterrey-07-11-2026/event/140064A4BF45AFF7"
+     "end": "2026-11-08T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/elias-medina-escenario-gnp-seguros-monterrey-2026"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
@@ -4945,6 +3697,10 @@
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/intocable-at-estadio-borregos/200030535796231"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/intocable-tm-_aR-yAvz"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/intocable/",
@@ -4982,24 +3738,30 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "5cf7cf1e277b",
-   "skey": "tucanes tijuana nuevo leon|arena",
-   "title": "Los Tucanes De Tijuana en Monterrey, Nuevo León",
+   "id": "ab17b56ccbf8",
+   "skey": "tucanes tijuana|arena",
+   "title": "Los Tucanes de Tijuana",
    "start": "2026-11-07T21:00",
-   "end": null,
+   "end": "2026-11-08T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/los-tucanes-de-tijuana-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Los Tucanes de Tijuana en Arena Monterrey, 7 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/los-tucanes-de-tijuana-arena-monterrey-2026"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/los-tucanes-de-tijuana-en-monterrey-nuevo-león/200030547609657"
     }
    ],
-   "url": "https://allevents.in/monterrey/los-tucanes-de-tijuana-en-monterrey-nuevo-león/200030547609657",
-   "firstSeen": "2026-10-05T12:33:46.832Z"
+   "url": "https://conciertosenmonterrey.com/cartelera/los-tucanes-de-tijuana-arena-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "036402dec19f",
@@ -5165,6 +3927,386 @@
    "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
+   "title": "Mercado de La Fregonería",
+   "start": "2026-11-08T09:00",
+   "end": "2027-06-27T13:00",
+   "venue": "Mercado de La Fegonería",
+   "address": "Calzada San Pedro, Del Valle, San Pedro Garza García, Nuevo León, 66220, México",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f05e992-2677-6c60-b6c1-13987605dc55.jpeg",
+   "description": "Descubre lo mejor del emprendimiento local en El Mercado de la Fregonería, un espacio donde los productos artesanales de primer nivel y el talento de nuestros emprendedores sampetrinos se reúnen para brillar. 🍔 Área de comida y snacks 🐾 Productos para tu mascota 🕯️ Artículos para el hogar 🎨 Artesanías únicas 🗓 Todos los domingos 🕣 De 8:30 a 13:00 h 📍 A un lado de San Pedro de Pinta, en Calzada San Pedro hacia Río Volga",
+   "sources": [
+    {
+     "id": "sanpedro_vive",
+     "url": "https://vive.sanpedro.gob.mx/evento/593"
+    }
+   ],
+   "url": "https://vive.sanpedro.gob.mx/evento/593",
+   "skey": "mercado fregoneria|mercado fegoneria",
+   "id": "caba189aa5b1",
+   "dates": [
+    {
+     "start": "2026-11-08T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/593"
+    },
+    {
+     "start": "2026-11-15T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/594"
+    },
+    {
+     "start": "2026-11-22T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/595"
+    },
+    {
+     "start": "2026-11-29T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/596"
+    },
+    {
+     "start": "2026-12-06T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/597"
+    },
+    {
+     "start": "2026-12-13T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/598"
+    },
+    {
+     "start": "2026-12-20T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/599"
+    },
+    {
+     "start": "2026-12-27T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/600"
+    },
+    {
+     "start": "2027-01-03T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/601"
+    },
+    {
+     "start": "2027-01-10T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/602"
+    },
+    {
+     "start": "2027-01-17T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/603"
+    },
+    {
+     "start": "2027-01-24T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/604"
+    },
+    {
+     "start": "2027-01-31T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/605"
+    },
+    {
+     "start": "2027-02-07T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/606"
+    },
+    {
+     "start": "2027-02-14T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/607"
+    },
+    {
+     "start": "2027-02-21T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/608"
+    },
+    {
+     "start": "2027-02-28T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/609"
+    },
+    {
+     "start": "2027-03-07T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/610"
+    },
+    {
+     "start": "2027-03-14T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/611"
+    },
+    {
+     "start": "2027-03-21T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/612"
+    },
+    {
+     "start": "2027-03-28T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/613"
+    },
+    {
+     "start": "2027-04-04T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/614"
+    },
+    {
+     "start": "2027-04-11T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/615"
+    },
+    {
+     "start": "2027-04-18T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/616"
+    },
+    {
+     "start": "2027-04-25T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/617"
+    },
+    {
+     "start": "2027-05-02T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/618"
+    },
+    {
+     "start": "2027-05-09T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/619"
+    },
+    {
+     "start": "2027-05-16T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/620"
+    },
+    {
+     "start": "2027-05-23T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/621"
+    },
+    {
+     "start": "2027-05-30T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/622"
+    },
+    {
+     "start": "2027-06-06T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/623"
+    },
+    {
+     "start": "2027-06-13T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/624"
+    },
+    {
+     "start": "2027-06-20T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/625"
+    },
+    {
+     "start": "2027-06-27T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/626"
+    }
+   ],
+   "firstSeen": "2026-10-11T12:26:52.848Z",
+   "moreDatesAt": "2026-10-30T12:54:13.354Z"
+  },
+  {
+   "title": "San Pedro de Pinta",
+   "start": "2026-11-08T09:00",
+   "end": "2026-12-20T13:00",
+   "venue": "Rotonda - Las Calzadas",
+   "address": "7, Del Valle, San Pedro Garza García, Nuevo León, 66220, México",
+   "city": "San Pedro Garza García",
+   "category": "Familiar",
+   "price": null,
+   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f124788-e2ac-6880-8236-6c33773c8ec6.png",
+   "description": "Un punto de encuentro dominical que promueve la movilidad activa, la vida saludable y la convivencia familiar. Cada domingo, la Calzada del Valle y Calzada Mauricio Fernández se transforman en un espacio peatonal donde las familias disfrutan de caminar, correr, andar en bici o simplemente relajarse al aire libre.",
+   "sources": [
+    {
+     "id": "sanpedro_vive",
+     "url": "https://vive.sanpedro.gob.mx/evento/1202"
+    }
+   ],
+   "url": "https://vive.sanpedro.gob.mx/evento/1202",
+   "skey": "san pedro pinta|rotonda calzadas",
+   "id": "5a9d128c59b1",
+   "dates": [
+    {
+     "start": "2026-11-08T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1202"
+    },
+    {
+     "start": "2026-11-15T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1203"
+    },
+    {
+     "start": "2026-11-22T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1204"
+    },
+    {
+     "start": "2026-11-29T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1205"
+    },
+    {
+     "start": "2026-12-06T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1206"
+    },
+    {
+     "start": "2026-12-13T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1207"
+    },
+    {
+     "start": "2026-12-20T09:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1208"
+    }
+   ],
+   "firstSeen": "2026-10-11T12:26:52.848Z"
+  },
+  {
+   "title": "Yoga en Chipinque",
+   "end": "2026-12-27T09:00",
+   "venue": "Chipinque · Paraje Canoas",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": "https://chipinque-api-prod.onrender.com/media/events/ce9167ae-1f83-4213-8865-d4b2a9c598b2.webp",
+   "description": "Conexión cuerpo-naturaleza. Clases de yoga al aire libre en colaboración con Anahata Yoga. Practica entre los árboles del Paraje Canoas con vista a la sierra. Apto para todos los niveles.",
+   "start": "2026-11-08T09:00",
+   "sources": [
+    {
+     "id": "chipinque",
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    }
+   ],
+   "url": "https://www.chipinque.org.mx/inicio/eventos",
+   "skey": "yoga chipinque|chipinque paraje",
+   "id": "cd585786257a",
+   "dates": [
+    {
+     "start": "2026-11-08T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-15T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-22T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-29T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-06T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-13T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-20T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-27T09:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "Ludoteca La Montaña",
+   "end": "2026-12-27T11:00",
+   "venue": "Chipinque · Ludoteca La Montaña, Meseta",
+   "city": "San Pedro Garza García",
+   "category": "Familiar",
+   "price": null,
+   "image": "https://chipinque-api-prod.onrender.com/media/events/114c0a59-4d6e-4184-879b-f2da163dc00f.png",
+   "description": "Actividades creativas para niños. Espacio de actividades creativas y educativas para niños en un entorno natural. Cada domingo ofrece talleres de arte con materiales naturales, cuentacuentos del bosque, juegos ecológicos y manualidades inspiradas en la fauna de Chipinque.",
+   "start": "2026-11-08T11:00",
+   "sources": [
+    {
+     "id": "chipinque",
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    }
+   ],
+   "url": "https://www.chipinque.org.mx/inicio/eventos",
+   "skey": "ludoteca montana|chipinque ludoteca",
+   "id": "0d72feae3456",
+   "dates": [
+    {
+     "start": "2026-11-08T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-15T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-22T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-29T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-06T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-13T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-20T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-27T11:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "id": "1b809073fe6a",
    "skey": "coleccionables|foro urbano",
    "title": "COLECCIONABLES Y+ en Monterrey",
@@ -5185,6 +4327,69 @@
    ],
    "url": "https://arema.mx/e/20164-coleccionables-y-en-monterrey",
    "firstSeen": "2026-10-24T12:35:51.731Z"
+  },
+  {
+   "title": "Recorridos Guiados",
+   "end": "2026-12-27T12:00",
+   "venue": "Chipinque · Cobertizo Don Toño, Meseta",
+   "city": "San Pedro Garza García",
+   "category": "Experiencias",
+   "price": null,
+   "image": "https://chipinque-api-prod.onrender.com/media/events/1c01153f-34d6-48ac-ad2f-ac2d1d8f2be3.webp",
+   "description": "Caminata interpretativa en La Manzanita. Recorridos guiados interpretativos por el sendero La Manzanita en la zona de la Meseta. Un guía naturalista te acompañará para identificar la flora y fauna del bosque de encino-pino.",
+   "start": "2026-11-08T12:00",
+   "sources": [
+    {
+     "id": "chipinque",
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    }
+   ],
+   "url": "https://www.chipinque.org.mx/inicio/eventos",
+   "skey": "recorridos guiados|chipinque cobertizo",
+   "id": "982908fa7492",
+   "dates": [
+    {
+     "start": "2026-11-08T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-15T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-22T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-11-29T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-06T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-13T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-20T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    },
+    {
+     "start": "2026-12-27T12:00",
+     "end": null,
+     "url": "https://www.chipinque.org.mx/inicio/eventos"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "id": "071620b5b8be",
@@ -5251,6 +4456,65 @@
    "firstSeen": "2026-10-21T12:41:56.086Z"
   },
   {
+   "title": "Bailongo",
+   "start": "2026-11-08T15:00",
+   "end": "2026-12-20T19:00",
+   "venue": "Bajos del Palacio",
+   "address": "Presidencia Municipal de San Pedro Garza García, Calle Licenciado Benito Juárez, Casco Urbano, San Pedro Garza García, Nuevo León, 67286, México",
+   "city": "San Pedro Garza García",
+   "category": "Música",
+   "price": null,
+   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f12478f-976e-6470-a8e8-4eb9968e671d.png",
+   "description": "Bailes familiares con música en vivo",
+   "sources": [
+    {
+     "id": "sanpedro_vive",
+     "url": "https://vive.sanpedro.gob.mx/evento/1240"
+    }
+   ],
+   "url": "https://vive.sanpedro.gob.mx/evento/1240",
+   "skey": "bailongo|bajos palacio",
+   "id": "18b35435146c",
+   "dates": [
+    {
+     "start": "2026-11-08T15:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1240"
+    },
+    {
+     "start": "2026-11-15T15:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1241"
+    },
+    {
+     "start": "2026-11-22T15:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1242"
+    },
+    {
+     "start": "2026-11-29T15:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1243"
+    },
+    {
+     "start": "2026-12-06T15:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1244"
+    },
+    {
+     "start": "2026-12-13T15:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1245"
+    },
+    {
+     "start": "2026-12-20T15:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1246"
+    }
+   ],
+   "firstSeen": "2026-10-11T12:26:52.848Z"
+  },
+  {
    "id": "121f4bd50a2a",
    "skey": "festival acordeon hohner|foro corona",
    "title": "Festival del Acordeón Hohner 2026",
@@ -5298,16 +4562,21 @@
   {
    "id": "1d2df2851a90",
    "skey": "mundo fede vigevani|arena",
-   "title": "EL MUNDO DE FEDE VIGEVANI",
+   "title": "El Mundo de Fede Vigevani",
    "start": "2026-11-08T18:00",
-   "end": null,
+   "end": "2026-11-08T21:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/KyN4Q2WufKE8IX1YOuU6ag",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT143023.webp?v=20261028093802",
+   "image": "https://conciertosenmonterrey.com/media/2026/11/fede-vigevani-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "El Mundo de Fede Vigevani en Arena Monterrey, 8 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/fede-vigevani-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/KyN4Q2WufKE8IX1YOuU6ag"
@@ -5317,7 +4586,8 @@
      "url": "https://www.nuevoleon.travel/el-mundo-de-fede-vigevani/"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/KyN4Q2WufKE8IX1YOuU6ag",
+   "tickets": "https://www.superboletos.com/landing-evento/KyN4Q2WufKE8IX1YOuU6ag",
+   "url": "https://conciertosenmonterrey.com/cartelera/fede-vigevani-arena-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -5341,6 +4611,116 @@
    ],
    "url": "https://arema.mx/e/21553-horizonte-interior-travesia-coral-hacia-la-esperanza",
    "firstSeen": "2026-10-22T12:42:57.169Z"
+  },
+  {
+   "title": "LA SEÑORITA JULIA Teatro",
+   "start": "2026-11-08T18:30",
+   "end": "2026-11-29T20:00",
+   "venue": "Casa Musa",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$450",
+   "tickets": "https://casamusa.janto4.mx/espectaculo/la-senorita-julia/SENORITAJULIA",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/Senorita-Julia.jpg",
+   "description": "Calificación promedio Aún no hay calificación En una noche de San Juan, JULIA, una joven aristócrata, se deja llevar por el deseo y la transgresión. Entre ella y Juan, su criado, se desata un juego de seducción, poder y lucha de clases que llevará sus límites hasta las últimas consecuencias. Duración 90 minutos sin intermedio Público al que va dirigido Solo adultos, mayores de 18 años Créditos Autor AUGUST STRINDBERG, direccion HERNÁN GALINDO, con LUDYVINA VELARDE, MIKE MONTFORT, ZIUI MONRAZ Casa Musa · Monterrey 25 oct de 2026 · 18:30 h 1 nov de 2026 · 18:30 h 8 nov de 2026 · 18:30 h 15 nov…",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-08/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-08/",
+   "skey": "senorita julia teatro|casa musa",
+   "id": "d835dcd0c613",
+   "dates": [
+    {
+     "start": "2026-11-08T18:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-08/"
+    },
+    {
+     "start": "2026-11-15T18:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-15/"
+    },
+    {
+     "start": "2026-11-22T18:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-22/"
+    },
+    {
+     "start": "2026-11-29T18:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/la-senorita-julia-teatro/2026-11-29/"
+    }
+   ],
+   "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
+   "title": "Música en el parque",
+   "start": "2026-11-08T19:00",
+   "end": "2026-12-20T20:00",
+   "venue": "Parque Bosques del Valle",
+   "address": "Calle Bosques de los Pirineos, Bosques del Valle, San Pedro Garza García, Nuevo León, 66268, México",
+   "city": "San Pedro Garza García",
+   "category": "Música",
+   "price": "Entrada libre",
+   "image": "https://minio-spgg-api.sanpedro.gob.mx/spgg-calendario/eventos/1f124794-ee1c-6e20-94b0-14c57260ca73.png",
+   "description": "Conciertos de música en vivo en el parque Entrada libre*",
+   "sources": [
+    {
+     "id": "sanpedro_vive",
+     "url": "https://vive.sanpedro.gob.mx/evento/1278"
+    },
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/temporada-de-musica-2026-i-horizonte-interior-travesia-coral-hacia-la-esperanza/"
+    }
+   ],
+   "free": true,
+   "freeVia": "Vive San Pedro",
+   "url": "https://vive.sanpedro.gob.mx/evento/1278",
+   "skey": "musica parque|parque bosques",
+   "id": "bdf7c718def3",
+   "dates": [
+    {
+     "start": "2026-11-08T19:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1278"
+    },
+    {
+     "start": "2026-11-15T19:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1279"
+    },
+    {
+     "start": "2026-11-22T19:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1280"
+    },
+    {
+     "start": "2026-11-29T19:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1281"
+    },
+    {
+     "start": "2026-12-06T19:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1282"
+    },
+    {
+     "start": "2026-12-13T19:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1283"
+    },
+    {
+     "start": "2026-12-20T19:00",
+     "end": null,
+     "url": "https://vive.sanpedro.gob.mx/evento/1284"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-10-20T12:41:33.774Z"
   },
   {
    "id": "ebc02855ee9f",
@@ -5554,20 +4934,26 @@
    "skey": "leire martinez|escenario gnp",
    "title": "Leire Martínez",
    "start": "2026-11-10T21:00",
-   "end": null,
+   "end": "2026-11-11T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/a51/b809dcd6-44a9-4df2-bcec-f255455c0a51_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/leire-martinez-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Leire Martínez en Escenario GNP Seguros, 10 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/leire-martinez-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/leire-martinez-monterrey-10-11-2026/event/140064C2E14609A1"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/leire-martinez-monterrey-10-11-2026/event/140064C2E14609A1",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/leire-martinez-escenario-gnp-seguros-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -6293,42 +5679,48 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "title": "Matute - Disco Stereo Tour",
+   "title": "Matute",
    "start": "2026-11-13T21:00",
-   "end": "2026-11-14T21:00",
+   "end": "2026-11-15T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/739/88645416-a38e-4a1a-8e56-b625d0742739_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/matute-13-noviembre-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Matute en Escenario GNP Seguros, 13 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/matute-13-noviembre-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F"
     },
     {
      "id": "allevents",
-     "url": "https://allevents.in/monterrey/matute-disco-stereo-tour/210009297125079"
+     "url": "https://allevents.in/monterrey/matute/200029983971949"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F",
-   "skey": "matute disco stereo|escenario gnp",
-   "id": "2b993635159f",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/matute-13-noviembre-escenario-gnp-seguros-monterrey-2026",
+   "skey": "matute|escenario gnp",
+   "id": "2aae75e38d20",
    "dates": [
     {
      "start": "2026-11-13T21:00",
-     "end": null,
-     "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-13-11-2026/event/140064469724529F"
+     "end": "2026-11-14T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/matute-13-noviembre-escenario-gnp-seguros-monterrey-2026"
     },
     {
      "start": "2026-11-14T21:00",
-     "end": null,
-     "url": "https://allevents.in/monterrey/matute-disco-stereo-tour/210009297125079"
+     "end": "2026-11-15T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/matute"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z",
-   "moreDatesAt": "2026-10-31T12:47:31.707Z"
+   "moreDatesAt": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "24055a443aa8",
@@ -6485,7 +5877,7 @@
    "end": "2027-01-23T23:30",
    "price": "$800 – $1,450",
    "demand": "alta",
-   "demandWhy": "últimos boletos",
+   "demandWhy": "funciones agotadas",
    "sources": [
     {
      "id": "fever",
@@ -6509,8 +5901,8 @@
      "start": "2026-11-14T19:30",
      "end": null,
      "url": "https://feverup.com/m/739221",
-     "avail": "ultimos",
-     "left": 4
+     "avail": "agotado",
+     "left": 0
     },
     {
      "start": "2026-11-14T22:00",
@@ -6680,13 +6072,19 @@
    "skey": "dimash qudaibergen|auditorio banamex",
    "title": "Dimash Qudaibergen",
    "start": "2026-11-14T20:00",
-   "end": null,
+   "end": "2026-11-14T23:00",
    "venue": "Auditorio Banamex",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/c93/23ed7a09-a2aa-4ff3-8caa-20cd8f88bc93_RETINA_LANDSCAPE_16_9.jpg",
+   "image": "https://conciertosenmonterrey.com/media/2026/09/dimash-qudaibergen-monterrey-2026-scaled.jpg",
+   "genre": null,
+   "description": "Dimash Qudaibergen en Auditorio Banamex, 14 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/dimash-qudaibergen-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/dimash-qudaibergen-monterrey-14-11-2026/event/140064C3D88BD9DB"
@@ -6696,7 +6094,7 @@
      "url": "https://allevents.in/monterrey/dimash-qudaibergen/210006111996745"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/dimash-qudaibergen-monterrey-14-11-2026/event/140064C3D88BD9DB",
+   "url": "https://conciertosenmonterrey.com/cartelera/dimash-qudaibergen-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -6802,7 +6200,7 @@
      "start": "2027-01-16T21:00",
      "end": null,
      "url": "https://feverup.com/m/392211",
-     "price": "$520 – $1,230"
+     "price": "$520 – $1,380"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
@@ -6883,34 +6281,25 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "494617fc0136",
-   "skey": "matute|escenario gnp",
-   "title": "Matute",
+   "id": "4d7414d88c2a",
+   "skey": "matute disco stereo|escenario gnp",
+   "title": "Matute - Disco Stereo Tour",
    "start": "2026-11-14T21:00",
-   "end": "2026-11-15T00:00",
+   "end": null,
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/04/671828228_18450942970107544_2110544211952961795_n.jpg",
-   "genre": null,
-   "description": "Matute en Escenario GNP Seguros, 14 de noviembre, 2026. Consulta toda la información y compra boletos.",
    "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8xYmViNDRkMmJjOTAzODU0NTg5MTZjNTBmOTFiMzM2ZDE4Y2NhZWIzYWY5Yjk1NzJiZGQwMTQ2MmZhNTFkMWI2LXJpbWctdzEwMjQtaDU3Ni1kYzAxMDAwMS1nbWlyLmpwZz92PTE3Nzk3OTg0MzU.avif",
    "sources": [
     {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/matute"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/matute-disco-stereo-tour-monterrey-14-11-2026/event/1400644698215498"
-    },
-    {
      "id": "allevents",
-     "url": "https://allevents.in/monterrey/matute/200029983971949"
+     "url": "https://allevents.in/monterrey/matute-disco-stereo-tour/210009297125079"
     }
    ],
-   "url": "https://conciertosenmonterrey.com/cartelera/matute",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "url": "https://allevents.in/monterrey/matute-disco-stereo-tour/210009297125079",
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-10-31T12:47:31.707Z"
   },
   {
    "id": "82adba10faac",
@@ -6961,20 +6350,26 @@
    "skey": "caravana amor|escenario gnp",
    "title": "La Caravana del Amor",
    "start": "2026-11-15T19:00",
-   "end": null,
+   "end": "2026-11-15T22:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/218/bbbbd558-222d-49f6-875e-3f0f34c92218_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/la-caravana-del-amor-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "La Caravana del Amor en Escenario GNP Seguros, 15 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/la-caravana-del-amor-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/la-caravana-del-amor-monterrey-15-11-2026/event/1400644BBDF6AC79"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/la-caravana-del-amor-monterrey-15-11-2026/event/1400644BBDF6AC79",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/la-caravana-del-amor-escenario-gnp-seguros-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -7179,17 +6574,23 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "a778b1d3ed64",
-   "skey": "hwang youp fan meeting|escenario gnp",
-   "title": "2026 Hwang In Youp FAN MEETING TOUR in MONTERREY",
+   "id": "55b7cc96cedf",
+   "skey": "hwang youp|escenario gnp",
+   "title": "Hwang In Youp",
    "start": "2026-11-17T20:00",
-   "end": null,
+   "end": "2026-11-17T23:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/808/4b378b13-0025-490c-b2f8-63a22e469808_RETINA_LANDSCAPE_16_9.jpg",
+   "image": "https://conciertosenmonterrey.com/media/2026/11/hwang-in-youp-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Hwang In Youp en Escenario GNP Seguros, 17 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/hwang-in-youp-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/2026-hwang-in-youp-fan-meeting-monterrey-17-11-2026/event/1400652CE7CAB10F"
@@ -7199,8 +6600,8 @@
      "url": "https://allevents.in/monterrey/2026-hwang-in-youp-fan-meeting-tour-in-monterrey/210003572821618"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/2026-hwang-in-youp-fan-meeting-monterrey-17-11-2026/event/1400652CE7CAB10F",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "url": "https://conciertosenmonterrey.com/cartelera/hwang-in-youp-escenario-gnp-seguros-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "440329674708",
@@ -7271,28 +6672,33 @@
    "firstSeen": "2026-10-15T12:42:21.274Z"
   },
   {
-   "id": "f529088c2712",
-   "skey": "beele borondo|arena",
-   "title": "BEELE BORONDO TOUR",
+   "id": "442114d3c1fe",
+   "skey": "beele|arena",
+   "title": "Beéle",
    "start": "2026-11-17T21:00",
-   "end": null,
+   "end": "2026-11-18T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/YUhnlFvwxAjlfzWMwamcjQ",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT142505.webp?v=20260901125512",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/beele-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Beéle en Arena Monterrey, 17 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/beele-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/YUhnlFvwxAjlfzWMwamcjQ"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/YUhnlFvwxAjlfzWMwamcjQ",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "tickets": "https://www.superboletos.com/landing-evento/YUhnlFvwxAjlfzWMwamcjQ",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/beele-arena-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "5b439baa8693",
@@ -7315,28 +6721,33 @@
    "firstSeen": "2026-10-24T12:35:51.731Z"
   },
   {
-   "id": "18029e55ec5f",
-   "skey": "ricardo montaner ultimo regreso|arena",
-   "title": "RICARDO MONTANER- EL ÚLTIMO REGRESO TOUR",
+   "id": "f9b0d7220bd6",
+   "skey": "ricardo montaner|arena",
+   "title": "Ricardo Montaner",
    "start": "2026-11-18T21:00",
-   "end": null,
+   "end": "2026-11-19T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/-PtLHZAe12_Zfp8ds7EMQw",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT142843.webp?v=20261021160350",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/ricardo-montaner-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Ricardo Montaner en Arena Monterrey, 18 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/ricardo-montaner-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/-PtLHZAe12_Zfp8ds7EMQw"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/-PtLHZAe12_Zfp8ds7EMQw",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "tickets": "https://www.superboletos.com/landing-evento/-PtLHZAe12_Zfp8ds7EMQw",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/ricardo-montaner-arena-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "9c53fef3eb8d",
@@ -7445,13 +6856,19 @@
    "skey": "caloncho|escenario gnp",
    "title": "Caloncho",
    "start": "2026-11-19T21:00",
-   "end": null,
+   "end": "2026-11-20T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/5d7/7f16ad95-d4b3-4843-8698-239800f4f5d7_RETINA_LANDSCAPE_16_9.jpg",
+   "image": "https://conciertosenmonterrey.com/media/2026/11/caloncho-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Caloncho en Escenario GNP Seguros, 19 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/caloncho-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/caloncho-monterrey-19-11-2026/event/14006453E269576B"
@@ -7461,7 +6878,7 @@
      "url": "https://allevents.in/monterrey/caloncho/210007543075641"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/caloncho-monterrey-19-11-2026/event/14006453E269576B",
+   "url": "https://conciertosenmonterrey.com/cartelera/caloncho-escenario-gnp-seguros-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -7564,7 +6981,7 @@
      "end": null,
      "url": "https://feverup.com/m/114535",
      "avail": "ultimos",
-     "left": 49
+     "left": 43
     },
     {
      "start": "2026-12-19T21:00",
@@ -8087,13 +7504,19 @@
    "skey": "molotov|escenario gnp",
    "title": "Molotov",
    "start": "2026-11-21T21:00",
-   "end": null,
+   "end": "2026-11-22T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/9eb/c3839c32-0eef-41c1-bf81-2cf87724d9eb_RETINA_LANDSCAPE_16_9.jpg",
+   "image": "https://conciertosenmonterrey.com/media/2026/11/molotov-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Molotov en Escenario GNP Seguros, 21 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/molotov-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/molotov-monterrey-21-11-2026/event/14006488DF2AF3CC"
@@ -8103,7 +7526,7 @@
      "url": "https://allevents.in/monterrey/molotov/200030300561111"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/molotov-monterrey-21-11-2026/event/14006488DF2AF3CC",
+   "url": "https://conciertosenmonterrey.com/cartelera/molotov-escenario-gnp-seguros-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -8245,25 +7668,30 @@
   {
    "id": "8dcae23d148f",
    "skey": "xlov|showcenter complex",
-   "title": "XLOV EN MONTERREY",
+   "title": "XLOV",
    "start": "2026-11-22T21:00",
-   "end": null,
+   "end": "2026-11-23T00:00",
    "venue": "Showcenter Complex",
    "city": "San Pedro Garza García",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/8n9MFxbOXwPDv7TSFxK7vA",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT148183.webp?v=20260730165117",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/xlov-monterrey-2026.jpg",
+   "genre": null,
+   "description": "XLOV en Showcenter Complex, 22 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/xlov-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/8n9MFxbOXwPDv7TSFxK7vA"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/8n9MFxbOXwPDv7TSFxK7vA",
+   "tickets": "https://www.superboletos.com/landing-evento/8n9MFxbOXwPDv7TSFxK7vA",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/xlov-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -8765,9 +8193,12 @@
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/maria-jose-monterrey-27-11-2026/event/140064F5F5AAEB37"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/maria-jose/210006667245650"
     }
    ],
-   "onsale": null,
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-maria-jose-auditorio-banamex-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -8841,7 +8272,7 @@
      "end": null,
      "url": "https://feverup.com/m/653913",
      "avail": "ultimos",
-     "left": 29
+     "left": 24
     },
     {
      "start": "2026-11-28T18:30",
@@ -9053,25 +8484,31 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "96ee1a615db8",
-   "skey": "gusana ciega claroscuro|escenario gnp",
-   "title": "La Gusana Ciega - Claroscuro",
+   "id": "1c42862c1c9d",
+   "skey": "gusana ciega|escenario gnp",
+   "title": "La Gusana Ciega",
    "start": "2026-11-28T21:00",
-   "end": null,
+   "end": "2026-11-29T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/4ad/4984a6b9-09d7-42b0-ba25-2412caa544ad_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/la-gusana-ciega-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "La Gusana Ciega en Escenario GNP Seguros, 28 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/la-gusana-ciega-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/la-gusana-ciega-claroscuro-monterrey-28-11-2026/event/140064A5985E5EC9"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/la-gusana-ciega-claroscuro-monterrey-28-11-2026/event/140064A5985E5EC9",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/la-gusana-ciega-escenario-gnp-seguros-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "2fa04cfbaf1c",
@@ -9187,28 +8624,33 @@
    "firstSeen": "2026-10-28T12:53:26.477Z"
   },
   {
-   "id": "c2b55e9897bf",
-   "skey": "payasonicos 25 aniversario|arena",
-   "title": "LOS PAYASÓNICOS-25 ANIVERSARIO",
+   "id": "e532e0325e7e",
+   "skey": "payasonicos|arena",
+   "title": "Los Payasónicos",
    "start": "2026-11-29T18:00",
-   "end": null,
+   "end": "2026-11-29T21:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/nJgQMGTy-bxuxreQObZBig",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT150003.webp?v=20260904092618",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/los-payasonicos-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Los Payasónicos en Arena Monterrey, 29 de noviembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/los-payasonicos-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/nJgQMGTy-bxuxreQObZBig"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/nJgQMGTy-bxuxreQObZBig",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "tickets": "https://www.superboletos.com/landing-evento/nJgQMGTy-bxuxreQObZBig",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/los-payasonicos-arena-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "0b6ab6e2059f",
@@ -9486,21 +8928,27 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "title": "Hermanos De Leche",
+   "title": "Hermanos de Leche",
    "start": "2026-12-04T21:00",
-   "end": "2026-12-05T21:00",
+   "end": "2026-12-06T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/7d7/1c54a5e7-446f-40ef-9622-2a35195ab7d7_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/hermanos-de-leche-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Hermanos de Leche en Escenario GNP Seguros, 5 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/hermanos-de-leche-monterrey-04-12-2026/event/1400651CD4AE3204"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/hermanos-de-leche-escenario-gnp-seguros-monterrey-2026"
     }
    ],
+   "onsale": null,
    "url": "https://www.ticketmaster.com.mx/hermanos-de-leche-monterrey-04-12-2026/event/1400651CD4AE3204",
    "skey": "hermanos leche|escenario gnp",
    "id": "b059f92d9fb0",
@@ -9512,8 +8960,8 @@
     },
     {
      "start": "2026-12-05T21:00",
-     "end": null,
-     "url": "https://www.ticketmaster.com.mx/hermanos-de-leche-monterrey-05-12-2026/event/1400651CD65F3979"
+     "end": "2026-12-06T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/hermanos-de-leche-escenario-gnp-seguros-monterrey-2026"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z",
@@ -9642,7 +9090,7 @@
      "end": null,
      "url": "https://feverup.com/m/577933",
      "avail": "ultimos",
-     "left": 24
+     "left": 22
     },
     {
      "start": "2026-12-05T21:30",
@@ -9912,25 +9360,30 @@
   {
    "id": "d1e03cb4ab3a",
    "skey": "navidad lara campos|arena",
-   "title": "NAVIDAD CON LARA CAMPOS",
+   "title": "Navidad con Lara Campos",
    "start": "2026-12-06T17:30",
-   "end": null,
+   "end": "2026-12-06T20:30",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/-BUpox0Kbyf44C1tKBZFZg",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT150264.webp?v=20260911142131",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/navidad-lara-campos-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Navidad con Lara Campos en Arena Monterrey, 6 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/navidad-lara-campos-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/-BUpox0Kbyf44C1tKBZFZg"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/-BUpox0Kbyf44C1tKBZFZg",
+   "tickets": "https://www.superboletos.com/landing-evento/-BUpox0Kbyf44C1tKBZFZg",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/navidad-lara-campos-arena-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -9960,25 +9413,30 @@
   {
    "id": "5fcf059e4d33",
    "skey": "aew dynamite collision|arena",
-   "title": "AEW DYNAMITE & COLLISION",
+   "title": "AEW Dynamite & Collision",
    "start": "2026-12-09T18:30",
-   "end": null,
+   "end": "2026-12-09T21:30",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/odus6xZTs2byVCpucxm-Ag",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT151303.webp?v=20261009171439",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/aew-dynamite-collision-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "AEW Dynamite & Collision en Arena Monterrey, 9 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/aew-dynamite-collision-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/odus6xZTs2byVCpucxm-Ag"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/odus6xZTs2byVCpucxm-Ag",
+   "tickets": "https://www.superboletos.com/landing-evento/odus6xZTs2byVCpucxm-Ag",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/aew-dynamite-collision-arena-monterrey-2026",
    "firstSeen": "2026-10-17T12:35:16.355Z"
   },
   {
@@ -10006,22 +9464,28 @@
   {
    "id": "912bd99788c5",
    "skey": "earth wind fire experience by mckay|escenario gnp",
-   "title": "Earth Wind & Fire Experience By Al McKay",
+   "title": "Earth Wind & Fire Experience by Al McKay",
    "start": "2026-12-09T20:30",
-   "end": null,
+   "end": "2026-12-09T23:30",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Experiencias",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/4a5/2aa89255-9322-414a-ad91-d5a3e9b7b4a5_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Earth Wind & Fire Experience by Al McKay en Escenario GNP Seguros, 9 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/earth-wind-fire-experience-by-al-monterrey-09-12-2026/event/140065369AE262BC"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/earth-wind-fire-experience-by-al-monterrey-09-12-2026/event/140065369AE262BC",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -10104,25 +9568,65 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "f6e90ee3ece3",
-   "skey": "negro gzz aferra2 origen|escenario gnp",
-   "title": "Negro Gzz y los Aferra2: El origen",
+   "id": "b0adcbb53e2f",
+   "skey": "negro gzz aferra2|escenario gnp",
+   "title": "Negro Gzz y los Aferra2",
    "start": "2026-12-10T21:30",
-   "end": null,
+   "end": "2026-12-11T00:30",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/b56/8b4977c9-1fa0-4859-b85b-0f3a9124bb56_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/negro-gzz-y-los-aferra2-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Negro Gzz y los Aferra2 en Escenario GNP Seguros, 10 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/negro-gzz-y-los-aferra2-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/negro-gzz-y-los-aferra2-el-monterrey-10-12-2026/event/14006539F5689804"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/negro-gzz-y-los-aferra2-el-monterrey-10-12-2026/event/14006539F5689804",
-   "firstSeen": "2026-10-09T12:28:04.203Z"
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/negro-gzz-y-los-aferra2-escenario-gnp-seguros-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
+  },
+  {
+   "title": "El Hombre Almohada especial navideño en Monterrey",
+   "venue": "Casa Motis",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21674-el-hombre-almohada-especial-navideno-en-monterrey",
+   "image": null,
+   "description": "*EL HOMBRE ALMOHADA* Especial Teatral Navideño Un escritor se encuentra en un interrogatorio brutal porque alguien ha decidido hacer realidad las grotescas historias que ha escrito por años. Desafortunadamente, la vida de inocentes niños está en riesgo y el tiempo corre en contra de los investigadores que buscan, más que respuestas, a los niños desaparecidos! Fecha: 11 de diciembre 2026 Hora: 16:00 y 19:30 hrs Lugar: Casa Motis Dirección del evento: C. Padre Raymundo Jardón 910, Centro, 64000 Monterrey, N.L.",
+   "start": "2026-12-11T16:00",
+   "end": "2026-12-11T20:00",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21674-el-hombre-almohada-especial-navideno-en-monterrey"
+    }
+   ],
+   "url": "https://arema.mx/e/21674-el-hombre-almohada-especial-navideno-en-monterrey",
+   "skey": "hombre almohada especial navideno|casa motis",
+   "id": "ce4c72322e65",
+   "dates": [
+    {
+     "start": "2026-12-11T16:00",
+     "end": null,
+     "url": "https://arema.mx/e/21674-el-hombre-almohada-especial-navideno-en-monterrey"
+    },
+    {
+     "start": "2026-12-11T19:30",
+     "end": null,
+     "url": "https://arema.mx/e/21674-el-hombre-almohada-especial-navideno-en-monterrey"
+    }
+   ],
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "title": "El Cascanueces · Ballet de Monterrey",
@@ -10245,28 +9749,33 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "fa037df87940",
-   "skey": "jesse joy quien se queda reno|arena",
-   "title": "JESSE & JOY ¿CON QUIEN SE QUEDA EL RENO?",
+   "id": "a6ea016a4b0c",
+   "skey": "jesse joy|arena",
+   "title": "Jesse & Joy",
    "start": "2026-12-11T21:00",
-   "end": null,
+   "end": "2026-12-12T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/Ezm7zY2HZxRJCKf1GGTJhw",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT150447.webp?v=20260929112326",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/jesse-y-joy-arena-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Jesse & Joy en Arena Monterrey, 11 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/jesse-y-joy-arena-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/Ezm7zY2HZxRJCKf1GGTJhw"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/Ezm7zY2HZxRJCKf1GGTJhw",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "tickets": "https://www.superboletos.com/landing-evento/Ezm7zY2HZxRJCKf1GGTJhw",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/jesse-y-joy-arena-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "2f399e8bf762",
@@ -10492,47 +10001,58 @@
   {
    "id": "26f9aa2f2de7",
    "skey": "esfinge|showcenter complex",
-   "title": "LA ESFINGE",
+   "title": "La Esfinge",
    "start": "2026-12-12T21:00",
-   "end": null,
+   "end": "2026-12-13T00:00",
    "venue": "Showcenter Complex",
    "city": "San Pedro Garza García",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/NxhKuxtfG9Flx-n2StQcRQ",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT149183.webp?v=20260827100015",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/la-esfinge-monterrey-2026.jpg",
+   "genre": null,
+   "description": "La Esfinge en Showcenter Complex, 12 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/la-esfinge-monterrey-2026"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/NxhKuxtfG9Flx-n2StQcRQ"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/NxhKuxtfG9Flx-n2StQcRQ",
+   "tickets": "https://www.superboletos.com/landing-evento/NxhKuxtfG9Flx-n2StQcRQ",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/la-esfinge-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "90b3d48f77ad",
-   "skey": "plim plim vivo energia musical especial navidad|escenario gnp",
-   "title": "Plim Plim en Vivo \"Energía Musical\" Especial Navidad",
+   "id": "284a503cfef2",
+   "skey": "plim plim|escenario gnp",
+   "title": "Plim Plim",
    "start": "2026-12-13T16:00",
-   "end": null,
+   "end": "2026-12-13T19:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/51d/7cffd959-905a-4438-a974-faf59d8d951d_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/plim-plim-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Plim Plim en Escenario GNP Seguros, 13 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/plim-plim-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/plim-plim-en-vivo-energia-musical-monterrey-13-12-2026/event/14006555B5A4A119"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/plim-plim-en-vivo-energia-musical-monterrey-13-12-2026/event/14006555B5A4A119",
-   "firstSeen": "2026-10-23T12:38:48.452Z"
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/plim-plim-escenario-gnp-seguros-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "c6094dfbb0ad",
@@ -10577,11 +10097,13 @@
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/wBQtvaw0vRL0L06JEV5cnw"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/deep-purple-monterrey-tickets/100029698670508"
     }
    ],
    "tickets": "https://www.superboletos.com/landing-evento/wBQtvaw0vRL0L06JEV5cnw",
-   "onsale": null,
-   "promo": null,
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-deep-purple-arena-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -10751,6 +10273,28 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "851d019e1c4f",
+   "skey": "ricardo farrill|escenario gnp",
+   "title": "Ricardo O’Farrill",
+   "start": "2026-12-18T21:00",
+   "end": "2026-12-19T00:00",
+   "venue": "Escenario GNP Seguros",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/ricardo-ofarrill-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Ricardo O’Farrill en Escenario GNP Seguros, 18 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/ricardo-ofarrill-escenario-gnp-seguros-monterrey-2026"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/ricardo-ofarrill-escenario-gnp-seguros-monterrey-2026",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
+  },
+  {
    "id": "e7ec26e92ddc",
    "skey": "ricardo farril|escenario gnp",
    "title": "Ricardo O´farril",
@@ -10902,20 +10446,26 @@
    "skey": "palominos|escenario gnp",
    "title": "Los Palominos",
    "start": "2026-12-19T21:00",
-   "end": null,
+   "end": "2026-12-20T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/d1f/109b2277-00bd-4a95-813e-7cec6b933d1f_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/los-palominos-escenario-gnp-seguros-monterrey-2026.jpg",
+   "genre": null,
+   "description": "Los Palominos en Escenario GNP Seguros, 19 de diciembre, 2026. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/los-palominos-escenario-gnp-seguros-monterrey-2026"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/los-palominos-monterrey-19-12-2026/event/1400652AA80D7CE1"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/los-palominos-monterrey-19-12-2026/event/1400652AA80D7CE1",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/los-palominos-escenario-gnp-seguros-monterrey-2026",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -11112,20 +10662,26 @@
    "skey": "apocalyptica|escenario gnp",
    "title": "Apocalyptica",
    "start": "2027-01-14T21:00",
-   "end": null,
+   "end": "2027-01-15T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/c6e/63eced0d-8627-489e-9dd2-1f6d0236dc6e_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/apocalyptica-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Apocalyptica en Escenario GNP Seguros, 14 de enero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/apocalyptica-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/apocalyptica-monterrey-14-01-2027/event/140064B08C9D56BC"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/apocalyptica-monterrey-14-01-2027/event/140064B08C9D56BC",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/apocalyptica-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -11227,20 +10783,26 @@
    "skey": "fangoria|escenario gnp",
    "title": "Fangoria",
    "start": "2027-01-22T21:00",
-   "end": null,
+   "end": "2027-01-23T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/47c/bab4a9e1-2562-40d2-ba27-1745844fc47c_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/fangoria-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Fangoria en Escenario GNP Seguros, 22 de enero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/fangoria-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/fangoria-monterrey-22-01-2027/event/140064F0D4F2DC05"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/fangoria-monterrey-22-01-2027/event/140064F0D4F2DC05",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/fangoria-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -11292,20 +10854,26 @@
    "skey": "avatar|escenario gnp",
    "title": "Avatar",
    "start": "2027-01-23T21:00",
-   "end": null,
+   "end": "2027-01-24T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/797/4a131eea-b700-4399-851c-9814031c7797_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/avatar-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Avatar en Escenario GNP Seguros, 23 de enero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/avatar-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/avatar-monterrey-23-01-2027/event/140064FEC37A66BD"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/avatar-monterrey-23-01-2027/event/140064FEC37A66BD",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/avatar-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -11438,20 +11006,26 @@
    "skey": "carlos sadness|escenario gnp",
    "title": "Carlos Sadness",
    "start": "2027-01-30T21:00",
-   "end": null,
+   "end": "2027-01-31T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/fe3/b44f131f-f928-43a6-bfae-fa9fdcf31fe3_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/carlos-sadness-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Carlos Sadness en Escenario GNP Seguros, 30 de enero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/carlos-sadness-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/carlos-sadness-monterrey-30-01-2027/event/14006522BDF5B6AA"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/carlos-sadness-monterrey-30-01-2027/event/14006522BDF5B6AA",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/carlos-sadness-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -11498,28 +11072,33 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "93263afa02c9",
-   "skey": "ramon ayala historia un final|arena",
-   "title": "RAMON AYALA - HISTORIA DE UN FINAL",
+   "id": "f3a449dac56a",
+   "skey": "ramon ayala|arena",
+   "title": "Ramón Ayala",
    "start": "2027-02-05T21:00",
-   "end": null,
+   "end": "2027-02-06T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/-CC_EAjskhd871ODwdB12A",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT139403.webp?v=20261014174619",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/ramon-ayala-arena-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Ramón Ayala en Arena Monterrey, 5 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/ramon-ayala-arena-monterrey-2027"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/-CC_EAjskhd871ODwdB12A"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/-CC_EAjskhd871ODwdB12A",
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "tickets": "https://www.superboletos.com/landing-evento/-CC_EAjskhd871ODwdB12A",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/ramon-ayala-arena-monterrey-2027",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "421cdccc4a66",
@@ -11555,20 +11134,26 @@
    "skey": "espinoza paz|auditorio banamex",
    "title": "Espinoza Paz",
    "start": "2027-02-06T21:00",
-   "end": null,
+   "end": "2027-02-07T00:00",
    "venue": "Auditorio Banamex",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/de7/3ab0aefd-1fae-4fe5-b3e9-ddaf69aedde7_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/09/espinoza-paz-auditorio-banamex-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Espinoza Paz en Auditorio Banamex, 6 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/espinoza-paz-auditorio-banamex-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/espinoza-paz-monterrey-06-02-2027/event/14006523D7ED70D2"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/espinoza-paz-monterrey-06-02-2027/event/14006523D7ED70D2",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/espinoza-paz-auditorio-banamex-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -11616,6 +11201,45 @@
    ],
    "url": "https://www.superboletos.com/landing-evento/7--glFPMLZJeN10KLsZoKg",
    "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
+   "title": "Duelo",
+   "start": "2027-02-12T21:00",
+   "end": "2027-02-13T21:30",
+   "venue": "Arena Monterrey",
+   "city": "",
+   "price": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/duelo-arena-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Duelo en Arena Monterrey, 12 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
+   "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/duelo-arena-monterrey-2027"
+    },
+    {
+     "id": "superboletos",
+     "url": "https://www.superboletos.com/landing-evento/oTu4qzmNDVnayN_F4vg0ew"
+    }
+   ],
+   "url": "https://conciertosenmonterrey.com/cartelera/duelo-arena-monterrey-2027",
+   "skey": "duelo|arena",
+   "id": "af8309b75e27",
+   "dates": [
+    {
+     "start": "2027-02-12T21:00",
+     "end": "2027-02-13T00:00",
+     "url": "https://conciertosenmonterrey.com/cartelera/duelo-arena-monterrey-2027"
+    },
+    {
+     "start": "2027-02-13T21:30",
+     "end": null,
+     "url": "https://www.superboletos.com/landing-evento/oTu4qzmNDVnayN_F4vg0ew"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "9e2dda08787c",
@@ -11684,30 +11308,6 @@
    "firstSeen": "2026-10-25T12:35:32.849Z"
   },
   {
-   "id": "6308cc2f74b9",
-   "skey": "duelo|arena",
-   "title": "DUELO EN CONCIERTO",
-   "start": "2027-02-13T21:30",
-   "end": null,
-   "venue": "Arena Monterrey",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/oTu4qzmNDVnayN_F4vg0ew",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT150203.webp?v=20260909134038",
-   "description": null,
-   "onsale": null,
-   "promo": null,
-   "sources": [
-    {
-     "id": "superboletos",
-     "url": "https://www.superboletos.com/landing-evento/oTu4qzmNDVnayN_F4vg0ew"
-    }
-   ],
-   "url": "https://www.superboletos.com/landing-evento/oTu4qzmNDVnayN_F4vg0ew",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "id": "776833d41f49",
    "skey": "parras arena|arena",
    "title": "LOS PARRAS EN ARENA MONTERREY",
@@ -11732,48 +11332,59 @@
    "firstSeen": "2026-10-31T12:47:31.707Z"
   },
   {
-   "id": "a6d73eb8251f",
-   "skey": "ana gabriel claro luna|arena",
-   "title": "ANA GABRIEL CLARO DE LUNA TOUR",
+   "id": "15cbf4e22519",
+   "skey": "ana gabriel|arena",
+   "title": "Ana Gabriel",
    "start": "2027-02-20T21:00",
-   "end": null,
+   "end": "2027-02-21T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/oInTPVjeE5-8_9HDVIUjEg",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT150243.webp?v=20261016160938",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/ana-gabriel-arena-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Ana Gabriel en Arena Monterrey, 20 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/ana-gabriel-arena-monterrey-2027"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/oInTPVjeE5-8_9HDVIUjEg"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/oInTPVjeE5-8_9HDVIUjEg",
-   "firstSeen": "2026-10-20T12:41:33.774Z"
+   "tickets": "https://www.superboletos.com/landing-evento/oInTPVjeE5-8_9HDVIUjEg",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/ana-gabriel-arena-monterrey-2027",
+   "firstSeen": "2026-11-02T13:02:44.220Z"
   },
   {
    "id": "7360fd1adb0a",
    "skey": "luis angel flaco|escenario gnp",
-   "title": "Luis Angel \"El Flaco\"",
+   "title": "Luis Ángel “El Flaco”",
    "start": "2027-02-20T21:00",
-   "end": null,
+   "end": "2027-02-21T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/576/96086095-9de1-4caf-a5ce-f06934b75576_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/luis-angel-el-flaco-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Luis Ángel “El Flaco” en Escenario GNP Seguros, 20 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/luis-angel-el-flaco-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/luis-angel-el-flaco-monterrey-20-02-2027/event/140064EB826A2542"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/luis-angel-el-flaco-monterrey-20-02-2027/event/140064EB826A2542",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/luis-angel-el-flaco-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -11832,22 +11443,28 @@
   {
    "id": "365681d37a8d",
    "skey": "undertale determination symphony|escenario gnp",
-   "title": "Undertale The determination Symphony",
+   "title": "Undertale: The Determination Symphony",
    "start": "2027-02-21T20:00",
-   "end": null,
+   "end": "2027-02-21T23:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/a/89f/cfc4e11c-9cb4-4c46-b44c-0140a127189f_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/undertale-the-determination-symphony-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Undertale: The Determination Symphony en Escenario GNP Seguros, 21 de febrero, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/undertale-the-determination-symphony-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/undertale-the-determination-symphony-monterrey-21-02-2027/event/14006512A5516325"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/undertale-the-determination-symphony-monterrey-21-02-2027/event/14006512A5516325",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/undertale-the-determination-symphony-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -12076,25 +11693,30 @@
   {
    "id": "e7b941f6be60",
    "skey": "camilo|arena",
-   "title": "CAMILO 2027",
+   "title": "Camilo",
    "start": "2027-03-06T21:00",
-   "end": null,
+   "end": "2027-03-07T00:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/Npqy34s7KfC_JExAs7R1Hg",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT138524.webp?v=20260831091523",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/camilo-arena-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Camilo en Arena Monterrey, 6 de marzo, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/camilo-arena-monterrey-2027"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/Npqy34s7KfC_JExAs7R1Hg"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/Npqy34s7KfC_JExAs7R1Hg",
+   "tickets": "https://www.superboletos.com/landing-evento/Npqy34s7KfC_JExAs7R1Hg",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/camilo-arena-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -12320,20 +11942,26 @@
    "skey": "lavoe sinfonico by joseph amado|escenario gnp",
    "title": "Lavoe Sinfónico by Joseph Amado",
    "start": "2027-03-26T21:00",
-   "end": null,
+   "end": "2027-03-27T00:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/98a/f4fb9274-64e6-4e78-968a-27585a09d98a_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/lavoe-sinfonico-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Lavoe Sinfónico by Joseph Amado en Escenario GNP Seguros, 26 de marzo, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/lavoe-sinfonico-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/lavoe-sinfonico-by-joseph-amado-monterrey-26-03-2027/event/140064E481FE356D"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/lavoe-sinfonico-by-joseph-amado-monterrey-26-03-2027/event/140064E481FE356D",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/lavoe-sinfonico-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -12363,25 +11991,30 @@
   {
    "id": "c345264d597b",
    "skey": "grupo ladron|arena",
-   "title": "GRUPO LADRON",
+   "title": "Grupo Ladrón",
    "start": "2027-04-03T20:00",
-   "end": null,
+   "end": "2027-04-03T23:00",
    "venue": "Arena Monterrey",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/U3PbFD-SK2_9xNPHb1Finw",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT146863.webp?v=20260709093916",
-   "description": null,
-   "onsale": null,
-   "promo": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/grupo-ladron-arena-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Grupo Ladrón en Arena Monterrey, 3 de abril, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/grupo-ladron-arena-monterrey-2027"
+    },
     {
      "id": "superboletos",
      "url": "https://www.superboletos.com/landing-evento/U3PbFD-SK2_9xNPHb1Finw"
     }
    ],
-   "url": "https://www.superboletos.com/landing-evento/U3PbFD-SK2_9xNPHb1Finw",
+   "tickets": "https://www.superboletos.com/landing-evento/U3PbFD-SK2_9xNPHb1Finw",
+   "onsale": null,
+   "promo": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/grupo-ladron-arena-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -12560,20 +12193,26 @@
    "skey": "pica pica|escenario gnp",
    "title": "Pica Pica",
    "start": "2027-04-30T19:00",
-   "end": null,
+   "end": "2027-04-30T22:00",
    "venue": "Escenario GNP Seguros",
    "city": "Monterrey",
-   "category": "Música",
    "price": null,
-   "image": "https://s1.ticketm.net/dam/e/017/bfeee4f3-431d-41da-b503-b12ca49e9017_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
+   "image": "https://conciertosenmonterrey.com/media/2026/11/pica-pica-escenario-gnp-seguros-monterrey-2027.jpg",
+   "genre": null,
+   "description": "Pica Pica en Escenario GNP Seguros, 30 de abril, 2027. Consulta toda la información y compra boletos.",
+   "category": "Música",
    "sources": [
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/pica-pica-escenario-gnp-seguros-monterrey-2027"
+    },
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/pica-pica-monterrey-30-04-2027/event/14006546BE1D9123"
     }
    ],
-   "url": "https://www.ticketmaster.com.mx/pica-pica-monterrey-30-04-2027/event/14006546BE1D9123",
+   "onsale": null,
+   "url": "https://conciertosenmonterrey.com/cartelera/pica-pica-escenario-gnp-seguros-monterrey-2027",
    "firstSeen": "2026-10-13T12:31:43.871Z"
   },
   {
