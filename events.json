@@ -1,84 +1,84 @@
 {
- "generatedAt": "2026-11-21T19:07:15.922Z",
+ "generatedAt": "2026-11-22T19:29:43.237Z",
  "timezone": "America/Monterrey",
- "total": 436,
+ "total": 410,
  "sources": [
   {
    "id": "cartelera_escenica",
    "name": "Cartelera Escénica",
    "home": "https://carteleraescenica.com/cartelera/",
    "ok": true,
-   "count": 66,
+   "count": 63,
    "error": null,
-   "checkedAt": "2026-11-21T19:03:58.614Z",
-   "lastSuccess": "2026-11-21T19:03:58.614Z",
-   "ms": 2671
+   "checkedAt": "2026-11-22T19:26:58.435Z",
+   "lastSuccess": "2026-11-22T19:26:58.435Z",
+   "ms": 2698
   },
   {
    "id": "arema",
    "name": "Arema",
    "home": "https://arema.mx/",
    "ok": true,
-   "count": 143,
+   "count": 136,
    "error": null,
-   "checkedAt": "2026-11-21T19:04:01.286Z",
-   "lastSuccess": "2026-11-21T19:04:01.286Z",
-   "ms": 25780
+   "checkedAt": "2026-11-22T19:27:01.134Z",
+   "lastSuccess": "2026-11-22T19:27:01.134Z",
+   "ms": 24655
   },
   {
    "id": "superboletos",
    "name": "SuperBoletos",
    "home": "https://www.superboletos.com/",
    "ok": true,
-   "count": 76,
+   "count": 75,
    "error": null,
-   "checkedAt": "2026-11-21T19:04:27.066Z",
-   "lastSuccess": "2026-11-21T19:04:27.066Z",
-   "ms": 333
+   "checkedAt": "2026-11-22T19:27:25.790Z",
+   "lastSuccess": "2026-11-22T19:27:25.790Z",
+   "ms": 286
   },
   {
    "id": "ticketmaster",
    "name": "Ticketmaster",
    "home": "https://www.ticketmaster.com.mx/discover/monterrey",
    "ok": true,
-   "count": 99,
+   "count": 94,
    "error": null,
-   "checkedAt": "2026-11-21T19:04:27.399Z",
-   "lastSuccess": "2026-11-21T19:04:27.399Z",
-   "ms": 536
+   "checkedAt": "2026-11-22T19:27:26.076Z",
+   "lastSuccess": "2026-11-22T19:27:26.076Z",
+   "ms": 470
   },
   {
    "id": "conciertos_mty",
    "name": "Conciertos en Monterrey",
    "home": "https://conciertosenmonterrey.com/cartelera",
    "ok": true,
-   "count": 60,
+   "count": 59,
    "error": null,
-   "checkedAt": "2026-11-21T19:04:27.935Z",
-   "lastSuccess": "2026-11-21T19:04:27.935Z",
-   "ms": 3190
+   "checkedAt": "2026-11-22T19:27:26.546Z",
+   "lastSuccess": "2026-11-22T19:27:26.546Z",
+   "ms": 3609
   },
   {
    "id": "conarte_agenda",
    "name": "CONARTE (agenda)",
    "home": "https://conarte.org.mx/agenda/",
    "ok": true,
-   "count": 89,
+   "count": 73,
    "error": null,
-   "checkedAt": "2026-11-21T19:04:31.125Z",
-   "lastSuccess": "2026-11-21T19:04:31.125Z",
-   "ms": 106919
+   "checkedAt": "2026-11-22T19:27:30.155Z",
+   "lastSuccess": "2026-11-22T19:27:30.155Z",
+   "ms": 88926
   },
   {
    "id": "cineteca",
    "name": "Cineteca Nuevo León",
    "home": "https://conarte.org.mx/cineteca/",
    "ok": true,
-   "count": 25,
+   "count": 18,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:18.045Z",
-   "lastSuccess": "2026-11-21T19:06:18.045Z",
-   "ms": 23036
+   "checkedAt": "2026-11-22T19:28:59.081Z",
+   "lastSuccess": "2026-11-22T19:28:59.081Z",
+   "ms": 12912
   },
   {
    "id": "santa_lucia",
@@ -87,20 +87,20 @@
    "ok": true,
    "count": 14,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:41.081Z",
-   "lastSuccess": "2026-11-21T19:06:41.081Z",
+   "checkedAt": "2026-11-22T19:29:11.993Z",
+   "lastSuccess": "2026-11-22T19:29:11.993Z",
    "ms": 1
   },
   {
    "id": "nuevoleon_travel",
    "name": "Nuevo León Travel",
    "home": "https://www.nuevoleon.travel/eventos/",
-   "ok": true,
-   "count": 1,
-   "error": null,
-   "checkedAt": "2026-11-21T19:06:41.082Z",
+   "ok": false,
+   "count": 0,
+   "error": "No encontró eventos (¿cambió la página?)",
+   "checkedAt": "2026-11-22T19:29:11.994Z",
    "lastSuccess": "2026-11-21T19:06:41.082Z",
-   "ms": 964
+   "ms": 1052
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:42.046Z",
-   "lastSuccess": "2026-11-21T19:06:42.046Z",
-   "ms": 325
+   "checkedAt": "2026-11-22T19:29:13.047Z",
+   "lastSuccess": "2026-11-22T19:29:13.047Z",
+   "ms": 351
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:42.371Z",
-   "lastSuccess": "2026-11-21T19:06:42.371Z",
-   "ms": 170
+   "checkedAt": "2026-11-22T19:29:13.398Z",
+   "lastSuccess": "2026-11-22T19:29:13.398Z",
+   "ms": 103
   },
   {
    "id": "marco",
@@ -131,9 +131,9 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:42.541Z",
-   "lastSuccess": "2026-11-21T19:06:42.541Z",
-   "ms": 332
+   "checkedAt": "2026-11-22T19:29:13.502Z",
+   "lastSuccess": "2026-11-22T19:29:13.502Z",
+   "ms": 291
   },
   {
    "id": "tres_museos",
@@ -142,42 +142,42 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:42.873Z",
-   "lastSuccess": "2026-11-21T19:06:42.873Z",
-   "ms": 1079
+   "checkedAt": "2026-11-22T19:29:13.793Z",
+   "lastSuccess": "2026-11-22T19:29:13.793Z",
+   "ms": 823
   },
   {
    "id": "cintermex",
    "name": "Cintermex",
    "home": "https://www.cintermex.com/calendario",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:43.952Z",
-   "lastSuccess": "2026-11-21T19:06:43.952Z",
-   "ms": 745
+   "checkedAt": "2026-11-22T19:29:14.616Z",
+   "lastSuccess": "2026-11-22T19:29:14.616Z",
+   "ms": 754
   },
   {
    "id": "foro_corona",
    "name": "Foro Corona",
    "home": "https://www.forocorona.com/cartelera",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:44.697Z",
-   "lastSuccess": "2026-11-21T19:06:44.697Z",
-   "ms": 57
+   "checkedAt": "2026-11-22T19:29:15.370Z",
+   "lastSuccess": "2026-11-22T19:29:15.370Z",
+   "ms": 70
   },
   {
    "id": "fever",
    "name": "Fever",
    "home": "https://feverup.com/es/monterrey",
    "ok": true,
-   "count": 82,
+   "count": 76,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:44.754Z",
-   "lastSuccess": "2026-11-21T19:06:44.754Z",
-   "ms": 5762
+   "checkedAt": "2026-11-22T19:29:15.440Z",
+   "lastSuccess": "2026-11-22T19:29:15.440Z",
+   "ms": 9343
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 16,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:50.516Z",
-   "lastSuccess": "2026-11-21T19:06:50.516Z",
-   "ms": 214
+   "checkedAt": "2026-11-22T19:29:24.783Z",
+   "lastSuccess": "2026-11-22T19:29:24.783Z",
+   "ms": 84
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:50.730Z",
-   "lastSuccess": "2026-11-21T19:06:50.730Z",
-   "ms": 1452
+   "checkedAt": "2026-11-22T19:29:24.867Z",
+   "lastSuccess": "2026-11-22T19:29:24.867Z",
+   "ms": 1328
   },
   {
    "id": "ballet_mty",
@@ -208,9 +208,9 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-11-21T19:06:52.182Z",
-   "lastSuccess": "2026-11-21T19:06:52.182Z",
-   "ms": 14978
+   "checkedAt": "2026-11-22T19:29:26.195Z",
+   "lastSuccess": "2026-11-22T19:29:26.195Z",
+   "ms": 8172
   },
   {
    "id": "sanpedro_vive",
@@ -219,21 +219,21 @@
    "ok": true,
    "count": 52,
    "error": null,
-   "checkedAt": "2026-11-21T19:07:07.160Z",
-   "lastSuccess": "2026-11-21T19:07:07.160Z",
-   "ms": 3064
+   "checkedAt": "2026-11-22T19:29:34.367Z",
+   "lastSuccess": "2026-11-22T19:29:34.367Z",
+   "ms": 2874
   },
   {
    "id": "sanpedro_parques",
    "name": "San Pedro + Parques",
    "home": "https://sanpedroparques.mx/calendario-eventos/",
    "ok": true,
-   "count": 116,
+   "count": 109,
    "error": null,
-   "checkedAt": "2026-11-21T19:07:10.224Z",
-   "lastSuccess": "2026-11-21T19:07:10.224Z",
+   "checkedAt": "2026-11-22T19:29:37.241Z",
+   "lastSuccess": "2026-11-22T19:29:37.241Z",
    "warning": "Ya publicaron el PDF de un mes nuevo: pídele a Claude que lo capture",
-   "ms": 5294
+   "ms": 5638
   },
   {
    "id": "chipinque",
@@ -242,9 +242,9 @@
    "ok": true,
    "count": 27,
    "error": null,
-   "checkedAt": "2026-11-21T19:07:15.518Z",
-   "lastSuccess": "2026-11-21T19:07:15.518Z",
-   "ms": 139
+   "checkedAt": "2026-11-22T19:29:42.879Z",
+   "lastSuccess": "2026-11-22T19:29:42.879Z",
+   "ms": 112
   }
  ],
  "notIncluded": [
@@ -880,27 +880,6 @@
    "firstSeen": "2026-11-04T19:43:23.878Z"
   },
   {
-   "id": "1f6ad1c3c1ea",
-   "skey": "congreso emprendete|cintermex",
-   "title": "Congreso Empréndete",
-   "start": "2026-11-19",
-   "end": "2026-11-21",
-   "venue": "Cintermex",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.cintermex.com/verimagen/68550",
-   "description": "Conecta con empresas de diversos sectores, descubre nuevas oportunidades laborales y postúlate directamente con reclutadores en la Decimotercera Feria del Empleo Empréndete.",
-   "sources": [
-    {
-     "id": "cintermex",
-     "url": "https://www.cintermex.com/calendario"
-    }
-   ],
-   "url": "https://www.cintermex.com/calendario",
-   "firstSeen": "2026-11-03T12:59:41.645Z"
-  },
-  {
    "id": "f5731428cb78",
    "skey": "lo que queda nosotros|foro 13",
    "title": "LO QUE QUEDA DE NOSOTROS",
@@ -919,1536 +898,6 @@
    ],
    "url": "https://cartelera.primetickets.mx/lo-que-queda-de-nosotros",
    "firstSeen": "2026-11-06T19:18:21.683Z"
-  },
-  {
-   "id": "bcee77c5b1ab",
-   "skey": "clase maestra trasciende duelo danzas circulares sonoterapia|escuela adolfo",
-   "title": "Clase maestra I Trasciende el duelo: Danzas circulares / sonoterapia",
-   "start": "2026-11-21T10:00",
-   "end": null,
-   "venue": "Escuela Adolfo Prieto",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_DueloDanza-700x360.jpg",
-   "description": "Imparten: Héster Martínez y Aury Leija Danza, música y sonidos (gongos / cuencos tibetanos / voz) creadas para relajar, gozar, sanar, armonizar el cuerpo y estar presente para encontrar la paz interior en el duelo. Sábado 21 de noviembre – 10:00 a 13:00 h Costo: $550 (hasta el 1 de noviembre) Costo: $650 (a partir del 2 de noviembre) Para mayores de 18 años Informes e inscripciones al 81 1914 8709 y danzascirculareswiroma@gmail.com",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/clase-maestra-i-trasciende-el-duelo-danzas-circulares-sonoterapia/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/clase-maestra-i-trasciende-el-duelo-danzas-circulares-sonoterapia/",
-   "firstSeen": "2026-10-21T12:41:56.086Z"
-  },
-  {
-   "id": "27fb111438b9",
-   "skey": "papalote museo nino|papalote museo",
-   "title": "Papalote Museo del Niño",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
-   "start": "2026-11-21T10:00",
-   "end": "2026-12-02T10:00",
-   "price": "Desde $280",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/338223"
-    }
-   ],
-   "url": "https://feverup.com/m/338223",
-   "firstSeen": "2026-11-11T19:33:09.595Z"
-  },
-  {
-   "title": "Seminario I Ciudad fortuita: Seminario de prácticas contemporáneas de fotografía de calle – Octubre 2026",
-   "start": "2026-11-21T10:00",
-   "end": "2026-12-12T10:00",
-   "venue": "Escuela Adolfo Prieto",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Fortuita-700x360.jpg",
-   "description": "Imparte: Verónica Mar Aproximación crítica y contemporánea al género fotográfico, entendiendo la práctica en el espacio público como base de un proceso artístico autoral Del 31 de octubre al 12 de diciembre – Jueves de 19:00 a 21:00 h y sábados de 10:00 a 13:00 h Costo $2500 4 módulos (costo por módulo: $700) Para mayores de 18 años Informes e inscripciones: hola@veronica-mar.com",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/",
-   "skey": "seminario ciudad fortuita seminario practicas contemporaneas fotografia calle octubre|escuela adolfo",
-   "id": "98cf4981d159",
-   "dates": [
-    {
-     "start": "2026-11-21T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    },
-    {
-     "start": "2026-11-26T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    },
-    {
-     "start": "2026-11-28T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    },
-    {
-     "start": "2026-12-03T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    },
-    {
-     "start": "2026-12-05T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    },
-    {
-     "start": "2026-12-10T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    },
-    {
-     "start": "2026-12-12T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
-    }
-   ],
-   "firstSeen": "2026-10-17T12:35:16.355Z",
-   "moreDatesAt": "2026-10-29T12:53:41.351Z"
-  },
-  {
-   "id": "edc1d872b326",
-   "skey": "taller conectandonos arte vida cultura noviembre|casa cultura",
-   "title": "Taller I Conectándonos: arte, vida y cultura – Noviembre 2026",
-   "start": "2026-11-21T10:00",
-   "end": null,
-   "venue": "Casa de la Cultura de Nuevo León",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26423-PORTADA-Taller-Conectandonos-700x360.jpg",
-   "description": "Moderan: Lourdes Padilla Galván y Sandra López Alanís Descubre cómo el arte y la lectura impactan tu vida cotidiana. A través de ejercicios creativos y diálogo, exploraremos técnicas orientadas al bienestar personal y comunitario. Informes e inscripciones vía WhatsApp al 81 1192 8494",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-conectandonos-arte-vida-y-cultura-noviembre-2026/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-conectandonos-arte-vida-y-cultura-noviembre-2026/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "title": "Taller I Plumas disidentes II: historias LGBTQ+ de Monterrey",
-   "start": "2026-11-21T10:00",
-   "end": "2026-12-12T10:00",
-   "venue": "Casa de la Cultura de Nuevo León",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/26093_PORTADA_PLUMAS-DISIDENTES-700x360.jpg",
-   "description": "Imparte: Alejandro Bruna Espacio seguro para la comunidad LGBTQ+ dedicado a la creación de la literatura queer, explorando la identidad, el deseo y el territorio a través de la escritura y el diálogo. Del 10 de octubre al 12 de diciembre Sábados 10:00 a 13:00 h Para mayores de 18 años Informes e inscripciones vía WhatsApp al 81 1192 8494",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/",
-   "skey": "taller plumas disidentes ii historias lgbtq|casa cultura",
-   "id": "083ace3ef412",
-   "dates": [
-    {
-     "start": "2026-11-21T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
-    },
-    {
-     "start": "2026-11-28T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
-    },
-    {
-     "start": "2026-12-05T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
-    },
-    {
-     "start": "2026-12-12T10:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
-    }
-   ],
-   "firstSeen": "2026-10-06T12:32:14.705Z",
-   "moreDatesAt": "2026-10-29T12:53:41.351Z"
-  },
-  {
-   "title": "Taller I Diario Textil: Taller de bordado y pintura textil",
-   "start": "2026-11-21T11:00",
-   "end": "2026-12-12T11:00",
-   "venue": "Escuela Adolfo Prieto",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Textil-700x360.jpg",
-   "description": "Nivel inicial Imparte: Wicca Guajardo Fusiona el bordado experimental con la pintura textil para explorar la narrativa visual a través del hilo y el color Del 7 de noviembre al 12 diciembre – Sábados I 11:00 a 15:00 h Costo: $1300 Para mayores de 18 años Informes e inscripciones: wicca.couture@gmail.com y 81 1414 2666",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/",
-   "skey": "taller diario textil taller bordado pintura textil|escuela adolfo",
-   "id": "3b3236ee1fdf",
-   "dates": [
-    {
-     "start": "2026-11-21T11:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
-    },
-    {
-     "start": "2026-11-28T11:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
-    },
-    {
-     "start": "2026-12-05T11:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
-    },
-    {
-     "start": "2026-12-12T11:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z",
-   "moreDatesAt": "2026-10-29T12:53:41.351Z"
-  },
-  {
-   "title": "Taller I El arte de tocar las castañuelas",
-   "start": "2026-11-21T11:00",
-   "end": "2026-11-28T11:00",
-   "venue": "Escuela Adolfo Prieto",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Castanuelas-700x360.jpg",
-   "description": "Imparte: Alonso Real Si te gustaría aprender a tocar las castañuelas, aprovecha esta oportunidad para dominar la técnica básica mediante ejercicios de coordinación y estimulación cerebral. Del 7 al 28 de noviembre – Sábados de 11:00 a 13:00 h Costo $1500 Para mayores de 18 años Informes e inscripciones: 81 8188 6803 y 82 5103 0328",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-el-arte-de-tocar-las-castanuelas/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-el-arte-de-tocar-las-castanuelas/",
-   "skey": "taller arte tocar castanuelas|escuela adolfo",
-   "id": "f3f9cc4c82e4",
-   "dates": [
-    {
-     "start": "2026-11-21T11:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-el-arte-de-tocar-las-castanuelas/"
-    },
-    {
-     "start": "2026-11-28T11:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-el-arte-de-tocar-las-castanuelas/"
-    }
-   ],
-   "firstSeen": "2026-10-17T12:35:16.355Z"
-  },
-  {
-   "id": "7b6e8668b011",
-   "skey": "virtuality world cumpleanos infantiles|galerias valle",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "start": "2026-11-21T13:00",
-   "end": "2027-01-31T19:00",
-   "price": "Desde $635",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "c1b91d411bab",
-   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "start": "2026-11-21T14:00",
-   "end": "2026-12-06T17:00",
-   "price": "Desde $370",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "119b38c1535a",
-   "skey": "super paquete museo documental imax laser|papalote museo",
-   "title": "Super Paquete: Museo + Documental IMAX Laser",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "start": "2026-11-21T14:00",
-   "end": "2026-12-02T18:00",
-   "price": null,
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894",
-   "firstSeen": "2026-11-11T19:33:09.595Z"
-  },
-  {
-   "id": "7fefb3a96449",
-   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "start": "2026-11-21T15:00",
-   "end": "2026-11-29T19:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Kingo Nonaka, el pequeño samaurái – 2026",
-   "start": "2026-11-21T15:00",
-   "end": "2026-11-29T17:00",
-   "venue": "Niños CONARTE",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26163_PORTADA_UN-DOS-TRES-700x360.jpg",
-   "description": "De Ana Lucía Ramírez y David Colorado Dirección: Paulina de León Sinopsis Kingo Nonaka fue un inmigrante japonés que trabajó de barrendero, se convirtió en médico y participó en la revolución mexicana, hasta terminar sus días en Tijuana como fotógrafo. En la historia que hemos creado, Kingo, un pequeño huérfano, huye de Japón a México para convertirse en samurái y detener al “hombre de los lentes oscuros”.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/",
-   "skey": "kingo nonaka pequeno samaurai|ninos conarte",
-   "id": "b56e5700a83f",
-   "dates": [
-    {
-     "start": "2026-11-21T15:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
-    },
-    {
-     "start": "2026-11-22T15:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
-    },
-    {
-     "start": "2026-11-22T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
-    },
-    {
-     "start": "2026-11-29T15:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
-    },
-    {
-     "start": "2026-11-29T17:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
-    }
-   ],
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "title": "Mercado Mx",
-   "start": "2026-11-21T15:00",
-   "end": "2026-11-22T22:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/mercado-mx-3/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/mercado-mx-3/",
-   "skey": "mercado mx|parque rufino",
-   "id": "c789f1fe3aa2",
-   "dates": [
-    {
-     "start": "2026-11-21T15:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/mercado-mx-3/"
-    },
-    {
-     "start": "2026-11-22T15:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/mercado-mx-4/"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z"
-  },
-  {
-   "id": "25b1eaa346db",
-   "skey": "mercado poniente|parque clouthier",
-   "title": "Mercado Poniente",
-   "start": "2026-11-21T15:00",
-   "end": "2026-11-21T22:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/mercado-poniente-5/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/mercado-poniente-5/",
-   "firstSeen": "2026-11-03T12:59:41.645Z"
-  },
-  {
-   "title": "Ruta trece",
-   "venue": "Dramatico.Mx",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "tickets": "https://arema.mx/e/21823-ruta-trece",
-   "image": null,
-   "description": "La Bestia Teatro Presenta “Ruta 13”, de Carlos Gueta. Dirección Luis Armando Mat Inicio de actividad 3:30 pm Salida del Camión 4:00 pm Llegue con tiempo, iniciado el espectáculo, no hay acceso, ni reembolso. Horarios: • 21 de Noviembre | 15:30 hrs • 28 de Noviembre | 15:30 hrs • 05 de Diciembre | 15:30 hrs Lugar: Teatro DramaticoMx Dirección del evento: José María Morelos 1081-Oriente, Barrio Antiguo, Centro, 64000 Monterrey, N.L. Zonas y Precios: • Admisión General: $250 (Precios más cargos por servicio) Puntos de venta oficiales: * Museo del Noreste (MUNE): Dr. José Ma.",
-   "start": "2026-11-21T15:30",
-   "end": "2026-12-05T16:00",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21823-ruta-trece"
-    }
-   ],
-   "url": "https://arema.mx/e/21823-ruta-trece",
-   "skey": "ruta trece|dramatico mx",
-   "id": "e5689b1c13a8",
-   "dates": [
-    {
-     "start": "2026-11-21T15:30",
-     "end": null,
-     "url": "https://arema.mx/e/21823-ruta-trece"
-    },
-    {
-     "start": "2026-11-28T15:30",
-     "end": null,
-     "url": "https://arema.mx/e/21823-ruta-trece"
-    },
-    {
-     "start": "2026-12-05T15:30",
-     "end": null,
-     "url": "https://arema.mx/e/21823-ruta-trece"
-    }
-   ],
-   "firstSeen": "2026-11-19T20:29:59.668Z"
-  },
-  {
-   "id": "4fa4f546dee7",
-   "skey": "conferencia clase maestra carpetas produccion|cineteca nl",
-   "title": "CONFERENCIA / CLASE MAESTRA: CARPETAS DE PRODUCCIÓN",
-   "start": "2026-11-21T16:00",
-   "end": null,
-   "venue": "Cineteca NL I Sala 1",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26561-Portada-web_Referente_Cinematografico-700x360.jpg",
-   "description": "Los básicos para armar una buena carpeta de producción para convocatorias federales. Impartida por Enrique Okusono",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/conferencia-clase-maestra-carpetas-de-produccion/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/conferencia-clase-maestra-carpetas-de-produccion/",
-   "firstSeen": "2026-11-12T19:52:34.861Z"
-  },
-  {
-   "id": "8e07403438f1",
-   "skey": "referente cine nuevo leon clase maestra carpetas produccion|sala cineteca",
-   "title": "REFERENTE: CINE DE NUEVO LEÓN: Clase maestra: Carpetas de producción.",
-   "start": "2026-11-21T16:00",
-   "end": null,
-   "times": [
-    "16:00"
-   ],
-   "venue": "Sala 1, Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26560-Referente_Cinematografico-700x360.jpg",
-   "description": "Los básicos para armar una buena carpeta de producción para convocatorias federales. Impartida por Enrique Okusono.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-clase-maestra-carpetas-de-produccion/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-clase-maestra-carpetas-de-produccion/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "id": "8f929a1b6cfb",
-   "skey": "referente cine nuevo leon produccion presupuesto|sala cineteca",
-   "title": "REFERENTE: CINE DE NUEVO LEÓN: Producción-Presupuesto",
-   "start": "2026-11-21T16:00",
-   "end": null,
-   "times": [
-    "16:00"
-   ],
-   "venue": "Sala 3, Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26560-Referente_Cinematografico-700x360.jpg",
-   "description": "Un acercamiento práctico a la elaboración de presupuestos para cine, desde el análisis del guion y la planeación de los días de rodaje hasta la estimación de costos y la construcción de un esquema financiero. Porque presupuestar no es solamente sumar gastos, sino traducir las decisiones creativas en recursos concretos. IMPARTE: LOURDES LÓPEZ CASTRO JUEVES 19 DE NOVIEMBRE: 16:00 hs a 19:00 hs SÁBADO 21 DE NOVIEMBRE: 16:00 hs a 18:00 hs ENTRADA LIBRE INSCRIPCIONES AL CORREO lbaez@conarte.org.mx",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-produccion-presupuesto/"
-    }
-   ],
-   "free": true,
-   "freeVia": "Cineteca Nuevo León",
-   "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-produccion-presupuesto/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "id": "7badc34e0f1f",
-   "skey": "referente cine nuevo leon seleccion cortometrajes nuevo leon 16 mm|sala cineteca",
-   "title": "REFERENTE: CINE DE NUEVO LEÓN: Selección de cortometrajes de Nuevo León en 16 mm",
-   "start": "2026-11-21T16:00",
-   "end": null,
-   "times": [
-    "16:00"
-   ],
-   "venue": "Sala 2, Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/El-destierro-1-e1794522747884-700x360.jpg",
-   "description": "Una reparación y mil hombres (1979, 9 min, Erick Estrada) El desencarnado (1978, 35 min, René Ubaldo Villarreal) El destierro (1976, 40 min, Jesús Torres)",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-seleccion-de-cortometrajes-de-nuevo-leon-en-16-mm/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-seleccion-de-cortometrajes-de-nuevo-leon-en-16-mm/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "id": "d51f7c9e8526",
-   "skey": "taller produccion presupuesto|cineteca nl",
-   "title": "Taller I PRODUCCIÓN-PRESUPUESTO",
-   "start": "2026-11-21T16:00",
-   "end": null,
-   "venue": "Cineteca NL I Sala 3",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26561-Portada-web_Referente_Cinematografico-700x360.jpg",
-   "description": "Un acercamiento práctico a la elaboración de presupuestos para cine, desde el análisis del guion y la planeación de los días de rodaje hasta la estimación de costos y la construcción de un esquema financiero. Porque presupuestar no es solamente sumar gastos, sino traducir las decisiones creativas en recursos concretos. IMPARTE: LOURDES LÓPEZ CASTRO JUEVES 19 DE NOVIEMBRE: 16:00 hs a 19:00 hs SÁBADO 21 DE NOVIEMBRE: 16:00 hs a 18:00 hs ENTRADA LIBRE INSCRIPCIONES AL CORREO lbaez@conarte.org.mx",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-produccion-presupuesto/"
-    }
-   ],
-   "free": true,
-   "freeVia": "CONARTE",
-   "url": "https://conarte.org.mx/agenda/taller-i-produccion-presupuesto/",
-   "firstSeen": "2026-11-12T19:52:34.861Z"
-  },
-  {
-   "title": "The Jury Experience - Algoritmo Mortal",
-   "venue": "Teatro Versalles",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e2e02e18-90e0-11f1-8f67-32a5c963cb4a.jpg",
-   "start": "2026-11-21T16:00",
-   "end": "2026-12-05T19:30",
-   "price": "$350 – $550",
-   "demand": "alta",
-   "demandWhy": "funciones agotadas",
-   "soldOut": true,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/534430"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/the-jury-experience-algoritmo-mortal/2700029431857848"
-    }
-   ],
-   "url": "https://feverup.com/m/534430",
-   "skey": "jury experience algoritmo mortal|teatro versalles",
-   "id": "49398167d138",
-   "dates": [
-    {
-     "start": "2026-11-21T16:00",
-     "end": null,
-     "url": "https://feverup.com/m/534430",
-     "avail": "agotado",
-     "left": 0
-    },
-    {
-     "start": "2026-11-21T18:30",
-     "end": null,
-     "url": "https://feverup.com/m/534430",
-     "avail": "agotado",
-     "left": 0
-    },
-    {
-     "start": "2026-12-05T16:00",
-     "end": null,
-     "url": "https://feverup.com/m/534430"
-    },
-    {
-     "start": "2026-12-05T18:30",
-     "end": null,
-     "url": "https://feverup.com/m/534430"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "feca9a413677",
-   "skey": "mundo entero es un teatrito|ninos conarte",
-   "title": "El mundo entero es un teatrito – 2026",
-   "start": "2026-11-21T17:00",
-   "end": null,
-   "venue": "Niños CONARTE",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26163_PORTADA_UN-DOS-TRES-700x360.jpg",
-   "description": "AUTORÍA Y DIRECCIÓN: ORLANDO TOVAR El mundo entero es un teatrito es una divertida obra de teatro para toda la familia a cargo de la compañía Foco Teatro, que explora con humor, música e imaginación la historia y la magia de las artes escénicas.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/el-mundo-entero-es-un-teatrito-2026/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/el-mundo-entero-es-un-teatrito-2026/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "id": "3581b22184d9",
-   "skey": "mesa conversacion comedia regia|cineteca nl",
-   "title": "MESA DE CONVERSACIÓN: COMEDIA REGIA",
-   "start": "2026-11-21T17:00",
-   "end": null,
-   "venue": "Cineteca NL I Sala 1",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26561-Portada-web_Referente_Cinematografico-700x360.jpg",
-   "description": "¿Qué humor representa a los regios? INVITADOS: Juan Pablo Cháirez, Yeyo Kamikaze, Regina Farias, Carla Sierra.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/mesa-de-conversacion-comedia-regia/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/mesa-de-conversacion-comedia-regia/",
-   "firstSeen": "2026-11-12T19:52:34.861Z"
-  },
-  {
-   "id": "89735f825375",
-   "skey": "referente cine nuevo leon clase maestra comedia regia|sala cineteca",
-   "title": "REFERENTE: CINE DE NUEVO LEÓN: Clase maestra: Comedia regia.",
-   "start": "2026-11-21T17:00",
-   "end": null,
-   "times": [
-    "17:00"
-   ],
-   "venue": "Sala 1, Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26560-Referente_Cinematografico-700x360.jpg",
-   "description": "¿Qué humor representa a los regios? INVITADOS: Juan Pablo Cháirez, Yeyo Kamikaze, Regina Farias, Carla Sierra.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-clase-maestra-comedia-regia/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-clase-maestra-comedia-regia/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "id": "d024051ff483",
-   "skey": "temporada musica ladrido para mi mismo|teatro centro",
-   "title": "Temporada de Música 2026 I Ladrido para mí mismo",
-   "start": "2026-11-21T17:00",
-   "end": "2026-11-21T17:30",
-   "venue": "Teatro del Centro de las Artes",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26296-PORTADA-TM-LADRIDO-PARA-MI-MISMO-700x360.jpg",
-   "description": "ZOONOROS está integrado por: Maricarmen Graue — Violonchelo / Chelista e improvisadora Isaías Herrera — Multimedia / Diseño tecnológico y realidad virtual Fores Basura — Multinstrumentista / Constructor de instrumentos informales Edgar Lacolz — Textos / Escritor y performer. Zoonoros se define como un Laboratorio Interdisciplinario de Música, Literatura y Tecnología que articula un encuentro entre artes escénicas, tecnología e inclusión.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/temporada-de-musica-2026-i-ladrido-para-mi-mismo/"
-    },
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21655-zoonoros-ladrido-para-mi-mismo"
-    }
-   ],
-   "tickets": "https://arema.mx/e/21655-zoonoros-ladrido-para-mi-mismo",
-   "url": "https://conarte.org.mx/agenda/temporada-de-musica-2026-i-ladrido-para-mi-mismo/",
-   "firstSeen": "2026-11-12T19:52:34.861Z"
-  },
-  {
-   "title": "An Idiot’s Guide to Wine: Comedia entre copas",
-   "venue": "Saxy Jazz",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/aea349e2-794c-11f1-9162-f6ecba384b1c.jpg",
-   "start": "2026-11-21T18:00",
-   "end": "2027-02-13T22:10",
-   "price": "$570 – $950",
-   "demand": "alta",
-   "demandWhy": "funciones agotadas",
-   "soldOut": true,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/649100"
-    }
-   ],
-   "url": "https://feverup.com/m/649100",
-   "skey": "an idiot guide to wine comedia entre copas|saxy jazz",
-   "id": "c288bf528456",
-   "dates": [
-    {
-     "start": "2026-11-21T18:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100",
-     "avail": "agotado",
-     "left": 0
-    },
-    {
-     "start": "2026-11-21T21:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100",
-     "avail": "agotado",
-     "left": 0
-    },
-    {
-     "start": "2026-12-18T18:30",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    },
-    {
-     "start": "2026-12-18T21:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100",
-     "avail": "ultimos",
-     "left": 27
-    },
-    {
-     "start": "2026-12-19T18:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100",
-     "avail": "ultimos",
-     "left": 29
-    },
-    {
-     "start": "2026-12-19T21:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    },
-    {
-     "start": "2027-01-22T18:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    },
-    {
-     "start": "2027-01-22T21:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    },
-    {
-     "start": "2027-01-30T18:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    },
-    {
-     "start": "2027-01-30T21:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    },
-    {
-     "start": "2027-02-13T18:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    },
-    {
-     "start": "2027-02-13T21:00",
-     "end": null,
-     "url": "https://feverup.com/m/649100"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z",
-   "moreDatesAt": "2026-11-19T20:29:59.668Z"
-  },
-  {
-   "id": "10768136dac4",
-   "skey": "conferencia clase maestra rescate nuestra memoria|cineteca nl",
-   "title": "CONFERENCIA / CLASE MAESTRA: RESCATE DE NUESTRA MEMORIA",
-   "start": "2026-11-21T18:00",
-   "end": null,
-   "venue": "Cineteca NL I Sala 1",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26561-Portada-web_Referente_Cinematografico-700x360.jpg",
-   "description": "Archivo fílmico del Noreste: Gil Morales.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/conferencia-clase-maestra-rescate-de-nuestra-memoria/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/conferencia-clase-maestra-rescate-de-nuestra-memoria/",
-   "firstSeen": "2026-11-12T19:52:34.861Z"
-  },
-  {
-   "id": "c143b2362bff",
-   "skey": "gran viaje improv show|dramatico mx",
-   "title": "El gran viaje Improv show",
-   "venue": "Dramatico.Mx",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "tickets": "https://arema.mx/e/20752-el-gran-viaje-improv-show",
-   "image": null,
-   "description": "Tres Tripulantes. 5 estaciones. Un público que se convertirá en pasajero. Y un viaje que jamás olvidarán… En esta aventura, surgirán desafíos, personajes inolvidables y situaciones cada vez más absurdas, llena de giros inesperados y mucho humor. Prepárate para reír, sorprenderte y convertirte en el cómplice de un viaje único. Empaca tus maletas, abróchate el cinturón…porque tus ideas tomarán vuelo en el escenario. Recuerda que los viajes inolvidables son los IMPROVISADOS… Elenco: Liliana Torres Herrera, Nohemí G. Álvarez Niño y Janett G.",
-   "start": "2026-11-21T18:00",
-   "end": "2026-11-21T18:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/20752-el-gran-viaje-improv-show"
-    }
-   ],
-   "url": "https://arema.mx/e/20752-el-gran-viaje-improv-show",
-   "firstSeen": "2026-10-22T12:42:57.169Z"
-  },
-  {
-   "id": "eeedeb0e1a9f",
-   "skey": "referente cine nuevo leon hecho china|sala cineteca",
-   "title": "REFERENTE: CINE DE NUEVO LEÓN: Hecho en China",
-   "start": "2026-11-21T18:00",
-   "end": null,
-   "times": [
-    "18:00"
-   ],
-   "venue": "Sala 2, Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2025/11/Hecho-en-China-Poster-1-600x360.jpg",
-   "description": "Marco, un escritor rígido y frustrado, es acompañado inesperadamente por su repartidor de 18 años, Fernando, en un viaje por carretera para llegar a tiempo a la boda de la única novia que ha tenido.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/aniversario-imagyx-hecho-en-china/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/aniversario-imagyx-hecho-en-china/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "id": "d339cfde9a5e",
-   "skey": "referente cine nuevo leon rescate nuestra memoria|sala cineteca",
-   "title": "REFERENTE: CINE DE NUEVO LEÓN: Rescate de nuestra memoria",
-   "start": "2026-11-21T18:00",
-   "end": null,
-   "times": [
-    "18:00"
-   ],
-   "venue": "Sala 1, Cineteca \"Alejandra Rangel Hinojosa\" - Centro de las Artes | CONARTE",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26560-Referente_Cinematografico-700x360.jpg",
-   "description": "Archivo fílmico del Noreste: Gil Morales.",
-   "sources": [
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-rescate-de-nuestra-memoria/"
-    }
-   ],
-   "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-rescate-de-nuestra-memoria/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "title": "FIREBRINGER: El origen del fuego",
-   "start": "2026-11-21T19:00",
-   "end": "2026-11-29T19:30",
-   "venue": "DramaticoMX",
-   "city": "MONTERREY",
-   "category": "Música",
-   "price": "$350",
-   "tickets": "https://foro13.primetickets.mx/firebringer",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/11/TRIBU.jpg",
-   "description": "Calificación promedio Aún no hay calificación FIREBRINGER: El origen del fuego Género: Teatro musical Música y letra: Meredith Stepien y Mark Swiderski Libreto: Nick Lang, Matt Lang y Brian Holden Arreglos: Clark Baxtresser y Pierce Siebers Sinopsis En los comienzos de la humanidad, una tribu de cavernícolas sobrevive a las numerosas pruebas de la vida prehistórica bajo el sabio liderazgo de Jemilla, «La Pacificadora». Jemilla ha enseñado a su pueblo a expresarse, en lugar de golpearse la cabeza unos a otros con piedras o comerse a sus propios bebés.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-21/"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-21/",
-   "skey": "firebringer origen fuego|dramaticomx",
-   "id": "2c4459232adc",
-   "dates": [
-    {
-     "start": "2026-11-21T19:00",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-21/"
-    },
-    {
-     "start": "2026-11-22T18:00",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-22/"
-    },
-    {
-     "start": "2026-11-29T18:00",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-29/"
-    }
-   ],
-   "firstSeen": "2026-11-07T17:45:12.347Z"
-  },
-  {
-   "id": "3818d9a1851f",
-   "skey": "mesa conversacion comunidad cine nuevo leon|cineteca nl",
-   "title": "MESA DE CONVERSACIÓN: COMUNIDAD DE CINE EN NUEVO LEÓN",
-   "start": "2026-11-21T19:00",
-   "end": null,
-   "venue": "Cineteca NL I Sala 1",
-   "city": "Monterrey",
-   "category": "Cine",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26561-Portada-web_Referente_Cinematografico-700x360.jpg",
-   "description": "Cómo crear comunidad en Nuevo León. Invitados: MIMEC, Sociedad de Guionistas, CamaraCrew, FILMA NL, FILMICAS, Venture Cafe MTY, Nuevo Cine.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/mesa-de-conversacion-comunidad-de-cine-en-nuevo-leon/"
-    },
-    {
-     "id": "cineteca",
-     "url": "https://conarte.org.mx/cineteca/referente-cine-de-nuevo-leon-mesa-de-conversacion-comunidad-de-cine-en-nuevo-leon/"
-    }
-   ],
-   "times": [
-    "19:00"
-   ],
-   "url": "https://conarte.org.mx/agenda/mesa-de-conversacion-comunidad-de-cine-en-nuevo-leon/",
-   "firstSeen": "2026-11-12T19:52:34.861Z"
-  },
-  {
-   "title": "Raíces \"Estampas De La Revolución\"",
-   "start": "2026-11-21T19:00",
-   "end": "2026-11-22",
-   "venue": "Auditorio Luis Elizondo",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://s1.ticketm.net/dam/e/1aa/09560a3a-3b58-4a40-b204-6c4c2d12c1aa_RETINA_LANDSCAPE_16_9.jpg",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-21-11-2026/event/1400651187532075"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/raíces-estampas-de-la-revolución/210001614371318"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/raices-estampas-de-la-revolucion-tm-_ok6fwvg"
-    }
-   ],
-   "description": "Raíces, el grupo representativo de danza folklórica del Tecnológico de Monterrey, presenta Estampas de la Revolución, un espectáculo que rinde homenaje a uno de los momentos más importantes de la hist",
-   "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-21-11-2026/event/1400651187532075",
-   "skey": "raices estampas revolucion|auditorio luis",
-   "id": "b7966a181535",
-   "dates": [
-    {
-     "start": "2026-11-21T19:00",
-     "end": null,
-     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-21-11-2026/event/1400651187532075"
-    },
-    {
-     "start": "2026-11-22T19:00",
-     "end": null,
-     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-22-11-2026/event/1400651187532077"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Salsa con Gabriel y Deya",
-   "start": "2026-11-21T19:00",
-   "end": "2026-11-28T21:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1",
-   "skey": "salsa gabriel deya|parque rufino",
-   "id": "1bde0323dc9b",
-   "dates": [
-    {
-     "start": "2026-11-21T19:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1"
-    },
-    {
-     "start": "2026-11-26T19:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1"
-    },
-    {
-     "start": "2026-11-28T19:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "id": "77e8bc709de9",
-   "skey": "imax juegos hambre amanecer cosecha|papalote museo",
-   "title": "IMAX - Los Juegos del Hambre: Amanecer en la Cosecha",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/af51d687-528c-4658-bd0d-96e84d0e044a.jpg",
-   "start": "2026-11-21T20:00",
-   "end": "2026-12-02T19:30",
-   "price": "Desde $170",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/809410"
-    }
-   ],
-   "url": "https://feverup.com/m/809410",
-   "firstSeen": "2026-11-17T20:49:04.743Z"
-  },
-  {
-   "id": "9c8fd5b500cf",
-   "skey": "julion alvarez|walmart park",
-   "title": "Julión Álvarez en Monterrey",
-   "start": "2026-11-21T20:00",
-   "end": "2026-11-21T22:00",
-   "venue": "Walmart Park",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": "$400 – $6000",
-   "tickets": "https://kingticketboleto.com/julion-alvarez-monterrey-estadio-walmart-park",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/11/julion-alvarez-mty26.jpeg",
-   "description": "Calificación promedio Aún no hay calificación ¿Quién ya está listo para cantar a todo pulmón? JULIÓN ÁLVAREZ Y SU NORTEÑO BANDA llegarán a Monterrey para regalarle a sus seguidores una noche llena de grandes éxitos, sentimiento y mucha música regional mexicana. El Rey de la Taquilla está listo para reencontrarse con el público regio. Fecha: Sábado 21 de noviembre Hora: 20:00 hrs., Lugar: Estadio Walmart Park (Estadio Mobil Super), Monterrey. Boletos de $400 a $6,000.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/julion-alvarez-en-monterrey/"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/julión-Álvarez-monterrey-tickets/100030655679511"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/julion-alvarez-en-monterrey/",
-   "firstSeen": "2026-10-11T12:26:52.848Z"
-  },
-  {
-   "title": "Temporada de Teatro 2026 I Yo no soy Charlie o la melancolía de una lengua en formol",
-   "start": "2026-11-21T20:00",
-   "end": "2026-11-22T20:30",
-   "venue": "Teatro de la Ciudad I Sala Experimental",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Slider_TTCharlie-700x360.jpg",
-   "description": "Dramaturgia de Bryan Vindas Dirección: Bryan Jair Producción: Graciela Eligio Tras un intento de suicidio, un hombre se lanza a un viaje inesperado y delirante acompañado de un sacerdote, un policía, un payaso y un hombre disfrazado de pollo. Una reflexión intensa sobre la identidad, la masculinidad, la violencia y la salud mental. Una experiencia teatral cruda y surreal que retrata el ambiente de las cantinas mexicanas. Solo adultos",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
-    },
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21253-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol"
-    }
-   ],
-   "tickets": "https://arema.mx/e/21253-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol",
-   "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/",
-   "skey": "temporada teatro yo no soy charlie melancolia una lengua formol|teatro ciudad",
-   "id": "74a596366aed",
-   "dates": [
-    {
-     "start": "2026-11-21T20:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
-    },
-    {
-     "start": "2026-11-22T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z",
-   "moreDatesAt": "2026-10-09T12:28:04.203Z"
-  },
-  {
-   "id": "f41caf5c7cfa",
-   "skey": "escena conarte wenses lala|teatro centro",
-   "title": "Escena CONARTE 2026 I Wenses y Lala",
-   "start": "2026-11-21T20:30",
-   "end": null,
-   "venue": "Teatro del Centro de las Artes",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/Slider_Wences.jpg-700x360.jpeg",
-   "description": "Wenses y Lala crecieron e hicieron su vida en algún lugar perdido del litoral del norte de México. La obra habita en una atractiva atemporalidad que consigue situarse en cualquier momento de nuestras vidas o la de nuestros conocidos. Es una historia de amor puro. Aquel que ni la muerte puede dejar de hacerlo vivir. Wenses, un hombre valiente, de fuertes convicciones, tímido y callado pero con sentimientos abrasadores como los del ojo de una tormenta en silencio. Lala, una maravillosa mujer, vivaz, alegre, entregada, con ese ímpetu por la vida que enamora.",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/escena-conarte-2026-i-wenses-y-lala/"
-    },
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21602-wenses-y-lala"
-    }
-   ],
-   "tickets": "https://arema.mx/e/21602-wenses-y-lala",
-   "url": "https://conarte.org.mx/agenda/escena-conarte-2026-i-wenses-y-lala/",
-   "firstSeen": "2026-11-13T19:35:32.039Z"
-  },
-  {
-   "title": "Lady Quesos en Monterrey",
-   "start": "2026-11-21T20:30",
-   "end": "2027-01-30T22:00",
-   "venue": "Teatro Nena Delgado",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": "$700",
-   "tickets": "https://arema.mx/e/18059-lady-quesos-en-monterrey",
-   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/LADY-QUESOS.jpg",
-   "description": "Calificación promedio Aún no hay calificación Lady Quesos en Monterrey Quesos Quetita es un negocio familiar que inició desde abajo, pero gracias a su dueña Cristina (Nena Delgado) se convirtió en una gran empresa, en la que “trabajan” sus inútiles hijos Neto (Renán Moreno) y Miguel (Pablo Morton), quienes sólo crean problemas. Pero la asistente Yolita (Yudith González) mantiene en orden la oficina. Llega Irasema (Irma González) representando a Cheese International y le ofrece a la dueña comprarle la empresa. Y esto desata situaciones de mucha comicidad.",
-   "sources": [
-    {
-     "id": "cartelera_escenica",
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-21/"
-    }
-   ],
-   "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-21/",
-   "skey": "lady quesos|teatro nena",
-   "id": "3069400ad6ee",
-   "dates": [
-    {
-     "start": "2026-11-21T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-21/"
-    },
-    {
-     "start": "2026-11-26T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-26/"
-    },
-    {
-     "start": "2026-11-28T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-28/"
-    },
-    {
-     "start": "2026-12-03T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-03/"
-    },
-    {
-     "start": "2026-12-05T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-05/"
-    },
-    {
-     "start": "2026-12-10T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-10/"
-    },
-    {
-     "start": "2026-12-12T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-12/"
-    },
-    {
-     "start": "2026-12-17T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-17/"
-    },
-    {
-     "start": "2026-12-19T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-19/"
-    },
-    {
-     "start": "2026-12-24T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-24/"
-    },
-    {
-     "start": "2026-12-26T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-26/"
-    },
-    {
-     "start": "2026-12-31T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-31/"
-    },
-    {
-     "start": "2027-01-02T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-02/"
-    },
-    {
-     "start": "2027-01-07T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-07/"
-    },
-    {
-     "start": "2027-01-09T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-09/"
-    },
-    {
-     "start": "2027-01-14T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-14/"
-    },
-    {
-     "start": "2027-01-16T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-16/"
-    },
-    {
-     "start": "2027-01-21T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-21/"
-    },
-    {
-     "start": "2027-01-23T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-23/"
-    },
-    {
-     "start": "2027-01-28T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-28/"
-    },
-    {
-     "start": "2027-01-30T20:30",
-     "end": null,
-     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-30/"
-    }
-   ],
-   "firstSeen": "2026-10-30T12:54:13.354Z"
-  },
-  {
-   "id": "864eb1bce546",
-   "skey": "blu|blu night",
-   "title": "BLU 3.0",
-   "venue": "BLÜ Night Club",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://arema.mx/e/21770-blu-30",
-   "image": null,
-   "description": "Fecha: 21 de Noviembre 2026 Hora: 21:00 horas Lugar: BLÜ Night Club Dirección del evento: Av. la Rioja 245, Residencial la Rioja, 64985 Monterrey, N.L. Zonas y Precios: • Preventa: $200 (hasta el 18 de Noviembre) • General: $250 (a partir del 19 de Noviembre) (Precios más cargos por servicio) 🔥 ¡ESTE 21 DE NOVIEMBRE, LA NOCHE SE VIVE EN BLÜ! 🔥 🥂 Prepárate para una experiencia llena de música, ambiente exclusivo y una energía que no querrás perderte.",
-   "start": "2026-11-21T21:00",
-   "end": "2026-11-21T21:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21770-blu-30"
-    }
-   ],
-   "url": "https://arema.mx/e/21770-blu-30",
-   "firstSeen": "2026-11-11T19:33:09.595Z"
-  },
-  {
-   "id": "3e2878847289",
-   "skey": "david bisbal|parque fundidora",
-   "title": "David Bisbal",
-   "start": "2026-11-21T21:00",
-   "end": null,
-   "venue": "Parque Fundidora",
-   "city": "Monterrey",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "sources": [
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/david-bisbal/200030316407835"
-    }
-   ],
-   "url": "https://allevents.in/monterrey/david-bisbal/200030316407835",
-   "firstSeen": "2026-11-21T19:07:15.922Z"
-  },
-  {
-   "id": "75f51daf32d4",
-   "skey": "david bisbal eternos|auditorio banamex",
-   "title": "David Bisbal Tour Eternos 2026",
-   "start": "2026-11-21T21:00",
-   "end": "2026-11-21",
-   "venue": "Auditorio Banamex",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://s1.ticketm.net/dam/a/1d1/65a47f8e-6696-4003-a33c-179363c8c1d1_RETINA_LANDSCAPE_16_9.jpg",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/david-bisbal-tour-eternos-2026-monterrey-21-11-2026/event/140064AE8B0C490D"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/david-bisbal-tour-eternos-2026/210001823647270"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/david-bisbal-tour-eternos-2026-tm-61B5d70u"
-    }
-   ],
-   "description": "David Bisbal, uno de los artistas hispanos más queridos a nivel internacional, regresa a nuestro país con el Tour Eternos 2026. Esta gira marca un punto de inflexión en su trayectoria, presentando un",
-   "url": "https://www.ticketmaster.com.mx/david-bisbal-tour-eternos-2026-monterrey-21-11-2026/event/140064AE8B0C490D",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "8c26133c273e",
-   "skey": "luisa vox|foro corona",
-   "title": "Luisa Vox",
-   "start": "2026-11-21T21:00",
-   "end": "2026-11-21",
-   "venue": "Foro Corona Monterrey",
-   "city": "Col. Centro Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://s1.ticketm.net/dam/a/438/36ff0616-02a4-4610-8860-c402373cc438_RETINA_LANDSCAPE_16_9.jpg",
-   "sources": [
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/luisa-vox-col-centro-monterrey-21-11-2026/event/3D0064A5A4A35226"
-    },
-    {
-     "id": "foro_corona",
-     "url": "https://www.forocorona.com/cartelera"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/luisa-vox-tm-_1p0IgFJ"
-    }
-   ],
-   "description": "Luisa Vox es el sábado 21 de noviembre de 2026 a las 21:00 en Col. Centro Monterrey.",
-   "url": "https://www.ticketmaster.com.mx/luisa-vox-col-centro-monterrey-21-11-2026/event/3D0064A5A4A35226",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "806c4460e16f",
-   "skey": "molotov|escenario gnp",
-   "title": "Molotov",
-   "start": "2026-11-21T21:00",
-   "end": "2026-11-22T00:00",
-   "venue": "Escenario GNP Seguros",
-   "city": "Monterrey",
-   "price": null,
-   "image": "https://conciertosenmonterrey.com/media/2026/11/molotov-escenario-gnp-seguros-monterrey-2026.jpg",
-   "genre": null,
-   "description": "Molotov en Escenario GNP Seguros, 21 de noviembre, 2026. Consulta toda la información y compra boletos.",
-   "category": "Música",
-   "sources": [
-    {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/molotov-escenario-gnp-seguros-monterrey-2026"
-    },
-    {
-     "id": "ticketmaster",
-     "url": "https://www.ticketmaster.com.mx/molotov-monterrey-21-11-2026/event/14006488DF2AF3CC"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/molotov/200030300561111"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/molotov-tm-GkdL1R2G"
-    }
-   ],
-   "url": "https://conciertosenmonterrey.com/cartelera/molotov-escenario-gnp-seguros-monterrey-2026",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "375181529dd3",
-   "skey": "banda ms somos ms|arena",
-   "title": "BANDA MS - SOMOS MS TOUR",
-   "start": "2026-11-21T21:30",
-   "end": "2026-11-21",
-   "venue": "Arena Monterrey",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://www.superboletos.com/landing-evento/BKgZLfzFc5Mm1nTelBQqBw",
-   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT140883.webp?v=20261009130836",
-   "description": "Banda MS - Somos MS Tour 2026 es el sábado 21 de noviembre de 2026 a las 21:00 h en Arena Monterrey, Monterrey.",
-   "sources": [
-    {
-     "id": "superboletos",
-     "url": "https://www.superboletos.com/landing-evento/BKgZLfzFc5Mm1nTelBQqBw"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/banda-ms-somos-ms-tour-2026-zg-1302"
-    }
-   ],
-   "url": "https://www.superboletos.com/landing-evento/BKgZLfzFc5Mm1nTelBQqBw",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "c510b4cdd57d",
-   "skey": "lululemon 10k|",
-   "title": "Lululemon 10K Monterrey",
-   "start": "2026-11-22",
-   "end": null,
-   "venue": "",
-   "city": "",
-   "category": "Deportes",
-   "price": null,
-   "image": "https://www.nuevoleon.travel/wp-content/uploads/2026/08/lululemon.jpeg",
-   "sources": [
-    {
-     "id": "nuevoleon_travel",
-     "url": "https://www.nuevoleon.travel/lululemon-10k-monterrey/"
-    }
-   ],
-   "url": "https://www.nuevoleon.travel/lululemon-10k-monterrey/",
-   "firstSeen": "2026-10-16T12:41:14.859Z"
-  },
-  {
-   "title": "Comunidad trepaárboles",
-   "start": "2026-11-22T09:00",
-   "end": "2026-11-29T17:00",
-   "venue": "Parque El Capitán",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1",
-   "skey": "comunidad trepaarboles|parque capitan",
-   "id": "d2abd7b792b3",
-   "dates": [
-    {
-     "start": "2026-11-22T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1"
-    },
-    {
-     "start": "2026-11-28T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1"
-    },
-    {
-     "start": "2026-11-29T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-04T19:43:23.878Z"
   },
   {
    "title": "Mercado de La Fregonería",
@@ -2668,7 +1117,7 @@
     },
     {
      "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/san-pedro-de-pinta-8/"
+     "url": "https://sanpedroparques.mx/eventos/san-pedro-de-pinta-11/"
     }
    ],
    "free": true,
@@ -2704,29 +1153,6 @@
     }
    ],
    "firstSeen": "2026-10-11T12:26:52.848Z"
-  },
-  {
-   "id": "010b8bd10bfe",
-   "skey": "torneo futbol dia hombre|parque clouthier",
-   "title": "Torneo futbol: Día del Hombre",
-   "start": "2026-11-22T09:00",
-   "end": "2026-11-22T13:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/torneo-futbol-dia-del-hombre/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/torneo-futbol-dia-del-hombre/",
-   "firstSeen": "2026-11-03T12:59:41.645Z"
   },
   {
    "title": "Yoga en Chipinque",
@@ -2792,6 +1218,27 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "42e00c2ea4db",
+   "skey": "papalote museo nino|papalote museo",
+   "title": "Papalote Museo del Niño",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
+   "start": "2026-11-22T10:00",
+   "end": "2026-12-02T10:00",
+   "price": "Desde $280",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/338223"
+    }
+   ],
+   "url": "https://feverup.com/m/338223",
+   "firstSeen": "2026-11-11T19:33:09.595Z"
+  },
+  {
    "title": "Ludoteca La Montaña",
    "end": "2027-01-10T11:00",
    "venue": "Chipinque · Ludoteca La Montaña, Meseta",
@@ -2853,158 +1300,6 @@
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
-   "start": "2026-11-22T11:00",
-   "end": "2026-11-29T19:00",
-   "price": "$799 – $999",
-   "demand": "alta",
-   "demandWhy": "últimos boletos",
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/707636"
-    }
-   ],
-   "url": "https://feverup.com/m/707636",
-   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
-   "id": "f928b586e3c0",
-   "dates": [
-    {
-     "start": "2026-11-22T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-22T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-24T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-24T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-25T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-25T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-26T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-26T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-27T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-27T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-28T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-28T14:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-28T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 24
-    },
-    {
-     "start": "2026-11-29T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-29T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z",
-   "moreDatesAt": "2026-11-18T20:26:18.655Z"
-  },
-  {
-   "id": "4e5150464294",
-   "skey": "little mapa glitter|auditorio rio",
-   "title": "Little Mapa \"Glitter Tour\" en Monterrey",
-   "venue": "Auditorio Rio 70",
-   "city": "Monterrey",
-   "category": "Familiar",
-   "price": null,
-   "tickets": "https://arema.mx/e/21386-little-mapa-glitter-tour-en-monterrey",
-   "image": null,
-   "description": "LITTLE MAPA · GLITTER TOUR es la nueva experiencia en vivo de Little Mapa, creada para reunir a niños, jóvenes y familias en un espectáculo lleno de música, color, energía y diversión. A través de una producción visual diseñada para transformar el escenario en el universo de Little Mapa, el público disfrutará de sus éxitos en vivo, coreografías, momentos interactivos, sorpresas e invitados especiales que convertirán cada momento en una experiencia para compartir y recordar.",
-   "start": "2026-11-22T12:00",
-   "end": "2026-11-22T12:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21386-little-mapa-glitter-tour-en-monterrey"
-    }
-   ],
-   "url": "https://arema.mx/e/21386-little-mapa-glitter-tour-en-monterrey",
-   "firstSeen": "2026-10-07T12:32:46.057Z"
   },
   {
    "title": "Recorridos Guiados",
@@ -3170,6 +1465,27 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
+   "id": "ead0bd112096",
+   "skey": "super paquete museo documental imax laser|papalote museo",
+   "title": "Super Paquete: Museo + Documental IMAX Laser",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "start": "2026-11-22T14:00",
+   "end": "2026-12-02T18:00",
+   "price": null,
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
+    }
+   ],
+   "url": "https://feverup.com/m/341894",
+   "firstSeen": "2026-11-11T19:33:09.595Z"
+  },
+  {
    "id": "b3934f8b0215",
    "skey": "temporada musica son graves|teatro centro",
    "title": "Temporada de Música 2026 I Son de los graves",
@@ -3228,46 +1544,6 @@
    "moreDatesAt": "2026-11-18T20:26:18.655Z"
   },
   {
-   "title": "Mercado navideño: Palacio de Hierro",
-   "start": "2026-11-22T14:28",
-   "end": "2026-11-24T17:38",
-   "venue": "Rotonda Calzada del Valle",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro-3/"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro-3/",
-   "skey": "mercado navideno palacio hierro|rotonda calzada",
-   "id": "918d9d693186",
-   "dates": [
-    {
-     "start": "2026-11-22T14:28",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro-3/"
-    },
-    {
-     "start": "2026-11-23T14:57",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro/"
-    },
-    {
-     "start": "2026-11-24T14:59",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro-2/"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z"
-  },
-  {
    "title": "Bailongo",
    "start": "2026-11-22T15:00",
    "end": "2026-12-20T19:00",
@@ -3317,6 +1593,114 @@
    "firstSeen": "2026-10-11T12:26:52.848Z"
   },
   {
+   "id": "740820113a2c",
+   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
+   "start": "2026-11-22T15:00",
+   "end": "2026-12-06T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
+    }
+   ],
+   "url": "https://feverup.com/m/287670",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "Kingo Nonaka, el pequeño samaurái – 2026",
+   "start": "2026-11-22T15:00",
+   "end": "2026-11-29T17:00",
+   "venue": "Niños CONARTE",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26163_PORTADA_UN-DOS-TRES-700x360.jpg",
+   "description": "De Ana Lucía Ramírez y David Colorado Dirección: Paulina de León Sinopsis Kingo Nonaka fue un inmigrante japonés que trabajó de barrendero, se convirtió en médico y participó en la revolución mexicana, hasta terminar sus días en Tijuana como fotógrafo. En la historia que hemos creado, Kingo, un pequeño huérfano, huye de Japón a México para convertirse en samurái y detener al “hombre de los lentes oscuros”.",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/",
+   "skey": "kingo nonaka pequeno samaurai|ninos conarte",
+   "id": "b56e5700a83f",
+   "dates": [
+    {
+     "start": "2026-11-22T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
+    },
+    {
+     "start": "2026-11-22T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
+    },
+    {
+     "start": "2026-11-29T15:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
+    },
+    {
+     "start": "2026-11-29T17:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/kingo-nonaka-el-pequeno-samaurai-2026/"
+    }
+   ],
+   "firstSeen": "2026-11-13T19:35:32.039Z"
+  },
+  {
+   "id": "6cc2cf8f6713",
+   "skey": "mercado mx|parque rufino",
+   "title": "Mercado Mx",
+   "start": "2026-11-22T15:00",
+   "end": "2026-11-22T22:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/mercado-mx-4/"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/mercado-mx-4/",
+   "firstSeen": "2026-11-03T12:59:41.645Z"
+  },
+  {
+   "id": "77a4c5659543",
+   "skey": "virtuality world cumpleanos infantiles|galerias valle",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "start": "2026-11-22T15:00",
+   "end": "2027-01-31T19:00",
+   "price": "Desde $635",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
+    }
+   ],
+   "url": "https://feverup.com/m/612272",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "id": "4f3b3ba06bf1",
    "skey": "descendientes revolucion mexicana ii|museos",
    "title": "Descendientes de la Revolución Mexicana II",
@@ -3335,6 +1719,27 @@
    ],
    "url": "https://www.3museos.com/?eventos=descendientes-de-la-revolucion-mexicana-ii",
    "firstSeen": "2026-11-21T19:07:15.922Z"
+  },
+  {
+   "id": "74a4ec6e6aea",
+   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
+   "start": "2026-11-22T16:00",
+   "end": "2026-11-29T19:00",
+   "price": "Desde $530",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
+    }
+   ],
+   "url": "https://feverup.com/m/638206",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "title": "Nota de voz",
@@ -3472,6 +1877,40 @@
    "firstSeen": "2026-11-12T19:52:34.861Z"
   },
   {
+   "title": "FIREBRINGER: El origen del fuego",
+   "start": "2026-11-22T18:00",
+   "end": "2026-11-29T19:30",
+   "venue": "DramaticoMX",
+   "city": "MONTERREY",
+   "category": "Música",
+   "price": "$350",
+   "tickets": "https://foro13.primetickets.mx/firebringer",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/11/TRIBU.jpg",
+   "description": "Calificación promedio Aún no hay calificación FIREBRINGER: El origen del fuego Género: Teatro musical Música y letra: Meredith Stepien y Mark Swiderski Libreto: Nick Lang, Matt Lang y Brian Holden Arreglos: Clark Baxtresser y Pierce Siebers Sinopsis En los comienzos de la humanidad, una tribu de cavernícolas sobrevive a las numerosas pruebas de la vida prehistórica bajo el sabio liderazgo de Jemilla, «La Pacificadora». Jemilla ha enseñado a su pueblo a expresarse, en lugar de golpearse la cabeza unos a otros con piedras o comerse a sus propios bebés.",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-22/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-22/",
+   "skey": "firebringer origen fuego|dramaticomx",
+   "id": "2c4459232adc",
+   "dates": [
+    {
+     "start": "2026-11-22T18:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-22/"
+    },
+    {
+     "start": "2026-11-29T18:00",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/firebringer-el-origen-del-fuego/2026-11-29/"
+    }
+   ],
+   "firstSeen": "2026-11-07T17:45:12.347Z"
+  },
+  {
    "title": "Las Sirvientas de Jean Genet",
    "start": "2026-11-22T18:00",
    "end": "2026-12-11T20:30",
@@ -3569,6 +2008,33 @@
     }
    ],
    "firstSeen": "2026-11-18T20:26:18.655Z"
+  },
+  {
+   "id": "675a1b5a9a30",
+   "skey": "temporada teatro yo no soy charlie melancolia una lengua formol|teatro ciudad",
+   "title": "Temporada de Teatro 2026 I Yo no soy Charlie o la melancolía de una lengua en formol",
+   "start": "2026-11-22T18:00",
+   "end": "2026-11-22T20:30",
+   "venue": "Teatro de la Ciudad I Sala Experimental",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/09/Slider_TTCharlie-700x360.jpg",
+   "description": "Dramaturgia de Bryan Vindas Dirección: Bryan Jair Producción: Graciela Eligio Tras un intento de suicidio, un hombre se lanza a un viaje inesperado y delirante acompañado de un sacerdote, un policía, un payaso y un hombre disfrazado de pollo. Una reflexión intensa sobre la identidad, la masculinidad, la violencia y la salud mental. Una experiencia teatral cruda y surreal que retrata el ambiente de las cantinas mexicanas. Solo adultos",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/"
+    },
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21253-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol"
+    }
+   ],
+   "tickets": "https://arema.mx/e/21253-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol",
+   "url": "https://conarte.org.mx/agenda/temporada-de-teatro-2026-i-yo-no-soy-charlie-o-la-melancolia-de-una-lengua-en-formol/",
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-10-09T12:28:04.203Z"
   },
   {
    "id": "9154c3df6885",
@@ -3701,6 +2167,35 @@
    "moreDatesAt": "2026-10-20T12:41:33.774Z"
   },
   {
+   "id": "c38517eab0be",
+   "skey": "raices estampas revolucion|auditorio luis",
+   "title": "Raíces \"Estampas De La Revolución\"",
+   "start": "2026-11-22T19:00",
+   "end": "2026-11-22",
+   "venue": "Auditorio Luis Elizondo",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://s1.ticketm.net/dam/e/8e2/904b8fde-cb26-4f81-acc8-4884be5f98e2_RETINA_LANDSCAPE_16_9.jpg",
+   "sources": [
+    {
+     "id": "ticketmaster",
+     "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-22-11-2026/event/1400651187532077"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/raíces-estampas-de-la-revolución/210001614371318"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/raices-estampas-de-la-revolucion-tm-_ok6fwvM"
+    }
+   ],
+   "description": "Raíces, el grupo representativo de danza folklórica del Tecnológico de Monterrey, presenta Estampas de la Revolución, un espectáculo que rinde homenaje a uno de los momentos más importantes de la hist",
+   "url": "https://www.ticketmaster.com.mx/raices-estampas-de-la-revolucion-monterrey-22-11-2026/event/1400651187532077",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
    "title": "Dussel",
    "start": "2026-11-22T20:00",
    "end": "2026-11-25T20:00",
@@ -3735,6 +2230,27 @@
     }
    ],
    "firstSeen": "2026-11-18T20:26:18.655Z"
+  },
+  {
+   "id": "ec0b14fb471c",
+   "skey": "imax juegos hambre amanecer cosecha|papalote museo",
+   "title": "IMAX - Los Juegos del Hambre: Amanecer en la Cosecha",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/af51d687-528c-4658-bd0d-96e84d0e044a.jpg",
+   "start": "2026-11-22T20:00",
+   "end": "2026-12-02T19:30",
+   "price": "Desde $170",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/809410"
+    }
+   ],
+   "url": "https://feverup.com/m/809410",
+   "firstSeen": "2026-11-17T20:49:04.743Z"
   },
   {
    "id": "976fadb700fc",
@@ -4132,25 +2648,39 @@
    "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
-   "id": "2338f9dec7d2",
-   "skey": "mision rescate juego callejero guiado app|macroplaza",
-   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
-   "venue": "Macroplaza",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
-   "start": "2026-11-23T14:00",
-   "end": "2027-01-03T17:00",
-   "price": "Desde $370",
-   "demand": null,
+   "title": "Mercado navideño: Palacio de Hierro",
+   "start": "2026-11-23T14:57",
+   "end": "2026-11-24T17:38",
+   "venue": "Rotonda Calzada del Valle",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": null,
+   "description": null,
    "sources": [
     {
-     "id": "fever",
-     "url": "https://feverup.com/m/283501"
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro/"
     }
    ],
-   "url": "https://feverup.com/m/283501",
-   "firstSeen": "2026-10-24T12:35:51.731Z"
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro/",
+   "skey": "mercado navideno palacio hierro|rotonda calzada",
+   "id": "918d9d693186",
+   "dates": [
+    {
+     "start": "2026-11-23T14:57",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro/"
+    },
+    {
+     "start": "2026-11-24T14:59",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/mercado-navideno-palacio-de-hierro-2/"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z"
   },
   {
    "title": "Academia basquetbol diversas categorias Osos San Pedro",
@@ -4703,6 +3233,143 @@
    ],
    "firstSeen": "2026-11-03T12:59:41.645Z",
    "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "start": "2026-11-24T11:00",
+   "end": "2026-11-29T19:00",
+   "price": "$799 – $999",
+   "demand": "alta",
+   "demandWhy": "últimos boletos",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636",
+   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
+   "id": "f928b586e3c0",
+   "dates": [
+    {
+     "start": "2026-11-24T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-24T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-25T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-25T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-26T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-26T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-27T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-27T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-28T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-28T14:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-28T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 24
+    },
+    {
+     "start": "2026-11-29T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-29T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-11-18T20:26:18.655Z"
+  },
+  {
+   "id": "c55adc64b12e",
+   "skey": "mision rescate juego callejero guiado app|macroplaza",
+   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
+   "venue": "Macroplaza",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
+   "start": "2026-11-24T15:00",
+   "end": "2027-01-03T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/283501"
+    }
+   ],
+   "url": "https://feverup.com/m/283501",
+   "firstSeen": "2026-10-24T12:35:51.731Z"
   },
   {
    "id": "c820f8cd4611",
@@ -5724,6 +4391,96 @@
    "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
+   "title": "Salsa con Gabriel y Deya",
+   "start": "2026-11-26T19:00",
+   "end": "2026-11-28T21:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1",
+   "skey": "salsa gabriel deya|parque rufino",
+   "id": "1bde0323dc9b",
+   "dates": [
+    {
+     "start": "2026-11-26T19:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1"
+    },
+    {
+     "start": "2026-11-28T19:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/salsa-con-gabriel-y-deya-8/var/ri-7.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "Seminario I Ciudad fortuita: Seminario de prácticas contemporáneas de fotografía de calle – Octubre 2026",
+   "start": "2026-11-26T19:00",
+   "end": "2026-12-12T10:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Fortuita-700x360.jpg",
+   "description": "Imparte: Verónica Mar Aproximación crítica y contemporánea al género fotográfico, entendiendo la práctica en el espacio público como base de un proceso artístico autoral Del 31 de octubre al 12 de diciembre – Jueves de 19:00 a 21:00 h y sábados de 10:00 a 13:00 h Costo $2500 4 módulos (costo por módulo: $700) Para mayores de 18 años Informes e inscripciones: hola@veronica-mar.com",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/",
+   "skey": "seminario ciudad fortuita seminario practicas contemporaneas fotografia calle octubre|escuela adolfo",
+   "id": "98cf4981d159",
+   "dates": [
+    {
+     "start": "2026-11-26T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
+    },
+    {
+     "start": "2026-11-28T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
+    },
+    {
+     "start": "2026-12-03T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
+    },
+    {
+     "start": "2026-12-05T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
+    },
+    {
+     "start": "2026-12-10T19:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
+    },
+    {
+     "start": "2026-12-12T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/seminario-i-ciudad-fortuita-seminario-de-practicas-contemporaneas-de-fotografia-de-calle-octubre-2026/"
+    }
+   ],
+   "firstSeen": "2026-10-17T12:35:16.355Z",
+   "moreDatesAt": "2026-10-29T12:53:41.351Z"
+  },
+  {
    "id": "6a5e23e0a20c",
    "skey": "pilates sculpt|parque capitan",
    "title": "Pilates Sculpt",
@@ -5910,6 +4667,130 @@
    "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
+   "title": "Lady Quesos en Monterrey",
+   "start": "2026-11-26T20:30",
+   "end": "2027-01-30T22:00",
+   "venue": "Teatro Nena Delgado",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": "$700",
+   "tickets": "https://arema.mx/e/18059-lady-quesos-en-monterrey",
+   "image": "https://carteleraescenica.com/wp-content/uploads/2026/10/LADY-QUESOS.jpg",
+   "description": "Calificación promedio Aún no hay calificación Lady Quesos en Monterrey Quesos Quetita es un negocio familiar que inició desde abajo, pero gracias a su dueña Cristina (Nena Delgado) se convirtió en una gran empresa, en la que “trabajan” sus inútiles hijos Neto (Renán Moreno) y Miguel (Pablo Morton), quienes sólo crean problemas. Pero la asistente Yolita (Yudith González) mantiene en orden la oficina. Llega Irasema (Irma González) representando a Cheese International y le ofrece a la dueña comprarle la empresa. Y esto desata situaciones de mucha comicidad.",
+   "sources": [
+    {
+     "id": "cartelera_escenica",
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-26/"
+    }
+   ],
+   "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-26/",
+   "skey": "lady quesos|teatro nena",
+   "id": "3069400ad6ee",
+   "dates": [
+    {
+     "start": "2026-11-26T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-26/"
+    },
+    {
+     "start": "2026-11-28T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-11-28/"
+    },
+    {
+     "start": "2026-12-03T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-03/"
+    },
+    {
+     "start": "2026-12-05T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-05/"
+    },
+    {
+     "start": "2026-12-10T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-10/"
+    },
+    {
+     "start": "2026-12-12T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-12/"
+    },
+    {
+     "start": "2026-12-17T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-17/"
+    },
+    {
+     "start": "2026-12-19T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-19/"
+    },
+    {
+     "start": "2026-12-24T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-24/"
+    },
+    {
+     "start": "2026-12-26T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-26/"
+    },
+    {
+     "start": "2026-12-31T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2026-12-31/"
+    },
+    {
+     "start": "2027-01-02T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-02/"
+    },
+    {
+     "start": "2027-01-07T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-07/"
+    },
+    {
+     "start": "2027-01-09T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-09/"
+    },
+    {
+     "start": "2027-01-14T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-14/"
+    },
+    {
+     "start": "2027-01-16T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-16/"
+    },
+    {
+     "start": "2027-01-21T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-21/"
+    },
+    {
+     "start": "2027-01-23T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-23/"
+    },
+    {
+     "start": "2027-01-28T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-28/"
+    },
+    {
+     "start": "2027-01-30T20:30",
+     "end": null,
+     "url": "https://carteleraescenica.com/eventos/lady-quesos-en-monterrey/2027-01-30/"
+    }
+   ],
+   "firstSeen": "2026-10-30T12:54:13.354Z"
+  },
+  {
    "id": "0c8d48bc35b4",
    "skey": "six sex|foro corona",
    "title": "Six Sex",
@@ -5978,6 +4859,28 @@
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "5d9803280609",
+   "skey": "nortenazo domo care|domo care",
+   "title": "El Norteñazo en el Domo Care",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "venue": "Domo Care, Av. Benito Juárez 940, Guadalupe, N.L.",
+   "city": "Monterrey",
+   "price": null,
+   "image": "https://ctxplorer.com/media/prensa/motor-carteleras/el-nortenazo-domo-care-2026-11-27.jpg",
+   "genre": null,
+   "description": "El Norteñazo en el Domo Care (Guadalupe, N.L.), 27 de noviembre de 2026, 22:00 h.",
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/el-nortenazo-domo-care-2026-11-27"
+    }
+   ],
+   "url": "https://ctxplorer.com/events/el-nortenazo-domo-care-2026-11-27",
+   "firstSeen": "2026-11-22T19:29:43.237Z"
   },
   {
    "id": "75ebadcf459c",
@@ -6410,8 +5313,13 @@
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/anastasia-el-musical/210003204273857"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/anastasia-el-musical-tm-GkUcMzLR"
     }
    ],
+   "description": "En el marco de la celebración por los 60 años de Teatro Musical del Tec de Monterrey, llega Anastasia, el aclamado musical de Broadway inspirado en la legendaria historia de la Gran Duquesa Anastasia",
    "url": "https://www.ticketmaster.com.mx/anastasia-el-musical-monterrey-27-11-2026/event/1400650DADDF87EF",
    "skey": "anastasia musical|auditorio luis",
    "id": "fdc14d761c42",
@@ -6473,7 +5381,7 @@
    "start": "2026-11-27T21:00",
    "end": "2026-11-28T00:00",
    "venue": "Arena Monterrey",
-   "city": "",
+   "city": "Monterrey",
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/09/cd9-parallax-arena-monterrey-2026.jpg",
    "genre": null,
@@ -6483,6 +5391,10 @@
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/cd9-parallax-arena-monterrey-2026"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/cd9-parallax-the-live-experience-zg-1345"
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/cd9-parallax-arena-monterrey-2026",
@@ -6493,7 +5405,7 @@
    "skey": "kakkmaddafakka|foro corona",
    "title": "Kakkmaddafakka",
    "start": "2026-11-27T21:00",
-   "end": null,
+   "end": "2026-11-27",
    "venue": "Foro Corona Monterrey",
    "city": "Col. Centro Monterrey",
    "category": "Música",
@@ -6507,8 +5419,13 @@
     {
      "id": "foro_corona",
      "url": "https://www.forocorona.com/cartelera"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/kakkmaddafakka-tm-_AKmwpzj"
     }
    ],
+   "description": "Kakkmaddafakka es el viernes 27 de noviembre de 2026 a las 21:00 en Col. Centro Monterrey.",
    "url": "https://www.ticketmaster.com.mx/kakkmaddafakka-col-centro-monterrey-27-11-2026/event/3D006454EEC96E1C",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
@@ -6660,6 +5577,41 @@
    "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
+   "title": "Comunidad trepaárboles",
+   "start": "2026-11-28T09:00",
+   "end": "2026-11-29T17:00",
+   "venue": "Parque El Capitán",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1",
+   "skey": "comunidad trepaarboles|parque capitan",
+   "id": "d2abd7b792b3",
+   "dates": [
+    {
+     "start": "2026-11-28T09:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1"
+    },
+    {
+     "start": "2026-11-29T09:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/comunidad-trepaarboles-5/var/ri-6.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-04T19:43:23.878Z"
+  },
+  {
    "id": "becf0e91a6a3",
    "skey": "salvando navidad parque fundidora street escape|parque fundidora",
    "title": "Salvando La Navidad - Parque Fundidora - Street Escape®",
@@ -6763,6 +5715,45 @@
    "firstSeen": "2026-11-04T19:43:23.878Z"
   },
   {
+   "title": "Taller I Plumas disidentes II: historias LGBTQ+ de Monterrey",
+   "start": "2026-11-28T10:00",
+   "end": "2026-12-12T10:00",
+   "venue": "Casa de la Cultura de Nuevo León",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/26093_PORTADA_PLUMAS-DISIDENTES-700x360.jpg",
+   "description": "Imparte: Alejandro Bruna Espacio seguro para la comunidad LGBTQ+ dedicado a la creación de la literatura queer, explorando la identidad, el deseo y el territorio a través de la escritura y el diálogo. Del 10 de octubre al 12 de diciembre Sábados 10:00 a 13:00 h Para mayores de 18 años Informes e inscripciones vía WhatsApp al 81 1192 8494",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/",
+   "skey": "taller plumas disidentes ii historias lgbtq|casa cultura",
+   "id": "083ace3ef412",
+   "dates": [
+    {
+     "start": "2026-11-28T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
+    },
+    {
+     "start": "2026-12-05T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
+    },
+    {
+     "start": "2026-12-12T10:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-plumas-disidentes-ii-historias-lgbtq-de-monterrey/"
+    }
+   ],
+   "firstSeen": "2026-10-06T12:32:14.705Z",
+   "moreDatesAt": "2026-10-29T12:53:41.351Z"
+  },
+  {
    "id": "a2e6e4b83a27",
    "skey": "arte parque taller acuarela impartido jeimmy nevarez|parque mirador",
    "title": "Arte al Parque | Taller de acuarela | Impartido por Jeimmy Névarez",
@@ -6784,6 +5775,66 @@
    "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/arte-al-parque-taller-de-acuarela-impartido-por-jeimmy-nevarez-2/",
    "firstSeen": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "Taller I Diario Textil: Taller de bordado y pintura textil",
+   "start": "2026-11-28T11:00",
+   "end": "2026-12-12T11:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Textil-700x360.jpg",
+   "description": "Nivel inicial Imparte: Wicca Guajardo Fusiona el bordado experimental con la pintura textil para explorar la narrativa visual a través del hilo y el color Del 7 de noviembre al 12 diciembre – Sábados I 11:00 a 15:00 h Costo: $1300 Para mayores de 18 años Informes e inscripciones: wicca.couture@gmail.com y 81 1414 2666",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/",
+   "skey": "taller diario textil taller bordado pintura textil|escuela adolfo",
+   "id": "3b3236ee1fdf",
+   "dates": [
+    {
+     "start": "2026-11-28T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
+    },
+    {
+     "start": "2026-12-05T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
+    },
+    {
+     "start": "2026-12-12T11:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-diario-textil-taller-de-bordado-y-pintura-textil/"
+    }
+   ],
+   "firstSeen": "2026-10-28T12:53:26.477Z",
+   "moreDatesAt": "2026-10-29T12:53:41.351Z"
+  },
+  {
+   "id": "4ceb71e105f9",
+   "skey": "taller arte tocar castanuelas|escuela adolfo",
+   "title": "Taller I El arte de tocar las castañuelas",
+   "start": "2026-11-28T11:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Castanuelas-700x360.jpg",
+   "description": "Imparte: Alonso Real Si te gustaría aprender a tocar las castañuelas, aprovecha esta oportunidad para dominar la técnica básica mediante ejercicios de coordinación y estimulación cerebral. Del 7 al 28 de noviembre – Sábados de 11:00 a 13:00 h Costo $1500 Para mayores de 18 años Informes e inscripciones: 81 8188 6803 y 82 5103 0328",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-i-el-arte-de-tocar-las-castanuelas/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-i-el-arte-de-tocar-las-castanuelas/",
+   "firstSeen": "2026-10-17T12:35:16.355Z"
   },
   {
    "title": "Guardianes de la memoria – 2026",
@@ -6832,6 +5883,40 @@
     }
    ],
    "firstSeen": "2026-11-13T19:35:32.039Z"
+  },
+  {
+   "title": "Ruta trece",
+   "venue": "Dramatico.Mx",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "tickets": "https://arema.mx/e/21823-ruta-trece",
+   "image": null,
+   "description": "La Bestia Teatro Presenta “Ruta 13”, de Carlos Gueta. Dirección Luis Armando Mat Inicio de actividad 3:30 pm Salida del Camión 4:00 pm Llegue con tiempo, iniciado el espectáculo, no hay acceso, ni reembolso. Horarios: • 21 de Noviembre | 15:30 hrs • 28 de Noviembre | 15:30 hrs • 05 de Diciembre | 15:30 hrs Lugar: Teatro DramaticoMx Dirección del evento: José María Morelos 1081-Oriente, Barrio Antiguo, Centro, 64000 Monterrey, N.L. Zonas y Precios: • Admisión General: $250 (Precios más cargos por servicio) Puntos de venta oficiales: * Museo del Noreste (MUNE): Dr. José Ma.",
+   "start": "2026-11-28T15:30",
+   "end": "2026-12-05T16:00",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21823-ruta-trece"
+    }
+   ],
+   "url": "https://arema.mx/e/21823-ruta-trece",
+   "skey": "ruta trece|dramatico mx",
+   "id": "e5689b1c13a8",
+   "dates": [
+    {
+     "start": "2026-11-28T15:30",
+     "end": null,
+     "url": "https://arema.mx/e/21823-ruta-trece"
+    },
+    {
+     "start": "2026-12-05T15:30",
+     "end": null,
+     "url": "https://arema.mx/e/21823-ruta-trece"
+    }
+   ],
+   "firstSeen": "2026-11-19T20:29:59.668Z"
   },
   {
    "id": "83e1cce25842",
@@ -7173,6 +6258,10 @@
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/la-gusana-ciega/200030159832348"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/la-gusana-ciega-claroscuro-tm-61pb9PDa"
     }
    ],
    "url": "https://carteleraescenica.com/eventos/la-gusana-ciega-claroscuro/",
@@ -7511,6 +6600,26 @@
    "firstSeen": "2026-10-11T12:26:52.848Z"
   },
   {
+   "id": "9a0ed234c1ed",
+   "skey": "un brindis causa experiencia enologica santisima providencia|casino",
+   "title": "Un Brindis Con Causa - Experiencia Enológica con Santisima Providencia",
+   "start": "2026-12-02T19:30",
+   "end": null,
+   "venue": "Casino Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy9iMmVjNjIyMDg2M2Q0NmY1M2FmMGJhN2M3ZDBhZWMwMjk5ZmMzNDc3NmVhMGM2Y2NiY2UxZGEyOWRkZGRmZGMyLXJpbWctdzEyMDAtaDc5NS1kYzM4MzgzOC1nbWlyLmpwZz92PTE3OTMzOTU5MTE.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/un-brindis-con-causa-experiencia-enológica-con-santisima-providencia/100002003995256759"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/un-brindis-con-causa-experiencia-enológica-con-santisima-providencia/100002003995256759",
+   "firstSeen": "2026-11-22T19:29:43.237Z"
+  },
+  {
    "id": "5b9a16c6c915",
    "skey": "morat|arena",
    "title": "Morat",
@@ -7540,6 +6649,26 @@
    "tickets": "https://www.superboletos.com/landing-evento/gzPoyHC8mSyHHIBvvkCylA",
    "url": "https://conciertosenmonterrey.com/cartelera/concierto-morat-arena-monterrey-2-diciembre-2026",
    "firstSeen": "2026-11-21T19:07:15.922Z"
+  },
+  {
+   "id": "be49698b5427",
+   "skey": "indie ciembre|metapatio",
+   "title": "Indie-Ciembre",
+   "start": "2026-12-03T17:00",
+   "end": null,
+   "venue": "Metapatio",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9lNDc5YWM2ZTRlYzcxNzA0N2Y5Zjc3MTFhNDc5Nzk0OTllZTQzNTg4MjI5ODI4OWIxYmJiNWFjNDdjOGQwNmZkLXJpbWctdzEyMDAtaDY3NS1kYzE4MTgxOC1nbWlyLmpwZz92PTE3OTM5OTg4MTI.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/indie-ciembre/100002004454554531"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/indie-ciembre/100002004454554531",
+   "firstSeen": "2026-11-22T19:29:43.237Z"
   },
   {
    "id": "267d659b75f5",
@@ -7950,15 +7079,14 @@
      "url": "https://www.ticketmaster.com.mx/hermanos-de-leche-monterrey-04-12-2026/event/1400651CD4AE3204"
     },
     {
-     "id": "conciertos_mty",
-     "url": "https://conciertosenmonterrey.com/cartelera/hermanos-de-leche-escenario-gnp-seguros-monterrey-2026"
-    },
-    {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/hermanos-de-leche/210002380778233"
+    },
+    {
+     "id": "conciertos_mty",
+     "url": "https://conciertosenmonterrey.com/cartelera/hermanos-de-leche-escenario-gnp-seguros-monterrey-2026"
     }
    ],
-   "onsale": null,
    "url": "https://carteleraescenica.com/eventos/hermanos-de-leche/2026-12-04/",
    "skey": "hermanos leche|escenario gnp",
    "id": "b059f92d9fb0",
@@ -8132,6 +7260,39 @@
      "start": "2027-02-06T21:30",
      "end": null,
      "url": "https://feverup.com/m/577933"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "title": "The Jury Experience - Algoritmo Mortal",
+   "venue": "Teatro Versalles",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/e2e02e18-90e0-11f1-8f67-32a5c963cb4a.jpg",
+   "start": "2026-12-05T16:00",
+   "end": "2026-12-05T19:30",
+   "price": "$350 – $550",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/534430"
+    }
+   ],
+   "url": "https://feverup.com/m/534430",
+   "skey": "jury experience algoritmo mortal|teatro versalles",
+   "id": "49398167d138",
+   "dates": [
+    {
+     "start": "2026-12-05T16:00",
+     "end": null,
+     "url": "https://feverup.com/m/534430"
+    },
+    {
+     "start": "2026-12-05T18:30",
+     "end": null,
+     "url": "https://feverup.com/m/534430"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z"
@@ -8798,7 +7959,7 @@
    "start": "2026-12-09T20:30",
    "end": "2026-12-09T23:30",
    "venue": "Escenario GNP Seguros",
-   "city": "",
+   "city": "Monterrey",
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/11/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026.jpg",
    "genre": null,
@@ -8808,6 +7969,10 @@
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/earth-wind-and-fire-experience-by-al-mckay/210003229608643"
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026",
@@ -9884,6 +9049,85 @@
    "moreDatesAt": "2026-10-30T12:54:13.354Z"
   },
   {
+   "title": "An Idiot’s Guide to Wine: Comedia entre copas",
+   "venue": "Saxy Jazz",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/aea349e2-794c-11f1-9162-f6ecba384b1c.jpg",
+   "start": "2026-12-18T18:30",
+   "end": "2027-02-13T22:10",
+   "price": "$570 – $950",
+   "demand": "alta",
+   "demandWhy": "últimos boletos",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/649100"
+    }
+   ],
+   "url": "https://feverup.com/m/649100",
+   "skey": "an idiot guide to wine comedia entre copas|saxy jazz",
+   "id": "c288bf528456",
+   "dates": [
+    {
+     "start": "2026-12-18T18:30",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    },
+    {
+     "start": "2026-12-18T21:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100",
+     "avail": "ultimos",
+     "left": 25
+    },
+    {
+     "start": "2026-12-19T18:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100",
+     "avail": "ultimos",
+     "left": 29
+    },
+    {
+     "start": "2026-12-19T21:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    },
+    {
+     "start": "2027-01-22T18:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    },
+    {
+     "start": "2027-01-22T21:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    },
+    {
+     "start": "2027-01-30T18:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    },
+    {
+     "start": "2027-01-30T21:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    },
+    {
+     "start": "2027-02-13T18:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    },
+    {
+     "start": "2027-02-13T21:00",
+     "end": null,
+     "url": "https://feverup.com/m/649100"
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-11-19T20:29:59.668Z"
+  },
+  {
    "id": "55322d82b24e",
    "skey": "candlelight tributo rawayana|museo historia",
    "title": "Candlelight: Tributo a Rawayana",
@@ -9900,6 +9144,10 @@
     {
      "id": "fever",
      "url": "https://feverup.com/m/778915"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/candlelight-tributo-a-rawayana/2700030743181036"
     }
    ],
    "url": "https://feverup.com/m/778915",
@@ -10112,7 +9360,7 @@
      "start": "2026-12-26T21:00",
      "end": null,
      "url": "https://feverup.com/m/121409",
-     "price": "$560 – $1,150"
+     "price": "$560 – $1,220"
     }
    ],
    "firstSeen": "2000-01-01T00:00:00Z",
@@ -10361,6 +9609,10 @@
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/annie-el-musical-temporada-navidena-monterrey-26-12-2026/event/14006563877B2CF7"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/annie-el-musical-temporada-navideña/210002811202950"
     }
    ],
    "url": "https://www.ticketmaster.com.mx/annie-el-musical-temporada-navidena-monterrey-26-12-2026/event/14006563877B2CF7",
