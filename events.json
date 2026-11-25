@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-24T22:20:12.596Z",
+ "generatedAt": "2026-11-25T21:37:37.383Z",
  "timezone": "America/Monterrey",
- "total": 397,
+ "total": 400,
  "sources": [
   {
    "id": "cartelera_escenica",
@@ -10,31 +10,31 @@
    "ok": true,
    "count": 60,
    "error": null,
-   "checkedAt": "2026-11-24T22:17:10.205Z",
-   "lastSuccess": "2026-11-24T22:17:10.205Z",
-   "ms": 2402
+   "checkedAt": "2026-11-25T21:34:34.203Z",
+   "lastSuccess": "2026-11-25T21:34:34.203Z",
+   "ms": 2427
   },
   {
    "id": "arema",
    "name": "Arema",
    "home": "https://arema.mx/",
    "ok": true,
-   "count": 133,
+   "count": 132,
    "error": null,
-   "checkedAt": "2026-11-24T22:17:12.607Z",
-   "lastSuccess": "2026-11-24T22:17:12.607Z",
-   "ms": 21423
+   "checkedAt": "2026-11-25T21:34:36.630Z",
+   "lastSuccess": "2026-11-25T21:34:36.630Z",
+   "ms": 24428
   },
   {
    "id": "superboletos",
    "name": "SuperBoletos",
    "home": "https://www.superboletos.com/",
    "ok": true,
-   "count": 74,
+   "count": 76,
    "error": null,
-   "checkedAt": "2026-11-24T22:17:34.030Z",
-   "lastSuccess": "2026-11-24T22:17:34.030Z",
-   "ms": 801
+   "checkedAt": "2026-11-25T21:35:01.058Z",
+   "lastSuccess": "2026-11-25T21:35:01.058Z",
+   "ms": 650
   },
   {
    "id": "ticketmaster",
@@ -43,9 +43,9 @@
    "ok": true,
    "count": 95,
    "error": null,
-   "checkedAt": "2026-11-24T22:17:34.831Z",
-   "lastSuccess": "2026-11-24T22:17:34.831Z",
-   "ms": 590
+   "checkedAt": "2026-11-25T21:35:01.708Z",
+   "lastSuccess": "2026-11-25T21:35:01.708Z",
+   "ms": 675
   },
   {
    "id": "conciertos_mty",
@@ -54,20 +54,20 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "checkedAt": "2026-11-24T22:17:35.421Z",
-   "lastSuccess": "2026-11-24T22:17:35.421Z",
-   "ms": 4075
+   "checkedAt": "2026-11-25T21:35:02.383Z",
+   "lastSuccess": "2026-11-25T21:35:02.383Z",
+   "ms": 3385
   },
   {
    "id": "conarte_agenda",
    "name": "CONARTE (agenda)",
    "home": "https://conarte.org.mx/agenda/",
    "ok": true,
-   "count": 68,
+   "count": 74,
    "error": null,
-   "checkedAt": "2026-11-24T22:17:39.496Z",
-   "lastSuccess": "2026-11-24T22:17:39.496Z",
-   "ms": 108186
+   "checkedAt": "2026-11-25T21:35:05.768Z",
+   "lastSuccess": "2026-11-25T21:35:05.768Z",
+   "ms": 115636
   },
   {
    "id": "cineteca",
@@ -76,9 +76,9 @@
    "ok": true,
    "count": 8,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:27.682Z",
-   "lastSuccess": "2026-11-24T22:19:27.682Z",
-   "ms": 19368
+   "checkedAt": "2026-11-25T21:37:01.404Z",
+   "lastSuccess": "2026-11-25T21:37:01.404Z",
+   "ms": 13435
   },
   {
    "id": "santa_lucia",
@@ -87,8 +87,8 @@
    "ok": true,
    "count": 14,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:47.050Z",
-   "lastSuccess": "2026-11-24T22:19:47.050Z",
+   "checkedAt": "2026-11-25T21:37:14.839Z",
+   "lastSuccess": "2026-11-25T21:37:14.839Z",
    "ms": 1
   },
   {
@@ -98,9 +98,9 @@
    "ok": true,
    "count": 1,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:47.051Z",
-   "lastSuccess": "2026-11-24T22:19:47.051Z",
-   "ms": 1311
+   "checkedAt": "2026-11-25T21:37:14.840Z",
+   "lastSuccess": "2026-11-25T21:37:14.840Z",
+   "ms": 1167
   },
   {
    "id": "allevents",
@@ -109,9 +109,9 @@
    "ok": true,
    "count": 45,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:48.362Z",
-   "lastSuccess": "2026-11-24T22:19:48.362Z",
-   "ms": 412
+   "checkedAt": "2026-11-25T21:37:16.007Z",
+   "lastSuccess": "2026-11-25T21:37:16.007Z",
+   "ms": 354
   },
   {
    "id": "ctxplorer",
@@ -120,9 +120,9 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:48.774Z",
-   "lastSuccess": "2026-11-24T22:19:48.774Z",
-   "ms": 525
+   "checkedAt": "2026-11-25T21:37:16.361Z",
+   "lastSuccess": "2026-11-25T21:37:16.361Z",
+   "ms": 376
   },
   {
    "id": "marco",
@@ -131,9 +131,9 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:49.299Z",
-   "lastSuccess": "2026-11-24T22:19:49.299Z",
-   "ms": 725
+   "checkedAt": "2026-11-25T21:37:16.737Z",
+   "lastSuccess": "2026-11-25T21:37:16.737Z",
+   "ms": 422
   },
   {
    "id": "tres_museos",
@@ -142,9 +142,9 @@
    "ok": true,
    "count": 4,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:50.024Z",
-   "lastSuccess": "2026-11-24T22:19:50.024Z",
-   "ms": 2651
+   "checkedAt": "2026-11-25T21:37:17.159Z",
+   "lastSuccess": "2026-11-25T21:37:17.159Z",
+   "ms": 1104
   },
   {
    "id": "cintermex",
@@ -153,9 +153,9 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:52.675Z",
-   "lastSuccess": "2026-11-24T22:19:52.675Z",
-   "ms": 945
+   "checkedAt": "2026-11-25T21:37:18.263Z",
+   "lastSuccess": "2026-11-25T21:37:18.263Z",
+   "ms": 989
   },
   {
    "id": "foro_corona",
@@ -164,20 +164,20 @@
    "ok": true,
    "count": 9,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:53.621Z",
-   "lastSuccess": "2026-11-24T22:19:53.621Z",
-   "ms": 145
+   "checkedAt": "2026-11-25T21:37:19.252Z",
+   "lastSuccess": "2026-11-25T21:37:19.252Z",
+   "ms": 90
   },
   {
    "id": "fever",
    "name": "Fever",
    "home": "https://feverup.com/es/monterrey",
    "ok": true,
-   "count": 76,
+   "count": 74,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:53.766Z",
-   "lastSuccess": "2026-11-24T22:19:53.766Z",
-   "ms": 5427
+   "checkedAt": "2026-11-25T21:37:19.342Z",
+   "lastSuccess": "2026-11-25T21:37:19.342Z",
+   "ms": 5236
   },
   {
    "id": "primetickets",
@@ -186,9 +186,9 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:59.193Z",
-   "lastSuccess": "2026-11-24T22:19:59.193Z",
-   "ms": 427
+   "checkedAt": "2026-11-25T21:37:24.579Z",
+   "lastSuccess": "2026-11-25T21:37:24.579Z",
+   "ms": 249
   },
   {
    "id": "osuanl",
@@ -197,9 +197,9 @@
    "ok": true,
    "count": 2,
    "error": null,
-   "checkedAt": "2026-11-24T22:19:59.620Z",
-   "lastSuccess": "2026-11-24T22:19:59.620Z",
-   "ms": 1387
+   "checkedAt": "2026-11-25T21:37:24.828Z",
+   "lastSuccess": "2026-11-25T21:37:24.828Z",
+   "ms": 1034
   },
   {
    "id": "ballet_mty",
@@ -208,9 +208,9 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "checkedAt": "2026-11-24T22:20:01.007Z",
-   "lastSuccess": "2026-11-24T22:20:01.007Z",
-   "ms": 3200
+   "checkedAt": "2026-11-25T21:37:25.862Z",
+   "lastSuccess": "2026-11-25T21:37:25.862Z",
+   "ms": 2954
   },
   {
    "id": "sanpedro_vive",
@@ -219,21 +219,21 @@
    "ok": true,
    "count": 48,
    "error": null,
-   "checkedAt": "2026-11-24T22:20:04.207Z",
-   "lastSuccess": "2026-11-24T22:20:04.207Z",
-   "ms": 3102
+   "checkedAt": "2026-11-25T21:37:28.816Z",
+   "lastSuccess": "2026-11-25T21:37:28.816Z",
+   "ms": 2777
   },
   {
    "id": "sanpedro_parques",
    "name": "San Pedro + Parques",
    "home": "https://sanpedroparques.mx/calendario-eventos/",
    "ok": true,
-   "count": 73,
+   "count": 58,
    "error": null,
-   "checkedAt": "2026-11-24T22:20:07.309Z",
-   "lastSuccess": "2026-11-24T22:20:07.309Z",
+   "checkedAt": "2026-11-25T21:37:31.594Z",
+   "lastSuccess": "2026-11-25T21:37:31.594Z",
    "warning": "Ya publicaron el PDF de un mes nuevo: pídele a Claude que lo capture",
-   "ms": 4852
+   "ms": 5329
   },
   {
    "id": "chipinque",
@@ -242,9 +242,9 @@
    "ok": true,
    "count": 27,
    "error": null,
-   "checkedAt": "2026-11-24T22:20:12.161Z",
-   "lastSuccess": "2026-11-24T22:20:12.161Z",
-   "ms": 136
+   "checkedAt": "2026-11-25T21:37:36.923Z",
+   "lastSuccess": "2026-11-25T21:37:36.923Z",
+   "ms": 160
   }
  ],
  "notIncluded": [
@@ -322,26 +322,6 @@
   }
  ],
  "events": [
-  {
-   "id": "4fe8f50ad28a",
-   "skey": "desconcierto|foro 13",
-   "title": "ConCierto DesConcierto",
-   "start": "2024-10-09",
-   "end": "2026-11-24",
-   "venue": "FORO 13",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://cartelera.primetickets.mx/storage/event_files/6/94/cartelera.jpg",
-   "sources": [
-    {
-     "id": "primetickets",
-     "url": "https://cartelera.primetickets.mx/concierto-desconcierto"
-    }
-   ],
-   "url": "https://cartelera.primetickets.mx/concierto-desconcierto",
-   "firstSeen": "2026-10-29T12:53:41.351Z"
-  },
   {
    "id": "703e3f186471",
    "skey": "tus ojos mis ojos|centro cultural",
@@ -655,26 +635,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "9eeec1aed5c5",
-   "skey": "sentencia muerte|foro 13",
-   "title": "Sentencia de Muerte",
-   "start": "2026-11-03",
-   "end": "2026-11-24",
-   "venue": "FORO 13",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "image": "https://cartelera.primetickets.mx/storage/event_files/6/275/cartelera.webp",
-   "sources": [
-    {
-     "id": "primetickets",
-     "url": "https://cartelera.primetickets.mx/sentencia-de-muerte"
-    }
-   ],
-   "url": "https://cartelera.primetickets.mx/sentencia-de-muerte",
-   "firstSeen": "2026-11-20T20:01:55.636Z"
-  },
-  {
    "id": "fcbdd698f1ca",
    "skey": "resolana retrospectiva juan jose ceron|conarte centro",
    "title": "Resolana. Retrospectiva de Juan José Cerón",
@@ -777,26 +737,6 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "18d326dc098b",
-   "skey": "cafe historia home run|museos",
-   "title": "Café con Historia. De Home Run",
-   "start": "2026-11-17T19:00",
-   "end": "2026-11-24",
-   "venue": "3 Museos",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://www.3museos.com/wp-content/uploads/2026/10/cafe_homerun-720x540.jpg",
-   "sources": [
-    {
-     "id": "tres_museos",
-     "url": "https://www.3museos.com/?eventos=cafe-con-historia-de-home-run"
-    }
-   ],
-   "url": "https://www.3museos.com/?eventos=cafe-con-historia-de-home-run",
-   "firstSeen": "2026-11-21T19:07:15.922Z"
-  },
-  {
    "id": "7db9341f2fa4",
    "skey": "presas asesinas|foro 13",
    "title": "PRESAS ASESINAS",
@@ -858,347 +798,6 @@
    "firstSeen": "2026-11-03T12:59:41.645Z"
   },
   {
-   "id": "ad5157773f5a",
-   "skey": "sofia comas|puebla actividad",
-   "title": "Sofía Comas en Monterrey",
-   "start": "2026-11-24",
-   "end": "2026-11-24",
-   "venue": "Puebla: actividad del Tecnológico de, Monterrey",
-   "city": "Monterrey",
-   "price": null,
-   "image": "https://ctxplorer.com/media/prensa/sofia-comas-monterrey-2026-11-24/img-3.jpeg",
-   "genre": null,
-   "description": "Sofía Comas presenta su álbum 'Tecuán Caroca' en Monterrey el 24 de noviembre de 2026.",
-   "category": "Otros",
-   "sources": [
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/sofia-comas-monterrey-2026-11-24"
-    }
-   ],
-   "url": "https://ctxplorer.com/events/sofia-comas-monterrey-2026-11-24",
-   "firstSeen": "2026-11-21T19:07:15.922Z"
-  },
-  {
-   "id": "51eecb79c321",
-   "skey": "papalote museo nino|papalote museo",
-   "title": "Papalote Museo del Niño",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
-   "start": "2026-11-24T10:00",
-   "end": "2027-01-13T18:00",
-   "price": "Desde $280",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/338223"
-    }
-   ],
-   "url": "https://feverup.com/m/338223",
-   "firstSeen": "2026-11-11T19:33:09.595Z"
-  },
-  {
-   "id": "21a324fb0a4e",
-   "skey": "super paquete museo documental imax laser|papalote museo",
-   "title": "Super Paquete: Museo + Documental IMAX Laser",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
-   "start": "2026-11-24T16:30",
-   "end": "2026-12-02T18:00",
-   "price": null,
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/341894"
-    }
-   ],
-   "url": "https://feverup.com/m/341894",
-   "firstSeen": "2026-11-11T19:33:09.595Z"
-  },
-  {
-   "id": "97395ee47819",
-   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
-   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
-   "venue": "Parque Rufino Tamayo",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
-   "start": "2026-11-24T17:00",
-   "end": "2026-12-06T17:00",
-   "price": "Desde $370",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/287670"
-    }
-   ],
-   "url": "https://feverup.com/m/287670",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "c820f8cd4611",
-   "skey": "proyeccion cortometrajes|marco",
-   "title": "Proyección de cortometrajes",
-   "start": "2026-11-24T17:00",
-   "end": null,
-   "venue": "MARCO",
-   "city": "Monterrey",
-   "category": "Museos",
-   "price": "Evento gratuito",
-   "image": "https://www.marco.org.mx/imagenes/2026/05/INSTA-1-e1795122151785.png",
-   "sources": [
-    {
-     "id": "marco",
-     "url": "https://www.marco.org.mx/eventos/proyeccion-de-cortometrajes/"
-    }
-   ],
-   "free": true,
-   "freeVia": "MARCO",
-   "url": "https://www.marco.org.mx/eventos/proyeccion-de-cortometrajes/",
-   "firstSeen": "2026-11-20T20:01:55.636Z"
-  },
-  {
-   "id": "f5eac015e584",
-   "skey": "virtuality world cumpleanos infantiles|galerias valle",
-   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
-   "venue": "Galerías Valle Oriente",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
-   "start": "2026-11-24T17:00",
-   "end": "2027-01-31T19:00",
-   "price": "Desde $635",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/612272"
-    }
-   ],
-   "url": "https://feverup.com/m/612272",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "ff86e0ee70ed",
-   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
-   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
-   "venue": "Museo del Acero horno 3",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
-   "start": "2026-11-24T18:00",
-   "end": "2026-11-29T19:00",
-   "price": "Desde $530",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/638206"
-    }
-   ],
-   "url": "https://feverup.com/m/638206",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "title": "Taller I Costura y upcycling: Texturas urbanas",
-   "start": "2026-11-24T18:00",
-   "end": "2026-12-15T18:00",
-   "venue": "Escuela Adolfo Prieto",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Upcycling_dic-700x360.jpg",
-   "description": "Módulo tres: Alteración de prenda reciclada Imparte: Wicca Guajardo Programa práctico-teórico de nivel principiante e intermedio diseñado para profundizar en el supra-reciclaje textil y el diseño sostenible Del 24 de noviembre al 15 diciembre – Martes y jueves I 18:00 a 21:00 h Costo: $1200 Para mayores de 18 años Informes e inscripciones: wicca.couture@gmail.com y 81 1414 2666",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/",
-   "skey": "taller costura upcycling texturas urbanas|escuela adolfo",
-   "id": "6f5899ad500e",
-   "dates": [
-    {
-     "start": "2026-11-24T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    },
-    {
-     "start": "2026-11-26T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    },
-    {
-     "start": "2026-12-01T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    },
-    {
-     "start": "2026-12-03T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    },
-    {
-     "start": "2026-12-08T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    },
-    {
-     "start": "2026-12-10T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    },
-    {
-     "start": "2026-12-15T18:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z",
-   "moreDatesAt": "2026-11-01T12:48:57.211Z"
-  },
-  {
-   "title": "Taller I Danza española y flamenco",
-   "start": "2026-11-24T18:30",
-   "end": "2026-11-26T18:30",
-   "venue": "Escuela Adolfo Prieto",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_DanzaEsp-700x360.jpg",
-   "description": "Imparte: Alonso Real Aprende a bailar sevillanas, conoce y disfruta la cultura y la música del flamenco. Del 3 al 26 de noviembre – Martes y jueves de 18:30 a 20:00 h Costo $1500 Para mayores de 18 años Informes e inscripciones: 81 8188 6803 y 82 5103 0328",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-danza-espanola-y-flamenco/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-danza-espanola-y-flamenco/",
-   "skey": "taller danza espanola flamenco|escuela adolfo",
-   "id": "65abf2c8c933",
-   "dates": [
-    {
-     "start": "2026-11-24T18:30",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-danza-espanola-y-flamenco/"
-    },
-    {
-     "start": "2026-11-26T18:30",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-danza-espanola-y-flamenco/"
-    }
-   ],
-   "firstSeen": "2026-10-17T12:35:16.355Z"
-  },
-  {
-   "title": "Taller I Creación de acto de danza aérea en telas",
-   "start": "2026-11-24T19:00",
-   "end": "2026-11-26T19:00",
-   "venue": "Escuela Adolfo Prieto",
-   "city": "Monterrey",
-   "category": "Talleres y charlas",
-   "price": null,
-   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_DanzAerea-700x360.jpg",
-   "description": "Imparten: Patricio Botello y Alex Tierrablanca Proceso de creación en danza aérea en telas: técnica, expresión corporal y musicalidad encaminadas a un espectáculo final. Del 3 al 26 de noviembre – Martes y jueves I 19:00 a 20:30 h Costo $800 Para mayores de 18 años Informes e inscripciones: dinamoritmomimo@gmail.com y 81 2199 0060",
-   "sources": [
-    {
-     "id": "conarte_agenda",
-     "url": "https://conarte.org.mx/agenda/taller-i-creacion-de-acto-de-danza-aerea-en-telas/"
-    }
-   ],
-   "url": "https://conarte.org.mx/agenda/taller-i-creacion-de-acto-de-danza-aerea-en-telas/",
-   "skey": "taller creacion acto danza aerea telas|escuela adolfo",
-   "id": "808897976555",
-   "dates": [
-    {
-     "start": "2026-11-24T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-creacion-de-acto-de-danza-aerea-en-telas/"
-    },
-    {
-     "start": "2026-11-26T19:00",
-     "end": null,
-     "url": "https://conarte.org.mx/agenda/taller-i-creacion-de-acto-de-danza-aerea-en-telas/"
-    }
-   ],
-   "firstSeen": "2026-10-28T12:53:26.477Z"
-  },
-  {
-   "id": "620e21eeb505",
-   "skey": "imax juegos hambre amanecer cosecha|papalote museo",
-   "title": "IMAX - Los Juegos del Hambre: Amanecer en la Cosecha",
-   "venue": "Papalote Museo del Niño-Monterrey",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/af51d687-528c-4658-bd0d-96e84d0e044a.jpg",
-   "start": "2026-11-24T19:30",
-   "end": "2026-12-02T19:30",
-   "price": "Desde $170",
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/809410"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/imax-los-juegos-del-hambre-amanecer-en-la-cosecha/2700031029563133"
-    }
-   ],
-   "url": "https://feverup.com/m/809410",
-   "firstSeen": "2026-11-17T20:49:04.743Z"
-  },
-  {
-   "id": "485fcfde9a31",
-   "skey": "cafe literario retrato casada maggie farrell|marco",
-   "title": "Café literario | El retrato de casada – Maggie O’Farrell",
-   "start": "2026-11-24T20:00",
-   "end": "2026-12-01",
-   "venue": "MARCO",
-   "city": "Monterrey",
-   "category": "Museos",
-   "price": "$700 MXN",
-   "image": "https://www.marco.org.mx/imagenes/2026/08/INSTA_IMG-EL-RETRATO-DE-CASADA-e1787675127652.png",
-   "sources": [
-    {
-     "id": "marco",
-     "url": "https://www.marco.org.mx/eventos/cafe-literario-el-retrato-de-casada-maggie-ofarrell/"
-    }
-   ],
-   "url": "https://www.marco.org.mx/eventos/cafe-literario-el-retrato-de-casada-maggie-ofarrell/",
-   "firstSeen": "2026-11-19T20:29:59.668Z"
-  },
-  {
-   "id": "90eae32cc1c7",
-   "skey": "marcos llunas|quinta real",
-   "title": "Marcos Llunas en Monterrey",
-   "venue": "Quinta Real Monterrey",
-   "city": "San Pedro Garza García",
-   "category": "Música",
-   "price": null,
-   "tickets": "https://arema.mx/e/21237-marcos-llunas-en-monterrey",
-   "image": null,
-   "description": "Disfruta los éxitos de Marcos Llunas en el ambiente elegante y acogedor de Quinta Real Monterrey, un hotel de cinco estrellas, en un formato íntimo que te permitirá sentir la música y disfrutar al artista a solo unos metros de distancia. Déjate llevar por una experiencia musical llena de emociones, recuerdos y canciones que han acompañado grandes historias de amor. Una noche perfecta para compartir en pareja, disfrutar con amigos o simplemente regalarte el placer de reencontrarte con la música de Marcos Llunas. No es solo un concierto. Es una noche para recordar 🌙 *Acceso al concierto.",
-   "start": "2026-11-24T20:30",
-   "end": "2026-11-24T21:00",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21237-marcos-llunas-en-monterrey"
-    }
-   ],
-   "url": "https://arema.mx/e/21237-marcos-llunas-en-monterrey",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
    "id": "a204a1400963",
    "skey": "natasha|foro 13",
    "title": "Natasha",
@@ -1219,483 +818,88 @@
    "firstSeen": "2026-10-21T12:41:56.086Z"
   },
   {
-   "title": "Atletismo adulto mayor Osos San Pedro",
-   "start": "2026-11-25T07:00",
-   "end": "2026-11-27T09:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1",
-   "skey": "atletismo adulto mayor osos san pedro|parque clouthier",
-   "id": "57ccfd2d1770",
-   "dates": [
-    {
-     "start": "2026-11-25T07:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-26T07:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-27T07:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "title": "Comunidad Tai chi",
-   "start": "2026-11-25T07:00",
-   "end": "2026-11-26T08:00",
-   "venue": "Parque El Capitán",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/comunidad-tai-chi/var/ri-7.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/comunidad-tai-chi/var/ri-7.l-L1",
-   "skey": "comunidad tai chi|parque capitan",
-   "id": "a5937a0a208d",
-   "dates": [
-    {
-     "start": "2026-11-25T07:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-tai-chi/var/ri-7.l-L1"
-    },
-    {
-     "start": "2026-11-26T07:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-tai-chi/var/ri-7.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "title": "COBRO | Entrenamiento Funcional con Love & Thunder Training Club",
-   "start": "2026-11-25T08:00",
-   "end": "2026-11-27T09:00",
-   "venue": "Parque Rufino Tamayo",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": "Con costo",
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1",
-   "skey": "cobro entrenamiento funcional love thunder training club|parque rufino",
-   "id": "bbd54d1bcf33",
-   "dates": [
-    {
-     "start": "2026-11-25T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-26T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-27T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "title": "Comunidad futbol veteranos con Librado Trujillo",
-   "start": "2026-11-25T08:00",
-   "end": "2026-11-27T10:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1",
-   "skey": "comunidad futbol veteranos librado trujillo|parque clouthier",
-   "id": "93ab75f0c577",
-   "dates": [
-    {
-     "start": "2026-11-25T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-26T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-27T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "title": "Zumba y activación con Ana Gonzalez",
-   "start": "2026-11-25T08:00",
-   "end": "2026-11-27T09:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1",
-   "skey": "zumba activacion ana gonzalez|parque clouthier",
-   "id": "0f80f3209793",
-   "dates": [
-    {
-     "start": "2026-11-25T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-26T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-27T08:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "title": "Yoga shanti con Lety Niño",
-   "start": "2026-11-25T09:00",
-   "end": "2026-11-27T10:00",
-   "venue": "Parque Mirador Garza Ayala",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1",
-   "skey": "yoga shanti lety nino|parque mirador",
-   "id": "e9677eb1dcc1",
-   "dates": [
-    {
-     "start": "2026-11-25T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1"
-    },
-    {
-     "start": "2026-11-26T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1"
-    },
-    {
-     "start": "2026-11-27T09:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "id": "39c59aea9c47",
-   "skey": "taichi mauro tijerina|parque mirador",
-   "title": "Taichi con Mauro Tijerina",
-   "start": "2026-11-25T10:30",
-   "end": "2026-11-25T11:30",
-   "venue": "Parque Mirador Garza Ayala",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/taichi-con-mauro-tijerina-5/var/ri-7.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/taichi-con-mauro-tijerina-5/var/ri-7.l-L1",
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
-   "venue": "Parque Rufino Tamayo",
+   "id": "9e481816a19a",
+   "skey": "papalote museo nino|papalote museo",
+   "title": "Papalote Museo del Niño",
+   "venue": "Papalote Museo del Niño-Monterrey",
    "city": "Monterrey",
    "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
-   "start": "2026-11-25T11:00",
-   "end": "2026-11-29T19:00",
-   "price": "$799 – $999",
-   "demand": "alta",
-   "demandWhy": "últimos boletos",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/792aa47c-f0b7-11f0-9df4-6a0a9b9dd72d.jpeg",
+   "start": "2026-11-25T10:00",
+   "end": "2027-01-13T18:00",
+   "price": "Desde $280",
+   "demand": null,
    "sources": [
     {
      "id": "fever",
-     "url": "https://feverup.com/m/707636"
+     "url": "https://feverup.com/m/338223"
     }
    ],
-   "url": "https://feverup.com/m/707636",
-   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
-   "id": "f928b586e3c0",
-   "dates": [
-    {
-     "start": "2026-11-25T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-25T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-26T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-26T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-27T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-27T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-28T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-28T14:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-28T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 24
-    },
-    {
-     "start": "2026-11-29T11:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    },
-    {
-     "start": "2026-11-29T17:00",
-     "end": null,
-     "url": "https://feverup.com/m/707636",
-     "avail": "ultimos",
-     "left": 30
-    }
-   ],
-   "firstSeen": "2000-01-01T00:00:00Z",
-   "moreDatesAt": "2026-11-18T20:26:18.655Z"
+   "url": "https://feverup.com/m/338223",
+   "firstSeen": "2026-11-11T19:33:09.595Z"
   },
   {
-   "title": "Academia basquetbol diversas categorias Osos San Pedro",
-   "start": "2026-11-25T16:00",
-   "end": "2026-11-27T20:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
+   "id": "ee6a6e6a54c8",
+   "skey": "super paquete museo documental imax laser|papalote museo",
+   "title": "Super Paquete: Museo + Documental IMAX Laser",
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9aa3acd8-391a-11f1-a2e3-ea20273a7fc0.png",
+   "start": "2026-11-25T15:00",
+   "end": "2027-01-13T17:00",
    "price": null,
-   "image": null,
-   "description": null,
+   "demand": null,
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1"
+     "id": "fever",
+     "url": "https://feverup.com/m/341894"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1",
-   "skey": "academia basquetbol diversas categorias osos san pedro|parque clouthier",
-   "id": "ee0fd940ef58",
-   "dates": [
-    {
-     "start": "2026-11-25T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-26T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-27T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+   "url": "https://feverup.com/m/341894",
+   "firstSeen": "2026-11-11T19:33:09.595Z"
   },
   {
-   "title": "Academia Soccer diversas categorías Osos San Pedro",
-   "start": "2026-11-25T16:00",
-   "end": "2026-11-26T20:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
+   "id": "8785a52ba7fc",
+   "skey": "virtuality world cumpleanos infantiles|galerias valle",
+   "title": "Virtuality World Monterrey - Cumpleaños infantiles",
+   "venue": "Galerías Valle Oriente",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/7213a01c-246a-11f1-be2a-86f3619af287.jpg",
+   "start": "2026-11-25T15:00",
+   "end": "2027-01-31T19:00",
+   "price": "Desde $635",
+   "demand": null,
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/academia-soccer-diversas-categorias-osos-san-pedro-7/var/ri-15.l-L1"
+     "id": "fever",
+     "url": "https://feverup.com/m/612272"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/academia-soccer-diversas-categorias-osos-san-pedro-7/var/ri-15.l-L1",
-   "skey": "academia soccer diversas categorias osos san pedro|parque clouthier",
-   "id": "454bac51b993",
-   "dates": [
-    {
-     "start": "2026-11-25T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/academia-soccer-diversas-categorias-osos-san-pedro-7/var/ri-15.l-L1"
-    },
-    {
-     "start": "2026-11-26T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/academia-soccer-diversas-categorias-osos-san-pedro-7/var/ri-15.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+   "url": "https://feverup.com/m/612272",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "title": "Beisbol Ligas pequeñas Osos San Pedro",
+   "id": "031bcf7ed9aa",
+   "skey": "detectives urbanos parque rufino tamayo juego callejero guiado app|parque rufino",
+   "title": "Detectives Urbanos - Parque Rufino Tamayo - Juego Callejero Guiado por App",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/bf0c3b1e-cec5-11ef-8f09-0ed7807cba2d",
    "start": "2026-11-25T16:00",
-   "end": "2026-11-26T20:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
+   "end": "2026-12-06T17:00",
+   "price": "Desde $370",
+   "demand": null,
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-8/var/ri-15.l-L1"
+     "id": "fever",
+     "url": "https://feverup.com/m/287670"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-8/var/ri-15.l-L1",
-   "skey": "beisbol ligas pequenas osos san pedro|parque clouthier",
-   "id": "faae6837264c",
-   "dates": [
-    {
-     "start": "2026-11-25T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-8/var/ri-15.l-L1"
-    },
-    {
-     "start": "2026-11-26T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-8/var/ri-15.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+   "url": "https://feverup.com/m/287670",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "id": "4dd2f9d86275",
@@ -1720,83 +924,6 @@
    ],
    "url": "https://conarte.org.mx/cineteca/nota-de-voz/",
    "firstSeen": "2026-11-18T20:26:18.655Z"
-  },
-  {
-   "title": "Skateboarding",
-   "start": "2026-11-25T16:00",
-   "end": "2026-11-27T17:30",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/skateboarding-3/var/ri-11.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/skateboarding-3/var/ri-11.l-L1",
-   "skey": "skateboarding|parque clouthier",
-   "id": "c930d6a2b774",
-   "dates": [
-    {
-     "start": "2026-11-25T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/skateboarding-3/var/ri-11.l-L1"
-    },
-    {
-     "start": "2026-11-27T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/skateboarding-3/var/ri-11.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "title": "Softball femenil Osos San Pedro",
-   "start": "2026-11-25T16:00",
-   "end": "2026-11-27T20:00",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1",
-   "skey": "softball femenil osos san pedro|parque clouthier",
-   "id": "fa1aeec888ca",
-   "dates": [
-    {
-     "start": "2026-11-25T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-26T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-27T16:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
    "id": "713bb1e0d8d4",
@@ -1824,45 +951,25 @@
    "moreDatesAt": "2026-11-18T20:26:18.655Z"
   },
   {
-   "title": "Paratletismo Osos San Pedro",
+   "id": "6ffe52602acd",
+   "skey": "trofeo desaparecido fundidora juego callejero|museo acero",
+   "title": "El Trofeo Desaparecido - Fundidora - Juego Callejero",
+   "venue": "Museo del Acero horno 3",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/23bf6d3e-44bc-11f1-b492-2a180c276c55.png",
    "start": "2026-11-25T17:00",
-   "end": "2026-11-27T18:30",
-   "venue": "Parque Clouthier",
-   "city": "San Pedro Garza García",
-   "category": "Otros",
-   "price": null,
-   "image": null,
-   "description": null,
+   "end": "2026-11-29T19:00",
+   "price": "Desde $530",
+   "demand": null,
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1"
+     "id": "fever",
+     "url": "https://feverup.com/m/638206"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1",
-   "skey": "paratletismo osos san pedro|parque clouthier",
-   "id": "bedd9cc74c35",
-   "dates": [
-    {
-     "start": "2026-11-25T17:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-26T17:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1"
-    },
-    {
-     "start": "2026-11-27T17:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-03T12:59:41.645Z",
-   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+   "url": "https://feverup.com/m/638206",
+   "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
    "id": "fcf862f4259d",
@@ -2012,41 +1119,6 @@
    "moreDatesAt": "2026-11-18T20:26:18.655Z"
   },
   {
-   "title": "Capoeira con Armando",
-   "start": "2026-11-25T19:00",
-   "end": "2026-11-26T20:00",
-   "venue": "Parque El Capitán",
-   "city": "San Pedro Garza García",
-   "category": "Deportes",
-   "price": null,
-   "image": null,
-   "description": null,
-   "sources": [
-    {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/capoeira-con-armando-9/var/ri-15.l-L1"
-    }
-   ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/capoeira-con-armando-9/var/ri-15.l-L1",
-   "skey": "capoeira armando|parque capitan",
-   "id": "1f5c5ed24f9d",
-   "dates": [
-    {
-     "start": "2026-11-25T19:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/capoeira-con-armando-9/var/ri-15.l-L1"
-    },
-    {
-     "start": "2026-11-26T19:00",
-     "end": null,
-     "url": "https://sanpedroparques.mx/eventos/capoeira-con-armando-9/var/ri-15.l-L1"
-    }
-   ],
-   "firstSeen": "2026-11-04T19:43:23.878Z"
-  },
-  {
    "id": "becda59bac18",
    "skey": "conversatorio habitar ciudad mujeres memoria trabajo|nave generadores",
    "title": "Conversatorio I Habitar la ciudad: Mujeres, memoria y trabajo",
@@ -2151,27 +1223,24 @@
    "firstSeen": "2026-11-13T19:35:32.039Z"
   },
   {
-   "id": "6aa667fa434c",
-   "skey": "academia ligthsaber cobro|parque capitan",
-   "title": "Academia Ligthsaber COBRO",
-   "start": "2026-11-25T20:00",
-   "end": "2026-11-25T21:30",
-   "venue": "Parque El Capitán",
-   "city": "San Pedro Garza García",
+   "id": "d05a4e88add5",
+   "skey": "imax juegos hambre amanecer cosecha|papalote museo",
+   "title": "IMAX - Los Juegos del Hambre: Amanecer en la Cosecha",
+   "start": "2026-11-25T19:30",
+   "end": null,
+   "venue": "Papalote Museo del Niño-Monterrey",
+   "city": "Monterrey",
    "category": "Otros",
-   "price": "Con costo",
-   "image": null,
-   "description": null,
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy82ZDIzNDRlMC1lODdkLTExZjEtYjhhMS1iN2RhOTViOWViODMtcmltZy13NTUwLWg1NTAtZGMyODI4MTgtZ21pci5qcGc_dj0xNzk1NTc2MDgy.avif",
    "sources": [
     {
-     "id": "sanpedro_parques",
-     "url": "https://sanpedroparques.mx/eventos/academia-ligthsaber-cobro-4/var/ri-3.l-L1"
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/imax-los-juegos-del-hambre-amanecer-en-la-cosecha/2700031029563133"
     }
    ],
-   "free": true,
-   "freeVia": "San Pedro + Parques",
-   "url": "https://sanpedroparques.mx/eventos/academia-ligthsaber-cobro-4/var/ri-3.l-L1",
-   "firstSeen": "2026-11-04T19:43:23.878Z"
+   "url": "https://allevents.in/monterrey/imax-los-juegos-del-hambre-amanecer-en-la-cosecha/2700031029563133",
+   "firstSeen": "2026-11-17T20:49:04.743Z"
   },
   {
    "id": "4acd61c62147",
@@ -2207,7 +1276,7 @@
    "city": "Monterrey",
    "category": "Otros",
    "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czgvYmFubmVycy9mMjFjODE4MC1lN2I0LTExZjEtOWY5OS03ZDNmMjQ5ZDFlNWYtcmltZy13NTUwLWg1NTAtZGMwODA4MDgtZ21pci5qcGc_dj0xNzk1NDg5OTc2.avif",
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvNmU4ZGQxNjAtZTg3ZC0xMWYxLWI4YTEtYjdkYTk1YjllYjgzLXJpbWctdzU1MC1oNTUwLWRjMDgwODA4LWdtaXIuanBnP3Y9MTc5NTU3NjA4NA.avif",
    "sources": [
     {
      "id": "allevents",
@@ -2413,21 +1482,61 @@
    "skey": "rayados america cuartos final ap26|estadio bbva",
    "title": "Rayados v. América Cuartos de Final AP26",
    "start": "2026-11-25T21:10",
-   "end": null,
+   "end": "2026-11-25",
    "venue": "Estadio BBVA",
    "city": "Guadalupe",
    "category": "Música",
    "price": null,
    "image": "https://s1.ticketm.net/dam/a/5fb/d9773f7a-5af4-4f7e-9d8f-18fd2d8cd5fb_RETINA_LANDSCAPE_16_9.jpg",
-   "onsale": null,
    "sources": [
     {
      "id": "ticketmaster",
      "url": "https://www.ticketmaster.com.mx/rayados-v-america-cuartos-de-final-guadalupe-25-11-2026/event/3D006573ED3B165E"
+    },
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/rayados-v-america-cuartos-de-final-ap26-tm-_92cCs_r"
     }
    ],
+   "description": "Rayados v. América Cuartos de Final AP26 es el miércoles 25 de noviembre de 2026 a las 21:10 en Estadio BBVA, Monterrey.",
    "url": "https://www.ticketmaster.com.mx/rayados-v-america-cuartos-de-final-guadalupe-25-11-2026/event/3D006573ED3B165E",
    "firstSeen": "2026-11-24T22:20:12.596Z"
+  },
+  {
+   "title": "Atletismo adulto mayor Osos San Pedro",
+   "start": "2026-11-26T07:00",
+   "end": "2026-11-27T09:00",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1",
+   "skey": "atletismo adulto mayor osos san pedro|parque clouthier",
+   "id": "57ccfd2d1770",
+   "dates": [
+    {
+     "start": "2026-11-26T07:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1"
+    },
+    {
+     "start": "2026-11-27T07:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/atletismo-adulto-mayor-osos-san-pedro-8/var/ri-19.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
    "id": "95b9fe31d3fd",
@@ -2450,6 +1559,101 @@
    "free": true,
    "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/comunidad-disc-golf-5/var/ri-3.l-L1",
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "id": "5dc4b0fda306",
+   "skey": "comunidad tai chi|parque capitan",
+   "title": "Comunidad Tai chi",
+   "start": "2026-11-26T07:00",
+   "end": "2026-11-26T08:00",
+   "venue": "Parque El Capitán",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/comunidad-tai-chi/var/ri-7.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/comunidad-tai-chi/var/ri-7.l-L1",
+   "firstSeen": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "COBRO | Entrenamiento Funcional con Love & Thunder Training Club",
+   "start": "2026-11-26T08:00",
+   "end": "2026-11-27T09:00",
+   "venue": "Parque Rufino Tamayo",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": "Con costo",
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1",
+   "skey": "cobro entrenamiento funcional love thunder training club|parque rufino",
+   "id": "bbd54d1bcf33",
+   "dates": [
+    {
+     "start": "2026-11-26T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1"
+    },
+    {
+     "start": "2026-11-27T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/cobro-entrenamiento-funcional-con-love-thunder-training-club-9/var/ri-19.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "Comunidad futbol veteranos con Librado Trujillo",
+   "start": "2026-11-26T08:00",
+   "end": "2026-11-27T10:00",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1",
+   "skey": "comunidad futbol veteranos librado trujillo|parque clouthier",
+   "id": "93ab75f0c577",
+   "dates": [
+    {
+     "start": "2026-11-26T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1"
+    },
+    {
+     "start": "2026-11-27T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/comunidad-futbol-veteranos-con-librado-trujillo-8/var/ri-19.l-L1"
+    }
+   ],
    "firstSeen": "2026-11-03T12:59:41.645Z",
    "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
@@ -2490,6 +1694,78 @@
    "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
+   "title": "Zumba y activación con Ana Gonzalez",
+   "start": "2026-11-26T08:00",
+   "end": "2026-11-27T09:00",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1",
+   "skey": "zumba activacion ana gonzalez|parque clouthier",
+   "id": "0f80f3209793",
+   "dates": [
+    {
+     "start": "2026-11-26T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1"
+    },
+    {
+     "start": "2026-11-27T08:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/zumba-y-activacion-con-ana-gonzalez-6/var/ri-19.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "Yoga shanti con Lety Niño",
+   "start": "2026-11-26T09:00",
+   "end": "2026-11-27T10:00",
+   "venue": "Parque Mirador Garza Ayala",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1",
+   "skey": "yoga shanti lety nino|parque mirador",
+   "id": "e9677eb1dcc1",
+   "dates": [
+    {
+     "start": "2026-11-26T09:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1"
+    },
+    {
+     "start": "2026-11-27T09:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/yoga-shanti-con-lety-nino-6/var/ri-15.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
    "id": "cec4a0335761",
    "skey": "yoga pravesa|parque mirador",
    "title": "Yoga Pravesa",
@@ -2510,6 +1786,178 @@
    "free": true,
    "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/yoga-pravesa-5/var/ri-3.l-L1",
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "Secret Picnic: Experiencia inmersiva y gastronómica autoguiada - Parque Rufino Tamayo",
+   "venue": "Parque Rufino Tamayo",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/9d46e3d6-8def-11f1-b5b7-d6889332287c.jpeg",
+   "start": "2026-11-26T11:00",
+   "end": "2026-11-29T19:00",
+   "price": "$799 – $999",
+   "demand": "alta",
+   "demandWhy": "últimos boletos",
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/707636"
+    }
+   ],
+   "url": "https://feverup.com/m/707636",
+   "skey": "secret picnic experiencia inmersiva gastronomica autoguiada parque rufino tamayo|parque rufino",
+   "id": "f928b586e3c0",
+   "dates": [
+    {
+     "start": "2026-11-26T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-26T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-27T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-27T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-28T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-28T14:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-28T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 24
+    },
+    {
+     "start": "2026-11-29T11:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    },
+    {
+     "start": "2026-11-29T17:00",
+     "end": null,
+     "url": "https://feverup.com/m/707636",
+     "avail": "ultimos",
+     "left": 30
+    }
+   ],
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-11-18T20:26:18.655Z"
+  },
+  {
+   "title": "Academia basquetbol diversas categorias Osos San Pedro",
+   "start": "2026-11-26T16:00",
+   "end": "2026-11-27T20:00",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1",
+   "skey": "academia basquetbol diversas categorias osos san pedro|parque clouthier",
+   "id": "ee0fd940ef58",
+   "dates": [
+    {
+     "start": "2026-11-26T16:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1"
+    },
+    {
+     "start": "2026-11-27T16:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/academia-basquetbol-diversas-categorias-osos-san-pedro-6/var/ri-19.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "id": "f2133905666c",
+   "skey": "academia soccer diversas categorias osos san pedro|parque clouthier",
+   "title": "Academia Soccer diversas categorías Osos San Pedro",
+   "start": "2026-11-26T16:00",
+   "end": "2026-11-26T20:00",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/academia-soccer-diversas-categorias-osos-san-pedro-7/var/ri-15.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/academia-soccer-diversas-categorias-osos-san-pedro-7/var/ri-15.l-L1",
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "id": "bc7be55aac25",
+   "skey": "beisbol ligas pequenas osos san pedro|parque clouthier",
+   "title": "Beisbol Ligas pequeñas Osos San Pedro",
+   "start": "2026-11-26T16:00",
+   "end": "2026-11-26T20:00",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-8/var/ri-15.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/beisbol-ligas-pequenas-osos-san-pedro-8/var/ri-15.l-L1",
    "firstSeen": "2026-11-03T12:59:41.645Z",
    "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
@@ -2572,25 +2020,76 @@
    "firstSeen": "2026-11-04T19:43:23.878Z"
   },
   {
-   "id": "e4c2c26e4fb1",
-   "skey": "mision rescate juego callejero guiado app|macroplaza",
-   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
-   "venue": "Macroplaza",
-   "city": "Monterrey",
-   "category": "Experiencias",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
-   "start": "2026-11-26T17:00",
-   "end": "2027-01-03T17:00",
-   "price": "Desde $370",
-   "demand": null,
+   "title": "Softball femenil Osos San Pedro",
+   "start": "2026-11-26T16:00",
+   "end": "2026-11-27T20:00",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
    "sources": [
     {
-     "id": "fever",
-     "url": "https://feverup.com/m/283501"
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1"
     }
    ],
-   "url": "https://feverup.com/m/283501",
-   "firstSeen": "2026-10-24T12:35:51.731Z"
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1",
+   "skey": "softball femenil osos san pedro|parque clouthier",
+   "id": "fa1aeec888ca",
+   "dates": [
+    {
+     "start": "2026-11-26T16:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1"
+    },
+    {
+     "start": "2026-11-27T16:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/softball-femenil-osos-san-pedro-8/var/ri-19.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "title": "Paratletismo Osos San Pedro",
+   "start": "2026-11-26T17:00",
+   "end": "2026-11-27T18:30",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Otros",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1",
+   "skey": "paratletismo osos san pedro|parque clouthier",
+   "id": "bedd9cc74c35",
+   "dates": [
+    {
+     "start": "2026-11-26T17:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1"
+    },
+    {
+     "start": "2026-11-27T17:00",
+     "end": null,
+     "url": "https://sanpedroparques.mx/eventos/paratletismo-osos-san-pedro-8/var/ri-19.l-L1"
+    }
+   ],
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
    "title": "Voluntariado. Huerto escuela",
@@ -2660,7 +2159,7 @@
    "price": null,
    "tickets": "https://arema.mx/e/21370-los-chamos-en-monterrey",
    "image": null,
-   "description": "Fecha: 26 de Noviembre 2026 Hora: 18:00 horas Lugar: Alboa Fashion Drive Dirección del evento: Zonas y Precios: General: $1,700 ACCESO AL EVENTO Preferente: $3,300 ACCESO AL EVENTO Vip: $6,000 M&G 16:00 HORAS ACCESO AL EVENTO LUGAR PREFERENTE FOTO DIGITAL CON LOS INTEGRANTES REGALO SORPRESA EXCLUSIVO (Precios más cargos por servicio) Puntos de venta oficiales: * Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. * Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L.",
+   "description": "Fecha: 26 de Noviembre 2026 Hora: 18:00 horas Lugar: Alboa Fashion Drive Dirección del evento: Zonas y Precios: General: $1,700 Promoción 2x1 ACCESO AL EVENTO Preferente: $3,300 Promoción 2x1 ACCESO AL EVENTO Vip: $6,000 M&G 16:00 HORAS ACCESO AL EVENTO LUGAR PREFERENTE FOTO DIGITAL CON LOS INTEGRANTES REGALO SORPRESA EXCLUSIVO (Precios más cargos por servicio) Puntos de venta oficiales: * Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. * Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L. * Jardín 85 Tostitos Av.",
    "start": "2026-11-26T18:00",
    "end": "2026-11-26T18:30",
    "sources": [
@@ -2727,6 +2226,60 @@
    "firstSeen": "2026-10-07T12:32:46.057Z"
   },
   {
+   "title": "Taller I Costura y upcycling: Texturas urbanas",
+   "start": "2026-11-26T18:00",
+   "end": "2026-12-15T18:00",
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_Upcycling_dic-700x360.jpg",
+   "description": "Módulo tres: Alteración de prenda reciclada Imparte: Wicca Guajardo Programa práctico-teórico de nivel principiante e intermedio diseñado para profundizar en el supra-reciclaje textil y el diseño sostenible Del 24 de noviembre al 15 diciembre – Martes y jueves I 18:00 a 21:00 h Costo: $1200 Para mayores de 18 años Informes e inscripciones: wicca.couture@gmail.com y 81 1414 2666",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/",
+   "skey": "taller costura upcycling texturas urbanas|escuela adolfo",
+   "id": "6f5899ad500e",
+   "dates": [
+    {
+     "start": "2026-11-26T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-12-01T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-12-03T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-12-08T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-12-10T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
+    },
+    {
+     "start": "2026-12-15T18:00",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-costura-y-upcycling-texturas-urbanas/"
+    }
+   ],
+   "firstSeen": "2026-10-28T12:53:26.477Z",
+   "moreDatesAt": "2026-11-01T12:48:57.211Z"
+  },
+  {
    "id": "f22049acac84",
    "skey": "atletismo sumamos discapacidad|parque capitan",
    "title": "Atletismo sumamos discapacidad",
@@ -2747,6 +2300,50 @@
    "free": true,
    "freeVia": "San Pedro + Parques",
    "url": "https://sanpedroparques.mx/eventos/atletismo-sumamos-discapacidad-8/var/ri-7.l-L1",
+   "firstSeen": "2026-11-04T19:43:23.878Z"
+  },
+  {
+   "id": "eaa53f6c19ac",
+   "skey": "taller danza espanola flamenco|escuela adolfo",
+   "title": "Taller I Danza española y flamenco",
+   "start": "2026-11-26T18:30",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_DanzaEsp-700x360.jpg",
+   "description": "Imparte: Alonso Real Aprende a bailar sevillanas, conoce y disfruta la cultura y la música del flamenco. Del 3 al 26 de noviembre – Martes y jueves de 18:30 a 20:00 h Costo $1500 Para mayores de 18 años Informes e inscripciones: 81 8188 6803 y 82 5103 0328",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-i-danza-espanola-y-flamenco/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-i-danza-espanola-y-flamenco/",
+   "firstSeen": "2026-10-17T12:35:16.355Z"
+  },
+  {
+   "id": "893336c51625",
+   "skey": "capoeira armando|parque capitan",
+   "title": "Capoeira con Armando",
+   "start": "2026-11-26T19:00",
+   "end": "2026-11-26T20:00",
+   "venue": "Parque El Capitán",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/capoeira-con-armando-9/var/ri-15.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/capoeira-con-armando-9/var/ri-15.l-L1",
    "firstSeen": "2026-11-04T19:43:23.878Z"
   },
   {
@@ -3032,6 +2629,27 @@
    ],
    "firstSeen": "2026-10-17T12:35:16.355Z",
    "moreDatesAt": "2026-10-29T12:53:41.351Z"
+  },
+  {
+   "id": "02c1e9c23fd4",
+   "skey": "taller creacion acto danza aerea telas|escuela adolfo",
+   "title": "Taller I Creación de acto de danza aérea en telas",
+   "start": "2026-11-26T19:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/10/Slider_DanzAerea-700x360.jpg",
+   "description": "Imparten: Patricio Botello y Alex Tierrablanca Proceso de creación en danza aérea en telas: técnica, expresión corporal y musicalidad encaminadas a un espectáculo final. Del 3 al 26 de noviembre – Martes y jueves I 19:00 a 20:30 h Costo $800 Para mayores de 18 años Informes e inscripciones: dinamoritmomimo@gmail.com y 81 2199 0060",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-i-creacion-de-acto-de-danza-aerea-en-telas/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-i-creacion-de-acto-de-danza-aerea-en-telas/",
+   "firstSeen": "2026-10-28T12:53:26.477Z"
   },
   {
    "id": "6a5e23e0a20c",
@@ -3490,7 +3108,8 @@
    "start": "2026-11-27T12:00",
    "end": "2027-02-13T19:59",
    "price": "$660 – $1,380",
-   "demand": null,
+   "demand": "alta",
+   "demandWhy": "últimos boletos",
    "sources": [
     {
      "id": "allevents",
@@ -3513,7 +3132,9 @@
     {
      "start": "2026-11-27T19:00",
      "end": null,
-     "url": "https://feverup.com/m/266289"
+     "url": "https://feverup.com/m/266289",
+     "avail": "ultimos",
+     "left": 37
     },
     {
      "start": "2027-02-13T19:00",
@@ -3552,9 +3173,10 @@
    "category": "Música",
    "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/b93b4876-0587-11f0-bd6c-02c1afba537e.jpg",
    "start": "2026-11-27T14:00",
-   "end": "2027-01-16T21:59",
+   "end": "2027-02-27T21:59",
    "price": "$600 – $1,380",
-   "demand": null,
+   "demand": "alta",
+   "demandWhy": "últimos boletos",
    "sources": [
     {
      "id": "allevents",
@@ -3577,16 +3199,70 @@
     {
      "start": "2026-11-27T21:00",
      "end": null,
-     "url": "https://feverup.com/m/392211"
+     "url": "https://feverup.com/m/392211",
+     "avail": "ultimos",
+     "left": 29
     },
     {
      "start": "2027-01-16T21:00",
      "end": null,
      "url": "https://feverup.com/m/392211",
      "price": "$570 – $1,380"
+    },
+    {
+     "start": "2027-02-27T21:00",
+     "end": null,
+     "url": "https://feverup.com/m/392211",
+     "price": "$530 – $1,299"
     }
    ],
-   "firstSeen": "2000-01-01T00:00:00Z"
+   "firstSeen": "2000-01-01T00:00:00Z",
+   "moreDatesAt": "2026-11-25T21:37:37.383Z"
+  },
+  {
+   "id": "48e4df6f03e6",
+   "skey": "mision rescate juego callejero guiado app|macroplaza",
+   "title": "Misión Rescate Monterrey - Juego Callejero Guiado por App",
+   "venue": "Macroplaza",
+   "city": "Monterrey",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/dbcf21a8-c4d4-11ef-b4bd-7e3a2d7a3f58",
+   "start": "2026-11-27T16:00",
+   "end": "2027-01-03T17:00",
+   "price": "Desde $370",
+   "demand": null,
+   "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/283501"
+    }
+   ],
+   "url": "https://feverup.com/m/283501",
+   "firstSeen": "2026-10-24T12:35:51.731Z"
+  },
+  {
+   "id": "88b5b2f9c7cb",
+   "skey": "skateboarding|parque clouthier",
+   "title": "Skateboarding",
+   "start": "2026-11-27T16:00",
+   "end": "2026-11-27T17:30",
+   "venue": "Parque Clouthier",
+   "city": "San Pedro Garza García",
+   "category": "Deportes",
+   "price": null,
+   "image": null,
+   "description": null,
+   "sources": [
+    {
+     "id": "sanpedro_parques",
+     "url": "https://sanpedroparques.mx/eventos/skateboarding-3/var/ri-11.l-L1"
+    }
+   ],
+   "free": true,
+   "freeVia": "San Pedro + Parques",
+   "url": "https://sanpedroparques.mx/eventos/skateboarding-3/var/ri-11.l-L1",
+   "firstSeen": "2026-11-03T12:59:41.645Z",
+   "moreDatesAt": "2026-11-04T19:43:23.878Z"
   },
   {
    "id": "d91e5bca0fad",
@@ -3635,6 +3311,39 @@
    "firstSeen": "2026-11-04T19:43:23.878Z"
   },
   {
+   "title": "Taller I Desarrollo de proyectos artísticos y culturales – Noviembre 2026",
+   "start": "2026-11-27T18:30",
+   "end": "2026-12-04T18:30",
+   "venue": "Casa de la Cultura de Nuevo León",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26609-PORTADA-Desarrollo-de-Proyectos-Artisticos-y-Culturales-700x360.jpg",
+   "description": "Imparte: Zaida Luzelba García Se brindarán herramientas prácticas para diseñar, estructurar, gestionar y difundir talleres, con el objetivo de crear propuestas sostenibles y de mayor alcance. Viernes 27 de noviembre y 4 de diciembre 18:30 a 20:00 h Previo registro vía WhatsApp al 81 1192 8494",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/taller-i-desarrollo-de-proyectos-artisticos-y-culturales-noviembre-2026/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/taller-i-desarrollo-de-proyectos-artisticos-y-culturales-noviembre-2026/",
+   "skey": "taller desarrollo proyectos artisticos culturales noviembre|casa cultura",
+   "id": "81e4a3739cbd",
+   "dates": [
+    {
+     "start": "2026-11-27T18:30",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-desarrollo-de-proyectos-artisticos-y-culturales-noviembre-2026/"
+    },
+    {
+     "start": "2026-12-04T18:30",
+     "end": null,
+     "url": "https://conarte.org.mx/agenda/taller-i-desarrollo-de-proyectos-artisticos-y-culturales-noviembre-2026/"
+    }
+   ],
+   "firstSeen": "2026-11-25T21:37:37.383Z"
+  },
+  {
    "id": "49de509501b1",
    "skey": "tai chi gustavo|parque capitan",
    "title": "Tai chi con Gustavo",
@@ -3677,6 +3386,27 @@
    ],
    "url": "https://conarte.org.mx/agenda/circulo-de-lectura-i-la-terminal-noviembre-2026/",
    "firstSeen": "2026-11-17T20:49:04.743Z"
+  },
+  {
+   "id": "b4a318e3fec6",
+   "skey": "club crimen peliculas cine criminologico noviembre|casa cultura",
+   "title": "Club I Crimen y películas: cine criminológico I Noviembre 2026",
+   "start": "2026-11-27T19:00",
+   "end": null,
+   "venue": "Casa de la Cultura de Nuevo León",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26603-PORTADA-Club_Crimen-y-peliculas-1-700x360.jpg",
+   "description": "Modera: Javier Lazcano Explora y analiza el cine desde la criminología Un espacio de diálogo sobre la conducta humana, la violencia, el delito y sociedad a través de las películas. Analizaremos “Tucker & Dale vs Evil”, Dir. Eli Craig 2010. Previo registro vía WhatsApp al 81 1192 8494",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/club-i-crimen-y-peliculas-cine-criminologico-i-noviembre-2026/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/club-i-crimen-y-peliculas-cine-criminologico-i-noviembre-2026/",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "id": "a7f69b14e42b",
@@ -3727,28 +3457,6 @@
    ],
    "url": "https://arema.mx/e/21478-juan-cirerol-en-monterrey",
    "firstSeen": "2026-11-04T19:43:23.878Z"
-  },
-  {
-   "id": "dd7af11238cc",
-   "skey": "princesa|instituto mexicano",
-   "title": "La princesa en Monterrey",
-   "venue": "Instituto Mexicano Norteamericano de Relaciones Culturales",
-   "city": "Monterrey",
-   "category": "Teatro",
-   "price": null,
-   "tickets": "https://arema.mx/e/21492-la-princesa-en-monterrey",
-   "image": null,
-   "description": "La princesa... un cuento para identificarte y voltear a ver a tu pareja cuando descubras que no es la princesa de tu vida… 😱 Prepárate para una noche de risas, drama, romance y finanzas personales. Porque aprender sobre dinero no tiene por qué ser aburrido.🤑 ¿Quien será la verdadera princesa de tu historia? Fecha: 27 de noviembre 2026 Hora: 20:00 hrs Lugar: Instituto Mexicano Norteamericano de Relaciones Culturales Dirección del evento: Miguel Hidalgo y Costilla 768, Centro, 64000 Monterrey, N.L.",
-   "start": "2026-11-27T20:00",
-   "end": "2026-11-27T20:30",
-   "sources": [
-    {
-     "id": "arema",
-     "url": "https://arema.mx/e/21492-la-princesa-en-monterrey"
-    }
-   ],
-   "url": "https://arema.mx/e/21492-la-princesa-en-monterrey",
-   "firstSeen": "2026-10-15T12:42:21.274Z"
   },
   {
    "title": "Puestas en Escena 2026 I Mariposa Matusalén",
@@ -4080,6 +3788,28 @@
     }
    ],
    "url": "https://arema.mx/e/20895-trio-los-panchos-en-san-nicolas",
+   "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "d63470cc9650",
+   "skey": "superarte justin lenny|auditorio banamex",
+   "title": "Superarte Justin Q & Lenny T",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "venue": "Auditorio Banamex, Privada Fundidora s/n Col. Obrera, Monterrey",
+   "city": "Monterrey",
+   "price": null,
+   "image": "https://ctxplorer.com/media/_dup/e1/e1b5edbb835727129b5ab9ca9fd91b64fb923f37.webp",
+   "genre": null,
+   "description": "Justin Q & Lenny T en el Auditorio Banamex [](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: No hay Pagan boleto a partir de: 3 años Restricciones: No ingresan cámaras fotográficas profesionales,",
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ctxplorer",
+     "url": "https://ctxplorer.com/events/superarte-justin-q-lenny-t-tm-655Vg2Z7"
+    }
+   ],
+   "url": "https://ctxplorer.com/events/superarte-justin-q-lenny-t-tm-655Vg2Z7",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -4674,7 +4404,6 @@
    "price": "$400 – $650",
    "demand": "alta",
    "demandWhy": "funciones agotadas",
-   "soldOut": true,
    "sources": [
     {
      "id": "fever",
@@ -4689,8 +4418,8 @@
      "start": "2026-11-28T16:30",
      "end": null,
      "url": "https://feverup.com/m/653913",
-     "avail": "agotado",
-     "left": 0
+     "avail": "ultimos",
+     "left": 1
     },
     {
      "start": "2026-11-28T18:30",
@@ -4793,6 +4522,27 @@
     }
    ],
    "firstSeen": "2026-10-22T12:42:57.169Z"
+  },
+  {
+   "id": "8daef2db095f",
+   "skey": "miradas regias mujeres cine noviembre|casa cultura",
+   "title": "Miradas Regias I Mujeres en el Cine de N.L. – Noviembre 2026",
+   "start": "2026-11-28T17:00",
+   "end": null,
+   "venue": "Casa de la Cultura de Nuevo León",
+   "city": "Monterrey",
+   "category": "Cine",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26607-PORTADA-Miradas-Regias-1-700x360.jpg",
+   "description": "Modera: Zaida Luzelba García Muestra y diálogo de cortometrajes de cineastas de Nuevo León. Las creadoras compartirán sus procesos y reflexiones con el público, cerrando con un espacio de “networking” para fomentar la colaboración.",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/miradas-regias-i-mujeres-en-el-cine-de-n-l-noviembre-2026/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/miradas-regias-i-mujeres-en-el-cine-de-n-l-noviembre-2026/",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "id": "f05f3ac49209",
@@ -5014,31 +4764,6 @@
     }
    ],
    "url": "https://allevents.in/monterrey/superarte-jq-and-lt-mandg-upgrade-boleto-de-evento-no-incluido/210009500722189",
-   "firstSeen": "2000-01-01T00:00:00Z"
-  },
-  {
-   "id": "d63470cc9650",
-   "skey": "superarte justin lenny|auditorio banamex",
-   "title": "Superarte Justin Q & Lenny T",
-   "start": "2026-11-28T21:00",
-   "end": "2026-11-28",
-   "venue": "Auditorio Banamex",
-   "city": "Monterrey",
-   "category": "Música",
-   "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czIvYmFubmVycy84MDEwYTc2NGFhOTQwZGJmN2NiYzg3ZjA2MWQyNGRjNGRkNzMzZThiOWVmZjkwNzQ0YmRjMGViN2QzMWQ2YjMyLXJpbWctdzEwMjQtaDU3Ni1kYzJmMmYyZC1nbWlyLmpwZz92PTE3ODUzMjQ0MDI.avif",
-   "sources": [
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/superarte-justin-q-and-lenny-t/210001366465414"
-    },
-    {
-     "id": "ctxplorer",
-     "url": "https://ctxplorer.com/events/superarte-justin-q-lenny-t-tm-655Vg2Z7"
-    }
-   ],
-   "description": "Justin Q & Lenny T en el Auditorio Banamex [](http://bit.ly/MétodosDeEntrega_Tm) Límite de edad: No hay Pagan boleto a partir de: 3 años Restricciones: No ingresan cámaras fotográficas profesionales,",
-   "url": "https://allevents.in/monterrey/superarte-justin-q-and-lenny-t/210001366465414",
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
@@ -5801,6 +5526,26 @@
    "firstSeen": "2026-10-30T12:54:13.354Z"
   },
   {
+   "id": "de32749e6079",
+   "skey": "nadie nos hara dano|foro 13",
+   "title": "Nadie nos hará daño",
+   "start": "2026-12-01",
+   "end": "2026-12-15",
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/242/cartelera2.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/nadie-nos-hara-daño"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/nadie-nos-hara-daño",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
+  },
+  {
    "id": "9f90018d110a",
    "skey": "visitas guiadas sintonia sonidera memorias aguja vinil|casa cultura",
    "title": "Visitas guiadas I Sintonía Sonidera: Memorias de la aguja y el vinil",
@@ -6277,6 +6022,26 @@
    "moreDatesAt": "2026-11-05T19:54:14.868Z"
   },
   {
+   "id": "50f54456faba",
+   "skey": "crystal waters|arena",
+   "title": "Crystal Waters in Monterrey",
+   "start": "2026-12-04T19:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czcvYmFubmVycy8zZTMzMmQ5MC02NTRiLTExZjEtYTk2YS1jMTMzMDg2OTEwNmEtcmltZy13MTIwMC1oNjc1LWRjMTkxODYwLWdtaXIud2VicD92PTE3ODExNTA5MjY.avif",
+   "sources": [
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/crystal-waters-in-monterrey/3300030221001047"
+    }
+   ],
+   "url": "https://allevents.in/monterrey/crystal-waters-in-monterrey/3300030221001047",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
+  },
+  {
    "id": "859fc04f4dc2",
    "skey": "anabanta|muralla food",
    "title": "ANABANTA en Monterrey",
@@ -6519,7 +6284,7 @@
      "end": null,
      "url": "https://feverup.com/m/577933",
      "avail": "ultimos",
-     "left": 26
+     "left": 24
     },
     {
      "start": "2026-12-05T18:30",
@@ -6961,6 +6726,27 @@
    "firstSeen": "2026-11-13T19:35:32.039Z"
   },
   {
+   "id": "6b93f30db54e",
+   "skey": "temporada musica archivo estreno|teatro centro",
+   "title": "Temporada de Música I Del archivo al estreno",
+   "start": "2026-12-06T17:00",
+   "end": null,
+   "venue": "Teatro del Centro de las Artes",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26505-TDM-Del-archivo-al-estreno1_PORTADA-WEB-700x360.jpg",
+   "description": "Este concierto se estructura como un laboratorio sonoro que explora las posibilidades expresivas y evolutivas del danzón. El programa de once piezas inicia anclado en la raíz de cuatro danzones clásicos y transita hacia el territorio de la creación actual con siete composiciones originales. Bajo la dirección y ejecución de la Danzonera Digital, este proyecto demuestra que la tradición no es un archivo estático, sino un pulso dinámico capaz de seguir generando identidad, comunidad y vanguardia.",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/temporada-de-musica-i-del-archivo-al-estreno/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/temporada-de-musica-i-del-archivo-al-estreno/",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
+  },
+  {
    "id": "d1e03cb4ab3a",
    "skey": "navidad lara campos|arena",
    "title": "Navidad con Lara Campos",
@@ -7034,6 +6820,26 @@
    ],
    "url": "https://www.superboletos.com/landing-evento/dB6K5YtEbenXs0_FVZ-uBg",
    "firstSeen": "2026-10-27T12:45:08.776Z"
+  },
+  {
+   "id": "285c3d68ccdc",
+   "skey": "sonantes|foro 13",
+   "title": "Soñantes",
+   "start": "2026-12-07",
+   "end": null,
+   "venue": "FORO 13",
+   "city": "Monterrey",
+   "category": "Teatro",
+   "price": null,
+   "image": "https://cartelera.primetickets.mx/storage/event_files/6/289/cartelera.webp",
+   "sources": [
+    {
+     "id": "primetickets",
+     "url": "https://cartelera.primetickets.mx/soñantes"
+    }
+   ],
+   "url": "https://cartelera.primetickets.mx/soñantes",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "title": "SOY LUNA EL ULTIMO TOUR",
@@ -7113,6 +6919,10 @@
     {
      "id": "cartelera_escenica",
      "url": "https://carteleraescenica.com/eventos/idos-de-la-mente/2026-12-08/"
+    },
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/puestas-en-escena-2026-i-idos-de-la-mente/"
     },
     {
      "id": "arema",
@@ -7206,26 +7016,52 @@
    "firstSeen": "2026-10-17T12:35:16.355Z"
   },
   {
-   "id": "067a0c805c2e",
-   "skey": "idos mente|sala exp",
-   "title": "Idos de la mente",
-   "venue": "Sala Exp. Teatro de la Ciudad",
+   "id": "38f72e86367b",
+   "skey": "cuerpo como pregunta|marco",
+   "title": "EL CUERPO COMO PREGUNTA",
+   "start": "2026-12-09T18:30",
+   "end": null,
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Museos",
+   "price": "Evento gratuito",
+   "image": "https://www.marco.org.mx/imagenes/2026/11/MAMA_INSTA-IMG-copia-3-e1795625970637.png",
+   "sources": [
+    {
+     "id": "marco",
+     "url": "https://www.marco.org.mx/eventos/el-cuerpo-como-pregunta/"
+    }
+   ],
+   "free": true,
+   "freeVia": "MARCO",
+   "url": "https://www.marco.org.mx/eventos/el-cuerpo-como-pregunta/",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
+  },
+  {
+   "id": "da5efd3a6d27",
+   "skey": "puestas escena idos mente|teatro ciudad",
+   "title": "Puestas en Escena 2026 I Idos de la mente",
+   "start": "2026-12-09T20:00",
+   "end": "2026-12-09T20:30",
+   "venue": "Teatro de la Ciudad I Sala Experimental",
    "city": "Monterrey",
    "category": "Teatro",
    "price": null,
-   "tickets": "https://arema.mx/e/21604-idos-de-la-mente",
-   "image": null,
-   "description": "De Luis Humberto Crosthwaite* Dirección Alberto Ontiveros* Compañía Gorguz Teatro Horarios: • 05 de noviembre | 20:00 hrs • 06 de noviembre | 20:00 hrs • 07 de noviembre | 20:00 hrs • 08 de diciembre | 20:00 hrs • 09 de diciembre | 20:00 hrs • 10 de diciembre | 20:00 hrs Lugar: Sala Experimental del Teatro de la Ciudad Dirección del evento: Dr. José Ma. Coss 732, Centro, 64000 Monterrey, N.L.",
-   "start": "2026-12-09T20:00",
-   "end": "2026-12-09T20:30",
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/Slider_Idos-1-700x360.jpg",
+   "description": "¿Cómo nacen las grandes estrellas, los mitos?, ¿cómo se construyen desde los cimientos los qué ahora idolatramos? Luis Humberto Crosthwaite no sabía cómo y por qué se habían separado “Los Relámpagos del norte” pero si sabía (o creía que sabía) cómo se separaron “The Beatles”, siguiendo esta premisa escribe una de las novelas más hermosas en la literatura del norte, la amistad, las cantinas, la frontera, la noche, el trabajo mal pagado, el sin sentido de la vida, el llegar a casa sin un peso, el golpe de suerte, el ascenso y separación de uno de los grupos mas emblemáticos de la música…",
    "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/puestas-en-escena-2026-i-idos-de-la-mente/"
+    },
     {
      "id": "arema",
      "url": "https://arema.mx/e/21604-idos-de-la-mente"
     }
    ],
-   "url": "https://arema.mx/e/21604-idos-de-la-mente",
-   "firstSeen": "2026-10-31T12:47:31.707Z"
+   "tickets": "https://arema.mx/e/21604-idos-de-la-mente",
+   "url": "https://conarte.org.mx/agenda/puestas-en-escena-2026-i-idos-de-la-mente/",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "id": "18f00ec408c8",
@@ -7237,7 +7073,7 @@
    "price": null,
    "tickets": "https://arema.mx/e/21221-se-regalan-dudas-presenta-se-puso-rara-la-vida-en-monterrey",
    "image": null,
-   "description": "Fecha: 09 de Diciembre 2026 Hora: 20:00 horas Lugar: Auditorio San Pedro Dirección del evento: Humberto Lobo esq, Av. Ignacio Morones Prieto s/n, Del Valle, 66220 San Pedro Garza García, N.L. Zonas y Precios: • Vip: $1,400 • Oro: $1,200 • Plata: $950 • Bronce: $800 (Precios más cargos por servicio) Restricción de edad: Para mayores de 16 años. Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L. - Cocoan Chocolatería: Río Manzanares 425, Del Valle, 66220 Monterrey, N.L.",
+   "description": "¡Black Weekend! Hasta 25% de Descuento en zonas participantes Del 27 al 30 de noviembre Fecha: 09 de Diciembre 2026 Hora: 20:00 horas Lugar: Auditorio San Pedro Dirección del evento: Humberto Lobo esq, Av. Ignacio Morones Prieto s/n, Del Valle, 66220 San Pedro Garza García, N.L. Zonas y Precios: • Vip: $1,400 • Oro: $1,200 • Plata: $950 • Bronce: $800 (Precios más cargos por servicio) Restricción de edad: Para mayores de 16 años. Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L.",
    "start": "2026-12-09T20:00",
    "end": "2026-12-09T20:30",
    "sources": [
@@ -7256,7 +7092,7 @@
    "start": "2026-12-09T20:30",
    "end": "2026-12-09T23:30",
    "venue": "Escenario GNP Seguros",
-   "city": "Monterrey",
+   "city": "",
    "price": null,
    "image": "https://conciertosenmonterrey.com/media/2026/11/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026.jpg",
    "genre": null,
@@ -7266,10 +7102,6 @@
     {
      "id": "conciertos_mty",
      "url": "https://conciertosenmonterrey.com/cartelera/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026"
-    },
-    {
-     "id": "allevents",
-     "url": "https://allevents.in/monterrey/earth-wind-and-fire-experience-by-al-mckay/210003229608643"
     }
    ],
    "url": "https://conciertosenmonterrey.com/cartelera/earth-wind-and-fire-experience-escenario-gnp-seguros-monterrey-2026",
@@ -7422,6 +7254,26 @@
    "firstSeen": "2026-11-21T19:07:15.922Z"
   },
   {
+   "id": "da2e842f6a46",
+   "skey": "navidad entre canciones|museos",
+   "title": "Navidad entre canciones",
+   "start": "2026-12-11T10:00",
+   "end": null,
+   "venue": "3 Museos",
+   "city": "Monterrey",
+   "category": "Otros",
+   "price": null,
+   "image": "https://www.3museos.com/wp-content/uploads/2026/11/villancicos-2026-720x540.jpg",
+   "sources": [
+    {
+     "id": "tres_museos",
+     "url": "https://www.3museos.com/?eventos=navidad-entre-canciones"
+    }
+   ],
+   "url": "https://www.3museos.com/?eventos=navidad-entre-canciones",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
+  },
+  {
    "title": "El Hombre Almohada especial navideño en Monterrey",
    "venue": "Casa Motis",
    "city": "Monterrey",
@@ -7454,6 +7306,27 @@
     }
    ],
    "firstSeen": "2026-11-02T13:02:44.220Z"
+  },
+  {
+   "id": "3541717df229",
+   "skey": "conferencia curar imagenes|escuela adolfo",
+   "title": "Conferencia I Curar las imágenes",
+   "start": "2026-12-11T17:00",
+   "end": null,
+   "venue": "Escuela Adolfo Prieto I HUB Cultural",
+   "city": "Monterrey",
+   "category": "Talleres y charlas",
+   "price": null,
+   "image": "https://conarte.org.mx/wp-content/uploads/2026/11/26601_PORTADA_CURAR-LAS-IMAGENES-700x360.jpg",
+   "description": "Imparte: Carmen Cabreros Urzaiz La curadora discutirá su experiencia asociada a exposiciones, certámenes y publicaciones de fotografías e imagen en movimiento",
+   "sources": [
+    {
+     "id": "conarte_agenda",
+     "url": "https://conarte.org.mx/agenda/conferencia-i-curar-las-imagenes/"
+    }
+   ],
+   "url": "https://conarte.org.mx/agenda/conferencia-i-curar-las-imagenes/",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "title": "El Cascanueces — Ballet de Monterrey 2026",
@@ -7653,6 +7526,26 @@
    ],
    "url": "https://www.forocorona.com/cartelera",
    "firstSeen": "2026-10-31T12:47:31.707Z"
+  },
+  {
+   "id": "dca88a39259e",
+   "skey": "pijamada navidena una villa ensueno|marco",
+   "title": "Pijamada Navideña: Una villa de ensueño",
+   "start": "2026-12-12T13:00",
+   "end": null,
+   "venue": "MARCO",
+   "city": "Monterrey",
+   "category": "Museos",
+   "price": "$$400 MXN",
+   "image": "https://www.marco.org.mx/imagenes/2026/06/31-e1780521754422.png",
+   "sources": [
+    {
+     "id": "marco",
+     "url": "https://www.marco.org.mx/eventos/pijamada-navidena-una-villa-de-ensueno/"
+    }
+   ],
+   "url": "https://www.marco.org.mx/eventos/pijamada-navidena-una-villa-de-ensueno/",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "id": "07f38e18c183",
@@ -8040,24 +7933,29 @@
    "firstSeen": "2000-01-01T00:00:00Z"
   },
   {
-   "id": "4bef0ef38e64",
-   "skey": "boletos dune parte imax 43|papalote museo",
-   "title": "Boletos Dune Parte 3 - IMAX 1.43 - Monterrey",
-   "start": "2026-12-15T13:00",
-   "end": null,
-   "venue": "Papalote Museo del Niño-Monterrey, Avenida Fundidora Interior Papalote, Obrera, Monterrey, 64010, Monterrey, MX",
+   "id": "278a9c6cef54",
+   "skey": "dune parte imax 43|papalote museo",
+   "title": "Dune Parte 3 - IMAX 1.43",
+   "venue": "Papalote Museo del Niño-Monterrey",
    "city": "Monterrey",
-   "category": "Otros",
-   "price": null,
-   "image": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czkvYmFubmVycy9mZTlhY2I2YjQzYjY0OWVjYzllZmY2ZTkyNzY3NThmNTY4MTYxYjY0MzA4NWUwOTVmODI3M2E4YjcxZTc3YzIzLXJpbWctdzgwMC1oODAwLWRjZjhmOGU4LWdtaXI_dj0xNzg5MzIyNjIx.avif",
+   "category": "Experiencias",
+   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/87007826-ac80-11f1-9361-8e3fc9312c1a.jpg",
+   "start": "2026-12-15T13:00",
+   "end": "2026-12-23T21:00",
+   "price": "Desde $175",
+   "demand": null,
    "sources": [
+    {
+     "id": "fever",
+     "url": "https://feverup.com/m/752770"
+    },
     {
      "id": "allevents",
      "url": "https://allevents.in/monterrey/boletos-dune-parte-3-imax-143-monterrey/200030693710842"
     }
    ],
-   "url": "https://allevents.in/monterrey/boletos-dune-parte-3-imax-143-monterrey/200030693710842",
-   "firstSeen": "2026-11-21T19:07:15.922Z"
+   "url": "https://feverup.com/m/752770",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "title": "Mon Laferte",
@@ -8417,6 +8315,10 @@
     {
      "id": "fever",
      "url": "https://feverup.com/m/778915"
+    },
+    {
+     "id": "allevents",
+     "url": "https://allevents.in/monterrey/candlelight-tributo-a-rawayana/2700030743181036"
     }
    ],
    "url": "https://feverup.com/m/778915",
@@ -8921,7 +8823,7 @@
    "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/675fe2d2-1a9f-11f0-8be7-b25552496a35.jpg",
    "start": "2026-12-26T19:00",
    "end": "2026-12-26T19:59",
-   "price": "$500 – $1,150",
+   "price": "$500 – $1,220",
    "avail": null,
    "demand": null,
    "sources": [
@@ -10140,6 +10042,28 @@
    "firstSeen": "2026-11-11T19:33:09.595Z"
   },
   {
+   "id": "52e1a817cb1b",
+   "skey": "nicho hinojosa alla nos vemos san nicolas|teatro ciudad",
+   "title": "Nicho Hinojosa - ¡ALLÁ NOS VEMOS! Gira 2027 en San Nicolás",
+   "venue": "Teatro de la Ciudad San Nicolás",
+   "city": "San Nicolás de los Garza",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://arema.mx/e/21861-nicho-hinojosa-alla-nos-vemos!-gira-2027-en-san-nicolas",
+   "image": null,
+   "description": "Fecha: Sábado 13 de Febrero 2027 Hora: 20:00 horas Lugar: Teatro de la Ciudad San Nicolás de los Garza Dirección del evento: Calle Rep. Mexicana 1104, Jardines de San Nicolás, 66414 San Nicolás de los Garza, N.L. Zonas de precio: PREVENTA: (hasta el 20 de Diciembre) • Diamante: $700 • Platino: $600 • Oro: $450 PRECIO REGULAR: (a partir del 21 de Diciembre) • Diamante: $900 • Platino: $800 • Oro: $600 (Precio ya incluye cargos por servicio) Puntos de venta oficiales: - Museo del Noreste (MUNE): Dr. José Ma. Coss 445, Centro, 64000 Monterrey, N.L.",
+   "start": "2027-02-13T20:00",
+   "end": "2027-02-13T20:30",
+   "sources": [
+    {
+     "id": "arema",
+     "url": "https://arema.mx/e/21861-nicho-hinojosa-alla-nos-vemos!-gira-2027-en-san-nicolas"
+    }
+   ],
+   "url": "https://arema.mx/e/21861-nicho-hinojosa-alla-nos-vemos!-gira-2027-en-san-nicolas",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
+  },
+  {
    "id": "be5d00b91744",
    "skey": "candlelight especial san valentin|museo historia",
    "title": "Candlelight: Especial de San Valentín",
@@ -10635,28 +10559,6 @@
    "firstSeen": "2026-11-05T19:54:14.868Z"
   },
   {
-   "id": "4eabdf52c024",
-   "skey": "candlelight tributo neton vega|museo historia",
-   "title": "Candlelight: Tributo a Neton Vega",
-   "venue": "Museo de Historia Mexicana",
-   "city": "Monterrey",
-   "category": "Música",
-   "image": "https://applications-media.feverup.com/image/upload/fever2/plan/photo/a4251344-6861-11f0-90b8-ee5a9ea828c9.jpg",
-   "start": "2027-02-27T21:00",
-   "end": "2027-02-27T22:00",
-   "price": "$500 – $1,150",
-   "avail": null,
-   "demand": null,
-   "sources": [
-    {
-     "id": "fever",
-     "url": "https://feverup.com/m/835797"
-    }
-   ],
-   "url": "https://feverup.com/m/835797",
-   "firstSeen": "2026-11-05T19:54:14.868Z"
-  },
-  {
    "id": "e0d0749c6b0b",
    "skey": "emmanuel|auditorio banamex",
    "title": "Emmanuel",
@@ -10709,6 +10611,30 @@
    "onsale": null,
    "url": "https://conciertosenmonterrey.com/cartelera/foreigner-monterrey-2027",
    "firstSeen": "2000-01-01T00:00:00Z"
+  },
+  {
+   "id": "711daf26b8d1",
+   "skey": "arch enemy|showcenter complex",
+   "title": "ARCH ENEMY EN MONTERREY 2027",
+   "start": "2027-02-28T21:00",
+   "end": null,
+   "venue": "Showcenter Complex",
+   "city": "San Pedro Garza García",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://www.superboletos.com/landing-evento/KYs4TwyrOM-kMNUk--dBEA",
+   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT153644.webp?v=20261124084759",
+   "description": null,
+   "onsale": null,
+   "promo": null,
+   "sources": [
+    {
+     "id": "superboletos",
+     "url": "https://www.superboletos.com/landing-evento/KYs4TwyrOM-kMNUk--dBEA"
+    }
+   ],
+   "url": "https://www.superboletos.com/landing-evento/KYs4TwyrOM-kMNUk--dBEA",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   },
   {
    "id": "8641583c6643",
@@ -10866,7 +10792,7 @@
   {
    "id": "09883d4da7e8",
    "skey": "vilma palma vampiros|escenario gnp",
-   "title": "Vilma Palma e Vampiros",
+   "title": "Vilma Palma E Vampiros",
    "start": "2027-03-11T21:00",
    "end": null,
    "venue": "Escenario GNP Seguros",
@@ -10876,12 +10802,7 @@
    "image": "https://s1.ticketm.net/dam/a/91c/af9ecaa0-4ecd-484c-972d-0c749b38a91c_RETINA_LANDSCAPE_16_9.jpg",
    "onsale": {
     "general": "2026-11-26T11:00",
-    "presales": [
-     {
-      "name": "Preventa Banamex",
-      "start": "2026-11-25T11:00"
-     }
-    ]
+    "presales": []
    },
    "sources": [
     {
@@ -11830,6 +11751,30 @@
    ],
    "url": "https://www.superboletos.com/landing-evento/nqFyT9yExgzUib4OEJqw9w",
    "firstSeen": "2026-11-06T19:18:21.683Z"
+  },
+  {
+   "id": "b201fe6b175a",
+   "skey": "disney on ice luces camara magia|arena",
+   "title": "DISNEY ON ICE 2027 LUCES, CAMARA, MAGIA!",
+   "start": "2027-07-18T20:00",
+   "end": null,
+   "venue": "Arena Monterrey",
+   "city": "Monterrey",
+   "category": "Música",
+   "price": null,
+   "tickets": "https://www.superboletos.com/landing-evento/mIKjfyxzNfOShC7Vu9d6YQ",
+   "image": "https://d1y4lmvozupq5z.cloudfront.net/SuperBoletosRepositorio/apps/27768/app/main_m_x1_EVT153743.webp?v=20261120173936",
+   "description": null,
+   "onsale": null,
+   "promo": null,
+   "sources": [
+    {
+     "id": "superboletos",
+     "url": "https://www.superboletos.com/landing-evento/mIKjfyxzNfOShC7Vu9d6YQ"
+    }
+   ],
+   "url": "https://www.superboletos.com/landing-evento/mIKjfyxzNfOShC7Vu9d6YQ",
+   "firstSeen": "2026-11-25T21:37:37.383Z"
   }
  ]
 }
